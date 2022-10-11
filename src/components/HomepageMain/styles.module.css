@@ -1,0 +1,42 @@
+.flexCenter {
+  justify-content: center;
+}
+.h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.margin48 {
+  margin-bottom: 3rem;
+}
+.features {
+  width: 100%;
+  margin-bottom: 84px;
+}
+
+.featureSvg {
+  width: 64px;
+  height: 64px;
+}
+
+ul {
+  margin-bottom:  0;
+}
+.linkWrap {
+  margin: 0 auto;
+}
+.li::marker {
+  color: #0033FF;
+}
+
+.screenContent {
+  padding: 44px 0 96px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .h1 {
+    font-size: 2rem;
+  }
+  .screenContent {
+    padding: 22px 0 48px !important;
+  }
+}
