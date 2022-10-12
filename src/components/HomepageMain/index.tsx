@@ -66,26 +66,26 @@ function Feature({title, icon, description, later}: FeatureItem) {
 
 
 export default function HomepageFeatures(): JSX.Element {
-  
+
   return (
     <div className='container'>
       <div className={clsx('row', styles.flexCenter)}>
         <div className='col col--10'>
-          <section> 
+          <section>
             <div className={styles.screenContent}>
-            <SmoothCorners  
+            <SmoothCorners
               corners="32"
               borderRadius="32px"
               style={{padding: '16px', background: 'black' }}>
-               <SmoothCorners  
-                  corners="64"
-                  borderRadius="12px">
+               <SmoothCorners
+                  corners="50"
+                  borderRadius="16px">
                   <div className="smoothBox">
-                    <img src={require('@site/static/img/pc-screen.png').default} alt="" width="100%" height="auto" className="d-block" />
+                    <img src={require('@site/static/img/pc-screen.png').default} alt="" width="100%" height="auto" className="d-block smmothImg" />
                   </div>
                 </SmoothCorners>
             </SmoothCorners>
-              
+
             </div>
           </section>
 
@@ -106,8 +106,8 @@ export default function HomepageFeatures(): JSX.Element {
             <div className={clsx('col col--5', styles.linkWrap)}>
               <ul>
                 <li className={styles.li}>
-                  <a 
-                    href="https://github.com/answerdev/answer" 
+                  <a
+                    href="https://github.com/answerdev/answer"
                     target="_blank">
                     Contribute to our open-source codebase on GitHub
                   </a>

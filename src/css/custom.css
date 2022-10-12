@@ -35,7 +35,7 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}            
+}
 .navbar__logo {
   display: flex;
   align-items: center;
@@ -95,6 +95,10 @@ img {
   width: 100%;
   box-sizing: border-box;
   filter: drop-shadow(0px 16px 48px rgba(0, 0, 0, 0.175));
+}
+
+.smmothImg {
+  border-radius: 16px;
 }
 
 .navbar-sidebar {
