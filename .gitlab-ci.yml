@@ -16,7 +16,7 @@ stages:
 
 # 静态资源构建
 install:
-  image: node:16
+  image: node:17
   stage: install
   allow_failure: false
   only:
