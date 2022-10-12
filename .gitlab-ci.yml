@@ -50,9 +50,6 @@ publish:docker:
     DockerImage: $PROJECT_NAME
     DockerTag: $CI_COMMIT_SHORT_SHA
     DockerfilePath: ./Dockerfile
-    # 推送策略，默认是 local（仅build不推送）
-    # qingcloud: 推送至青云
-    # 可以是多个，用空格分割
     PushPolicy: qingcloud
 
 deploy:dev:
