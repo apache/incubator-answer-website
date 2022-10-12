@@ -58,7 +58,7 @@ deploy:dev:
   only:
     - dev
   needs:
-    - publish:cdn:dev
+    - publish:docker
   variables:
     KubernetesCluster: dev
     KubernetesNamespace: 'sf-test'
