@@ -16,20 +16,20 @@ stages:
 
 # 静态资源构建
 install:
-  image: node:17
+  image: node:16.17.0
   stage: install
   allow_failure: false
   only:
     - dev
     - main
-  cache:
-    - key:
-        files:
-          - yarn.lock
-      paths:
-        - node_modules/
-        - .yarn-cache/
-      policy: pull-push
+  # cache:
+  #   - key:
+  #       files:
+  #         - yarn.lock
+  #     paths:
+  #       - node_modules/
+  #       - .yarn-cache/
+  #     policy: pull-push
   script:
     - yarn install
     - yarn build
