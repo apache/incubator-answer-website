@@ -19,13 +19,16 @@ install:
   image: node:16
   stage: install
   allow_failure: false
-
+  only:
+    - dev
+    - main
   cache:
     - key:
         files:
           - yarn.lock
       paths:
         - node_modules/
+        - .yarn-cache/
       policy: pull-push
   script:
     - yarn install

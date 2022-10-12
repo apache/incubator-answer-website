@@ -5,9 +5,6 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build:dev": "env-cmd -f .env.development docusaurus build",
-    "build:test": "env-cmd -f .env.test docusaurus build",
-    "build:prod": "env-cmd -f .env.production docusaurus build",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
