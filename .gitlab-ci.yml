@@ -22,14 +22,14 @@ install:
   only:
     - dev
     - main
-  # cache:
-  #   - key:
-  #       files:
-  #         - yarn.lock
-  #     paths:
-  #       - node_modules/
-  #       - .yarn-cache/
-  #     policy: pull-push
+  cache:
+    - key:
+        files:
+          - yarn.lock
+      paths:
+        - node_modules/
+        - .yarn-cache/
+      policy: pull-push
   script:
     - yarn install
     - yarn build
