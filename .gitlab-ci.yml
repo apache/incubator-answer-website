@@ -64,7 +64,7 @@ deploy:dev:
     - publish:docker
   variables:
     KubernetesCluster: dev
-    KubernetesNamespace: 'sf-test'
+    KubernetesNamespace: 'sf-web'
     DockerTag: $CI_COMMIT_SHORT_SHA
     ChartName: $CHART_NAME
     InstallPolicy: replace
