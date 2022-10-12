@@ -104,3 +104,6 @@ img {
 .navbar-sidebar__brand {
   background-color: var(--ifm-color-primary);
 }
+.navbar__toggle {
+  display: none;
+}
