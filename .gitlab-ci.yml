@@ -1,0 +1,67 @@
+include:
+  - project: 'segmentfault/devops/templates'
+    file:
+      - .docker-build-push.yml
+      - .deploy-helm.yml
+
+variables:
+  FF_USE_FASTZIP: 'true'
+  PROJECT_NAME: 'answer_official'
+  CHART_NAME: 'answer-official'
+
+stages:
+  - install
+  - publish
+  - deploy
+
+# 静态资源构建
+install:
+  image: node:16
+  stage: install
+  allow_failure: false
+
+  cache:
+    - key:
+        files:
+          - yarn.lock
+      paths:
+        - node_modules/
+      policy: pull-push
+  script:
+    - yarn install
+    - yarn build
+  artifacts:
+    paths:
+      - build/
+
+publish:docker:
+  extends: .docker-build-push
+  stage: publish
+  only:
+    - main
+    - dev
+  needs:
+    - install
+  variables:
+    DockerNamespace: sf_app
+    DockerImage: $PROJECT_NAME
+    DockerTag: $CI_COMMIT_SHORT_SHA
+    DockerfilePath: ./Dockerfile
+    # 推送策略，默认是 local（仅build不推送）
+    # qingcloud: 推送至青云
+    # 可以是多个，用空格分割
+    PushPolicy: qingcloud
+
+deploy:dev:
+  extends: .deploy-helm
+  stage: deploy
+  only:
+    - dev
+  needs:
+    - publish:cdn:dev
+  variables:
+    KubernetesCluster: dev
+    KubernetesNamespace: 'sf-test'
+    DockerTag: $CI_COMMIT_SHORT_SHA
+    ChartName: $CHART_NAME
+    InstallPolicy: replace
