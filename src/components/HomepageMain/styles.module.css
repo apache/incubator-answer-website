@@ -17,6 +17,16 @@
   width: 64px;
   height: 64px;
 }
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #F8F9FA;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: #212529;
+}
 
 ul {
   margin-bottom:  0;
@@ -28,6 +38,7 @@ ul {
   justify-content: center;
   margin: 0 auto;
 }
+
 .li::marker {
   color: #0033FF;
 }

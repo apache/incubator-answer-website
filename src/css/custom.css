@@ -137,9 +137,7 @@ img {
 .navbar-sidebar__brand {
   background-color: var(--ifm-color-primary);
 }
-.navbar__toggle {
-  display: none;
-}
+
 .navbar__items--right > :last-child {
   display: none;
 }
@@ -152,5 +150,9 @@ img {
 @media (max-width: 996px) {
   .navbar__item {
     display: block;
+  }
+
+  .navbar__toggle {
+    display: none;
   }
 }

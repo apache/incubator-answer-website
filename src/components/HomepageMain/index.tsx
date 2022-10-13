@@ -59,7 +59,7 @@ function Feature({title, icon, description, later}: FeatureItem) {
       </div>
       <h2 style={{ fontWeight: 500 }}>{title}</h2>
       <p>{description}</p>
-      <div style={{ fontSize: '12px', fontWeight: 700, }}>{later}</div>
+      {later && <div className={styles.badge}>{later}</div>}
     </div>
   );
 }
@@ -102,17 +102,17 @@ export default function HomepageFeatures(): JSX.Element {
 
           <section style={{ marginBottom: '96px' }}>
             <h3 className={clsx('text--center margin-bottom--sm', styles.h1)}>We welcome all contributions</h3>
-            <p className='text--center text--secondary mb-4'>Here are some quick ways you can help the community.</p>
+            <p className='text--center text--secondary mb-4 fs-20'>Here are some quick ways you can help the community.</p>
             <div className={styles.linkWrap}>
               <ul>
-                <li className={styles.li}>
+                <li className={clsx('margin-bottom--sm',styles.li)}>
                   <a
                     href="https://github.com/answerdev/answer"
                     target="_blank">
                     Contribute to our open-source codebase on GitHub
                   </a>
                 </li>
-                <li className={styles.li}>
+                <li className={clsx('margin-bottom--sm',styles.li)}>
                   <a href="/">Help us improve the docs</a>
                 </li>
                 <li className={styles.li}>
