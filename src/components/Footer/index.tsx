@@ -33,7 +33,7 @@ const Footer:FC = () => {
             </div>
           </div>
           <div className={clsx('col col--4', styles.right)}>
-            <a href="https://github.com/answerdev/answer" target="_blank" className='text--secondary margin-right--md'>Twitter</a>
+            <a href="/" className='text--secondary margin-right--md'>Twitter</a>
             <a href="https://github.com/answerdev/answer" target="_blank" className='text--secondary'>GitHub</a>
           </div>
         </div>

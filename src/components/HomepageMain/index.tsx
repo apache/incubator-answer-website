@@ -113,10 +113,10 @@ export default function HomepageFeatures(): JSX.Element {
                   </a>
                 </li>
                 <li className={styles.li}>
-                  <a href="" target="_blank">Help us improve the docs</a>
+                  <a href="/">Help us improve the docs</a>
                 </li>
                 <li className={styles.li}>
-                  <a href="" target="_blank">Help us translate language resources</a>
+                  <a href="/">Help us translate language resources</a>
                 </li>
               </ul>
             </div>
