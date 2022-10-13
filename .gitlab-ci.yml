@@ -65,3 +65,18 @@ deploy:dev:
     DockerTag: $CI_COMMIT_SHORT_SHA
     ChartName: $CHART_NAME
     InstallPolicy: replace
+
+deploy:prod:
+  extends: .deploy-helm
+  stage: deploy
+  only:
+    - main
+  needs:
+    - publish:docker
+  variables:
+    KubernetesCluster: prod
+    KubernetesNamespace: 'sf-web'
+    DockerTag: $CI_COMMIT_SHORT_SHA
+    InstallArgs: --set replicaCount=2
+    ChartName: $CHART_NAME
+    InstallPolicy: upgrade

@@ -16,13 +16,19 @@ const Footer:FC = () => {
             {/* <img src={require('@site/static/img/logo-dark.svg').default} alt="" height="28" /> */}
             <div className='fs-14'>
               <span>
-                Designed and built with all the love in the world by the 
+                Designed and built with all the love in the world by the
               </span>
-              <a href="" target="_blank"> Answer team</a>
-              <span> with the help of</span>
-              <a href="" target="_blank"> our contributors</a>
-              <span> .Code licensed under the</span>
-              <a href="" target="_blank"> Apache-2.0 License</a>
+              {' '}
+              <a href="https://github.com/orgs/answerdev/people" target="_blank">Answer team</a>
+              <span> with the help of </span>
+              <a href="https://github.com/answerdev/answer/graphs/contributors" target="_blank">our contributors</a>
+              <span> .Code licensed under the </span>
+              <a
+                href="https://www.apache.org/licenses/LICENSE-2.0"
+                target="_blank"
+              >
+                Apache-2.0 License
+              </a>
               .
             </div>
           </div>

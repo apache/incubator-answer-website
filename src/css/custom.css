@@ -36,6 +36,15 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+iframe {
+  font-size: 0;
+}
+
 .navbar__logo {
   display: flex;
   align-items: center;
@@ -45,6 +54,22 @@
 
 .navbar__logo img {
   height: auto;
+}
+
+.headerBg {
+  background-image: url('@site/static/img/head-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.btnMain {
+  width: 179px;
+  height: 52px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height:20px;
 }
 
 .header-github-link::before {
@@ -69,6 +94,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .fs-20 {
   font-size: 1.25rem !important;
+}
+
+.fs-24 {
+  font-size: 1.5rem !important;
 }
 
 .text-secondary {
@@ -110,4 +139,18 @@ img {
 }
 .navbar__toggle {
   display: none;
+}
+.navbar__items--right > :last-child {
+  display: none;
+}
+
+.navbar__item.header-github-link {
+  padding-right: 0;
+}
+
+
+@media (max-width: 996px) {
+  .navbar__item {
+    display: block;
+  }
 }

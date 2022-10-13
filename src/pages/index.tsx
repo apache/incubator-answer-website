@@ -4,13 +4,13 @@ import HomePageHeader from '@site/src/components/HomePageHeader';
 import HomepageMain from '@site/src/components/HomepageMain';
 import Footer from '@site/src/components/Footer';
 
+
 export default function Home(): JSX.Element {
   return (
     <Layout
-      title="answer"
-      description="Description will go into a meta tag in <head />">
+      description="A minimalist open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, user Q&A, fans communication, and more.">
 
-      <main>
+      <main className='headerBg'>
         <HomePageHeader />
         <HomepageMain />
       </main>

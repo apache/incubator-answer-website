@@ -103,7 +103,7 @@ export default function HomepageFeatures(): JSX.Element {
           <section style={{ marginBottom: '96px' }}>
             <h3 className={clsx('text--center margin-bottom--sm', styles.h1)}>We welcome all contributions</h3>
             <p className='text--center text--secondary mb-4'>Here are some quick ways you can help the community.</p>
-            <div className={clsx('col col--5', styles.linkWrap)}>
+            <div className={styles.linkWrap}>
               <ul>
                 <li className={styles.li}>
                   <a
