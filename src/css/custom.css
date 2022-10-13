@@ -41,21 +41,6 @@ html, body {
   margin: 0;
 }
 
-iframe {
-  font-size: 0;
-}
-
-.navbar__logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 0;
-}
-
-.navbar__logo img {
-  height: auto;
-}
-
 .headerBg {
   background-image: url('@site/static/img/head-bg.png');
   background-repeat: no-repeat;
@@ -130,12 +115,15 @@ img {
   border-radius: 16px;
 }
 
-.navbar-sidebar {
-  background-color: #f5f6f7;
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0;
 }
 
-.navbar-sidebar__brand {
-  background-color: var(--ifm-color-primary);
+.navbar__logo img {
+  height: auto;
 }
 
 .navbar__items--right > :last-child {
