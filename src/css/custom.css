@@ -42,7 +42,7 @@ html, body {
 }
 
 .headerBg {
-  background-image: url('@site/static/img/head-bg.png');
+  background-image: url('@site/static/img/background.png');
   background-repeat: no-repeat;
   background-size: 100%;
 }
