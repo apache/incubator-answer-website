@@ -1,6 +1,5 @@
 import React from 'react';
 import clsx from 'clsx';
-import { SmoothCorners } from 'react-smooth-corners'
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -73,18 +72,12 @@ export default function HomepageFeatures(): JSX.Element {
         <div className='col col--10'>
           <section>
             <div className={styles.screenContent}>
-            <SmoothCorners
-              corners="32"
-              borderRadius="32px"
-              style={{padding: '16px', background: 'black' }}>
-               <SmoothCorners
-                  corners="50"
-                  borderRadius="16px">
-                  <div className="smoothBox">
-                    <img src={require('@site/static/img/pc-screen.png').default} alt="" width="100%" height="auto" className="d-block smmothImg" />
-                  </div>
-                </SmoothCorners>
-            </SmoothCorners>
+              <div className={styles.pcScreen}>
+                <img src={require('@site/static/img/pc-screen.png').default} alt="" width="100%" height="auto" className={clsx('d-block', styles.smmothImg)} />
+              </div>
+              <div className={styles.screenMobile}>
+                <img src={require('@site/static/img/mobile-screen.png').default} alt="" width="100%" height="auto" className={clsx('d-block', styles.smmothImg)} />
+              </div>
 
             </div>
           </section>

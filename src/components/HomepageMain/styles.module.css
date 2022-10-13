@@ -43,8 +43,41 @@ ul {
   color: #0033FF;
 }
 
+
 .screenContent {
-  padding: 44px 0 96px !important;
+  position: relative;
+  padding: 44px 0 158px !important;
+}
+
+.pcScreen {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 16px;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.175);
+  background-color: #fff;
+}
+
+.screenMobile {
+  position: absolute;
+  right: 0;
+  bottom: 77px;
+  max-width: 28%;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 16px;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.175);
+  background-color: #fff;
+}
+
+.smmothImg {
+  border-radius: 8px;
+}
+
+
+
+.boxShadow {
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.175);
 }
 
 @media screen and (max-width: 768px) {
