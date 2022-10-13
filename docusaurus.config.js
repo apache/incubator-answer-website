@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Answer - Build Q&A community with Answer',
   tagline: 'Build Q&A community with Answer',
-  url: 'http://10.0.10.97:3007',
+  url: 'https://answerdev.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

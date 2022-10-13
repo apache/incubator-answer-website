@@ -84,6 +84,10 @@ ul {
   .h1 {
     font-size: 2rem;
   }
+
+  .screenMobile {
+    bottom: 50px;
+  }
   .screenContent {
     padding: 22px 0 100px !important;
   }
