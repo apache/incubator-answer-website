@@ -1,6 +1,5 @@
 import React from 'react';
 import clsx from 'clsx';
-import { SmoothCorners } from 'react-smooth-corners'
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -59,33 +58,27 @@ function Feature({title, icon, description, later}: FeatureItem) {
       </div>
       <h2 style={{ fontWeight: 500 }}>{title}</h2>
       <p>{description}</p>
-      <div style={{ fontSize: '12px', fontWeight: 700, }}>{later}</div>
+      {later && <div className={styles.badge}>{later}</div>}
     </div>
   );
 }
 
 
 export default function HomepageFeatures(): JSX.Element {
-  
+
   return (
     <div className='container'>
       <div className={clsx('row', styles.flexCenter)}>
         <div className='col col--10'>
-          <section> 
+          <section>
             <div className={styles.screenContent}>
-            <SmoothCorners  
-              corners="32"
-              borderRadius="32px"
-              style={{padding: '16px', background: 'black' }}>
-               <SmoothCorners  
-                  corners="64"
-                  borderRadius="12px">
-                  <div className="smoothBox">
-                    <img src={require('@site/static/img/pc-screen.png').default} alt="" width="100%" height="auto" className="d-block" />
-                  </div>
-                </SmoothCorners>
-            </SmoothCorners>
-              
+              <div className={styles.pcScreen}>
+                <img src={require('@site/static/img/pc-screen.png').default} alt="" width="100%" height="auto" className={clsx('d-block', styles.smmothImg)} />
+              </div>
+              <div className={styles.screenMobile}>
+                <img src={require('@site/static/img/mobile-screen.png').default} alt="" width="100%" height="auto" className={clsx('d-block', styles.smmothImg)} />
+              </div>
+
             </div>
           </section>
 
@@ -102,21 +95,21 @@ export default function HomepageFeatures(): JSX.Element {
 
           <section style={{ marginBottom: '96px' }}>
             <h3 className={clsx('text--center margin-bottom--sm', styles.h1)}>We welcome all contributions</h3>
-            <p className='text--center text--secondary mb-4'>Here are some quick ways you can help the community.</p>
-            <div className={clsx('col col--5', styles.linkWrap)}>
+            <p className='text--center text--secondary mb-4 fs-20'>Here are some quick ways you can help the community.</p>
+            <div className={styles.linkWrap}>
               <ul>
-                <li className={styles.li}>
-                  <a 
-                    href="https://github.com/answerdev/answer" 
+                <li className={clsx('margin-bottom--sm',styles.li)}>
+                  <a
+                    href="https://github.com/answerdev/answer"
                     target="_blank">
                     Contribute to our open-source codebase on GitHub
                   </a>
                 </li>
-                <li className={styles.li}>
-                  <a href="" target="_blank">Help us improve the docs</a>
+                <li className={clsx('margin-bottom--sm',styles.li)}>
+                  <a href="/">Help us improve the docs</a>
                 </li>
                 <li className={styles.li}>
-                  <a href="" target="_blank">Help us translate language resources</a>
+                  <a href="/">Help us translate language resources</a>
                 </li>
               </ul>
             </div>

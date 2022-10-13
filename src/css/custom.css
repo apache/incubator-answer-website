@@ -35,16 +35,26 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}            
-.navbar__logo {
+}
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.headerBg {
+  background-image: url('@site/static/img/background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.btnMain {
+  width: 179px;
+  height: 52px;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 0;
-}
-
-.navbar__logo img {
-  height: auto;
+  line-height:20px;
 }
 
 .header-github-link::before {
@@ -71,6 +81,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.25rem !important;
 }
 
+.fs-24 {
+  font-size: 1.5rem !important;
+}
+
 .text-secondary {
   color: var(--ifm-color-secondary);
 }
@@ -91,19 +105,32 @@ img {
   justify-content: center;
 }
 
-.smoothBox {
-  width: 100%;
-  box-sizing: border-box;
-  filter: drop-shadow(0px 16px 48px rgba(0, 0, 0, 0.175));
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0;
 }
 
-.navbar-sidebar {
-  background-color: #f5f6f7;
+.navbar__logo img {
+  height: auto;
 }
 
-.navbar-sidebar__brand {
-  background-color: var(--ifm-color-primary);
-}
-.navbar__toggle {
+.navbar__items--right > :last-child {
   display: none;
+}
+
+.navbar__item.header-github-link {
+  padding-right: 0;
+}
+
+
+@media (max-width: 996px) {
+  .navbar__item {
+    display: block;
+  }
+
+  .navbar__toggle {
+    display: none;
+  }
 }

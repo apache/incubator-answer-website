@@ -5,30 +5,46 @@ import styles from './index.module.css'
 
 const HomeHead:FC = () => {
   return (
-    <header className={styles.headerBg}>
+    <header>
       <div className={clsx('container', styles.content)}>
-        <img 
-          src={require('@site/static/img/head-icon.png').default} 
-          alt="head-icon" 
-          width="168" 
-          height="168" 
-          className='margin-bottom--md'
-        />
+        <div className="row justify-center">
+          <div className={clsx('col col--8', styles.flexCenter)}>
+            <img
+              src={require('@site/static/img/head-icon.png').default}
+              alt="head-icon"
+              width="168"
+              height="168"
+              className='margin-bottom--md'
+            />
 
-        <h1 className={clsx('margin-top--sm', styles.h1)}>Build Q&A community <br />with Answer</h1>
-        <div className='margin-bottom--md padding-bottom--sm'>
-          <button className="button button--lg button--primary margin-right--md fw-normal fs-20">
-          Get Started
-          </button>
+            <h1 className={clsx('margin-top--sm', styles.h1)}>Build Q&A community <br />with Answer</h1>
 
-          <button className={clsx('button button--lg button--secondary fw-normal fs-20', styles.white)}>
-            Download
-          </button>
+            <div className={clsx('text-secondary text--center mb-4', styles.intro)}>A minimalist open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, user Q&A, fans communication, and more.</div>
+
+            <div className='margin-bottom--md padding-bottom--sm'>
+              <a
+                className="button button--lg button--primary fw-normal fs-20 btnMain"
+                href="https://github.com/answerdev/answer"
+                target='_blank'
+              >
+                Get Started
+              </a>
+
+              {/* <a
+                className={clsx('button button--lg button--secondary fw-normal fs-20', styles.white)}
+                href="https://github.com/answerdev/answer/releases"
+                target='_blank'
+              >
+                Download
+              </a> */}
+            </div>
+
+            <iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+
+            <div className="text-secondary text--center margin-top--md">Answer is still under very active development. Watch on GitHub to receive updates.</div>
+          </div>
         </div>
 
-        <iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="168" height="36" title="GitHub"></iframe>
-
-        <div className="text-secondary text--center margin-top--sm">Answer is still under very active development. Watch on GitHub to receive updates.</div>
       </div>
     </header>
   )
