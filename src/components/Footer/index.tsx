@@ -35,7 +35,7 @@ const Footer:FC = () => {
                   Apache-2.0 License
                 </a>
                 .
-                <span> Icons by <a href="https://www.flaticon.com/free-icons/sports-and-competition" target="_blank">Freepik</a>.</span>
+                <span> Icons by <a href="https://www.flaticon.com" target="_blank">Freepik</a>.</span>
               </div>
             </div>
 
