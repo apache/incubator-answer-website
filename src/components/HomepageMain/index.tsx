@@ -72,11 +72,16 @@ export default function HomepageFeatures(): JSX.Element {
         <div className='col col--10'>
           <section>
             <div className={styles.screenContent}>
-              <div className={styles.pcScreen}>
-                <img src={require('@site/static/img/pc-screen.png').default} alt="" width="100%" height="auto" className={clsx('d-block', styles.smmothImg)} />
+              <div className={styles.boxShadow}>
+                <div className={styles.pcScreen}>
+                  <img src={require('@site/static/img/pc-screen.png').default} alt="" width="100%" height="auto" className={clsx('d-block', styles.smmothImg)} />
+                </div>
               </div>
+
               <div className={styles.screenMobile}>
-                <img src={require('@site/static/img/mobile-screen.png').default} alt="" width="100%" height="auto" className={clsx('d-block', styles.smmothImg)} />
+                <div className={styles.boxShadow2}>
+                  <img src={require('@site/static/img/mobile-screen.png').default} alt="" width="100%" height="auto" className={clsx('d-block', styles.smmothImg)} />
+                </div>
               </div>
 
             </div>
