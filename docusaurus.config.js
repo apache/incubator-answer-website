@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Answer - Build Q&A community with Answer',
+  title: 'Answer',
   tagline: 'Build Q&A community with Answer',
   url: 'https://answerdev.pages.dev',
   baseUrl: '/',
