@@ -3,19 +3,32 @@ slug: /
 ---
 
 # Introduction
-## Answer - Simple Q&A Community
+
+Answer helps you to build a community between your users and your team.
+It's a place where you can share your knowledge and help your users to solve their problems.
 
 [![LICENSE](https://img.shields.io/badge/License-MIT-green)](https://github.com/segmentfault/answer/blob/master/LICENSE)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg)](https://golang.org/)
 [![Language](https://img.shields.io/badge/Language-React-blue.svg)](https://reactjs.org/)
 
-## What is Answer?
-This is a minimalist open source Q&A community. Users can post questions and others can answer them.
-![abstract](/img/pc-screen.png)
+Main features:
 
-## Why Answer?
-- Help companies build knowledge and Q&A communities better and faster.
+- **Questions and Answers** - Ask questions and get answers from your users and your team.
+- **Content Organization** - Organize your content into categories and tags.
+- **Integrations** - Integrate with your existing tools and services.
+- **Gamification** - Reward your users for their contributions.
+- **Modern UI** - A modern and responsive UI.
+- **Extensible** - Extend Answer with plugins.
+- **Open Source** - Free and open source.
 
-## Features
-- Produce knowledge by asking and answering questions.
-- Maintain knowledge by voting and working together.
+## Architecture
+
+### Sperating the frontend and backend
+
+Answer is a monorepo that contains both the frontend and the backend.
+
+## UI Preview
+
+![desktop](/img/pc-screen.png)
+
+![mobile](/img/mobile-screen.png)
