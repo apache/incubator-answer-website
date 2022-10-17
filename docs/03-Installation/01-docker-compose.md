@@ -41,4 +41,8 @@ $ vim docker-compose.yaml
 $ docker-compose up
 ```
 
-browser open URL [http://127.0.0.1:9080/](http://127.0.0.1:9080/)
+## Precautions
+- After docker-compose startup, the data directory will be created in the folder to save the necessary data.
+- In docker-compose, answer use port `9080` and db use port `13306`. You can modify it if necessary.
+- We set `depends_on` in docker-compose, answer application will be started after db started. So it will teke some time.
+- We use docker-compose version is 3.9, So you may need to adjust according to your situation.
