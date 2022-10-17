@@ -3,6 +3,12 @@
 
 # Docker
 
+:::tip
+
+If you want to install with docker, you need a database environment, such as mysql.
+
+:::
+
 
 ## Docker for Answer
 Visit Docker Hub or GitHub Container registry to see all available images and tags.
