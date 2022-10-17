@@ -7,7 +7,7 @@ slug: /
 Answer helps you to build a community between your users and your team.
 It's a place where you can share your knowledge and help your users to solve their problems.
 
-[![LICENSE](https://img.shields.io/badge/License-MIT-green)](https://github.com/segmentfault/answer/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/badge/License-Apache-green)](https://github.com/answerdev/answer/blob/main/LICENSE)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg)](https://golang.org/)
 [![Language](https://img.shields.io/badge/Language-React-blue.svg)](https://reactjs.org/)
 
@@ -29,6 +29,4 @@ Answer is a monorepo that contains both the frontend and the backend.
 
 ## UI Preview
 
-![desktop](/img/pc-screen.png)
-
-![mobile](/img/mobile-screen.png)
+![screenshot](/img/screenshot.png)
