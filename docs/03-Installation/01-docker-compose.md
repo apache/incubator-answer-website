@@ -8,7 +8,7 @@
 version: "3.9"
 services:
   answer:
-    image: ghcr.io/answerdev/answer:latest
+    image: answerdev/answer:latest
     ports:
       - '9080:80'
     restart: on-failure
