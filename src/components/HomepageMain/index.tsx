@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     icon: require('@site/static/img/feature-1.png').default,
     description: (
       <>
-        Help members with questions and boost community participation. Your experts happily contribute, verify and upvote correct info. Your info stays fresh and trusted.
+        Your users an team communicate in Q&A format. Your experts are happy to contribute, verify and upvote correct info. Keeping your info up-to-date and trusted.
       </>
     ),
   },
@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     icon: require('@site/static/img/feature-2.png').default,
     description: (
       <>
-        Use tags to customize your questions and help contents into categories. They make knowledge easy to find for others. Our search capabilities find answers in seconds.
+        Use tags to organize questions and help contents into categories. They make knowledge easy to find for others. Use the search to quickly find the answer.
       </>
     ),
   },
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
     icon: require('@site/static/img/feature-3.png').default,
     description: (
       <>
-        Configure your community with plugins and your favorite services. So that you can improve your workflow, grow your community, or just make life a little easier.
+        Configure your community with plugins and your favorite services. So that you can improve your workflow, grow your community, or make your other tools better.
       </>
     ),
     later: 'Coming soon'
@@ -43,7 +43,7 @@ const FeatureList: FeatureItem[] = [
     icon: require('@site/static/img/feature-4.png').default,
     description: (
       <>
-        We’ve gamified the Q&A platform with reputation and badges. So the community members and teams have fun collaborating and getting work done.
+        We've gamified the Q&A platform with reputation and badges. So the community members and teams have fun collaborating and getting work done.
       </>
     ),
     later: 'Coming soon'

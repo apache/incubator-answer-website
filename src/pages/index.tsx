@@ -8,7 +8,7 @@ import Footer from '@site/src/components/Footer';
 export default function Home(): JSX.Element {
   return (
     <Layout
-      description="A minimalist open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, user Q&A, fans communication, and more.">
+      description="A open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, user Q&A, fans communication, and more.">
 
       <main className='headerBg'>
         <HomePageHeader />
