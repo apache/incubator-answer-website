@@ -24,7 +24,6 @@ const HomeHead:FC = () => {
             <a
               className="button button--lg button--primary fw-normal fs-20 btnMain"
               href="https://github.com/answerdev/answer"
-              target='_blank'
             >
               Get Started
             </a>
@@ -40,7 +39,7 @@ const HomeHead:FC = () => {
 
           {/* <iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe> */}
 
-          <div className="text-secondary text--center margin-top--md">Answer is still under very active development. Watch on GitHub to receive updates.</div>
+          <div className="text-secondary text--center">Answer is still under very active development. Watch on GitHub to receive updates.</div>
         </div>
       </div>
     </header>

@@ -105,17 +105,16 @@ export default function HomepageFeatures(): JSX.Element {
               <ul>
                 <li className={clsx('margin-bottom--sm',styles.li)}>
                   <a
-                    href="https://github.com/answerdev/answer"
-                    target="_blank">
+                    href="https://github.com/answerdev/answer">
                     Contribute to our open-source codebase on GitHub
                   </a>
                 </li>
                 <li className={clsx('margin-bottom--sm',styles.li)}>
-                  <a href="/">Help us improve the docs</a>
+                  <a href="https://github.com/answerdev/answer.dev">Help us improve the docs</a>
                 </li>
-                <li className={styles.li}>
+                {/* <li className={styles.li}>
                   <a href="/">Help us translate language resources</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </section>
