@@ -41,6 +41,7 @@ const Footer:FC = () => {
 
 
             <div className={styles.right}>
+            <a href="/docs" className='text--secondary margin-right--md'>Docs</a>
               <a href="/" className='text--secondary margin-right--md'>Twitter</a>
               <a href="https://github.com/answerdev/answer" target="_blank" className='text--secondary'>GitHub</a>
             </div>
