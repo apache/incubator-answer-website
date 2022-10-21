@@ -72,7 +72,7 @@ const config = {
       },
     }),
   stylesheets: [
-    'https://fonts.googleapis.com/css2?family=Lexend',
+    'https://fonts.googleapis.com/css2?family=Lexend:wght@400..700&display=swap',
   ]
 };
 
