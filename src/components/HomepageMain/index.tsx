@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     icon: require('@site/static/img/feature-1.png').default,
     description: (
       <>
-        Your users an team communicate in Q&A format. Your experts are happy to contribute, verify and upvote correct info. Keeping your info up-to-date and trusted.
+        Help members with questions and boost community participation. Your experts are happy to contribute, verify, upvote correct info. Your info keeping up-to-date and trusted.
       </>
     ),
   },

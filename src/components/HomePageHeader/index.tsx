@@ -16,9 +16,9 @@ const HomeHead:FC = () => {
             className='margin-bottom--md'
           />
 
-          <h1 className={clsx('margin-top--sm', styles.h1)}>Build Q&A community <br />with Answer</h1>
+          <h1 className={clsx('margin-top--sm', styles.h1)}>Build Q&A Community <br />with Answer</h1>
 
-          <div className={clsx('text-secondary text--center mb-4', styles.intro)}>A open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, user Q&A, fans communication, and more.</div>
+          <div className={clsx('text-secondary text--center mb-4', styles.intro)}>A minimalist open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.</div>
 
           <div className='margin-bottom--md padding-bottom--sm'>
             <a
