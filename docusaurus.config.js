@@ -59,7 +59,7 @@ const config = {
         style: 'primary',
         items: [
           {
-            href: 'https://github.com/answerdev',
+            href: 'https://github.com/answerdev/answer',
             src: 'img/github.svg',
             position: 'right',
             className: 'header-github-link',
