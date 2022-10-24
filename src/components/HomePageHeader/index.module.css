@@ -16,7 +16,7 @@
 }
 
 .intro {
-  line-height: 36px;
+  line-height: 1.5;
   font-size: 1.5rem;
 }
 
@@ -25,13 +25,12 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 575px) {
   .h1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   .intro {
-    line-height: 1.5;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
