@@ -37,10 +37,10 @@ const HomeHead:FC = () => {
             </a> */}
           </div>
 
-          {/* <iframe src="https://ghbtns.com/github-btn.html?user=answerdev&repo=answer&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="140" height="30" title="GitHub"></iframe> */}
+          <iframe src="https://ghbtns.com/github-btn.html?user=answerdev&repo=answer&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="140" height="30" title="GitHub"></iframe>
 
 
-          <div className="text-secondary text--center">Answer is still under very active development. Watch on GitHub to receive updates.</div>
+          <div className="text-secondary text--center margin-top--md">Answer is still under very active development. Watch on GitHub to receive updates.</div>
         </div>
       </div>
     </header>
