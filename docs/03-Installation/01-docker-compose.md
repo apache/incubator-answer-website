@@ -8,7 +8,7 @@
 version: "3.9"
 services:
   answer:
-    image: ghcr.io/answerdev/answer:latest
+    image: answerdev/answer:latest
     ports:
       - '9080:80'
     restart: on-failure
@@ -31,6 +31,7 @@ services:
       test: [ "CMD", "mysqladmin" ,"ping", "-uroot", "-proot"]
       timeout: 20s
       retries: 10
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci', '--skip-character-set-client-handshake']
     volumes:
       - ./answer/mysql:/var/lib/mysql
 ```
