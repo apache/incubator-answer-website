@@ -13,7 +13,7 @@ We highly recommend that you use docker-compose to quickly get started with this
 
 ```bash
 $ mkdir answer && cd answer
-$ wget https://github.com/answerdev/answer/blob/main/docker-compose.yaml
+$ wget https://raw.githubusercontent.com/answerdev/answer/main/docker-compose.yaml
 $ docker-compose up
 ```
 
