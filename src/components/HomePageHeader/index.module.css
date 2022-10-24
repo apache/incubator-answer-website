@@ -27,6 +27,11 @@
 
 @media screen and (max-width: 768px) {
   .h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    line-height: 1.5;
+    font-size: 20px;
   }
 }

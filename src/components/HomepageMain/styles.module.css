@@ -93,4 +93,11 @@ ul {
   .screenContent {
     padding: 22px 0 100px !important;
   }
+  .pcScreen, .screenMobile , .boxShadow, .boxShadow2 {
+    border-radius: 6px;
+  }
+
+  .smmothImg {
+    border-radius: 6px;
+  }
 }
