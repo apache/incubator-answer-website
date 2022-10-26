@@ -31,9 +31,16 @@ or you can use enter script directory and use `./gen-api.sh`
 
 ## 🏃🏻‍♀️ Run
 ```shell
-$ cd go cmd/answer/
+# enter into dir
+$ cd cmd/answer/
+# compile
 $ go build .
-$ ./answer run -c run -c ../../configs/config.yaml
+# init environment
+$ ./answer init -C ./answer-data/
+# modify config file 
+$ vim ./answer-data/conf/config.yaml
+# run 
+$ ./answer run -c ./answer-data/conf/config.yaml
 ```
 
 ## Build with
@@ -42,3 +49,5 @@ $ ./answer run -c run -c ../../configs/config.yaml
 - [gin](https://github.com/gin-gonic/gin/) - Router.
 - [validator](https://github.com/go-playground/validator/) - Validator.
 - [xorm](https://xorm.io/) - ORM.
+- [cobra](https://github.com/spf13/cobra) - CLI applications.
+- [swag](https://github.com/swaggo/swag) -  Swagger Documentation generate.
