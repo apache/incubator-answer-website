@@ -4,7 +4,7 @@
 # Database description
 :::note
 
-Different databas have different data type. The following table uses mysql as an example.
+Different databases have different data types. The following table presumes use of mysql/mariadb as an example.
 
 :::
 
