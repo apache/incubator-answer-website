@@ -9,7 +9,7 @@
 ## 🔨 Development
 ### wire
 
-we use `wire` to generate dependencies.
+We use `wire` to generate dependencies.
 
 ```shell
 $ go get github.com/google/wire/cmd/wire@latest
@@ -17,7 +17,7 @@ $ go generate ./...
 $ go mod tidy
 ```
 
-or you can use `make generate`.
+Or you can use `make generate`.
 
 ### swag
 
@@ -27,7 +27,7 @@ We use `swag` to generate swagger doc.
 $ swag init --generalInfo ./cmd/answer/main.go
 ```
 
-or you can use enter script directory and use `./gen-api.sh`
+Or you can use enter script directory and use `./gen-api.sh`
 
 ## 🏃🏻‍♀️ Run
 ```shell
@@ -43,7 +43,9 @@ $ vim ./answer-data/conf/config.yaml
 $ ./answer run -c ./answer-data/conf/config.yaml
 ```
 
-## Build with
+## Built with
+
+The Answer application's backend is built with the following components/libraries:
 
 - [pacman](https://github.com/segmentfault/pacman) - Yet Another Toolkit to Build Golang Application Quickly.
 - [gin](https://github.com/gin-gonic/gin/) - Router.
