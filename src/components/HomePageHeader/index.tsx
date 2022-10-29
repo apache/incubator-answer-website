@@ -27,6 +27,13 @@ const HomeHead:FC = () => {
             >
               Get Started
             </a>
+            <br/>
+            <a
+              className="button button--lg button--primary fw-normal fs-20 btnMain"
+              href="https://answer.dev/docs"
+            >
+              Documenation
+            </a>
 
             {/* <a
               className={clsx('button button--lg button--secondary fw-normal fs-20', styles.white)}
