@@ -5,7 +5,7 @@
 ## 2022
 | Feature             | Develop | Test | Release | Note               |
 | ------------------- | ------- | ---- | ------- | ------------------ |
-| Support PQ database | Q4      | Q4   | Q4      | support PostgreSQL |
+| Support Pg database | Q4      | Q4   | Q4      | support PostgreSQL |
 
 ## 2023
 | Feature | Develop | Test | Release | Note                       |
