@@ -2,10 +2,10 @@
 ---
 
 # Contributing
-> Thanks for the interest in contributing to Answer!
+> Thanks for your interest in contributing to Answer!
 
 ## How to Contribute
-> You can contribute directly to github by submitting your PR.
+> You can contribute directly to the github repo by submitting your PR.
 
 ## Creating an Issue
 - Feel free to ask your questions if you have any.
@@ -32,7 +32,7 @@
 The scope can be anything specifying place of the commit change.
 
 ### subject
-The subject contains succinct description of the change:
+The subject contains a succinct description of the change:
 
 - use the imperative, present tense: "change" not "changed" nor "changes"
 - do not capitalize first letter
