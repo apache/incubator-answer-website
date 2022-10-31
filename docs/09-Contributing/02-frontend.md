@@ -7,7 +7,7 @@
 - [Node.js](https://nodejs.org/) `>=16.17`
 - [pnpm](https://pnpm.io/) `>=7`
 
-pnpm is required by building the Answer project. To installing the pnpm tools with below commands:
+[pnpm](https://pnpm.io/) is required for building the Answer project. Install the pnpm tools with below commands:
 
 ```bash
 corepack enable
@@ -22,7 +22,7 @@ corepack prepare pnpm@latest --activate
 
 ## 🔨 Development
 
-clone the repo locally and run following command in your terminal:
+Clone the repo locally and run following commands in your terminal:
 
 ```shell
 $ git clone git@github.com:answerdev/answer.git answer
@@ -31,12 +31,11 @@ $ pnpm install
 $ pnpm run start
 ```
 
-now, your browser should already open automatically, and autoload `http://localhost:3000`.
-you can also manually visit it.
+Your browser should open automatically, and autoload `http://localhost:3000`. Or visit that URL.
 
 ## 👷 Workflow
 
-when cloning repo, and run `pnpm install` to init dependencies. you can use project commands below:
+When cloning repo, and run `pnpm install` to init dependencies. You can use the commands below:
 
 - `pnpm run start` run Answer web locally.
 - `pnpm run build:dev` build code for environment `dev`
@@ -51,7 +50,9 @@ when cloning repo, and run `pnpm install` to init dependencies. you can use proj
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | last 2 versions                                                                                                                                                                                          | last 2 versions                                                                                                                                                                                                  | last 2 versions                                                                                                                                                                                              | last 2 versions                                                                                                                                                                                              |
 
-## Build with
+## Built with
+
+The Answer application is built using the following components/libraries:
 
 - [React.js](https://reactjs.org/) - Our front end is a React.js app.
 - [Bootstrap](https://getbootstrap.com/) - UI library.
