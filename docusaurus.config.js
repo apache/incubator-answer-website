@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Answer',
-  tagline: 'Build Q&A community with Answer',
+  tagline: 'Build Q&A Community with Answer',
   url: 'https://answerdev.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -36,6 +36,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        docs: {
+          sidebarCollapsed: false,
+        },
       }),
     ],
   ],
@@ -56,7 +59,7 @@ const config = {
         style: 'primary',
         items: [
           {
-            href: 'https://github.com/answerdev',
+            href: 'https://github.com/answerdev/answer',
             src: 'img/github.svg',
             position: 'right',
             className: 'header-github-link',
@@ -69,7 +72,7 @@ const config = {
       },
     }),
   stylesheets: [
-    'https://fonts.googleapis.com/css2?family=Lexend',
+    'https://fonts.googleapis.com/css2?family=Lexend:wght@400..700&display=swap',
   ]
 };
 

@@ -16,15 +16,14 @@ const HomeHead:FC = () => {
             className='margin-bottom--md'
           />
 
-          <h1 className={clsx('margin-top--sm', styles.h1)}>Build Q&A community <br />with Answer</h1>
+          <h1 className={clsx('margin-top--sm sm-h1', styles.h1)}>Build Q&A Community <br />with Answer</h1>
 
-          <div className={clsx('text-secondary text--center mb-4', styles.intro)}>A open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, user Q&A, fans communication, and more.</div>
+          <div className={clsx('text-secondary text--center mb-4', styles.intro)}>An open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.</div>
 
           <div className='margin-bottom--md padding-bottom--sm'>
             <a
               className="button button--lg button--primary fw-normal fs-20 btnMain"
               href="https://github.com/answerdev/answer"
-              target='_blank'
             >
               Get Started
             </a>
@@ -38,7 +37,8 @@ const HomeHead:FC = () => {
             </a> */}
           </div>
 
-          <iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+          <iframe src="https://ghbtns.com/github-btn.html?user=answerdev&repo=answer&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="150" height="30" title="GitHub"></iframe>
+
 
           <div className="text-secondary text--center margin-top--md">Answer is still under very active development. Watch on GitHub to receive updates.</div>
         </div>

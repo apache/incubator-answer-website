@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     icon: require('@site/static/img/feature-1.png').default,
     description: (
       <>
-        Your users an team communicate in Q&A format. Your experts are happy to contribute, verify and upvote correct info. Keeping your info up-to-date and trusted.
+        Help members with questions and boost community participation. Your experts are happy to contribute, verify, upvote correct info. Your info keeping up-to-date and trusted.
       </>
     ),
   },
@@ -105,17 +105,16 @@ export default function HomepageFeatures(): JSX.Element {
               <ul>
                 <li className={clsx('margin-bottom--sm',styles.li)}>
                   <a
-                    href="https://github.com/answerdev/answer"
-                    target="_blank">
+                    href="https://github.com/answerdev/answer">
                     Contribute to our open-source codebase on GitHub
                   </a>
                 </li>
                 <li className={clsx('margin-bottom--sm',styles.li)}>
-                  <a href="/">Help us improve the docs</a>
+                  <a href="https://github.com/answerdev/answer.dev">Help us improve the docs</a>
                 </li>
-                <li className={styles.li}>
+                {/* <li className={styles.li}>
                   <a href="/">Help us translate language resources</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </section>
