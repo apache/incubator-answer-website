@@ -69,7 +69,7 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <div className='container'>
       <div className={clsx('row', styles.flexCenter)}>
-        <div className='col col--10'>
+        <div className={clsx('col col--10')}>
           <section>
             <div className={styles.screenContent}>
               <div className={styles.boxShadow}>
