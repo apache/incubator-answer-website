@@ -1,7 +1,8 @@
 ---
+slug: /command-line
 ---
 
-# Command-line
+# Command Line
 
 :::tip
 

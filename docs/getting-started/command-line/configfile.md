@@ -1,4 +1,5 @@
 ---
+slug: /configfile
 ---
 
 # Config-file

@@ -1,5 +1,6 @@
 ---
-slug: /getting-started/installation
+sidebar_position: 1
+slug: /installation
 ---
 
 # Installation

@@ -1,4 +1,5 @@
 ---
+slug: /database
 ---
 
 # Database description
