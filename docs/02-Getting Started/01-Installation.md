@@ -10,8 +10,24 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="docker" label="Docker" default>
-We recommend using Docker to run Answer. This is the easiest way to get started with Answer.  
+  <TabItem value="docker-compose" label="Docker Compose" default>
+We recommend using docker-compose to run Answer. This is the easiest way to get started with Answer.
+
+:::tip
+
+If you are using [Docker Desktop](https://www.docker.com/products/docker-desktop) on Windows or Mac, docker-compose is already included. If you are using Linux, you will need to install docker-compose separately.
+
+:::
+  
+```bash
+curl -fsSL https://raw.githubusercontent.com/answerdev/answer/main/docker-compose.yaml | docker compose -p answer -f - up
+```
+
+The default port for Answer is `9080`. You can access it at <http://localhost:9080/install>.
+  </TabItem>
+
+  <TabItem value="docker" label="Docker">
+Installing Answer with docker is also very simple.
 
 ```bash
 docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:latest
@@ -25,22 +41,6 @@ If you can't access the installation page, you can use the command `docker logs 
 :::
 
   </TabItem>
-
-  <TabItem value="docker-compose" label="Docker Compose">
-
-:::tip
-
-If you are using [Docker Desktop](https://www.docker.com/products/docker-desktop) on Windows or Mac, docker-compose is already included. If you are using Linux, you will need to install docker-compose separately.
-
-:::
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/answerdev/answer/main/docker-compose.yaml | docker compose -p answer -f - up
-```
-
-The default port for Answer is `9080`. You can access it at <http://localhost:9080/install>.
-  </TabItem>
-
 
   <TabItem value="binary" label="Binary">
 
