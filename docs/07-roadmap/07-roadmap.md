@@ -2,13 +2,4 @@
 ---
 
 # Roadmap
-## 2022
-| Feature             | Develop | Test | Release | Note               |
-| ------------------- | ------- | ---- | ------- | ------------------ |
-| Support Pg database | Q4      | Q4   | Q4      | support PostgreSQL |
-
-## 2023
-| Feature | Develop | Test | Release | Note                       |
-| ------- | ------- | ---- | ------- | -------------------------- |
-| Plugin  | Q1      | Q1   | Q1      | - Invite someone to answer |
-
+You can check our [Roadmap](https://github.com/orgs/answerdev/projects/1) in the github project. 
