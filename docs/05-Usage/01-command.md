@@ -38,15 +38,12 @@ Use "answer [command] --help" for more information about a command.
 All global options can be placed at the command level.
 - `--help`, `-h`: Show help text and exit. Optional.
 - `--version`, `-v`: Show version and exit. Optional.
-- `--config` path, `-c` path: configuration file path. Optional. (default: data/conf/config.yaml)
 - `--data-path` path, `-C` path: data saved path. Optional. (default: /data/)
 
 ## Commands
 ### init
 > init command will initialize the application required environment, contains: default config-file, data directory, initialize database etc.
 
-- Options
-  - `--data-path` path, `-C` path: data saved path. Optional. (default: /data/)
 - Examples
   - `answer init -C ./data/`
 - Notes
@@ -57,13 +54,13 @@ All global options can be placed at the command level.
 > check command will check the application whether it can run or not. check the config file if exist. check the database if connection can be established etc.
 
 - Examples
-  - `answer check -c ./data/conf/config.yaml`
+  - `answer check -C ./data/`
 
 ### run
 > run command will run the application.
 
 - Examples
-  - `answer run -c ./data/conf/config.yaml`
+  - `answer run -C ./data/`
 
 ### dump
 > dump command will dump the database data to sql file.
