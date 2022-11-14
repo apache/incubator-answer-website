@@ -1,4 +1,5 @@
 ---
+slug: /env
 ---
 
 # Environment Variable

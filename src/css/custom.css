@@ -124,6 +124,21 @@ img {
   padding-right: 0;
 }
 
+.section-title {
+  margin: 0.5rem 0 !important;
+}
+
+.section-title a {
+  color: #AAA;
+  text-transform: uppercase;
+}
+
+.section-title a:hover {
+  background: none;
+  color: #AAA;
+  cursor: default;
+}
+
 
 @media (max-width: 996px) {
   .navbar__item {
