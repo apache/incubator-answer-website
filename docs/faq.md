@@ -2,9 +2,9 @@
 ---
 
 # FAQ
-## How do I log in for the first time?
+## How do I access the installation page?
 
-You can log in with the default administrator username (**`admin@admin.com`**) and password  **`admin`**).
+Heading to [http://localhost:9080/install](http://localhost:9080/install) to access installation page.
 
 ## Why can't I receive the registration email?
 

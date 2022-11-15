@@ -124,16 +124,19 @@ img {
   padding-right: 0;
 }
 
-@media (max-width: 1440px) {
-  .container {
-    max-width: 1320px;
-  }
+.section-title {
+  margin: 0.5rem 0 !important;
 }
 
-@media (max-width: 1319px) {
-  .col--10 {
-    --ifm-col-width: 100% !important;
-  }
+.section-title a {
+  color: #AAA;
+  text-transform: uppercase;
+}
+
+.section-title a:hover {
+  background: none;
+  color: #AAA;
+  cursor: default;
 }
 
 

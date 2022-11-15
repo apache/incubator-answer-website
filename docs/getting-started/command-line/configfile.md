@@ -1,4 +1,5 @@
 ---
+slug: /configfile
 ---
 
 # Config-file
@@ -30,7 +31,6 @@ swaggerui:
   address: ':80'  # accessible port number
 service_config:
   secret_key: "answer" # encryption key
-  web_host: "http://127.0.0.1" # Page access using domain name address
-  upload_path: "./upfiles" # upload directory
+  upload_path: "/data/uploads" # upload directory
 
 ```

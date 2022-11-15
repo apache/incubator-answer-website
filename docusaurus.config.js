@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Answer',
   tagline: 'Build Q&A Community with Answer',
-  url: 'https://answerdev.pages.dev',
+  url: 'https://answer.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,8 +37,10 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
         docs: {
-          sidebarCollapsed: false,
+          sidebarPath: require.resolve('./sidebars.js'),
+          breadcrumbs: false,
         },
+        blog: false,
       }),
     ],
   ],

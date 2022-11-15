@@ -23,7 +23,7 @@ Main features:
 
 ## Architecture
 
-### Seperating the frontend and backend
+### Separating the frontend and backend
 
 Answer is a monorepo that contains both the frontend and the backend.
 
