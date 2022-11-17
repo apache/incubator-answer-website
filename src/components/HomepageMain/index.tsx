@@ -56,7 +56,7 @@ function Feature({title, icon, description, later}: FeatureItem) {
       <div className='margin-bottom--md'>
         <img className={styles.featureSvg} role="img" src={icon} />
       </div>
-      <h2 style={{ fontWeight: 500 }}>{title}</h2>
+      <h2 className='ff-headline' style={{ fontWeight: 500 }}>{title}</h2>
       <p>{description}</p>
       {later && <div className={styles.badge}>{later}</div>}
     </div>
@@ -88,7 +88,7 @@ export default function HomepageFeatures(): JSX.Element {
           </section>
 
           <section>
-            <h3 className={clsx('text--center', styles.h1, styles.margin48)}>Features</h3>
+            <h3 className={clsx('text--center ff-headline', styles.h1, styles.margin48)}>Features</h3>
             <div className={styles.features}>
               <div className="row">
                 {FeatureList.map((props, idx) => (
@@ -99,7 +99,7 @@ export default function HomepageFeatures(): JSX.Element {
           </section>
 
           <section style={{ marginBottom: '96px' }}>
-            <h3 className={clsx('text--center margin-bottom--sm', styles.h1)}>We welcome all contributions</h3>
+            <h3 className={clsx('text--center margin-bottom--sm ff-headline', styles.h1)}>We welcome all contributions</h3>
             <p className='text--center text--secondary mb-4 fs-20'>Here are some quick ways you can help the community.</p>
             <div className={styles.linkWrap}>
               <ul>
