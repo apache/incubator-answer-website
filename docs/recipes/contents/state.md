@@ -1,7 +1,7 @@
 ---
 ---
 
-# State diagram
+# State Diagram
 
 ## question state diagram
 
