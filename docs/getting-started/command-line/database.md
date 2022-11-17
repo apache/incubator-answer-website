@@ -2,7 +2,7 @@
 slug: /database
 ---
 
-# Database description
+# Database Schema
 
 :::note
 

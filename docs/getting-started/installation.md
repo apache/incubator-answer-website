@@ -36,7 +36,7 @@ You can find all the available Docker images on [Docker Hub](https://hub.docker.
 docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:latest
 ```
 
-After running the command, heading to [http://localhost:9080/install](http://localhost:9080/install) to continue installation.
+After running the command, heading to <http://localhost:9080/install> to continue installation.
 
 :::tip
 If you can't access the installation page, you can use the command `docker logs answer` to view the logs. It may help you find the specific problem.
@@ -94,9 +94,11 @@ Click Next button to create the configuration file.
 Site URL is the browser address you will use to access answers after installation.  
 **Don't forget the admin Email and password.**
 :::
+
 ![install-site-info](/img/docs/install-site-info.png)
 
 ### Step 5: Complete
 
 🎉Congratulations, you can click the done button to start your answer journey!
+
 ![install-complete](/img/docs/install-complete.png)
