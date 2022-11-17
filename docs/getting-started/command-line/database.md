@@ -3,13 +3,15 @@ slug: /database
 ---
 
 # Database description
+
 :::note
 
 Different databases have different data types. The following table presumes use of mysql/mariadb as an example.
 
 :::
 
-## activity	
+## activity
+
 > `activity` table records various actions of users, such as votes, etc.
 
 | COLUMN          | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                                                     |
@@ -25,7 +27,8 @@ Different databases have different data types. The following table presumes use 
 | rank            | int(11)    | NO       |     | 0       | rank of current operating user affected                                     |
 | has_rank        | tinyint(4) | NO       |     | 0       | this activity has rank or not                                               |
 
-## answer	
+## answer
+
 > `answer` table records the answer info.
 
 | COLUMN        | DATA TYPE  | NULLABLE | KEY | DEFAULT           | COMMENT                                 |
@@ -43,7 +46,8 @@ Different databases have different data types. The following table presumes use 
 | vote_count    | int(11)    | NO       |     | 0                 | vote count                              |
 | revision_id   | bigint(20) | NO       |     | 0                 | revision id                             |
 
-## collection	
+## collection
+
 > `collection` table records user collection about any object.
 
 |          COLUMN          | DATA TYPE  | NULLABLE | KEY |      DEFAULT      |         COMMENT          |
@@ -55,7 +59,7 @@ Different databases have different data types. The following table presumes use 
 | object_id                | bigint(20) | NO       |     |                 0 | object id                |
 | user_collection_group_id | bigint(20) | NO       |     |                 0 | user collection group id |
 
-## collection_group 
+## collection_group
 
 |    COLUMN     |  DATA TYPE  | NULLABLE | KEY |      DEFAULT      |            COMMENT             |
 |---------------|-------------|----------|-----|-------------------|--------------------------------|
@@ -67,7 +71,8 @@ Different databases have different data types. The following table presumes use 
 | default_group | int(11)     | NO       |     |                 1 | mark this group is default,    |
 |               |             |          |     |                   | default 1                      |
 
-## comment	
+## comment
+
 > `comment` table records the comment about question or answer.
 
 | COLUMN           | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                  |
@@ -85,7 +90,8 @@ Different databases have different data types. The following table presumes use 
 | original_text    | mediumtext | NO       |     |         | original comment content                 |
 | parsed_text      | mediumtext | NO       |     |         | parsed comment content                   |
 
-## config	
+## config
+
 > `config` records the site configuration.
 
 | COLUMN | DATA TYPE   | NULLABLE | KEY | DEFAULT | COMMENT                                            |
@@ -94,7 +100,8 @@ Different databases have different data types. The following table presumes use 
 | key    | varchar(32) | YES      | UNI |         | the config key                                     |
 | value  | text        | YES      |     |         | the config value, custom data structures and types |
 
-## meta	
+## meta
+
 > `meta` records some extra information about the object.
 
 |   COLUMN   |  DATA TYPE   | NULLABLE | KEY |      DEFAULT      |   COMMENT    |
@@ -106,7 +113,8 @@ Different databases have different data types. The following table presumes use 
 | key        | varchar(100) | NO       |     |                   | key          |
 | value      | mediumtext   | NO       |     |                   | value        |
 
-## notification	
+## notification
+
 > `notification` table records the notification that user received.
 
 | COLUMN     | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                 |
@@ -123,6 +131,7 @@ Different databases have different data types. The following table presumes use 
 | status     | int(11)    | NO       |     | 1       | notification status(normal: 1;delete 2) |
 
 ## question
+
 > `question` table records the question info.
 
 | COLUMN             | DATA TYPE    | NULLABLE | KEY | DEFAULT           | COMMENT                                   |
@@ -146,7 +155,8 @@ Different databases have different data types. The following table presumes use 
 | post_update_time   | timestamp    | YES      |     | CURRENT_TIMESTAMP | answer the last update time               |
 | revision_id        | bigint(20)   | NO       |     | 0                 | revision id                               |
 
-## report	
+## report
+
 > `report` table records the content of user reports
 
 | COLUMN           | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                  |
@@ -164,7 +174,8 @@ Different databases have different data types. The following table presumes use 
 | flagged_content  | text       | YES      |     |         | flagged content                          |
 | status           | int(11)    | NO       |     | 1       | status(normal: 1; pending:2; delete: 10) |
 
-## revision	
+## revision
+
 > `revision` table records the object revision and the content of the version.
 
 | COLUMN      | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                     |
@@ -181,6 +192,7 @@ Different databases have different data types. The following table presumes use 
 | status      | int(11)      | NO       |     | 1       | revision status(normal: 1; delete 2)        |
 
 ## site_info
+
 > `site_info` table records the site information about interface or something related
 
 | COLUMN     | DATA TYPE   | NULLABLE | KEY | DEFAULT | COMMENT                                    |
@@ -193,6 +205,7 @@ Different databases have different data types. The following table presumes use 
 | status     | int(11)     | NO       |     | 1       | site info status(available: 1;deleted: 10) |
 
 ## tag
+
 > `tag` table records the tag information.
 
 | COLUMN             | DATA TYPE   | NULLABLE | KEY | DEFAULT | COMMENT                              |
@@ -212,6 +225,7 @@ Different databases have different data types. The following table presumes use 
 | revision_id        | bigint(20)  | NO       |     | 0       | revision id                          |
 
 ## tag_rel
+
 > `tag_rel` table records the relationship between objects and tags
 
 | COLUMN     | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                   |
@@ -223,7 +237,8 @@ Different databases have different data types. The following table presumes use 
 | tag_id     | bigint(20) | NO       | MUL |         | tag_id                                    |
 | status     | int(11)    | NO       |     | 1       | tag_list_status(available: 1;deleted: 10) |
 
-## uniqid	
+## uniqid
+
 > `uniqid` table recorded the object_id that can uniquely identify an object.
 
 |   COLUMN    | DATA TYPE  | NULLABLE | KEY | DEFAULT |   COMMENT   |
@@ -231,7 +246,8 @@ Different databases have different data types. The following table presumes use 
 | id          | bigint(20) | NO       | PRI |         | uniqid_id   |
 | uniqid_type | int(11)    | NO       |     |       0 | uniqid_type |
 
-## user	
+## user
+
 > The user table recorded basic information about the user.
 
 | COLUMN          | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                |
@@ -264,10 +280,10 @@ Different databases have different data types. The following table presumes use 
 | is_admin        | int(11)      | NO       |     | 0       | admin flag                             |
 
 ## version
+
 > The version of the current answer is recorded in version table for upgrade.
 
 |     COLUMN     | DATA TYPE | NULLABLE | KEY | DEFAULT |    COMMENT     |
 |----------------|-----------|----------|-----|---------|----------------|
 | id             | int(11)   | NO       | PRI |         | id             |
 | version_number | int(11)   | NO       |     |       0 | version_number |
-

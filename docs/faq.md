@@ -2,6 +2,7 @@
 ---
 
 # FAQ
+
 ## How do I access the installation page?
 
 Heading to [http://localhost:9080/install](http://localhost:9080/install) to access installation page.

@@ -2,11 +2,13 @@
 ---
 
 # Backend
+
 ## 📦 Prerequisites
 
 - [Golang](https://go.dev/) `>=1.18`
 
 ## 🔨 Development
+
 ### wire
 
 We use `wire` to generate dependencies.
@@ -30,6 +32,7 @@ $ swag init --generalInfo ./cmd/answer/main.go
 Or you can use enter script directory and use `./gen-api.sh`
 
 ## 🏃🏻‍♀️ Run
+
 ```shell
 # enter into dir
 $ cd cmd/answer/
