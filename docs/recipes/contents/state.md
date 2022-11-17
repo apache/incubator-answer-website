@@ -2,8 +2,10 @@
 ---
 
 # State diagram
+
 ## question state diagram
-```
+
+```plaintext
                        +-------------+      
                        |             |      
                      ->|    accept   |      
@@ -23,9 +25,9 @@
 +-------------+                             
 ```
 
-
 ## answer state diagram
-```
+
+```plaintext
 
 +-------------+        +-------------+              
 |             |        |             |              

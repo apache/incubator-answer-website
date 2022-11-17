@@ -65,7 +65,7 @@ html, body {
   width: 24px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.ff-headline {
   font-family: Lexend, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
