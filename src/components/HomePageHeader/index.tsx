@@ -37,7 +37,14 @@ const HomeHead:FC = () => {
             </a> */}
           </div>
 
-          <iframe src="https://ghbtns.com/github-btn.html?user=answerdev&repo=answer&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="150" height="30" title="GitHub"></iframe>
+          {/* <iframe src="https://ghbtns.com/github-btn.html?user=answerdev&repo=answer&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="150" height="30" title="GitHub"></iframe> */}
+          <div style={{ lineHeight: 1 }}>
+            <a href="https://github.com/answerdev/answer/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/answerdev/answer?include_prereleases"></img></a>
+            &nbsp;
+            <a href="https://github.com/answerdev/answer"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/answerdev/answer?color=btightgreen&logo=github"></img></a>
+            &nbsp;
+            <a href="https://discord.gg/Jm7Y4cbUej"><img alt="GitHub License" src="https://img.shields.io/badge/discord-chat-5865f2?logo=discord"></img></a>
+          </div>
 
 
           <div className="text-secondary text--center margin-top--md">Answer is still under very active development. Watch on GitHub to receive updates.</div>
