@@ -43,7 +43,7 @@ const HomeHead:FC = () => {
             &nbsp;
             <a href="https://github.com/answerdev/answer"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/answerdev/answer?color=btightgreen&logo=github"></img></a>
             &nbsp;
-            <a href="https://discord.gg/Jm7Y4cbUej" target="blank"><img alt="GitHub License" src="https://img.shields.io/badge/discord-chat-5865f2?logo=discord"></img></a>
+            <a href="https://discord.gg/Jm7Y4cbUej" target="blank"><img alt="GitHub License" src="https://img.shields.io/badge/discord-chat-5865f2?logo=discord&logoColor=f5f5f5"></img></a>
           </div>
 
 
