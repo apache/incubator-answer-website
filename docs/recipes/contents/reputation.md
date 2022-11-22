@@ -2,6 +2,7 @@
 ---
 
 # Reputation
+
 > Reputation is a design to automate the management of community ecology
 
 ## Reputation increase and decrease rules
@@ -9,6 +10,7 @@
 > Reputation corresponds to authority, so reputation needs to be strictly controlled.
 
 ### Reputation increase
+
 | condition                         | change | Remark |
 | --------------------------------- | ------ | ------ |
 | Your question was upvoted         | +10    |        |
@@ -18,6 +20,7 @@
 | new user activation               | +1     |        |
 
 ### Reputation decrease
+
 // TODO
 
 ### Reputation permissions
