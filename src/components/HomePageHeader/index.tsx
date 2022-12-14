@@ -1,16 +1,16 @@
 import React, { FC, useEffect } from 'react';
 import clsx from 'clsx';
-
 import styles from './index.module.css';
 
 const HomeHead: FC = () => {
   const [stars, setStars] = React.useState(0);
   useEffect(() => {
-    fetch('https://api.github.com/repos/answerdev/answer')
-      .then((res) => res.json())
+    fetch('https://img.shields.io/github/stars/answerdev/answer')
+      .then((response) => response.text())
       .then((data) => {
-        if (data.stargazers_count) {
-          setStars(data.stargazers_count);
+        const num = data.match(/<text .*>(.*?)<\/text>/)[1];
+        if (num) {
+          setStars(num);
         }
       });
   }, []);
