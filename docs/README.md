@@ -29,4 +29,4 @@ Answer is a monorepo that contains both the frontend and the backend.
 
 ## UI Preview
 
-![screenshot](/img/screenshot.png)
+![screenshot](/static/img/screenshot.png)
