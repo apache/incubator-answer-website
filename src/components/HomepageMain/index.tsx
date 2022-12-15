@@ -81,6 +81,7 @@ export default function HomepageFeatures(): JSX.Element {
     autoplay: true,
     autoplaySpeed: 5000,
     fade: true,
+    pauseOnHover: false,
   };
   const bannerList = [
     {
