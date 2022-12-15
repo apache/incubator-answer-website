@@ -21,10 +21,10 @@ export default function Home(): JSX.Element {
           <div className="col col--10">
             <h1>Pricing</h1>
             <p>
-              Hey, we're glad to hear we've built an open source project worthy
-              of your support. Unfortunately, you can't... yet. Our immediate
-              plan is to build a Q&A platform that works for a variety of
-              different communities. So....
+              Hey, we're glad to hear we've built an open source project worthy of your support. Unfortunately, you can't... yet.
+            </p>
+            <p>
+              Our immediate plan is to build a Q&A platform that works for a variety of different communities. So....
             </p>
             <HubspotForm
               portalId="23567456"

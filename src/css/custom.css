@@ -59,8 +59,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 
 .header-discord-link::before {
