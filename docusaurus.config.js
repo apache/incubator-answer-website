@@ -70,8 +70,8 @@ const config = {
             to: 'https://github.com/orgs/answerdev/projects/1',
           },
           {
-            label: 'Pricing',
-            to: '/pricing',
+            label: 'Buy',
+            to: '/buy',
           },
           {
             label: 'Demo',

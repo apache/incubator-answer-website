@@ -19,7 +19,7 @@ export default function Home(): JSX.Element {
       <div className="container mt-5">
         <div className="row justify-center">
           <div className="col col--10">
-            <h1>Pricing</h1>
+            <h1>Buy</h1>
             <p>
               Hey, we're glad to hear we've built an open source project worthy of your support. Unfortunately, you can't... yet.
             </p>
