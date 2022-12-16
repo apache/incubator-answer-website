@@ -85,8 +85,7 @@ const HomeHead: FC = () => {
               className='margin-left--xs'
               src={require('@site/static/img/arrow-right.png').default}
               alt="waitlist"
-              width="16px"
-              height="16px"
+              width="14px"
             />
           </Link>
         </div>
