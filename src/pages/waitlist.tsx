@@ -15,7 +15,7 @@ export default function Home(): JSX.Element {
     };
   }, []);
   return (
-    <Layout description="An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more.">
+    <Layout title='Waitlist' description="An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more.">
       <div className="container mt-5">
         <div className="row justify-center">
           <div className="col col--10" style={{ marginBottom: '3.5rem' }}>
