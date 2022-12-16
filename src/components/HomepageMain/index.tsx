@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
@@ -172,9 +173,9 @@ export default function HomepageFeatures(): JSX.Element {
                     Help us improve the docs
                   </a>
                 </li>
-                {/* <li className={styles.li}>
-                  <a href="/">Help us translate language resources</a>
-                </li> */}
+                <li className={styles.li}>
+                  <Link to="/docs/development/contributing/translate">Help us translate language resources</Link>
+                </li>
               </ul>
             </div>
           </section>
