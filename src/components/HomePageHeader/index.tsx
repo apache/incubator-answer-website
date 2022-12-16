@@ -54,7 +54,7 @@ const HomeHead: FC = () => {
           <div className="d-flex margin-bottom--md padding-bottom--sm">
             <a
               className="button button--lg button--primary fw-normal fs-20 btnMain margin-right--md"
-              href="https://github.com/answerdev/answer"
+              href="/docs"
             >
               Get Started
             </a>
@@ -64,7 +64,7 @@ const HomeHead: FC = () => {
                 'd-flex align-center button button--lg button--dark fw-normal fs-20',
                 styles.white,
               )}
-              href="https://github.com/answerdev/answer/releases"
+              href="https://github.com/answerdev/answer"
               target="_blank"
             >
               <img
