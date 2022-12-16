@@ -15,18 +15,16 @@ export default function Home(): JSX.Element {
     };
   }, []);
   return (
-    <Layout description="An open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, user Q&A, fans communication, and more.">
+    <Layout description="An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more.">
       <div className="container mt-5">
         <div className="row justify-center">
           <div className="col col--10" style={{ marginBottom: '3.5rem' }}>
-            <h1>Buy</h1>
+            <h1>Answer Cloud is coming soon!</h1>
             <p>
-              Hey, we're glad to hear we've built an open source project worthy
-              of your support. Unfortunately, you can't... yet.
+            We are working hard to build Answer Cloud, the SaaS version of Answer.
             </p>
             <p className="margin-bottom--lg padding-bottom--md">
-              Our immediate plan is to build a Q&A platform that works for a
-              variety of different communities. So....
+            Fill out the form now to stay on top of the latest product updates, development inspirations, and user research prompt. In accordance with our privacy policy, we will keep your information secure at all times.
             </p>
             <HubspotForm
               portalId="23567456"
