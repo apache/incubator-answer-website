@@ -1,4 +1,5 @@
 import React, { FC, useEffect } from 'react';
+import Link from '@docusaurus/Link';
 import clsx from 'clsx';
 import styles from './index.module.css';
 
@@ -78,10 +79,16 @@ const HomeHead: FC = () => {
             </a>
           </div>
 
-          <div className="text-secondary text--center margin-top--md">
-            Answer is still under very active development. Watch on GitHub to
-            receive updates.
-          </div>
+          <Link to="/waitlist" className="d-flex align-center text-secondary text--center">
+            Join the Answer Cloud Waitlist
+            <img
+              className='margin-left--xs'
+              src={require('@site/static/img/arrow-right.png').default}
+              alt="waitlist"
+              width="16px"
+              height="16px"
+            />
+          </Link>
         </div>
       </div>
     </header>

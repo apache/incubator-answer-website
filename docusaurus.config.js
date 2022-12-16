@@ -66,16 +66,12 @@ const config = {
 
           },
           {
+            label: 'Issue',
+            to: 'https://github.com/answerdev/answer/issues',
+          },
+          {
             label: 'Roadmap',
             to: 'https://github.com/orgs/answerdev/projects/1',
-          },
-          {
-            label: 'Buy',
-            to: '/buy',
-          },
-          {
-            label: 'Demo',
-            to: 'https://try.answer.dev',
           },
           {
             label: 'Community',
