@@ -36,7 +36,7 @@ You can find all the available Docker images on [Docker Hub](https://hub.docker.
 docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:latest
 ```
 
-After running the command, heading to [http://localhost:9080/install](http://localhost:9080/install) to continue installation.
+After running the command, heading to <http://localhost:9080/install> to continue installation.
 
 :::tip
 If you can't access the installation page, you can use the command `docker logs answer` to view the logs. It may help you find the specific problem.
@@ -66,8 +66,8 @@ We use `-C` flag to indicate the directory where saved answer data.
   </TabItem>
 </Tabs>
 
-
 ## Install Steps
+
 > After you start the answer, you can follow the steps below to complete the initialization about the basic configuration.
 
 ### Step 1: Choose the language
@@ -75,6 +75,7 @@ We use `-C` flag to indicate the directory where saved answer data.
 ![install-choose-language](/img/docs/install-choose-language.png)
 
 ### Step 2: Config database
+
 :::tip
 Answer supports MySQL, PostgreSQL, and SQLite as the database backend. The smallest environment is SQLite, which does not require any additional configuration. If you want to use MySQL or PostgreSQL, you need to setup the database first and then configure the database connection in this step. Here we recommend using sqlite3 to complete your first experience.
 :::
@@ -82,11 +83,13 @@ Answer supports MySQL, PostgreSQL, and SQLite as the database backend. The small
 ![install-database](/img/docs/install-database.png)
 
 ### Step 3: Create configuration file
+
 Click Next button to create the configuration file.
 
 ![install-create-config-file](/img/docs/install-create-config-file.png)
 
 ### Step 4: Fill in basic information
+
 :::caution
 Site URL is the browser address you will use to access answers after installation.  
 **Don't forget the admin Email and password.**
@@ -94,5 +97,6 @@ Site URL is the browser address you will use to access answers after installatio
 ![install-site-info](/img/docs/install-site-info.png)
 
 ### Step 5: Complete
+
 🎉Congratulations, you can click the done button to start your answer journey!
 ![install-complete](/img/docs/install-complete.png)
