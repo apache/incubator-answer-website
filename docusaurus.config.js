@@ -61,6 +61,29 @@ const config = {
         style: 'primary',
         items: [
           {
+            label: 'Docs',
+            to: '/docs',
+
+          },
+          {
+            label: 'Issue',
+            to: 'https://github.com/answerdev/answer/issues',
+          },
+          {
+            label: 'Roadmap',
+            to: 'https://github.com/orgs/answerdev/projects/1',
+          },
+          {
+            label: 'Community',
+            to: 'https://meta.answer.dev',
+          },
+          {
+            src: 'img/discord.svg',
+            className: 'header-discord-link',
+            to: 'https://discord.gg/a6PZZbfnFx',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/answerdev/answer',
             src: 'img/github.svg',
             position: 'right',
@@ -75,7 +98,7 @@ const config = {
     }),
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Lexend:wght@400..700&display=swap',
-  ]
+  ],
 };
 
 module.exports = config;
