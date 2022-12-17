@@ -72,27 +72,27 @@ We use `-C` flag to indicate the directory where saved answer data.
 
 ### Step 1: Choose the language
 
-![install-choose-language](/img/install-choose-language.png)
+![install-choose-language](/img/docs/install-choose-language.png)
 
 ### Step 2: Config database
 :::tip
 Answer supports MySQL, PostgreSQL, and SQLite as the database backend. The smallest environment is SQLite, which does not require any additional configuration. If you want to use MySQL or PostgreSQL, you need to setup the database first and then configure the database connection in this step. Here we recommend using sqlite3 to complete your first experience.
 :::
 
-![install-database](/img/install-database.png)
+![install-database](/img/docs/install-database.png)
 
 ### Step 3: Create configuration file
 Click Next button to create the configuration file.
 
-![install-create-config-file](/img/install-create-config-file.png)
+![install-create-config-file](/img/docs/install-create-config-file.png)
 
 ### Step 4: Fill in basic information
 :::caution
 Site URL is the browser address you will use to access answers after installation.  
 **Don't forget the admin Email and password.**
 :::
-![install-site-info](/img/install-site-info.png)
+![install-site-info](/img/docs/install-site-info.png)
 
 ### Step 5: Complete
 🎉Congratulations, you can click the done button to start your answer journey!
-![install-complete](/img/install-complete.png)
+![install-complete](/img/docs/install-complete.png)
