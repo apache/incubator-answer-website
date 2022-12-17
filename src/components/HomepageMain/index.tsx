@@ -173,9 +173,9 @@ export default function HomepageFeatures(): JSX.Element {
                     Help us improve the docs
                   </a>
                 </li>
-                <li className={styles.li}>
+                {/* <li className={styles.li}>
                   <Link to="/docs/development/contributing/translate">Help us translate language resources</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </section>
