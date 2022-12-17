@@ -7,9 +7,10 @@ slug: /
 Answer helps you to build a community between your users and your team.
 It's a place where you can share your knowledge and help your users to solve their problems.
 
-[![LICENSE](https://img.shields.io/badge/License-Apache-green)](https://github.com/answerdev/answer/blob/main/LICENSE)
-[![Language](https://img.shields.io/badge/Language-Go-blue.svg)](https://golang.org/)
-[![Language](https://img.shields.io/badge/Language-React-blue.svg)](https://reactjs.org/)
+[![LICENSE](https://img.shields.io/github/license/answerdev/answer)](https://github.com/answerdev/answer/blob/main/LICENSE)
+[![Language](https://img.shields.io/badge/language-go-blue.svg)](https://golang.org/)
+[![Language](https://img.shields.io/badge/language-react-blue.svg)](https://reactjs.org/)
+[![GitHub release](https://img.shields.io/github/v/release/answerdev/answer?include_prereleases)](https://github.com/answerdev/answer/releases)
 
 Main features:
 

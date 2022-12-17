@@ -142,7 +142,7 @@ export default function HomepageFeatures(): JSX.Element {
       <div className={clsx('row', styles.flexCenter)}>
         <div className={clsx('col col--10')}>
           <section>
-            <h3 className={clsx('text--center', styles.h1, styles.margin48)}>
+            <h3 className={clsx('text--center ff-headline', styles.h1, styles.margin48)}>
               Features
             </h3>
             <div className={styles.features}>
@@ -155,7 +155,7 @@ export default function HomepageFeatures(): JSX.Element {
           </section>
 
           <section style={{ marginBottom: '96px' }}>
-            <h3 className={clsx('text--center margin-bottom--sm', styles.h1)}>
+            <h3 className={clsx('text--center margin-bottom--sm ff-headline', styles.h1)}>
               We welcome all contributions
             </h3>
             <p className="text--center text--secondary mb-4 fs-20">
