@@ -1,6 +1,6 @@
 name: Build & Deploy
 
-on:   
+on:
   push:
     branches:
       - main
@@ -11,6 +11,15 @@ jobs:
     if: "!contains(github.event.head_commit.message, 'skip ci')"
     steps:
       - uses: actions/checkout@v2
+
+      - name: Cache pnpm modules and build
+        uses: actions/cache@v2
+        with:
+          path: |
+            node_modules
+            build
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
