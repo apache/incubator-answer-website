@@ -106,7 +106,7 @@ All our translations are placed in the i18n directory.
 | last 2 versions                                                                                                                                                                                          | last 2 versions                                                                                                                                                                                                  | last 2 versions                                                                                                                                                                                              | last 2 versions                                                                                                                                                                                              |
 
 ## ⭐ Built with
-- [TypeScript](https://www.typescriptlang.org/) - strongly typed JavaScript
+- [TypeScript](https://www.typescriptlang.org/) - Strongly typed JavaScript
 - [React.js](https://reactjs.org/) - Our front end is a React.js app
 - [React Router](https://reactrouter.com/en/main) - Router library
 - [Bootstrap](https://getbootstrap.com/) - UI library.
