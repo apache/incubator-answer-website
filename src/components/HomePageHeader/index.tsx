@@ -75,14 +75,17 @@ const HomeHead: FC = () => {
                 alt="github"
               />
               {` Star `}
-              {numWord(stars)}
+              {stars !== 0 ? numWord(stars) : ''}
             </a>
           </div>
 
-          <Link to="/waitlist" className="d-flex align-center text-secondary text--center">
+          <Link
+            to="/waitlist"
+            className="d-flex align-center text-secondary text--center"
+          >
             Join the Answer Cloud Waitlist
             <img
-              className='margin-left--xs'
+              className="margin-left--xs"
               src={require('@site/static/img/arrow-right.png').default}
               alt="waitlist"
               width="14px"
