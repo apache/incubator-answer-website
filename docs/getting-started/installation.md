@@ -36,8 +36,6 @@ You can find all the available Docker images on [Docker Hub](https://hub.docker.
 docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:latest
 ```
 
-After running the command, heading to <http://localhost:9080/install> to continue installation.
-
 :::tip
 If you can't access the installation page, you can use the command `docker logs answer` to view the logs. It may help you find the specific problem.
 :::
@@ -69,6 +67,7 @@ We use `-C` flag to indicate the directory where saved answer data.
 ## Install Steps
 
 > After you start the answer, you can follow the steps below to complete the initialization about the basic configuration.
+> Just open in your browser <http://localhost:9080/install> . 
 
 ### Step 1: Choose the language
 
