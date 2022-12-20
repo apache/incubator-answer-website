@@ -16,7 +16,8 @@ Answer binary support some command-line options
 ```shell
 To run answer, use:
         - 'answer init' to initialize the required environment.
-        - 'answer run' to launch application.
+        - 'answer run' to launch the application.
+        - 'answer upgrade' to upgrade the application
 
 Usage:
   answer [command]
@@ -27,6 +28,7 @@ Available Commands:
   help        Help about any command
   init        init answer application
   run         Run the application
+  upgrade     Upgrade the application
 
 Flags:
   -h, --help      help for answer
@@ -62,6 +64,12 @@ All global options can be placed at the command level.
 
 - Examples
   - `answer run -C ./data/`
+
+### upgrade
+> upgrade command will upgrade the application.
+
+- Examples
+  - `answer upgrade -C ./data/` 
 
 ### dump
 > dump command will dump the database data to sql file.

@@ -12,66 +12,69 @@ Different databases have different data types. The following table presumes use 
 ## activity	
 > `activity` table records various actions of users, such as votes, etc.
 
-| COLUMN          | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                                                     |
-| --------------- | ---------- | -------- | --- | ------- | --------------------------------------------------------------------------- |
-| id              | bigint(20) | NO       | PRI |         | activity id                                                                 |
-| created_at      | timestamp  | YES      |     |         | create time                                                                 |
-| updated_at      | timestamp  | YES      |     |         | update time                                                                 |
-| user_id         | bigint(20) | NO       | MUL |         | the user ID that generated the activity or affected by the activity         |
-| trigger_user_id | bigint(20) | NO       | MUL | 0       | the trigger user ID that generated the activity or affected by the activity |
-| object_id       | bigint(20) | NO       | MUL | 0       | the object ID that affected by the activity                                 |
-| activity_type   | int(11)    | NO       |     |         | activity type, correspond to config id                                      |
-| cancelled       | tinyint(4) | NO       |     | 0       | mark this activity if cancelled                                             |
-| rank            | int(11)    | NO       |     | 0       | rank of current operating user affected                                     |
-| has_rank        | tinyint(4) | NO       |     | 0       | this activity has rank or not                                               |
+| COLUMN             | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                                                     |
+|--------------------|------------|----------|-----|---------|-----------------------------------------------------------------------------|
+| id                 | bigint(20) | NO       | PRI |         | activity id                                                                 |
+| created_at         | timestamp  | YES      |     |         | create time                                                                 |
+| updated_at         | timestamp  | YES      |     |         | update time                                                                 |
+| cancelled_at       | timestamp  | YES      |     |         | cancelled time                                                              |
+| user_id            | bigint(20) | NO       | MUL |         | the user ID that generated the activity or affected by the activity         |
+| trigger_user_id    | bigint(20) | NO       | MUL | 0       | the trigger user ID that generated the activity or affected by the activity |
+| object_id          | bigint(20) | NO       | MUL | 0       | the object ID that affected by the activity                                 |
+| original_object_id | bigint(20) | NO       |     | 0       | the original object ID that activity                                        |
+| activity_type      | int(11)    | NO       |     |         | activity type, correspond to config id                                      |
+| cancelled          | tinyint(4) | NO       |     | 0       | mark this activity if cancelled                                             |
+| rank               | int(11)    | NO       |     | 0       | rank of current operating user affected                                     |
+| has_rank           | tinyint(4) | NO       |     | 0       | this activity has rank or not                                               |
+| revision_id        | bigint(20) | NO       |     | 0       | revision id                                                                 |
 
 ## answer	
 > `answer` table records the answer info.
 
-| COLUMN        | DATA TYPE  | NULLABLE | KEY | DEFAULT           | COMMENT                                 |
-| ------------- | ---------- | -------- | --- | ----------------- | --------------------------------------- |
-| id            | bigint(20) | NO       | PRI |                   | answer id                               |
-| created_at    | timestamp  | NO       |     | CURRENT_TIMESTAMP | create time                             |
-| updated_at    | timestamp  | NO       |     | CURRENT_TIMESTAMP | update time                             |
-| question_id   | bigint(20) | NO       |     | 0                 | question id                             |
-| user_id       | bigint(20) | NO       | MUL | 0                 | answer user id                          |
-| original_text | mediumtext | NO       |     |                   | original text                           |
-| parsed_text   | mediumtext | NO       |     |                   | parsed text                             |
-| status        | int(11)    | NO       |     | 1                 | answer status(available: 1;deleted: 10) |
-| adopted       | int(11)    | NO       |     | 1                 | adopted (1 failed 2 adopted)            |
-| comment_count | int(11)    | NO       |     | 0                 | comment count                           |
-| vote_count    | int(11)    | NO       |     | 0                 | vote count                              |
-| revision_id   | bigint(20) | NO       |     | 0                 | revision id                             |
+| COLUMN            | DATA TYPE  | NULLABLE | KEY | DEFAULT           | COMMENT                                 |
+|-------------------|------------|----------|-----|-------------------|-----------------------------------------|
+| id                | bigint(20) | NO       | PRI |                   | answer id                               |
+| created_at        | timestamp  | NO       |     | CURRENT_TIMESTAMP | create time                             |
+| updated_at        | timestamp  | YES      |     |                   | update time                             |
+| question_id       | bigint(20) | NO       |     | 0                 | question id                             |
+| user_id           | bigint(20) | NO       | MUL | 0                 | answer user id                          |
+| last_edit_user_id | bigint(20) | NO       |     | 0                 | last edit user id                       |
+| original_text     | mediumtext | NO       |     |                   | original text                           |
+| parsed_text       | mediumtext | NO       |     |                   | parsed text                             |
+| status            | int(11)    | NO       |     | 1                 | answer status(available: 1;deleted: 10) |
+| adopted           | int(11)    | NO       |     | 1                 | adopted (1 failed 2 adopted)            |
+| comment_count     | int(11)    | NO       |     | 0                 | comment count                           |
+| vote_count        | int(11)    | NO       |     | 0                 | vote count                              |
+| revision_id       | bigint(20) | NO       |     | 0                 | revision id                             |
 
 ## collection	
 > `collection` table records user collection about any object.
 
-|          COLUMN          | DATA TYPE  | NULLABLE | KEY |      DEFAULT      |         COMMENT          |
-|--------------------------|------------|----------|-----|-------------------|--------------------------|
-| id                       | bigint(20) | NO       | PRI |                 0 | collection id            |
-| created_at               | timestamp  | NO       |     | CURRENT_TIMESTAMP | created time             |
-| updated_at               | timestamp  | NO       |     | CURRENT_TIMESTAMP | updated time             |
-| user_id                  | bigint(20) | NO       | MUL |                 0 | user id                  |
-| object_id                | bigint(20) | NO       |     |                 0 | object id                |
-| user_collection_group_id | bigint(20) | NO       |     |                 0 | user collection group id |
+| COLUMN                     | DATA TYPE    | NULLABLE   | KEY   | DEFAULT             | COMMENT                    |
+|----------------------------|--------------|------------|-------|---------------------|----------------------------|
+| id                         | bigint(20)   | NO         | PRI   | 0                   | collection id              |
+| created_at                 | timestamp    | NO         |       | CURRENT_TIMESTAMP   | created time               |
+| updated_at                 | timestamp    | NO         |       | CURRENT_TIMESTAMP   | updated time               |
+| user_id                    | bigint(20)   | NO         | MUL   | 0                   | user id                    |
+| object_id                  | bigint(20)   | NO         |       | 0                   | object id                  |
+| user_collection_group_id   | bigint(20)   | NO         |       | 0                   | user collection group id   |
 
 ## collection_group 
 
-|    COLUMN     |  DATA TYPE  | NULLABLE | KEY |      DEFAULT      |            COMMENT             |
-|---------------|-------------|----------|-----|-------------------|--------------------------------|
-| id            | bigint(20)  | NO       | PRI |                   | id                             |
-| created_at    | timestamp   | NO       |     | CURRENT_TIMESTAMP | created time                   |
-| updated_at    | timestamp   | NO       |     | CURRENT_TIMESTAMP | updated time                   |
-| user_id       | bigint(20)  | NO       | MUL |                 0 | user id                        |
-| name          | varchar(50) | NO       |     |                   | the collection group name      |
-| default_group | int(11)     | NO       |     |                 1 | mark this group is default,    |
-|               |             |          |     |                   | default 1                      |
+| COLUMN        | DATA TYPE   | NULLABLE | KEY | DEFAULT           | COMMENT                               |
+|---------------|-------------|----------|-----|-------------------|---------------------------------------|
+| id            | bigint(20)  | NO       | PRI |                   | id                                    |
+| created_at    | timestamp   | NO       |     | CURRENT_TIMESTAMP | created time                          |
+| updated_at    | timestamp   | NO       |     | CURRENT_TIMESTAMP | updated time                          |
+| user_id       | bigint(20)  | NO       | MUL | 0                 | user id                               |
+| name          | varchar(50) | NO       |     |                   | the collection group name             |
+| default_group | int(11)     | NO       |     | 1                 | mark this group is default, default 1 |
 
 ## comment	
 > `comment` table records the comment about question or answer.
 
 | COLUMN           | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                  |
-| ---------------- | ---------- | -------- | --- | ------- | ---------------------------------------- |
+|------------------|------------|----------|-----|---------|------------------------------------------|
 | id               | bigint(20) | NO       | PRI |         | comment id                               |
 | created_at       | timestamp  | YES      |     |         | create time                              |
 | updated_at       | timestamp  | YES      |     |         | update time                              |
@@ -88,11 +91,11 @@ Different databases have different data types. The following table presumes use 
 ## config	
 > `config` records the site configuration.
 
-| COLUMN | DATA TYPE   | NULLABLE | KEY | DEFAULT | COMMENT                                            |
-| ------ | ----------- | -------- | --- | ------- | -------------------------------------------------- |
-| id     | int(11)     | NO       | PRI |         | config id                                          |
-| key    | varchar(32) | YES      | UNI |         | the config key                                     |
-| value  | text        | YES      |     |         | the config value, custom data structures and types |
+| COLUMN | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                            |
+|--------|--------------|----------|-----|---------|----------------------------------------------------|
+| id     | int(11)      | NO       | PRI |         | config id                                          |
+| key    | varchar(128) | YES      | UNI |         | the config key                                     |
+| value  | text         | YES      |     |         | the config value, custom data structures and types |
 
 ## meta	
 > `meta` records some extra information about the object.
@@ -109,28 +112,40 @@ Different databases have different data types. The following table presumes use 
 ## notification	
 > `notification` table records the notification that user received.
 
-| COLUMN     | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                 |
-| ---------- | ---------- | -------- | --- | ------- | --------------------------------------- |
-| id         | bigint(20) | NO       | PRI |         | notification id                         |
-| created_at | timestamp  | YES      |     |         | create time                             |
-| updated_at | timestamp  | YES      |     |         | update time                             |
-| user_id    | bigint(20) | NO       | MUL | 0       | user id                                 |
-| object_id  | bigint(20) | NO       | MUL | 0       | object id                               |
-| content    | text       | NO       |     |         | notification content                    |
-| type       | int(11)    | NO       |     | 0       | notification type(1:inbox;              |
-|            |            |          |     |         | 2:achievement)                          |
-| is_read    | int(11)    | NO       |     | 1       | read status(unread: 1; read 2)          |
-| status     | int(11)    | NO       |     | 1       | notification status(normal: 1;delete 2) |
+| COLUMN     | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                   |
+|------------|------------|----------|-----|---------|-------------------------------------------|
+| id         | bigint(20) | NO       | PRI |         | notification id                           |
+| created_at | timestamp  | YES      |     |         | create time                               |
+| updated_at | timestamp  | YES      |     |         | update time                               |
+| user_id    | bigint(20) | NO       | MUL | 0       | user id                                   |
+| object_id  | bigint(20) | NO       | MUL | 0       | object id                                 |
+| content    | text       | NO       |     |         | notification content                      |
+| type       | int(11)    | NO       |     | 0       | notification type(1:inbox; 2:achievement) |
+| is_read    | int(11)    | NO       |     | 1       | read status(unread: 1; read 2)            |
+| status     | int(11)    | NO       |     | 1       | notification status(normal: 1;delete 2)   |
+
+## power
+> `power` table records all permissions
+
+| COLUMN        | DATA TYPE      | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
+|---------------|----------------|------------|-------|-----------|-------------|
+| id            | int(11)        | NO         | PRI   |           |             |
+| created_at    | timestamp      | YES        |       |           | create time |
+| updated_at    | timestamp      | YES        |       |           | update time |
+| name          | varchar(50)    | NO         |       |           | name        |
+| power_type    | varchar(100)   | NO         |       |           | power type  |
+| description   | varchar(200)   | NO         |       |           | description |
 
 ## question
 > `question` table records the question info.
 
 | COLUMN             | DATA TYPE    | NULLABLE | KEY | DEFAULT           | COMMENT                                   |
-| ------------------ | ------------ | -------- | --- | ----------------- | ----------------------------------------- |
+|--------------------|--------------|----------|-----|-------------------|-------------------------------------------|
 | id                 | bigint(20)   | NO       | PRI |                   | question id                               |
 | created_at         | timestamp    | NO       |     | CURRENT_TIMESTAMP | create time                               |
 | updated_at         | timestamp    | NO       |     | CURRENT_TIMESTAMP | update time                               |
 | user_id            | bigint(20)   | NO       | MUL | 0                 | user id                                   |
+| last_edit_user_id  | bigint(20)   | NO       |     | 0                 | last edit user id                         |
 | title              | varchar(150) | NO       |     |                   | question title                            |
 | original_text      | mediumtext   | NO       |     |                   | original text                             |
 | parsed_text        | mediumtext   | NO       |     |                   | parsed text                               |
@@ -150,7 +165,7 @@ Different databases have different data types. The following table presumes use 
 > `report` table records the content of user reports
 
 | COLUMN           | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                  |
-| ---------------- | ---------- | -------- | --- | ------- | ---------------------------------------- |
+|------------------|------------|----------|-----|---------|------------------------------------------|
 | id               | bigint(20) | NO       | PRI |         | id                                       |
 | created_at       | timestamp  | YES      |     |         | create time                              |
 | updated_at       | timestamp  | YES      |     |         | update time                              |
@@ -167,24 +182,48 @@ Different databases have different data types. The following table presumes use 
 ## revision	
 > `revision` table records the object revision and the content of the version.
 
-| COLUMN      | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                     |
-| ----------- | ------------ | -------- | --- | ------- | ------------------------------------------- |
-| id          | bigint(20)   | NO       | PRI |         | id                                          |
-| created_at  | timestamp    | YES      |     |         | create time                                 |
-| updated_at  | timestamp    | YES      |     |         | update time                                 |
-| user_id     | bigint(20)   | NO       |     | 0       | user id                                     |
-| object_type | int(11)      | NO       |     | 0       | revision type(question: 1; answer 2; tag 3) |
-| object_id   | bigint(20)   | NO       | MUL | 0       | object id                                   |
-| title       | varchar(255) | NO       |     |         | title                                       |
-| content     | text         | NO       |     |         | content                                     |
-| log         | varchar(255) | YES      |     |         | log                                         |
-| status      | int(11)      | NO       |     | 1       | revision status(normal: 1; delete 2)        |
+| COLUMN         | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                     |
+|----------------|--------------|----------|-----|---------|---------------------------------------------|
+| id             | bigint(20)   | NO       | PRI |         | id                                          |
+| created_at     | timestamp    | YES      |     |         | create time                                 |
+| updated_at     | timestamp    | YES      |     |         | update time                                 |
+| user_id        | bigint(20)   | NO       |     | 0       | user id                                     |
+| object_type    | int(11)      | NO       |     | 0       | revision type(question: 1; answer 2; tag 3) |
+| object_id      | bigint(20)   | NO       | MUL | 0       | object id                                   |
+| title          | varchar(255) | NO       |     |         | title                                       |
+| content        | text         | NO       |     |         | content                                     |
+| log            | varchar(255) | YES      |     |         | log                                         |
+| status         | int(11)      | NO       |     | 1       | revision status(normal: 1; delete 2)        |
+| review_user_id | bigint(20)   | NO       |     | 0       | review user id                              |
+
+## role
+> `role` table records all roles
+
+| COLUMN        | DATA TYPE      | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
+|---------------|----------------|------------|-------|-----------|-------------|
+| id            | int(11)        | NO         | PRI   |           |             |
+| created_at    | timestamp      | YES        |       |           | create time |
+| updated_at    | timestamp      | YES        |       |           | update time |
+| name          | varchar(50)    | NO         |       |           | name        |
+| description   | varchar(200)   | NO         |       |           | description |
+
+## role_power_rel
+> `role_power_rel` records the relationship between roles and powers
+
+| COLUMN       | DATA TYPE      | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
+|--------------|----------------|------------|-------|-----------|-------------|
+| id           | int(11)        | NO         | PRI   |           |             |
+| created_at   | timestamp      | YES        |       |           | create time |
+| updated_at   | timestamp      | YES        |       |           | update time |
+| role_id      | int(11)        | NO         |       | 0         | role id     |
+| power_type   | varchar(200)   | NO         |       |           | power       |
+
 
 ## site_info
 > `site_info` table records the site information about interface or something related
 
 | COLUMN     | DATA TYPE   | NULLABLE | KEY | DEFAULT | COMMENT                                    |
-| ---------- | ----------- | -------- | --- | ------- | ------------------------------------------ |
+|------------|-------------|----------|-----|---------|--------------------------------------------|
 | id         | int(11)     | NO       | PRI |         | id                                         |
 | created_at | timestamp   | YES      |     |         | create time                                |
 | updated_at | timestamp   | YES      |     |         | update time                                |
@@ -196,7 +235,7 @@ Different databases have different data types. The following table presumes use 
 > `tag` table records the tag information.
 
 | COLUMN             | DATA TYPE   | NULLABLE | KEY | DEFAULT | COMMENT                              |
-| ------------------ | ----------- | -------- | --- | ------- | ------------------------------------ |
+|--------------------|-------------|----------|-----|---------|--------------------------------------|
 | id                 | bigint(20)  | NO       | PRI |         | tag_id                               |
 | created_at         | timestamp   | YES      |     |         | create time                          |
 | updated_at         | timestamp   | YES      |     |         | update time                          |
@@ -214,14 +253,14 @@ Different databases have different data types. The following table presumes use 
 ## tag_rel
 > `tag_rel` table records the relationship between objects and tags
 
-| COLUMN     | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                   |
-| ---------- | ---------- | -------- | --- | ------- | ----------------------------------------- |
-| id         | bigint(20) | NO       | PRI |         | tag_list_id                               |
-| created_at | timestamp  | YES      |     |         | create time                               |
-| updated_at | timestamp  | YES      |     |         | update time                               |
-| object_id  | bigint(20) | NO       | MUL |         | object_id                                 |
-| tag_id     | bigint(20) | NO       | MUL |         | tag_id                                    |
-| status     | int(11)    | NO       |     | 1       | tag_list_status(available: 1;deleted: 10) |
+| COLUMN         | DATA TYPE      | NULLABLE     | KEY     | DEFAULT     | COMMENT                                     |
+|----------------|----------------|--------------|---------|-------------|---------------------------------------------|
+| id             | bigint(20)     | NO           | PRI     |             | tag_list_id                                 |
+| created_at     | timestamp      | YES          |         |             | create time                                 |
+| updated_at     | timestamp      | YES          |         |             | update time                                 |
+| object_id      | bigint(20)     | NO           | MUL     |             | object_id                                   |
+| tag_id         | bigint(20)     | NO           | MUL     |             | tag_id                                      |
+| status         | int(11)        | NO           |         | 1           | tag_list_status(available: 1;deleted: 10)   |
 
 ## uniqid	
 > `uniqid` table recorded the object_id that can uniquely identify an object.
@@ -235,7 +274,7 @@ Different databases have different data types. The following table presumes use 
 > The user table recorded basic information about the user.
 
 | COLUMN          | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                |
-| --------------- | ------------ | -------- | --- | ------- | -------------------------------------- |
+|-----------------|--------------|----------|-----|---------|----------------------------------------|
 | id              | bigint(20)   | NO       | PRI |         | user id                                |
 | created_at      | timestamp    | YES      |     |         | create time                            |
 | updated_at      | timestamp    | YES      |     |         | update time                            |
@@ -261,7 +300,18 @@ Different databases have different data types. The following table presumes use 
 | website         | varchar(255) | NO       |     |         | website                                |
 | location        | varchar(100) | NO       |     |         | location                               |
 | ip_info         | varchar(255) | NO       |     |         | ip info                                |
-| is_admin        | int(11)      | NO       |     | 0       | admin flag                             |
+| is_admin        | int(11)      | NO       |     | 0       | admin flag(deprecated)                 |
+
+## user_role_rel
+> The `user_role_rel` table records the relationship between users and roles.
+
+| COLUMN       | DATA TYPE    | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
+|--------------|--------------|------------|-------|-----------|-------------|
+| id           | int(11)      | NO         | PRI   |           |             |
+| created_at   | timestamp    | YES        |       |           | create time |
+| updated_at   | timestamp    | YES        |       |           | update time |
+| user_id      | bigint(20)   | NO         |       | 0         | user id     |
+| role_id      | int(11)      | NO         |       | 0         | role id     |
 
 ## version
 > The version of the current answer is recorded in version table for upgrade.
