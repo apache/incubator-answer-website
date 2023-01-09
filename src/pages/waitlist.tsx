@@ -29,6 +29,11 @@ export default function Home(): JSX.Element {
             <HubspotForm
               portalId="23567456"
               formId="c5961d1c-d7ee-42e6-ab2f-bdaa3d3f2fc8"
+              loading={<div style={{ textAlign: 'center' }}>
+              <div className='spinner-border text-secondary'>
+                <span style={{ visibility: 'hidden' }}>Loading</span>
+              </div>
+            </div>}
             />
           </div>
         </div>

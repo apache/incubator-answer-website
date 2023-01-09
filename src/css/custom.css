@@ -164,6 +164,23 @@ img {
   margin-top: 3rem;
 }
 
+.spinner-border {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: top;
+  border: 0.25rem solid var(--ifm-color-secondary);
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: 0.75s linear infinite spinner-border;
+}
+
+@keyframes spinner-border {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media (max-width: 996px) {
 
 
