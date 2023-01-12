@@ -47,7 +47,7 @@ when cloning repo, and run `pnpm install` to init dependencies. you can use proj
 If you need to add or edit a language entry, just go to the `/i18n/en_US.yaml` file,
 all front-end language entries are placed under the `ui` field.
 
-If you would like to help us with the i18n translation, please visit [Answer@Crowdin](https://crowdin.com/translate/answer)
+If you would like to help us with the i18n translation, please visit [Answer at Crowdin](https://crowdin.com/translate/answer)
 
 ## 💡 Project instructions
 
