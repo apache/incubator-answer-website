@@ -5,7 +5,7 @@ sidebar_position: 0
 
 ## Introduction
 
-Ability to build HTML forms from JSON schemas. [JSON schema](https://json-schema.org/understanding-json-schema/index.html).
+A React component capable of building HTML forms out of a [JSON schema](https://json-schema.org/understanding-json-schema/index.html).
 
 ## Usage
 
