@@ -80,7 +80,9 @@ export default Form;
 | onChange | Callback function when form data changes | (data: [FormData](#formdata)) => void | -       |
 | onSubmit | Callback function when form is submitted | (data: React.FormEvent) => void       | -       |
 
-## JSON Schema
+## Types Definition
+### JSONSchema
+
 ```ts
 export interface JSONSchema {
   title: string;
@@ -100,7 +102,7 @@ export interface JSONSchema {
 }
 ```
 
-## UIOptions
+### UIOptions
 
 ```ts
 export interface UIOptions {
@@ -112,7 +114,8 @@ export interface UIOptions {
   ) => Promise<string | true | void> | true | string;
 }
 ```
-## InputOptions
+### InputOptions
+
 ```ts
 export interface InputOptions extends UIOptions {
   placeholder?: string;
@@ -133,43 +136,51 @@ export interface InputOptions extends UIOptions {
     | 'week';
 }
 ```
-## SelectOptions
+### SelectOptions
+
 ```ts
 export interface SelectOptions extends UIOptions {}
 ```
-## UploadOptions
+### UploadOptions
+
 ```ts
 export interface UploadOptions extends UIOptions {
   acceptType?: string;
   imageType?: 'post' | 'avatar' | 'branding';
 }
 ```
-## SwitchOptions
+### SwitchOptions
+
 ```ts
 export interface SwitchOptions extends UIOptions {}
 ```
-## TimezoneOptions
+### TimezoneOptions
+
 ```ts
 export interface TimezoneOptions extends UIOptions {
   placeholder?: string;
 }
 ```
-## CheckboxOptions
+### CheckboxOptions
+
 ```ts
 export interface CheckboxOptions extends UIOptions {}
 ```
-## RadioOptions
+### RadioOptions
+
 ```ts
 export interface RadioOptions extends UIOptions {}
 ```
-## TextareaOptions
+### TextareaOptions
+
 ```ts
 export interface TextareaOptions extends UIOptions {
   placeholder?: string;
   rows?: number;
 }
 ```
-## UIWidget
+### UIWidget
+
 ```ts
 export type UIWidget =
   | 'textarea'
@@ -182,7 +193,7 @@ export type UIWidget =
   | 'switch';
 ```
 
-## UISchema
+### UISchema
 
 ```ts
 export interface UISchema {
@@ -201,7 +212,7 @@ export interface UISchema {
 }
 ```
 
-## FormData
+### FormData
 ```ts
 export interface FormValue<T = any> {
   value: T;
@@ -220,7 +231,7 @@ export interface FormDataType {
 
 For backend generating modal form you can return json like this.
 
-#### Response
+### Response
 
 ```json
 {
