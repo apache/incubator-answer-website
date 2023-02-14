@@ -47,7 +47,7 @@ We use the build command provided with the Answer binary to rebuild a version of
 $ ./answer build --with github.com/answerdev/plugins/connector/github
 
 # build a new answer with github login plugin then output to ./new_answer.
-$ ./answer build --with github.com/answerdev/plugins/connector/github@latest --output ./new_answer
+$ ./answer build --with github.com/answerdev/plugins/connector/github@1.0.0 --output ./new_answer
 
 # with multiple plugins
 $ ./answer build \
@@ -55,7 +55,7 @@ $ ./answer build \
 --with github.com/answerdev/plugins/connector/google
 
 # with local plugins
-$ ./answer build --with github.com/answerdev/plugins/connector/github@latest=/my-local-space
+$ ./answer build --with github.com/answerdev/plugins/connector/github@1.0.0=/my-local-space
 ```
 
 :::tip
