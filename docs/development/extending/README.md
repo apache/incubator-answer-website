@@ -27,9 +27,6 @@ You can find a list of officially supported plugins for Answer [here](https://gi
 
 ## Build
 > Answer binary supports packaging different required plugins into the binary.
-:::caution
-Cross compilation is not supported yet. You need to compile on the corresponding platform or use docker.
-:::
 
 ### Prerequisites
 - Original Answer binary
@@ -37,7 +34,7 @@ Cross compilation is not supported yet. You need to compile on the corresponding
 
 ### Command
 :::tip
-We use the build command provided with the Answer binary to rebuild a version of Answer with the plugin.
+We use the `build` command provided with the Answer binary to rebuild a version of Answer with the plugin.
 :::
 
 > For example, let's see how to build an Answer binary that includes the github third-party login plugin
@@ -56,14 +53,21 @@ $ ./answer build \
 
 # with local plugins
 $ ./answer build --with github.com/answerdev/plugins/connector/github@1.0.0=/my-local-space
+
+# cross compilation. Build a linux-amd64 binary in macos 
+$ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/answerdev/plugins/connector/github
 ```
 
 :::tip
-You can use the 'plugin' command to list the current binary containing plugins
+You can use the `plugin` command to list the current binary containing plugins.
 :::
 
 ```shell
-./new_answer plugin
+$ ./new_answer plugin
+
+# output
+# github connector[0.0.1] made by answerdev
+# google connector[0.0.1] made by answerdev
 ```
 
 ## Third-party plugin
