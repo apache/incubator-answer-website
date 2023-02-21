@@ -5,7 +5,7 @@ import Footer from '@site/src/components/Footer';
 
 export default function Home(): JSX.Element {
   useEffect(() => {
-    // 动态加载js
+    // 动态加载 js
     const script = document.createElement('script');
     script.src = '//js.hsforms.net/forms/v2.js';
     document.body.appendChild(script);
@@ -18,13 +18,10 @@ export default function Home(): JSX.Element {
     <Layout title='Waitlist' description="An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more.">
       <div className="container mt-5">
         <div className="row justify-center">
-          <div className="col col--10" style={{ marginBottom: '3.5rem' }}>
+          <div className="col col--6" style={{ marginBottom: '3.5rem' }}>
             <h1>Answer Cloud is coming soon!</h1>
-            <p>
-            We are working hard to build Answer Cloud, the SaaS version of Answer.
-            </p>
             <p className="margin-bottom--lg padding-bottom--md">
-            Fill out the form now to stay on top of the latest product updates, development inspirations, and user research prompt. In accordance with our privacy policy, we will keep your information secure at all times.
+            We are working hard to build Answer Cloud solution. Fill out the form now to stay on top of the latest product updates, development inspirations, and user research prompt. We will keep your information secure at all times.
             </p>
             <HubspotForm
               portalId="23567456"

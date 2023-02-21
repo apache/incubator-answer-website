@@ -83,7 +83,7 @@ const HomeHead: FC = () => {
             to="/waitlist"
             className="d-flex align-center text-secondary text--center"
           >
-            Join the Answer Cloud Waitlist
+            👋 Join the Answer Cloud Waitlist
             <img
               className="margin-left--xs"
               src={require('@site/static/img/arrow-right.png').default}
