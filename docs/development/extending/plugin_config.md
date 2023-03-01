@@ -24,25 +24,25 @@ As a plugin developer, you only need to build a structure `[]ConfigField` and fi
 
 ```go
 type ConfigField struct {
-	Name        string               `json:"name"`
-	Type        ConfigType           `json:"type"`
-	Title       string               `json:"title"`
-	Description string               `json:"description"`
-	Required    bool                 `json:"required"`
-	Value       string               `json:"value"`
-	UIOptions   ConfigFieldUIOptions `json:"ui_options"`
-	Options     []ConfigFieldOption  `json:"options,omitempty"`
+    Name        string               `json:"name"`
+    Type        ConfigType           `json:"type"`
+    Title       Translator           `json:"title"`
+    Description Translator           `json:"description"`
+    Required    bool                 `json:"required"`
+    Value       string               `json:"value"`
+    UIOptions   ConfigFieldUIOptions `json:"ui_options"`
+    Options     []ConfigFieldOption  `json:"options,omitempty"`
 }
 
 type ConfigFieldUIOptions struct {
-	Placeholder string    `json:"placeholder,omitempty"`
-	Rows        string    `json:"rows,omitempty"`
-	InputType   InputType `json:"input_type,omitempty"`
+    Placeholder Translator `json:"placeholder,omitempty"`
+    Rows        string     `json:"rows,omitempty"`
+    InputType   InputType  `json:"input_type,omitempty"`
 }
 
 type ConfigFieldOption struct {
-	Label string `json:"label"`
-	Value string `json:"value"`
+    Label Translator `json:"label"`
+    Value string     `json:"value"`
 }
 ```
 

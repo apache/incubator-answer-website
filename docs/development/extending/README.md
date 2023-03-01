@@ -122,30 +122,35 @@ For example, following is the `Connector` plugin interface.
 
 ```go
 type Connector interface {
-	Base
-
-	// ConnectorLogoSVG presents the logo in svg format
-	ConnectorLogoSVG() string
-
-	// ConnectorName presents the name of the connector
-	// e.g. Facebook, Twitter, Instagram
-	ConnectorName() string
-
-	// ConnectorSlugName presents the slug name of the connector
-	// Please use lowercase and hyphen as the separator
-	// e.g. facebook, twitter, instagram
-	ConnectorSlugName() string
-
-	// ConnectorSender presents the sender of the connector
-	// It handles the start endpoint of the connector
-	// receiverURL is the whole URL of the receiver
-	ConnectorSender(ctx *GinContext, receiverURL string) (redirectURL string)
-
-	// ConnectorReceiver presents the receiver of the connector
-	// It handles the callback endpoint of the connector, and returns the
-	ConnectorReceiver(ctx *GinContext) (userInfo ExternalLoginUserInfo, err error)
+    Base
+    
+    // ConnectorLogoSVG presents the logo in svg format
+    ConnectorLogoSVG() string
+    
+    // ConnectorName presents the name of the connector
+    // e.g. Facebook, Twitter, Instagram
+    ConnectorName() Translator
+    
+    // ConnectorSlugName presents the slug name of the connector
+    // Please use lowercase and hyphen as the separator
+    // e.g. facebook, twitter, instagram
+    ConnectorSlugName() string
+    
+    // ConnectorSender presents the sender of the connector
+    // It handles the start endpoint of the connector
+    // receiverURL is the whole URL of the receiver
+    ConnectorSender(ctx *GinContext, receiverURL string) (redirectURL string)
+    
+    // ConnectorReceiver presents the receiver of the connector
+    // It handles the callback endpoint of the connector, and returns the
+    ConnectorReceiver(ctx *GinContext) (userInfo ExternalLoginUserInfo, err error)
 }
 ```
+
+:::tip
+`Translator` is a struct for translation. Please refer to [the documentation](/docs/development/extending/plugin_translation) for details.
+:::
+
 
 #### Implement the configuration interface
 For details on the description of each configuration item, please refer to [the documentation](/docs/development/extending/plugin_config).
