@@ -160,8 +160,17 @@ img {
   color: #AAA;
   cursor: default;
 }
+
 .mt-5 {
   margin-top: 3rem;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+.mt-3 {
+  margin-top: 1rem;
 }
 
 .spinner-border {
@@ -181,7 +190,4 @@ img {
   }
 }
 
-@media (max-width: 996px) {
-
-
-}
+@media (max-width: 996px) {}

@@ -29,7 +29,19 @@ const HomeHead: FC = () => {
   return (
     <header>
       <div className={clsx('container', styles.content, styles.flexCenter)}>
-        <div className={clsx('col col--8', styles.flexCenter)}>
+        <Link
+          to="/waitlist"
+          className="d-flex align-center text-secondary text--center mb-5"
+        >
+          👋 Join the Answer Cloud Waitlist
+          <img
+            className="margin-left--xs"
+            src={require('@site/static/img/arrow-right.png').default}
+            alt="waitlist"
+            width="14px"
+          />
+        </Link>
+        <div className={clsx('col col--8 mt-3', styles.flexCenter)}>
           <img
             src={require('@site/static/img/head-icon.png').default}
             alt="head-icon"
@@ -78,19 +90,6 @@ const HomeHead: FC = () => {
               {stars !== 0 ? numWord(stars) : ''}
             </a>
           </div>
-
-          <Link
-            to="/waitlist"
-            className="d-flex align-center text-secondary text--center"
-          >
-            👋 Join the Answer Cloud Waitlist
-            <img
-              className="margin-left--xs"
-              src={require('@site/static/img/arrow-right.png').default}
-              alt="waitlist"
-              width="14px"
-            />
-          </Link>
         </div>
       </div>
     </header>
