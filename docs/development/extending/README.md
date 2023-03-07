@@ -99,11 +99,12 @@ Viewing the [official plugin](https://github.com/answerdev/plugins) code will ma
 ```go
 // Info presents the plugin information
 type Info struct {
-	Name        string
+	Name        Translator
 	SlugName    string
-	Description string
+	Description Translator
 	Author      string
 	Version     string
+	Link        string
 }
 
 // Base is the base plugin
@@ -112,6 +113,10 @@ type Base interface {
 	Info() Info
 }
 ```
+
+:::caution
+The `SlugName` of the plugin must be unique. Two plugins with the same `SlugName` will panic when registering.
+:::
 
 #### Implement the function interface
 :::note
