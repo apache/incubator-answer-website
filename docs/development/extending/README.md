@@ -148,7 +148,7 @@ type Connector interface {
     
     // ConnectorReceiver presents the receiver of the connector
     // It handles the callback endpoint of the connector, and returns the
-    ConnectorReceiver(ctx *GinContext) (userInfo ExternalLoginUserInfo, err error)
+    ConnectorReceiver(ctx *GinContext, receiverURL string) (userInfo ExternalLoginUserInfo, err error)
 }
 ```
 
