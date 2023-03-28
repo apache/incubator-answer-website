@@ -18,12 +18,12 @@ You can find a list of officially supported plugins for Answer [here](https://gi
 > Different types of plugins have different functions. 
 > Plugins of the same type have the same effect, but are implemented differently.
 
-- connector: Used to implement different third-party logins. e.g. `GitHub OAuth Login` (DONE)
-- filter: Filter out illegal questions or answers. (TODO)
-- parser: Parsers for different content formats. (TODO)
-- storage: Supports various types of OSS storage. e.g. `S3` (TODO)
-- cache: Support for using different caching middleware. e.g. `Redis` (TODO)
-- se: Support for using search engines to speed up the search for question answers. (TODO)
+- Connector: The Connector plugin helps us to implement third-party login functionality. e.g. `GitHub OAuth Login`
+- Storage: The Storage plugin helps us to upload files to third-party storage. (preview)
+- Cache: Parsers for different content formats. (preview)
+- Filter: Filter out illegal questions or answers. (coming soon)
+- Render: Parsers for different content formats. (coming soon)
+- Finder: Support for using search engines to speed up the search for question answers. (coming soon)
 
 ## Build
 > Answer binary supports packaging different required plugins into the binary.
