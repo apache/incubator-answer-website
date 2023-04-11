@@ -11,7 +11,7 @@ export default function Home(): JSX.Element {
     <Layout
       description="An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more.">
       <Head>
-        <title>Answer | Q&A Platforms</title>
+        <title>Answer | Q&A Platforms</title>
       </Head>
       <main className='headerBg'>
         <HomePageHeader />
