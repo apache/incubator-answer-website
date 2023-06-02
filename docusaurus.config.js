@@ -1,4 +1,3 @@
-// @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
@@ -78,6 +77,10 @@ const config = {
             to: 'https://meta.answer.dev',
           },
           {
+            label: 'Blog',
+            to: '/blog',
+          },
+          {
             src: 'img/discord.svg',
             className: 'header-discord-link',
             to: 'https://discord.gg/a6PZZbfnFx',
@@ -98,6 +101,22 @@ const config = {
     }),
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Lexend:wght@400..700&display=swap',
+  ],
+  plugins: [
+    // Use custom blog plugin
+    [
+      "./plugins/blog-plugin",
+      {
+        id: "blog",
+        routeBasePath: "blog",
+        path: "./blog",
+        blogSidebarCount: 5,
+        postsPerPage: 16,
+        // blogListComponent: "@site/src/components/BlogList",
+        // blogTagsListComponent: "@site/src/components/BlogTagsList",
+        // blogTagsPostsComponent: "@site/src/components/BlogTagsPosts",
+      },
+    ],
   ],
 };
 

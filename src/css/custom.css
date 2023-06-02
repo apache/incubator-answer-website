@@ -83,6 +83,10 @@ body {
   font-family: Lexend, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.col-b {
+  padding: 0 12px !important;
+}
+
 .fw-normal {
   font-weight: 400 !important;
 }
@@ -101,6 +105,26 @@ body {
 
 .text-secondary {
   color: var(--ifm-color-secondary);
+}
+
+.text-truncate-1,
+.text-truncate-2,
+.text-truncate-3,
+.text-truncate-4 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.text-truncate-2 {
+  -webkit-line-clamp: 2;
+}
+.text-truncate-3 {
+  -webkit-line-clamp: 3;
+}
+.text-truncate-4 {
+  -webkit-line-clamp: 4;
 }
 
 .mb-4 {

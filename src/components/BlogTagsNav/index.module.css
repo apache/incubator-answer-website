@@ -1,0 +1,13 @@
+.button {
+  padding: 7px 1rem;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.button:hover {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  text-decoration: none;
+}

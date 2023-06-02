@@ -1,0 +1,31 @@
+.flex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.tagWrap {
+  display: flex;
+  align-items: center;
+}
+.block {
+  display: block;
+}
+
+.black, .black:hover {
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+}
+.h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.imgWrap {
+  display: block;
+  width: 33.3%;
+  flex: none;
+}
