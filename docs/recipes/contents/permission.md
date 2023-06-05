@@ -5,24 +5,26 @@
 **Reputation score:**  
 
 - `1`
-  - Ask, answer, comment, create new tag  
-  - Flag, upvote comment  
+  - Ask, answer, comment
+  - Flag post
+  - Create new tag
+  - Upvote comment  
 - `10`  
   - Post more than 2 hyperlinks at a time  
 - `15`  
-  - Upvote any questions or answers  
+  - Upvote other's questions or answers  
 - `100`  
-  - Edits to tag description, need to review  
+  - Edit tag description, need to review  
 - `125`  
-  - Downvote any questions or answers  
+  - Downvote other's questions or answers  
 - `200`  
-  - Edits to any question and answer, need to review  
+  - Edits other's question and answer, need to review  
 - `2000`  
-  - Edits to any question or answer are applied immediately  
-  - Approve edits to question or answer made by regular users  
+  - Edits other's question or answer without review
+  - Review question or answer edits  
 - `20000`  
-  - Edits to tag description are applied immediately  
-  - Approve edits to tag description made by regular users  
+  - Edits tag description without review
+  - Review tag edits  
   - Create tag synonyms  
 
 ## User roles
