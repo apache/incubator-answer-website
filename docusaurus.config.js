@@ -2,7 +2,8 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -101,6 +102,13 @@ const config = {
     }),
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Lexend:wght@400..700&display=swap',
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
   ],
   plugins: [
     // Use custom blog plugin
@@ -110,8 +118,13 @@ const config = {
         id: "blog",
         routeBasePath: "blog",
         path: "./blog",
-        blogSidebarCount: 5,
-        postsPerPage: 16,
+        blogTitle: 'Answer Blog',
+        blogDescription: 'Learn everything about Answer and leverage your Q&A community.',
+        blogSidebarCount: 0,
+        postsPerPage: 4,
+        showReadingTime: true,
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
         // blogListComponent: "@site/src/components/BlogList",
         // blogTagsListComponent: "@site/src/components/BlogTagsList",
         // blogTagsPostsComponent: "@site/src/components/BlogTagsPosts",

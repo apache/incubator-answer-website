@@ -1,10 +1,10 @@
 ---
 slug: third-blog-post
 title: Third Blog Post
-authors: [slorber, yangshun]
-tags: [hola, docusaurus]
-recommend: 4
-image: banner.jpg
+authors: [slorber]
+tags: [Insights]
+featured: true
+image: cover@2x.png
 description: This is for seo and description
 ---
 

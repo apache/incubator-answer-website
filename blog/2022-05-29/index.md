@@ -1,10 +1,10 @@
 ---
 slug: second-blog-post
 title: Second Blog Post
-authors: [slorber, yangshun]
-tags: [hola, docusaurus]
-recommend: 3
-image: banner.jpg
+authors: [yangshun]
+tags: [Insights]
+featured: true
+image: cover@2x.png
 description: 'This is for seo and description'
 ---
 

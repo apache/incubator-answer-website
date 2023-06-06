@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Index = ({ data = [] }: Props) => {
-  if (!data.length) return null;
+  if (!data.length || data.length < 2) return null;
 
   return (
     <div className='row padding-vert--xl'>
@@ -17,6 +17,7 @@ const Index = ({ data = [] }: Props) => {
         <div>
           <Link to={data[0].permalink} className={clsx('margin-bottom--md', styles.block)}>
             <img
+              className={styles.rounded}
               src={require(`@site/static/img/blog/${data[0].image}`).default} alt=""
             />
           </Link>
@@ -50,6 +51,7 @@ const Index = ({ data = [] }: Props) => {
                 key={item.permalink}>
                 <Link to={item.permalink} className={clsx('margin-right--md', styles.imgWrap)}>
                   <img
+                    className={styles.rounded}
                     src={require(`@site/static/img/blog/${item.image}`).default} alt=""
                   />
                 </Link>

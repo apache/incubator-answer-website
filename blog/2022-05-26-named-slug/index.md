@@ -1,11 +1,9 @@
 ---
-slug: fifth-blog-post
-title: Fifth Blog Post
+title: 05-26 named slug
 authors: [slorber]
-tags: [Release]
-featured: true
+tags: [Tutorials]
 image: cover@2x.png
-description: This is for seo and description
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet

@@ -19,3 +19,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+.rounded {
+  border-radius: 6px;
+}

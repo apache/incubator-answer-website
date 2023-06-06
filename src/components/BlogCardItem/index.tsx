@@ -15,7 +15,9 @@ const Index = ({ data } : Props) => {
   return (
     <div className='col col--3 col-b mb-4'>
       <Link to={metadata.permalink} className={clsx('margin-bottom--md', styles.block)}>
-        <img  src={require(`@site/static/img/blog/${frontMatter.image}`).default} alt="" />
+        <img
+          className={styles.rounded}
+          src={require(`@site/static/img/blog/${frontMatter.image}`).default} alt="" />
       </Link>
       <div className={styles.tagWrap}>
         {metadata.tags.map((tag, tagIndex) => {

@@ -1,6 +1,6 @@
+const path = require("path");
 const blogPluginExports = require("@docusaurus/plugin-content-blog");
 const utils = require("@docusaurus/utils");
-const loadsh = require('lodash');
 
 const defaultBlogPlugin = blogPluginExports.default;
 
@@ -8,14 +8,13 @@ const defaultBlogPlugin = blogPluginExports.default;
 function getRecommendList ({
   blogPosts, // all posts data
 }) {
-  let result =  blogPosts.filter((post) => Number(post.metadata?.frontMatter.recommend) > 0).slice(0, 5)?.map((post) => {
+  const result =  blogPosts.filter((post) => post.metadata?.frontMatter.featured).slice(0, 5)?.map((post) => {
     return {
       ...post.metadata?.frontMatter,
       tags: post.metadata.tags,
       permalink: post.metadata.permalink,
     }
   });
-  result = loadsh.sortBy(result, ['recommend']).reverse();
 
   return result;
 }
@@ -29,9 +28,84 @@ function getAllTags(blogTags){
   return Array.from(new Set(tagsProp));
 }
 
+// paginate blog posts
+function paginateBlogPosts({
+  filtedBlogPosts,
+  basePageUrl,
+  blogTitle,
+  blogDescription,
+  postsPerPageOption,
+}) {
+  const totalCount = filtedBlogPosts.length;
+  const postsPerPage =
+    postsPerPageOption === "ALL" ? totalCount : postsPerPageOption;
+
+  const numberOfPages = Math.ceil(totalCount / postsPerPage);
+
+  const pages = [];
+
+  function permalink(page) {
+    return page > 0
+      ? utils.normalizeUrl([basePageUrl, `page/${page + 1}`])
+      : basePageUrl;
+  }
+
+  for (let page = 0; page < numberOfPages; page += 1) {
+    pages.push({
+      items: filtedBlogPosts
+        .slice(page * postsPerPage, (page + 1) * postsPerPage)
+        .map((item) => item.id),
+      metadata: {
+        permalink: permalink(page),
+        page: page + 1,
+        postsPerPage,
+        totalPages: numberOfPages,
+        totalCount,
+        previousPage: page !== 0 ? permalink(page - 1) : '',
+        nextPage:
+          page < numberOfPages - 1 ? permalink(page + 1) : '',
+        blogDescription,
+        blogTitle,
+      },
+    });
+  }
+
+  return pages;
+}
+
+// related posts by tag
+function getReletadPosts(allBlogPosts, metadata) {
+  const relatedFourPosts = allBlogPosts.filter(
+    (post) =>
+      post.metadata.frontMatter.tags?.some((tag) =>
+        metadata.frontMatter.tags?.includes(tag),
+      ) && post.metadata.title !== metadata.title,
+  ).slice(0, 4);
+
+  const filteredPostInfos = relatedFourPosts.map((post) => {
+    return {
+      content: {
+        frontMatter: {
+          image: post.metadata.frontMatter.image,
+        },
+        metadata: post.metadata,
+      }
+    };
+  });
+
+  return filteredPostInfos;
+}
+
+const pluginDataDirRoot = path.join(
+  ".docusaurus",
+  "docusaurus-plugin-content-blog",
+);
+const aliasedSource = (source) =>
+  `~blog/${utils.posixPath(path.relative(pluginDataDirRoot, source))}`;
+
 async function blogPluginExtended(...pluginArgs) {
   const blogPluginInstance = await defaultBlogPlugin(...pluginArgs);
-  const { postsPerPage } = pluginArgs[1];
+  const { blogTitle, blogDescription, postsPerPage } = pluginArgs[1];
 
   return {
     // Add all properties of the default blog plugin so existing functionality is preserved
@@ -46,62 +120,155 @@ async function blogPluginExtended(...pluginArgs) {
           blogPosts: allBlogPosts,
           blogTags,
           blogTagsListPath,
-          blogListPaginated,
       } = blogContents;
 
-      console.log('blogTagsListPath',blogListPaginated, blogTagsListPath);
+      console.log('===========', blogTagsListPath)
+
+      const { createData, addRoute } = actions;
 
       // Blog Home page
+
+      // Recommend posts list
       const recommendPosts = getRecommendList({blogPosts: allBlogPosts});
-      const recommendPostsJson = await actions.createData(
+      const recommendPostsJson = await createData(
         `${utils.docuHash('recommendPosts')}.json`,
         JSON.stringify(recommendPosts, null, 2)
       );
 
+      // filted reommend posts
+      const filtedBlogPosts = allBlogPosts.filter((post) => {
+        return !recommendPosts.find((v) => v.permalink === post.metadata.permalink);
+      });
+
+      // Blog Home page pagenation
+      const paginateBlogs = paginateBlogPosts({
+        filtedBlogPosts,
+        basePageUrl: "/blog",
+        blogTitle,
+        blogDescription,
+        postsPerPageOption: postsPerPage,
+      });
+
       // Tags list
       const tags = getAllTags(blogTags);
-      const tagsJson = await actions.createData(
+      const tagsJson = await createData(
         `${utils.docuHash('tags')}.json`,
         JSON.stringify(tags, null, 2)
       );
 
-      const homePaginatedJson = await actions.createData(
-        `${utils.docuHash('home-page')}.json`,
-          JSON.stringify({
-            previousPage: undefined,
-            nextPage: blogListPaginated.length > 1 ? '/blog/page/2' : ''},
-            null, 2
-          )
-      );
 
-      actions.addRoute({
-        // Add route for the home page
-        path: "/blog",
-        exact: true,
+      const blogItemsToMetadata = {};
+      function blogPostItemsModule(items) {
+        return items.map((postId) => {
+          const blogPostMetadata = blogItemsToMetadata[postId];
 
-        // The component to use for the "Home" page route
-        component:  "@site/src/components/BlogHome",
-
-        // These are the props that will be passed to our "Home" page component
-        modules: {
-          recommendPosts: recommendPostsJson,
-          tagsList: tagsJson,
-          pagenation: homePaginatedJson,
-          blogList: allBlogPosts.filter(v=> !v.metadata?.frontMatter.recommend).slice(0, postsPerPage).map((post) => ({
+          return {
             content: {
               __import: true,
-              // The markdown file for the blog post will be loaded by webpack
-              path: post.metadata.source,
+              path: blogPostMetadata.source,
               query: {
                 truncated: true,
               },
             },
-          })),
-        },
-      });
+          };
+        });
+      }
+
+      // Create routes for blog details page.
+      await Promise.all(
+        allBlogPosts.map(async (blogPostItem) => {
+          const { id, metadata } = blogPostItem;
+
+          const relatedPosts = getReletadPosts(
+            allBlogPosts,
+            metadata,
+          );
+
+          const relatedList = await createData(
+            `realted-${utils.docuHash(id)}.json`,
+            JSON.stringify(relatedPosts, null, 2),
+          )
+
+          addRoute({
+            path: metadata.permalink,
+            component: "@site/src/components/BlogDetailPage",
+            exact: true,
+            modules: {
+              relatedList,
+              content: metadata.source,
+            },
+          });
+
+          blogItemsToMetadata[id] = metadata;
+        }),
+      );
+
+      // Create routes for blog's paginated list entries.
+      await Promise.all(
+        paginateBlogs.map(async (listPage, index) => {
+          const { metadata, items } = listPage;
+          const { permalink } = metadata;
+
+          const pageMetadataPath = await createData(
+            `home-${utils.docuHash(permalink)}.json`,
+            JSON.stringify(metadata, null, 2),
+          );
+
+          addRoute({
+            path: permalink,
+            exact: true,
+            component:  "@site/src/components/BlogHome",
+            modules: {
+              recommendPosts: permalink === '/blog' ? recommendPostsJson : [],
+              tagsList: tagsJson,
+              blogList: blogPostItemsModule([...items]),
+              metadata: pageMetadataPath,
+            }
+          })
+        }),
+      );
+
+      // Create routes for blog tags post list entries.
+      async function createTagPostsListPage(tag)  {
+        await Promise.all(
+          tag.pages.map(async (blogPaginated) => {
+            const { metadata, items } = blogPaginated;
+            const tagProp = {
+              label: tag.label,
+              permalink: tag.permalink,
+              allTagsPath: blogTagsListPath,
+              count: tag.items.length,
+            };
+            const tagPropPath = await createData(
+              `${utils.docuHash(metadata.permalink)}.json`,
+              JSON.stringify(tagProp, null, 2),
+            );
+
+            const listMetadataPath = await createData(
+              `${utils.docuHash(metadata.permalink)}-list.json`,
+              JSON.stringify(metadata, null, 2),
+            );
+
+            addRoute({
+              path: metadata.permalink,
+              component: "@site/src/components/BlogTagsPostsPage",
+              exact: true,
+              modules: {
+                items: blogPostItemsModule(items),
+                tag: aliasedSource(tagPropPath),
+                tags: tagsJson,
+                listMetadata: aliasedSource(listMetadataPath),
+              },
+            });
+          }),
+        );
+      }
+      await Promise.all(
+        Object.values(blogTags).map(createTagPostsListPage),
+      );
 
       // Call the default overridden `contentLoaded` implementation
-      // return blogPluginInstance.contentLoaded({blogContents, actions});
+      return blogPluginInstance.contentLoaded({content: blogContents, actions});
     },
   };
 }

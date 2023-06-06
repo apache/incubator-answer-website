@@ -1,32 +1,33 @@
 import React, { memo } from 'react';
 import clsx from 'clsx';
 import styles from './index.module.css';
+import Link from '@docusaurus/Link';
 
 interface Props {
   data: any[];
+  className?: string;
+  activeLabel: string;
 }
-const Index = ({ data }: Props) => {
+const Index = ({ data, className = '', activeLabel = '' }: Props) => {
   if (!data || data.length === 0) {
     return null;
   }
   const pathname = window.location.pathname;
   return (
-    <div>
-      {pathname === '/blog' && (
-        <a
-          href="/blog"
-          className={clsx('button button--primary', styles.button)}>
-          All
-        </a>
-      )}
+    <div className={className}>
+      <Link
+        to={pathname === '/blog' ? '###': '/blog'}
+        className={clsx('button button--primary',activeLabel === 'All' ? '' : 'button--link', styles.button)}>
+        All
+      </Link>
       {data.map((tag) => {
         return (
-          <a
+          <Link
             key={tag.label}
-            href={tag.permalink}
-            className={clsx('button button--primary',pathname === tag.permalink  ? '' : 'button--link', styles.button)}>
+            to={tag.permalink}
+            className={clsx('button button--primary',activeLabel === tag.label  ? '' : 'button--link', styles.button)}>
             {tag.label}
-          </a>
+          </Link>
         )
       })}
     </div>

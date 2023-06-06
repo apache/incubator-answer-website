@@ -1,11 +1,9 @@
 ---
-slug: fifth-blog-post
-title: Fifth Blog Post
-authors: [slorber]
+title: 05-25 test 2
+authors: [yangshun]
 tags: [Release]
-featured: true
 image: cover@2x.png
-description: This is for seo and description
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet

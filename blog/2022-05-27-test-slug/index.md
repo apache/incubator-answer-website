@@ -1,9 +1,7 @@
 ---
-slug: fifth-blog-post
-title: Fifth Blog Post
-authors: [slorber]
-tags: [Release]
-featured: true
+title: 05-27 test slug
+authors: [yangshun]
+tags: [Tutorials]
 image: cover@2x.png
 description: This is for seo and description
 ---
