@@ -3,7 +3,6 @@ import Layout from "@theme/Layout";
 import clsx from 'clsx';
 import { Content } from "@theme/BlogPostPage";
 import {
-  PageMetadata,
   HtmlClassNameProvider,
   ThemeClassNames,
 } from '@docusaurus/theme-common';
@@ -13,7 +12,7 @@ import BlogRecommend from "../BlogRecommend";
 import BlogTagsNav from "../BlogTagsNav";
 import BlogList from "../BlogList";
 import BlogPagination from "../BlogPagination";
-
+import PageMetadata from "../PageMetadata";
 type MetaData = {
   blogDescription: string;
   blogTitle: string;
@@ -25,16 +24,15 @@ type MetaData = {
   totalPages: number;
 }
 interface HomeProps {
-  tagsList;
+  categoyList;
   metadata: MetaData;
-  readonly recommendPosts: any;
+  readonly featuredPosts: any[];
   readonly blogListPaginated: any;
   readonly blogList: readonly { readonly content: Content }[];
 }
 
-export function Home({ recommendPosts, tagsList, metadata, blogList }: HomeProps): JSX.Element {
-  console.log('metadata', metadata);
-  console.log('tagsList', recommendPosts);
+export function Home({ featuredPosts, categoyList, metadata, blogList }: HomeProps): JSX.Element {
+  // console.log('metadata', metadata);
   return (
     <HtmlClassNameProvider
       className={clsx(
@@ -44,14 +42,15 @@ export function Home({ recommendPosts, tagsList, metadata, blogList }: HomeProps
       <PageMetadata
         title={metadata.blogTitle}
         keywords={metadata.blogDescription}
-        image="https://image-static.segmentfault.com/144/353/1443532229-64701786e4417_fix732" />
+        ogType="website"
+        image={require('@site/static/img/blog/cover@4x.png').default} />
       <Layout>
         <BlogHeader />
         <div className="container">
-          <BlogRecommend data={recommendPosts} />
+          <BlogRecommend data={featuredPosts} />
           <BlogTagsNav
-            data={tagsList}
-            className={clsx(recommendPosts.length ? '' : 'mt-5')}
+            data={categoyList}
+            className={clsx(featuredPosts.length ? '' : 'mt-5')}
             activeLabel="All"
           />
           <BlogList data={blogList}/>

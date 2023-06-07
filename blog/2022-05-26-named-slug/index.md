@@ -1,7 +1,8 @@
 ---
 title: 05-26 named slug
 authors: [slorber]
-tags: [Tutorials]
+category: Tutorials
+tags: [welcome, hello, test, javascript]
 image: cover@2x.png
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 ---

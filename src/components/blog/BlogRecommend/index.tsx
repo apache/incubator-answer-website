@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import { generateCategoryPath } from '@site/src/utils';
 
 import styles from './index.module.css';
 
@@ -21,18 +22,11 @@ const Index = ({ data = [] }: Props) => {
               src={require(`@site/static/img/blog/${data[0].image}`).default} alt=""
             />
           </Link>
-          <div className={styles.tagWrap}>
-            {data[0].tags.map((tag, index) => {
-              return (
-                <Link
-                  className={clsx('margin-bottom--sm', index === data[0].tags.length ? '' : 'margin-right--md', styles.block)}
-                  to={tag.permalink}
-                  key={tag.permalink}>
-                    {tag.label}
-                </Link>
-              )
-            })}
-
+          <div className='margin-bottom--sm'>
+            <Link
+              to={generateCategoryPath(data[0].category)}>
+                {data[0].category}
+            </Link>
           </div>
           <h2 className={clsx('margin-bottom--none text-truncate-2', styles.h2)}>
             <Link to={data[0].permalink} className={styles.black}>
@@ -56,17 +50,11 @@ const Index = ({ data = [] }: Props) => {
                   />
                 </Link>
                 <div>
-                  <div className={styles.tagWrap}>
-                    {item.tags.map((tag, tagIndex) => {
-                      return (
-                        <Link
-                          className={clsx('margin-bottom--sm', tagIndex === item.tags.length ? '' : 'margin-right--md', styles.block)}
-                          to={tag.permalink}
-                          key={tag.label}>
-                            {tag.label}
-                        </Link>
-                      )
-                    })}
+                  <div className="margin-bottom--sm">
+                    <Link
+                      to={generateCategoryPath(item.category)}>
+                        {item.category}
+                    </Link>
                   </div>
                   <h5 className={clsx('margin-bottom--none text-truncate-2', styles.h5)}>
                     <Link to={item.permalink} className={styles.black}>

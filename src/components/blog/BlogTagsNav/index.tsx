@@ -2,6 +2,7 @@ import React, { memo } from 'react';
 import clsx from 'clsx';
 import styles from './index.module.css';
 import Link from '@docusaurus/Link';
+import { useLocation } from '@docusaurus/router';
 
 interface Props {
   data: any[];
@@ -9,10 +10,11 @@ interface Props {
   activeLabel: string;
 }
 const Index = ({ data, className = '', activeLabel = '' }: Props) => {
+  const { pathname } = useLocation();
   if (!data || data.length === 0) {
     return null;
   }
-  const pathname = window.location.pathname;
+
   return (
     <div className={className}>
       <Link

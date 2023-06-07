@@ -1,14 +1,12 @@
 import React from 'react';
-import type { Content } from "@theme/BlogPostPage";
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import { generateCategoryPath } from '@site/src/utils';
 import styles from './index.module.css';
 
-interface Props {
-  data: Content;
-}
 
-const Index = ({ data } : Props) => {
+
+const Index = ({ data }) => {
   const { frontMatter, metadata } = data;
 
   if (!frontMatter) return null;
@@ -19,17 +17,11 @@ const Index = ({ data } : Props) => {
           className={styles.rounded}
           src={require(`@site/static/img/blog/${frontMatter.image}`).default} alt="" />
       </Link>
-      <div className={styles.tagWrap}>
-        {metadata.tags.map((tag, tagIndex) => {
-          return (
-            <Link
-              className={clsx('margin-bottom--sm', tagIndex === metadata.tags.length ? '' : 'margin-right--md', styles.block)}
-              to={tag.permalink}
-              key={tag.label}>
-                {tag.label}
-            </Link>
-          )
-        })}
+      <div className="margin-bottom--sm">
+        <Link
+          to={generateCategoryPath(frontMatter.category)}>
+            {frontMatter.category}
+        </Link>
       </div>
       <h5 className={clsx('margin-bottom--sm text-truncate-2', styles.h5)}>
         <Link to={metadata.permalink} className={styles.black}>

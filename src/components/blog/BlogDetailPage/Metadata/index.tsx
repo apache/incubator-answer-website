@@ -6,20 +6,21 @@
  */
 // @ts-nocheck
 import React from 'react';
-import {PageMetadata} from '@docusaurus/theme-common';
-import {useBlogPost} from '@docusaurus/theme-common/internal';
-export default function BlogPostPageMetadata() {
-  const { metadata} = useBlogPost();
+import PageMetadata from '../../PageMetadata';
+import { useBlogPost } from '@docusaurus/theme-common/internal';
+
+export default function BlogPostPageMetadata({ globalMeta }) {
+  const { metadata } = useBlogPost();
   const {title, description, date, tags, authors, frontMatter} = metadata;
   const {keywords} = frontMatter;
 
   return (
     <PageMetadata
-      title={title}
+      title={`${title} | ${globalMeta.blogTitle}`}
       description={description}
       keywords={keywords}
+      ogType='article'
       image={require(`@site/static/img/blog/${frontMatter.image}`).default}>
-      <meta property="og:type" content="article" />
       <meta property="article:published_time" content={date} />
       {/* TODO double check those article meta array syntaxes, see https://ogp.me/#array */}
       {authors.some((author) => author.url) && (

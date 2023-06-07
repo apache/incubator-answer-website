@@ -67,7 +67,7 @@ import styles from './index.module.css';
             source={url}
             summary={metadata.description}
           >
-              <LinkedinIcon />
+            <LinkedinIcon />
           </LinkedinShareButton>
         </div>
       </footer>

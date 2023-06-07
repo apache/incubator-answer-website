@@ -1,11 +1,13 @@
 const path = require("path");
 const blogPluginExports = require("@docusaurus/plugin-content-blog");
 const utils = require("@docusaurus/utils");
+const lodash = require("lodash");
+const { generateCategoryPath } = require('../src/utils/index');
 
 const defaultBlogPlugin = blogPluginExports.default;
 
-// get recommend post list
-function getRecommendList ({
+// get featured post list
+function getFeaturedList ({
   blogPosts, // all posts data
 }) {
   const result =  blogPosts.filter((post) => post.metadata?.frontMatter.featured).slice(0, 5)?.map((post) => {
@@ -17,6 +19,19 @@ function getRecommendList ({
   });
 
   return result;
+}
+
+function getAllCategories (allBlogPosts) {
+  const categories = allBlogPosts.map((post) => {
+    const label = post.metadata.frontMatter.category;
+    return {
+      label,
+      permalink: generateCategoryPath(label),
+      count: allBlogPosts.filter((v) => v.metadata.frontMatter.category === label).length,
+    };
+  });
+
+  return lodash.uniqBy(categories, 'label');
 }
 
 function getAllTags(blogTags){
@@ -122,22 +137,18 @@ async function blogPluginExtended(...pluginArgs) {
           blogTagsListPath,
       } = blogContents;
 
-      console.log('===========', blogTagsListPath)
-
       const { createData, addRoute } = actions;
 
-      // Blog Home page
-
-      // Recommend posts list
-      const recommendPosts = getRecommendList({blogPosts: allBlogPosts});
-      const recommendPostsJson = await createData(
-        `${utils.docuHash('recommendPosts')}.json`,
-        JSON.stringify(recommendPosts, null, 2)
+      // Fecommend posts list
+      const featuredPosts = getFeaturedList({blogPosts: allBlogPosts});
+      const featuredPostsJson = await createData(
+        `${utils.docuHash('featuredPosts')}.json`,
+        JSON.stringify(featuredPosts, null, 2)
       );
 
       // filted reommend posts
       const filtedBlogPosts = allBlogPosts.filter((post) => {
-        return !recommendPosts.find((v) => v.permalink === post.metadata.permalink);
+        return !featuredPosts.find((v) => v.permalink === post.metadata.permalink);
       });
 
       // Blog Home page pagenation
@@ -154,6 +165,16 @@ async function blogPluginExtended(...pluginArgs) {
       const tagsJson = await createData(
         `${utils.docuHash('tags')}.json`,
         JSON.stringify(tags, null, 2)
+      );
+
+      // global meta data
+      const globalMeta = {
+        blogTitle,
+        blogDescription,
+      }
+      const globalMetaJson = await createData(
+        `${utils.docuHash('globalMeta')}.json`,
+        JSON.stringify(globalMeta, null, 2)
       );
 
 
@@ -191,10 +212,11 @@ async function blogPluginExtended(...pluginArgs) {
 
           addRoute({
             path: metadata.permalink,
-            component: "@site/src/components/BlogDetailPage",
+            component: "@site/src/components/blog/BlogDetailPage",
             exact: true,
             modules: {
               relatedList,
+              globalMeta: globalMetaJson,
               content: metadata.source,
             },
           });
@@ -202,6 +224,61 @@ async function blogPluginExtended(...pluginArgs) {
           blogItemsToMetadata[id] = metadata;
         }),
       );
+
+      // Categoery List
+      const categories = getAllCategories(allBlogPosts);
+      const categoriesJson = await createData(
+        `${utils.docuHash('categories')}.json`,
+        JSON.stringify(categories, null, 2)
+      );
+
+      // Create routes for blog categories post list entries.
+      categories.map(async (category) => {
+        const categoryBlogs = allBlogPosts.filter((post) => post.metadata.frontMatter.category === category.label);
+
+        const categoryListPaginated = paginateBlogPosts({
+          filtedBlogPosts: categoryBlogs,
+          basePageUrl: generateCategoryPath(category.label),
+          blogTitle,
+          blogDescription,
+          postsPerPageOption: postsPerPage,
+        });
+
+
+        console.log('categoryListPaginated', categoryListPaginated);
+
+        const categoryProp = {
+          label: category.label,
+          permalink: generateCategoryPath(category.label),
+        };
+        const categoryPropPath = await createData(
+          `${utils.docuHash(categoryProp.label)}.json`,
+          JSON.stringify(categoryProp, null, 2),
+        );
+
+        categoryListPaginated.map(async (categoryListPage) => {
+          const { metadata, items } = categoryListPage;
+          const { permalink } = metadata;
+
+          const categoryMetadataPath = await createData(
+            `category-metadata-${utils.docuHash(permalink)}.json`,
+            JSON.stringify(metadata, null, 2),
+          )
+
+          addRoute({
+            path: permalink,
+            component: "@site/src/components/blog/BlogCategoryPostsPage",
+            exact: true,
+            modules: {
+              items: blogPostItemsModule(items),
+              category: categoryPropPath,
+              categoriyList: categoriesJson,
+              listMetadata: aliasedSource(categoryMetadataPath),
+            },
+          });
+        });
+      });
+
 
       // Create routes for blog's paginated list entries.
       await Promise.all(
@@ -217,16 +294,17 @@ async function blogPluginExtended(...pluginArgs) {
           addRoute({
             path: permalink,
             exact: true,
-            component:  "@site/src/components/BlogHome",
+            component:  "@site/src/components/blog/BlogHome",
             modules: {
-              recommendPosts: permalink === '/blog' ? recommendPostsJson : [],
-              tagsList: tagsJson,
+              featuredPosts: permalink === '/blog' ? featuredPostsJson : [],
+              categoyList: categoriesJson,
               blogList: blogPostItemsModule([...items]),
               metadata: pageMetadataPath,
             }
           })
         }),
       );
+
 
       // Create routes for blog tags post list entries.
       async function createTagPostsListPage(tag)  {
@@ -251,7 +329,7 @@ async function blogPluginExtended(...pluginArgs) {
 
             addRoute({
               path: metadata.permalink,
-              component: "@site/src/components/BlogTagsPostsPage",
+              component: "@site/src/components/blog/BlogTagsPostsPage",
               exact: true,
               modules: {
                 items: blogPostItemsModule(items),

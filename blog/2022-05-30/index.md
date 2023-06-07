@@ -2,7 +2,8 @@
 slug: first-blog-post
 title: First Blog Post
 authors: [yangshun]
-tags: [Best Practice]
+category: Best Practice
+tags: [welcome, hello, test, javascript]
 featured: true
 description: This is for seo and description
 image: cover@2x.png

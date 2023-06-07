@@ -2,7 +2,8 @@
 slug: third-blog-post
 title: Third Blog Post
 authors: [slorber]
-tags: [Insights]
+category: Insights
+tags: [welcome, hello, test, javascript]
 featured: true
 image: cover@2x.png
 description: This is for seo and description

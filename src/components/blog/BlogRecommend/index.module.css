@@ -4,10 +4,6 @@
   width: 100%;
 }
 
-.tagWrap {
-  display: flex;
-  align-items: center;
-}
 .block {
   display: block;
 }

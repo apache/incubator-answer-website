@@ -1,7 +1,8 @@
 ---
 title: 05-25 test 2
 authors: [yangshun]
-tags: [Release]
+category: Best Practice
+tags: [welcome, hello, test, javascript]
 image: cover@2x.png
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 ---

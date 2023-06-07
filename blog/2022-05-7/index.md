@@ -2,7 +2,8 @@
 slug: fifth-blog-post
 title: Fifth Blog Post
 authors: [slorber]
-tags: [Release]
+category: Release
+tags: [welcome, hello, test, javascript]
 featured: true
 image: cover@2x.png
 description: This is for seo and description

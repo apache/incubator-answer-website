@@ -2,7 +2,8 @@
 slug: second-blog-post
 title: Second Blog Post
 authors: [yangshun]
-tags: [Insights]
+category: Insights
+tags: [welcome, hello, test, javascript]
 featured: true
 image: cover@2x.png
 description: 'This is for seo and description'

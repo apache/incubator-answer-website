@@ -7,45 +7,35 @@ import {
 } from "@docusaurus/theme-common";
 import {
   BlogPostProvider,
-  useBlogPost,
+  // useBlogPost,
 } from "@docusaurus/theme-common/internal";
 import Layout from "@theme/Layout";
 import BlogPostPageMetadata from "./Metadata";
-import TOC from "@theme/TOC";
+// import TOC from "@theme/TOC";
 
 import BlogPostItem from '../BlogPostItem';
 
 
 function BlogPostPageContent({relatedList, sidebar, children}) {
-  const {metadata, toc} = useBlogPost();
-  const { frontMatter} = metadata;
-  const {
-    hide_table_of_contents: hideTableOfContents,
-    toc_min_heading_level: tocMinHeadingLevel,
-    toc_max_heading_level: tocMaxHeadingLevel,
-  } = frontMatter;
+  // const {metadata, toc} = useBlogPost();
+  // const { frontMatter} = metadata;
+  // const {
+  //   hide_table_of_contents: hideTableOfContents,
+  //   toc_min_heading_level: tocMinHeadingLevel,
+  //   toc_max_heading_level: tocMaxHeadingLevel,
+  // } = frontMatter;
   return (
     <Layout
-      sidebar={sidebar}
-      toc={
-        !hideTableOfContents && toc.length > 0 ? (
-          <TOC
-            toc={toc}
-            minHeadingLevel={tocMinHeadingLevel}
-            maxHeadingLevel={tocMaxHeadingLevel}
-          />
-        ) : undefined
-      }>
+      sidebar={sidebar}>
       <BlogPostItem relatedList={relatedList}>{children}</BlogPostItem>
-
     </Layout>
   );
 }
 
 const Index = (props) => {
   const BlogPostContent = props.content;
-  const { relatedList = [] } = props;
-  console.log(props);
+  const { relatedList = [], globalMeta } = props;
+
   return (
       <BlogPostProvider content={props.content} isBlogPostPage>
         <HtmlClassNameProvider
@@ -54,7 +44,7 @@ const Index = (props) => {
             ThemeClassNames.page.blogPostPage,
           )}
           >
-            <BlogPostPageMetadata  />
+            <BlogPostPageMetadata globalMeta={globalMeta} />
             <BlogPostPageContent relatedList={relatedList}>
               <BlogPostContent />
             </BlogPostPageContent>

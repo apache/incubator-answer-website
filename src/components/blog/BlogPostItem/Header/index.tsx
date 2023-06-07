@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import Link from '@docusaurus/Link';
 import clsx from 'clsx';
+import { generateCategoryPath } from '@site/src/utils';
 // @ts-ignore
 import {useBlogPost} from '@docusaurus/theme-common/internal';
 import styles from './index.module.css';
@@ -12,18 +13,11 @@ const BlogPostItemHeader = () => {
       <header className='col col-b col--7'>
         <div className={styles.nav}>
           <Link to='/blog' className="margin-right--sm">Blog</Link>
-          {metadata.tags.map((tag) => {
-            return (
-              <div key={tag.label}>
-                <span className="margin-right--sm">/</span>
-                <Link
-                  className="margin-right--sm"
-                  to={tag.permalink}>
-                  {tag.label}
-                </Link>
-              </div>
-            )
-          })}
+          <span className="margin-right--sm">/</span>
+          <Link
+            to={generateCategoryPath(frontMatter.category)} className="margin-right--sm">
+              {frontMatter.category}
+          </Link>
         </div>
         <h1 className={styles.h1}>
           <Link to={metadata.permalink} className={styles.title}>
@@ -49,7 +43,7 @@ const BlogPostItemHeader = () => {
       </header>
       <div className='col col-b col--8 mt-5 mb-5'>
         <img
-          src={require(`@site/static/img/blog/${frontMatter.image}`).default} alt=""
+          src={require(`@site/static/img/blog/${frontMatter.image.replace('@2x', '@4x')}`).default} alt=""
           width="100%" />
       </div>
     </>
