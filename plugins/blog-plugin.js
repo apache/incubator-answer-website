@@ -220,7 +220,7 @@ async function blogPluginExtended(...pluginArgs) {
           )
 
           addRoute({
-            path: generateI18nRoutePath(i18n, metadata.permalink),
+            path: metadata.permalink,
             component: "@site/src/components/blog/BlogDetailPage",
             exact: true,
             modules: {
@@ -334,7 +334,7 @@ async function blogPluginExtended(...pluginArgs) {
             );
 
             addRoute({
-              path: generateI18nRoutePath(i18n, metadata.permalink),
+              path: metadata.permalink,
               component: "@site/src/components/blog/BlogTagsPostsPage",
               exact: true,
               modules: {
