@@ -25,7 +25,17 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh-cn'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      'zh-cn': {
+        label: '简体中文',
+        direction: 'ltr',
+      },
+    }
   },
 
   presets: [
@@ -44,7 +54,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -52,6 +61,13 @@ const config = {
         defaultMode: 'light',
         disableSwitch: true,
         respectPrefersColorScheme: false,
+      },
+      algolia: {
+        appId: 'ALIEPVY5A0',
+        apiKey: 'a7f83132b511548fc8fbc44f83239bf9',
+        indexName: 'answer',
+        container: '### REPLACE ME WITH A CONTAINER (e.g. div) ###',
+        debug: true
       },
       navbar: {
         logo: {
@@ -80,6 +96,10 @@ const config = {
           {
             label: 'Blog',
             to: '/blog',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             src: 'img/discord.svg',
