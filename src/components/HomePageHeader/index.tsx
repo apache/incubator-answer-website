@@ -1,6 +1,7 @@
 import React, { FC, useEffect } from 'react';
 import Link from '@docusaurus/Link';
 import clsx from 'clsx';
+import Translate from '@docusaurus/Translate';
 import styles from './index.module.css';
 
 const HomeHead: FC = () => {
@@ -33,7 +34,7 @@ const HomeHead: FC = () => {
           to="/waitlist"
           className="d-flex align-center text-secondary text--center mb-5"
         >
-          👋 Join the Answer Cloud Waitlist
+          <Translate>👋 Join the Answer Cloud Waitlist</Translate>
           <img
             className="margin-left--xs"
             src={require('@site/static/img/arrow-right.png').default}
@@ -51,16 +52,19 @@ const HomeHead: FC = () => {
           />
 
           <h1 className={clsx('margin-top--sm sm-h1 ff-headline', styles.h1)}>
-            Build Q&A Community <br />
-            with Answer
+            <Translate>Build Q&A Community</Translate>
+            <br />
+            <Translate>with Answer</Translate>
           </h1>
 
           <div
             className={clsx('text-secondary text--center mb-4', styles.intro)}
           >
-            An open-source knowledge-based community software. You can use it
-            quickly to build Q&A community for your products, customers, teams,
-            and more.
+            <Translate>
+              An open-source knowledge-based community software. You can use it
+              quickly to build Q&A community for your products, customers,
+              teams, and more.
+            </Translate>
           </div>
 
           <div className="d-flex margin-bottom--md padding-bottom--sm">
@@ -68,7 +72,7 @@ const HomeHead: FC = () => {
               className="button button--lg button--primary fw-normal fs-20 btnMain margin-right--md"
               href="/docs"
             >
-              Get Started
+              <Translate>Get Started</Translate>
             </a>
 
             <a

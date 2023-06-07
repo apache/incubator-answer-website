@@ -162,9 +162,6 @@ img {
   height: auto;
 }
 
-.navbar__items--right> :last-child {
-  display: none;
-}
 
 .navbar__item.header-github-link {
   padding-right: 0;

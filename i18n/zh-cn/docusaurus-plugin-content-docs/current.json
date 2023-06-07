@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Command Line": {
+    "message": "Command Line",
+    "description": "The label for category Command Line in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contents Management": {
+    "message": "Contents Management",
+    "description": "The label for category Contents Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Dashboard": {
+    "message": "Dashboard",
+    "description": "The label for category Dashboard in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Extending": {
+    "message": "Extending",
+    "description": "The label for category Extending in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing": {
+    "message": "Contributing",
+    "description": "The label for category Contributing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.link.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for link Getting Started in sidebar tutorialSidebar, linking to #"
+  },
+  "sidebar.tutorialSidebar.link.Recipes": {
+    "message": "Recipes",
+    "description": "The label for link Recipes in sidebar tutorialSidebar, linking to #"
+  },
+  "sidebar.tutorialSidebar.link.Development": {
+    "message": "Development",
+    "description": "The label for link Development in sidebar tutorialSidebar, linking to #"
+  },
+  "sidebar.tutorialSidebar.link.Resources": {
+    "message": "Resources",
+    "description": "The label for link Resources in sidebar tutorialSidebar, linking to #"
+  },
+  "sidebar.tutorialSidebar.link.Support": {
+    "message": "Support",
+    "description": "The label for link Support in sidebar tutorialSidebar, linking to https://github.com/answerdev/answer/issues"
+  },
+  "sidebar.tutorialSidebar.link.Roadmap": {
+    "message": "Roadmap",
+    "description": "The label for link Roadmap in sidebar tutorialSidebar, linking to https://github.com/orgs/answerdev/projects/1"
+  }
+}
