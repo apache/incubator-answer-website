@@ -111,6 +111,12 @@ function getReletadPosts(allBlogPosts, metadata) {
   return filteredPostInfos;
 }
 
+// get i18n router base path
+function generateI18nRoutePath(i18nConfig, path) {
+  const {currentLocale, defaultLocale} = i18nConfig;
+  return currentLocale === defaultLocale ? path : `/${currentLocale}${path}`;
+}
+
 const pluginDataDirRoot = path.join(
   ".docusaurus",
   "docusaurus-plugin-content-blog",
@@ -121,6 +127,9 @@ const aliasedSource = (source) =>
 async function blogPluginExtended(...pluginArgs) {
   const blogPluginInstance = await defaultBlogPlugin(...pluginArgs);
   const { blogTitle, blogDescription, postsPerPage } = pluginArgs[1];
+  const { i18n } = pluginArgs[0];
+
+  console.log('siteConfig', i18n);
 
   return {
     // Add all properties of the default blog plugin so existing functionality is preserved
@@ -211,7 +220,7 @@ async function blogPluginExtended(...pluginArgs) {
           )
 
           addRoute({
-            path: metadata.permalink,
+            path: generateI18nRoutePath(i18n, metadata.permalink),
             component: "@site/src/components/blog/BlogDetailPage",
             exact: true,
             modules: {
@@ -244,9 +253,6 @@ async function blogPluginExtended(...pluginArgs) {
           postsPerPageOption: postsPerPage,
         });
 
-
-        console.log('categoryListPaginated', categoryListPaginated);
-
         const categoryProp = {
           label: category.label,
           permalink: generateCategoryPath(category.label),
@@ -266,7 +272,7 @@ async function blogPluginExtended(...pluginArgs) {
           )
 
           addRoute({
-            path: permalink,
+            path: generateI18nRoutePath(i18n, permalink),
             component: "@site/src/components/blog/BlogCategoryPostsPage",
             exact: true,
             modules: {
@@ -292,7 +298,7 @@ async function blogPluginExtended(...pluginArgs) {
           );
 
           addRoute({
-            path: permalink,
+            path: generateI18nRoutePath(i18n, permalink),
             exact: true,
             component:  "@site/src/components/blog/BlogHome",
             modules: {
@@ -328,7 +334,7 @@ async function blogPluginExtended(...pluginArgs) {
             );
 
             addRoute({
-              path: metadata.permalink,
+              path: generateI18nRoutePath(i18n, metadata.permalink),
               component: "@site/src/components/blog/BlogTagsPostsPage",
               exact: true,
               modules: {

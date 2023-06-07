@@ -14,10 +14,6 @@ import BlogHeader from '../BlogHeader';
 import BlogPagination from '../BlogPagination';
 import PageMetadata from '../PageMetadata';
 
-
-
-
-
 const Index = (props: Props) => {
   const { tag, items, listMetadata, } = props
   return (
