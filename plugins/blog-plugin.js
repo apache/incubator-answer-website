@@ -102,6 +102,7 @@ function getReletadPosts(allBlogPosts, metadata) {
       content: {
         frontMatter: {
           image: post.metadata.frontMatter.image,
+          category: post.metadata.frontMatter.category,
         },
         metadata: post.metadata,
       }

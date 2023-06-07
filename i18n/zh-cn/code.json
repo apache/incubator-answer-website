@@ -448,5 +448,11 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "component.blogHeader.title": {
+    "message": "博客"
+  },
+  "component.blogHeader.slogon": {
+    "message": "了解有关 Answer 的所有内容，并将您的问答社区提升到一个新的水平。"
   }
 }

@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import clsx from 'clsx';
-import Translate, {translate} from '@docusaurus/Translate';
+import Translate from '@docusaurus/Translate';
 import {
   HtmlClassNameProvider,
   ThemeClassNames,
@@ -11,7 +11,7 @@ import SearchMetadata from '@theme/SearchMetadata';
 
 import BlogList from '../BlogList';
 import BlogHeader from '../BlogHeader';
-import BlogTagsNav from '../BlogTagsNav';
+import BlogCategoriesNav from "../BlogCategoriesNav";
 import BlogPagination from '../BlogPagination';
 import PageMetadata from '../PageMetadata';
 
@@ -37,14 +37,20 @@ const Index = (props: IProps) => {
       <Layout>
         <BlogHeader />
         <div className='container'>
-          <BlogTagsNav className="mt-5" data={categoriyList} activeLabel={category?.label} />
+          <BlogCategoriesNav
+            className="mt-5"
+            data={categoriyList}
+            activeLabel={category?.label} />
           <h2
             className='mb-4'
             style={{
               fontSize: '2rem',
               marginTop: '1.5rem' }}
           >
-            “{category.label}” Posts
+            “{category.label}”{" "}
+            <Translate id="blogCategoryPostsPage.posts">
+              Posts
+            </Translate>
           </h2>
           <BlogList data={items} />
           <BlogPagination data={listMetadata} />

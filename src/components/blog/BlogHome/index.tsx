@@ -9,7 +9,7 @@ import {
 
 import BlogHeader from "../BlogHeader";
 import BlogRecommend from "../BlogRecommend";
-import BlogTagsNav from "../BlogTagsNav";
+import BlogCategoriesNav from "../BlogCategoriesNav";
 import BlogList from "../BlogList";
 import BlogPagination from "../BlogPagination";
 import PageMetadata from "../PageMetadata";
@@ -48,7 +48,7 @@ export function Home({ featuredPosts, categoyList, metadata, blogList }: HomePro
         <BlogHeader />
         <div className="container">
           <BlogRecommend data={featuredPosts} />
-          <BlogTagsNav
+          <BlogCategoriesNav
             data={categoyList}
             className={clsx(featuredPosts.length ? '' : 'mt-5')}
             activeLabel="All"

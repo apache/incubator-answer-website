@@ -1,8 +1,10 @@
 import React, { memo } from 'react';
 import clsx from 'clsx';
-import styles from './index.module.css';
+import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
 import { useLocation } from '@docusaurus/router';
+
+import styles from './index.module.css';
 
 interface Props {
   data: any[];
@@ -20,7 +22,9 @@ const Index = ({ data, className = '', activeLabel = '' }: Props) => {
       <Link
         to={pathname === '/blog' ? '###': '/blog'}
         className={clsx('button button--primary',activeLabel === 'All' ? '' : 'button--link', styles.button)}>
-        All
+          <Translate id="blogCategoriesNav.slogon">
+            All
+          </Translate>
       </Link>
       {data.map((tag) => {
         return (

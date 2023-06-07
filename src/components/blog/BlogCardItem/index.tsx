@@ -39,7 +39,7 @@ const Index = ({ data }) => {
             <div className={clsx(index === metadata.authors.length - 1 ? 'margin-right--md' : 'margin-right--sm')} key={author.name}>{author.name}</div>
           )
         })}
-        <div>{metadata.formattedDate}</div>
+        <time dateTime={metadata.date}>{metadata.formattedDate}</time>
       </div>
     </div>
   )
