@@ -325,20 +325,28 @@ For backend generating modal form you can return json like this.
 
 ```json
 {
- "name": "string",
- "slug_name": "string",
- "description": "string",
- "version": "string",
- "config_fields": [
-   {
-      "name": "string",
-      "type": "textarea" | "input" | "checkbox" | "radio" | "select" | "upload" | "timezone" | "switch",
-      "title": "string",
-      "description": "string",
-      "required": true,
-      "value": "string",
-      "ui_options": InputOptions | SelectOptions | UploadOptions | SwitchOptions | TimezoneOptions | CheckboxOptions | RadioOptions | TextareaOptions,
-      "options": [{ "value": "string", "label": "string"'}]
+  "name": "string",
+  "slug_name": "string",
+  "description": "string",
+  "version": "string",
+  "config_fields": [
+    {
+      "name": "string",
+      "type": "textarea",
+      "title": "string",
+      "description": "string",
+      "required": true,
+      "value": "string",
+      "ui_options": {
+        "placeholder": "placeholder",
+        "rows": 4
+      },
+      "options": [
+        {
+          "value": "string",
+          "label": "string"
+        }
+      ]
     }
   ]
 }
