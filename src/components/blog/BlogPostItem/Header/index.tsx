@@ -10,7 +10,7 @@ import styles from './index.module.css';
 const BlogPostItemHeader = () => {
   const { frontMatter, metadata } = useBlogPost();
 
-  console.log('frontMatter', metadata);
+  // console.log('frontMatter', metadata);
    return (
     <>
       <header className='col col-b col--7'>

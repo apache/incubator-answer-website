@@ -25,23 +25,25 @@ import styles from './index.module.css';
 
     return (
       <footer className='col col-b col--7 margin-top--md'>
-        <div className='margin-bottom--md'>
-          <span>
-            <Translate id="blogPostItem.tags">
-              Tags:
-            </Translate>
-          </span>
-          {metadata.tags.map((tag) => {
-            return (
-              <Link
-                key={tag.label}
-                className="margin-right--sm"
-                to={tag.permalink}>
-                {tag.label}
-              </Link>
-            )
-          })}
-        </div>
+        {metadata.tags.length > 0 && (
+          <div className='margin-bottom--md'>
+            <span>
+              <Translate id="blogPostItem.tags">
+                Tags:
+              </Translate>
+            </span>
+            {metadata.tags.map((tag) => {
+              return (
+                <Link
+                  key={tag.label}
+                  className="margin-right--sm"
+                  to={tag.permalink}>
+                  {tag.label}
+                </Link>
+              )
+            })}
+          </div>
+        )}
 
         <div className={clsx('text-secondary', styles.shareWrap)}>
           <span>
