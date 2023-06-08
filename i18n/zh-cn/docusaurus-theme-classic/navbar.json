@@ -1,26 +1,26 @@
 {
   "logo.alt": {
-    "message": "Answer 徽标",
-    "description": "导航栏徽标的alt文本"
+    "message": "Answer Logo",
+    "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "文档",
-    "description": "导航栏上带有标签 Docs 的项目"
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
   },
   "item.label.Issue": {
-    "message": "问题",
-    "description": "导航栏上带有标签 Issue 的项目"
+    "message": "Issue",
+    "description": "Navbar item with label Issue"
   },
   "item.label.Roadmap": {
-    "message": "路线图",
-    "description": "导航栏上带有标签 Roadmap 的项目"
+    "message": "Roadmap",
+    "description": "Navbar item with label Roadmap"
   },
   "item.label.Community": {
-    "message": "社区",
-    "description": "导航栏上带有标签 Community 的项目"
+    "message": "Community",
+    "description": "Navbar item with label Community"
   },
   "item.label.Blog": {
-    "message": "博客",
-    "description": "导航栏上带有标签 Blog 的项目"
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
   }
 }

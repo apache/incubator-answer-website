@@ -37,7 +37,14 @@ const Index = (props: Props) => {
               fontSize: '2rem',
             }}
           >
-            “{tag.label}” Posts
+            <Translate
+              id="blogCategoryPostsPage.posts"
+              values={{
+                category_name: tag.label,
+              }}
+              >
+              {'“{category_name}” Posts'}
+            </Translate>
           </h2>
           <BlogList data={items} />
           <BlogPagination data={listMetadata} />

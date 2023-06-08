@@ -135,9 +135,6 @@ const config = {
     [
       "./plugins/blog-plugin",
       {
-        id: "blog",
-        routeBasePath: "blog",
-        path: "./blog",
         blogTitle: 'Answer Blog',
         blogDescription: 'Learn everything about Answer and leverage your Q&A community.',
         blogSidebarCount: 0,

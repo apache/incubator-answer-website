@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import Link from '@docusaurus/Link';
 import clsx from 'clsx';
+import Translate from '@docusaurus/Translate';
 import { generateCategoryPath } from '@site/src/utils';
 // @ts-ignore
 import {useBlogPost} from '@docusaurus/theme-common/internal';
@@ -14,11 +15,17 @@ const BlogPostItemHeader = () => {
     <>
       <header className='col col-b col--7'>
         <div className={styles.nav}>
-          <Link to='/blog' className="margin-right--sm">Blog</Link>
+          <Link to='/blog' className="margin-right--sm">
+            <Translate id="blogHeader.title">
+              Blog
+            </Translate>
+          </Link>
           <span className="margin-right--sm">/</span>
           <Link
             to={generateCategoryPath(frontMatter.category)} className="margin-right--sm">
-              {frontMatter.category}
+              <Translate id={frontMatter.category}>
+                {frontMatter.category}
+              </Translate>
           </Link>
         </div>
         <h1 className={styles.h1}>
@@ -40,7 +47,13 @@ const BlogPostItemHeader = () => {
             <time className='margin-right--md' dateTime={metadata.date}>
               {metadata.formattedDate}
             </time>
-            <div>{metadata.readingTime} min read</div>
+            <div>
+              <Translate id="blogPostItem.readingTime" values={{
+                reading_time: metadata.readingTime
+              }}>
+                {'{reading_time} min read'}
+              </Translate>
+            </div>
         </div>
       </header>
       <div className='col col-b col--8 mt-5 mb-5'>

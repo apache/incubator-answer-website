@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
 import { generateCategoryPath } from '@site/src/utils';
 
 import styles from './index.module.css';
@@ -25,7 +26,9 @@ const Index = ({ data = [] }: Props) => {
           <div className='margin-bottom--sm'>
             <Link
               to={generateCategoryPath(data[0].category)}>
-                {data[0].category}
+                <Translate id={data[0].category}>
+                  {data[0].category}
+                </Translate>
             </Link>
           </div>
           <h2 className={clsx('margin-bottom--none text-truncate-2', styles.h2)}>
@@ -53,7 +56,9 @@ const Index = ({ data = [] }: Props) => {
                   <div className="margin-bottom--sm">
                     <Link
                       to={generateCategoryPath(item.category)}>
-                        {item.category}
+                        <Translate id={item.category}>
+                          {item.category}
+                        </Translate>
                     </Link>
                   </div>
                   <h5 className={clsx('margin-bottom--none text-truncate-2', styles.h5)}>

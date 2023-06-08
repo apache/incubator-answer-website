@@ -47,9 +47,13 @@ const Index = (props: IProps) => {
               fontSize: '2rem',
               marginTop: '1.5rem' }}
           >
-            “{category.label}”{" "}
-            <Translate id="blogCategoryPostsPage.posts">
-              Posts
+            <Translate
+              id="blogCategoryPostsPage.posts"
+              values={{
+                category_name: category.label,
+              }}
+              >
+              {'“{category_name}” Posts'}
             </Translate>
           </h2>
           <BlogList data={items} />

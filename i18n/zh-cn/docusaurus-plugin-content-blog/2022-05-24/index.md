@@ -1,5 +1,5 @@
 ---
-title: 05-23 test 3
+title: 05-24 test 2
 authors: [yangshun]
 category: Best Practice
 tags: [welcome, hello, test, javascript]

@@ -22,7 +22,7 @@ const Index = ({ data, className = '', activeLabel = '' }: Props) => {
       <Link
         to={pathname === '/blog' ? '###': '/blog'}
         className={clsx('button button--primary',activeLabel === 'All' ? '' : 'button--link', styles.button)}>
-          <Translate id="blogCategoriesNav.slogon">
+          <Translate id="blogCategoriesNav.all">
             All
           </Translate>
       </Link>
@@ -32,7 +32,9 @@ const Index = ({ data, className = '', activeLabel = '' }: Props) => {
             key={tag.label}
             to={tag.permalink}
             className={clsx('button button--primary',activeLabel === tag.label  ? '' : 'button--link', styles.button)}>
-            {tag.label}
+            <Translate id={tag.label}>
+              {tag.label}
+            </Translate>
           </Link>
         )
       })}

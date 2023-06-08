@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
 import { generateCategoryPath } from '@site/src/utils';
 import styles from './index.module.css';
@@ -20,7 +21,9 @@ const Index = ({ data }) => {
       <div className="margin-bottom--sm">
         <Link
           to={generateCategoryPath(frontMatter.category)}>
-            {frontMatter.category}
+            <Translate id={frontMatter.category}>
+              {frontMatter.category}
+            </Translate>
         </Link>
       </div>
       <h5 className={clsx('margin-bottom--sm text-truncate-2', styles.h5)}>
