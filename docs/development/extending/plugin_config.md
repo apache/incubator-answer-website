@@ -1,5 +1,6 @@
 ---
 sidebar_label: Plugin Configuration Schema
+sidebar_position: 0
 ---
 
 # Plugin Configuration Schema
