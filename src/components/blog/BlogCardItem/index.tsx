@@ -12,7 +12,7 @@ const Index = ({ data }) => {
 
   if (!frontMatter) return null;
   return (
-    <div className='col col--3 col-b mb-4'>
+    <div className='col col--3 mb-4'>
       <Link to={metadata.permalink} className={clsx('margin-bottom--md', styles.block)}>
         <img
           className={styles.rounded}

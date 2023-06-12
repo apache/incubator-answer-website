@@ -3,6 +3,9 @@
   align-items: center;
   width: 100%;
 }
+.recommendWrap {
+  padding: 3rem 0;
+}
 
 .block {
   display: block;

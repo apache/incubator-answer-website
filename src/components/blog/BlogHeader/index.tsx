@@ -6,7 +6,7 @@ import styles from './index.module.css';
 
 const Index = () => {
   return (
-    <div className={clsx('padding-vert--xl', styles.header)}>
+    <div className={clsx(styles.header)}>
       <div className='container'>
         <h1 className={clsx('margin-bottom--sm', styles.h1)}>
           <Translate id="blogHeader.title">

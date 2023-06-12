@@ -83,10 +83,6 @@ body {
   font-family: Lexend, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.col-b {
-  padding: 0 12px !important;
-}
-
 .fw-normal {
   font-weight: 400 !important;
 }

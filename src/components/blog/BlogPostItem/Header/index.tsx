@@ -13,7 +13,7 @@ const BlogPostItemHeader = () => {
   // console.log('frontMatter', metadata);
    return (
     <>
-      <header className='col col-b col--7'>
+      <header className='col col--7'>
         <div className={styles.nav}>
           <Link to='/blog' className="margin-right--sm">
             <Translate id="blogHeader.title">
@@ -56,7 +56,7 @@ const BlogPostItemHeader = () => {
             </div>
         </div>
       </header>
-      <div className='col col-b col--8 mt-5 mb-5'>
+      <div className='col col--8 mt-5 mb-5'>
         <img
           src={require(`@site/static/img/blog/${frontMatter.image.replace('@2x', '@4x')}`).default} alt=""
           width="100%" />

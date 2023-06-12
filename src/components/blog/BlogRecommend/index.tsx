@@ -14,8 +14,8 @@ const Index = ({ data = [] }: Props) => {
   if (!data.length || data.length < 2) return null;
 
   return (
-    <div className='row padding-vert--xl'>
-      <div className='col col-b col--6'>
+    <div className={clsx('row', styles.recommendWrap)}>
+      <div className='col col--6'>
         <div>
           <Link to={data[0].permalink} className={clsx('margin-bottom--md', styles.block)}>
             <img
@@ -39,7 +39,7 @@ const Index = ({ data = [] }: Props) => {
         </div>
       </div>
 
-      <div className='col col-b col--6'>
+      <div className='col col--6'>
         {data.map((item, index) => {
           if (index === 0) return null;
             return (

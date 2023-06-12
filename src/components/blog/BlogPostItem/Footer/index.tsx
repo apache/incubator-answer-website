@@ -24,7 +24,7 @@ import styles from './index.module.css';
     } = useDocusaurusContext();
 
     return (
-      <footer className='col col-b col--7 margin-top--md'>
+      <footer className='col col--7 margin-top--md'>
         {metadata.tags.length > 0 && (
           <div className='margin-bottom--md'>
             <span>
@@ -32,14 +32,16 @@ import styles from './index.module.css';
                 Tags:
               </Translate>
             </span>
-            {metadata.tags.map((tag) => {
+            {' '}
+            {metadata.tags.map((tag,index) => {
               return (
-                <Link
-                  key={tag.label}
-                  className="margin-right--sm"
-                  to={tag.permalink}>
-                  {tag.label}
-                </Link>
+                <span key={tag.label}>
+                  <Link
+                    to={tag.permalink}>
+                    {tag.label}
+                  </Link>
+                  {index === metadata.tags.length - 1 ? '' : ', '}
+                </span>
               )
             })}
           </div>
