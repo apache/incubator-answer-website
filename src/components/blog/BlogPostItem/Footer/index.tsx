@@ -50,7 +50,7 @@ import styles from './index.module.css';
         <div className={clsx('text-secondary', styles.shareWrap)}>
           <span>
             <Translate id="blogPostItem.share">
-              Share To
+              Share to
             </Translate>
           </span>
           <TwitterShareButton
