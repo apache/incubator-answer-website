@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import HubspotForm from 'react-hubspot-form';
 import Layout from '@theme/Layout';
-import Footer from '@site/src/components/Footer';
 
 export default function Home(): JSX.Element {
   useEffect(() => {
@@ -35,7 +34,6 @@ export default function Home(): JSX.Element {
           </div>
         </div>
       </div>
-      <Footer />
     </Layout>
   );
 }
