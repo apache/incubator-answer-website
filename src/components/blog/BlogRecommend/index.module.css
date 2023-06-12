@@ -25,7 +25,8 @@
 }
 .imgWrap {
   display: block;
-  width: 33.3%;
+  width: 30.58%;
+  max-width: 192px;
   flex: none;
 }
 
