@@ -56,7 +56,7 @@ const BlogPostItemHeader = () => {
             </div>
         </div>
       </header>
-      <div className='col col--8 mt-5 mb-5'>
+      <div className='col col--9 mt-5 mb-5'>
         <img
           src={require(`@site/static/img/blog/${frontMatter.image.replace('@2x', '@4x')}`).default} alt=""
           width="100%" />
