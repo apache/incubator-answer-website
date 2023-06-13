@@ -19,7 +19,7 @@ const Index = ({ data, className = '', activeLabel = '' }: Props) => {
     <div className={className}>
       <Link
         to={pathname === '/blog' ? '###': '/blog'}
-        className={clsx('btn mb-4',activeLabel === 'All' ? 'btn-primary' : 'btn-link')}>
+        className={clsx('btn mb-4',activeLabel === 'All' ? 'btn-primary' : 'btn-outline-primary border-0')}>
           <Translate id="blogCategoriesNav.all">
             All
           </Translate>
