@@ -10,8 +10,6 @@ import clsx from 'clsx';
 // @ts-ignore
 import {useBlogPost} from '@docusaurus/theme-common/internal';
 
-import styles from './index.module.css';
-
 
 export default function BlogPostItemContainer({children, className}) {
   const {frontMatter, assets} = useBlogPost();
@@ -19,14 +17,14 @@ export default function BlogPostItemContainer({children, className}) {
   const image = assets.image ?? frontMatter.image;
   return (
     <article
-      className={clsx('container', styles.blogContent, className)}
+      className={clsx('container py-5 mb-5', className)}
       itemProp="blogPost"
       itemScope
       itemType="http://schema.org/BlogPosting">
       {image && (
         <meta itemProp="image" content={withBaseUrl(image, {absolute: true})} />
       )}
-      <div className={clsx('row', styles.justifyCenter)}>
+      <div className="row justify-content-center">
         {children}
       </div>
     </article>

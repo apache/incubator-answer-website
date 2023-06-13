@@ -13,6 +13,7 @@ import BlogCategoriesNav from "../BlogCategoriesNav";
 import BlogList from "../BlogList";
 import BlogPagination from "../BlogPagination";
 import PageMetadata from "../PageMetadata";
+
 type MetaData = {
   blogDescription: string;
   blogTitle: string;
@@ -40,7 +41,7 @@ export function Home({ featuredPosts, categoyList, metadata, blogList }: HomePro
         ThemeClassNames.page.blogListPage,
       )}>
       <PageMetadata
-        title={metadata.blogTitle}
+        title="Blog"
         keywords={metadata.blogDescription}
         ogType="website"
         image={require('@site/static/img/blog/cover@4x.png').default} />

@@ -23,20 +23,15 @@ const Index = (props: Props) => {
         ThemeClassNames.page.blogTagPostListPage,
       )}>
       <PageMetadata
-        title={`${tag.label} | ${listMetadata.blogTitle}`}
+        title={tag.label}
         description={listMetadata.blogDescription}
         ogType='website'
         image={require('@site/static/img/blog/cover@4x.png').default} />
       <SearchMetadata tag="blog_tags_posts" />
       <Layout>
         <BlogHeader />
-        <div className='container mt-5'>
-          <h2
-            className='mb-4'
-            style={{
-              fontSize: '2rem',
-            }}
-          >
+        <div className='container pt-5'>
+          <h2 className='mb-4'>
             <Translate
               id="blogCategoryPostsPage.posts"
               values={{
