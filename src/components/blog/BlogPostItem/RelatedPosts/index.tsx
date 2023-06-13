@@ -5,8 +5,8 @@ import BlogList from '../../BlogList';
 const Index = ({ relatedList = []  }) => {
   if (relatedList.length === 0) return null;
   return (
-    <div style={{ marginTop: '6rem' }}>
-      <h2 className='mb-4' style={{ fontSize: '2rem' }}>
+    <div className="pt-5 mt-5">
+      <h2 className='mb-4'>
         <Translate id="blogPostItem.relatedPosts">
           Related Posts
         </Translate>

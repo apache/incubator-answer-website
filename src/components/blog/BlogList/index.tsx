@@ -1,4 +1,5 @@
 import React, { memo } from 'react';
+import { Row } from 'react-bootstrap';
 import type { Content } from "@theme/BlogPostPage";
 import BlogCardItem from '../BlogCardItem';
 
@@ -7,7 +8,7 @@ interface Props {
 }
 const Index= ({ data }: Props) => {
   return (
-    <div className="row">
+    <Row>
       {data.map((item) => {
         return (
           <BlogCardItem
@@ -16,7 +17,7 @@ const Index= ({ data }: Props) => {
           />
         )
       })}
-    </div>
+    </Row>
   )
 }
 

@@ -34,7 +34,7 @@ function BlogPostPageContent({relatedList, sidebar, children}) {
 
 const Index = (props) => {
   const BlogPostContent = props.content;
-  const { relatedList = [], globalMeta } = props;
+  const { relatedList = [] } = props;
 
   return (
       <BlogPostProvider content={props.content} isBlogPostPage>
@@ -44,7 +44,7 @@ const Index = (props) => {
             ThemeClassNames.page.blogPostPage,
           )}
           >
-            <BlogPostPageMetadata globalMeta={globalMeta} />
+            <BlogPostPageMetadata />
             <BlogPostPageContent relatedList={relatedList}>
               <BlogPostContent />
             </BlogPostPageContent>

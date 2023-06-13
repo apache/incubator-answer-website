@@ -29,7 +29,7 @@ const Index = (props: IProps) => {
         ThemeClassNames.page.blogTagPostListPage,
       )}>
       <PageMetadata
-        title={`${category.label} | ${listMetadata.blogTitle}`}
+        title={category.label}
         description={listMetadata.blogDescription}
         ogType='website'
         image={require('@site/static/img/blog/cover@4x.png').default} />
@@ -41,12 +41,7 @@ const Index = (props: IProps) => {
             className="mt-5"
             data={categoriyList}
             activeLabel={category?.label} />
-          <h2
-            className='mb-4'
-            style={{
-              fontSize: '2rem',
-              marginTop: '1.5rem' }}
-          >
+          <h2 className="my-4">
             <Translate
               id="blogCategoryPostsPage.posts"
               values={{

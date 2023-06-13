@@ -12,7 +12,7 @@ export default function BlogPostItemContent({children, className}) {
     <div
       // This ID is used for the feed generation to locate the main content
       id="__blog-post-container"
-      className={clsx('col col-b col--7 markdown', className)}
+      className={clsx('col col--7 markdown', className)}
       itemProp="articleBody">
       <MDXContent>{children}</MDXContent>
     </div>

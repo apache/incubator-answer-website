@@ -35,10 +35,10 @@ export default function PageMetadata({
 
   return (
     <Head>
-      {title && <title>{title}</title>}
-      <meta property="og:site_name" content='Answer Blog'/>
+      {title && <title>{title} | Answer</title>}
+      <meta property="og:site_name" content='Answer'/>
       <meta property="og:type" content={ogType} />
-      {title && <meta property="og:title" content={title} />}
+      {title && <meta property="og:title" content={`${title} | Answer`} />}
 
       {description && <meta name="description" content={description} />}
       {description && <meta property="og:description" content={description} />}
@@ -55,6 +55,8 @@ export default function PageMetadata({
 
       {pageImage && <meta property="og:image" content={pageImage} />}
       {pageImage && <meta name="twitter:image" content={pageImage} />}
+
+      {/* <link rel="stylesheet" href={require('@site/src/css/bootstrap.min.css').default} /> */}
 
       {children}
     </Head>

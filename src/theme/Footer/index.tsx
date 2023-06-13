@@ -1,17 +1,15 @@
-import clsx from 'clsx';
 import React, { FC } from 'react';
-import styles from './index.module.css';
 
 const DarkSvg = require('@site/static/img/logo-dark.svg').default;
 
 const Footer: FC = () => {
   return (
     <footer className="footer">
-      <div className="container padding-vert--md">
-        <div className="row text--secondary justify-center">
-          <div className={clsx('col col--10', styles.main)}>
+      <div className="container py-3">
+        <div className="row text-secondary justify-content-center">
+          <div className="d-flex justify-content-between flex-wrap col col--10">
             <div>
-              <div style={{ height: '28px', marginBottom: '1rem' }}>
+              <div className='mb-3' style={{ height: '28px' }}>
                 <DarkSvg role="img" />
               </div>
               {/* <img src={require('@site/static/img/logo-dark.svg').default} alt="" height="28" /> */}
@@ -52,7 +50,7 @@ const Footer: FC = () => {
               </div>
             </div>
 
-            <div className={styles.right}>
+            <div className="fs-14 text-end mt-3 mt-md-0">
               <a
                 href="https://twitter.com/answerdev"
                 target="_blank"

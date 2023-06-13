@@ -9,14 +9,14 @@ import React from 'react';
 import PageMetadata from '../../PageMetadata';
 import { useBlogPost } from '@docusaurus/theme-common/internal';
 
-export default function BlogPostPageMetadata({ globalMeta }) {
+export default function BlogPostPageMetadata() {
   const { metadata } = useBlogPost();
   const {title, description, date, tags, authors, frontMatter} = metadata;
   const {keywords} = frontMatter;
 
   return (
     <PageMetadata
-      title={`${title} | ${globalMeta.blogTitle}`}
+      title={title}
       description={description}
       keywords={keywords}
       ogType='article'

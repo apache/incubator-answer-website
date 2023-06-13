@@ -1,11 +1,9 @@
 import React, { memo } from 'react';
 import Link from '@docusaurus/Link';
-import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
 import { generateCategoryPath } from '@site/src/utils';
 // @ts-ignore
 import {useBlogPost} from '@docusaurus/theme-common/internal';
-import styles from './index.module.css';
 
 const BlogPostItemHeader = () => {
   const { frontMatter, metadata } = useBlogPost();
@@ -13,38 +11,36 @@ const BlogPostItemHeader = () => {
   // console.log('frontMatter', metadata);
    return (
     <>
-      <header className='col col-b col--7'>
-        <div className={styles.nav}>
-          <Link to='/blog' className="margin-right--sm">
+      <header className='col col--7'>
+        <div className="d-flex align-items-center mb-3">
+          <Link to='/blog' className="me-2">
             <Translate id="blogHeader.title">
               Blog
             </Translate>
           </Link>
-          <span className="margin-right--sm">/</span>
+          <span className="me-2">/</span>
           <Link
-            to={generateCategoryPath(frontMatter.category)} className="margin-right--sm">
+            to={generateCategoryPath(frontMatter.category)} className="me-2">
               <Translate id={frontMatter.category}>
                 {frontMatter.category}
               </Translate>
           </Link>
         </div>
-        <h1 className={styles.h1}>
-          <Link to={metadata.permalink} className={styles.title}>
+        <h1>
+          <Link to={metadata.permalink} className="text-body">
             {metadata.title}
           </Link>
         </h1>
 
-        <div className={clsx('text-secondary', styles.info)}>
+        <div className="d-flex align-items-center text-secondary">
           {metadata.authors.map((author) => {
             return (
-              <div
-                className='margin-right--md'
-                key={author.name}>
-                  {author.name}
+              <div className='me-3' key={author.name}>
+                {author.name}
               </div>
             )
           })}
-            <time className='margin-right--md' dateTime={metadata.date}>
+            <time className='me-3' dateTime={metadata.date}>
               {metadata.formattedDate}
             </time>
             <div>
@@ -56,9 +52,11 @@ const BlogPostItemHeader = () => {
             </div>
         </div>
       </header>
-      <div className='col col-b col--8 mt-5 mb-5'>
+      <div className='col col--9 mt-5 mb-5'>
         <img
-          src={require(`@site/static/img/blog/${frontMatter.image.replace('@2x', '@4x')}`).default} alt=""
+          src={require(`@site/static/img/blog/${frontMatter.image.replace('@2x', '@4x')}`).default}
+          className="rounded"
+          alt=""
           width="100%" />
       </div>
     </>
