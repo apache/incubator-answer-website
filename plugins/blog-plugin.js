@@ -130,7 +130,7 @@ async function blogPluginExtended(...pluginArgs) {
   const { blogTitle, blogDescription, postsPerPage } = pluginArgs[1];
   const { i18n } = pluginArgs[0];
 
-  console.log('siteConfig', i18n);
+  console.log('siteConfig NODE_ENV production', process.env.NODE_ENV);
 
   return {
     // Add all properties of the default blog plugin so existing functionality is preserved
@@ -149,15 +149,19 @@ async function blogPluginExtended(...pluginArgs) {
 
       const { createData, addRoute } = actions;
 
+      // console.log('blogPosts', blogPosts[0]);
+
+      const removeDraftPosts = allBlogPosts.filter((post) => !post.metadata.frontMatter?.draft);
+
       // Fecommend posts list
-      const featuredPosts = getFeaturedList({blogPosts: allBlogPosts});
+      const featuredPosts = getFeaturedList({blogPosts: removeDraftPosts});
       const featuredPostsJson = await createData(
         `${utils.docuHash('featuredPosts')}.json`,
         JSON.stringify(featuredPosts, null, 2)
       );
 
       // filted reommend posts
-      const filtedBlogPosts = allBlogPosts.filter((post) => {
+      const filtedBlogPosts = removeDraftPosts.filter((post) => {
         return !featuredPosts.find((v) => v.permalink === post.metadata.permalink);
       });
 
@@ -196,7 +200,7 @@ async function blogPluginExtended(...pluginArgs) {
           return {
             content: {
               __import: true,
-              path: blogPostMetadata.source,
+              path: blogPostMetadata?.source,
               query: {
                 truncated: true,
               },
@@ -211,7 +215,7 @@ async function blogPluginExtended(...pluginArgs) {
           const { id, metadata } = blogPostItem;
 
           const relatedPosts = getReletadPosts(
-            allBlogPosts,
+            removeDraftPosts,
             metadata,
           );
 
@@ -236,7 +240,7 @@ async function blogPluginExtended(...pluginArgs) {
       );
 
       // Categoery List
-      const categories = getAllCategories(allBlogPosts);
+      const categories = getAllCategories(removeDraftPosts);
       const categoriesJson = await createData(
         `${utils.docuHash('categories')}.json`,
         JSON.stringify(categories, null, 2)
@@ -244,7 +248,7 @@ async function blogPluginExtended(...pluginArgs) {
 
       // Create routes for blog categories post list entries.
       categories.map(async (category) => {
-        const categoryBlogs = allBlogPosts.filter((post) => post.metadata.frontMatter.category === category.label);
+        const categoryBlogs = removeDraftPosts.filter((post) => post.metadata.frontMatter.category === category.label);
 
         const categoryListPaginated = paginateBlogPosts({
           filtedBlogPosts: categoryBlogs,

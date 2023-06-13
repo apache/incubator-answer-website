@@ -5,6 +5,11 @@
  */
 
 /* You can override the default Infima variables here. */
+
+// @import 'bootstrap/dist/css/bootstrap.min.css';
+$primary: #0033ff;
+@import '~bootstrap/scss/bootstrap';
+
 :root {
   --ifm-color-primary: #0033ff;
   --ifm-color-primary-dark: #002ee6;
@@ -35,6 +40,20 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar--fixed-top  {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+a, a:hover {
+  text-decoration: none;
 }
 
 .button--dark {
@@ -99,10 +118,6 @@ body {
   font-size: 1.5rem !important;
 }
 
-.text-secondary {
-  color: var(--ifm-color-secondary);
-}
-
 .text-truncate-1,
 .text-truncate-2,
 .text-truncate-3,
@@ -123,28 +138,8 @@ body {
   -webkit-line-clamp: 4;
 }
 
-.mb-4 {
-  margin-bottom: 1.5rem;
-}
-
-.mb-5 {
-  margin-bottom: 3rem;
-}
-
 img {
   vertical-align: top;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.align-center {
-  align-items: center;
 }
 
 .navbar__logo {
@@ -177,34 +172,4 @@ img {
   color: #AAA;
   cursor: default;
 }
-
-.mt-5 {
-  margin-top: 3rem;
-}
-
-.mb-5 {
-  margin-bottom: 3rem;
-}
-
-.mt-3 {
-  margin-top: 1rem;
-}
-
-.spinner-border {
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  vertical-align: top;
-  border: 0.25rem solid var(--ifm-color-secondary);
-  border-right-color: transparent;
-  border-radius: 50%;
-  animation: 0.75s linear infinite spinner-border;
-}
-
-@keyframes spinner-border {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 @media (max-width: 996px) {}

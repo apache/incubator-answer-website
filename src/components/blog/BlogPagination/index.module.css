@@ -1,12 +1,6 @@
-.wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 3rem 0;
-}
 .link {
   box-sizing: border-box;
-  padding: 5px 13px;
+  padding: 6px 13px;
   border: 1px solid #DEE2E6;
   color: var(--ifm-color-secondary);
 }

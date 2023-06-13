@@ -32,7 +32,7 @@ const HomeHead: FC = () => {
       <div className={clsx('container', styles.content, styles.flexCenter)}>
         <Link
           to="/waitlist"
-          className="d-flex align-center text-secondary text--center mb-5"
+          className="d-flex align-items-center text-secondary text--center mb-5"
         >
           <Translate>👋 Join the Answer Cloud Waitlist</Translate>
           <img
@@ -77,7 +77,7 @@ const HomeHead: FC = () => {
 
             <a
               className={clsx(
-                'd-flex align-center button button--lg button--dark fw-normal fs-20',
+                'd-flex align-items-center button button--lg button--dark fw-normal fs-20',
                 styles.white,
               )}
               href="https://github.com/answerdev/answer"

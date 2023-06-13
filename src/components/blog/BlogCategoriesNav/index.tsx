@@ -4,8 +4,6 @@ import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
 import { useLocation } from '@docusaurus/router';
 
-import styles from './index.module.css';
-
 interface Props {
   data: any[];
   className?: string;
@@ -21,7 +19,7 @@ const Index = ({ data, className = '', activeLabel = '' }: Props) => {
     <div className={className}>
       <Link
         to={pathname === '/blog' ? '###': '/blog'}
-        className={clsx('button button--primary',activeLabel === 'All' ? '' : 'button--link', styles.button)}>
+        className={clsx('btn mb-4',activeLabel === 'All' ? 'btn-primary' : 'btn-link')}>
           <Translate id="blogCategoriesNav.all">
             All
           </Translate>
@@ -31,7 +29,7 @@ const Index = ({ data, className = '', activeLabel = '' }: Props) => {
           <Link
             key={tag.label}
             to={tag.permalink}
-            className={clsx('button button--primary',activeLabel === tag.label  ? '' : 'button--link', styles.button)}>
+            className={clsx('btn mb-4',activeLabel === tag.label  ? 'btn-primary' : 'btn-outline-primary border-0')}>
             <Translate id={tag.label}>
               {tag.label}
             </Translate>

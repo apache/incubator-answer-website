@@ -1,6 +1,5 @@
  import React from 'react';
  import Link from '@docusaurus/Link';
- import clsx from 'clsx';
  import Translate from '@docusaurus/Translate';
  import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
  const TwitterIcon = require('@site/static/img/blog/twitter.svg').default;
@@ -18,15 +17,15 @@ import styles from './index.module.css';
 
 
  const Index = () => {
-    const { frontMatter, metadata } = useBlogPost();
+    const { metadata } = useBlogPost();
     const {
       siteConfig: { url },
     } = useDocusaurusContext();
 
     return (
-      <footer className='col col--7 margin-top--md'>
+      <div className='col col--7 mt-3'>
         {metadata.tags.length > 0 && (
-          <div className='margin-bottom--md'>
+          <div className='mb-3'>
             <span>
               <Translate id="blogPostItem.tags">
                 Tags:
@@ -47,7 +46,7 @@ import styles from './index.module.css';
           </div>
         )}
 
-        <div className={clsx('text-secondary', styles.shareWrap)}>
+        <div className="d-flex align-items-center text-secondary">
           <span>
             <Translate id="blogPostItem.share">
               Share to
@@ -77,7 +76,7 @@ import styles from './index.module.css';
             <LinkedinIcon />
           </LinkedinShareButton>
         </div>
-      </footer>
+      </div>
     )
  }
 

@@ -1,4 +1,5 @@
 import React, { memo } from 'react';
+import { Row, Col } from 'react-bootstrap';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
@@ -14,16 +15,16 @@ const Index = ({ data = [] }: Props) => {
   if (!data.length || data.length < 2) return null;
 
   return (
-    <div className={clsx('row', styles.recommendWrap)}>
-      <div className='col col--6'>
+    <Row className="py-5">
+      <Col sm={12} lg={6} className='mb-4 mb-md-0'>
         <div>
-          <Link to={data[0].permalink} className={clsx('margin-bottom--md', styles.block)}>
+          <Link to={data[0].permalink} className="mb-3 d-block">
             <img
-              className={styles.rounded}
+              className="rounded"
               src={require(`@site/static/img/blog/${data[0].image}`).default} alt=""
             />
           </Link>
-          <div className='margin-bottom--sm'>
+          <div className='mb-2'>
             <Link
               to={generateCategoryPath(data[0].category)}>
                 <Translate id={data[0].category}>
@@ -31,38 +32,37 @@ const Index = ({ data = [] }: Props) => {
                 </Translate>
             </Link>
           </div>
-          <h2 className={clsx('margin-bottom--none text-truncate-2', styles.h2)}>
-            <Link to={data[0].permalink} className={styles.black}>
+          <h2 className="mb-0 text-truncate-2">
+            <Link to={data[0].permalink} className="text-body">
               {data[0].title}
             </Link>
           </h2>
         </div>
-      </div>
+      </Col>
 
-      <div className='col col--6'>
+      <Col sm={12} lg={6}>
         {data.map((item, index) => {
           if (index === 0) return null;
             return (
               <div
-                className={clsx(index === 4 ? '' : 'mb-4', styles.flex)}
+                className={clsx('d-flex align-items-center w-100', index === 4 ? '' : 'mb-4')}
                 key={item.permalink}>
-                <Link to={item.permalink} className={clsx('margin-right--md', styles.imgWrap)}>
+                <Link to={item.permalink} className={clsx('me-3', styles.imgWrap)}>
                   <img
-                    className={styles.rounded}
+                    className="rounded"
                     src={require(`@site/static/img/blog/${item.image}`).default} alt=""
                   />
                 </Link>
                 <div>
-                  <div className="margin-bottom--sm">
-                    <Link
-                      to={generateCategoryPath(item.category)}>
-                        <Translate id={item.category}>
-                          {item.category}
-                        </Translate>
-                    </Link>
-                  </div>
-                  <h5 className={clsx('margin-bottom--none text-truncate-2', styles.h5)}>
-                    <Link to={item.permalink} className={styles.black}>
+                  <Link
+                    className="mb-2 d-block"
+                    to={generateCategoryPath(item.category)}>
+                      <Translate id={item.category}>
+                        {item.category}
+                      </Translate>
+                  </Link>
+                  <h5 className="mb-0 text-truncate-2">
+                    <Link to={item.permalink} className="text-body">
                       {item.title}
                     </Link>
                   </h5>
@@ -70,8 +70,8 @@ const Index = ({ data = [] }: Props) => {
               </div>
             )
         })}
-      </div>
-    </div>
+      </Col>
+    </Row>
   )
 }
 

@@ -44,7 +44,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -144,6 +144,7 @@ const config = {
         rehypePlugins: [katex],
       },
     ],
+    'docusaurus-plugin-sass',
   ],
 };
 
