@@ -16,27 +16,30 @@ const Index = ({ data, className = '', activeLabel = '' }: Props) => {
   }
 
   return (
-    <div className={className}>
-      <Link
-        to={pathname === '/blog' ? '###': '/blog'}
-        className={clsx('btn mb-4',activeLabel === 'All' ? 'btn-primary' : 'btn-outline-primary border-0')}>
-          <Translate id="blogCategoriesNav.all">
-            All
-          </Translate>
-      </Link>
+    <ul className={clsx('nav nav-pills', className)}>
+      <li className='nav-item mb-4'>
+        <Link
+          to={pathname === '/blog' ? '###': '/blog'}
+          className={clsx('nav-link',activeLabel === 'All' ? 'active' : '')}>
+            <Translate id="blogCategoriesNav.all">
+              All
+            </Translate>
+        </Link>
+      </li>
       {data.map((tag) => {
         return (
-          <Link
-            key={tag.label}
-            to={tag.permalink}
-            className={clsx('btn mb-4',activeLabel === tag.label  ? 'btn-primary' : 'btn-outline-primary border-0')}>
-            <Translate id={tag.label}>
-              {tag.label}
-            </Translate>
-          </Link>
+          <li className='nav-item mb-4' key={tag.label}>
+            <Link
+              to={tag.permalink}
+              className={clsx('nav-link',activeLabel === tag.label  ? 'active' : '')}>
+              <Translate id={tag.label}>
+                {tag.label}
+              </Translate>
+            </Link>
+          </li>
         )
       })}
-    </div>
+    </ul>
   )
 }
 

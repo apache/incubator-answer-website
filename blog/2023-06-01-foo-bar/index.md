@@ -1,4 +1,5 @@
 ---
+slug: test,
 title: What is Q&A Platform and How to Use it
 authors: [endi]
 category: Tutorials

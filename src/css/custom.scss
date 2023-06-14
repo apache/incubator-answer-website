@@ -52,8 +52,16 @@ $primary: #0033ff;
   z-index: 200;
 }
 
-a, a:hover, .btn-link {
+a, .btn-link {
   text-decoration: none;
+}
+a:hover {
+  color: var(--bs-link-hover-color);
+  text-decoration: none;
+}
+
+.pagination {
+  column-gap: 0 !important;
 }
 
 .button--dark {
