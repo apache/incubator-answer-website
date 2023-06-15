@@ -63,6 +63,11 @@ a:hover {
 .pagination {
   column-gap: 0 !important;
 }
+.carousel-fade {
+  .carousel-inner {
+    overflow: unset;
+  }
+}
 
 .button--dark {
   --ifm-button-background-color: #212529;

@@ -1,8 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick';
+import { Row, Col, Carousel } from 'react-bootstrap';
 import Translate from '@docusaurus/Translate';
 
 import styles from './styles.module.css';
@@ -65,26 +63,18 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({ title, icon, description, later }: FeatureItem) {
   return (
-    <div className="col col--3 mb-4">
-      <div className="margin-bottom--md">
+    <Col  sm={12} md={6} lg={3} className="mb-4">
+      <div className="mb-3">
         <img className={styles.featureSvg} role="img" src={icon} />
       </div>
       <h2 style={{ fontWeight: 500 }}>{title}</h2>
       <p>{description}</p>
       {later && <div className={styles.badge}>{later}</div>}
-    </div>
+    </Col>
   );
 }
 
 export default function HomepageFeatures(): JSX.Element {
-  const settings = {
-    dots: false,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    fade: true,
-    pauseOnHover: false,
-    arrows: false,
-  };
   const bannerList = [
     {
       laptop: require('@site/static/img/home-laptop@2x.png').default,
@@ -101,55 +91,68 @@ export default function HomepageFeatures(): JSX.Element {
   ];
   return (
     <div className="container">
-      <Slider {...settings}>
-        {bannerList.map((banner) => {
-          return (
-            <div key={banner.laptop}>
-              <div className={clsx('row', styles.flexCenter)}>
-                <div className={clsx('col col--10')}>
-                  <section>
-                    <div className={styles.screenContent}>
-                      <div className={styles.boxShadow}>
-                        <div className={styles.pcScreen}>
-                          <img
-                            src={banner.laptop}
-                            alt=""
-                            width="100%"
-                            height="auto"
-                            className={clsx('d-block', styles.smmothImg)}
-                          />
-                        </div>
+      <div className='position-relative'>
+        <Carousel fade controls={false} indicators={false} interval={5000}>
+          {bannerList.map((banner) => {
+            return (
+              <Carousel.Item key={banner.laptop}>
+                <section>
+                  <div className={styles.screenContent}>
+                      <div className={styles.pcScreen}>
+                        <img
+                          src={banner.laptop}
+                          alt=""
+                          width="100%"
+                          height="auto"
+                          className={clsx('d-block', styles.smmothImg)}
+                        />
                       </div>
 
-                      <div className={styles.screenMobile}>
-                        <div className={styles.boxShadow2}>
-                          <img
-                            src={banner.mobile}
-                            alt=""
-                            width="100%"
-                            height="auto"
-                            className={clsx('d-block', styles.smmothImg)}
-                          />
-                        </div>
-                      </div>
+                    <div className={styles.screenMobile}>
+                      <img
+                        src={banner.mobile}
+                        alt=""
+                        width="100%"
+                        height="auto"
+                        className={clsx('d-block', styles.smmothImg)}
+                      />
                     </div>
-                  </section>
-                </div>
-              </div>
+                  </div>
+                </section>
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
+        {/* this is for shadow */}
+        <div className={styles.shadowWrap}>
+          <div className={styles.screenContent}>
+            <div className={clsx(styles.pcScreen, styles.shadow)}>
+              <img
+                src={require('@site/static/img/home-laptop@2x.png').default}
+                alt=""
+                width="100%"
+                height="auto"
+                className={clsx('d-block', styles.smmothImg)}
+              />
             </div>
-          );
-        })}
-      </Slider>
-      <div className={clsx('row', styles.flexCenter)}>
-        <div className={clsx('col col--10')}>
+
+            <div className={clsx(styles.screenMobile, styles.shadow2)}>
+              <img
+                src={require('@site/static/img/home-mobile@2x.png').default}
+                alt=""
+                width="100%"
+                height="auto"
+                className={clsx('d-block', styles.smmothImg)}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Row className="row justify-content-center">
+        <Col className="col-12">
           <section>
-            <h3
-              className={clsx(
-                'text--center ff-headline',
-                styles.h1,
-                styles.margin48,
-              )}
-            >
+            <h3 className="text-center ff-headline mb-5 h1">
               <Translate>Features</Translate>
             </h3>
             <div className={styles.features}>
@@ -162,29 +165,24 @@ export default function HomepageFeatures(): JSX.Element {
           </section>
 
           <section style={{ marginBottom: '96px' }}>
-            <h3
-              className={clsx(
-                'text--center margin-bottom--sm ff-headline',
-                styles.h1,
-              )}
-            >
+            <h3 className="text-center ff-headline h1">
               <Translate>We welcome all contributions</Translate>
             </h3>
-            <p className="text--center text--secondary mb-4 fs-20">
+            <p className="text-center text-secondary mb-4 fs-20">
               <Translate>
                 Here are some quick ways you can help the community.
               </Translate>
             </p>
             <div className={styles.linkWrap}>
               <ul>
-                <li className={clsx('margin-bottom--sm', styles.li)}>
+                <li className={clsx('mb-2', styles.li)}>
                   <a href="https://github.com/answerdev/answer">
                     <Translate>
                       Contribute to our open-source codebase on GitHub
                     </Translate>
                   </a>
                 </li>
-                <li className={clsx('margin-bottom--sm', styles.li)}>
+                <li className={clsx('mb-2', styles.li)}>
                   <a href="https://github.com/answerdev/answer.dev">
                     <Translate>Help us improve the docs</Translate>
                   </a>
@@ -197,8 +195,8 @@ export default function HomepageFeatures(): JSX.Element {
               </ul>
             </div>
           </section>
-        </div>
-      </div>
+        </Col>
+      </Row>
     </div>
   );
 }
