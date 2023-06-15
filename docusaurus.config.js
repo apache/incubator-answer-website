@@ -138,7 +138,7 @@ const config = {
         blogTitle: 'Answer Blog',
         blogDescription: 'Learn everything about Answer and leverage your Q&A community.',
         blogSidebarCount: 0,
-        postsPerPage: 4,
+        postsPerPage: 16,
         showReadingTime: true,
         remarkPlugins: [math],
         rehypePlugins: [katex],

@@ -1,10 +1,10 @@
 ---
 title: What is Q&A Platform and How to Use it
-authors: [endi]
+authors: [Anne]
 category: Tutorials
 tags: [tutorials]
 featured: true
-image: qaplatform-cover@4x.jpeg
+image: 2023-06-01-cover@4x.jpeg
 description: Learn Q&A platform, explore poplular Q&A platforms, and find out how to get the most out of it.
 ---
 
