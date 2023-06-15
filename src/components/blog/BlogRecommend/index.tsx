@@ -21,7 +21,7 @@ const Index = ({ data = [] }: Props) => {
           <Link to={data[0].permalink} className="mb-3 d-block">
             <img
               className="rounded"
-              src={require(`@site/static/img/blog/${data[0].image}`).default} alt=""
+              src={require(`@site/static/img/blog/${data[0].image.replace('@4x', '@2x')}`).default} alt=""
             />
           </Link>
           <div className='mb-2'>
@@ -50,7 +50,7 @@ const Index = ({ data = [] }: Props) => {
                 <Link to={item.permalink} className={clsx('me-3', styles.imgWrap)}>
                   <img
                     className="rounded"
-                    src={require(`@site/static/img/blog/${item.image}`).default} alt=""
+                    src={require(`@site/static/img/blog/${item.image.replace('@4x', '@2x')}`).default} alt=""
                   />
                 </Link>
                 <div>

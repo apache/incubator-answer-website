@@ -54,7 +54,7 @@ const BlogPostItemHeader = () => {
       </header>
       <div className='col col--9 mt-5 mb-5'>
         <img
-          src={require(`@site/static/img/blog/${frontMatter.image.replace('@2x', '@4x')}`).default}
+          src={require(`@site/static/img/blog/${frontMatter.image}`).default}
           className="rounded"
           alt=""
           width="100%" />

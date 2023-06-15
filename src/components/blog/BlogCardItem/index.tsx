@@ -14,7 +14,7 @@ const Index = ({ data }) => {
       <Link to={metadata.permalink} className="mb-3 d-block">
         <img
           className="rounded"
-          src={require(`@site/static/img/blog/${frontMatter.image}`).default}
+          src={require(`@site/static/img/blog/${frontMatter.image.replace('@4x', '@2x')}`).default}
           alt="" />
       </Link>
       <Link

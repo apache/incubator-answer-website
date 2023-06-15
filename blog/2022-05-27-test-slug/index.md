@@ -3,7 +3,7 @@ title: 05-27 test slug
 authors: [yangshun]
 category: Tutorials
 tags: [welcome, hello, test, javascript]
-image: cover@2x.png
+image: cover@4x.png
 description: This is for seo and description
 ---
 

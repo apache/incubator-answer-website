@@ -5,7 +5,7 @@ authors: [slorber]
 category: Insights
 tags: [welcome, hello, test, javascript]
 featured: true
-image: cover@2x.png
+image: cover@4x.png
 description: This is for seo and description
 ---
 

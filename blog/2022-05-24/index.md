@@ -3,7 +3,7 @@ title: 05-24 test 2
 authors: [yangshun]
 category: Best Practice
 tags: [welcome, hello, test, javascript]
-image: cover@2x.png
+image: cover@4x.png
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 ---
 
