@@ -1,10 +1,4 @@
 {
-  "👋 Join the Answer Cloud Waitlist": {
-    "message": "👋 Join the Answer Cloud Waitlist"
-  },
-  "Build Q&A Community": {
-    "message": "Build Q&A Community"
-  },
   "Best Practice": {
     "message": "最佳实践"
   },
@@ -19,48 +13,6 @@
   },
   "Release": {
     "message": "Release"
-  },
-  "with Answer": {
-    "message": "with Answer"
-  },
-  "An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more.": {
-    "message": "An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more."
-  },
-  "Get Started": {
-    "message": "Get Started"
-  },
-  "feature-1": {
-    "message": "Help members with questions and boost community participation. Your experts are happy to contribute, verify, upvote correct info. Your info keeping up-to-date and trusted."
-  },
-  "feature-2": {
-    "message": "Use tags to organize questions and help contents into categories. They make knowledge easy to find for others. Use the search to quickly find the answer."
-  },
-  "feature-3": {
-    "message": "Configure your community with plugins and your favorite services. So that you can improve your workflow, grow your community, or make your other tools better."
-  },
-  "Coming soon": {
-    "message": "Coming soon"
-  },
-  "feature-4": {
-    "message": "We've gamified the Q&A platform with reputation and badges. So the community members and teams have fun collaborating and getting work done."
-  },
-  "Features": {
-    "message": "Features"
-  },
-  "We welcome all contributions": {
-    "message": "We welcome all contributions"
-  },
-  "Here are some quick ways you can help the community.": {
-    "message": "Here are some quick ways you can help the community."
-  },
-  "Contribute to our open-source codebase on GitHub": {
-    "message": "Contribute to our open-source codebase on GitHub"
-  },
-  "Help us improve the docs": {
-    "message": "Help us improve the docs"
-  },
-  "Help us translate language resources": {
-    "message": "Help us translate language resources"
   },
   "blogCategoriesNav.all": {
     "message": "全部"
@@ -92,7 +44,7 @@
     "message": "阅读需 {reading_time} 分钟"
   },
   "blogPostItem.relatedPosts": {
-    "message": "Related Posts"
+    "message": "相似帖子"
   },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
@@ -487,5 +439,59 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "waitlist.title": {
+    "message": "Answer Cloud is coming soon!"
+  },
+  "waitlist.description": {
+    "message": "We are working hard to build Answer Cloud solution. Fill out the form now to stay on top of the latest product updates, development inspirations, and user research prompt. We will keep your information secure at all times."
+  },
+  "loading": {
+    "message": "Loading..."
+  },
+  "home.waitlist.title": {
+    "message": "👋 Join the Answer Cloud Waitlist"
+  },
+  "home.title": {
+    "message": "Build Q&A Community {br} with Answer"
+  },
+  "home.description": {
+    "message": "An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more."
+  },
+  "home.btn.started": {
+    "message": "Get Started"
+  },
+  "home.features.item1": {
+    "message": "Help members with questions and boost community participation. Your experts are happy to contribute, verify, upvote correct info. Your info keeping up-to-date and trusted."
+  },
+  "home.features.item2": {
+    "message": "Use tags to organize questions and help contents into categories. They make knowledge easy to find for others. Use the search to quickly find the answer."
+  },
+  "home.features.item3": {
+    "message": "Configure your community with plugins and your favorite services. So that you can improve your workflow, grow your community, or make your other tools better."
+  },
+  "home.features.comming_soon": {
+    "message": "Coming soon"
+  },
+  "home.features.item4": {
+    "message": "We've gamified the Q&A platform with reputation and badges. So the community members and teams have fun collaborating and getting work done."
+  },
+  "home.features.title": {
+    "message": "Features"
+  },
+  "home.contribute.title": {
+    "message": "We welcome all contributions"
+  },
+  "home.contribute.ways": {
+    "message": "Here are some quick ways you can help the community."
+  },
+  "home.contribute.item1": {
+    "message": "Contribute to our open-source codebase on GitHub"
+  },
+  "home.contribute.item2": {
+    "message": "Help us improve the docs"
+  },
+  "home.contribute.item3": {
+    "message": "Help us translate language resources"
   }
 }

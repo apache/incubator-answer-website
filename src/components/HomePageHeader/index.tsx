@@ -35,7 +35,9 @@ const HomeHead: FC = () => {
           to="/waitlist"
           className="d-flex align-items-center text-secondary text--center pb-5 mb-3"
         >
-          <Translate>👋 Join the Answer Cloud Waitlist</Translate>
+          <Translate id="home.waitlist.title">
+            👋 Join the Answer Cloud Waitlist
+          </Translate>
           <img
             className="ms-1"
             src={require('@site/static/img/arrow-right.png').default}
@@ -54,15 +56,20 @@ const HomeHead: FC = () => {
             />
 
             <h1 className={clsx('sm-h1 ff-headline', styles.h1)}>
-              <Translate>Build Q&A Community</Translate>
-              <br />
-              <Translate>with Answer</Translate>
+              <Translate
+                id="home.title"
+                values={{
+                  br: <br />,
+                }}
+              >
+                {'Build Q&A Community {br} with Answer'}
+              </Translate>
             </h1>
 
             <div
               className={clsx('text-secondary text--center mb-4', styles.intro)}
             >
-              <Translate>
+              <Translate id="home.description">
                 An open-source knowledge-based community software. You can use it
                 quickly to build Q&A community for your products, customers,
                 teams, and more.
@@ -74,7 +81,7 @@ const HomeHead: FC = () => {
                 className="button button--lg button--primary fw-normal fs-20 btnMain me-3"
                 href="/docs"
               >
-                <Translate>Get Started</Translate>
+                <Translate id="home.btn.started">Get Started</Translate>
               </a>
 
               <a
