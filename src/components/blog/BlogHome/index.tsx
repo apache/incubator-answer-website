@@ -7,7 +7,7 @@ import {
   ThemeClassNames,
 } from '@docusaurus/theme-common';
 
-import BlogHeader from "../BlogHeader";
+import HeaderSlogon from "../../HeaderSlogon";
 import BlogRecommend from "../BlogRecommend";
 import BlogCategoriesNav from "../BlogCategoriesNav";
 import BlogList from "../BlogList";
@@ -46,7 +46,7 @@ export function Home({ featuredPosts, categoyList, metadata, blogList }: HomePro
         ogType="website"
         image={require('@site/static/img/blog/cover@4x.png').default} />
       <Layout>
-        <BlogHeader />
+        <HeaderSlogon type="blog" />
         <div className="container">
           <BlogRecommend data={featuredPosts} />
           <BlogCategoriesNav
