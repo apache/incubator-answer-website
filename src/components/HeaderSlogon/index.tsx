@@ -14,8 +14,8 @@ const content = {
     slogon: <Translate id="blogHeader.slogon">Learn everything about Answer and leverage your Q&A community to the next level.</Translate>,
   },
   contact: {
-    title: <Translate id="contactHeader.title">Contact us</Translate>,
-    slogon: <Translate id="contactHeader.slogon">We always get an answer to your question.</Translate>,
+    title: <Translate id="contact.title">Contact us</Translate>,
+    slogon: <Translate id="contact.slogon">We always get an answer to your question.</Translate>,
   }
 }
 

@@ -68,7 +68,9 @@ a:hover {
     overflow: unset;
   }
 }
-
+.card {
+  box-shadow: none !important;
+}
 .button--dark {
   --ifm-button-background-color: #212529;
   --ifm-button-border-color: #212529;
