@@ -4,7 +4,7 @@ authors: [Anne]
 category: Tutorials
 tags: [tutorials]
 featured: true
-image: 2023-06-01-cover@4x.jpeg
+image: 2023-06-01-cover@4x.png
 description: Learn Q&A platform, explore poplular Q&A platforms, and find out how to get the most out of it.
 ---
 
