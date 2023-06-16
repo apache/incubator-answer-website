@@ -499,5 +499,32 @@
   },
   "contactHeader.slogon": {
     "message": "We always get an answer to your question."
+  },
+  "contact.email": {
+    "message": "Tweet or Message {br} @AnswerDev on Twitter"
+  },
+  "contact.getSupport": {
+    "message": "Get Support"
+  },
+  "contact.marketing.title": {
+    "message": "Marketing Inquiries"
+  },
+  "contact.marketing.email": {
+    "message": "Send Email to {email}"
+  },
+  "contact.above.title": {
+    "message": "Marketing Inquiries"
+  },
+  "contact.above.description": {
+    "message": "If you don’t find what you’re looking for, please use the form below to submit your request. We’ll try and get back to you as soon as possible."
+  },
+  "contact.title": {
+    "message": "Contact us"
+  },
+  "contact.slogon": {
+    "message": "We always get an answer to your question."
+  },
+  "Contact Us": {
+    "message": "Contact Us"
   }
 }
