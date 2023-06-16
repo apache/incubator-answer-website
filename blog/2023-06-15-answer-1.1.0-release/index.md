@@ -1,5 +1,5 @@
 ---
-title: Meet Answer 1.1.0: Your Q&A Community Takes a Step Forward
+title: "Meet Answer 1.1.0: Your Q&A Community Takes a Step Forward"
 authors: [Anne]
 category: Release
 featured: true
