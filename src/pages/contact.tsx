@@ -92,7 +92,7 @@ export default function Home(): JSX.Element {
         </div>
 
         <h3 className='mb-3'>
-          <Translate id="contact.above.title">Marketing Inquiries</Translate>
+          <Translate id="contact.above.title">None of the Above?</Translate>
         </h3>
         <div className='mb-3'>
           <Translate id="contact.above.description"> If you don’t find what you’re looking for, please use the form below to submit your request. We’ll try and get back to you as soon as possible.</Translate>
