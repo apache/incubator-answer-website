@@ -1,7 +1,7 @@
 ---
 title: How to use Answer for Effective Knowledge Retention?
 authors: [Anne]
-category: Tutorials, Best Practice
+category: Best Practice
 featured: true
 image: 2023-05-16-cover@4x.png
 description: Dive into knowledge retention, and find out how Answer empowers your internal knowledge base.

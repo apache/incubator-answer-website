@@ -1,7 +1,7 @@
 ---
 title: Why Open Source is the Essence of Answer
 authors: [Anne]
-category: Insights, Company
+category: Company
 featured: true
 image: 2023-05-23-cover@4x.png
 description: Take a nibble on open source, examples, and why it's the essence of Answer.

@@ -1,9 +1,9 @@
 ---
 title: Everything You Need to Know About Knowledge Base
 authors: [Anne]
-category: Tutorials, Insights
+category: Insights
 featured: true
-image: 2023-05-23-cover@4x.png
+image: 2023-05-30-cover@4x.png
 description: Learn everything about knowledge base and build your own knowledge base with Answer easily.
 ---
 
