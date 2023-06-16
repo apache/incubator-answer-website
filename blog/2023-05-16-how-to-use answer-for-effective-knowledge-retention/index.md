@@ -4,7 +4,7 @@ authors: [Anne]
 category: Tutorials, Best Practice
 featured: true
 image: 2023-05-16-cover@4x.png
-description: Learn Q&A platform, explore poplular Q&A platforms, and find out how to get the most out of it.
+description: Dive into knowledge retention, and find out how Answer empowers your internal knowledge base.
 ---
 This is an overwhelming world, where an answer is available at a snap, a click, and a blink. With data and information flowing ceaselessly around us, the challenge today is not accessing knowledge but retaining it. 
 
