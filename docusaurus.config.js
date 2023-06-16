@@ -98,6 +98,10 @@ const config = {
             to: '/blog',
           },
           {
+            label: 'Contact',
+            to: '/contact',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },
