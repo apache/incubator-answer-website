@@ -81,6 +81,7 @@ export default Form;
 | onSubmit | Callback function when form is submitted | (data: React.FormEvent) => void       | -       |
 
 ## Types Definition
+
 ### JSONSchema
 
 ```ts
@@ -114,6 +115,7 @@ export interface UIOptions {
   ) => Promise<string | true | void> | true | string;
 }
 ```
+
 ### InputOptions
 
 ```ts
@@ -136,11 +138,13 @@ export interface InputOptions extends UIOptions {
     | 'week';
 }
 ```
+
 ### SelectOptions
 
 ```ts
 export interface SelectOptions extends UIOptions {}
 ```
+
 ### UploadOptions
 
 ```ts
@@ -149,11 +153,13 @@ export interface UploadOptions extends UIOptions {
   imageType?: 'post' | 'avatar' | 'branding';
 }
 ```
+
 ### SwitchOptions
 
 ```ts
 export interface SwitchOptions extends UIOptions {}
 ```
+
 ### TimezoneOptions
 
 ```ts
@@ -161,16 +167,19 @@ export interface TimezoneOptions extends UIOptions {
   placeholder?: string;
 }
 ```
+
 ### CheckboxOptions
 
 ```ts
 export interface CheckboxOptions extends UIOptions {}
 ```
+
 ### RadioOptions
 
 ```ts
 export interface RadioOptions extends UIOptions {}
 ```
+
 ### TextareaOptions
 
 ```ts
@@ -179,6 +188,7 @@ export interface TextareaOptions extends UIOptions {
   rows?: number;
 }
 ```
+
 ### UIWidget
 
 ```ts
@@ -213,6 +223,7 @@ export interface UISchema {
 ```
 
 ### FormData
+
 ```ts
 export interface FormValue<T = any> {
   value: T;
@@ -225,7 +236,6 @@ export interface FormDataType {
   [prop: string]: FormValue;
 }
 ```
-
 
 ## Backend API
 
@@ -253,7 +263,6 @@ For backend generating modal form you can return json like this.
   ]
 }
 ```
-
 
 ## reference
 

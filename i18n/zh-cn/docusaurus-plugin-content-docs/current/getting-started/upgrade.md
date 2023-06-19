@@ -3,12 +3,13 @@ sidebar_position: 2
 slug: /upgrade
 ---
 
-# Upgrade
+# 版本更新
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 :::caution
-We recommend that you back up database and configuration files before upgrading. Generally, we guarantee that the upgrade does not affect the existing data. 
+We recommend that you back up database and configuration files before upgrading. Generally, we guarantee that the upgrade does not affect the existing data.
 To back up data means that you have the option to roll back even if the upgrade fails, or you do not want the advanced version.
 :::
 

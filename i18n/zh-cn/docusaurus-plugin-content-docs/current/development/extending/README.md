@@ -3,19 +3,23 @@ sidebar_position: 1
 ---
 
 # Plugin
+
 :::tip
 
-When we need to do some extensions to Answer's functionality, for example, OAuth login, we design a way to use plugins to implement these functions. 
+When we need to do some extensions to Answer's functionality, for example, OAuth login, we design a way to use plugins to implement these functions.
 
 :::
 
 ## Introduction
+
 ### Official Plugins
+
 You can find a list of officially supported plugins for Answer [here](https://github.com/answerdev/plugins).
 
 ### Plugin Type
-> We classify plugins into different types. 
-> Different types of plugins have different functions. 
+>
+> We classify plugins into different types.
+> Different types of plugins have different functions.
 > Plugins of the same type have the same effect, but are implemented differently.
 
 - Connector: The Connector plugin helps us to implement third-party login functionality. e.g. `GitHub OAuth Login`
@@ -26,13 +30,16 @@ You can find a list of officially supported plugins for Answer [here](https://gi
 - Finder: Support for using search engines to speed up the search for question answers. (coming soon)
 
 ## Build
+>
 > Answer binary supports packaging different required plugins into the binary.
 
 ### Prerequisites
+
 - Original Answer binary
 - [Golang](https://go.dev/) `>=1.18`
 
 ### Command
+
 :::tip
 We use the `build` command provided with the Answer binary to rebuild a version of Answer with the plugin.
 :::
@@ -71,6 +78,7 @@ $ ./new_answer plugin
 ```
 
 ## Third-party plugin
+
 :::tip
 We recommend the use of [official plugins](https://github.com/answerdev/plugins), if you want to use third-party plugins, refer to the following.
 :::
@@ -79,38 +87,43 @@ We recommend the use of [official plugins](https://github.com/answerdev/plugins)
 - If the third-party plugin is private, you need to download it then build with.
 
 ## Use
+>
 > The answer with the plug-in version is used in the same way as before.
 > You can find the plugin's configuration in the admin page.
 
 ![plugin-config-admin-page](/img/docs/plugin-config-admin-page.png)
 
 ## Upgrade
+
 You just need to recompile and use the latest version of the plugin.
 
 ## Develop
+
 :::tip
 Viewing the [official plugin](https://github.com/answerdev/plugins) code will make you to quickly understand and learn plugin development.
 :::
 
 ### Backend Development
-#### Implement the base 
+
+#### Implement the base
+>
 > The `Base` interface contains basic information about the plugin and is used to display.
 
 ```go
 // Info presents the plugin information
 type Info struct {
-	Name        Translator
-	SlugName    string
-	Description Translator
-	Author      string
-	Version     string
-	Link        string
+ Name        Translator
+ SlugName    string
+ Description Translator
+ Author      string
+ Version     string
+ Link        string
 }
 
 // Base is the base plugin
 type Base interface {
-	// Info returns the plugin information
-	Info() Info
+ // Info returns the plugin information
+ Info() Info
 }
 ```
 
@@ -119,10 +132,11 @@ The `SlugName` of the plugin must be unique. Two plugins with the same `SlugName
 :::
 
 #### Implement the function interface
+
 :::note
 Different plugin types require different interfaces of implementation.
 
-For example, following is the `Connector` plugin interface. 
+For example, following is the `Connector` plugin interface.
 :::
 
 ```go
@@ -156,37 +170,39 @@ type Connector interface {
 `Translator` is a struct for translation. Please refer to [the documentation](/docs/development/extending/plugin_translation) for details.
 :::
 
-
 #### Implement the configuration interface
+
 For details on the description of each configuration item, please refer to [the documentation](/docs/development/extending/plugin_config).
 
 ```go
 type Config interface {
-	Base
+ Base
 
-	// ConfigFields returns the list of config fields
-	ConfigFields() []ConfigField
+ // ConfigFields returns the list of config fields
+ ConfigFields() []ConfigField
 
-	// ConfigReceiver receives the config data, it calls when the config is saved or initialized.
-	// We recommend to unmarshal the data to a struct, and then use the struct to do something.
-	// The config is encoded in JSON format.
-	// It depends on the definition of ConfigFields.
-	ConfigReceiver(config []byte) error
+ // ConfigReceiver receives the config data, it calls when the config is saved or initialized.
+ // We recommend to unmarshal the data to a struct, and then use the struct to do something.
+ // The config is encoded in JSON format.
+ // It depends on the definition of ConfigFields.
+ ConfigReceiver(config []byte) error
 }
 ```
 
 #### Register initialization function
+
 ```go
 import "github.com/answerdev/answer/plugin"
 
 func init() {
-	plugin.Register(&GitHubConnector{
-		Config: &GitHubConnectorConfig{},
-	})
+ plugin.Register(&GitHubConnector{
+  Config: &GitHubConnectorConfig{},
+ })
 }
 ```
 
 #### Debugging tips
+
 :::tip
 During the development and debugging phase, you can use the following tips to avoid repetitive packaging.
 :::
@@ -197,14 +213,15 @@ During the development and debugging phase, you can use the following tips to av
 
 After that you just need to start the answer project normally and it will contain the plugins you developed.
 
-
 ## Contributing
+
 For plugin types that have not been implemented yet, please wait for the official implementation to be completed before contributing.
-For existing plugin types, you can follow the steps below to contribute the plugin implementation to us. 
+For existing plugin types, you can follow the steps below to contribute the plugin implementation to us.
 
 1. Submit an issue request to ensure that the official is not developing the same plug-in as you.
 2. Get confirmation that you can develop your plugin, test it and submit a PR.
 3. Wait for the PR merge, the official will include your plugin.
 
 ## Design & Principle
+
 Since Golang is a static language, there is no friendly plugin mechanism. So instead of a dynamic approach, we use recompilation for deployment.

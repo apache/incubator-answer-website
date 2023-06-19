@@ -6,7 +6,7 @@ import Translate from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 type FeatureItem = {
-  title: string;
+  title: JSX.Element;
   icon: string;
   description: JSX.Element;
   later?: JSX.Element;
@@ -14,7 +14,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Q&A Platform',
+    title: (
+      <Translate id="home.features.title1">
+        Q&A Platform
+      </Translate>
+    ),
     icon: require('@site/static/img/feature-1.png').default,
     description: (
       <Translate id="home.features.item1">
@@ -25,7 +29,11 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Organized',
+    title: (
+      <Translate id="home.features.title2">
+        Organized
+      </Translate>
+    ),
     icon: require('@site/static/img/feature-2.png').default,
     description: (
       <Translate id="home.features.item2">
@@ -36,7 +44,11 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Integrations',
+    title: (
+      <Translate id="home.features.title3">
+        Integrations
+      </Translate>
+    ),
     icon: require('@site/static/img/feature-3.png').default,
     description: (
       <Translate id="home.features.item3">
@@ -48,7 +60,11 @@ const FeatureList: FeatureItem[] = [
     later: <Translate id="home.features.comming_soon">Coming soon</Translate>,
   },
   {
-    title: 'Gamification',
+    title: (
+      <Translate id="home.features.title4">
+        Gamification
+      </Translate>
+    ),
     icon: require('@site/static/img/feature-4.png').default,
     description: (
       <Translate id="home.features.item4">

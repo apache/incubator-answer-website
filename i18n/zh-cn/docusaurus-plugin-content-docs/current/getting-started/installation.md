@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /installation
 ---
 
-# Installation
+# 安装流程
 
 ## 🚀 Start Answer
 
@@ -51,7 +51,7 @@ As a golang project, Answer can be compiled into a binary file. You can download
 INSTALL_PORT=80 ./answer init -C ./answer-data/
 ```
 
-After running the command, heading to http://localhost:80/install to continue installation.
+After running the command, heading to <http://localhost:80/install> to continue installation.
 
 Follow the [Install Steps](#install-steps) to complete the installation. **After that** run the following command to start the answer again.
 

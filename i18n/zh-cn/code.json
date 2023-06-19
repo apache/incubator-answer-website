@@ -461,6 +461,18 @@
   "home.btn.started": {
     "message": "开始使用"
   },
+  "home.features.title1": {
+    "message": "问答社区"
+  },
+  "home.features.title2": {
+    "message": "内容管理"
+  },
+  "home.features.title3": {
+    "message": "插件拓展"
+  },
+  "home.features.title4": {
+    "message": "趣味十足"
+  },
   "home.features.item1": {
     "message": "帮助成员解答问题，提升社区参与度。社区内的专业人士将乐于分享、验证和点赞正确的信息。社区内的信息是可靠的，并将始终保持最新。"
   },
