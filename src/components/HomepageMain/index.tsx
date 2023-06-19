@@ -83,7 +83,7 @@ function Feature({ title, icon, description, later }: FeatureItem) {
       <div className="mb-3">
         <img className={styles.featureSvg} role="img" src={icon} />
       </div>
-      <h2 style={{ fontWeight: 500 }}>{title}</h2>
+      <h4 className="mb-3">{title}</h4>
       <p>{description}</p>
       {later && <div className={styles.badge}>{later}</div>}
     </Col>
@@ -168,7 +168,7 @@ export default function HomepageFeatures(): JSX.Element {
       <Row className="row justify-content-center">
         <Col className="col-12">
           <section>
-            <h3 className="text-center ff-headline mb-5 h1">
+            <h3 className="text-center mb-5 h1">
               <Translate id="home.features.title">Features</Translate>
             </h3>
             <div className={styles.features}>
@@ -181,7 +181,7 @@ export default function HomepageFeatures(): JSX.Element {
           </section>
 
           <section style={{ marginBottom: '96px' }}>
-            <h3 className="text-center ff-headline h1">
+            <h3 className="text-center h1">
               <Translate id="home.contribute.title">We welcome all contributions</Translate>
             </h3>
             <p className="text-center text-secondary mb-4 fs-20">

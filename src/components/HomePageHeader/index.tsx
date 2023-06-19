@@ -55,7 +55,7 @@ const HomeHead: FC = () => {
               className="mb-4"
             />
 
-            <h1 className={clsx('sm-h1 ff-headline', styles.h1)}>
+            <h1 className={clsx('sm-h1 fw-bold', styles.h1)}>
               <Translate
                 id="home.title"
                 values={{
