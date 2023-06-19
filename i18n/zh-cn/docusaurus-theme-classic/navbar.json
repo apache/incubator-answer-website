@@ -8,23 +8,23 @@
     "description": "Navbar item with label Docs"
   },
   "item.label.Issue": {
-    "message": "Issue",
+    "message": "问题",
     "description": "Navbar item with label Issue"
   },
   "item.label.Roadmap": {
-    "message": "Roadmap",
+    "message": "路线图",
     "description": "Navbar item with label Roadmap"
   },
   "item.label.Community": {
-    "message": "Community",
+    "message": "社区",
     "description": "Navbar item with label Community"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "博客",
     "description": "Navbar item with label Blog"
   },
   "item.label.Contact": {
-    "message": "Contact",
+    "message": "联系我们",
     "description": "Navbar item with label Contact"
   }
 }
