@@ -45,7 +45,7 @@ const BlogPostItemHeader = () => {
             </time>
             <div>
               <Translate id="blogPostItem.readingTime" values={{
-                reading_time: metadata.readingTime
+                reading_time: Math.round(metadata.readingTime),
               }}>
                 {'{reading_time} min read'}
               </Translate>
