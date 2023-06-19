@@ -3,16 +3,16 @@
     "message": "最佳实践"
   },
   "Company": {
-    "message": "Company"
+    "message": "公司新闻"
   },
   "Insights": {
-    "message": "Insights"
+    "message": "深度洞察"
   },
   "Tutorials": {
-    "message": "Tutorials"
+    "message": "使用指南"
   },
   "Release": {
-    "message": "Release"
+    "message": "更新发布"
   },
   "blogCategoriesNav.all": {
     "message": "全部"
@@ -21,10 +21,10 @@
     "message": "“{category_name}” 帖子"
   },
   "blogHeader.title": {
-    "message": "Blog"
+    "message": "博客"
   },
   "blogHeader.slogon": {
-    "message": "Learn everything about Answer and leverage your Q&A community to the next level."
+    "message": "探索关于 Answer 的方方面面，让你的问答社区更强大、更有影响力。"
   },
   "theme.docs.paginator.previous": {
     "message": "上一页",
@@ -63,11 +63,11 @@
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.blog.archive.title": {
-    "message": "历史博文",
+    "message": "过往博客",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "历史博文",
+    "message": "过往博客",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
@@ -441,88 +441,88 @@
     "description": "The title of the tag list page"
   },
   "waitlist.title": {
-    "message": "Answer Cloud is coming soon!"
+    "message": "Answer Cloud 即将发布!"
   },
   "waitlist.description": {
-    "message": "We are working hard to build Answer Cloud solution. Fill out the form now to stay on top of the latest product updates, development inspirations, and user research prompt. We will keep your information secure at all times."
+    "message": "我们正在努力构建 Answer Cloud 解决方案。你可以填写表格，以获取最新的产品更新、开发灵感和用户研究案例。我们将始终守护你的信息安全。"
   },
   "loading": {
-    "message": "Loading..."
+    "message": "加载中..."
   },
   "home.waitlist.title": {
-    "message": "👋 Join the Answer Cloud Waitlist"
+    "message": "👋 加入 Answer Cloud 等候名单"
   },
   "home.title": {
-    "message": "Build Q&A Community {br} with Answer"
+    "message": "用 Answer {br} 构建问答社区"
   },
   "home.description": {
-    "message": "An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more."
+    "message": "一款开源知识共享社区软件。你可以快速用它为你的产品、客户、团队等构建问答社区。"
   },
   "home.btn.started": {
-    "message": "Get Started"
+    "message": "开始使用"
   },
   "home.features.item1": {
-    "message": "Help members with questions and boost community participation. Your experts are happy to contribute, verify, upvote correct info. Your info keeping up-to-date and trusted."
+    "message": "帮助成员解答问题，提升社区参与度。社区内的专业人士将乐于分享、验证和点赞正确的信息。社区内的信息是可靠的，并将始终保持最新。"
   },
   "home.features.item2": {
-    "message": "Use tags to organize questions and help contents into categories. They make knowledge easy to find for others. Use the search to quickly find the answer."
+    "message": "使用标签将问题和内容进行归类。这样使寻找所需的知识变得更加轻松。你也可以使用搜索功能快速找到答案。"
   },
   "home.features.item3": {
-    "message": "Configure your community with plugins and your favorite services. So that you can improve your workflow, grow your community, or make your other tools better."
+    "message": "通过插件和你喜爱的服务来配置你的社区。这样可以改进工作流程、扩张社区规模，或者让你的其他工具变得更好。"
   },
   "home.features.comming_soon": {
-    "message": "Coming soon"
+    "message": "即将发布"
   },
   "home.features.item4": {
-    "message": "We've gamified the Q&A platform with reputation and badges. So the community members and teams have fun collaborating and getting work done."
+    "message": "我们通过声望和徽章让问答平台变得更加有趣，这使社区成员和团队在合作及完成工作时会感到愉快。"
   },
   "home.features.title": {
-    "message": "Features"
+    "message": "功能"
   },
   "home.contribute.title": {
-    "message": "We welcome all contributions"
+    "message": "我们欢迎所有开发者"
   },
   "home.contribute.ways": {
-    "message": "Here are some quick ways you can help the community."
+    "message": "以下是可以帮助社区的一些快速方法。"
   },
   "home.contribute.item1": {
-    "message": "Contribute to our open-source codebase on GitHub"
+    "message": "在 GitHub 上为我们的开源代码库做出贡献"
   },
   "home.contribute.item2": {
-    "message": "Help us improve the docs"
+    "message": "帮助我们完善文档"
   },
   "home.contribute.item3": {
-    "message": "Help us translate language resources"
+    "message": "帮助我们翻译语言资源"
   },
   "contactHeader.title": {
-    "message": "Contact us"
+    "message": "联系我们"
   },
   "contactHeader.slogon": {
-    "message": "We always get an answer to your question."
+    "message": "我们总是能为你的问题找到答案"
   },
   "contact.email": {
-    "message": "Tweet or Message {br} @AnswerDev on Twitter"
+    "message": "在 Twitter 上发送推文或私信 {br} @AnswerDev"
   },
   "contact.getSupport": {
-    "message": "Get Support"
+    "message": "获取帮助"
   },
   "contact.marketing.title": {
-    "message": "Marketing Inquiries"
+    "message": "市场合作"
   },
   "contact.marketing.email": {
-    "message": "Send Email to {email}"
+    "message": "发送邮件至 {email}"
   },
   "contact.above.title": {
-    "message": "None of the Above"
+    "message": "以上都不是"
   },
   "contact.above.description": {
-    "message": "If you don’t find what you’re looking for, please use the form below to submit your request. We’ll try and get back to you as soon as possible."
+    "message": "如果没有找到你需要的内容，请使用下面的表单提交你的请求。我们将尽快回复你。"
   },
   "contact.title": {
     "message": "联系我们"
   },
   "contact.slogon": {
-    "message": "We always get an answer to your question."
+    "message": "我们总是能为你的问题找到答案。"
   },
   "Contact Us": {
     "message": "联系我们"
