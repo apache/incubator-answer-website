@@ -18,7 +18,7 @@
     "message": "全部"
   },
   "blogCategoryPostsPage.posts": {
-    "message": "“{category_name}” Posts"
+    "message": "“{category_name}” 帖子"
   },
   "blogHeader.title": {
     "message": "Blog"
