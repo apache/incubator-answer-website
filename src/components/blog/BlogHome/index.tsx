@@ -47,7 +47,7 @@ export function Home({ featuredPosts, categoyList, metadata, blogList }: HomePro
         image={require('@site/static/img/blog/cover@4x.png').default} />
       <Layout>
         <HeaderSlogon type="blog" />
-        <div className="container">
+        <div className="container pb-5">
           <BlogRecommend data={featuredPosts} />
           <BlogCategoriesNav
             data={categoyList}

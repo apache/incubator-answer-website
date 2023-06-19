@@ -3,12 +3,12 @@ import clsx  from 'clsx';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
 
-import styles from './index.module.css';
-
 
 const Index = ({ data }) => {
+  if (!data?.previousPage && !data?.nextPage) return null;
+
   return (
-    <nav className='d-flex align-items-center justify-content-center py-5'>
+    <nav className='d-flex align-items-center justify-content-center mt-5'>
       <ul className="pagination">
         <li className={clsx('page-item', data?.previousPage ? '' : 'disabled')}>
           <Link

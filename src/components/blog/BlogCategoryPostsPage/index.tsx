@@ -36,7 +36,7 @@ const Index = (props: IProps) => {
       <SearchMetadata tag="blog_tags_posts" />
       <Layout>
         <HeaderSlogon type="blog" />
-        <div className='container'>
+        <div className='container pb-5'>
           <BlogCategoriesNav
             className="mt-5"
             data={categoriyList}

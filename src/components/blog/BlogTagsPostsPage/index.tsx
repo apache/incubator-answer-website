@@ -30,7 +30,7 @@ const Index = (props: Props) => {
       <SearchMetadata tag="blog_tags_posts" />
       <Layout>
         <HeaderSlogon type="blog" />
-        <div className='container pt-5'>
+        <div className='container pt-5 pb-5'>
           <h2 className='mb-4'>
             <Translate
               id="blogCategoryPostsPage.posts"
