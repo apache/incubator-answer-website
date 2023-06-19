@@ -62,18 +62,19 @@ Here are some practical use cases of Q&A platforms:
  Q&A platforms can be a valuable tool for recruitment. They can be used to answer questions about job openings, company culture, and career opportunities, giving potential candidates a better understanding of the organization they may be joining.
 
 5. Research  
-Last but not least, Q&A platforms can also be used for research purposes. They can be used to ask and answer questions on a variety of topics, helping individuals and organizations gather information and insights on specific subjects.
+ Last but not least, Q&A platforms can also be used for research purposes. They can be used to ask and answer questions on a variety of topics, helping individuals and organizations gather information and insights on specific subjects.
 
 ## What Makes a Great Q&A Platform
 
 These are some key factors that not only makes a great Q&A platform for both question askers and answers, and find out how we apply them in [meta.answer](https://meta.answer.dev/), a community built with Answer.
-[image](qaplatform1-cover@4x.png)
+
+![image](qaplatform1.png)
 
 * **Expertise:** A great Q&A platform should attract a wide range of experts who can provide knowledgeable and helpful answers. The platform should also make it easy for users to identify these experts and trust their responses.
 * **Diversity:** A great Q&A platform attracts a diverse group of users who have expertise and knowledge in different areas. This diversity of expertise can provide valuable insights and perspectives, and can help to foster a collaborative and supportive community.
-* **Community:**A great Q&A platform has an active and engaged community of users who are willing to share their knowledge and help others. The platform should encourage users to participate by providing incentives such as badges or points, and by creating a welcoming and supportive environment.
+* **Community:** A great Q&A platform has an active and engaged community of users who are willing to share their knowledge and help others. The platform should encourage users to participate by providing incentives such as badges or points, and by creating a welcoming and supportive environment.
 * **Easy of Use:** A great Q&A platform should be easy to use and navigate. Users should be able to ask questions and find answers quickly and easily. The platform should also be responsive and work well on different devices.
-* **Moderation:**A great Q&A platform has effective moderation to ensure that users are following the rules and guidelines of the community. Moderation can help to prevent spam, trolling, and other negative behaviors that can detract from the quality of the platform.
+* **Moderation:** A great Q&A platform has effective moderation to ensure that users are following the rules and guidelines of the community. Moderation can help to prevent spam, trolling, and other negative behaviors that can detract from the quality of the platform.
 
 ## Build a Q&A Platform in 3 Steps
 
@@ -92,7 +93,7 @@ Follow the guide to build a basic Q&A platform, easy-peasy.
 
 Answer is knowledge-based community software, offering a smooth set-up for your Q&A platform. Its nature of open source lets you customize a Q&A platform for a big take-off. Take a glimpse at the [Answer community](https://meta.answer.dev/) built with Answer.
 
-[img](qaplatform2-cover@4x.png)
+![img](qaplatform2.png)
 
 No matter what your Q&A platform is about, it’s always great to collect valuable insights and perspectives, and keep up-to-date answers. We’ve also packed up these resources that help you kick-start a joyful Answer journey:
 
