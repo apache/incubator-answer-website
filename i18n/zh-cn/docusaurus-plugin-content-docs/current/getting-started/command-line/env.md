@@ -2,7 +2,7 @@
 slug: /env
 ---
 
-# Environment Variable
+# 环境变量
 
 ## Installation
 
@@ -11,8 +11,8 @@ slug: /env
 
 ### For Auto Install
 
-- DB_TYPE: database type, support [`sqlite3`  `mysql`  `postgres`] 
-- DB_USERNAME: database username 
+- DB_TYPE: database type, support [`sqlite3`  `mysql`  `postgres`]
+- DB_USERNAME: database username
 - DB_PASSWORD: database password
 - DB_HOST: database host, like `127.0.0.1:3306`
 - DB_NAME: database name
@@ -29,4 +29,3 @@ slug: /env
 
 - LOG_LEVEL: log level support [`DEBUG`  `INFO`  `WARN`  `ERROR`]
 - LOG_PATH: log storage location
-

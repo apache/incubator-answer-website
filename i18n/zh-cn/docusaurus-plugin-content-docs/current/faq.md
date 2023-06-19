@@ -1,7 +1,7 @@
 ---
 ---
 
-# FAQ
+# 常见问题
 
 ## How do I access the installation page?
 

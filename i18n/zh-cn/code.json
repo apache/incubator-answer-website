@@ -513,7 +513,7 @@
     "message": "我们总是能为你的问题找到答案"
   },
   "contact.email": {
-    "message": "在 Twitter 上发送推文或私信 {br} @AnswerDev"
+    "message": "发送邮件至 {br} support@answer.dev"
   },
   "contact.getSupport": {
     "message": "获取帮助"
@@ -538,5 +538,11 @@
   },
   "Contact Us": {
     "message": "联系我们"
+  },
+  "contact.community": {
+    "message": "咨询 {br} Answer 社区"
+  },
+  "contact.twitter": {
+    "message": "在 Twitter 上发送推文或私信 {br} @AnswerDev"
   }
 }

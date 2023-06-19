@@ -1,5 +1,6 @@
 ---
 ---
 
-# Flags
-> user can report the illegal content by flag.
+# 举报
+>
+> 用户可以通过标记举报非法内容。

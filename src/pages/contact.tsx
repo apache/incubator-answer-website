@@ -13,7 +13,7 @@ const supportList = [
   {
     key: 'email',
     url: 'mailto:support@answer.dev',
-    icon: <SvgEnvelope width="48px" height="36px" />,
+    icon: <SvgEnvelope width="48px" height="48px" />,
     info: <Translate id="contact.email" values={{
             br: <br />,
           }}>
@@ -23,8 +23,8 @@ const supportList = [
   {
     key: 'community',
     url: 'https://meta.answer.dev',
-    icon: <SvgChat width="48px" height="36px" />,
-    info: <Translate id="contact.email" values={{
+    icon: <SvgChat width="48px" height="48px" />,
+    info: <Translate id="contact.community" values={{
               br: <br />,
             }}>
               {'Ask the {br} Answer Community'}
@@ -33,8 +33,8 @@ const supportList = [
   {
     key: 'twitter',
     url: 'https://twitter.com/answerdev',
-    icon: <SvgTwitter width="48px" height="36px" />,
-    info: <Translate id="contact.email" values={{
+    icon: <SvgTwitter width="48px" height="48px" />,
+    info: <Translate id="contact.twitter" values={{
               br: <br />,
             }}>
               {'Tweet or Message {br} @AnswerDev on Twitter'}

@@ -1,19 +1,21 @@
 ---
-sidebar_label: Plugin Configuration Schema
+sidebar_label: 插件配置架构
 ---
 
-# Plugin Configuration Schema
+# 插件配置架构
 
 ## Feature
+>
 > For plugins, we often need some configuration items to record the information necessary for the plugin.
-> 
+>
 > For example, OAuth plugins require secret key configuration.
-> 
+>
 > These configurations need to be described by the developer and used by the user.
-> 
+>
 > So, the following is about how to describe the configuration required for a plugin.
 
 ### Backend & Plugin developer
+
 :::note
 
 For backend or plugin developers, we use the following structure to describe the plugin configuration.
@@ -47,6 +49,7 @@ type ConfigFieldOption struct {
 ```
 
 ### Frontend
+
 :::note
 
 On the frontend we use JSON to describe and render the plugin's configuration items.
@@ -101,6 +104,7 @@ The following is what looks like on the Admin Page.
 ![plugin-github-connector-config](/img/docs/plugin-github-connector-config.png)
 
 ### Supported Config Types
+>
 > Different types will be rendered as different UI.
 
 - input
@@ -113,6 +117,7 @@ The following is what looks like on the Admin Page.
 - switch
 
 ### Supported Config Input Types
+>
 > Different formats are supported for the input type
 
 - text

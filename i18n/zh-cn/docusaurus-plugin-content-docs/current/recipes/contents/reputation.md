@@ -1,4 +1,4 @@
-# Reputation
+# 声望
 
 Reputation used to automate the management of community ecology.  
 
