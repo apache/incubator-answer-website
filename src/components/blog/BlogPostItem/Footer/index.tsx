@@ -2,9 +2,6 @@
  import Link from '@docusaurus/Link';
  import Translate from '@docusaurus/Translate';
  import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
- const TwitterIcon = require('@site/static/img/blog/twitter.svg').default;
- const FacebookIcon = require('@site/static/img/blog/facebook.svg').default;
- const LinkedinIcon = require('@site/static/img/blog/linkedin.svg').default;
  // @ts-ignore
  import { useBlogPost } from '@docusaurus/theme-common/internal';
  import {
@@ -12,6 +9,8 @@
   LinkedinShareButton,
   TwitterShareButton,
 } from "react-share";
+
+import Icon from '@site/src/components/Icon';
 
 import styles from './index.module.css';
 
@@ -56,14 +55,14 @@ import styles from './index.module.css';
             className={styles.shareBtn}
             title={metadata.title}
             url={url + metadata.permalink}>
-              <TwitterIcon />
+              <Icon name="twitter" size="16px" />
           </TwitterShareButton>
 
           <FacebookShareButton
             className={styles.shareBtn}
             title={metadata.title}
             url={url + metadata.permalink}>
-              <FacebookIcon />
+              <Icon name="facebook" size="16px" />
           </FacebookShareButton>
 
           <LinkedinShareButton
@@ -73,7 +72,7 @@ import styles from './index.module.css';
             source={url}
             summary={metadata.description}
           >
-            <LinkedinIcon />
+            <Icon name="linkedin" size="16px" />
           </LinkedinShareButton>
         </div>
       </div>

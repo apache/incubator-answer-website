@@ -3,9 +3,7 @@ import { Spinner, Container, Row, Col, Card } from 'react-bootstrap';
 import Translate, { translate } from '@docusaurus/Translate';
 import HubspotForm from 'react-hubspot-form';
 import Layout from '@theme/Layout';
-import SvgEnvelope from '@site/static/img/contact/envelope.svg';
-import SvgChat from '@site/static/img/contact/chat.svg';
-import SvgTwitter from '@site/static/img/contact/twitter.svg';
+import Icon from '@site/src/components/Icon';
 
 import HeaderSlogon from '../components/HeaderSlogon';
 
@@ -13,7 +11,7 @@ const supportList = [
   {
     key: 'email',
     url: 'mailto:support@answer.dev',
-    icon: <SvgEnvelope width="48px" height="48px" />,
+    icon: <Icon name="envelope-fill" size="48px" className="text-primary" />,
     info: <Translate id="contact.email" values={{
             br: <br />,
           }}>
@@ -23,7 +21,7 @@ const supportList = [
   {
     key: 'community',
     url: 'https://meta.answer.dev',
-    icon: <SvgChat width="48px" height="48px" />,
+    icon: <Icon name="chat-square-text-fill" size="48px" className="text-primary" />,
     info: <Translate id="contact.community" values={{
               br: <br />,
             }}>
@@ -33,7 +31,7 @@ const supportList = [
   {
     key: 'twitter',
     url: 'https://twitter.com/answerdev',
-    icon: <SvgTwitter width="48px" height="48px" />,
+    icon: <Icon name="twitter" size="48px" className="text-primary" />,
     info: <Translate id="contact.twitter" values={{
               br: <br />,
             }}>

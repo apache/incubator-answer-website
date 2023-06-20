@@ -12,6 +12,7 @@ specifiers:
   '@popperjs/core': ^2.11.8
   '@tsconfig/docusaurus': ^1.0.5
   bootstrap: ^5.3.0
+  bootstrap-icons: ^1.10.5
   clsx: ^1.2.1
   docusaurus-plugin-sass: ^0.2.3
   hast-util-is-element: 1.1.0
@@ -38,6 +39,7 @@ dependencies:
   '@mdx-js/react': 1.6.22_react@17.0.2
   '@popperjs/core': 2.11.8
   bootstrap: 5.3.0_@popperjs+core@2.11.8
+  bootstrap-icons: 1.10.5
   clsx: 1.2.1
   hast-util-is-element: 1.1.0
   lodash: 4.17.21
@@ -4046,6 +4048,10 @@ packages:
 
   /boolbase/1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
+
+  /bootstrap-icons/1.10.5:
+    resolution: {integrity: sha512-oSX26F37V7QV7NCE53PPEL45d7EGXmBgHG3pDpZvcRaKVzWMqIRL9wcqJUyEha1esFtM3NJzvmxFXDxjJYD0jQ==}
+    dev: false
 
   /bootstrap/5.3.0_@popperjs+core@2.11.8:
     resolution: {integrity: sha512-UnBV3E3v4STVNQdms6jSGO2CvOkjUMdDAVR2V5N4uCMdaIkaQjbcEAMqRimDHIs4uqBYzDAKCQwCB+97tJgHQw==}

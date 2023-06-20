@@ -103,19 +103,18 @@ const config = {
           },
           {
             type: 'localeDropdown',
+            className: 'bi bi-translate',
             position: 'right',
           },
           {
-            src: 'img/discord.svg',
-            className: 'header-discord-link',
+            className: 'bi bi-discord navbar-icon-link',
             to: 'https://discord.gg/a6PZZbfnFx',
             position: 'right',
           },
           {
             href: 'https://github.com/answerdev/answer',
-            src: 'img/github.svg',
             position: 'right',
-            className: 'header-github-link',
+            className: 'bi bi-github navbar-icon-link',
           },
         ],
       },

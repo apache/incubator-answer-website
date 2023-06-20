@@ -1,8 +1,10 @@
 import React, { FC, useEffect } from 'react';
 import Link from '@docusaurus/Link';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
+import Icon from '@site/src/components/Icon';
+
 import styles from './index.module.css';
 
 const HomeHead: FC = () => {
@@ -38,12 +40,8 @@ const HomeHead: FC = () => {
           <Translate id="home.waitlist.title">
             👋 Join the Answer Cloud Waitlist
           </Translate>
-          <img
-            className="ms-1"
-            src={require('@site/static/img/arrow-right.png').default}
-            alt="waitlist"
-            width="14px"
-          />
+
+          <Icon name="arrow-right"  size="16px"  className="ms-1" />
         </Link>
         <Row className='justify-content-center'>
           <Col md={12} lg={8} className='d-flex flex-column align-items-center'>
@@ -77,28 +75,26 @@ const HomeHead: FC = () => {
             </div>
 
             <div className="d-flex">
-              <a
-                className="button button--lg button--primary fw-normal fs-20 btnMain me-3"
+              <Button
+                size="lg"
+                variant="primary"
+                className="fw-normal fs-20 btnMain me-3"
                 href="/docs"
               >
                 <Translate id="home.btn.started">Get Started</Translate>
-              </a>
+              </Button>
 
-              <a
-                className="d-flex align-items-center button button--lg button--dark fw-normal fs-20 text-white"
+              <Button
+                size="lg"
+                variant="dark"
+                className="btnMain fw-normal fs-20"
                 href="https://github.com/answerdev/answer"
                 target="_blank"
               >
-                <img
-                  src={require('@site/static/img/github.png').default}
-                  className="margin-right--sm"
-                  width="24px"
-                  height="24px"
-                  alt="github"
-                />
+                <Icon name="github" size="24px"  className="me-2" />
                 {` Star `}
                 {stars !== 0 ? numWord(stars) : ''}
-              </a>
+              </Button>
             </div>
           </Col>
         </Row>
