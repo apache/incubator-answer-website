@@ -68,9 +68,9 @@ export default function Home(): JSX.Element {
             return (
               <Col sm={12} md={6} lg={3} key={item.key} className='mb-4 mb-md-4'>
                 <Card as="a" href={item.url} target='_blank'>
-                  <Card.Body>
+                  <Card.Body className='p-4'>
                     {item.icon}
-                    <div className='fs-20 text-dark mt-3'>
+                    <div className='fs-20 text-body mt-3'>
                       {item.info}
                     </div>
                   </Card.Body>
@@ -85,7 +85,7 @@ export default function Home(): JSX.Element {
         </h3>
         <div className='pb-5 mb-5'>
           <Translate id="contact.marketing.email" values={{
-            email: <a href="mailto:marketing@answer.com">marketing@answer.com</a>
+            email: <a href="mailto:marketing@answer.dev">marketing@answer.dev</a>
           }}>
             {'Send Email to {email}'}
           </Translate>
