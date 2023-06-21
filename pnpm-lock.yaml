@@ -5,6 +5,7 @@ specifiers:
   '@docusaurus/eslint-plugin': ^2.2.0
   '@docusaurus/module-type-aliases': 2.4.0
   '@docusaurus/plugin-content-blog': ^2.4.0
+  '@docusaurus/plugin-content-docs': ^2.4.1
   '@docusaurus/preset-classic': 2.4.0
   '@docusaurus/theme-classic': ^2.4.0
   '@docusaurus/theme-common': ^2.4.0
@@ -33,6 +34,7 @@ specifiers:
 dependencies:
   '@docusaurus/core': 2.4.0_56jbash75ng5psbctf36wqywr4
   '@docusaurus/plugin-content-blog': 2.4.1_56jbash75ng5psbctf36wqywr4
+  '@docusaurus/plugin-content-docs': 2.4.1_56jbash75ng5psbctf36wqywr4
   '@docusaurus/preset-classic': 2.4.0_56jbash75ng5psbctf36wqywr4
   '@docusaurus/theme-classic': 2.4.1_56jbash75ng5psbctf36wqywr4
   '@docusaurus/theme-common': 2.4.1_56jbash75ng5psbctf36wqywr4
@@ -1667,7 +1669,7 @@ packages:
       '@babel/preset-env': 7.19.4_@babel+core@7.19.6
       '@babel/preset-react': 7.18.6_@babel+core@7.19.6
       '@babel/preset-typescript': 7.18.6_@babel+core@7.19.6
-      '@babel/runtime': 7.20.1
+      '@babel/runtime': 7.22.5
       '@babel/runtime-corejs3': 7.20.1
       '@babel/traverse': 7.20.1
       '@docusaurus/cssnano-preset': 2.4.1
