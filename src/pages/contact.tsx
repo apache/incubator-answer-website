@@ -66,7 +66,7 @@ export default function Home(): JSX.Element {
             return (
               <Col sm={12} md={6} lg={3} key={item.key} className='mb-4 mb-md-4'>
                 <Card as="a" href={item.url} target='_blank'>
-                  <Card.Body className='p-4'>
+                  <Card.Body>
                     {item.icon}
                     <div className='fs-20 text-body mt-3'>
                       {item.info}
