@@ -2,7 +2,7 @@
 slug: /database
 ---
 
-# 数据库说明
+# 数据库介绍
 
 :::note
 
@@ -10,7 +10,7 @@ Different databases have different data types. The following table presumes use 
 
 :::
 
-## activity 
+## activity
 >
 > `activity` table records various actions of users, such as votes, etc.
 
@@ -30,7 +30,7 @@ Different databases have different data types. The following table presumes use 
 | has_rank           | tinyint(4) | NO       |     | 0       | this activity has rank or not                                               |
 | revision_id        | bigint(20) | NO       |     | 0       | revision id                                                                 |
 
-## answer 
+## answer
 >
 > `answer` table records the answer info.
 
@@ -50,7 +50,7 @@ Different databases have different data types. The following table presumes use 
 | vote_count        | int(11)    | NO       |     | 0                 | vote count                              |
 | revision_id       | bigint(20) | NO       |     | 0                 | revision id                             |
 
-## collection 
+## collection
 >
 > `collection` table records user collection about any object.
 
@@ -74,7 +74,7 @@ Different databases have different data types. The following table presumes use 
 | name          | varchar(50) | NO       |     |                   | the collection group name             |
 | default_group | int(11)     | NO       |     | 1                 | mark this group is default, default 1 |
 
-## comment 
+## comment
 >
 > `comment` table records the comment about question or answer.
 
@@ -93,7 +93,7 @@ Different databases have different data types. The following table presumes use 
 | original_text    | mediumtext | NO       |     |         | original comment content                 |
 | parsed_text      | mediumtext | NO       |     |         | parsed comment content                   |
 
-## config 
+## config
 >
 > `config` records the site configuration.
 
@@ -103,7 +103,7 @@ Different databases have different data types. The following table presumes use 
 | key    | varchar(128) | YES      | UNI |         | the config key                                     |
 | value  | text         | YES      |     |         | the config value, custom data structures and types |
 
-## meta 
+## meta
 >
 > `meta` records some extra information about the object.
 
@@ -116,7 +116,7 @@ Different databases have different data types. The following table presumes use 
 | key        | varchar(100) | NO       |     |                   | key          |
 | value      | mediumtext   | NO       |     |                   | value        |
 
-## notification 
+## notification
 >
 > `notification` table records the notification that user received.
 
@@ -171,7 +171,7 @@ Different databases have different data types. The following table presumes use 
 | post_update_time   | timestamp    | YES      |     | CURRENT_TIMESTAMP | answer the last update time               |
 | revision_id        | bigint(20)   | NO       |     | 0                 | revision id                               |
 
-## report 
+## report
 >
 > `report` table records the content of user reports
 
@@ -190,7 +190,7 @@ Different databases have different data types. The following table presumes use 
 | flagged_content  | text       | YES      |     |         | flagged content                          |
 | status           | int(11)    | NO       |     | 1       | status(normal: 1; pending:2; delete: 10) |
 
-## revision 
+## revision
 >
 > `revision` table records the object revision and the content of the version.
 
@@ -278,7 +278,7 @@ Different databases have different data types. The following table presumes use 
 | tag_id         | bigint(20)     | NO           | MUL     |             | tag_id                                      |
 | status         | int(11)        | NO           |         | 1           | tag_list_status(available: 1;deleted: 10)   |
 
-## uniqid 
+## uniqid
 >
 > `uniqid` table recorded the object_id that can uniquely identify an object.
 
@@ -287,7 +287,7 @@ Different databases have different data types. The following table presumes use 
 | id          | bigint(20) | NO       | PRI |         | uniqid_id   |
 | uniqid_type | int(11)    | NO       |     |       0 | uniqid_type |
 
-## user 
+## user
 >
 > The user table recorded basic information about the user.
 

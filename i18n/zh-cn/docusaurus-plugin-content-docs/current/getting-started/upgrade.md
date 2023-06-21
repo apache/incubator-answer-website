@@ -3,7 +3,7 @@ sidebar_position: 2
 slug: /upgrade
 ---
 
-# 版本更新
+# 更新版本
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

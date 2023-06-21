@@ -1,8 +1,9 @@
 ---
 sidebar_label: 插件配置架构
+sidebar_position: 0
 ---
 
-# 插件配置架构
+# Plugin Configuration Schema
 
 ## Feature
 >

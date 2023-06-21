@@ -2,7 +2,7 @@
 slug: /command-line
 ---
 
-# Command Line
+# 命令行
 
 :::tip
 
@@ -11,6 +11,7 @@ Answer binary support some command-line options
 :::
 
 ## Usage
+
 `answer command [command or global options] [arguments...]`
 
 ```shell
@@ -38,13 +39,17 @@ Use "answer [command] --help" for more information about a command.
 ```
 
 ## Global options
+
 All global options can be placed at the command level.
+
 - `--help`, `-h`: Show help text and exit. Optional.
 - `--version`, `-v`: Show version and exit. Optional.
 - `--data-path` path, `-C` path: data saved path. Optional. (default: /data/)
 
 ## Commands
+
 ### init
+>
 > init command will initialize the application required environment, contains: default config-file, data directory, initialize database etc.
 
 - Examples
@@ -54,24 +59,28 @@ All global options can be placed at the command level.
   - if answer initialized failed, run command can not be executed.
 
 ### check
+>
 > check command will check the application whether it can run or not. check the config file if exist. check the database if connection can be established etc.
 
 - Examples
   - `answer check -C ./data/`
 
 ### run
+>
 > run command will run the application.
 
 - Examples
   - `answer run -C ./data/`
 
 ### upgrade
+>
 > upgrade command will upgrade the application.
 
 - Examples
-  - `answer upgrade -C ./data/` 
+  - `answer upgrade -C ./data/`
 
 ### dump
+>
 > dump command will dump the database data to sql file.
 
 - Options

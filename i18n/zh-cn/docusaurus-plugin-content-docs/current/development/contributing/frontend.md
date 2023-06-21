@@ -1,7 +1,7 @@
 ---
 ---
 
-# Frontend
+# 前端
 
 ## ⚙️ Prerequisites
 
@@ -26,10 +26,10 @@ corepack prepare pnpm@latest --activate
 clone the repo locally and run following command in your terminal:
 
 ```shell
-$ git clone git@github.com:answerdev/answer.git answer
-$ cd answer/ui
-$ pnpm install
-$ pnpm start
+git clone git@github.com:answerdev/answer.git answer
+cd answer/ui
+pnpm install
+pnpm start
 ```
 
 now, your browser should already open automatically, and autoload `http://localhost:3000`.
@@ -44,6 +44,7 @@ when cloning repo, and run `pnpm install` to init dependencies. you can use proj
 - `pnpm lint` lint and fix the code style
 
 ## 🌍 I18n(Multi-language)
+
 If you need to add or edit a language entry, just go to the `/i18n/en_US.yaml` file,
 all front-end language entries are placed under the `ui` field.
 
@@ -76,26 +77,31 @@ If you would like to help us with the i18n translation, please visit [Answer at 
             ├── services (all data api of the project)
             ├── stores (all data stores of the project)
             ├── utils (all utils of the project)
+            ├── plugins (UI Plugin Development & Debugging Directory)
 ```
 
 ## 🤝 Contributing
 
 #### Fix Bug
+
 If you find a bug, please don't hesitate to [submit an issue](https://github.com/answerdev/answer/issues) to us.
 If you can fix it, please include a note with your issue submission.
 If it is a bug definitely, you can submit your PR after we confirm it, which will ensure you don't do anything useless.
 
 #### Code Review & Comment
+
 In our development, some codes are not logical we know. If you find it, please don't hesitate to submit PR to us.
 In the same way, some function has no comment. We would appreciate it if you could help us supplement it.
 
 #### Translation
+
 All our translations are placed in the i18n directory.
 
 1. If you find that the corresponding key in the language you are using does not have a translation, you can submit your translation.
 2. If you want to submit a new language translation, please add your language to the `i18n.yaml` file.
 
 #### Features or Plugin
+
 1. We developed the features for the plan based on the [roadmap](https://github.com/orgs/answerdev/projects/1). If you are suggestions for new functions, please confirm whether they have been planned.
 2. Plugins will be available in the future, so stay tuned.
 
@@ -106,6 +112,7 @@ All our translations are placed in the i18n directory.
 | last 2 versions                                                                                                                                                                                          | last 2 versions                                                                                                                                                                                                  | last 2 versions                                                                                                                                                                                              | last 2 versions                                                                                                                                                                                              |
 
 ## ⭐ Built with
+
 - [TypeScript](https://www.typescriptlang.org/) - Strongly typed JavaScript
 - [React.js](https://reactjs.org/) - Our front end is a React.js app
 - [React Router](https://reactrouter.com/en/main) - Router library
@@ -115,4 +122,3 @@ All our translations are placed in the i18n directory.
 - [SWR](https://swr.bootcss.com/) - Request library
 - [react-i18next](https://react.i18next.com/) - International library
 - [zustand](https://github.com/pmndrs/zustand) - State-management library
-

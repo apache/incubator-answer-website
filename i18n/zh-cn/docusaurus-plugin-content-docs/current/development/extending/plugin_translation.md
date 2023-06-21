@@ -1,8 +1,9 @@
 ---
 sidebar_label: 插件翻译
+sidebar_position: 1
 ---
 
-# 插件翻译
+# Plugin Translation
 
 ## How to make your plugin support multi-language?
 >

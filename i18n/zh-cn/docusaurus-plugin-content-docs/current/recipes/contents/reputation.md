@@ -1,4 +1,4 @@
-# 声望
+# Reputation
 
 Reputation used to automate the management of community ecology.  
 
@@ -14,7 +14,6 @@ Reputation used to automate the management of community ecology.
 | You downvote someone's answer | -1 |
 | Your question was downvoted | -2 |
 | Your answer was downvoted | -2 |
-| Your question or answer was deleted | -gained |
 
 ## Additional rules
 
@@ -24,6 +23,3 @@ Reputation used to automate the management of community ecology.
 - If an action results in a user gaining `> 200` reputation for the day, any subsequent actions that increase reputation will not increase the user's reputation.  
 - The reputation gained from accepted answers is not limited by the 200 cap  
 - No reputation gained for accepting your own answer  
-- When a question or answer is deleted, the reputation gained and lost by all participants of the deleted content (voting, accepting, modifying suggestions) will also be rolled back, except if both of the following conditions are met  
-  - The final voting result of the content is `>= 3` (i.e. `Upvotes - Downvotes >= 3`)  
-  - Post has been posted for more than 60 days
