@@ -1,6 +1,10 @@
 import React, { FC, useEffect } from 'react';
 import Link from '@docusaurus/Link';
+import { Row, Col, Button } from 'react-bootstrap';
 import clsx from 'clsx';
+import Translate from '@docusaurus/Translate';
+import Icon from '@site/src/components/Icon';
+
 import styles from './index.module.css';
 
 const HomeHead: FC = () => {
@@ -27,70 +31,73 @@ const HomeHead: FC = () => {
     return $num;
   }
   return (
-    <header>
-      <div className={clsx('container', styles.content, styles.flexCenter)}>
+    <header className='pt-4 pb-3'>
+      <div className="container d-flex flex-column align-items-center">
         <Link
           to="/waitlist"
-          className="d-flex align-center text-secondary text--center mb-5"
+          className="d-flex align-items-center text-secondary text--center pb-5 mb-3"
         >
-          👋 Join the Answer Cloud Waitlist
-          <img
-            className="margin-left--xs"
-            src={require('@site/static/img/arrow-right.png').default}
-            alt="waitlist"
-            width="14px"
-          />
+          <Translate id="home.waitlist.title">
+            👋 Join the Answer Cloud Waitlist
+          </Translate>
+
+          <Icon name="arrow-right"  size="16px"  className="ms-1" />
         </Link>
-        <div className={clsx('col col--8 mt-3', styles.flexCenter)}>
-          <img
-            src={require('@site/static/img/head-icon.png').default}
-            alt="head-icon"
-            width="168"
-            height="168"
-            className="margin-bottom--md"
-          />
+        <Row className='justify-content-center'>
+          <Col md={12} lg={8} className='d-flex flex-column align-items-center'>
+            <img
+              src={require('@site/static/img/head-icon.png').default}
+              alt="head-icon"
+              width="168"
+              height="168"
+              className="mb-4"
+            />
 
-          <h1 className={clsx('margin-top--sm sm-h1 ff-headline', styles.h1)}>
-            Build Q&A Community <br />
-            with Answer
-          </h1>
+            <h1 className={clsx('sm-h1 fw-bold', styles.h1)}>
+              <Translate
+                id="home.title"
+                values={{
+                  br: <br />,
+                }}
+              >
+                {'Build Q&A Community {br} with Answer'}
+              </Translate>
+            </h1>
 
-          <div
-            className={clsx('text-secondary text--center mb-4', styles.intro)}
-          >
-            An open-source knowledge-based community software. You can use it
-            quickly to build Q&A community for your products, customers, teams,
-            and more.
-          </div>
-
-          <div className="d-flex margin-bottom--md padding-bottom--sm">
-            <a
-              className="button button--lg button--primary fw-normal fs-20 btnMain margin-right--md"
-              href="/docs"
+            <div
+              className={clsx('text-secondary text--center mb-4', styles.intro)}
             >
-              Get Started
-            </a>
+              <Translate id="home.description">
+                An open-source knowledge-based community software. You can use it
+                quickly to build Q&A community for your products, customers,
+                teams, and more.
+              </Translate>
+            </div>
 
-            <a
-              className={clsx(
-                'd-flex align-center button button--lg button--dark fw-normal fs-20',
-                styles.white,
-              )}
-              href="https://github.com/answerdev/answer"
-              target="_blank"
-            >
-              <img
-                src={require('@site/static/img/github.png').default}
-                className="margin-right--sm"
-                width="24px"
-                height="24px"
-                alt="github"
-              />
-              {` Star `}
-              {stars !== 0 ? numWord(stars) : ''}
-            </a>
-          </div>
-        </div>
+            <div className="d-flex">
+              <Button
+                size="lg"
+                variant="primary"
+                className="fw-normal fs-20 btnMain me-3"
+                href="/docs"
+              >
+                <Translate id="home.btn.started">Get Started</Translate>
+              </Button>
+
+              <Button
+                size="lg"
+                variant="dark"
+                className="btnMain fw-normal fs-20"
+                href="https://github.com/answerdev/answer"
+                target="_blank"
+              >
+                <Icon name="github" size="24px"  className="me-2" />
+                {` Star `}
+                {stars !== 0 ? numWord(stars) : ''}
+              </Button>
+            </div>
+          </Col>
+        </Row>
       </div>
     </header>
   );

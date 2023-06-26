@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "下一个",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Command Line": {
+    "message": "命令行",
+    "description": "The label for category Command Line in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contents Management": {
+    "message": "内容管理",
+    "description": "The label for category Contents Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Dashboard": {
+    "message": "仪表盘",
+    "description": "The label for category Dashboard in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Extending": {
+    "message": "拓展",
+    "description": "The label for category Extending in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing": {
+    "message": "贡献",
+    "description": "The label for category Contributing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.link.Getting Started": {
+    "message": "入门",
+    "description": "The label for link Getting Started in sidebar tutorialSidebar, linking to #"
+  },
+  "sidebar.tutorialSidebar.link.Recipes": {
+    "message": "教程",
+    "description": "The label for link Recipes in sidebar tutorialSidebar, linking to #"
+  },
+  "sidebar.tutorialSidebar.link.Development": {
+    "message": "开发",
+    "description": "The label for link Development in sidebar tutorialSidebar, linking to #"
+  },
+  "sidebar.tutorialSidebar.link.Resources": {
+    "message": "补充资料",
+    "description": "The label for link Resources in sidebar tutorialSidebar, linking to #"
+  },
+  "sidebar.tutorialSidebar.link.Support": {
+    "message": "客服支持",
+    "description": "The label for link Support in sidebar tutorialSidebar, linking to https://github.com/answerdev/answer/issues"
+  },
+  "sidebar.tutorialSidebar.link.Roadmap": {
+    "message": "规划",
+    "description": "The label for link Roadmap in sidebar tutorialSidebar, linking to https://github.com/orgs/answerdev/projects/1"
+  }
+}

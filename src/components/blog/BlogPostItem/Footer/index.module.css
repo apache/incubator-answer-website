@@ -1,0 +1,7 @@
+.shareBtn {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+}

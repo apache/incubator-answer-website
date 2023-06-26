@@ -1,0 +1,5 @@
+.header {
+  background-image: url('@site/static/img/blog/head-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

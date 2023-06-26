@@ -1,0 +1,228 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+// @import 'bootstrap/dist/css/bootstrap.min.css';
+$primary: #0033ff;
+@import '~bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+:root {
+  --ifm-color-primary: #0033ff;
+  --ifm-color-primary-dark: #002ee6;
+  --ifm-color-primary-darker: #002bd9;
+  --ifm-color-primary-darkest: #0024b3;
+  --ifm-color-primary-light: #1a47ff;
+  --ifm-color-primary-lighter: #2652ff;
+  --ifm-color-primary-lightest: #4d70ff;
+
+  --ifm-color-secondary: #6c757d;
+  --ifm-color-secondary-dark: #616971;
+  --ifm-color-secondary-darker: #5c636a;
+  --ifm-color-secondary-darkest: #4c5258;
+  --ifm-color-secondary-light: #778189;
+  --ifm-color-secondary-lighter: #7d868f;
+  --ifm-color-secondary-lightest: #90989f;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar--fixed-top  {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+.navbar-icon-link {
+  font-size: 24px;
+  opacity: 0.75;
+}
+
+.navbar__link.bi-translate {
+  svg {
+    display: none;
+  }
+}
+.navbar__link.bi::before {
+  font-size: 24px;
+  margin-right: 0.25rem;;
+}
+
+a, .btn-link {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--bs-link-hover-color);
+  text-decoration: none;
+}
+
+.pagination {
+  column-gap: 0 !important;
+}
+.carousel-fade {
+  .carousel-inner {
+    overflow: unset;
+  }
+}
+.card {
+  box-shadow: none !important;
+}
+.button--dark {
+  --ifm-button-background-color: #212529;
+  --ifm-button-border-color: #212529;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.headerBg {
+  background-image: url('@site/static/img/background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.btnMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 32px;
+}
+
+.ff-headline,
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5
+h6, .h6 {
+  font-family: Lexend, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 600;
+}
+
+.fw-normal {
+  font-weight: 400 !important;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-20 {
+  font-size: 1.25rem !important;
+}
+
+.fs-24 {
+  font-size: 1.5rem !important;
+}
+
+.text-truncate-1,
+.text-truncate-2,
+.text-truncate-3,
+.text-truncate-4 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.text-truncate-2 {
+  -webkit-line-clamp: 2;
+}
+.text-truncate-3 {
+  -webkit-line-clamp: 3;
+}
+.text-truncate-4 {
+  -webkit-line-clamp: 4;
+}
+
+img {
+  vertical-align: top;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0;
+}
+
+.navbar__logo img {
+  height: auto;
+}
+
+
+.navbar__item.header-github-link {
+  padding-right: 0;
+}
+
+.section-title {
+  margin: 0.5rem 0 !important;
+}
+
+.section-title a {
+  color: #AAA;
+  text-transform: uppercase;
+}
+
+.section-title a:hover {
+  background: none;
+  color: #AAA;
+  cursor: default;
+}
+
+
+// there for docusaurus default css
+
+.theme-admonition.alert {
+  --ifm-code-background: var(--ifm-alert-background-color-highlight);
+  --ifm-link-color: var(--ifm-alert-foreground-color);
+  --ifm-link-hover-color: var(--ifm-alert-foreground-color);
+  --ifm-link-decoration: underline;
+  --ifm-tabs-color: var(--ifm-alert-foreground-color);
+  --ifm-tabs-color-active: var(--ifm-alert-foreground-color);
+  --ifm-tabs-color-active-border: var(--ifm-alert-border-color);
+  background-color: var(--ifm-alert-background-color);
+  border: var(--ifm-alert-border-width) solid var(--ifm-alert-border-color);
+  border-left-width: var(--ifm-alert-border-left-width);
+  border-radius: var(--ifm-alert-border-radius);
+  box-shadow: var(--ifm-alert-shadow);
+  color: var(--ifm-alert-foreground-color);
+  padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal) !important;
+
+  a {
+    color: var(--ifm-link-color) !important;
+  }
+
+  code {
+    background-color: var(--ifm-code-background);
+    border: 0.1rem solid rgba(0,0,0,.1);
+    border-radius: var(--ifm-code-border-radius);
+    font-family: var(--ifm-font-family-monospace);
+    font-size: var(--ifm-code-font-size);
+    padding: var(--ifm-code-padding-vertical) var(--ifm-code-padding-horizontal);
+    color: var(--ifm-link-color) !important;
+  }
+}

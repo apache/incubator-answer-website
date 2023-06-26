@@ -1,9 +1,9 @@
-// @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -25,7 +25,17 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh-CN'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      'zh-CN': {
+        label: '简体中文',
+        direction: 'ltr',
+      },
+    }
   },
 
   presets: [
@@ -34,7 +44,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -44,7 +54,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -52,6 +61,13 @@ const config = {
         defaultMode: 'light',
         disableSwitch: true,
         respectPrefersColorScheme: false,
+      },
+      algolia: {
+        appId: 'ALIEPVY5A0',
+        apiKey: 'a7f83132b511548fc8fbc44f83239bf9',
+        indexName: 'answer',
+        container: '### REPLACE ME WITH A CONTAINER (e.g. div) ###',
+        debug: true
       },
       navbar: {
         logo: {
@@ -78,16 +94,27 @@ const config = {
             to: 'https://meta.answer.dev',
           },
           {
-            src: 'img/discord.svg',
-            className: 'header-discord-link',
+            label: 'Blog',
+            to: '/blog',
+          },
+          {
+            label: 'Contact',
+            to: '/contact',
+          },
+          {
+            type: 'localeDropdown',
+            className: 'bi bi-translate',
+            position: 'right',
+          },
+          {
+            className: 'bi bi-discord navbar-icon-link',
             to: 'https://discord.gg/a6PZZbfnFx',
             position: 'right',
           },
           {
             href: 'https://github.com/answerdev/answer',
-            src: 'img/github.svg',
             position: 'right',
-            className: 'header-github-link',
+            className: 'bi bi-github navbar-icon-link',
           },
         ],
       },
@@ -98,6 +125,29 @@ const config = {
     }),
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Lexend:wght@400..700&display=swap',
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
+  plugins: [
+    // Use custom blog plugin
+    [
+      "./plugins/blog-plugin",
+      {
+        blogTitle: 'Answer Blog',
+        blogDescription: 'Learn everything about Answer and leverage your Q&A community.',
+        blogSidebarCount: 0,
+        postsPerPage: 16,
+        showReadingTime: true,
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
+      },
+    ],
+    'docusaurus-plugin-sass',
   ],
 };
 
