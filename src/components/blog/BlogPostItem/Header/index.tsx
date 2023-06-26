@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
+import MDXImg from '@theme/MDXComponents/Img';
 import { generateCategoryPath } from '@site/src/utils';
 // @ts-ignore
 import {useBlogPost} from '@docusaurus/theme-common/internal';
@@ -53,11 +54,15 @@ const BlogPostItemHeader = () => {
         </div>
       </header>
       <div className='col col--9 mt-5 mb-5'>
-        <img
+        <MDXImg
+          src={require(`@site/static/img/blog/${frontMatter.image}`).default}
+          className="rounded"
+          width="100%" />
+        {/* <img
           src={require(`@site/static/img/blog/${frontMatter.image}`).default}
           className="rounded"
           alt=""
-          width="100%" />
+          width="100%" /> */}
       </div>
     </>
    )
