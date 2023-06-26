@@ -9,6 +9,7 @@ specifiers:
   '@docusaurus/preset-classic': 2.4.0
   '@docusaurus/theme-classic': ^2.4.0
   '@docusaurus/theme-common': ^2.4.0
+  '@docusaurus/utils': ^2.4.1
   '@mdx-js/react': ^1.6.22
   '@popperjs/core': ^2.11.8
   '@tsconfig/docusaurus': ^1.0.5
@@ -40,6 +41,7 @@ dependencies:
   '@docusaurus/preset-classic': 2.4.0_56jbash75ng5psbctf36wqywr4
   '@docusaurus/theme-classic': 2.4.1_56jbash75ng5psbctf36wqywr4
   '@docusaurus/theme-common': 2.4.1_56jbash75ng5psbctf36wqywr4
+  '@docusaurus/utils': 2.4.1
   '@mdx-js/react': 1.6.22_react@17.0.2
   '@popperjs/core': 2.11.8
   bootstrap: 5.3.0_@popperjs+core@2.11.8
