@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkanswer=self.webpackChunkanswer||[]).push([[4539],{7302:s=>{s.exports=JSON.parse('{"label":"Insights","permalink":"/blog/category/insights"}')}}]);
