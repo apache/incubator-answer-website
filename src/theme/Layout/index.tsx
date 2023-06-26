@@ -41,7 +41,7 @@ export default function Layout(props: Props): JSX.Element {
   useKeyboardNavigation();
 
   useEffect(() => {
-    mixpanel.init('81be5fdec078cc519b35184b882b9d14');
+    mixpanel.init('84c6c96fab326b95afbbd54aadda641b');
   }, [])
 
   useEffect(() => {
