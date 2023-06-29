@@ -64,14 +64,9 @@ We are a small and agile team, working closely with each other in different citi
 ![Answer Footer with Gratitude to Contributors](everythingabtanswer2.png)
 
 ## Can I use Answer?
-<<<<<<< HEAD
-Why not?   
-With a simple and intuitive design, you can build a [knowledge base](../2023-05-30-everything-you-need-to-know-about-knowledge-base), game forum, or support center with Answer smoothly. [Answer 1.1.0](../2023-05-11-answer-1.0.9-release/) also supports plugins so that you can enhance Answer’s performance in the way you want. 
-=======
 
 Why not?
 With a simple and intuitive design, you can build a [knowledge base](../2023-05-30-everything-you-need-to-know-about-knowledge-base/index.md), game forum, or support center with Answer smoothly. [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md) also supports plugins so that you can enhance Answer’s performance in the way you want.
->>>>>>> 07f6f47474ba263f53f8b3ab00e1072be991eda2
 ![Plugin](everythingabtanswer3.png)
 
 ## How do I Get Answer?
