@@ -56,8 +56,6 @@ export default function PageMetadata({
       {pageImage && <meta property="og:image" content={pageImage} />}
       {pageImage && <meta name="twitter:image" content={pageImage} />}
 
-      {/* <link rel="stylesheet" href={require('@site/src/css/bootstrap.min.css').default} /> */}
-
       {children}
     </Head>
   );

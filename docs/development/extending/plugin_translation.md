@@ -1,5 +1,6 @@
 ---
 sidebar_label: Plugin Translation
+sidebar_position: 1
 ---
 
 # Plugin Translation

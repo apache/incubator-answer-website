@@ -76,6 +76,7 @@ If you would like to help us with the i18n translation, please visit [Answer at 
             ├── services (all data api of the project)
             ├── stores (all data stores of the project)
             ├── utils (all utils of the project)
+            ├── plugins (UI Plugin Development & Debugging Directory)
 ```
 
 ## 🤝 Contributing
