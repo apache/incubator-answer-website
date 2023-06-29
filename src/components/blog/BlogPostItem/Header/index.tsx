@@ -57,7 +57,9 @@ const BlogPostItemHeader = () => {
         <MDXImg
           src={require(`@site/static/img/blog/${frontMatter.image}`).default}
           className="rounded"
-          width="100%" />
+          width="1280px"
+          height="720px"
+           />
         {/* <img
           src={require(`@site/static/img/blog/${frontMatter.image}`).default}
           className="rounded"
