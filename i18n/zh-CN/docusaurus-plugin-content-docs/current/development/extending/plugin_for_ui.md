@@ -43,19 +43,19 @@ export default {
 * 文件名必须为 `index.tsx` 和 `info.yaml`，否则会影响组件的使用。
 :::
 
-* 在插件列表文件 `plugins/index.ts` 中导出您刚刚定义的插件
+* 在插件列表文件 `plugins/index.ts` 中导出你刚刚定义的插件
 
 ```ts
 export { default as Demo } from './Demo';
 ```
 
-* 现在，您可以在需要它的地方使用 `PluginRender` 组件来渲染刚刚定义的插件！
+* 现在，你可以在需要它的地方使用 `PluginRender` 组件来渲染刚刚定义的插件！
 
 ```tsx
 <PluginRender slug_name="ui_plugin_demo" />
 ```
 
-通过以上步骤，如果您的插件功能已经完成，那么您准备进入发布阶段了。
+通过以上步骤，如果你的插件功能已经完成，那么你准备进入发布阶段了。
 
 ## 发布阶段
 
@@ -121,7 +121,7 @@ pluginKit.initI18nResource({
 });
 ```
 
-* 在插件的 `index.tsx` 文件中导入语言资源文件，并使用 `pluginKit` 初始化 `t`函数。然后您可以像正常的 `t` 函数一样使用 `t` 函数。
+* 在插件的 `index.tsx` 文件中导入语言资源文件，并使用 `pluginKit` 初始化 `t`函数。然后你可以像正常的 `t` 函数一样使用 `t` 函数。
 
 ```tsx
 import pluginKit, { PluginInfo } from '@/utils/pluginKit';
@@ -172,4 +172,4 @@ interface I18nResource {
 
 ![ui-plugin-demo](/img/docs/ui-plugin-demo.jpeg)
 
-您还可以查看 Demo [Demo 示例代码](https://github.com/answerdev/answer/tree/main/ui/src/plugins/Demo) 以获取更多信息。
+你还可以查看 Demo [Demo 示例代码](https://github.com/answerdev/answer/tree/main/ui/src/plugins/Demo) 以获取更多信息。

@@ -28,7 +28,7 @@ go generate ./...
 go mod tidy
 ```
 
-或者您可以使用 `make generate`。
+或者你可以使用 `make generate`。
 
 #### swag
 
@@ -38,13 +38,13 @@ go mod tidy
 swag init --generalInfo ./cmd/answer/main.go
 ```
 
-或者您可以进入脚本目录并使用 `./gen-api.sh`。
+或者你可以进入脚本目录并使用 `./gen-api.sh`。
 
 ### 构建
 
 :::note
-如果这是您第一次启动 Answer，请先编译前端项目，以确保您可以更轻松地测试它。
-一旦您熟悉了 Answer，您可以直接将配置文件复制到相应的目录中，而无需编译前端，并使用 Swagger 进行测试。
+如果这是你第一次启动 Answer，请先编译前端项目，以确保你可以更轻松地测试它。
+一旦你熟悉了 Answer，你可以直接将配置文件复制到相应的目录中，而无需编译前端，并使用 Swagger 进行测试。
 :::
 
 ```shell
@@ -60,7 +60,7 @@ $ go build .
 
 #### 安装
 >
-> 如果这是您第一次启动 Answer，请按照以下步骤进行安装。如果不是，则可以跳过此步骤。
+> 如果这是你第一次启动 Answer，请按照以下步骤进行安装。如果不是，则可以跳过此步骤。
 
 ```shell
 # 初始化环境
@@ -83,7 +83,7 @@ $ ./answer init -C ./answer-data/
 
 我们使用 Swagger 测试 API 接口。Swagger 文档默认可用。前往 [http://localhost:80/swagger/index.html](http://127.0.0.1:8080/swagger/index.html) 访问 Swagger 页面。
 
-您可以使用 Swagger 进行更方便的调试。
+你可以使用 Swagger 进行更方便的调试。
 
 ## 项目说明
 
@@ -129,7 +129,7 @@ $ ./answer init -C ./answer-data/
 router -> middleware -> controller(use schema) -> service -> repo(use entity)
 ```
 
-如果您想开发新的 API，可以按照以下步骤进行操作。
+如果你想开发新的 API，可以按照以下步骤进行操作。
 
 1. 在 router 中添加路由规则 (GET/POST/PUT...)。
 2. 添加用于处理程序请求的控制器。 该请求应在控制器中进行验证。
@@ -147,26 +147,26 @@ router -> middleware -> controller(use schema) -> service -> repo(use entity)
 
 `golangci-lint` 是一个快速的 Go 代码规范检查工具。我们使用 golangci-lint](<https://github.com/golangci/golangci-lint>) 来检查代码规范。
 
-您可以使用以下命令检查您的代码格式。
+你可以使用以下命令检查你的代码格式。
 
 ```bash
 go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.50.0
 golangci-lint run
 ```
 
-## 我们需要您的贡献
+## 我们需要你的贡献
 
 ### 修复 Bug
 
-如果您发现了 Bug，请不要犹豫 [提交 issue](https://github.com/answerdev/answer/issues)  给我们。如果您可以修复它，请在提交 issue 时附上说明。如果问题已被确认是 Bug，您可以提交 PR，这将确保您不会做无用的工作。
+如果你发现了 Bug，请不要犹豫 [提交 issue](https://github.com/answerdev/answer/issues)  给我们。如果你可以修复它，请在提交 issue 时附上说明。如果问题已被确认是 Bug，你可以提交 PR，这将确保你不会做无用的工作。
 
 ### 代码审查和注释
 
-在我们的开发过程中，有些代码可能不是很合乎逻辑。如果您发现了这些问题，请不要犹豫，向我们提交 PR。同样，有些函数可能没有注释。如果您可以帮助我们补充注释，我们将不胜感激。
+在我们的开发过程中，有些代码可能不是很合乎逻辑。如果你发现了这些问题，请不要犹豫，向我们提交 PR。同样，有些函数可能没有注释。如果你可以帮助我们补充注释，我们将不胜感激。
 
 ### 单元测试（非常需要）
 
-我们当前的单元测试覆盖率如下所示。显然，我们还需要添加更多的单元测试，因此我们非常欢迎您的贡献。
+我们当前的单元测试覆盖率如下所示。显然，我们还需要添加更多的单元测试，因此我们非常欢迎你的贡献。
 
 <img
 src={require('/img/repo-unit-test-coverage-rate.png').default}
@@ -178,12 +178,12 @@ width="300"
 
 我们所有的翻译都放在 `i18n`目录中。
 
-1. 如果您发现您正在使用的语言中对应的键没有翻译，请提交您的翻译。
-2. 如果您想提交新的语言翻译，请将您的语言添加到 `i18n.yaml` 文件中。
+1. 如果你发现你正在使用的语言中对应的键没有翻译，请提交你的翻译。
+2. 如果你想提交新的语言翻译，请将你的语言添加到 `i18n.yaml` 文件中。
 
 ### 新功能或插件
 
-1. 我们根据 [路线图](https://github.com/orgs/answerdev/projects/1) 开发计划开发功能。如果您有新功能的建议，请确认它们是否已经计划中。
+1. 我们根据 [路线图](https://github.com/orgs/answerdev/projects/1) 开发计划开发功能。如果你有新功能的建议，请确认它们是否已经计划中。
 2. 插件将在未来发布，敬请期待。
 
 ## 注意事项

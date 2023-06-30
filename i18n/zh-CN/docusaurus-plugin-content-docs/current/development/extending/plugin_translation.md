@@ -5,13 +5,13 @@ sidebar_position: 1
 
 # 插件翻译
 
-## 如何使您的插件支持多语言？
+## 如何使你的插件支持多语言？
 >
-> 由于 Answer 支持多语言，因此插件也需要支持多语言。以下是如何使您的插件支持多语言的示例。
+> 由于 Answer 支持多语言，因此插件也需要支持多语言。以下是如何使你的插件支持多语言的示例。
 
 ## 翻译结构
 >
-> 在某些插件接口中，您可以看到 Translator 结构，用于支持多种语言。
+> 在某些插件接口中，你可以看到 Translator 结构，用于支持多种语言。
 
 例如，`ConfigField` 结构具有类型为 `Translator` 的 `Title` 字段。
 
@@ -83,7 +83,7 @@ plugin:
 - `backend` 是后端的翻译。键结尾的 `other` 仅用于 [go-i18n](https://github.com/nicksnyder/go-i18n) 识别翻译文件。
 - `ui` 是前端的翻译。
 
-您可以使用类似于 `plugin.github_connector.backend.name` 或 `plugin.github_connector.ui.login.title` 的键进行翻译。
+你可以使用类似于 `plugin.github_connector.backend.name` 或 `plugin.github_connector.ui.login.title` 的键进行翻译。
 
 在插件的根目录中创建一个 `i18n.go` 文件，然后添加以下代码：
 
@@ -119,7 +119,7 @@ const (
 
 ## 后端翻译
 
-您只需要使用翻译文件的键返回 `Translator` 结构即可。
+你只需要使用翻译文件的键返回 `Translator` 结构即可。
 
 ```go
 func (g *GitHubConnector) ConnectorName() plugin.Translator {
