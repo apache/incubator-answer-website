@@ -6,13 +6,13 @@ slug: /database
 
 :::note
 
-Different databases have different data types. The following table presumes use of mysql/mariadb as an example.
+不同的数据库具有不同的数据类型。下表以mysql/mariadb为例。
 
 :::
 
 ## activity
 >
-> `activity` table records various actions of users, such as votes, etc.
+> `activity` 表记录用户的各种行为，如投票等。
 
 | COLUMN             | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                                                     |
 |--------------------|------------|----------|-----|---------|-----------------------------------------------------------------------------|
@@ -32,7 +32,7 @@ Different databases have different data types. The following table presumes use 
 
 ## answer
 >
-> `answer` table records the answer info.
+> `answer` 表记录答案信息。
 
 | COLUMN            | DATA TYPE  | NULLABLE | KEY | DEFAULT           | COMMENT                                 |
 |-------------------|------------|----------|-----|-------------------|-----------------------------------------|
@@ -52,7 +52,7 @@ Different databases have different data types. The following table presumes use 
 
 ## collection
 >
-> `collection` table records user collection about any object.
+> `collection` 表记录用户对任何对象的收藏信息。
 
 | COLUMN                     | DATA TYPE    | NULLABLE   | KEY   | DEFAULT             | COMMENT                    |
 |----------------------------|--------------|------------|-------|---------------------|----------------------------|
@@ -76,7 +76,7 @@ Different databases have different data types. The following table presumes use 
 
 ## comment
 >
-> `comment` table records the comment about question or answer.
+> `comment` 表记录有关问题或答案的评论。
 
 | COLUMN           | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                  |
 |------------------|------------|----------|-----|---------|------------------------------------------|
@@ -95,7 +95,7 @@ Different databases have different data types. The following table presumes use 
 
 ## config
 >
-> `config` records the site configuration.
+> `config` 表记录站点配置。
 
 | COLUMN | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                            |
 |--------|--------------|----------|-----|---------|----------------------------------------------------|
@@ -105,7 +105,7 @@ Different databases have different data types. The following table presumes use 
 
 ## meta
 >
-> `meta` records some extra information about the object.
+> `meta` 表记录对象的一些额外信息。
 
 |   COLUMN   |  DATA TYPE   | NULLABLE | KEY |      DEFAULT      |   COMMENT    |
 |------------|--------------|----------|-----|-------------------|--------------|
@@ -118,7 +118,7 @@ Different databases have different data types. The following table presumes use 
 
 ## notification
 >
-> `notification` table records the notification that user received.
+> `notification` 表记录用户收到的通知。
 
 | COLUMN     | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                   |
 |------------|------------|----------|-----|---------|-------------------------------------------|
@@ -134,7 +134,7 @@ Different databases have different data types. The following table presumes use 
 
 ## power
 >
-> `power` table records all permissions
+> `power` 表记录所有权限。
 
 | COLUMN        | DATA TYPE      | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
 |---------------|----------------|------------|-------|-----------|-------------|
@@ -147,7 +147,7 @@ Different databases have different data types. The following table presumes use 
 
 ## question
 >
-> `question` table records the question info.
+> `question` 表记录问题信息。
 
 | COLUMN             | DATA TYPE    | NULLABLE | KEY | DEFAULT           | COMMENT                                   |
 |--------------------|--------------|----------|-----|-------------------|-------------------------------------------|
@@ -173,7 +173,7 @@ Different databases have different data types. The following table presumes use 
 
 ## report
 >
-> `report` table records the content of user reports
+> `report` 表记录用户举报的内容。
 
 | COLUMN           | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                  |
 |------------------|------------|----------|-----|---------|------------------------------------------|
@@ -192,7 +192,7 @@ Different databases have different data types. The following table presumes use 
 
 ## revision
 >
-> `revision` table records the object revision and the content of the version.
+> `revision` 表记录历史修订和版本内容。
 
 | COLUMN         | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                     |
 |----------------|--------------|----------|-----|---------|---------------------------------------------|
@@ -210,7 +210,7 @@ Different databases have different data types. The following table presumes use 
 
 ## role
 >
-> `role` table records all roles
+> `role` 表记录所有角色。
 
 | COLUMN        | DATA TYPE      | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
 |---------------|----------------|------------|-------|-----------|-------------|
@@ -222,7 +222,7 @@ Different databases have different data types. The following table presumes use 
 
 ## role_power_rel
 >
-> `role_power_rel` records the relationship between roles and powers
+> `role_power_rel` 表记录角色和权限之间的关系。
 
 | COLUMN       | DATA TYPE      | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
 |--------------|----------------|------------|-------|-----------|-------------|
@@ -234,7 +234,7 @@ Different databases have different data types. The following table presumes use 
 
 ## site_info
 >
-> `site_info` table records the site information about interface or something related
+> `site_info` 表记录与界面或其他相关内容有关的站点信息。
 
 | COLUMN     | DATA TYPE   | NULLABLE | KEY | DEFAULT | COMMENT                                    |
 |------------|-------------|----------|-----|---------|--------------------------------------------|
@@ -247,7 +247,7 @@ Different databases have different data types. The following table presumes use 
 
 ## tag
 >
-> `tag` table records the tag information.
+> `tag` 表记录标签信息。
 
 | COLUMN             | DATA TYPE   | NULLABLE | KEY | DEFAULT | COMMENT                              |
 |--------------------|-------------|----------|-----|---------|--------------------------------------|
@@ -267,7 +267,7 @@ Different databases have different data types. The following table presumes use 
 
 ## tag_rel
 >
-> `tag_rel` table records the relationship between objects and tags
+> `tag_rel` 表记录对象和标签之间的关系。
 
 | COLUMN         | DATA TYPE      | NULLABLE     | KEY     | DEFAULT     | COMMENT                                     |
 |----------------|----------------|--------------|---------|-------------|---------------------------------------------|
@@ -280,7 +280,7 @@ Different databases have different data types. The following table presumes use 
 
 ## uniqid
 >
-> `uniqid` table recorded the object_id that can uniquely identify an object.
+> `uniqid` 表记录可以唯一标识对象的对象ID。
 
 |   COLUMN    | DATA TYPE  | NULLABLE | KEY | DEFAULT |   COMMENT   |
 |-------------|------------|----------|-----|---------|-------------|
@@ -289,7 +289,7 @@ Different databases have different data types. The following table presumes use 
 
 ## user
 >
-> The user table recorded basic information about the user.
+> `user` 表记录用户的基本信息。
 
 | COLUMN          | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                |
 |-----------------|--------------|----------|-----|---------|----------------------------------------|
@@ -322,7 +322,7 @@ Different databases have different data types. The following table presumes use 
 
 ## user_role_rel
 >
-> The `user_role_rel` table records the relationship between users and roles.
+> `user_role_rel` 表记录用户和角色之间的关系。
 
 | COLUMN       | DATA TYPE    | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
 |--------------|--------------|------------|-------|-----------|-------------|
@@ -334,7 +334,7 @@ Different databases have different data types. The following table presumes use 
 
 ## version
 >
-> The version of the current answer is recorded in version table for upgrade.
+> 当前答案的版本记录在版本表中以进行升级。
 
 |     COLUMN     | DATA TYPE | NULLABLE | KEY | DEFAULT |    COMMENT     |
 |----------------|-----------|----------|-----|---------|----------------|

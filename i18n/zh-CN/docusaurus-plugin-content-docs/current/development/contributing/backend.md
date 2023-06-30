@@ -1,26 +1,26 @@
 ---
 ---
 
-# 服务端
+# 后端开发指南
 >
-> Below is the guideline for Backend Development
+> 下面是后端开发的指南。
 
-## How to set up a development environment
+## 如何设置开发环境
 
-### Prerequisites
+### 先决条件
 
 - [Golang](https://go.dev/) `>=1.18`
-- Database Dependencies
+- 数据库依赖
   - MySQL `(>=5.7)`
   - PostgreSQL `(>=10)`
   - SQLite3
 - [wire](https://github.com/google/wire)
 
-### Tools
+### 工具
 
 #### wire
 
-We use `wire` to generate dependencies.
+我们使用 `wire` 来生成依赖关系。
 
 ```shell
 go get github.com/google/wire/cmd/wire@latest
@@ -28,67 +28,66 @@ go generate ./...
 go mod tidy
 ```
 
-Or you can use `make generate`.
+或者您可以使用 `make generate`。
 
 #### swag
 
-We use `swag` to generate swagger doc.
+我们使用 `swag` 来生成 Swagger 文档。
 
 ```shell
 swag init --generalInfo ./cmd/answer/main.go
 ```
 
-Or you can use enter the script directory and use `./gen-api.sh`
+或者您可以进入脚本目录并使用 `./gen-api.sh`。
 
-### Build
+### 构建
 
 :::note
-If this is your first time starting the Answer, it is best to compile the frontend project once to ensure that you can test it more easily.
-Once you get comfortable with the answer, you can copy the configuration file directly to the corresponding directory without compiling the front-end and test it with swagger.
+如果这是您第一次启动 Answer，请先编译前端项目，以确保您可以更轻松地测试它。
+一旦您熟悉了 Answer，您可以直接将配置文件复制到相应的目录中，而无需编译前端，并使用 Swagger 进行测试。
 :::
 
 ```shell
-# Frontend compilation(Recommend). If you encounter problems, please refer to the frontend related documentation
+# 前端编译（推荐）。如果遇到问题，请参考与前端相关的文档
 $ make ui
-# enter into dir
+# 进入目录
 $ cd cmd/answer/
-# compile
+# 编译
 $ go build .
 ```
 
-### Run
+### 运行
 
-#### Install
+#### 安装
 >
-> If this is your first time starting the Answer, you need to follow the steps to install. If not, you can skip this step.
+> 如果这是您第一次启动 Answer，请按照以下步骤进行安装。如果不是，则可以跳过此步骤。
 
 ```shell
-# init environment
+# 初始化环境
 $ ./answer init -C ./answer-data/
 ```
 
-Heading to [http://localhost:80/install](http://localhost:80/install) to access installation page.
+前往 <http://localhost:80/install> 访问安装页面。
 
-Please refer to the [installation documentation](../../installation) for installation steps.
+请参考 [安装文档](../../installation) 进行安装步骤。
 
-#### Launch
+#### 启动
 
 ```shell
 ./answer run -C ./answer-data/
 ```
 
-Heading to [http://localhost:80/](http://localhost:80/) to use answer.
+前往 <http://localhost:80/> 使用 Answer。
 
 ### Debug
 
-We use swagger to test api interface. Swagger documentation default is available.
-Heading to [http://localhost:80/swagger/index.html](http://127.0.0.1:8080/swagger/index.html) to access swagger page.
+我们使用 Swagger 测试 API 接口。Swagger 文档默认可用。前往 [http://localhost:80/swagger/index.html](http://127.0.0.1:8080/swagger/index.html) 访问 Swagger 页面。
 
-You can use swagger for more convenient debugging.
+您可以使用 Swagger 进行更方便的调试。
 
-## Project instructions
+## 项目说明
 
-### Package
+### 包结构
 
 ```
 .
@@ -122,55 +121,52 @@ You can use swagger for more convenient debugging.
 └── ui (frontend)
 ```
 
-### Dependencies between packages
+### 包之间的依赖关系
 
-For most api, the flow chart is very simple as follows.
+对于大多数 API，流程图非常简单，如下所示。
 
 ```
 router -> middleware -> controller(use schema) -> service -> repo(use entity)
 ```
 
-If you want to develop a new API, you can follow the steps below.
+如果您想开发新的 API，可以按照以下步骤进行操作。
 
-1. Adding a routing rule (GET/POST/PUT...) in router.
-2. Adding a controller for handler requests. the request should be validated in the controller.
-3. Adding a service to process business.
-4. Adding a repo for saving or querying data from the database or cache.
-5. Regenerate swagger documentation and test API.
+1. 在 router 中添加路由规则 (GET/POST/PUT...)。
+2. 添加用于处理程序请求的控制器。 该请求应在控制器中进行验证。
+3. 添加一个服务来处理业务。
+4. 添加用于保存或查询数据库或缓存中的数据的存储库。
+5. 重新生成 swagger 文档并测试 API。
 
-## Code specification
+## 代码规范
 
-### Basic
+### 基本的
 
-We recommend that you follow [uber's Golang Guidelines](https://github.com/uber-go/guide) code style.
+我们使用 [uber 的 Golang](https://github.com/uber-go/guide) 来检查代码规范。
 
-### Lint
+### 代码规范检查
 
-`golangci-lint` is a fast Go linters runner. We use [golangci-lint](https://github.com/golangci/golangci-lint) to lint our code.
+`golangci-lint` 是一个快速的 Go 代码规范检查工具。我们使用 golangci-lint](<https://github.com/golangci/golangci-lint>) 来检查代码规范。
 
-You can use the following command to check your code format.
+您可以使用以下命令检查您的代码格式。
 
 ```bash
 go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.50.0
 golangci-lint run
 ```
 
-## What do we need you to contribute
+## 我们需要您的贡献
 
-### Fix Bug
+### 修复 Bug
 
-If you find a bug, please don't hesitate to [submit an issue](https://github.com/answerdev/answer/issues) to us.
-If you can fix it, please include a note with your issue submission.
-If it is a bug definitely, you can submit your PR after we confirm it, which will ensure you don't do anything useless.
+如果您发现了 Bug，请不要犹豫 [提交 issue](https://github.com/answerdev/answer/issues)  给我们。如果您可以修复它，请在提交 issue 时附上说明。如果问题已被确认是 Bug，您可以提交 PR，这将确保您不会做无用的工作。
 
-### Code Review & Comment
+### 代码审查和注释
 
-In our development, some codes are not logical we know. If you find it, please don't hesitate to submit PR to us.
-In the same way, some function has no comment. We would appreciate it if you could help us supplement it.
+在我们的开发过程中，有些代码可能不是很合乎逻辑。如果您发现了这些问题，请不要犹豫，向我们提交 PR。同样，有些函数可能没有注释。如果您可以帮助我们补充注释，我们将不胜感激。
 
-### Unit Tests(Much-needed)
+### 单元测试（非常需要）
 
-Our current unit test coverage is as follows. As you can see we have many more unit tests to add, so we would be happy for you to add them.
+我们当前的单元测试覆盖率如下所示。显然，我们还需要添加更多的单元测试，因此我们非常欢迎您的贡献。
 
 <img
 src={require('/img/repo-unit-test-coverage-rate.png').default}
@@ -178,36 +174,35 @@ alt="repo-unit-test-coverage-rate"
 width="300"
 />
 
-### Translation
+### 翻译
 
-All our translations are placed in the i18n directory.
+我们所有的翻译都放在 `i18n`目录中。
 
-1. If you find that the corresponding key in the language you are using does not have a translation, you can submit your translation.
-2. If you want to submit a new language translation, please add your language to the `i18n.yaml` file.
+1. 如果您发现您正在使用的语言中对应的键没有翻译，请提交您的翻译。
+2. 如果您想提交新的语言翻译，请将您的语言添加到 `i18n.yaml` 文件中。
 
-### Features or Plugin
+### 新功能或插件
 
-1. We developed the features for the plan based on the [roadmap](https://github.com/orgs/answerdev/projects/1). If you are suggestions for new functions, please confirm whether they have been planned.
-2. Plugins will be available in the future, so stay tuned.
+1. 我们根据 [路线图](https://github.com/orgs/answerdev/projects/1) 开发计划开发功能。如果您有新功能的建议，请确认它们是否已经计划中。
+2. 插件将在未来发布，敬请期待。
 
-## Notice
+## 注意事项
 
-### Modify the database table structure is very hard
+### 修改数据库表结构非常困难
 
-Usually, we don't want to modify the field that already exists in the database table.
-If you need to change it, follow these rules.
+通常，我们不希望修改数据库表中已经存在的字段。如果需要更改，请遵循以下规则：
 
-1. Adding fields is better than modifying them.
-2. Modifying any field needs to take into account the impact on the existing data.
-3. Changes to database tables need to be tested for impact on different types of databases, and different SQL statements need to be given for different types of databases. For MySQL/PostgreSQL/sqlite3.
+1. 添加字段比修改字段更好。
+2. 修改任何字段都需要考虑对现有数据的影响。
+3. 修改数据库表结构需要测试对不同类型的数据库的影响，并为不同类型的数据库提供不同的 `SQL` 语句。对于 `MySQL/PostgreSQL/sqlite3`。
 
-## Built with
+## 构建工具
 
-The Answer application's backend is built with the following components/libraries:
+Answer 应用的后端使用以下组件/库构建：
 
-- [pacman](https://github.com/segmentfault/pacman) - Yet Another Toolkit to Build Golang Application Quickly.
-- [gin](https://github.com/gin-gonic/gin/) - Router.
-- [validator](https://github.com/go-playground/validator/) - Validator.
+- [pacman](https://github.com/segmentfault/pacman) - 快速构建 Go 应用程序的工具包。
+- [gin](https://github.com/gin-gonic/gin/) - 路由器。
+- [validator](https://github.com/go-playground/validator/) - 验证。
 - [xorm](https://xorm.io/) - ORM.
-- [cobra](https://github.com/spf13/cobra) - CLI applications.
-- [swag](https://github.com/swaggo/swag) -  Swagger Documentation generate.
+- [cobra](https://github.com/spf13/cobra) - CLI 应用程序。
+- [swag](https://github.com/swaggo/swag) -  生成 Swagger 文档。

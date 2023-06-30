@@ -2,209 +2,226 @@
 sidebar_position: 1
 ---
 
-# Plugin
+# 插件
+
 :::tip
 
-When we need to do some extensions to Answer's functionality, for example, OAuth login, we design a way to use plugins to implement these functions. 
+当我们需要对 Answer 的功能进行扩展，例如 OAuth 登录，我们设计了一种使用插件实现这些功能的方式。
 
 :::
 
-## Introduction
-### Official Plugins
-You can find a list of officially supported plugins for Answer [here](https://github.com/answerdev/plugins).
+## 介绍
 
-### Plugin Type
-> We classify plugins into different types. 
-> Different types of plugins have different functions. 
-> Plugins of the same type have the same effect, but are implemented differently.
+### 官方插件
 
-- Connector: The Connector plugin helps us to implement third-party login functionality. e.g. `GitHub OAuth Login`
-- Storage: The Storage plugin helps us to upload files to third-party storage. (preview)
-- Cache: Parsers for different content formats. (preview)
-- Filter: Filter out illegal questions or answers. (coming soon)
-- Render: Parsers for different content formats. (coming soon)
-- Finder: Support for using search engines to speed up the search for question answers. (coming soon)
+你可以在 [这里](https://github.com/answerdev/plugins) 找到 Answer 官方支持的插件列表。
 
-## Build
-> Answer binary supports packaging different required plugins into the binary.
+### 插件类型
+>
+> 我们将插件分类为不同的类型。
+> 不同类型的插件有不同的功能。
+> 同一类型的插件具有相同的效果，但实现方式不同。
 
-### Prerequisites
-- Original Answer binary
+- Connector: 插件帮助我们实现第三方登录功能。例如 GitHub OAuth 登录。e.g. `GitHub OAuth Login`
+- Storage: Storage 插件帮助我们将文件上传到第三方存储器。（预览）
+- Cache:  为不同内容格式编写的解析器。 （预览）
+- Filter: 过滤掉非法问题或答案。 （即将推出）
+- Render: 为不同内容格式编写的解析器。 （即将推出）
+- Finder: 支持使用搜索引擎加速搜索问题答案。 （即将推出）
+
+## 构建
+>
+> Answer 二进制文件支持将不同的必需插件打包到二进制文件中。
+
+### 先决条件
+
+- 原始的 Answer 二进制文件
 - [Golang](https://go.dev/) `>=1.18`
 
-### Command
+### 命令
+
 :::tip
-We use the `build` command provided with the Answer binary to rebuild a version of Answer with the plugin.
+我们使用 Answer 二进制文件提供的 build 命令来重新构建带插件的 Answer 版本。
 :::
 
-> For example, let's see how to build an Answer binary that includes the github third-party login plugin
+> 例如，让我们看看如何构建一个包含 github 第三方登录插件的 Answer 二进制文件
 
 ```shell
 # answer build --with [plugin@plugin_version=[replacement]] --output [file]
 $ ./answer build --with github.com/answerdev/plugins/connector/github
 
-# build a new answer with github login plugin then output to ./new_answer.
+# 构建一个带有 github 登录插件的新 Answer，然后输出到 ./new_answer。
 $ ./answer build --with github.com/answerdev/plugins/connector/github@1.0.0 --output ./new_answer
 
-# with multiple plugins
+# 带有多个插件
 $ ./answer build \
 --with github.com/answerdev/plugins/connector/github \
 --with github.com/answerdev/plugins/connector/google
 
-# with local plugins
+# 带有本地插件
 $ ./answer build --with github.com/answerdev/plugins/connector/github@1.0.0=/my-local-space
 
-# cross compilation. Build a linux-amd64 binary in macos 
+# 交叉编译。在 macos 中构建一个 linux-amd64 二进制文件
 $ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/answerdev/plugins/connector/github
 ```
 
 :::tip
-You can use the `plugin` command to list the current binary containing plugins.
+你可以使用 `plugin` 命令列出当前包含插件的二进制文件。
 :::
 
 ```shell
 $ ./new_answer plugin
 
-# output
+# 输出
 # github connector[0.0.1] made by answerdev
 # google connector[0.0.1] made by answerdev
 ```
 
-## Third-party plugin
+## 第三方插件
+
 :::tip
-We recommend the use of [official plugins](https://github.com/answerdev/plugins), if you want to use third-party plugins, refer to the following.
+我们建议使用[官方插件](https://github.com/answerdev/plugins)，如果你想使用第三方插件，请参考以下内容。
 :::
 
-- If the third-party plugin is publicly available, you can build with it like official plugins.
-- If the third-party plugin is private, you need to download it then build with.
+- 如果第三方插件是公开可用的，则可以像官方插件一样构建它。
+- 如果第三方插件是私有的，则需要下载然后构建。
 
-## Use
-> The answer with the plug-in version is used in the same way as before.
-> You can find the plugin's configuration in the admin page.
+## 使用
+>
+> 具有插件版本的 answer 与之前的使用方式相同。
+> 你可以在管理员页面中找到插件的配置。
 
 ![plugin-config-admin-page](/img/docs/plugin-config-admin-page.png)
 
-## Upgrade
-You just need to recompile and use the latest version of the plugin.
+## 升级
 
-## Develop
+你只需要重新编译并使用插件的最新版本即可。
+
+## 开发
+
 :::tip
-Viewing the [official plugin](https://github.com/answerdev/plugins) code will make you to quickly understand and learn plugin development.
+查看官方[插件代码](https://github.com/answerdev/plugins)，可以帮助你快速了解和学习插件开发。
 :::
 
-### Backend Development
-#### Implement the base 
-> The `Base` interface contains basic information about the plugin and is used to display.
+### 后端开发
+
+#### 实现 Base
+>
+> `Base` 接口包含有关插件的基本信息，并用于显示。
 
 ```go
-// Info presents the plugin information
+// Info 显示插件信息
 type Info struct {
-	Name        Translator
-	SlugName    string
-	Description Translator
-	Author      string
-	Version     string
-	Link        string
+ Name        Translator
+ SlugName    string
+ Description Translator
+ Author      string
+ Version     string
+ Link        string
 }
 
-// Base is the base plugin
+// Base 是基础插件
 type Base interface {
-	// Info returns the plugin information
-	Info() Info
+ // Info 返回插件信息
+ Info() Info
 }
 ```
 
 :::caution
-The `SlugName` of the plugin must be unique. Two plugins with the same `SlugName` will panic when registering.
+插件的 `SlugName` 必须是唯一的。如果有两个 `SlugName` 相同的插件将在注册时引发混乱。
 :::
 
-#### Implement the function interface
-:::note
-Different plugin types require different interfaces of implementation.
+#### 实现函数接口
 
-For example, following is the `Connector` plugin interface. 
+:::note
+不同类型的插件需要不同的接口实现。
+
+例如，以下是 `Connector` 插件接口。
 :::
 
 ```go
 type Connector interface {
     Base
     
-    // ConnectorLogoSVG presents the logo in svg format
+    // ConnectorLogoSVG 显示 svg 格式的标志
     ConnectorLogoSVG() string
     
-    // ConnectorName presents the name of the connector
-    // e.g. Facebook, Twitter, Instagram
+    // ConnectorName 显示连接器的名称
+    // 例如 Facebook、Twitter、Instagram
     ConnectorName() Translator
     
-    // ConnectorSlugName presents the slug name of the connector
-    // Please use lowercase and hyphen as the separator
-    // e.g. facebook, twitter, instagram
+     // ConnectorSlugName 显示连接器的 slug 名称
+    // 请使用小写和连字符作为分隔符
+    // 例如 facebook、twitter、instagram
     ConnectorSlugName() string
     
-    // ConnectorSender presents the sender of the connector
-    // It handles the start endpoint of the connector
-    // receiverURL is the whole URL of the receiver
+    // ConnectorSender 显示连接器的发送器
+    // 它处理连接器的起始端点
+    // receiverURL 是接收方的完整 URL
     ConnectorSender(ctx *GinContext, receiverURL string) (redirectURL string)
     
-    // ConnectorReceiver presents the receiver of the connector
-    // It handles the callback endpoint of the connector, and returns the
+    // ConnectorReceiver 显示连接器的接收器
+    // 它处理连接器的回调端点，并返回
     ConnectorReceiver(ctx *GinContext, receiverURL string) (userInfo ExternalLoginUserInfo, err error)
 }
 ```
 
 :::tip
-`Translator` is a struct for translation. Please refer to [the documentation](/docs/development/extending/plugin_translation) for details.
+`Translator` 是用于翻译的结构体。请参阅[文档](/docs/development/extending/plugin_translation)了解详情。
 :::
 
+#### 实现配置接口
 
-#### Implement the configuration interface
-For details on the description of each configuration item, please refer to [the documentation](/docs/development/extending/plugin_config).
+有关每个配置项的描述详见[文档](/docs/development/extending/plugin_config)。
 
 ```go
 type Config interface {
-	Base
+  Base
 
-	// ConfigFields returns the list of config fields
-	ConfigFields() []ConfigField
+  // ConfigFields 返回配置字段列表
+  ConfigFields() []ConfigField
 
-	// ConfigReceiver receives the config data, it calls when the config is saved or initialized.
-	// We recommend to unmarshal the data to a struct, and then use the struct to do something.
-	// The config is encoded in JSON format.
-	// It depends on the definition of ConfigFields.
-	ConfigReceiver(config []byte) error
+  // ConfigReceiver 接收配置数据，在保存或初始化配置时调用。
+  // 我们建议将数据反序列化为结构体，然后使用结构体来进行操作。
+  // 配置以 JSON 格式编码。
+  // 它依赖于 ConfigFields 的定义。
+  ConfigReceiver(config []byte) error
 }
 ```
 
-#### Register initialization function
+#### 注册初始化函数
+
 ```go
 import "github.com/answerdev/answer/plugin"
 
 func init() {
-	plugin.Register(&GitHubConnector{
-		Config: &GitHubConnectorConfig{},
-	})
+ plugin.Register(&GitHubConnector{
+  Config: &GitHubConnectorConfig{},
+ })
 }
 ```
 
-#### Debugging tips
+#### 调试提示
+
 :::tip
-During the development and debugging phase, you can use the following tips to avoid repetitive packaging.
+在开发和调试阶段，你可以使用以下提示，避免重复打包。
 :::
 
-1. Use answer source code for development.
-2. Write your plugin directly in the plugin directory.
-3. Import your plugin in the main function
+1. U使用 Answer 的源代码进行开发。
+2. 直接在插件目录中编写插件。
+3. 在主函数中导入插件。
 
-After that you just need to start the answer project normally and it will contain the plugins you developed.
+之后，你只需要正常启动 Answer 项目，它将包含你开发的插件。
 
+## 贡献
 
-## Contributing
-For plugin types that have not been implemented yet, please wait for the official implementation to be completed before contributing.
-For existing plugin types, you can follow the steps below to contribute the plugin implementation to us. 
+对于尚未实现的插件类型，请等待官方实现完成后再进行贡献。
+对于已有的插件类型，你可以按照以下步骤向我们贡献插件实现。
 
-1. Submit an issue request to ensure that the official is not developing the same plug-in as you.
-2. Get confirmation that you can develop your plugin, test it and submit a PR.
-3. Wait for the PR merge, the official will include your plugin.
+1. 提交问题请求，以确保官方没有开发与你相同的插件。
+2. 得到确认后，开发你的插件，进行测试并提交 PR。
+3. 等待 PR 合并，官方包含你的插件。
 
-## Design & Principle
-Since Golang is a static language, there is no friendly plugin mechanism. So instead of a dynamic approach, we use recompilation for deployment.
+## 设计和原则
+
+由于 Golang 是一种静态语言，因此没有友好的插件机制。因此，我们使用重新编译进行部署，而不是动态方法。

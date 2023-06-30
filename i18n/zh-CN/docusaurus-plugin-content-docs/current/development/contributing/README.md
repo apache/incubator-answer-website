@@ -2,42 +2,50 @@
 sidebar_position: 2
 ---
 
-# Contributing
-> Thanks for your interest in contributing to Answer!
+# 贡献指南
+>
+> 感谢您对 Answer 的贡献兴趣！
 
-## How to Contribute
-> You can contribute directly to the github repo by submitting your PR.
+## 如何贡献
+>
+> 您可以通过提交 PR 直接贡献到 github 仓库中。
 
-## Creating an Issue
-- Feel free to ask your questions if you have any.
+## 创建问题
 
-## Creating a Pull Request
-- We appreciate you taking the time to contribute! Before submitting a pull request, we ask that you please create an issue that explains the bug or feature request and let us know that you plan on creating a pull request for it. If an issue already exists, please comment on that issue letting us know you would like to submit a pull request for it. This helps us to keep track of the pull request and make sure there isn't duplicated effort.
+- 如果您有任何问题，请随时提问。
 
-## Commit Message Guidelines
+## 创建 Pull Request
+
+- 我们感谢您抽出时间做出贡献！在提交 Pull Request 之前，请创建一个解释错误或功能请求的问题，并告诉我们您计划为其创建 Pull Request。如果问题已经存在，请在该问题上发表评论，让我们知道您想要为其提交 Pull Request。这有助于我们跟踪 Pull Request 并确保没有重复的工作。
+
+## 提交信息准则
+
 ```
 <type>(<scope>): <subject>
 ```
 
 ### type
-- feat: A new feature
-- fix: A bug fix
-- docs: Documentation only changes
-- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-- refactor: A code change that neither fixes a bug nor adds a feature
-- perf: A code change that improves performance
-- test: Adding missing tests
-- chore: Changes to the build process or auxiliary tools and libraries such as documentation generation
+
+- feat: 新特性
+- fix: 修复 bug
+- docs: 仅文档更改
+- style: 不影响代码含义的更改（空格，格式，缺少分号等）
+- refactor: 既不修复 bug 也不添加特性的代码更改
+- perf: 提高性能的代码更改
+- test: 添加缺失的测试
+- chore: 构建过程或辅助工具和库（例如文档生成）的更改
 
 ### scope
-The scope can be anything specifying place of the commit change.
+
+scope 可以是指明提交更改的位置的任何内容。
 
 ### subject
-The subject contains a succinct description of the change:
 
-- use the imperative, present tense: "change" not "changed" nor "changes"
-- do not capitalize first letter
-- do not place a period . at the end
-- entire length of the commit message must not go over 50 characters
-- describe what the commit does, not what issue it relates to or fixes
-- be brief, yet descriptive - we should have a good understanding of what the commit does by reading the subject
+subject 包含对更改的简洁描述：
+
+- 使用命令式，现在时: "change" 而非 "changed" 或 "changes"
+- 不要大写第一个字母
+- 不要在末尾放置句号
+- 整个提交消息的长度不得超过 50 个字符
+- 描述提交的内容，而不是它所涉及或修复的问题
+- 简要但具有描述性 - 通过阅读主题，我们应该对提交的内容有很好的理解
