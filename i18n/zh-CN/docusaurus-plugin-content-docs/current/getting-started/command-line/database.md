@@ -6,7 +6,7 @@ slug: /database
 
 :::note
 
-不同的数据库具有不同的数据类型。下表以mysql/mariadb为例。
+不同的数据库具有不同的数据类型。下表以 mysql/mariadb 为例。
 
 :::
 

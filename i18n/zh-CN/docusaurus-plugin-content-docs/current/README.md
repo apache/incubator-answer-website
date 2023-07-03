@@ -4,7 +4,7 @@ slug: /
 
 # 介绍
 
-Answer 可帮助b你在用户和团队之间建立社区。你可以在这里分享知识并帮助用户解决问题。
+Answer 可帮助你在用户和团队之间建立社区。你可以在这里分享知识并帮助用户解决问题。
 
 [![LICENSE](https://img.shields.io/github/license/answerdev/answer)](https://github.com/answerdev/answer/blob/main/LICENSE)
 [![Language](https://img.shields.io/badge/language-go-blue.svg)](https://golang.org/)
