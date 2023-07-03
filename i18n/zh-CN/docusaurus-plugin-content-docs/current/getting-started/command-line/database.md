@@ -32,7 +32,7 @@ slug: /database
 
 ## answer
 >
-> `answer` 表记录答案信息。
+> `answer` 表记录回答信息。
 
 | COLUMN            | DATA TYPE  | NULLABLE | KEY | DEFAULT           | COMMENT                                 |
 |-------------------|------------|----------|-----|-------------------|-----------------------------------------|
@@ -76,7 +76,7 @@ slug: /database
 
 ## comment
 >
-> `comment` 表记录有关问题或答案的评论。
+> `comment` 表记录有关问题或回答的评论。
 
 | COLUMN           | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                  |
 |------------------|------------|----------|-----|---------|------------------------------------------|
@@ -334,7 +334,7 @@ slug: /database
 
 ## version
 >
-> 当前答案的版本记录在版本表中以进行升级。
+> 当前 Answer 的版本记录在版本表中以进行升级。
 
 |     COLUMN     | DATA TYPE | NULLABLE | KEY | DEFAULT |    COMMENT     |
 |----------------|-----------|----------|-----|---------|----------------|

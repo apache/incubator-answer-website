@@ -25,9 +25,9 @@ sidebar_position: 1
 - Connector: 插件帮助我们实现第三方登录功能。例如 GitHub OAuth 登录。e.g. `GitHub OAuth Login`
 - Storage: Storage 插件帮助我们将文件上传到第三方存储器。（预览）
 - Cache:  为不同内容格式编写的解析器。 （预览）
-- Filter: 过滤掉非法问题或答案。 （即将推出）
+- Filter: 过滤掉非法问题或回答。 （即将推出）
 - Render: 为不同内容格式编写的解析器。 （即将推出）
-- Finder: 支持使用搜索引擎加速搜索问题答案。 （即将推出）
+- Finder: 支持使用搜索引擎加速搜索问题和回答。 （即将推出）
 
 ## 构建
 >
