@@ -3,25 +3,25 @@ sidebar_label: 插件配置架构
 sidebar_position: 0
 ---
 
-# Plugin Configuration Schema
+# 插件配置架构
 
-## Feature
+## 功能
 >
-> For plugins, we often need some configuration items to record the information necessary for the plugin.
+> 对于插件，我们通常需要一些配置项来记录插件所需的信息。
 >
-> For example, OAuth plugins require secret key configuration.
+> 例如，OAuth 插件需要秘密密钥配置。
 >
-> These configurations need to be described by the developer and used by the user.
+> 这些配置需要由开发人员描述并由用户使用。
 >
-> So, the following is about how to describe the configuration required for a plugin.
+> 因此，以下内容介绍如何描述插件所需的配置。
 
-### Backend & Plugin developer
+### 后端和插件开发人员
 
 :::note
 
-For backend or plugin developers, we use the following structure to describe the plugin configuration.
+对于后端或插件开发人员，我们使用以下结构来描述插件配置。
 
-As a plugin developer, you only need to build a structure `[]ConfigField` and fill in the configuration contents to describe the required configuration of a plugin.
+作为插件开发人员，你只需要构建一个 `[]ConfigField` 结构并填写配置内容，以描述插件所需的配置。
 
 :::
 
@@ -49,32 +49,32 @@ type ConfigFieldOption struct {
 }
 ```
 
-### Frontend
+### 前端
 
 :::note
 
-On the frontend we use JSON to describe and render the plugin's configuration items.
+在前端，我们使用 JSON 描述和呈现插件的配置项。
 
 :::
 
 ```json
 {
-  "name": "the key of this configuration that should be unique in the plugin",
-  "type": "the type of this configuration",
-  "title": "the label of this configuration that will be displayed",
-  "description": "configuration description that will be displayed",
+  "name": "应该在插件中唯一的此配置的键",
+  "type": "此配置的类型",
+  "title": "将显示的此配置的标签",
+  "description": "将显示的配置说明",
   "options,omitempty": [{"label": "Apple", "value": "apple"}],
   "required": true,
   "ui_options": {
-    "input_type": "the type of input",
-    "placeholder": "placeholder",
-    "rows": "the number of rows that will be used for textarea"
+    "input_type": "输入类型",
+    "placeholder": "占位符",
+    "rows": "用于 textarea 的行数"
   },
-  "value": "the value of this configuration that will be saved"
+  "value": "将保存的此配置的值"
 }
 ```
 
-### GitHub Connector Plugin Configuration Example
+### GitHub 连接器插件配置示例
 
 ```json
 [
@@ -82,7 +82,7 @@ On the frontend we use JSON to describe and render the plugin's configuration it
         "name": "client_id",
         "type": "input",
         "title": "ClientID",
-        "description": "Client ID of your GitHub application.",
+        "description": "GitHub 应用程序的客户端 ID。",
         "required": true,
         "ui_options": {
             "input_type": "text"
@@ -92,7 +92,7 @@ On the frontend we use JSON to describe and render the plugin's configuration it
         "name": "client_secret",
         "type": "input",
         "title": "ClientSecret",
-        "description": "Client secret of your GitHub application.",
+        "description": "GitHub 应用程序的客户端密钥。",
         "required": true,
         "ui_options": {
             "input_type": "text"
@@ -101,12 +101,12 @@ On the frontend we use JSON to describe and render the plugin's configuration it
 ]
 ```
 
-The following is what looks like on the Admin Page.
+以下是管理页面上的外观。
 ![plugin-github-connector-config](/img/docs/plugin-github-connector-config.png)
 
-### Supported Config Types
+### 支持的配置类型
 >
-> Different types will be rendered as different UI.
+> 不同的类型将呈现为不同的 UI。
 
 - input
 - textarea
@@ -117,9 +117,9 @@ The following is what looks like on the Admin Page.
 - timezone
 - switch
 
-### Supported Config Input Types
+### 支持的配置输入类型
 >
-> Different formats are supported for the input type
+> 支持不同格式的输入类型
 
 - text
 - color
