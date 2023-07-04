@@ -4,11 +4,16 @@ import { Row, Col, Button } from 'react-bootstrap';
 import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
 import Icon from '@site/src/components/Icon';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import styles from './index.module.css';
 
 const HomeHead: FC = () => {
   const [stars, setStars] = React.useState(0);
+
+  const { i18n: { currentLocale } } = useDocusaurusContext();
+
+  console.log(currentLocale);
   useEffect(() => {
     fetch('https://img.shields.io/github/stars/answerdev/answer')
       .then((response) => response.text())
@@ -57,7 +62,7 @@ const HomeHead: FC = () => {
               <Translate
                 id="home.title"
                 values={{
-                  br: <br />,
+                  br: <br />
                 }}
               >
                 {'Build Q&A Community {br} with Answer'}
@@ -70,7 +75,7 @@ const HomeHead: FC = () => {
               <Translate
                 id="home.description"
                 values={{
-                  br: <br />,
+                  br: currentLocale === 'zh-CN' ? <br /> : '',
                 }}
               >
                 {'An open-source knowledge-based community software. {br} You can use it quickly to build Q&A community for your products, customers, teams, and more.'}
