@@ -3,7 +3,7 @@
 
 # 后端开发指南
 >
-> 下面是后端开发的指南。
+> 下面将说明如何配置环境来进行项目的后端开发工作
 
 ## 如何设置开发环境
 
@@ -38,13 +38,13 @@ go mod tidy
 swag init --generalInfo ./cmd/answer/main.go
 ```
 
-或者你可以进入脚本目录并使用 `./gen-api.sh`。
+或者你可以进入 `script` 目录并使用 `./gen-api.sh`。
 
 ### 构建
 
 :::note
 如果这是你第一次启动 Answer，请先编译前端项目，以确保你可以更轻松地测试它。
-一旦你熟悉了 Answer，你可以直接将配置文件复制到相应的目录中，而无需编译前端，并使用 Swagger 进行测试。
+一旦你熟悉了 Answer，也可以使用 Swagger 进行测试。
 :::
 
 ```shell
@@ -132,9 +132,9 @@ router -> middleware -> controller(use schema) -> service -> repo(use entity)
 如果你想开发新的 API，可以按照以下步骤进行操作。
 
 1. 在 router 中添加路由规则 (GET/POST/PUT...)。
-2. 添加用于处理程序请求的控制器。 该请求应在控制器中进行验证。
-3. 添加一个服务来处理业务。
-4. 添加用于保存或查询数据库或缓存中的数据的存储库。
+2. 添加用于处理程序请求的 controller。 该请求应在 controller 中进行验证。
+3. 添加一个 service 来处理业务。
+4. 添加用于保存或查询数据库或缓存中的数据的 repo 操作。
 5. 重新生成 swagger 文档并测试 API。
 
 ## 代码规范
@@ -145,7 +145,7 @@ router -> middleware -> controller(use schema) -> service -> repo(use entity)
 
 ### 代码规范检查
 
-`golangci-lint` 是一个快速的 Go 代码规范检查工具。我们使用 golangci-lint](<https://github.com/golangci/golangci-lint>) 来检查代码规范。
+`golangci-lint` 是一个快速的 Go 代码规范检查工具。我们使用 [golangci-lint](https://github.com/golangci/golangci-lint) 来检查代码规范。
 
 你可以使用以下命令检查你的代码格式。
 
