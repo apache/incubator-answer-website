@@ -456,7 +456,7 @@
     "message": "用 Answer {br} 构建问答社区"
   },
   "home.description": {
-    "message": "一款开源知识共享社区软件 {br} 你可以快速用它为你的产品、客户、团队等构建问答社区。"
+    "message": "一款开源知识共享社区软件 {br} 你可以快速为你的产品、客户、团队等构建问答社区。"
   },
   "home.btn.started": {
     "message": "开始使用"
@@ -510,7 +510,7 @@
     "message": "联系我们"
   },
   "contactHeader.slogon": {
-    "message": "我们总是能为你的问题找到答案"
+    "message": "我们总能为你的问题找到答案"
   },
   "contact.email": {
     "message": "发送邮件至 {br} support@answer.dev"
@@ -534,7 +534,7 @@
     "message": "联系我们"
   },
   "contact.slogon": {
-    "message": "我们总是能为你的问题找到答案。"
+    "message": "我们总能为你的问题找到答案。"
   },
   "Contact Us": {
     "message": "联系我们"
