@@ -13,7 +13,7 @@ const HomeHead: FC = () => {
 
   const { i18n: { currentLocale } } = useDocusaurusContext();
 
-  console.log(currentLocale);
+
   useEffect(() => {
     fetch('https://img.shields.io/github/stars/answerdev/answer')
       .then((response) => response.text())
