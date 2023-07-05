@@ -76,7 +76,7 @@ When updating or editing a post, use [Unlist](https://answer.dev/blog/2023/05/11
 ### 05. Make Sure Users Can Access Answers Easily
 Answer provides various ways for users to access the content they are searching for. Besides browsing in the help center, users can also get answers in the following ways:
 
-1. Search       
+**1. Search**       
 	Users can search for a keyword for an answer, and use a filter to sort the answers they need.
 	
     ![Search in Answer](Search.png)
@@ -85,17 +85,17 @@ Answer provides various ways for users to access the content they are searching 
 	
     ![Advanced Search Tips](AdvancedSearchTips.png)
 
-2. Click or Follow a Tag      
+**2. Click or Follow a Tag**      
 	Users can click and view all the content under this tag. It’s like a bookshelf in the library where it collects all related books.
 
     ![Alt text](FollowaTag.png)
 
-3. Related Questions      
+**3. Related Questions**      
 	You’ll find related questions in every post, providing relevant content for users to access easily.
 	
     ![Related Question in Answer](RelatedQuestions.png)
 
-4. Add Additional Resources       
+**4. Add Additional Resources**       
     You can customize Answer freely, such as adding extra information in the sidebar. In [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md), we support [plugin](https://github.com/answerdev/plugins) and your Answer is about to fly.
 
     ![Customize Sidebar in Answer](Sidebar.png)
@@ -108,5 +108,5 @@ You might also be concerned about having numerous similar questions, which incre
 ## It’s Your Turn to Build Your Answer Help Center
 With the tutorials and tips in this blog, we believe you can now build a help center that your users will love. You are always welcome to check this guide when working on your help center, and we will also keep it updated too. It’s time to kick-start a help center for your product, and here’s a complete [Answer guide](https://answer.dev/docs/installation).
 
-**Need more help?**
+**Need Help?**
 We are always [here for you](https://answer.dev/contact) with an Answer. 
