@@ -4,7 +4,8 @@ authors: [Anne]
 category: Tutorials
 featured: true
 image: 2023-07-05-cover@4x.png
-description: "Find out everything about Answer: our motivation, why it’s open-source, the people behind it, etc."
+description: "Build a help center with tutorials and tips from Answer, and the best part is with your users in this journey."
+
 ---
 
 You have to admit that, your customers always have and will ask questions even if your product is perfect. Obviously, not every question needs a team to solve, which makes self-service effective (a support team is still needed). That’s what help center comes for: provide the right information, in a right approach, at the right time for your customers. 
@@ -95,7 +96,7 @@ Answer provides various ways for users to access the content they are searching 
     ![Related Question in Answer](RelatedQuestions.png)
 
 4. Add Additional Resources       
-    You can customize Answer freely, such as adding extra information in the sidebar. In [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/), we support [plugin](https://github.com/answerdev/plugins) and your Answer is about to fly.
+    You can customize Answer freely, such as adding extra information in the sidebar. In [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md), we support [plugin](https://github.com/answerdev/plugins) and your Answer is about to fly.
 
     ![Customize Sidebar in Answer](Sidebar.png)
 
