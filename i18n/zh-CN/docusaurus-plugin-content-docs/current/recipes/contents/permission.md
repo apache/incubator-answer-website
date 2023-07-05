@@ -1,39 +1,39 @@
-# Permission
+# 权限
 
-## Privileges
+## 权限
 
-The number is the minimum reputation required for a privilege. There are three options available for your community. You can change this in Admin settings.
+数字表示所需的最低声望等级。社区中有三个选项可用。你可以在管理设置中更改此设置。
 
-| Privileges | Level 1 | Level 2 (default) | Level 3 |
+| 权限 | 级别1 | 级别2（默认） | 级别3 |
 |  ----- | ----- | ----- | -----  |
-| Description | Less reputation required for private team, group. | Low reputation required for startup community. | High reputation required for mature community. |
-| Ask question | 1 | 1 | 1 |
-| Write answer | 1 | 1 | 1 |
-| Write comment | 1 | 1 | 1 |
-| Flag | 1 | 1 | 1 |
-| Upvote comment | 1 | 1 | 1 |
-| Post more than 2 links at a time | 1 | 10 | 10 |
-| Upvote question | 1 | 1 | 15 |
-| Upvote answer | 1 | 1 | 15 |
-| Edit tag description (need to review) | 1 | 50 | 100 |
-| Downvote question | 125 | 125 | 125 |
-| Downvote answer | 125 | 125 | 125 |
-| Edit other's question (need to review) | 1 | 100 | 200 |
-| Edit other's answer (need to review) | 1 | 100 | 200 |
-| Invite to answer | 1 | 500 | 1000 |
-| Create new tag | 1 | 750 | 1500 |
-| Edit other's question without review | 1 | 1000 | 2000 |
-| Edit other's answer without review | 1 | 1000 | 2000 |
-| Revew question edits | 1 | 1000 | 2000 |
-| Review answer edits | 1 | 1000 | 2000 |
-| Review tag edits | 1 | 2500 | 5000 |
-| Edit tag description without review | 1 | 10000 | 20000 |
-| Manage tag synonyms | 1 | 10000 | 20000 |
+| 描述 | 个人团队、群组所需的较低声望。 | 创业社区所需的较低声望。 | 成熟社区所需的较高声望。 |
+| 提问 | 1 | 1 | 1 |
+| 写回答 | 1 | 1 | 1 |
+| 写评论 | 1 | 1 | 1 |
+| 举报 | 1 | 1 | 1 |
+| 点赞评论 | 1 | 1 | 1 |
+| 同时发布超过2个链接 | 1 | 10 | 10 |
+| 点赞问题 | 1 | 1 | 15 |
+| 点赞回答 | 1 | 1 | 15 |
+| 编辑标签描述（需要审核） | 1 | 50 | 100 |
+| 踩问题 | 125 | 125 | 125 |
+| 踩回答 | 125 | 125 | 125 |
+| 编辑他人的问题（需要审核） | 1 | 100 | 200 |
+| 编辑他人的回答（需要审核） | 1 | 100 | 200 |
+| 邀请回答 | 1 | 500 | 1000 |
+| 创建新标签 | 1 | 750 | 1500 |
+| 无需审核即可编辑他人的问题 | 1 | 1000 | 2000 |
+| 无需审核即可编辑他人的回答 | 1 | 1000 | 2000 |
+| 审核问题编辑 | 1 | 1000 | 2000 |
+| 审核回答编辑 | 1 | 1000 | 2000 |
+| 审核标签编辑 | 1 | 2500 | 5000 |
+| 无需审核即可编辑标签描述 | 1 | 10000 | 20000 |
+| 管理标签同义词 | 1 | 10000 | 20000 |
 
-## User roles
+## 用户角色
 
-| Permission \ Roles | User | Moderator | Admin |
+| 权限 \ 角色 | 用户 | 版主 | 管理员 |
 |---|---|---|---|
-| Default with no special access | ✓ | ✓ | ✓ |
-| Has access to all posts except site admin | - | ✓ | ✓ |
-| Have the full power to access the site | - | - | ✓ |
+| 默认无特殊访问权限 | ✓ | ✓ | ✓ |
+| 除站点管理员外可以访问所有帖子 | - | ✓ | ✓ |
+| H具有访问站点的全部权限 | - | - | ✓ |

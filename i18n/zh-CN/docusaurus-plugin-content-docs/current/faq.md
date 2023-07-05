@@ -3,20 +3,19 @@
 
 # 常见问题
 
-## How do I access the installation page?
+## 如何访问安装页面？
 
-Heading to <http://localhost:9080/install> to access installation page.
+请前往 <http://localhost:9080/install> 访问安装页面。
 
-## Why can't I receive the registration email?
+## 为什么我无法收到注册邮件？
 
-You should configure you own SMTP in `Admin -> Settings -> SMTP`.
+你需要在 管理后台 -> 设置 -> SMTP 中配置自己的 SMTP。
 
-## How do I switch the default language?
+## 如何切换默认语言？
 
-- Site's default language can be switched in `Admin -> Settings -> Interface`.
-- Users can switch languages in their own `Settings -> Interface`.
+- 站点默认语言可以在 `管理后台 -> 设置 -> 界面` 中切换。
+- 用户可以在自己的 `设置 -> 界面` 中切换语言。
 
-## What are the currently supported database types? Is migration supported?
+## 目前支持哪些数据库类型？是否支持迁移？
 
-We support `MySQL` `PostgreSQL`  `SQLite3`. Unfortunately, we **do not** currently support data migration.
-So we recommend using SQLite3 **just for the experience** and MySQL for actual use.
+我们支持 `MySQL`、`PostgreSQL` 和 `SQLite3` 数据库。不幸的是，我们目前**不支持**数据迁移。因此，我们建议仅使用 SQLite3 来**体验**，而实际使用时应选择 MySQL。
