@@ -4,11 +4,16 @@ import { Row, Col, Button } from 'react-bootstrap';
 import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
 import Icon from '@site/src/components/Icon';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import styles from './index.module.css';
 
 const HomeHead: FC = () => {
   const [stars, setStars] = React.useState(0);
+
+  const { i18n: { currentLocale } } = useDocusaurusContext();
+
+
   useEffect(() => {
     fetch('https://img.shields.io/github/stars/answerdev/answer')
       .then((response) => response.text())
@@ -32,10 +37,10 @@ const HomeHead: FC = () => {
   }
   return (
     <header className='pt-4 pb-3'>
-      <div className="container d-flex flex-column align-items-center">
+      <div className="container">
         <Link
           to="/waitlist"
-          className="d-flex align-items-center text-secondary text--center pb-5 mb-3"
+          className="d-flex align-items-center justify-content-center text-secondary pb-5 mb-3"
         >
           <Translate id="home.waitlist.title">
             👋 Join the Answer Cloud Waitlist
@@ -57,7 +62,7 @@ const HomeHead: FC = () => {
               <Translate
                 id="home.title"
                 values={{
-                  br: <br />,
+                  br: <br />
                 }}
               >
                 {'Build Q&A Community {br} with Answer'}
@@ -67,10 +72,13 @@ const HomeHead: FC = () => {
             <div
               className={clsx('text-secondary text--center mb-4', styles.intro)}
             >
-              <Translate id="home.description">
-                An open-source knowledge-based community software. You can use it
-                quickly to build Q&A community for your products, customers,
-                teams, and more.
+              <Translate
+                id="home.description"
+                values={{
+                  br: currentLocale === 'zh-CN' ? <br /> : '',
+                }}
+              >
+                {'An open-source knowledge-based community software. {br} You can use it quickly to build Q&A community for your products, customers, teams, and more.'}
               </Translate>
             </div>
 

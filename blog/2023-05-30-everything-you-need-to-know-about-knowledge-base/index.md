@@ -20,16 +20,16 @@ Sounds big, right? In fact, you must use one of them for sure since a knowledge 
 We expect to retrieve the right information at the moment, and the process must be quick. That’s why we need a knowledge base that contains a wide range of information and easy-to-search, and check the benefits.
 
 ## Benefits
-1. Easy Access to Information
+1. Easy Access to Information         
 A knowledge base provides a structured and organized system for storing information, making it easily accessible to users. It allows quick retrieval of relevant data, reducing the time and effort required to search for information.
 
-2. Improved Productivity and Efficiency
+2. Improved Productivity and Efficiency           
 By having a knowledge base in place, employees can find the information they require without relying on others or spending excessive time searching for it. This increases productivity and efficiency in performing tasks by empowering users to find information independently.
 
-3. Knowledge retention and Sharing
+3. Knowledge Retention and Sharing         
 A knowledge base serves as a repository for capturing and preserving institutional knowledge within an organization. It helps to retain critical information even when employees leave or change roles.
 
-4. Consistency and Accuracy
+4. Consistency and Accuracy         
 With a knowledge base, organizations can ensure consistency and accuracy in the information. It minimizes errors and conflicts, allowing for standardized procedures, guidelines, and documentation, reducing the risk of errors or inconsistencies caused by outdated or conflicting information.
 
 5. Customer Self-service and Support
@@ -51,11 +51,11 @@ Add new tags to set up your knowledge management system in Answer right away, no
 
 ![Manage Tags in Answer is Easy](knowledgebase2.png)
 
-4. Pin a Post
+4. Pin a Post        
 Pin an important or frequently asked question for your knowledge base, so that it always stays on the top of your knowledge base.
 ![Pin a Post in Answer](knowledgebase3.gif)
 
-5. Search and Find What You Need
+5. Search and Find What You Need           
 Answer provides advanced search, including tag, author, question, etc. so that you can always access to the knowledge you require at present quickly.
 
 ![Search Post in Answer](knowledgebase4.png)

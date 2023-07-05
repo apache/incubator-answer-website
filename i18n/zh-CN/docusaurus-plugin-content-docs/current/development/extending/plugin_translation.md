@@ -38,7 +38,7 @@ import (
 plugin.MakeTranslator("plugin.github_connector.backend.name")
 ```
 
-其中 `plugin.github_connector.backend.name` 是翻译文件的键，稍后将介绍。
+其中 `plugin.github_connector.backend.name` 是翻译文件的 key ，稍后将介绍。
 
 因此，第一步是为需要翻译的每个字段构建 `Translator` 结构。
 
@@ -46,9 +46,7 @@ plugin.MakeTranslator("plugin.github_connector.backend.name")
 
 在插件的根目录中创建 `i18n` 目录，然后在其中创建名为 `en_US.yaml` 的文件。
 
-`en_US.yaml` 文件用于存储插件的英文翻译。
-
-`en_US.yaml`  文件的内容如下：
+`en_US.yaml` 文件用于存储插件的英文翻译其内容如下：
 
 ```yaml
 plugin:
@@ -78,7 +76,7 @@ plugin:
         description: Login with GitHub
 ```
 
-- `plugin` 是翻译文件的根键。
+- `plugin` 是翻译文件的根节点。
 - `github_connector` 是插件的名称。
 - `backend` 是后端的翻译。键结尾的 `other` 仅用于 [go-i18n](https://github.com/nicksnyder/go-i18n) 识别翻译文件。
 - `ui` 是前端的翻译。

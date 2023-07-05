@@ -4,7 +4,7 @@ authors: [Anne]
 category: Release
 featured: true
 image: 2023-06-15-cover@4x.png
-description: Answer 1.1.0 is now on GitHub, find out the updates and boost productivity with it.
+description: "Answer 1.1.0 is now on GitHub, find out the updates and boost productivity with it."
 ---
 
 We made it, and it’s official here: Answer v1.1.0 is now available on GitHub.   
