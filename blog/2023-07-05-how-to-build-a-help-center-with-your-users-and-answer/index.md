@@ -79,26 +79,26 @@ Answer provides various ways for users to access the content they are searching 
 **1. Search**       
 	Users can search for a keyword for an answer, and use a filter to sort the answers they need.
 	
-    ![Search in Answer](Search.png)
+![Search in Answer](Search.png)
 
 	Answer also provides advanced search tips to boost search efficiency, offering a smooth self-service experience. 
 	
-    ![Advanced Search Tips](AdvancedSearchTips.png)
+![Advanced Search Tips](AdvancedSearchTips.png)
 
 **2. Click or Follow a Tag**      
 	Users can click and view all the content under this tag. It’s like a bookshelf in the library where it collects all related books.
 
-    ![Alt text](FollowaTag.png)
+![Alt text](FollowaTag.png)
 
 **3. Related Questions**      
 	You’ll find related questions in every post, providing relevant content for users to access easily.
 	
-    ![Related Question in Answer](RelatedQuestions.png)
+![Related Question in Answer](RelatedQuestions.png)
 
 **4. Add Additional Resources**       
     You can customize Answer freely, such as adding extra information in the sidebar. In [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md), we support [plugin](https://github.com/answerdev/plugins) and your Answer is about to fly.
 
-    ![Customize Sidebar in Answer](Sidebar.png)
+![Customize Sidebar in Answer](Sidebar.png)
 
 ## What's More 
 You might also be concerned about having numerous similar questions, which increases the workload for the administrators. Answer got it covered for you. When users fill a title, Answer automatically displays similar questions which are existed in the community. User can click and jump right to that question.

@@ -4,7 +4,8 @@ authors: [Anne]
 category: Tutorials
 featured: true
 image: 2023-07-05-cover@4x.png
-description: "Find out everything about Answer: our motivation, why it’s open-source, the people behind it, etc."
+description: "Build a help center with tutorials and tips from Answer, and the best part is with your users in this journey."
+
 ---
 
 You have to admit that, your customers always have and will ask questions even if your product is perfect. Obviously, not every question needs a team to solve, which makes self-service effective (a support team is still needed). That’s what help center comes for: provide the right information, in a right approach, at the right time for your customers. 
@@ -75,29 +76,29 @@ When updating or editing a post, use [Unlist](https://answer.dev/blog/2023/05/11
 ### 05. Make Sure Users Can Access Answers Easily
 Answer provides various ways for users to access the content they are searching for. Besides browsing in the help center, users can also get answers in the following ways:
 
-1. Search       
+**1. Search**       
 	Users can search for a keyword for an answer, and use a filter to sort the answers they need.
 	
-    ![Search in Answer](Search.png)
+![Search in Answer](Search.png)
 
 	Answer also provides advanced search tips to boost search efficiency, offering a smooth self-service experience. 
 	
-    ![Advanced Search Tips](AdvancedSearchTips.png)
+![Advanced Search Tips](AdvancedSearchTips.png)
 
-2. Click or Follow a Tag      
+**2. Click or Follow a Tag**      
 	Users can click and view all the content under this tag. It’s like a bookshelf in the library where it collects all related books.
 
-    ![Alt text](FollowaTag.png)
+![Alt text](FollowaTag.png)
 
-3. Related Questions      
+**3. Related Questions**      
 	You’ll find related questions in every post, providing relevant content for users to access easily.
 	
-    ![Related Question in Answer](RelatedQuestions.png)
+![Related Question in Answer](RelatedQuestions.png)
 
-4. Add Additional Resources       
+**4. Add Additional Resources**       
     You can customize Answer freely, such as adding extra information in the sidebar. In [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md), we support [plugin](https://github.com/answerdev/plugins) and your Answer is about to fly.
 
-    ![Customize Sidebar in Answer](Sidebar.png)
+![Customize Sidebar in Answer](Sidebar.png)
 
 ## What's More 
 You might also be concerned about having numerous similar questions, which increases the workload for the administrators. Answer got it covered for you. When users fill a title, Answer automatically displays similar questions which are existed in the community. User can click and jump right to that question.
@@ -107,5 +108,5 @@ You might also be concerned about having numerous similar questions, which incre
 ## It’s Your Turn to Build Your Answer Help Center
 With the tutorials and tips in this blog, we believe you can now build a help center that your users will love. You are always welcome to check this guide when working on your help center, and we will also keep it updated too. It’s time to kick-start a help center for your product, and here’s a complete [Answer guide](https://answer.dev/docs/installation).
 
-**Need more help?**
+**Need Help?**         
 We are always [here for you](https://answer.dev/contact) with an Answer. 
