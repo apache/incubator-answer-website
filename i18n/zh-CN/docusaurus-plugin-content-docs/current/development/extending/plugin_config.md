@@ -9,7 +9,7 @@ sidebar_position: 0
 >
 > 对于插件，我们通常需要一些配置项来记录插件所需的信息。
 >
-> 例如，OAuth 插件需要秘密密钥配置。
+> 例如，OAuth 插件需要配置密钥。
 >
 > 这些配置需要由开发人员描述并由用户使用。
 >
@@ -101,7 +101,7 @@ type ConfigFieldOption struct {
 ]
 ```
 
-以下是管理页面上的外观。
+以下是在管理页面上所展现的情况。
 ![plugin-github-connector-config](/img/docs/plugin-github-connector-config.png)
 
 ### 支持的配置类型
