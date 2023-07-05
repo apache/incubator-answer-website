@@ -33,7 +33,7 @@ A knowledge base serves as a repository for capturing and preserving institution
 With a knowledge base, organizations can ensure consistency and accuracy in the information. It minimizes errors and conflicts, allowing for standardized procedures, guidelines, and documentation, reducing the risk of errors or inconsistencies caused by outdated or conflicting information.
 
 5. Customer Self-service and Support
-Knowledge bases are commonly used in customer support to provide self-service options. By offering a comprehensive collection of FAQs, troubleshooting guides, and instructional materials, customers can find solutions to their problems without the need to contact support, reducing support costs and improving customer satisfaction.
+Knowledge bases are commonly used in [customer support](../2023-07-05-how-to-build-a-help-center-with-your-users-and-answer/) to provide self-service options. By offering a comprehensive collection of FAQs, troubleshooting guides, and instructional materials, customers can find solutions to their problems without the need to contact support, reducing support costs and improving customer satisfaction.
 
 ## Build Knowledge Base with Answer
 Make sure you have the right tools for hosting and managing your knowledge base. Answer is the tool you can give it a go, it’s open-source and for free. Here are some delighted features in Answer that help you to build an efficient knowledge base at ease.
