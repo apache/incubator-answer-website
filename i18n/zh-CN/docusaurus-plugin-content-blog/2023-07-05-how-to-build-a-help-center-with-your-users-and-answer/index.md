@@ -81,7 +81,7 @@ Answer provides various ways for users to access the content they are searching 
 	
 ![Search in Answer](Search.png)
 
-	Answer also provides advanced search tips to boost search efficiency, offering a smooth self-service experience. 
+Answer also provides advanced search tips to boost search efficiency, offering a smooth self-service experience. 
 	
 ![Advanced Search Tips](AdvancedSearchTips.png)
 
