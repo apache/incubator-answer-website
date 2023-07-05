@@ -5,16 +5,19 @@
  * LICENSE file in the root directory of this source tree.
  */
 import React from 'react';
+import { Col } from 'react-bootstrap';
 import clsx from 'clsx';
 import MDXContent from '@theme/MDXContent';
 export default function BlogPostItemContent({children, className}) {
   return (
-    <div
+    <Col
       // This ID is used for the feed generation to locate the main content
       id="__blog-post-container"
-      className={clsx('col col--7 markdown', className)}
+      lg={7}
+      md={12}
+      className={clsx('markdown', className)}
       itemProp="articleBody">
       <MDXContent>{children}</MDXContent>
-    </div>
+    </Col>
   );
 }
