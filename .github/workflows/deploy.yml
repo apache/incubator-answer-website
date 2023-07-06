@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'skip ci')"
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Cache pnpm modules and build
         uses: actions/cache@v2
@@ -20,14 +20,14 @@ jobs:
             build
           key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: 18
 
-      - name: install
+      - name: install dependencies
         uses: pnpm/action-setup@v2
         with:
-          version: 7
+          version: 8
           run_install: |
             - recursive: true
               args: [--frozen-lockfile, --strict-peer-dependencies]
