@@ -5,19 +5,29 @@
  * LICENSE file in the root directory of this source tree.
  */
 import React from 'react';
-import { Col } from 'react-bootstrap';
 import clsx from 'clsx';
 import MDXContent from '@theme/MDXContent';
+import MDXImg from '@theme/MDXComponents/Img';
+// @ts-ignore
+import {useBlogPost} from '@docusaurus/theme-common/internal';
+
 export default function BlogPostItemContent({children, className}) {
+  const { frontMatter } = useBlogPost();
   return (
-    <Col
+    <div
       // This ID is used for the feed generation to locate the main content
       id="__blog-post-container"
-      lg={7}
-      md={12}
       className={clsx('markdown', className)}
       itemProp="articleBody">
+      <div className='mb-5'>
+        <MDXImg
+          src={require(`@site/static/img/blog/${frontMatter.image}`).default}
+          className="rounded"
+          width="1280px"
+          height="720px"
+          />
+      </div>
       <MDXContent>{children}</MDXContent>
-    </Col>
+    </div>
   );
 }
