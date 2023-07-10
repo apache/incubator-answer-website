@@ -23,7 +23,7 @@ const BlogPostItemHeader = () => {
             </Translate>
         </Link>
       </div>
-      <h1>
+      <h1 className='mb-3'>
         <Link to={metadata.permalink} className="text-body">
           {metadata.title}
         </Link>

@@ -19,7 +19,7 @@ export default function BlogPostItemContent({children, className}) {
       id="__blog-post-container"
       className={clsx('markdown', className)}
       itemProp="articleBody">
-      <div className='mb-5'>
+      <div className='mb-4'>
         <MDXImg
           src={require(`@site/static/img/blog/${frontMatter.image}`).default}
           className="rounded"
