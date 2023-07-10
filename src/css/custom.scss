@@ -193,6 +193,11 @@ img {
   cursor: default;
 }
 
+.blog-toc-active {
+  color: rgba(var(--bs-body-color-rgb),var(--bs-text-opacity))!important;
+  font-weight: 700;
+}
+
 
 // there for docusaurus default css
 
@@ -226,3 +231,4 @@ img {
     color: var(--ifm-link-color) !important;
   }
 }
+

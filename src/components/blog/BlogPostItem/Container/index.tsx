@@ -17,16 +17,14 @@ export default function BlogPostItemContainer({children, className}) {
   const image = assets.image ?? frontMatter.image;
   return (
     <article
-      className={clsx('container py-5 mb-5', className)}
+      className={clsx('px-0 px-lg-5 pb-5 mb-5', className)}
       itemProp="blogPost"
       itemScope
       itemType="http://schema.org/BlogPosting">
       {image && (
         <meta itemProp="image" content={withBaseUrl(image, {absolute: true})} />
       )}
-      <div className="row justify-content-center">
-        {children}
-      </div>
+      {children}
     </article>
   );
 }
