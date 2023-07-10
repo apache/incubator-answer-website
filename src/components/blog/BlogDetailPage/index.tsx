@@ -32,7 +32,7 @@ function BlogPostPageContent({relatedList, sidebar, children}) {
     <Layout
       sidebar={sidebar}>
         <Container>
-          <Row className='justify-content-end mb-5'>
+          <Row className='justify-content-end mb-4'>
             <Col lg={8} md={12}>
                <div className='px-0 px-lg-5 pt-5'>
                  <BlogPostItemHeader />
