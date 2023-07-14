@@ -10,6 +10,18 @@
   font-size: 1.5rem;
 }
 
+.slogon {
+  position: relative;
+  transition: opacity 0.5s;
+}
+
+.slogonIn {
+  opacity: 1;
+}
+.slogonOut {
+  opacity: 0;
+}
+
 
 @media screen and (max-width: 575px) {
   .h1 {
