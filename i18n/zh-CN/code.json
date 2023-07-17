@@ -452,8 +452,8 @@
   "home.waitlist.title": {
     "message": "👋 加入 Answer Cloud 等候名单"
   },
-  "home.title.open": {
-    "message": "面向团队的开源"
+  "home.title.build": {
+    "message": "用 Answer 打造"
   },
   "home.title.teams": {
     "message": ""
@@ -462,10 +462,10 @@
     "message": "问答平台"
   },
   "home.title.knowledge": {
-    "message": "知识共享平台"
+    "message": "知识分享平台"
   },
   "home.title.community": {
-    "message": "社区论坛"
+    "message": "论坛"
   },
   "home.title.base": {
     "message": "知识库"
@@ -477,7 +477,7 @@
     "message": "支持中心"
   },
   "home.description": {
-    "message": "无论是团队知识共享平台、帮助中心还是社区论坛，你始终可以信赖 Answer。"
+    "message": "一款适合任何团队的问答平台软件。{br}无论是社区论坛、帮助中心还是知识管理平台，你可以永远信赖 Answer。"
   },
   "home.btn.started": {
     "message": "开始使用"

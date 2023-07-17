@@ -76,7 +76,6 @@ const HomeHead: FC = () => {
     return $num;
   }
 
-
   return (
     <header className='pt-4 pb-3'>
       <div className="container">
@@ -91,7 +90,7 @@ const HomeHead: FC = () => {
           <Icon name="arrow-right"  size="16px"  className="ms-1" />
         </Link>
         <Row className='justify-content-center'>
-          <Col md={12} lg={8} className='d-flex flex-column align-items-center'>
+          <Col md={12} lg={10} className='d-flex flex-column align-items-center'>
             <img
               src={require('@site/static/img/head-icon.png').default}
               alt="head-icon"
@@ -102,17 +101,19 @@ const HomeHead: FC = () => {
 
             <h1 className={clsx('sm-h1 fw-bold', styles.h1)}>
               <Translate
-                id="home.title.open"
+                id="home.title.build"
               >
-                An Open-source
+                Build
               </Translate>
+              {currentLocale === 'zh-CN' ? <br /> : ''}
+              <span className={clsx('text-decoration-underline link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover', styles.slogon, styles[slogonClass])}>
+                <span className='link-body-emphasis'>{slogon}</span>
+              </span>
               <br />
-              <span className={clsx(styles.slogon, styles[slogonClass])}>{slogon}</span>
-              {' '}
               <Translate
                 id="home.title.teams"
               >
-                for Teams
+                with Answer
               </Translate>
             </h1>
 
@@ -125,7 +126,7 @@ const HomeHead: FC = () => {
                   br: currentLocale === 'zh-CN' ? <br /> : '',
                 }}
               >
-                {"Whether it's a team knowledge sharing platform, help center, or community forum, you can always count on Answer."}
+                {"A Q&A platform software for teams at any scales.{br} Whether it’s a community forum, help center, or knowledge management platform, you can always count on Answer."}
               </Translate>
             </div>
 
