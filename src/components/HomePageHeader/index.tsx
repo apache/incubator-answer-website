@@ -16,7 +16,7 @@ const list = [
     Knowledge Sharing Platform
   </Translate>,
   <Translate id="home.title.community">
-    Community Forum
+    Forum
   </Translate>,
   <Translate id="home.title.base">
     Knowledge Base
