@@ -20,7 +20,7 @@ You can find a list of officially supported plugins for Answer [here](https://gi
 
 - Connector: The Connector plugin helps us to implement third-party login functionality. e.g. `GitHub OAuth Login`
 - Storage: The Storage plugin helps us to upload files to third-party storage. (preview)
-- Cache: Parsers for different content formats. (preview)
+- Cache: Support for using different caching middleware. e.g. `Redis` (preview)
 - Filter: Filter out illegal questions or answers. (coming soon)
 - Render: Parsers for different content formats. (coming soon)
 - Finder: Support for using search engines to speed up the search for question answers. (coming soon)
