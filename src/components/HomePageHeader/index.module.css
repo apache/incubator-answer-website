@@ -22,21 +22,6 @@
   opacity: 0;
 }
 
-.typing-container {
-  display: inline-block;
-  overflow: hidden;
-  animation: typing 3s steps(25) both;
-}
-
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: auto;
-  }
-}
 
 
 @media screen and (max-width: 575px) {
