@@ -35,7 +35,7 @@ ul {
 
 .screenContent {
   position: relative;
-  padding: 48px 0 158px !important;
+  padding: 48px 0 245px !important;
 }
 .pcScreen {
   width: 91.67%;
@@ -53,7 +53,7 @@ ul {
   padding: 8px;
   right: 0;
   bottom: 77px;
-  max-width: 27%;
+  max-width: 25%;
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 0.175);
   background-color: #fff;

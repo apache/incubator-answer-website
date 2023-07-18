@@ -97,8 +97,8 @@ export default function HomepageFeatures(): JSX.Element {
       mobile: require('@site/static/img/home-mobile@2x.png').default,
     },
     {
-      laptop: require('@site/static/img/detail-laptop@2x.png').default,
-      mobile: require('@site/static/img/detail-mobile@2x.png').default,
+      laptop: require('@site/static/img/answers-laptop@2x.png').default,
+      mobile: require('@site/static/img/answers-mobile@2x.png').default,
     },
     {
       laptop: require('@site/static/img/profile-laptop@2x.png').default,
