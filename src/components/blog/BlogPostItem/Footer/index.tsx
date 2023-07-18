@@ -22,7 +22,7 @@ import styles from './index.module.css';
     } = useDocusaurusContext();
 
     return (
-      <div className='col col--7 mt-3'>
+      <div className='mt-3'>
         {metadata.tags.length > 0 && (
           <div className='mb-3'>
             <span>
