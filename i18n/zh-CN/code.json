@@ -23,7 +23,7 @@
   "blogHeader.title": {
     "message": "博客"
   },
-  "blogHeader.slogon": {
+  "blogHeader.slogan": {
     "message": "探索关于 Answer 的方方面面，让你的问答社区更强大、更有影响力。"
   },
   "theme.docs.paginator.previous": {
@@ -452,11 +452,32 @@
   "home.waitlist.title": {
     "message": "👋 加入 Answer Cloud 等候名单"
   },
-  "home.title": {
-    "message": "用 Answer {br} 构建问答社区"
+  "home.title.build": {
+    "message": "用 Answer 打造"
+  },
+  "home.title.teams": {
+    "message": ""
+  },
+  "home.title.qa": {
+    "message": "问答平台"
+  },
+  "home.title.knowledge": {
+    "message": "知识分享平台"
+  },
+  "home.title.community": {
+    "message": "论坛"
+  },
+  "home.title.base": {
+    "message": "知识库"
+  },
+  "home.title.developer": {
+    "message": "开发者中心"
+  },
+  "home.title.support": {
+    "message": "支持中心"
   },
   "home.description": {
-    "message": "一款开源知识共享社区软件 {br} 你可以快速为你的产品、客户、团队等构建问答社区。"
+    "message": "一款适合任何团队的问答平台软件。{br}无论是社区论坛、帮助中心还是知识管理平台，你可以永远信赖 Answer。"
   },
   "home.btn.started": {
     "message": "开始使用"
@@ -509,7 +530,7 @@
   "contactHeader.title": {
     "message": "联系我们"
   },
-  "contactHeader.slogon": {
+  "contactHeader.slogan": {
     "message": "我们总能为你的问题找到答案"
   },
   "contact.email": {
@@ -533,7 +554,7 @@
   "contact.title": {
     "message": "联系我们"
   },
-  "contact.slogon": {
+  "contact.slogan": {
     "message": "我们总能为你的问题找到答案。"
   },
   "Contact Us": {

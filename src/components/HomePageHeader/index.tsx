@@ -1,4 +1,4 @@
-import React, { FC, useEffect } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import Link from '@docusaurus/Link';
 import { Row, Col, Button } from 'react-bootstrap';
 import clsx from 'clsx';
@@ -8,8 +8,33 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import styles from './index.module.css';
 
+const list = [
+  <Translate id="home.title.qa">
+    Q&A Platform
+  </Translate>,
+  <Translate id="home.title.knowledge">
+    Knowledge Sharing Platform
+  </Translate>,
+  <Translate id="home.title.community">
+    Community Forum
+  </Translate>,
+  <Translate id="home.title.base">
+    Knowledge Base
+  </Translate>,
+  <Translate id="home.title.developer">
+    Developer Hub
+  </Translate>,
+  <Translate id="home.title.support">
+    Support Center
+  </Translate>,
+]
+
 const HomeHead: FC = () => {
-  const [stars, setStars] = React.useState(0);
+  const [stars, setStars] = useState(0);
+  const [slogan, setSlogan] = useState(<Translate id="home.title.qa">
+  Q&A Platform
+</Translate>);
+  const [sloganClass, setSloganClss] = useState('sloganIn');
 
   const { i18n: { currentLocale } } = useDocusaurusContext();
 
@@ -23,6 +48,21 @@ const HomeHead: FC = () => {
           setStars(num);
         }
       });
+      let i = 0;
+      const timer = setInterval(() => {
+        setSloganClss('sloganOut');
+        setTimeout(() => {
+          setSlogan(list[i]);
+          setSloganClss('sloganIn');
+        }, 300);
+        i++;
+        if (i === list.length) {
+          i = 0;
+        }
+      }, 4500);
+    () => {
+      clearInterval(timer)
+    }
   }, []);
 
   function numWord($num) {
@@ -35,6 +75,7 @@ const HomeHead: FC = () => {
     }
     return $num;
   }
+
   return (
     <header className='pt-4 pb-3'>
       <div className="container">
@@ -49,7 +90,7 @@ const HomeHead: FC = () => {
           <Icon name="arrow-right"  size="16px"  className="ms-1" />
         </Link>
         <Row className='justify-content-center'>
-          <Col md={12} lg={8} className='d-flex flex-column align-items-center'>
+          <Col md={12} lg={10} className='d-flex flex-column align-items-center'>
             <img
               src={require('@site/static/img/head-icon.png').default}
               alt="head-icon"
@@ -60,17 +101,24 @@ const HomeHead: FC = () => {
 
             <h1 className={clsx('sm-h1 fw-bold', styles.h1)}>
               <Translate
-                id="home.title"
-                values={{
-                  br: <br />
-                }}
+                id="home.title.build"
               >
-                {'Build Q&A Community {br} with Answer'}
+                Build
+              </Translate>
+              {currentLocale === 'zh-CN' ? <br /> : ' '}
+              <span className={clsx('text-warning text-decoration-underline link-offset-1', styles.slogan, styles[sloganClass])}>
+                <span className='text-body'>{slogan}</span>
+              </span>
+              <br />
+              <Translate
+                id="home.title.teams"
+              >
+                with Answer
               </Translate>
             </h1>
 
             <div
-              className={clsx('text-secondary text--center mb-4', styles.intro)}
+              className={clsx('text-secondary text-center mb-4 px-4', styles.intro)}
             >
               <Translate
                 id="home.description"
@@ -78,7 +126,7 @@ const HomeHead: FC = () => {
                   br: currentLocale === 'zh-CN' ? <br /> : '',
                 }}
               >
-                {'An open-source knowledge-based community software. {br} You can use it quickly to build Q&A community for your products, customers, teams, and more.'}
+                {"A Q&A platform software for teams at any scales.{br} Whether it’s a community forum, help center, or knowledge management platform, you can always count on Answer."}
               </Translate>
             </div>
 

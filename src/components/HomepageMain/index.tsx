@@ -68,7 +68,7 @@ const FeatureList: FeatureItem[] = [
     icon: require('@site/static/img/feature-4.png').default,
     description: (
       <Translate id="home.features.item4">
-        We've gamified the Q&A platform with reputation and badges. So the
+        We’ve gamified the Q&A platform with reputation and badges. So the
         community members and teams have fun collaborating and getting work
         done.
       </Translate>

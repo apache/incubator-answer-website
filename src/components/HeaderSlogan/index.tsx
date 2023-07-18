@@ -11,11 +11,11 @@ interface IProps {
 const content = {
   blog: {
     title: <Translate id="blogHeader.title">Blog</Translate>,
-    slogon: <Translate id="blogHeader.slogon">Learn everything about Answer and leverage your Q&A community to the next level.</Translate>,
+    slogan: <Translate id="blogHeader.slogan">Learn everything about Answer and leverage your Q&A community to the next level.</Translate>,
   },
   contact: {
     title: <Translate id="contact.title">Contact us</Translate>,
-    slogon: <Translate id="contact.slogon">We always get an answer to your question.</Translate>,
+    slogan: <Translate id="contact.slogan">We always get an answer to your question.</Translate>,
   }
 }
 
@@ -27,7 +27,7 @@ const Index = ({ type }: IProps) => {
           {content[type].title}
         </h1>
         <div className='fs-20'>
-          {content[type].slogon}
+          {content[type].slogan}
         </div>
       </div>
     </div>

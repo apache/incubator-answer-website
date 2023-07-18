@@ -5,7 +5,7 @@ import HubspotForm from 'react-hubspot-form';
 import Layout from '@theme/Layout';
 import Icon from '@site/src/components/Icon';
 
-import HeaderSlogon from '../components/HeaderSlogon';
+import HeaderSlogan from '../components/HeaderSlogan';
 
 const supportList = [
   {
@@ -54,7 +54,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout title={translate({ message: 'Contact Us' })}
       description="Got a question? We're always here for you.">
-      <HeaderSlogon type="contact" />
+      <HeaderSlogan type="contact" />
       <Container className='pb-5'>
         <h3 className="mt-5 mb-3">
           <Translate id="contact.getSupport">
