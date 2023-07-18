@@ -10,7 +10,7 @@ import type {Props} from '@theme/BlogTagsPostsPage';
 import SearchMetadata from '@theme/SearchMetadata';
 
 import BlogList from '../BlogList';
-import HeaderSlogon from "../../HeaderSlogon";
+import HeaderSlogan from "../../HeaderSlogan";
 import BlogCategoriesNav from "../BlogCategoriesNav";
 import BlogPagination from '../BlogPagination';
 import PageMetadata from '../PageMetadata';
@@ -35,7 +35,7 @@ const Index = (props: IProps) => {
         image={require('@site/static/img/blog/cover@4x.png').default} />
       <SearchMetadata tag="blog_tags_posts" />
       <Layout>
-        <HeaderSlogon type="blog" />
+        <HeaderSlogan type="blog" />
         <div className='container pb-5'>
           <BlogCategoriesNav
             className="mt-5"

@@ -23,7 +23,7 @@
   "blogHeader.title": {
     "message": "博客"
   },
-  "blogHeader.slogon": {
+  "blogHeader.slogan": {
     "message": "探索关于 Answer 的方方面面，让你的问答社区更强大、更有影响力。"
   },
   "theme.docs.paginator.previous": {
@@ -530,7 +530,7 @@
   "contactHeader.title": {
     "message": "联系我们"
   },
-  "contactHeader.slogon": {
+  "contactHeader.slogan": {
     "message": "我们总能为你的问题找到答案"
   },
   "contact.email": {
@@ -554,7 +554,7 @@
   "contact.title": {
     "message": "联系我们"
   },
-  "contact.slogon": {
+  "contact.slogan": {
     "message": "我们总能为你的问题找到答案。"
   },
   "Contact Us": {

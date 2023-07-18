@@ -16,7 +16,7 @@ const list = [
     Knowledge Sharing Platform
   </Translate>,
   <Translate id="home.title.community">
-    Forum
+    Community Forum
   </Translate>,
   <Translate id="home.title.base">
     Knowledge Base
@@ -31,10 +31,10 @@ const list = [
 
 const HomeHead: FC = () => {
   const [stars, setStars] = useState(0);
-  const [slogon, setSlogon] = useState(<Translate id="home.title.qa">
+  const [slogan, setSlogan] = useState(<Translate id="home.title.qa">
   Q&A Platform
 </Translate>);
-  const [slogonClass, setSlogonClss] = useState('slogonIn');
+  const [sloganClass, setSloganClss] = useState('sloganIn');
 
   const { i18n: { currentLocale } } = useDocusaurusContext();
 
@@ -50,10 +50,10 @@ const HomeHead: FC = () => {
       });
       let i = 0;
       const timer = setInterval(() => {
-        setSlogonClss('slogonOut');
+        setSloganClss('sloganOut');
         setTimeout(() => {
-          setSlogon(list[i]);
-          setSlogonClss('slogonIn');
+          setSlogan(list[i]);
+          setSloganClss('sloganIn');
         }, 300);
         i++;
         if (i === list.length) {
@@ -106,8 +106,8 @@ const HomeHead: FC = () => {
                 Build
               </Translate>
               {currentLocale === 'zh-CN' ? <br /> : ''}
-              <span className={clsx('text-decoration-underline link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover', styles.slogon, styles[slogonClass])}>
-                <span className='link-body-emphasis'>{slogon}</span>
+              <span className={clsx('text-warning text-decoration-underline link-offset-1', styles.slogan, styles[sloganClass])}>
+                <span className='text-body'>{slogan}</span>
               </span>
               <br />
               <Translate
