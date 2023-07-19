@@ -56,4 +56,4 @@ By the time you [install](https://answer.dev/docs/installation) Answer successfu
 
 ![Chose Privileges Level in Answer Admin](PrivilegesLevel.png)
 
-By automating this reputation system, your members are encouraged to share and become a significant part of the community. [Start Answer] now and shape the growth of the community along with other like-minded community members.
+By automating this reputation system, your members are encouraged to share and become a significant part of the community. [Start Answer](https://answer.dev/docs/) now and shape the growth of the community along with other like-minded community members.
