@@ -13,8 +13,8 @@ The number is the minimum reputation required for a privilege. There are three o
 | Flag | 1 | 1 | 1 |
 | Upvote comment | 1 | 1 | 1 |
 | Post more than 2 links at a time | 1 | 10 | 10 |
-| Upvote question | 1 | 1 | 15 |
-| Upvote answer | 1 | 1 | 15 |
+| Upvote question | 1 | 8 | 15 |
+| Upvote answer | 1 | 8 | 15 |
 | Edit tag description (need to review) | 1 | 50 | 100 |
 | Downvote question | 125 | 125 | 125 |
 | Downvote answer | 125 | 125 | 125 |
