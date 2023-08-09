@@ -114,15 +114,15 @@ export default function HomepageFeatures(): JSX.Element {
               <Carousel.Item key={banner.laptop}>
                 <section>
                   <div className={styles.screenContent}>
-                      <div className={styles.pcScreen}>
-                        <img
-                          src={banner.laptop}
-                          alt=""
-                          width="100%"
-                          height="auto"
-                          className={clsx('d-block', styles.smmothImg)}
-                        />
-                      </div>
+                    <div className={styles.pcScreen}>
+                      <img
+                        src={banner.laptop}
+                        alt=""
+                        width="100%"
+                        height="auto"
+                        className={clsx('d-block', styles.smmothImg)}
+                      />
+                    </div>
 
                     <div className={styles.screenMobile}>
                       <img
@@ -148,7 +148,7 @@ export default function HomepageFeatures(): JSX.Element {
                 alt=""
                 width="100%"
                 height="auto"
-                className={clsx('d-block', styles.smmothImg)}
+                className={clsx('d-block invisible', styles.smmothImg)}
               />
             </div>
 
@@ -158,7 +158,7 @@ export default function HomepageFeatures(): JSX.Element {
                 alt=""
                 width="100%"
                 height="auto"
-                className={clsx('d-block', styles.smmothImg)}
+                className={clsx('d-block invisible', styles.smmothImg)}
               />
             </div>
           </div>
