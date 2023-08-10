@@ -44,8 +44,8 @@ ul {
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 0.175);
   background-color: #fff;
-  margin-left: 3px;
-  box-shadow: -2px -2px 20px -10px rgba(0, 0, 0, 0.175), 1px 1px 20px -4px rgba(0, 0, 0, 0.175);
+  margin-left: 8px;
+  box-shadow: -3px 2px 20px -10px rgba(0, 0, 0, 0.175), 1px 1px 15px -4px rgba(0, 0, 0, 0.175);
 }
 
 .screenMobile {
@@ -94,6 +94,10 @@ ul {
   }
   .pcScreen, .screenMobile , .boxShadow, .boxShadow2 {
     border-radius: 6px;
+  }
+
+  .pcScreen {
+    margin-left: 0px;
   }
 
   .smmothImg {
