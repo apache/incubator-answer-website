@@ -10,7 +10,7 @@ description: "Learn how Answer’s content management tools work in harmony to k
 Once your team starts using Answer, you’ll gradually accumulate a centralized knowledge hub where team members share, exchange and collaborate freely. For admins, they have to maintain a vibrant ecosystem is great, while ensure content management system is efficient. In Answer, everyone is a loop in content management, that’s why we have these features: **Flag, Moderation, Permission, and Reputation**. Find out how they work in harmony to elevate the online community experience.
 
 ## Flag: Everyone is a Part of it
-A vibrant community is about trust, and Flag is a reflection of this. In Answer, we put the safety and well-being of the community in the hands of all community members. With flag, users can flag content that violates community guidelines immediately, 
+A vibrant community is about trust, and Flag is a reflection of this. In Answer, we put the safety and well-being of the community in the hands of all community members. With flag, users can flag content that violates community guidelines immediately.
 ![User Can Flag a Post in Answer](user-flag.png)
 
 Admin can check flagging content in **Admin-Flags**. Answer provides filters for different flagged content so that the admin can focus on a flagged content type once at a time. 
