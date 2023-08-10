@@ -2,6 +2,9 @@ import React from 'react';
 import clsx from 'clsx';
 import { Row, Col, Carousel } from 'react-bootstrap';
 import Translate from '@docusaurus/Translate';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
 
 import styles from './styles.module.css';
 
@@ -77,6 +80,15 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
+const settings = {
+  dots: false,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  fade: true,
+  pauseOnHover: false,
+  arrows: false,
+};
+
 function Feature({ title, icon, description, later }: FeatureItem) {
   return (
     <Col  sm={12} md={6} lg={3} className="mb-4">
@@ -106,13 +118,12 @@ export default function HomepageFeatures(): JSX.Element {
     },
   ];
   return (
-    <div className="container">
-      <div className='position-relative'>
-        <Carousel fade controls={false} indicators={false} interval={5000}>
-          {bannerList.map((banner) => {
-            return (
-              <Carousel.Item key={banner.laptop}>
-                <section>
+    <div className="container" style={{ overflow: 'auto' }}>
+      <Slider {...settings}>
+        {bannerList.map((banner) => {
+          return (
+            <div key={banner.laptop}>
+              <section>
                   <div className={styles.screenContent}>
                       <div className={styles.pcScreen}>
                         <img
@@ -135,35 +146,10 @@ export default function HomepageFeatures(): JSX.Element {
                     </div>
                   </div>
                 </section>
-              </Carousel.Item>
-            );
-          })}
-        </Carousel>
-        {/* this is for shadow */}
-        {/* <div className={styles.shadowWrap}>
-          <div className={styles.screenContent}>
-            <div className={clsx(styles.pcScreen, styles.shadow)}>
-              <img
-                src={require('@site/static/img/home-laptop@2x.png').default}
-                alt=""
-                width="100%"
-                height="auto"
-                className={clsx('d-block', styles.smmothImg)}
-              />
             </div>
-
-            <div className={clsx(styles.screenMobile, styles.shadow2)}>
-              <img
-                src={require('@site/static/img/home-mobile@2x.png').default}
-                alt=""
-                width="100%"
-                height="auto"
-                className={clsx('d-block', styles.smmothImg)}
-              />
-            </div>
-          </div>
-        </div> */}
-      </div>
+          );
+        })}
+      </Slider>
 
       <Row className="row justify-content-center">
         <Col className="col-12">
