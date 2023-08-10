@@ -44,6 +44,8 @@ ul {
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 0.175);
   background-color: #fff;
+  margin-left: 3px;
+  box-shadow: -2px -2px 20px -10px rgba(0, 0, 0, 0.175), 1px 1px 20px -4px rgba(0, 0, 0, 0.175);
 }
 
 .screenMobile {
@@ -57,7 +59,7 @@ ul {
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 0.175);
   background-color: #fff;
-  box-shadow: -5px -5px 20px -4px rgba(0, 0, 0, 0.175);
+  box-shadow: -5px -5px 20px -4px rgba(0, 0, 0, 0.175), 1px 1px 20px -4px rgba(0, 0, 0, 0.175);
 }
 
 .shadowWrap {
