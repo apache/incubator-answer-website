@@ -140,7 +140,7 @@ export default function HomepageFeatures(): JSX.Element {
           })}
         </Carousel>
         {/* this is for shadow */}
-        <div className={styles.shadowWrap}>
+        {/* <div className={styles.shadowWrap}>
           <div className={styles.screenContent}>
             <div className={clsx(styles.pcScreen, styles.shadow)}>
               <img
@@ -162,7 +162,7 @@ export default function HomepageFeatures(): JSX.Element {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <Row className="row justify-content-center">
