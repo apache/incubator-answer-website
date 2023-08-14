@@ -8,7 +8,7 @@ The project is built on and with the aid of the following open source projects. 
 
 |  Project  |  License  |
 |  ----  | ----  |
-[|  <https://npmjs.com/package/axios>  |  MIT  |
+|  <https://npmjs.com/package/axios>  |  MIT  |
 |  <https://npmjs.com/package/bootstrap>  |  MIT  |
 |  <https://npmjs.com/package/bootstrap-icons>  |  MIT  |
 |  <https://npmjs.com/package/classnames>  |  MIT  |
