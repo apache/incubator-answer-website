@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@docusaurus/core':
     specifier: 2.4.0
@@ -8859,3 +8855,7 @@ packages:
     dependencies:
       stylis: 3.5.1
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
