@@ -35,11 +35,11 @@ The project is built on and with the aid of the following open source projects. 
 |  <https://npmjs.com/package/swr>  |  MIT  |
 |  <https://npmjs.com/package/zustand>  |  MIT  |
 |  <https://github.com/Chain-Zhang/pinyin>  |  MIT  |
+|  <https://github.com/Machiel/slugify>  |  MIT  |
 |  <https://github.com/Masterminds/semver>  |  MIT  |
 |  <https://github.com/anargu/gin-brotli>  |  MIT  |
 |  <https://github.com/asaskevich/govalidator>  |  MIT  |
 |  <https://github.com/bwmarrin/snowflake>  |  BSD-2-Clause  |
-|  <https://github.com/davecgh/go-spew>  |  ISC  |
 |  <https://github.com/disintegration/imaging>  |  MIT  |
 |  <https://github.com/gin-gonic/gin>  |  MIT  |
 |  <https://github.com/go-playground/locales>  |  MIT  |
@@ -50,7 +50,6 @@ The project is built on and with the aid of the following open source projects. 
 |  <https://github.com/golang/mock>  |  Apache-2.0  |
 |  <https://github.com/google/uuid>  |  BSD-3-Clause  |
 |  <https://github.com/google/wire>  |  Apache-2.0  |
-|  <https://github.com/gosimple/slug>  |  MPL-2.0  |
 |  <https://github.com/grokify/html-strip-tags-go>  |  BSD-3-Clause  |
 |  <https://github.com/jinzhu/copier>  |  MIT  |
 |  <https://github.com/jinzhu/now>  |  MIT  |
