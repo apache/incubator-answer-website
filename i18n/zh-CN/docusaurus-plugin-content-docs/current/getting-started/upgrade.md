@@ -47,3 +47,9 @@ docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:lat
 
 </TabItem>
 </Tabs>
+
+:::tip
+
+当出现升级异常等其他的意外情况，我们提供了手动强制升级 Answer 的命令。`answer upgrade -f v1.1.0` 执行该命令会强制从指定版本开始升级，即使你当前的 Answer 已经是最新版本。如果遇到升级异常可尝试执行该命令或重新拉取最新 docker 镜像后并进入容器内执行该命令。
+
+:::
