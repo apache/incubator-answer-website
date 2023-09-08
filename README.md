@@ -5,6 +5,7 @@ Answer.dev is built using [Docusaurus 2](https://docusaurus.io/), and we use [pn
 ### Installation
 
 ```
+// pnpm version should > 8
 pnpm i
 ```
 
