@@ -4,7 +4,7 @@ authors: [Anne]
 category: Best Practice
 featured: true
 image: 2023-09-14-cover@4x.png
-description: "From inception to execution, make your oneline community happen in 4 steps with Answer."
+description: "From inception to execution, make your online community happen in 4 steps with Answer."
 
 ---
 
