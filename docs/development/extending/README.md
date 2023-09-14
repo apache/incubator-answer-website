@@ -41,21 +41,21 @@ We use the `build` command provided with the Answer binary to rebuild a version 
 
 ```shell
 # answer build --with [plugin@plugin_version=[replacement]] --output [file]
-$ ./answer build --with github.com/answerdev/plugins/connector/github
+$ ./answer build --with github.com/answerdev/answer-github-connector
 
 # build a new answer with github login plugin then output to ./new_answer.
-$ ./answer build --with github.com/answerdev/plugins/connector/github@1.0.0 --output ./new_answer
+$ ./answer build --with github.com/answerdev/answer-github-connector@1.0.0 --output ./new_answer
 
 # with multiple plugins
 $ ./answer build \
---with github.com/answerdev/plugins/connector/github \
---with github.com/answerdev/plugins/connector/google
+--with github.com/answerdev/answer-github-connector \
+--with github.com/answerdev/answer-google-connector
 
 # with local plugins
-$ ./answer build --with github.com/answerdev/plugins/connector/github@1.0.0=/my-local-space
+$ ./answer build --with github.com/answerdev/answer-github-connector@1.0.0=/my-local-space
 
 # cross compilation. Build a linux-amd64 binary in macos 
-$ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/answerdev/plugins/connector/github
+$ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/answerdev/answer-github-connector
 ```
 
 :::tip
