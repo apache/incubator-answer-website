@@ -24,7 +24,7 @@ The number is the minimum reputation required for a privilege. There are three o
 | Create new tag | 1 | 750 | 1500 |
 | Edit other's question without review | 1 | 1000 | 2000 |
 | Edit other's answer without review | 1 | 1000 | 2000 |
-| Revew question edits | 1 | 1000 | 2000 |
+| Review question edits | 1 | 1000 | 2000 |
 | Review answer edits | 1 | 1000 | 2000 |
 | Review tag edits | 1 | 2500 | 5000 |
 | Edit tag description without review | 1 | 10000 | 20000 |
