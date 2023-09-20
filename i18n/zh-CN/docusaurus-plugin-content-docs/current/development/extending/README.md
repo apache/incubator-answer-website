@@ -46,21 +46,21 @@ sidebar_position: 1
 
 ```shell
 # answer build --with [plugin@plugin_version=[replacement]] --output [file]
-$ ./answer build --with github.com/answerdev/answer-github-connector
+$ ./answer build --with github.com/answerdev/plugins/connector/github
 
 # 构建一个带有 github 登录插件的新 Answer，然后输出到 ./new_answer。
-$ ./answer build --with github.com/answerdev/answer-github-connector@1.0.0 --output ./new_answer
+$ ./answer build --with github.com/answerdev/plugins/connector/github@1.0.0 --output ./new_answer
 
 # 带有多个插件
 $ ./answer build \
---with github.com/answerdev/answer-github-connector \
---with github.com/answerdev/answer-google-connector
+--with github.com/answerdev/plugins/connector/github \
+--with github.com/answerdev/plugins/connector/google
 
 # 带有本地插件
-$ ./answer build --with github.com/answerdev/answer-github-connector@1.0.0=/my-local-space
+$ ./answer build --with github.com/answerdev/plugins/connector/github@1.0.0=/my-local-space
 
 # 交叉编译。在 macos 中构建一个 linux-amd64 二进制文件
-$ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/answerdev/answer-github-connector
+$ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/answerdev/plugins/connector/github
 ```
 
 :::tip
