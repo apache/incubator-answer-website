@@ -15,6 +15,10 @@
     "message": "路线图",
     "description": "Navbar item with label Roadmap"
   },
+  "item.label.Plugins": {
+    "message": "插件",
+    "description": "Navbar item with label Roadmap"
+  },
   "item.label.Community": {
     "message": "社区",
     "description": "Navbar item with label Community"
