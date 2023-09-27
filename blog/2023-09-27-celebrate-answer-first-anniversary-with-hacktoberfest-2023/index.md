@@ -17,7 +17,7 @@ October also marks the 10th anniversary of Hacktoberfest, an annual month-long e
 We are so glad that to participate in our first Hacktoberfest as a partner of [ILLA Cloud](https://www.illacloud.com/hacktoberfest2023/?utm_source=newsletter&utm_medium=email&utm_campaign=newsletter-email-hacktoberfest2023-answer-0925), and here’s everything you need to know to be a part of our event. 
 
 ## Hacktoberfest Kickoff Streaming ILLA with Answer and More
-Answer will make an entrance in [Hacktoberfest kickoff ](https://www.youtube.com/live/qSZ9JhjZ7HM?si=yYLZDMa60tJJJNgv) event hosted by ILLA. There will be a gift giveaway for every viewer during streaming. We will introduce Answer, how you can contribute to Answer, and present the swags. 
+Answer will make an entrance in [Hacktoberfest kickoff](https://www.youtube.com/live/qSZ9JhjZ7HM?si=yYLZDMa60tJJJNgv) event hosted by ILLA. There will be a gift giveaway for every viewer during streaming. We will introduce Answer, how you can contribute to Answer, and present the swags. 
 
 [![Answer and ILLA Cloud](ILLA%20Cloud%20x%20Answer.png)](https://www.illacloud.com/hacktoberfest2023?utm_medium=email&utm_source=newsletter&utm_campaign=newsletter-email-hacktoberfest2023-answer-0925)
 
@@ -53,6 +53,7 @@ Here's the gear you need before making a contribution, and we are always here to
 * support@answer.dev
 
 1. How to show my digital badges on my GitHub?
+
 	Please use the following code to show your attained swag.
 	```html
    <p>
@@ -61,8 +62,10 @@ Here's the gear you need before making a contribution, and we are always here to
 	```
 
 2. Why hasn't my badge appeared yet?
+
 	The vaunt data pulls took place before the two issues were created. This results in at most a 24-hour delay in when the achievement will be awarded. Achievements would have shown up automatically in the next data pull without any intervention, but Vaunt went ahead and re-ran the data pull operations on our end to trigger the achievement grants. 
 
 3. Can I still get a badge if my issues aren't accepted?
+
 	It’s hard to say this, but it’s a No.   
 	We appreciate your participation greatly. For various reasons, your suggested enhancement might not align with our roadmap or product direction as you may think. We recommend you start with a bug. A bug is a bug, and this will increase your chances of earning a badge.
