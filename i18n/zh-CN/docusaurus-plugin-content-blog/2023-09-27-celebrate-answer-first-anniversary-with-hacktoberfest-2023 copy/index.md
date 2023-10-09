@@ -57,7 +57,7 @@ Here's the gear you need before making a contribution, and we are always here to
 	Please use the following code to show your attained swag.
 	```html
    <p>
-      <img src="https://api.vaunt.dev/v1/github/entities/PrimmaAnna/achievements?format=svg&limit=3" width="350" />
+      <img src="https://api.vaunt.dev/v1/github/entities/{{github_username}}/achievements?format=svg&limit=3" width="350" />
     </p>
 	```
 
