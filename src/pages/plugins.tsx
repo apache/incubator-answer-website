@@ -9,7 +9,7 @@ import HeaderSlogan from '../components/HeaderSlogan';
 export default function Plugins(): JSX.Element {
   const [list, setList] = useState([]);
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/answerdev/plugins/dev/plugins_desc.json').then(res => res.json()).then(data => {
+    fetch('https://raw.githubusercontent.com/answerdev/plugins/main/plugins_desc.json').then(res => res.json()).then(data => {
       setList(data);
     }).catch(err => {
       console.error('featch plugins list error', err);
@@ -47,7 +47,7 @@ export default function Plugins(): JSX.Element {
                 <Card style={{ height: '100%' }}>
                   <Card.Body>
                     <h5>
-                      <a href={item.link}>{item.name}</a>
+                      <a href={item.link} target='_blank'>{item.name}</a>
                     </h5>
                     <div>{item.desc}</div>
                   </Card.Body>
