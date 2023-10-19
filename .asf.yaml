@@ -18,7 +18,7 @@
 # NOTE: All configurations could be found here: https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features
 github:
   description: "Answer official website."
-  homepage: https://answer.dev/
+  homepage: https://answer.apache.org/
   enabled_merge_buttons:
     squash: true
     merge: true
