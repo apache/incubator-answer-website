@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkanswer=self.webpackChunkanswer||[]).push([[2456],{5878:e=>{e.exports=JSON.parse('{"label":"Tech","permalink":"/blog/category/tech"}')}}]);
