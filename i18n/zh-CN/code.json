@@ -440,17 +440,8 @@
     "message": "标签",
     "description": "The title of the tag list page"
   },
-  "waitlist.title": {
-    "message": "Answer Cloud 即将发布!"
-  },
-  "waitlist.description": {
-    "message": "我们正在努力构建 Answer Cloud 解决方案。你可以填写表格，以获取最新的产品更新、开发灵感和用户研究案例。我们将始终守护你的信息安全。"
-  },
   "loading": {
     "message": "加载中..."
-  },
-  "home.waitlist.title": {
-    "message": "👋 加入 Answer Cloud 等候名单"
   },
   "home.title.build": {
     "message": "用 Answer 打造"
