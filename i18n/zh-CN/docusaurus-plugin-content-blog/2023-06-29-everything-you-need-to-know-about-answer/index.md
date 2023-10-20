@@ -72,7 +72,3 @@ With a simple and intuitive design, you can build a [knowledge base](../2023-05-
 ## How do I Get Answer?
 
 Oh, it’s easy. Everything you need is [here](https://answer.dev/docs/installation/), and just follow the guide.
-
-## I saw Answer cloud, what is it?
-
-Answer Cloud is the SaaS version of Answer, designed to assist businesses in setting up their Answer quickly without technical assistance.
