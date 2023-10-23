@@ -81,7 +81,7 @@ These are some key factors that not only makes a great Q&A platform for both que
 Follow the guide to build a basic Q&A platform, easy-peasy.
 
 1. Choose a Platform  
- Choose a platform that aligns with your needs and budget. There are open-source Q&A platforms available that offer a good starting point (you know, [Answer](https://answer.dev/) is open-source). Alternatively, you can use a hosted platform.
+ Choose a platform that aligns with your needs and budget. There are open-source Q&A platforms available that offer a good starting point (you know, [Answer](https://answer.apache.org/) is open-source). Alternatively, you can use a hosted platform.
 
 2. Customize the Design  
  Once you have chosen a platform, customize the design to match your branding and user interface requirements. Don’t forget to make the design responsive and optimized for different devices.
@@ -98,10 +98,10 @@ Answer is knowledge-based community software, offering a smooth set-up for your 
 No matter what your Q&A platform is about, it’s always great to collect valuable insights and perspectives, and keep up-to-date answers. We’ve also packed up these resources that help you kick-start a joyful Answer journey:
 
 💻 [GitHub Repo](https://github.com/answerdev/answer): Keep an eye on what we are up to lately on GitHub.
-📄[Documents](https://answer.dev/docs/): Everything you need to build your Answer Community from zero to hero.
+📄[Documents](https://answer.apache.org/docs/): Everything you need to build your Answer Community from zero to hero.
 🐞 [Bug Report](https://github.com/answerdev/answer/issues): Hunt a bug? Simply report it for us to track efficiently.
 🚩[Public Roadmap](https://github.com/orgs/answerdev/projects/1): Feel free to drop a comment here and be a part of our roadmap!
   
 ## Conclusion
 
-We always have a question or an answer sometimes in our lives, so it is natural to have a Q&A platform. With [Answer](https://answer.dev/), you and your team will be able to solve problems, participate in discussions, and contribute fresh ideas to keep your business growing.
+We always have a question or an answer sometimes in our lives, so it is natural to have a Q&A platform. With [Answer](https://answer.apache.org/), you and your team will be able to solve problems, participate in discussions, and contribute fresh ideas to keep your business growing.

@@ -42,24 +42,24 @@ Knowledge bases are commonly used in [customer support](../2023-07-05-how-to-bui
 
 Make sure you have the right tools for hosting and managing your knowledge base. Answer is the tool you can give it a go, it’s open-source and for free. Here are some delighted features in Answer that help you to build an efficient knowledge base at ease.
 
-1. Get Started with the Useful Docs             
-We’ve prepared [Docs](https://answer.dev/docs) for you to kick-start your knowledge base smoothly, and if you need help, you can always post a question in our [Community](https://meta.answer.dev/).
+1. Get Started with the Useful Docs
+We’ve prepared [Docs](https://answer.apache.org/docs) for you to kick-start your knowledge base smoothly, and if you need help, you can always post a question in our [Community](https://meta.answer.dev/).
 
-2. Real-time Preview for Each Post                   
+2. Real-time Preview for Each Post
 Always make sure your knowledge is accurate and shinning before it goes live. In Answer, you can instantly view the layout of the post before hitting the post button.
 
 ![Post Real-time Preview in Answer](knowledgebase1.png)
 
-3. Use Tags to Categorize the Content               
+3. Use Tags to Categorize the Content
 Add new tags to set up your knowledge management system in Answer right away, no need to add questions beforehand. Users can follow content they are interested by following tags, while admins can always edit tags description.
 
 ![Manage Tags in Answer is Easy](knowledgebase2.png)
 
-4. Pin a Post               
+4. Pin a Post
 Pin an important or frequently asked question for your knowledge base, so that it always stays on the top of your knowledge base.
 ![Pin a Post in Answer](knowledgebase3.gif)
 
-5. Search and Find What You Need                   
+5. Search and Find What You Need
 Answer provides advanced search, including tag, author, question, etc. so that you can always access to the knowledge you require at present quickly.
 
 ![Search Post in Answer](knowledgebase4.png)
@@ -68,4 +68,4 @@ Answer provides advanced search, including tag, author, question, etc. so that y
 
 One of our users, [David Filed](https://blog.safewebbox.com/author/david/) have built a self-hosted knowledge base with Answer. He also shared a [blog](https://blog.safewebbox.com/a-self-hosted-knowledgebase-which-feels-much-like-stackoverflow/) about why he chose Answer, and a step-by-step tutorial of installing and running Answer.
 ![Screenshot of Davids Knowledgebase](knowledgebase5.png)
-Follow his tutorial or our [Docs](https://answer.dev/docs) to build a knowledge base of your own now, and embrace the power of knowledge base today.
+Follow his tutorial or our [Docs](https://answer.apache.org/docs) to build a knowledge base of your own now, and embrace the power of knowledge base today.

@@ -58,7 +58,7 @@ You can find all the source code of Answer in [GitHub Repo](https://github.com/a
 
 No matter you are a Q&A lover, self-host expert, or want-to-give-it-try person, you can always get connected with us, share new ideas, or simply for chatting.
 
-1. [Website](https://answer.dev/): Welcome to the home of Answer. We know there are plenty of things that need to be improved. We are working on it, we promise.
+1. [Website](https://answer.apache.org/): Welcome to the home of Answer. We know there are plenty of things that need to be improved. We are working on it, we promise.
 2. [GitHub Repo](https://github.com/answerdev): Enjoy your stay in the garden of Answer.
 3. [Meta.Answer](https://meta.answer.dev/): The one and only official community built with Answer, meet new friends here.
 4. [Twitter](https://twitter.com/answerdev): What we’ve been up to, tutorials, and tips. Follow us to keep updated.

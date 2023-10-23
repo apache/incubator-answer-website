@@ -9,7 +9,7 @@ const katex = require('rehype-katex');
 const config = {
   title: 'Answer',
   tagline: 'Build Q&A Community with Answer',
-  url: 'https://answer.dev',
+  url: 'https://answer.apache.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

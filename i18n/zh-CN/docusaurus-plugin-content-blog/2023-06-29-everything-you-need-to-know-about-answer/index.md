@@ -71,4 +71,4 @@ With a simple and intuitive design, you can build a [knowledge base](../2023-05-
 
 ## How do I Get Answer?
 
-Oh, it’s easy. Everything you need is [here](https://answer.dev/docs/installation/), and just follow the guide.
+Oh, it’s easy. Everything you need is [here](https://answer.apache.org/docs/installation/), and just follow the guide.
