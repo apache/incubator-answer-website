@@ -50,7 +50,7 @@ module.exports = {
     {
       type: 'link',
       label: 'Support',
-      href: 'https://github.com/answerdev/answer/issues',
+      href: 'https://github.com/apache/incubator-answer/issues',
     },
     {
       type: 'link',

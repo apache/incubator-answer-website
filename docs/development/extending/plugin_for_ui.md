@@ -82,7 +82,7 @@ func (d DemoPlugin) Info() plugin.Info {
 For detailed definitions, see the [Extension](/docs/development/extending/) section.
 :::
 
-* Then, move the entire `Demo` directory to the [official plugins repository](https://github.com/answerdev/plugins) and submit a PR request for merging, and you've released the plugin.
+* Then, move the entire `Demo` directory to the [official plugins repository](https://github.com/apache/incubator-answer-plugins) and submit a PR request for merging, and you've released the plugin.
 
 ---
 
@@ -161,4 +161,4 @@ The final directory structure after the development of the `Demo` plugin is show
 
 ![ui-plugin-demo](/img/docs/ui-plugin-demo.jpeg)
 
-You can also see the [Demo sample code](https://github.com/answerdev/answer/tree/main/ui/src/plugins/Demo) for more information.
+You can also see the [Demo sample code](https://github.com/apache/incubator-answer/tree/main/ui/src/plugins/Demo) for more information.

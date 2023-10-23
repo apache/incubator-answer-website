@@ -89,7 +89,7 @@ func (d DemoPlugin) Info() plugin.Info {
 有关详细定义，请参见 [扩展](/docs/development/extending/) 部分。
 :::
 
-* 然后，将整个 `Demo` 目录移动到[官方插件存储库](https://github.com/answerdev/plugins) 中，提交合并请求即可发布插件。
+* 然后，将整个 `Demo` 目录移动到[官方插件存储库](https://github.com/apache/incubator-answer-plugins) 中，提交合并请求即可发布插件。
 
 ---
 
@@ -172,4 +172,4 @@ interface I18nResource {
 
 ![ui-plugin-demo](/img/docs/ui-plugin-demo.jpeg)
 
-你还可以查看 Demo [Demo 示例代码](https://github.com/answerdev/answer/tree/main/ui/src/plugins/Demo) 以获取更多信息。
+你还可以查看 Demo [Demo 示例代码](https://github.com/apache/incubator-answer/tree/main/ui/src/plugins/Demo) 以获取更多信息。

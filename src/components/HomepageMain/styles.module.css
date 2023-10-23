@@ -53,13 +53,13 @@ ul {
   box-sizing: border-box;
   border-radius: 16px;
   padding: 8px;
-  right: 0;
+  right: 6px;
   bottom: 77px;
-  max-width: 27%;
+  max-width: 26.5%;
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 0.175);
   background-color: #fff;
-  box-shadow: -5px -5px 20px -4px rgba(0, 0, 0, 0.175), 1px 1px 20px -4px rgba(0, 0, 0, 0.175);
+  box-shadow: -5px -5px 20px -4px rgba(0, 0, 0, 0.175), 1px 1px 7px -4px rgba(0, 0, 0, 0.175);
 }
 
 .shadowWrap {

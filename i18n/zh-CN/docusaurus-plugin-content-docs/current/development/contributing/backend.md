@@ -158,7 +158,7 @@ golangci-lint run
 
 ### 修复 Bug
 
-如果你发现了 Bug，请不要犹豫 [提交 issue](https://github.com/answerdev/answer/issues)  给我们。如果你可以修复它，请在提交 issue 时附上说明。如果问题已被确认是 Bug，你可以提交 PR，这将确保你不会做无用的工作。
+如果你发现了 Bug，请不要犹豫 [提交 issue](https://github.com/apache/incubator-answer/issues)  给我们。如果你可以修复它，请在提交 issue 时附上说明。如果问题已被确认是 Bug，你可以提交 PR，这将确保你不会做无用的工作。
 
 ### 代码审查和注释
 
