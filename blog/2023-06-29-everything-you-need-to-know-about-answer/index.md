@@ -25,7 +25,7 @@ That’s the moment we decided to build Answer — to help individuals, teams, a
 
 ## Why Answer is Open-source?
 
-We’ve been longing to share our research and experience over the years in Q&A communities. The best way is to create an [open-source project](https://github.com/answerdev/answer) that is accessible to everyone. We have also made Answer website and plugins open-source on [GitHub](https://github.com/answerdev).
+We’ve been longing to share our research and experience over the years in Q&A communities. The best way is to create an [open-source project](https://github.com/apache/incubator-answer) that is accessible to everyone. We have also made Answer website and plugins open-source on [GitHub](https://github.com/apache/incubator-answer).
 
 ## What is Answer built with?
 

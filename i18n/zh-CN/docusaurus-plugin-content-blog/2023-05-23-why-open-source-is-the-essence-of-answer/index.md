@@ -50,14 +50,14 @@ We hope everyone can set up and run Answer at ease — well, maybe with a little
 Currently, running community software or open-source products in the market still requires professional knowledge, such as understanding technical terms. We want Answer to have a bigger stage and to embrace a bigger world. Thus, in the initial design of Answer, we always considered the user as a novice, and how can they get started with Answer smoothly.
 
 **Open-source**
-You can find all the source code of Answer in [GitHub Repo](https://github.com/answerdev/answer), free for everybody. We love the spirit of how open source encourages collaboration and transparency, and we always welcome contributions ;)
+You can find all the source code of Answer in [GitHub Repo](https://github.com/apache/incubator-answer), free for everybody. We love the spirit of how open source encourages collaboration and transparency, and we always welcome contributions ;)
 
 ## Where Can I Find More about Answer
 
 No matter you are a Q&A lover, self-host expert, or want-to-give-it-try person, you can always get connected with us, share new ideas, or simply for chatting.
 
 1. [Website](https://answer.apache.org/): Welcome to the home of Answer. We know there are plenty of things that need to be improved. We are working on it, we promise.
-2. [GitHub Repo](https://github.com/answerdev): Enjoy your stay in the garden of Answer.
+2. [GitHub Repo](https://github.com/apache/incubator-answer): Enjoy your stay in the garden of Answer.
 3. [Meta.Answer](https://meta.answer.dev/): The one and only official community built with Answer, meet new friends here.
 4. [Twitter](https://twitter.com/answerdev): What we’ve been up to, tutorials, and tips. Follow us to keep updated.
 5. [Discord](https://discord.gg/a6PZZbfnFx): Want to talk to our dev team in real time? Join our Discord Server!

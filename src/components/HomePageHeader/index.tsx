@@ -134,7 +134,7 @@ const HomeHead: FC = () => {
                 size="lg"
                 variant="dark"
                 className="btnMain fw-normal fs-20"
-                href="https://github.com/answerdev/answer"
+                href="https://github.com/apache/incubator-answer"
                 target="_blank"
               >
                 <Icon name="github" size="24px"  className="me-2" />

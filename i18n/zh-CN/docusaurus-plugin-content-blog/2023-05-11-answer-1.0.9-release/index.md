@@ -22,4 +22,4 @@ Pin and Unlist help to tailor a knowledge-based community of your own, while mai
 
 We’ve also made some tweaks to fix the display issues of tags, comments form,  and stubborn deleted questions. We’ve also removed context ambiguity with optimized translation.
 
-We strongly recommend you to build and manage a Q&A platform [Answer v1.0.9](https://github.com/answerdev/answer/releases/tag/v1.0.9). You are always welcome to contribute your ideas (feature requests, or hunt a but) in [https://meta.answer.dev/](https://meta.answer.dev/). So what will you pin first?
+We strongly recommend you to build and manage a Q&A platform [Answer v1.0.9](https://github.com/apache/incubator-answer/releases/tag/v1.0.9). You are always welcome to contribute your ideas (feature requests, or hunt a but) in [https://meta.answer.dev/](https://meta.answer.dev/). So what will you pin first?

@@ -40,7 +40,7 @@ docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:lat
   <TabItem value="binary" label="Binary">
   如果你使用二进制安装的 Answer，升级步骤如下。
 
-  1. 下载适用于你的系统的最新二进制版本。 [https://github.com/answerdev/answer/releases](https://github.com/answerdev/answer/releases)
+  1. 下载适用于你的系统的最新二进制版本。 [https://github.com/apache/incubator-answer/releases](https://github.com/apache/incubator-answer/releases)
   2. 停止旧版本
   3. 执行升级命令 `./answer upgrade -C ./answer-data/`
   4. 运行最新版本  `./answer run -C ./answer-data/`

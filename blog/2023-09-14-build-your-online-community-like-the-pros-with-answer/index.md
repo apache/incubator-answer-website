@@ -50,7 +50,7 @@ Make sure your users have a smooth onboarding process by offering them a warm we
 
 ### Add Users in Bulk
 
-In Answer [v1.1.2](https://github.com/answerdev/answer/releases/tag/v1.1.2), admins can add new users in bulk. You can set name, email, and password for them in one place. Here’s how.
+In Answer [v1.1.2](https://github.com/apache/incubator-answer/releases/tag/v1.1.2), admins can add new users in bulk. You can set name, email, and password for them in one place. Here’s how.
 
 1. For admins, go to the left side of the page and click **Admin**.
 2. Users > Add user

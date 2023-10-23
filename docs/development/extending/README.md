@@ -11,7 +11,7 @@ When we need to do some extensions to Answer's functionality, for example, OAuth
 
 ## Introduction
 ### Official Plugins
-You can find a list of officially supported plugins for Answer [here](https://github.com/answerdev/plugins).
+You can find a list of officially supported plugins for Answer [here](https://github.com/apache/incubator-answer-plugins).
 
 ### Plugin Type
 > We classify plugins into different types. 
@@ -72,7 +72,7 @@ $ ./new_answer plugin
 
 ## Third-party plugin
 :::tip
-We recommend the use of [official plugins](https://github.com/answerdev/plugins), if you want to use third-party plugins, refer to the following.
+We recommend the use of [official plugins](https://github.com/apache/incubator-answer-plugins), if you want to use third-party plugins, refer to the following.
 :::
 
 - If the third-party plugin is publicly available, you can build with it like official plugins.
@@ -89,7 +89,7 @@ You just need to recompile and use the latest version of the plugin.
 
 ## Develop
 :::tip
-Viewing the [official plugin](https://github.com/answerdev/plugins) code will make you to quickly understand and learn plugin development.
+Viewing the [official plugin](https://github.com/apache/incubator-answer-plugins) code will make you to quickly understand and learn plugin development.
 :::
 
 ### Backend Development

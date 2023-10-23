@@ -8,7 +8,7 @@ description: "Answer will be part of Hacktoberfest 2023, a month-long celebratio
 
 ---
 
-At Answer, we are longing to give back to the community. The essence of Answer is open source, and everyone can access it since the first day we launched Answer on [GitHub](https://github.com/answerdev). This October marks Answer’s first anniversary, and there’s no way better than celebrating with open-source enthusiasts.
+At Answer, we are longing to give back to the community. The essence of Answer is open source, and everyone can access it since the first day we launched Answer on [GitHub](https://github.com/apache/incubator-answer). This October marks Answer’s first anniversary, and there’s no way better than celebrating with open-source enthusiasts.
 
 October also marks the 10th anniversary of Hacktoberfest, an annual month-long event that encourages open-source software contributions. Founded in 2014, Hacktoberfest encourages participants to make contributions and support open-source projects they love on GitHub. These contributions include coding, low code, and non-code contributions, encouraging more individuals to collaborate and be a part of the open-source community.
 
@@ -28,8 +28,8 @@ Celebrate Answer’s first birthday with contributions, the more the better, no 
 
 ### Hunt a Bug/Enhancement
 
-* Build a Q&A community with Answer [here](https://github.com/answerdev/answer).
-* Report a bug or bring up a feature request in [issues](https://github.com/answerdev/answer/issues/new/choose).
+* Build a Q&A community with Answer [here](https://github.com/apache/incubator-answer).
+* Report a bug or bring up a feature request in [issues](https://github.com/apache/incubator-answer/issues/new/choose).
 ![Issues](Issues.png) 
 * Add Hacktoberfest in the title so that we can identify it quickly.
 ![Add Hacktoberfest in the Title](Title.png) 
@@ -38,8 +38,8 @@ Celebrate Answer’s first birthday with contributions, the more the better, no 
 
 ### Plugin
 
-* Build a plugin and merge PR [here](https://github.com/answerdev/plugins).
-* Find a bug in current plugins and report it with [issues](https://github.com/answerdev/plugins/issues/new).
+* Build a plugin and merge PR [here](https://github.com/apache/incubator-answer-plugins).
+* Find a bug in current plugins and report it with [issues](https://github.com/apache/incubator-answer-plugins/issues/new).
 
 ### Vaunt Your Contribution
 

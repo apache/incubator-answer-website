@@ -178,14 +178,14 @@ export default function HomepageFeatures(): JSX.Element {
             <div className={styles.linkWrap}>
               <ul>
                 <li className={clsx('mb-2', styles.li)}>
-                  <a href="https://github.com/answerdev/answer">
+                  <a href="https://github.com/apache/incubator-answer">
                     <Translate id="home.contribute.item1">
                       Contribute to our open-source codebase on GitHub
                     </Translate>
                   </a>
                 </li>
                 <li className={clsx('mb-2', styles.li)}>
-                  <a href="https://github.com/answerdev/answer.dev">
+                  <a href="https://github.com/apache/incubator-answer-website">
                     <Translate id="home.contribute.item2">Help us improve the docs</Translate>
                   </a>
                 </li>

@@ -97,9 +97,9 @@ Answer is knowledge-based community software, offering a smooth set-up for your 
 
 No matter what your Q&A platform is about, it’s always great to collect valuable insights and perspectives, and keep up-to-date answers. We’ve also packed up these resources that help you kick-start a joyful Answer journey:
 
-💻 [GitHub Repo](https://github.com/answerdev/answer): Keep an eye on what we are up to lately on GitHub.
+💻 [GitHub Repo](https://github.com/apache/incubator-answer): Keep an eye on what we are up to lately on GitHub.
 📄[Documents](https://answer.apache.org/docs/): Everything you need to build your Answer Community from zero to hero.
-🐞 [Bug Report](https://github.com/answerdev/answer/issues): Hunt a bug? Simply report it for us to track efficiently.
+🐞 [Bug Report](https://github.com/apache/incubator-answer/issues): Hunt a bug? Simply report it for us to track efficiently.
 🚩[Public Roadmap](https://github.com/orgs/answerdev/projects/1): Feel free to drop a comment here and be a part of our roadmap!
   
 ## Conclusion

@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ### 官方插件
 
-你可以在 [这里](https://github.com/answerdev/plugins) 找到 Answer 官方支持的插件列表。
+你可以在 [这里](https://github.com/apache/incubator-answer-plugins) 找到 Answer 官方支持的插件列表。
 
 ### 插件类型
 > 我们将插件分为不同的类型。
@@ -78,7 +78,7 @@ $ ./new_answer plugin
 ## 第三方插件
 
 :::tip
-我们建议使用[官方插件](https://github.com/answerdev/plugins)，如果你想使用第三方插件，请参考以下内容。
+我们建议使用[官方插件](https://github.com/apache/incubator-answer-plugins)，如果你想使用第三方插件，请参考以下内容。
 :::
 
 - 如果第三方插件是公开可用的，则可以像官方插件一样构建它。
@@ -98,7 +98,7 @@ $ ./new_answer plugin
 ## 开发
 
 :::tip
-查看官方[插件代码](https://github.com/answerdev/plugins)，可以帮助你快速了解和学习插件开发。
+查看官方[插件代码](https://github.com/apache/incubator-answer-plugins)，可以帮助你快速了解和学习插件开发。
 :::
 
 ### 后端开发

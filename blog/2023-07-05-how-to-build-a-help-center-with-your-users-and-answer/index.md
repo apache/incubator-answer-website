@@ -103,7 +103,7 @@ Answer also provides advanced search tips to boost search efficiency, offering a
 ![Related Question in Answer](RelatedQuestions.png)
 
 **4. Add Additional Resources**
-    You can customize Answer freely, such as adding extra information in the sidebar. In [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md), we support [plugin](https://github.com/answerdev/plugins) and your Answer is about to fly.
+    You can customize Answer freely, such as adding extra information in the sidebar. In [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md), we support [plugin](https://github.com/apache/incubator-answer-plugins) and your Answer is about to fly.
 
 ![Customize Sidebar in Answer](Sidebar.png)
 
