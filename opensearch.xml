@@ -4,8 +4,8 @@
   <ShortName>Answer</ShortName>
   <Description>Search Answer</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://answer.dev/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://answer.dev/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://answer.dev/opensearch.xml" />
-  <moz:SearchForm>https://answer.dev/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://answer.apache.org/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://answer.apache.org/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://answer.apache.org/opensearch.xml" />
+  <moz:SearchForm>https://answer.apache.org/</moz:SearchForm>
 </OpenSearchDescription>
