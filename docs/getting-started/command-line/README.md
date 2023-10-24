@@ -68,8 +68,11 @@ All global options can be placed at the command level.
 ### upgrade
 > upgrade command will upgrade the application.
 
+- Options
+  - `-f` version: Upgrade from the specified version. Optional.
 - Examples
-  - `answer upgrade -C ./data/` 
+  - `answer upgrade -C ./data/`
+  - `answer upgrade -f v1.1.0 -C ./data/`
 
 ### dump
 > dump command will dump the database data to sql file.

@@ -23,7 +23,7 @@ const Footer: FC = () => {
                 </a>
                 <span> with the help of </span>
                 <a
-                  href="https://github.com/answerdev/answer/graphs/contributors"
+                  href="https://github.com/apache/incubator-answer/graphs/contributors"
                   target="_blank"
                 >
                   our contributors
@@ -58,7 +58,7 @@ const Footer: FC = () => {
               Twitter
             </a>
             <a
-              href="https://github.com/answerdev/answer"
+              href="https://github.com/apache/incubator-answer"
               target="_blank"
               className="text--secondary margin-right--md"
             >

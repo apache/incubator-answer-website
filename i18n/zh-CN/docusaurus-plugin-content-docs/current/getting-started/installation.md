@@ -45,7 +45,7 @@ docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:lat
   </TabItem>
   <TabItem value="binary" label="Binary">
 
-作为一个 golang 项目，Answer 可以编译成一个二进制文件。你可以从 [release page](https://github.com/answerdev/answer/releases) 下载与你的操作系统匹配的二进制文件。
+作为一个 golang 项目，Answer 可以编译成一个二进制文件。你可以从 [release page](https://github.com/apache/incubator-answer/releases) 下载与你的操作系统匹配的二进制文件。
 
 ```bash
 INSTALL_PORT=80 ./answer init -C ./answer-data/

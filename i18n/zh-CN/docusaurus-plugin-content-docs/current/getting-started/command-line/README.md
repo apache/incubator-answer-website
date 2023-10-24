@@ -76,8 +76,11 @@ Flags：
 >
 > upgrade 命令将升级应用程序。
 
+- 选项
+  - `-f` 版本: 从指定版本开始升级. 可选.
 - 示例
   - `answer upgrade -C ./data/`
+  - ` -C ./data/`
 
 ### dump
 >

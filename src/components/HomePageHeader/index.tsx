@@ -77,18 +77,8 @@ const HomeHead: FC = () => {
   }
 
   return (
-    <header className='pt-4 pb-3'>
-      <div className="container">
-        <Link
-          to="/waitlist"
-          className="d-flex align-items-center justify-content-center text-secondary pb-5 mb-3"
-        >
-          <Translate id="home.waitlist.title">
-            👋 Join the Answer Cloud Waitlist
-          </Translate>
-
-          <Icon name="arrow-right"  size="16px"  className="ms-1" />
-        </Link>
+    <header className='pt-5 pb-3'>
+      <div className="container pt-3">
         <Row className='justify-content-center'>
           <Col md={12} lg={10} className='d-flex flex-column align-items-center'>
             <img
@@ -144,7 +134,7 @@ const HomeHead: FC = () => {
                 size="lg"
                 variant="dark"
                 className="btnMain fw-normal fs-20"
-                href="https://github.com/answerdev/answer"
+                href="https://github.com/apache/incubator-answer"
                 target="_blank"
               >
                 <Icon name="github" size="24px"  className="me-2" />

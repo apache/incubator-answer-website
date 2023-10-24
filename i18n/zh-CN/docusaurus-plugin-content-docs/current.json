@@ -41,7 +41,7 @@
   },
   "sidebar.tutorialSidebar.link.Support": {
     "message": "客服支持",
-    "description": "The label for link Support in sidebar tutorialSidebar, linking to https://github.com/answerdev/answer/issues"
+    "description": "The label for link Support in sidebar tutorialSidebar, linking to https://github.com/apache/incubator-answer/issues"
   },
   "sidebar.tutorialSidebar.link.Roadmap": {
     "message": "规划",

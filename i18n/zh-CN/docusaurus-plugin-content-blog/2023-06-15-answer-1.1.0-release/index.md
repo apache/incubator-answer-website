@@ -47,4 +47,4 @@ This not only enhances problem-solving effectiveness, but also a way of getting 
 ![Notification Filter](1.1.0release8.png)
 No more clumsy scrolling for the latest notification. We divide notifications into **Posts, Invites, and Votes**, and highlight unread messages in light yellow. You can also click and head to the post right away. 
 
-Our team also adds Gravatar mirror URL configuration, ensuring a smooth and efficient user experience, while we keep an eye on the default order of your question list so that Answer will keep it in mind for your next visit. For bug fixes and improvements, you can visit our [GitHub releases](https://github.com/answerdev/answer/releases?page=1), and remember to update.
+Our team also adds Gravatar mirror URL configuration, ensuring a smooth and efficient user experience, while we keep an eye on the default order of your question list so that Answer will keep it in mind for your next visit. For bug fixes and improvements, you can visit our [GitHub releases](https://github.com/apache/incubator-answer/releases?page=1), and remember to update.

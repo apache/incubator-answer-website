@@ -45,7 +45,7 @@ If you can't access the installation page, you can use the command `docker logs 
   </TabItem>
   <TabItem value="binary" label="Binary">
 
-As a golang project, Answer can be compiled into a binary file. You can download the binary file that matches your operating system from the [release page](https://github.com/answerdev/answer/releases).
+As a golang project, Answer can be compiled into a binary file. You can download the binary file that matches your operating system from the [release page](https://github.com/apache/incubator-answer/releases).
 
 ```bash
 INSTALL_PORT=80 ./answer init -C ./answer-data/

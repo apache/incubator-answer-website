@@ -136,7 +136,7 @@ $ golangci-lint run
 
 ## What do we need you to contribute
 ### Fix Bug
-If you find a bug, please don't hesitate to [submit an issue](https://github.com/answerdev/answer/issues) to us.
+If you find a bug, please don't hesitate to [submit an issue](https://github.com/apache/incubator-answer/issues) to us.
 If you can fix it, please include a note with your issue submission.
 If it is a bug definitely, you can submit your PR after we confirm it, which will ensure you don't do anything useless.
 

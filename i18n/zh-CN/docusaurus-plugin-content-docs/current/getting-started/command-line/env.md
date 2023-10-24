@@ -19,7 +19,7 @@ slug: /env
 - DB_FILE：数据库文件路径，仅适用于 sqlite3。
 - LANGUAGE：语言，如  `en-US`。
 - SITE_NAME：站点名称 `Answer`。
-- SITE_URL：站点 URL，`https://answer.dev`。
+- SITE_URL：站点 URL，`https://answer.apache.org`。
 - CONTACT_EMAIL：联系人电子邮件。
 - ADMIN_NAME：管理员名称。
 - ADMIN_PASSWORD：管理员密码。
