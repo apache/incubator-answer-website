@@ -94,4 +94,4 @@ Join our official community: https://meta.answer.dev/
 Meet us in Discord: https://discord.gg/c537sFxu
 
 Reference:       
-[^1] The Apache Incubator: https://incubator.apache.org/
+[^1] The Apache Incubator: https://incubator.apache.org/ 
