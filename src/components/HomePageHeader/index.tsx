@@ -77,8 +77,8 @@ const HomeHead: FC = () => {
   }
 
   return (
-    <header className='pt-4 pb-3'>
-      <div className="container">
+    <header className='pt-5 pb-3'>
+      <div className="container pt-3">
         <Row className='justify-content-center'>
           <Col md={12} lg={10} className='d-flex flex-column align-items-center'>
             <img
@@ -134,7 +134,7 @@ const HomeHead: FC = () => {
                 size="lg"
                 variant="dark"
                 className="btnMain fw-normal fs-20"
-                href="https://github.com/answerdev/answer"
+                href="https://github.com/apache/incubator-answer"
                 target="_blank"
               >
                 <Icon name="github" size="24px"  className="me-2" />

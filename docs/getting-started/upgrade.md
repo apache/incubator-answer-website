@@ -40,7 +40,7 @@ docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:lat
   <TabItem value="binary" label="Binary">
 If you are using a binary installation of answer, the upgrade steps are as follows.
 
-1. Download the latest binary version for your system. [https://github.com/answerdev/answer/releases](https://github.com/answerdev/answer/releases)
+1. Download the latest binary version for your system. [https://github.com/apache/incubator-answer/releases](https://github.com/apache/incubator-answer/releases)
 2. Stop old version
 3. Execute the upgrade command `./answer upgrade -C ./answer-data/`
 4. Run the latest version `./answer run -C ./answer-data/`

@@ -65,8 +65,14 @@ The Initial Committers of the Answer project are listed as follows, and big than
 - Bo Jiang  https://github.com/jiangbonadia
 - Anna Primma https://github.com/PrimmaAnna
 
+<<<<<<< HEAD
 About Apache Incubator [1]
 ![Alt text](apache-incubator-logo.png)
+=======
+## About Apache Incubator [1]
+
+![Apache Incubator](apache-incubator-logo.png)
+>>>>>>> 1906a00bf72333c9c053a3fe68b74aa0ebe0f7e9
 
 Created in 2002, the Apache Incubator provides services to projects which want to enter the Apache Software Foundation (ASF). It helps those incoming projects (called "podlings") adopt the Apache style of governance and operation and guides them to the ASF services available to our projects, so they can become top-level ASF projects ("TLPs").
 
@@ -93,5 +99,10 @@ Check our documentation: https://answer.apache.org/docs
 Join our official community: https://meta.answer.dev/         
 Meet us in Discord: https://discord.gg/c537sFxu
 
+<<<<<<< HEAD
 > Reference:       
 [1] The Apache Incubator: https://incubator.apache.org/
+=======
+> Reference:
+[1] The Apache Incubator: https://incubator.apache.org/
+>>>>>>> 1906a00bf72333c9c053a3fe68b74aa0ebe0f7e9

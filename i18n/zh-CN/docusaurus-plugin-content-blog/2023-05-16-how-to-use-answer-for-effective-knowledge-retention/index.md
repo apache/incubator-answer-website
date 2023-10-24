@@ -41,7 +41,7 @@ With the significance of knowledge retention in mind, how can companies and team
 
 To make knowledge sharing and access easier within the organization, set up platforms and tools that facilitate the process. This can be achieved through the use of intranets, collaboration software, or knowledge management systems. 
 
-Answer is an [open-source Q&A platform](https://github.com/answerdev/answer), which gives companies freedom to build a knowledge-based community in the way they need. No matter it’s for products, customer support, or the team, Answer is capable of making it happen on different devices.
+Answer is an [open-source Q&A platform](https://github.com/apache/incubator-answer), which gives companies freedom to build a knowledge-based community in the way they need. No matter it’s for products, customer support, or the team, Answer is capable of making it happen on different devices.
 
 ![Interface of Answer](knowledgeretention3.png)
 

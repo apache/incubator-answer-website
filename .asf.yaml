@@ -21,8 +21,8 @@ github:
   homepage: https://answer.apache.org/
   enabled_merge_buttons:
     squash: true
-    merge: true
-    rebase: false
+    rebase: true
+    merge: false
   protected_branches:
     main: {}
     dist-pages: {}

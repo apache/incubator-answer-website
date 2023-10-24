@@ -9,7 +9,7 @@ const katex = require('rehype-katex');
 const config = {
   title: 'Answer',
   tagline: 'Build Q&A Community with Answer',
-  url: 'https://answer.dev',
+  url: 'https://answer.apache.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -83,7 +83,7 @@ const config = {
           },
           {
             label: 'Issue',
-            to: 'https://github.com/answerdev/answer/issues',
+            to: 'https://github.com/apache/incubator-answer/issues',
           },
           {
             label: 'Roadmap',
@@ -112,7 +112,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/answerdev/answer',
+            href: 'https://github.com/apache/incubator-answer',
             position: 'right',
             className: 'bi bi-github navbar-icon-link',
           },
