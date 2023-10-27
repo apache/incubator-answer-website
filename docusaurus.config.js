@@ -10,7 +10,7 @@ const asfLinks = [
   {to: 'https://www.apache.org/foundation/sponsorship.html', label: 'Sponsorship'},
   {to: 'https://privacy.apache.org/policies/privacy-policy-public.html', label: 'Privacy'},
   {to: 'https://www.apache.org/security/', label: 'Security'},
-  {to: 'https://www.apache.org/foundation/sponsors', label: 'Thanks'},
+  {to: 'https://www.apache.org/foundation/thanks.html', label: 'Thanks'},
   {to: 'https://www.apache.org/foundation/policies/conduct.html', label: 'Code of Conduct'},
 ];
 
