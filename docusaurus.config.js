@@ -3,7 +3,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const math = require('remark-math');
-const katex = require('rehype-katex');
 const asfLinks = [
   {to: 'https://www.apache.org', label: 'Foundation'},
   {to: 'https://www.apache.org/licenses/', label: 'License'},
@@ -160,7 +159,6 @@ const config = {
         postsPerPage: 16,
         showReadingTime: true,
         remarkPlugins: [math],
-        rehypePlugins: [katex],
       },
     ],
     'docusaurus-plugin-sass',
