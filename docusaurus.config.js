@@ -148,7 +148,6 @@ const config = {
     }),
   stylesheets: [
     '/fonts/fonts.css',
-    '/katex/katex.min.css',
   ],
   plugins: [
     // Use custom blog plugin
