@@ -10,7 +10,7 @@ export default function Home(): JSX.Element {
     <Layout
       description="A Q&A platform software for teams at any scales. Whether it’s a community forum, help center, or knowledge management platform, you can always count on Answer.">
       <Head>
-        <title>Answer | Free Open-source Q&A Platform</title>
+        <title>Apache Answer | Free Open-source Q&A Platform</title>
       </Head>
       <main className='headerBg'>
         <HomePageHeader />
