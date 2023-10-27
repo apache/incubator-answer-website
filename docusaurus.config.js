@@ -3,7 +3,16 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const math = require('remark-math');
-const katex = require('rehype-katex');
+const asfLinks = [
+  {to: 'https://www.apache.org', label: 'Foundation'},
+  {to: 'https://www.apache.org/licenses/', label: 'License'},
+  {to: 'https://www.apache.org/events/current-event', label: 'Events'},
+  {to: 'https://www.apache.org/foundation/sponsorship.html', label: 'Sponsorship'},
+  {to: 'https://privacy.apache.org/policies/privacy-policy-public.html', label: 'Privacy'},
+  {to: 'https://www.apache.org/security/', label: 'Security'},
+  {to: 'https://www.apache.org/foundation/sponsors', label: 'Thanks'},
+  {to: 'https://www.apache.org/foundation/policies/conduct.html', label: 'Code of Conduct'},
+];
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -102,14 +111,27 @@ const config = {
             to: '/contact',
           },
           {
+            type: 'dropdown',
+            label: 'ASF',
+            items: asfLinks.map(link => ({
+              label: link.label,
+              to: link.to,
+            })),
+          },
+          {
             type: 'localeDropdown',
             className: 'bi bi-translate',
             position: 'right',
           },
           {
-            className: 'bi bi-discord navbar-icon-link',
-            to: 'https://discord.gg/a6PZZbfnFx',
+            href: 'https://twitter.com/answerdev',
             position: 'right',
+            className: 'bi bi-twitter-x navbar-icon-link',
+          },
+          {
+            href: 'https://discord.gg/a6PZZbfnFx',
+            position: 'right',
+            className: 'bi bi-discord navbar-icon-link',
           },
           {
             href: 'https://github.com/apache/incubator-answer',
@@ -124,14 +146,7 @@ const config = {
       },
     }),
   stylesheets: [
-    'https://fonts.googleapis.com/css2?family=Lexend:wght@400..700&display=swap',
-    {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-      type: 'text/css',
-      integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-      crossorigin: 'anonymous',
-    },
+    '/fonts/fonts.css',
   ],
   plugins: [
     // Use custom blog plugin
@@ -144,7 +159,6 @@ const config = {
         postsPerPage: 16,
         showReadingTime: true,
         remarkPlugins: [math],
-        rehypePlugins: [katex],
       },
     ],
     'docusaurus-plugin-sass',

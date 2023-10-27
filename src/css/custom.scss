@@ -198,6 +198,11 @@ img {
   font-weight: 700;
 }
 
+.footer {
+  span {
+    color: var(--ifm-color-secondary);
+  }
+}
 
 // there for docusaurus default css
 
@@ -231,4 +236,3 @@ img {
     color: var(--ifm-link-color) !important;
   }
 }
-
