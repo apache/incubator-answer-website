@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://answer.apache.org/blog</id>
-    <title>Answer Blog</title>
+    <title>Apache Answer Blog</title>
     <updated>2023-10-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://answer.apache.org/blog"/>
-    <subtitle>Answer Blog</subtitle>
+    <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Answer Enters Apache Incubator]]></title>
