@@ -16,7 +16,7 @@ const asfLinks = [
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Answer',
+  title: 'Apache Answer',
   tagline: 'Build Q&A Community with Answer',
   url: 'https://answer.apache.org',
   baseUrl: '/',
@@ -26,8 +26,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'answerdev', // Usually your GitHub org/user name.
-  projectName: 'Answer', // Usually your repo name.
+  organizationName: 'apache', // Usually your GitHub org/user name.
+  projectName: 'incubator-answer', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
