@@ -6,7 +6,7 @@ const math = require('remark-math');
 const asfLinks = [
   {to: 'https://www.apache.org', label: 'Foundation'},
   {to: 'https://www.apache.org/licenses/', label: 'License'},
-  {to: 'https://www.apache.org/events/current-event', label: 'Events'},
+  {to: 'https://www.apache.org/events/current-event.html', label: 'Events'},
   {to: 'https://www.apache.org/foundation/sponsorship.html', label: 'Sponsorship'},
   {to: 'https://privacy.apache.org/policies/privacy-policy-public.html', label: 'Privacy'},
   {to: 'https://www.apache.org/security/', label: 'Security'},
