@@ -95,6 +95,6 @@ Check our documentation: https://answer.apache.org/docs
 Join our official community: https://meta.answer.dev/         
 Meet us in Discord: https://discord.gg/c537sFxu
 
-Reference:
+Reference:   
 [^1]: The Apache Incubator: https://incubator.apache.org/
 

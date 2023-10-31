@@ -69,6 +69,7 @@ The Initial Committers of the Answer project are listed as follows, and big than
 
 ![Apache Incubator](apache-incubator-logo.png)
 
+
 Created in 2002, the Apache Incubator provides services to projects which want to enter the Apache Software Foundation (ASF). It helps those incoming projects (called "podlings") adopt the Apache style of governance and operation and guides them to the ASF services available to our projects, so they can become top-level ASF projects ("TLPs").
 
 The Incubator delegates a few mentors for each podling to act as liaisons with the various ASF teams: Incubator PMC, Infrastructure team, etc., and facilitate the podling’s growth and operations.
@@ -93,7 +94,6 @@ Explore and contribute to our GitHub: https://github.com/apache/incubator-answer
 Check our documentation: https://answer.apache.org/docs          
 Join our official community: https://meta.answer.dev/         
 Meet us in Discord: https://discord.gg/c537sFxu
-
 
 Reference:       
 [^1]: The Apache Incubator: https://incubator.apache.org/

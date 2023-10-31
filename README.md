@@ -1,6 +1,6 @@
 # Website
 
-Answer.dev is built using [Docusaurus 2](https://docusaurus.io/), and we use [pnpm](https://pnpm.io/) to manage dependencies.
+Answer official website is built using [Docusaurus 2](https://docusaurus.io/), and we use [pnpm](https://pnpm.io/) to manage dependencies.
 
 ### Installation
 

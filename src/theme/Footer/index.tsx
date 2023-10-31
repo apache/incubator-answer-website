@@ -1,77 +1,38 @@
 import React, { FC } from 'react';
 
-const DarkSvg = require('@site/static/img/logo-dark.svg').default;
+const ApacheSvg = require('@site/static/img/apache/incubator.svg').default;
 
 const Footer: FC = () => {
   return (
     <footer className="footer">
       <div className="container py-3">
-        <div className="d-flex justify-content-between flex-wrap">
+        <div className="d-flex justify-content-between flex-wrap text-center">
           <div>
-            <div className='mb-3' style={{ height: '28px' }}>
-              <DarkSvg role="img" />
+            <div className='mb-3'>
+              <a href="https://incubator.apache.org/" target="_blank">
+                <ApacheSvg role="img" />
+              </a>
             </div>
-            {/* <img src={require('@site/static/img/logo-dark.svg').default} alt="" height="28" /> */}
+
             <div className="fs-14">
               <div>
-                <span>Made with love in the world by the</span>{' '}
-                <a
-                  href="https://github.com/orgs/answerdev/people"
-                  target="_blank"
-                >
-                  Answer team
-                </a>
-                <span> with the help of </span>
-                <a
-                  href="https://github.com/apache/incubator-answer/graphs/contributors"
-                  target="_blank"
-                >
-                  our contributors
-                </a>
-                .
+                <span>Apache Answer is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by the Apache Incubator. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF.</span>
               </div>
-              <span>Code licensed under the </span>
-              <a
-                href="https://www.apache.org/licenses/LICENSE-2.0"
-                target="_blank"
-              >
-                Apache-2.0 License
-              </a>
-              .
+
+              <div className="my-3">
+                <span>Copyright © 2023 The Apache Software Foundation, Licensed under the Apache License, Version 2.0.</span>
+                <br />
+                <span>Apache, the names of Apache projects, and the feather logo are either registered trademarks or trademarks of the Apache Software Foundation in the United States and/or other countries.</span>
+              </div>
+
               <span>
-                {' '}
-                Icons by{' '}
-                <a href="https://www.flaticon.com" target="_blank">
+                Feature icons by {' '}
+                <a href="https://www.flaticon.com" className="link-secondary" target="_blank">
                   Freepik
                 </a>
                 .
               </span>
             </div>
-          </div>
-
-          <div className="fs-14 text-end mt-3 mt-md-0">
-            <a
-              href="https://twitter.com/answerdev"
-              target="_blank"
-              className="text--secondary margin-right--md"
-            >
-              Twitter
-            </a>
-            <a
-              href="https://github.com/apache/incubator-answer"
-              target="_blank"
-              className="text--secondary margin-right--md"
-            >
-              GitHub
-            </a>
-
-            <a
-              href="https://discord.gg/a6PZZbfnFx"
-              target="_blank"
-              className="text--secondary"
-            >
-              Discord
-            </a>
           </div>
         </div>
       </div>
