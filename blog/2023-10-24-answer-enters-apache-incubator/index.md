@@ -34,7 +34,7 @@ We aim to help every team create their Q&A community, gather collective intellig
 
 ### Features
 #### Easy and Intuitive Q&A Community      
-Answer is user-friendly, every newcomer can set up a Q&A platform quickly with the help of our documentation. In Answer, asking and answering a question is intuitive, which lets evert community member to become a part of the community effortlessly and boosts community engagement. Enjoy the seamless experience of Answer on your mobile devices, as good as the desktop. 
+Answer is user-friendly, every newcomer can set up a Q&A platform quickly with the help of our documentation. In Answer, asking and answering a question is intuitive, which lets every community member become a part of the community effortlessly and boosts community engagement. Enjoy the seamless experience of Answer on your mobile devices, as good as the desktop. 
 
 #### Efficient Content Management    
 Administrators can categorize all the questions and content with tags, while community members can find the content they need by searching a tag. By following tags, users can always stay updated on their interested content and display them in the way they need. 
@@ -68,7 +68,6 @@ The Initial Committers of the Answer project are listed as follows, and big than
 ## About Apache Incubator [^1]
 
 ![Apache Incubator](apache-incubator-logo.png)
-
 
 Created in 2002, the Apache Incubator provides services to projects which want to enter the Apache Software Foundation (ASF). It helps those incoming projects (called "podlings") adopt the Apache style of governance and operation and guides them to the ASF services available to our projects, so they can become top-level ASF projects ("TLPs").
 
