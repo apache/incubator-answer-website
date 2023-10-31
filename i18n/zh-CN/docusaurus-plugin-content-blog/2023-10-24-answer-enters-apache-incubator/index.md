@@ -34,7 +34,7 @@ We aim to help every team create their Q&A community, gather collective intellig
 
 ### Features
 #### Easy and Intuitive Q&A Community      
-Answer is user-friendly, every newcomer can set up a Q&A platform quickly with the help of our documentation. In Answer, asking and answering a question is intuitive, which lets evert community member to become a part of the community effortlessly and boosts community engagement. Enjoy the seamless experience of Answer on your mobile devices, as good as the desktop. 
+Answer is user-friendly, every newcomer can set up a Q&A platform quickly with the help of our documentation. In Answer, asking and answering a question is intuitive, which lets every community member become a part of the community effortlessly and boosts community engagement. Enjoy the seamless experience of Answer on your mobile devices, as good as the desktop. 
 
 #### Efficient Content Management    
 Administrators can categorize all the questions and content with tags, while community members can find the content they need by searching a tag. By following tags, users can always stay updated on their interested content and display them in the way they need. 
@@ -69,7 +69,6 @@ The Initial Committers of the Answer project are listed as follows, and big than
 
 ![Apache Incubator](apache-incubator-logo.png)
 
-
 Created in 2002, the Apache Incubator provides services to projects which want to enter the Apache Software Foundation (ASF). It helps those incoming projects (called "podlings") adopt the Apache style of governance and operation and guides them to the ASF services available to our projects, so they can become top-level ASF projects ("TLPs").
 
 The Incubator delegates a few mentors for each podling to act as liaisons with the various ASF teams: Incubator PMC, Infrastructure team, etc., and facilitate the podling’s growth and operations.
@@ -95,14 +94,6 @@ Check our documentation: https://answer.apache.org/docs
 Join our official community: https://meta.answer.dev/         
 Meet us in Discord: https://discord.gg/c537sFxu
 
-<<<<<<<< HEAD:blog/2023-10-24-answer-enters-apache-incubator/index.md
-Reference:       
-[^1] The Apache Incubator: https://incubator.apache.org/
-========
-<<<<<<< HEAD
-> Reference:       
-[1] The Apache Incubator: https://incubator.apache.org/
-=======
-> Reference:
-[^1] The Apache Incubator: https://incubator.apache.org/
 
+Reference:       
+[^1]: The Apache Incubator: https://incubator.apache.org/
