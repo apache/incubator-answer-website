@@ -125,7 +125,7 @@ const HomeHead: FC = () => {
                 size="lg"
                 variant="primary"
                 className="fw-normal fs-20 btnMain me-3"
-                href="/docs"
+                href="docs"
               >
                 <Translate id="home.btn.started">Get Started</Translate>
               </Button>
