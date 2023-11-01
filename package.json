@@ -15,9 +15,11 @@
     "write-translations": "docusaurus write-translations",
     "write:zh": "docusaurus write-translations --locale zh-CN",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "crowdin": "crowdin"
   },
   "dependencies": {
+    "@crowdin/cli": "3",
     "@docusaurus/core": "2.4.0",
     "@docusaurus/plugin-content-blog": "^2.4.1",
     "@docusaurus/plugin-content-docs": "^2.4.1",

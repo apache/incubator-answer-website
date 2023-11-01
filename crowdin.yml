@@ -1,0 +1,10 @@
+# crowdin configuration file
+files:
+  - source: /i18n/en/code.json
+    translation: /i18n/%locale%/%original_file_name%
+  # Docs Markdown files
+  - source: /docs/**/*
+    translation: /i18n/%locale%/docusaurus-plugin-content-docs/current/**/%original_file_name%
+  # Blog Markdown files
+  - source: /blog/**/*
+    translation: /i18n/%locale%/docusaurus-plugin-content-blog/**/%original_file_name%
