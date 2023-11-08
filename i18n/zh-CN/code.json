@@ -525,7 +525,7 @@
     "message": "我们总能为你的问题找到答案"
   },
   "contact.email": {
-    "message": "发送邮件至 {br} support@answer.dev"
+    "message": "发送邮件至 {br} dev@answer.apache.org"
   },
   "contact.getSupport": {
     "message": "获取帮助"
