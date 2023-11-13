@@ -3,13 +3,22 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const math = require('remark-math');
-const katex = require('rehype-katex');
+const asfLinks = [
+  {to: 'https://www.apache.org', label: 'Foundation'},
+  {to: 'https://www.apache.org/licenses/', label: 'License'},
+  {to: 'https://www.apache.org/events/current-event.html', label: 'Events'},
+  {to: 'https://www.apache.org/foundation/sponsorship.html', label: 'Sponsorship'},
+  {to: 'https://privacy.apache.org/policies/privacy-policy-public.html', label: 'Privacy'},
+  {to: 'https://www.apache.org/security/', label: 'Security'},
+  {to: 'https://www.apache.org/foundation/thanks.html', label: 'Thanks'},
+  {to: 'https://www.apache.org/foundation/policies/conduct.html', label: 'Code of Conduct'},
+];
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Answer',
+  title: 'Apache Answer',
   tagline: 'Build Q&A Community with Answer',
-  url: 'https://answer.dev',
+  url: 'https://answer.apache.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,8 +26,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'answerdev', // Usually your GitHub org/user name.
-  projectName: 'Answer', // Usually your repo name.
+  organizationName: 'apache', // Usually your GitHub org/user name.
+  projectName: 'incubator-answer', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -83,7 +92,7 @@ const config = {
           },
           {
             label: 'Issue',
-            to: 'https://github.com/answerdev/answer/issues',
+            to: 'https://github.com/apache/incubator-answer/issues',
           },
           {
             label: 'Plugins',
@@ -102,17 +111,30 @@ const config = {
             to: '/contact',
           },
           {
+            type: 'dropdown',
+            label: 'ASF',
+            items: asfLinks.map(link => ({
+              label: link.label,
+              to: link.to,
+            })),
+          },
+          {
             type: 'localeDropdown',
             className: 'bi bi-translate',
             position: 'right',
           },
           {
-            className: 'bi bi-discord navbar-icon-link',
-            to: 'https://discord.gg/a6PZZbfnFx',
+            href: 'https://twitter.com/answerdev',
             position: 'right',
+            className: 'bi bi-twitter-x navbar-icon-link',
           },
           {
-            href: 'https://github.com/answerdev/answer',
+            href: 'https://discord.gg/a6PZZbfnFx',
+            position: 'right',
+            className: 'bi bi-discord navbar-icon-link',
+          },
+          {
+            href: 'https://github.com/apache/incubator-answer',
             position: 'right',
             className: 'bi bi-github navbar-icon-link',
           },
@@ -124,14 +146,7 @@ const config = {
       },
     }),
   stylesheets: [
-    'https://fonts.googleapis.com/css2?family=Lexend:wght@400..700&display=swap',
-    {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-      type: 'text/css',
-      integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-      crossorigin: 'anonymous',
-    },
+    '/fonts/fonts.css',
   ],
   plugins: [
     // Use custom blog plugin
@@ -144,7 +159,6 @@ const config = {
         postsPerPage: 16,
         showReadingTime: true,
         remarkPlugins: [math],
-        rehypePlugins: [katex],
       },
     ],
     'docusaurus-plugin-sass',

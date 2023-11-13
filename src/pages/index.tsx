@@ -8,9 +8,9 @@ import Head from '@docusaurus/Head';
 export default function Home(): JSX.Element {
   return (
     <Layout
-      description="An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more.">
+      description="A Q&A platform software for teams at any scales. Whether it’s a community forum, help center, or knowledge management platform, you can always count on Answer.">
       <Head>
-        <title>Answer | Q&A Platform</title>
+        <title>Apache Answer | Free Open-source Q&A Platform</title>
       </Head>
       <main className='headerBg'>
         <HomePageHeader />

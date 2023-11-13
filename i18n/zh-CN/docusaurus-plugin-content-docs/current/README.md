@@ -6,13 +6,6 @@ slug: /
 
 Answer 可帮助你在用户或团队之间建立问答社区。你可以在这里分享知识并帮助用户解决问题。
 
-[![LICENSE](https://img.shields.io/github/license/answerdev/answer)](https://github.com/answerdev/answer/blob/main/LICENSE)
-[![Language](https://img.shields.io/badge/language-go-blue.svg)](https://golang.org/)
-[![Language](https://img.shields.io/badge/language-react-blue.svg)](https://reactjs.org/)
-[![GitHub release](https://img.shields.io/github/v/release/answerdev/answer?include_prereleases)](https://github.com/answerdev/answer/releases)
-[![Go Report Card](https://goreportcard.com/badge/github.com/answerdev/answer)](https://goreportcard.com/report/github.com/answerdev/answer)
-[![Discord](https://img.shields.io/badge/discord-chat-5865f2?logo=discord&logoColor=f5f5f5)](https://discord.gg/Jm7Y4cbUej)
-
 主要功能：
 
 - **提问和回答** - 提出问题并从你的用户和团队那里获得答案。

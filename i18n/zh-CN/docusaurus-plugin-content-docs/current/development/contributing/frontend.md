@@ -82,7 +82,7 @@ pnpm start
 
 #### 修复 Bug
 
-如果你发现了一个 bug，请不要犹豫地 [提交 issue](https://github.com/answerdev/answer/issues)。如果你能修复它，请在提交 issue 时附上说明。如果它确实是一个 bug，你可以在我们确认后提交 PR，这将确保你不会做任何无用的工作。
+如果你发现了一个 bug，请不要犹豫地 [提交 issue](https://github.com/apache/incubator-answer/issues)。如果你能修复它，请在提交 issue 时附上说明。如果它确实是一个 bug，你可以在我们确认后提交 PR，这将确保你不会做任何无用的工作。
 
 #### 代码审查 & 注释
 
