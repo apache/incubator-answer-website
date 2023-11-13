@@ -31,7 +31,7 @@ const supportList = [
   {
     key: 'twitter',
     url: 'https://twitter.com/answerdev',
-    icon: <Icon name="twitter" size="48px" className="text-primary" />,
+    icon: <Icon name="twitter-x" size="48px" className="text-primary" />,
     info: <Translate id="contact.twitter" values={{
               br: <br />,
             }}>
