@@ -26,7 +26,7 @@ export default function Plugins(): JSX.Element {
             id="plugins.instruction"
             values={{
               submit_link: (
-                <a href="https://github.com/answerdev/plugins" target='_blank'>
+                <a href="https://github.com/apache/incubator-answer-plugins" target='_blank'>
                   <Translate id="plugins.instruction.submit">submit an plugin</Translate>
                 </a>
               ),
