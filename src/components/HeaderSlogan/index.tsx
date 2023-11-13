@@ -16,6 +16,10 @@ const content = {
   contact: {
     title: <Translate id="contact.title">Contact us</Translate>,
     slogan: <Translate id="contact.slogan">We always get an answer to your question.</Translate>,
+  },
+  plugin: {
+    title: <Translate id="plugin.title">Plugins</Translate>,
+    slogan: <Translate id="plugin.slogan">Extend functionality to your needs.</Translate>,
   }
 }
 
