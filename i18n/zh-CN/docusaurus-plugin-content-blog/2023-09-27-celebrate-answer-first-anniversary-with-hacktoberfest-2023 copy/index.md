@@ -57,7 +57,7 @@ Here's the gear you need before making a contribution, and we are always here to
 
 * Docs: <https://answer.apache.org/docs/>
 * Community: <https://meta.answer.dev/>
-* <support@answer.dev>
+* <dev@answer.apache.org>
 
 1. How to show my digital badges on my GitHub?
 
