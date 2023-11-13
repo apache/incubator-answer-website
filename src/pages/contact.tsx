@@ -10,12 +10,12 @@ import HeaderSlogan from '../components/HeaderSlogan';
 const supportList = [
   {
     key: 'email',
-    url: 'mailto:support@answer.dev',
+    url: 'mailto:dev@answer.apache.org',
     icon: <Icon name="envelope-fill" size="48px" className="text-primary" />,
     info: <Translate id="contact.email" values={{
             br: <br />,
           }}>
-            {'Email us at {br} support@answer.dev'}
+            {'Email us at {br} dev@answer.apache.org'}
           </Translate>,
   },
   {
@@ -78,22 +78,12 @@ export default function Home(): JSX.Element {
           })}
 
         </Row>
-        <h3 className='mb-3'>
-          <Translate id="contact.marketing.title">Marketing Inquiries</Translate>
-        </h3>
-        <div className='pb-5 mb-5'>
-          <Translate id="contact.marketing.email" values={{
-            email: <a href="mailto:marketing@answer.dev">marketing@answer.dev</a>
-          }}>
-            {'Send Email to {email}'}
-          </Translate>
-        </div>
 
         <h3 className='mb-3'>
           <Translate id="contact.above.title">None of the Above?</Translate>
         </h3>
         <div className='mb-3'>
-          <Translate id="contact.above.description"> If you don’t find what you’re looking for, please use the form below to submit your request. We’ll try and get back to you as soon as possible.</Translate>
+          <Translate id="contact.above.description"> If you don't find what you're looking for, please use the form below to submit your request. We'll try and get back to you as soon as possible.</Translate>
          </div>
          <Row>
           <Col md={12} lg={7} xl={5}>

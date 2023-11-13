@@ -95,8 +95,8 @@ const config = {
             to: 'https://github.com/apache/incubator-answer/issues',
           },
           {
-            label: 'Roadmap',
-            to: 'https://github.com/orgs/apache/projects/301',
+            label: 'Plugins',
+            to: '/plugins',
           },
           {
             label: 'Community',

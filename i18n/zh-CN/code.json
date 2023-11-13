@@ -525,7 +525,7 @@
     "message": "我们总能为你的问题找到答案"
   },
   "contact.email": {
-    "message": "发送邮件至 {br} support@answer.dev"
+    "message": "发送邮件至 {br} dev@answer.apache.org"
   },
   "contact.getSupport": {
     "message": "获取帮助"
@@ -556,5 +556,20 @@
   },
   "contact.twitter": {
     "message": "在 Twitter 上发送推文或私信 {br} @AnswerDev"
+  },
+  "plugins.title": {
+    "message": "插件"
+  },
+  "plugins.slogan": {
+    "message": "根据您的需求扩展功能。"
+  },
+  "plugins.instruction": {
+    "message": "任何人都可以向 Answer {submit_link}。 如果您对构建自己的插件有任何疑问，请 {community_link}。"
+  },
+  "plugins.instruction.submit": {
+    "message": "提交插件"
+  },
+  "plugins.instruction.join": {
+    "message": "加入我们的社区"
   }
 }
