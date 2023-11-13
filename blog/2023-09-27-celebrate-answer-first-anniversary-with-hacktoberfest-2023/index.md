@@ -49,7 +49,7 @@ We are partnering with [Vaunt](https://github.com/VauntDev) during Hacktoberfest
 
 Bonus: for the top 3 accepted plugins contributions, you’ll also receive a bag and stickers.
 
-![Answer Swags](DSC07756%202%20(1).png)
+![Answer Swags](DSC07756.png)
 
 ## Resources and FAQ
 
