@@ -43,7 +43,7 @@ Celebrate Answer’s first birthday with contributions, the more the better, no 
 
 ### Vaunt Your Contribution
 
-We are partnering with [Vaunt](https://github.com/VauntDev) during Hacktoberfest to reward contributions. Our team will have an initial review of the submitted issues, and tag it with **hacktoberfest-accepted** first. Then, we will have a closer look to see whether it shares the same goals or visions with our[roadmap](https://github.com/orgs/answerdev/projects/1). If it’s a yes, we will add **LGTM** tag to it, and congratulations you’ll get a digital badge from us! Here's a group photo of all the badges, from top to bottom and left to right, in order: Plugin Maestro, Bug Hunter, and Visionary Architect. Earn it and show them with pride.
+We are partnering with [Vaunt](https://github.com/VauntDev) during Hacktoberfest to reward contributions. Our team will have an initial review of the submitted issues, and tag it with **hacktoberfest-accepted** first. Then, we will have a closer look to see whether it shares the same goals or visions with our[roadmap](https://github.com/orgs/apache/projects/301). If it’s a yes, we will add **LGTM** tag to it, and congratulations you’ll get a digital badge from us! Here's a group photo of all the badges, from top to bottom and left to right, in order: Plugin Maestro, Bug Hunter, and Visionary Architect. Earn it and show them with pride.
 
 ![Answer Digital Badges for 2023](banner.png)
 

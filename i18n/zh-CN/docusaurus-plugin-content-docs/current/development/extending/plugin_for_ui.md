@@ -65,7 +65,7 @@ export { default as Demo } from './Demo';
 // demo.go
 package demo
 
-import "github.com/answerdev/answer/plugin"
+import "github.com/apache/incubator-answer/plugin"
 
 type DemoPlugin struct {
 }

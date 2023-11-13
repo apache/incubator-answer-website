@@ -32,7 +32,7 @@ type ConfigField struct {
 
 ```go
 import (
- "github.com/answerdev/answer/plugin"
+ "github.com/apache/incubator-answer/plugin"
 )
 
 plugin.MakeTranslator("plugin.github_connector.backend.name")

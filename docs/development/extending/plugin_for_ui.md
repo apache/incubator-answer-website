@@ -59,7 +59,7 @@ With the above, if your plugin is functionally complete, you are ready to move o
 // demo.go
 package demo
 
-import "github.com/answerdev/answer/plugin"
+import "github.com/apache/incubator-answer/plugin"
 
 type DemoPlugin struct {
 }
