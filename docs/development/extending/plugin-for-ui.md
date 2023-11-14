@@ -1,6 +1,6 @@
 ---
 sidebar_label: Plugin for UI
-sidebar_position: 2
+slug: /development/plugin-for-ui
 ---
 
 # Develop a UI plug-in

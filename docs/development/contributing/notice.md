@@ -1,4 +1,5 @@
 ---
+slug: /development/notice
 sidebar_label: Notice
 ---
 

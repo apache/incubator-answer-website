@@ -1,3 +1,7 @@
+---
+slug: /reputation
+---
+
 # Reputation
 
 Reputation used to automate the management of community ecology.  

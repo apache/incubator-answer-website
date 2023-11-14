@@ -1,6 +1,5 @@
 ---
-sidebar_label: Plugin Translation
-sidebar_position: 1
+slug: /development/plugin-translation
 ---
 
 # Plugin Translation

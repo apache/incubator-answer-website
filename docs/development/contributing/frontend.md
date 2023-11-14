@@ -1,4 +1,5 @@
 ---
+slug: /development/frontend
 ---
 
 # Frontend

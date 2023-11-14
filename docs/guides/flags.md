@@ -1,4 +1,5 @@
 ---
+slug: /flags
 ---
 
 # Flags
