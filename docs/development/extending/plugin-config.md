@@ -1,6 +1,6 @@
 ---
 sidebar_label: Plugin Configuration Schema
-slug: /development/plugin-config
+slug: /plugins/plugin-config
 ---
 
 # Plugin Configuration Schema

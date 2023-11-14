@@ -1,5 +1,5 @@
 ---
-slug: /development/notice
+slug: /contributing/notice
 sidebar_label: Notice
 ---
 

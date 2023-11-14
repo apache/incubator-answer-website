@@ -1,5 +1,5 @@
 ---
-slug: /development/contributing
+slug: /contributing
 ---
 
 # Contributing

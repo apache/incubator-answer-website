@@ -1,5 +1,5 @@
 ---
-slug: /development/plugins
+slug: /plugins
 ---
 
 # Plugins

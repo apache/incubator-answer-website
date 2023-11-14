@@ -1,5 +1,5 @@
 ---
-slug: /development/backend
+slug: /contributing/backend
 ---
 
 # Backend

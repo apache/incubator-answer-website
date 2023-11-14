@@ -1,5 +1,5 @@
 ---
-slug: /development/frontend
+slug: /contributing/frontend
 ---
 
 # Frontend
