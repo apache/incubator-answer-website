@@ -95,17 +95,17 @@ const config = {
             to: '/plugins',
           },
           {
-            label: 'Community',
-            to: '/community',
-          },
-          {
             label: 'Blog',
             to: '/blog',
           },
           {
-            label: 'Contact',
-            to: '/contact',
+            label: 'Community',
+            to: '/community',
           },
+          // {
+          //   label: 'Contact',
+          //   to: '/contact',
+          // },
           {
             type: 'dropdown',
             label: 'ASF',
