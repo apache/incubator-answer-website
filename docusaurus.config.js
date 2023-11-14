@@ -57,7 +57,7 @@ const config = {
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          breadcrumbs: false,
+          breadcrumbs: true,
         },
         blog: false,
       }),
@@ -91,16 +91,12 @@ const config = {
 
           },
           {
-            label: 'Issue',
-            to: 'https://github.com/apache/incubator-answer/issues',
-          },
-          {
             label: 'Plugins',
             to: '/plugins',
           },
           {
             label: 'Community',
-            to: 'https://meta.answer.dev',
+            to: '/community',
           },
           {
             label: 'Blog',

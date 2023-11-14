@@ -2,7 +2,7 @@
 slug: /configfile
 ---
 
-# Config-file
+# Config File
 
 :::tip
 

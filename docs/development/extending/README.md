@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Plugin
+# Plugins
 :::tip
 
 When we need to do some extensions to Answer's functionality, for example, OAuth login, we design a way to use plugins to implement these functions. 

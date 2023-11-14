@@ -2,7 +2,7 @@
 slug: /database
 ---
 
-# Database description
+# Database
 :::note
 
 Different databases have different data types. The following table presumes use of mysql/mariadb as an example.
