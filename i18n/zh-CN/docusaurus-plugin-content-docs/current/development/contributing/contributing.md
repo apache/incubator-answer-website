@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+slug: /contributing
 ---
 
 # 贡献指南
@@ -43,7 +43,7 @@ scope 可以是指明提交更改的位置的任何内容。
 
 subject 包含对更改的简洁描述：
 
-- 使用命令式，现在时: "change" 而非 "changed" 或 "changes"
+- 使用命令式，现在时："change" 而非 "changed" 或 "changes"
 - 不要大写第一个字母
 - 不要在末尾放置句号
 - 整个提交消息的长度不得超过 50 个字符

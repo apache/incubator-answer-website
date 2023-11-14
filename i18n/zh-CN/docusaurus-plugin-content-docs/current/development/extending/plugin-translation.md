@@ -1,6 +1,6 @@
 ---
 sidebar_label: 插件翻译
-sidebar_position: 1
+slug: /plugins/plugin-translation
 ---
 
 # 插件翻译
@@ -38,7 +38,7 @@ import (
 plugin.MakeTranslator("plugin.github_connector.backend.name")
 ```
 
-其中 `plugin.github_connector.backend.name` 是翻译文件的 key ，稍后将介绍。
+其中 `plugin.github_connector.backend.name` 是翻译文件的 key，稍后将介绍。
 
 因此，第一步是为需要翻译的每个字段构建 `Translator` 结构。
 

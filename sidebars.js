@@ -18,7 +18,7 @@ module.exports = {
 
   // But you can create a sidebar manually
   docs: [
-    'README',
+    'introduction',
     {
       type: 'category',
       label: 'Getting Started',
@@ -63,7 +63,7 @@ module.exports = {
           label: 'Plugins',
           link: {
             type: 'doc',
-            id: 'development/extending/README',
+            id: 'development/extending/plugins',
           },
           collapsed: false,
           items: [
@@ -77,9 +77,9 @@ module.exports = {
           label: 'Contributing',
           link: {
             type: 'doc',
-            id: 'development/contributing/README',
+            id: 'development/contributing/contributing',
           },
-          collapsed: false,
+          collapsed: true,
           items: [
             'development/contributing/backend',
             'development/contributing/frontend',
