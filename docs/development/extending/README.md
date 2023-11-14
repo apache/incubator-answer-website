@@ -153,12 +153,12 @@ type Connector interface {
 ```
 
 :::tip
-`Translator` is a struct for translation. Please refer to [the documentation](/docs/development/extending/plugin_translation) for details.
+`Translator` is a struct for translation. Please refer to [the documentation](/docs/plugins/plugin-translation) for details.
 :::
 
 
 #### Implement the configuration interface
-For details on the description of each configuration item, please refer to [the documentation](/docs/development/extending/plugin_config).
+For details on the description of each configuration item, please refer to [the documentation](/docs/plugins/plugin_config).
 
 ```go
 type Config interface {

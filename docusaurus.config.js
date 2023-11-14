@@ -88,7 +88,6 @@ const config = {
           {
             label: 'Docs',
             to: '/docs',
-
           },
           {
             label: 'Plugins',
@@ -158,6 +157,15 @@ const config = {
       },
     ],
     'docusaurus-plugin-sass',
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'community',
+        path: 'community',
+        routeBasePath: 'community',
+        sidebarPath: require.resolve('./sidebarsCommunity.js'),
+      },
+    ],
   ],
 };
 

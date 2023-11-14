@@ -20,10 +20,10 @@
   },
   "dependencies": {
     "@crowdin/cli": "3",
-    "@docusaurus/core": "2.4.0",
+    "@docusaurus/core": "2.4.1",
     "@docusaurus/plugin-content-blog": "^2.4.1",
     "@docusaurus/plugin-content-docs": "^2.4.1",
-    "@docusaurus/preset-classic": "2.4.0",
+    "@docusaurus/preset-classic": "2.4.1",
     "@docusaurus/theme-classic": "^2.4.1",
     "@docusaurus/theme-common": "^2.4.1",
     "@docusaurus/utils": "^2.4.1",
