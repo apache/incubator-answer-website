@@ -1,4 +1,5 @@
 ---
+slug: /contributing/frontend
 ---
 
 # 前端开发指南

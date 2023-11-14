@@ -1,5 +1,6 @@
 ---
 sidebar_label: 所依赖的开源项目
+slug: /contributing/notice
 ---
 
 # 所依赖的开源项目

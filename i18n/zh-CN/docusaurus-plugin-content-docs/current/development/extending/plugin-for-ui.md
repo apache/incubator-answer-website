@@ -1,6 +1,6 @@
 ---
 sidebar_label: 开发 UI 插件
-sidebar_position: 2
+slug: /plugins/plugin-for-ui
 ---
 
 # 开发 UI 插件
@@ -59,7 +59,7 @@ export { default as Demo } from './Demo';
 
 ## 发布阶段
 
-* F首先，为组件定义发布注册文件。以 `Demo` 为例，我们编写一个 `demo.go`
+* F 首先，为组件定义发布注册文件。以 `Demo` 为例，我们编写一个 `demo.go`
 
 ```go
 // demo.go
