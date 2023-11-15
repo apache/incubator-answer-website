@@ -5,7 +5,7 @@ slug: /plugins/plugin-for-ui
 
 # 开发 UI 插件
 
-UI 插件与 [标准插件](/docs/development/extending/) 或 React 组件并没有太大的区别，只需要一些配置和包装即可。
+UI 插件与 [标准插件](/docs/plugins) 或 React 组件并没有太大的区别，只需要一些配置和包装即可。
 
 在学习了上述文档中的标准插件开发，并且理解了 React 组件之后，让我们来看一下开发 UI 插件的逐步指南。
 
@@ -86,7 +86,7 @@ func (d DemoPlugin) Info() plugin.Info {
 ```
 
 :::info
-有关详细定义，请参见 [扩展](/docs/development/extending/) 部分。
+有关详细定义，请参见 [插件](/docs/plugins) 部分。
 :::
 
 * 然后，将整个 `Demo` 目录移动到[官方插件存储库](https://github.com/apache/incubator-answer-plugins) 中，提交合并请求即可发布插件。

@@ -5,7 +5,7 @@ slug: /plugins/plugin-for-ui
 
 # Develop a UI plug-in
 
-A UI plugin is not so different from a [standard plugin](/docs/development/extending/) or React component, it just needs some configuration and wrapping.
+A UI plugin is not so different from a [standard plugin](/docs/plugins) or React component, it just needs some configuration and wrapping.
 
 Having learned how to develop a standard plugin from the above documentation, and having understood React components. let's move on to a step-by-step guide to developing a ui plugin.
 
@@ -79,7 +79,7 @@ func (d DemoPlugin) Info() plugin.Info {
 }
 ```
 :::info
-For detailed definitions, see the [Extension](/docs/development/extending/) section.
+For detailed definitions, see the [Extension](/docs/plugins) section.
 :::
 
 * Then, move the entire `Demo` directory to the [official plugins repository](https://github.com/apache/incubator-answer-plugins) and submit a PR request for merging, and you've released the plugin.

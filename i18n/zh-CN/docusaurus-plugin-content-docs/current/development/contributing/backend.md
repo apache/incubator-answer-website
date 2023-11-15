@@ -70,7 +70,7 @@ $ ./answer init -C ./answer-data/
 
 前往 <http://localhost:80/install> 访问安装页面。
 
-请参考 [安装文档](../../installation) 进行安装步骤。
+请参考 [安装文档](/docs/installation) 进行安装步骤。
 
 #### 启动
 

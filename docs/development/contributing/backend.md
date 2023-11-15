@@ -60,7 +60,7 @@ $ ./answer init -C ./answer-data/
 
 Heading to [http://localhost:80/install](http://localhost:80/install) to access installation page.
 
-Please refer to the [installation documentation](../../installation) for installation steps.
+Please refer to the [installation documentation](/docs/installation) for installation steps.
 
 #### Launch
 ```shell

@@ -165,12 +165,12 @@ type Connector interface {
 ```
 
 :::tip
-`Translator` 是用于翻译的结构体。请参阅[文档](/docs/development/extending/plugin_translation)了解详情。
+`Translator` 是用于翻译的结构体。请参阅[文档](/docs/plugins/plugin-translation)了解详情。
 :::
 
 #### 实现配置接口
 
-有关每个配置项的描述详见[文档](/docs/development/extending/plugin_config)。
+有关每个配置项的描述详见[文档](/docs/plugins/plugin-config)。
 
 ```go
 type Config interface {

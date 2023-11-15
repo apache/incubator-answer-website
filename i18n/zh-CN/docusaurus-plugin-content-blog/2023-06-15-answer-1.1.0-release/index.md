@@ -13,7 +13,7 @@ From 1.0 to 1.1.0, it's not just a stack-up of numbers, but a step forward for y
 
 ## Plugin: The New Wings to Your Answer
 ![Answer Supports Plugin](1.1.0release1.png)
-The most notable in this update is **the support of Plugin**. From small tweaks to big changes, you can make it happen in Answer. Read the documentation of Plugin [here](https://answer.dev/docs/development/extending/) before bust a move.
+The most notable in this update is **the support of Plugin**. From small tweaks to big changes, you can make it happen in Answer. Read the documentation of Plugin [here](https://answer.dev/docs/plugins) before bust a move.
 
 A quick example is to embrace a simplified and efficient user authentication experience with the plugin's OAuth capabilities for your Answer. Now, your community members can sign up or log in with existing accounts from social media platforms. For adding other log-in options, admin can go **Admin\>Plugins\>OAuth2Basic**, then fill in the necessary information in **OAuth2Basic**.
 
