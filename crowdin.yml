@@ -5,6 +5,8 @@ files:
   # Docs Markdown files
   - source: /docs/**/*
     translation: /i18n/%locale%/docusaurus-plugin-content-docs/current/**/%original_file_name%
+  - source: /website/community/**/*
+    translation: /i18n/%locale%/docusaurus-plugin-content-docs-community/current/**/%original_file_name%
   # Blog Markdown files
   - source: /blog/**/*
     translation: /i18n/%locale%/docusaurus-plugin-content-blog/**/%original_file_name%
