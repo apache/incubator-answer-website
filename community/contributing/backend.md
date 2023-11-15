@@ -1,8 +1,8 @@
 ---
-slug: /contributing/backend
+slug: /development/backend
 ---
 
-# Backend
+# Backend Development
 > Below is the guideline for Backend Development
 
 ## How to set up a development environment

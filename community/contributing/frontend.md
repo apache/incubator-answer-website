@@ -1,8 +1,8 @@
 ---
-slug: /contributing/frontend
+slug: /development/frontend
 ---
 
-# Frontend
+# Frontend Development
 
 ## ⚙️ Prerequisites
 
