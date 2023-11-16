@@ -25,7 +25,7 @@ module.exports = {
     },
     {
       type: 'link',
-      href: 'https://meta.answer.dev/questions/ask?tags=feature-request',
+      href: 'https://meta.answer.dev',
       label: 'Feature Request',
     },
     {
