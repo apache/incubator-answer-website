@@ -20,6 +20,7 @@ module.exports = {
             'contributing/frontend',
           ],
         },
+        'contributing/pull-request',
       ],
     },
     {

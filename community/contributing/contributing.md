@@ -6,46 +6,22 @@ slug: /contributing
 
 > Thanks for your interest in contributing to Answer!
 
-## How to Contribute
+## Code of Conduct
 
-> You can contribute directly to the github repo by submitting your PR.
+Answer has adopted a Code of Conduct that we expect project participants to adhere to. Please read the [full text](https://www.apache.org/foundation/policies/conduct.html) so that you can understand what actions will and will not be tolerated.
 
-## Creating an Issue
+## Get Innolved
+
+There are many ways to contribute to Answer, and many of them do not involve writing any code. Here's a few ideas to get started:
+
+- Simply start using Answer. Go through the [Getting Started](/docs/installation) guide. Does everything work as expected? If not, we're always looking for improvements. Let us know by [opening an issue](#).
+- Look through the [open issues](https://github.com/apache/incubator-answer/issues). Provide workarounds, ask for clarification, or suggest labels. Help [triage issues](#).
+- If you find an issue you would like to fix, [open a pull request](#). Issues tagged as [Good first issue](https://github.com/apache/incubator-answer/labels/good%20first%20issue) are a good place to get started.
+- Read through the [Answer docs](/docs). If you find anything that is confusing or can be improved, you can click "Edit this page" at the bottom of most docs, which takes you to the GitHub interface to make and propose changes.
+- Take a look at the [features requested](https://github.com/apache/incubator-answer/labels/enhancement) by others in the community and consider opening a pull request if you see something you want to work on.
+
+Contributions are very welcome. If you think you need help planning your contribution, please ping us on Twitter at [@answerdev](https://twitter.com/answerdev) and let us know you are looking for a bit of help.
+
+### Creating an Issue
 
 - Feel free to ask your questions if you have any.
-
-## Creating a Pull Request
-
-- We appreciate you taking the time to contribute! Before submitting a pull request, we ask that you please create an issue that explains the bug or feature request and let us know that you plan on creating a pull request for it. If an issue already exists, please comment on that issue letting us know you would like to submit a pull request for it. This helps us to keep track of the pull request and make sure there isn't duplicated effort.
-
-## Commit Message Guidelines
-
-```
-<type>(<scope>): <subject>
-```
-
-### type
-
-- feat: A new feature
-- fix: A bug fix
-- docs: Documentation only changes
-- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-- refactor: A code change that neither fixes a bug nor adds a feature
-- perf: A code change that improves performance
-- test: Adding missing tests
-- chore: Changes to the build process or auxiliary tools and libraries such as documentation generation
-
-### scope
-
-The scope can be anything specifying place of the commit change.
-
-### subject
-
-The subject contains a succinct description of the change:
-
-- use the imperative, present tense: "change" not "changed" nor "changes"
-- do not capitalize first letter
-- do not place a period . at the end
-- entire length of the commit message must not go over 50 characters
-- describe what the commit does, not what issue it relates to or fixes
-- be brief, yet descriptive - we should have a good understanding of what the commit does by reading the subject
