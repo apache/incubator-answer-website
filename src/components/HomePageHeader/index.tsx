@@ -103,7 +103,7 @@ const HomeHead: FC = () => {
               <Translate
                 id="home.title.teams"
               >
-                with Answer
+                with Apache Answer
               </Translate>
             </h1>
 
