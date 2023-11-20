@@ -12,7 +12,7 @@ We use `yaml` configuration file. It will be created automatically after `answer
 
 ## config.yaml description
 
-```yaml
+```yaml title="/data/conf/config.yaml"
 server:
   http:
     addr: 0.0.0.0:80 # Project access port number
@@ -32,5 +32,4 @@ swaggerui:
 service_config:
   secret_key: "answer" # encryption key
   upload_path: "/data/uploads" # upload directory
-
 ```
