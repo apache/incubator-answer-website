@@ -10,7 +10,7 @@ slug: /contributing
 
 Answer has adopted a Code of Conduct that we expect project participants to adhere to. Please read the [full text](https://www.apache.org/foundation/policies/conduct.html) so that you can understand what actions will and will not be tolerated.
 
-## Get Innolved
+## Get Involved
 
 There are many ways to contribute to Answer, and many of them do not involve writing any code. Here's a few ideas to get started:
 

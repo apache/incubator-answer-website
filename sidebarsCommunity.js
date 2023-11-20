@@ -26,6 +26,7 @@ module.exports = {
           ],
         },
         'contributing/pull-request',
+        'contributing/plugins',
       ],
     },
     {

@@ -1,0 +1,5 @@
+---
+slug: /plugins
+---
+
+# Plugins
