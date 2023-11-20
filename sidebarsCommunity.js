@@ -11,9 +11,14 @@ module.exports = {
       },
       collapsed: false,
       items: [
+        'contributing/issues',
         {
           type: 'category',
           label: 'Development',
+          link: {
+            type: 'doc',
+            id: 'contributing/development',
+          },
           collapsed: true,
           items: [
             'contributing/backend',
@@ -23,11 +28,12 @@ module.exports = {
           ],
         },
         'contributing/pull-request',
+        'contributing/plugins',
       ],
     },
     {
       type: 'link',
-      href: 'https://meta.answer.dev/questions/ask?tags=feature-request',
+      href: 'https://meta.answer.dev',
       label: 'Feature Request',
     },
     {
