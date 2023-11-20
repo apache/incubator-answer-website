@@ -473,6 +473,9 @@
   "home.btn.started": {
     "message": "开始使用"
   },
+  "home.apache.answer": {
+     "message": "Apache Answer 是 Apache 软件基金会正在孵化的一个项目"
+  },
   "home.features.title1": {
     "message": "问答社区"
   },
