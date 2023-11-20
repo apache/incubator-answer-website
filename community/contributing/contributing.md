@@ -6,11 +6,11 @@ slug: /contributing
 
 > Thanks for your interest in contributing to Answer!
 
-## Code of Conduct
+## Code of conduct
 
 Answer has adopted a Code of Conduct that we expect project participants to adhere to. Please read the [full text](https://www.apache.org/foundation/policies/conduct.html) so that you can understand what actions will and will not be tolerated.
 
-## Get Involved
+## Get involved
 
 There are many ways to contribute to Answer, and many of them do not involve writing any code. Here's a few ideas to get started:
 
@@ -26,7 +26,7 @@ Contributions are very welcome. If you think you need help planning your contrib
 
 We have the `#contributing` and `#development` tags on [Answer Meta](https://meta.answer.dev) to discuss all things about Answer development. You can also be of great help by helping other users in the `#support` tag.
 
-### Triaging Issues and Pull Requests
+### Triaging issues and pull requests
 
 One great way you can contribute to the project without writing any code is to help triage issues and pull requests as they come in.
 

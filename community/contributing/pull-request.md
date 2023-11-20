@@ -6,7 +6,7 @@ slug: /pull-request
 
 We appreciate you taking the time to contribute! Before submitting a pull request, we ask that you please create an issue that explains the bug or feature request and let us know that you plan on creating a pull request for it. If an issue already exists, please comment on that issue letting us know you would like to submit a pull request for it. This helps us to keep track of the pull request and make sure there isn't duplicated effort.
 
-## Semantic Commit Messages
+## Semantic commit messages
 
 Following the format below when committing message can make you a better programmer.
 
@@ -63,7 +63,7 @@ By contributing to Answer, you agree that your contributions will be licensed un
  */
  ```
 
-## Contributor License Agreement (CLA)
+## Contributor license agreement (CLA)
 
 Apache CLA short for Apache Contributor License Agreement, the purpose of this agreement is to clearly define the terms under which intellectual property has been contributed to the ASF and thereby allow us to defend the project should there be a legal dispute regarding the software at some future time. A signed ICLA is required to be on file before an individual is given commit rights to any ASF project.
 

@@ -1,10 +1,11 @@
 ---
-sidebar_label: Plugin
+sidebar_label: Plugins
+slug: /plugins
 ---
 
-# Contribute for plugins
+# Contribute for Plugins
 
-## plugin types
+## Plugin types
 
 目前我们总共有三种类型的插件
 
@@ -28,44 +29,43 @@ It is not so different from React component, this plugin is more suitable for th
 
 - **Familiar with the directory structure**. Go to the `ui/src/plugins/builtin` directory and create a directory, such as Demo. Then refer to the existing plugins to create the necessary files to start development.
 
-```
-// ui/src/plugins/builtin
-.
-├── ...
-├── Demo
-      ├── i18n (language file)
-            ├── en_US.yaml (default language required)
-            ├── index.ts (required)
-            ├── zh_CN.ts (any language you want to provide)
-      ├── index.tsx (component required)
-      ├── info.yaml (plugin information required)
-      ├── services.ts (api)
-```
+  ```txt
+  // ui/src/plugins/builtin
+  .
+  ├── ...
+  ├── Demo
+        ├── i18n (language file)
+              ├── en_US.yaml (default language required)
+              ├── index.ts (required)
+              ├── zh_CN.ts (any language you want to provide)
+        ├── index.tsx (component required)
+        ├── info.yaml (plugin information required)
+        ├── services.ts (api)
+  ```
+
 - Export the plugins you have just defined in the plugins list file `plugins/builtin/index.ts`
-```
-import Demo from './Demo'
 
-export default {
-  ...(exists plugins),
-  Demo,
-};
+  ```ts
+  import Demo from './Demo'
 
-```
+  export default {
+    ...(exists plugins),
+    Demo,
+  };
+  ```
 
 - Now you can use the PluginRender component to render the just-defined plugin where you want it!
 
-```
-  <PluginRender
-    type="connector"
-    slug_name="third_party_connector"
-  />
-```
+  ```ts
+    <PluginRender
+      type="connector"
+      slug_name="third_party_connector"
+    />
+  ```
 
 - **Publish plugin**: initiate the PR process normally and describe the plug-in function and scope of influence in detail.
 
-
-
-## standard ui plugin
+## Standard ui plugin
 
 This plugin is suitable for the following scenarios
 
@@ -96,12 +96,11 @@ export { default as  editor_chart } from 'editor_chart';
 ```
 - 运行 `pnpm pre-install`, and 重新运行 `pnpm start`, 最后在你需要加载这个插件的页面调用一下 PluginKit 中 changePluginActiveStatus 方法来激活插件。 **Changes here during the release phase do not need to be submitted**.
 
-```ts
-import PluginKit from '@/utils/pluginKit';
-
-// call this method
-// @param1 plugin_name 
-// @param2 boolean; is whether or not to activate the
-PluginKit.changePluginActiveStatus('editor_chart', true);
+  ```ts
+  import PluginKit from '@/utils/pluginKit';
+  // call this method
+  // @param1 plugin_name 
+  // @param2 boolean; is whether or not to activate the
+  PluginKit.changePluginActiveStatus('editor_chart', true);
 ```
 - **Publish plugin**: after the function is developed, copy your entire plug-in folder to (incubator-answer-plugins) [https://github.com/apache/incubator-answer-plugins], **and add  `go.mod` `[plugin_name].go` `go.sum` these three files **; then initiate a PR and wait for review by relevant personnel; if incubator-answer If there are relevant changes in PR, please describe the scope of impact in PR.

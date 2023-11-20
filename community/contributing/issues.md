@@ -16,7 +16,7 @@ When opening a new issue, always make sure to fill out the issue template. **Thi
 
 **Please don't use the GitHub issue tracker for questions.** If you have questions about using Docusaurus, use any of our [support channels](/community), and we will do our best to answer your questions.
 
-## Security Bugs
+## Security bugs
 
 ## Feature requests
 
