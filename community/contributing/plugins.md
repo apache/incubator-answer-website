@@ -12,17 +12,21 @@ sidebar_label: Plugin
 - Builtin plugin
 - Standard ui plugin
 
+## Registration and activation of plugins
+
+All types of plug-in activation registration (or display) logic are in the `ui/utils/pluginKit/index.ts` file. During the development process, you can modify `registerPlugins` or call `changePluginActiveStatus` either of these two methods. to control whether your plugin is displayed.
 
 ## Builtin plugin
 
-It is not so different from React component, 这种插件更加适合下面两种场景
-1. 有复杂的业务逻辑无法做到代码抽离 (例如 Oauth)。
-2. 有些后端的插件在业务上需要 UI 上的支持 （如 Search）。
-3. 这种插件对开发者要求极低，不需要额外的配置工作。
+It is not so different from React component, this plugin is more suitable for the following scenarios:
 
-### 如何开发
+1. There are complex business logics that cannot be separated from the code (such as Oauth).
+2. Some back-end plug-ins require UI support for business purposes (such as Search).
+3. This plug-in has extremely low requirements for developers and requires no additional configuration work.
 
-- **熟悉目录结构**. Go to the `ui/src/plugins/builtin` directory and create a directory, such as Demo. 然后参考现有的插架创建所必须的文件开始开发。
+### How to develop builtin plugin
+
+- **Familiar with the directory structure**. Go to the `ui/src/plugins/builtin` directory and create a directory, such as Demo. Then refer to the existing plugins to create the necessary files to start development.
 
 ```
 // ui/src/plugins/builtin
@@ -57,31 +61,47 @@ export default {
   />
 ```
 
+- **Publish plugin**: initiate the PR process normally and describe the plug-in function and scope of influence in detail.
+
+
+
 ## standard ui plugin
 
-这种插件适合下面这些场景
+This plugin is suitable for the following scenarios
 
-1. 能独立完成一些 UI 上面的功能的插件，不需要后端支持；
-2. 代码需要做隔离，防止跟主站混淆；
+1. A plug-in that can independently complete some UI functions and does not require back-end support;
+2. The code needs to be isolated to prevent confusion with the main site;
 
-现有示例：[editor-chart](https://github.com/apache/incubator-answer-plugins/blob/main/editor-chart)、[editor-formula](https://github.com/apache/incubator-answer-plugins/tree/main/editor-formula). 
+Existing examples：[editor-chart](https://github.com/apache/incubator-answer-plugins/blob/main/editor-chart)、[editor-formula](https://github.com/apache/incubator-answer-plugins/tree/main/editor-formula).
 
-为了简化开发和编译流程我们对这种可以独立的前端仓库采用 [workspace](https://pnpm.io/next/workspaces) 来管理. 
+In order to simplify the development and compilation process, we use [workspace](https://pnpm.io/next/workspaces) to manage this independent front-end warehouse.
 
-### 如何快速开发
+### How to develop standard ui plugin
 
-- 首先参考上面已有的两个仓库，熟悉基本配置和组件导出方式。**Important: package.json 中的 name 字段就是我们添加依赖的包名，这里只能使用**
-- Go to the `ui/src/plugins` directory and create a directory，such as editor_chart, 然后添加你想要开发的组件, 然后修改  `ui/src/plugins/index.ts` 文件，导出你的组件；
+- First, refer to the two existing warehouses above to familiarize yourself with the basic configuration and component export methods.
+
+:::info
+
+The **name** field in package.json is the name of the package we add dependencies to; do not use ‘-’ to connect this field naming, please use ‘_’; for example:
+
+"editor_chart" ✅
+
+"editor-chart" ❌
+
+:::
+- Go to the `ui/src/plugins` directory and create a directory，such as editor_chart, then add the components you want to develop, then modify the `ui/src/plugins/index.ts` file to export your components; **changes here during the release phase do not need to be submitted**.
 
 ```
 export { default as  editor_chart } from 'editor_chart';
 ```
-- 运行 `pnpm pre-install`, and 重新运行 `pnpm start`, 最后在你需要加载这个插件的页面调用一下 PluginKit 中 changePluginActiveStatus 方法来激活插件。
+- 运行 `pnpm pre-install`, and 重新运行 `pnpm start`, 最后在你需要加载这个插件的页面调用一下 PluginKit 中 changePluginActiveStatus 方法来激活插件。 **Changes here during the release phase do not need to be submitted**.
 
 ```ts
 import PluginKit from '@/utils/pluginKit';
 
-// 调用这个方法
-// 第一个参数是你的 plugin_name 第二个参数是否激活
+// call this method
+// @param1 plugin_name 
+// @param2 boolean; is whether or not to activate the
 PluginKit.changePluginActiveStatus('editor_chart', true);
 ```
+- **Publish plugin**: after the function is developed, copy your entire plug-in folder to (incubator-answer-plugins) [https://github.com/apache/incubator-answer-plugins], **and add  `go.mod` `[plugin_name].go` `go.sum` these three files **; then initiate a PR and wait for review by relevant personnel; if incubator-answer If there are relevant changes in PR, please describe the scope of impact in PR.
