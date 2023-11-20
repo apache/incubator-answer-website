@@ -102,5 +102,6 @@ export { default as  editor_chart } from 'editor_chart';
   // @param1 plugin_name 
   // @param2 boolean; is whether or not to activate the
   PluginKit.changePluginActiveStatus('editor_chart', true);
-```
+  ```
+  
 - **Publish plugin**: after the function is developed, copy your entire plug-in folder to (incubator-answer-plugins) [https://github.com/apache/incubator-answer-plugins], **and add  `go.mod` `[plugin_name].go` `go.sum` these three files **; then initiate a PR and wait for review by relevant personnel; if incubator-answer If there are relevant changes in PR, please describe the scope of impact in PR.
