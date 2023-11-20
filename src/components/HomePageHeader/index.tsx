@@ -143,7 +143,7 @@ const HomeHead: FC = () => {
               </Button>
             </div>
 
-            <div className="text-center">
+            <div className="text-secondary text-center fs-14">
               <Translate
                 id="home.apache.answer"
               >

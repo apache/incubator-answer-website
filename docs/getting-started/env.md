@@ -9,7 +9,7 @@ slug: /env
 - `INSTALL_PORT`: specifies the port to boot when installation, default is `80`.
 - `AUTO_INSTALL`: if set to `true`, the installation will be completed automatically by environment variable.
 
-### For Auto Install
+### For auto install
 
 - `DB_TYPE`: database type, support [`sqlite3`  `mysql`  `postgres`]
 - `DB_USERNAME`: database username

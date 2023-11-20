@@ -23,8 +23,6 @@ module.exports = {
           items: [
             'contributing/backend',
             'contributing/frontend',
-            'contributing/development',
-            'contributing/plugins',
           ],
         },
         'contributing/pull-request',
