@@ -27,7 +27,7 @@ export default function Plugins(): JSX.Element {
             values={{
               submit_link: (
                 <a href="https://github.com/apache/incubator-answer-plugins" target='_blank'>
-                  <Translate id="plugins.instruction.submit">submit an plugin</Translate>
+                  <Translate id="plugins.instruction.submit">submit a plugin</Translate>
                 </a>
               ),
               community_link: (
@@ -37,7 +37,7 @@ export default function Plugins(): JSX.Element {
               )
             }}
             >
-            {`Anyone can {submit_link} to Answer. If you have questions about building your own plugin, {community_link}.`}
+            {`Anyone can {submit_link} to Apache Answer. If you have questions about building your own plugin, {community_link}.`}
           </Translate>
           </div>
 
