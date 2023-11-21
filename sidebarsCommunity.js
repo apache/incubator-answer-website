@@ -31,6 +31,7 @@ module.exports = {
         'contributing/plugins',
       ],
     },
+    'how-to-release',
     {
       type: 'link',
       href: 'https://meta.answer.dev',
