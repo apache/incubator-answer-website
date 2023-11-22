@@ -10,6 +10,7 @@
   TwitterShareButton,
 } from "react-share";
 
+import EditThisPage from '@theme/EditThisPage';
 import Icon from '@site/src/components/Icon';
 
 import styles from './index.module.css';
@@ -74,6 +75,10 @@ import styles from './index.module.css';
           >
             <Icon name="linkedin" size="16px" />
           </LinkedinShareButton>
+        </div>
+
+        <div className='mt-4'>
+          <EditThisPage editUrl={metadata.editUrl} />
         </div>
       </div>
     )

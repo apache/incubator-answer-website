@@ -55,8 +55,18 @@ const config = {
           customCss: require.resolve('./src/css/custom.scss'),
         },
         docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           breadcrumbs: true,
+          editUrl: ({locale, versionDocsDirPath, docPath}) => {
+            if (locale !== 'en') {
+              return `https://crowdin.com/project/answer-website/zh-CN`;
+            }
+            return `https://github.com/apache/incubator-answer-website/edit/main/${versionDocsDirPath}/${docPath}`;
+          },
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: false,
       }),
@@ -153,6 +163,12 @@ const config = {
         postsPerPage: 16,
         showReadingTime: true,
         remarkPlugins: [math],
+        editUrl: ({locale, blogDirPath, blogPath}) => {
+          if (locale !== 'en') {
+            return `https://crowdin.com/project/answer-website/zh-CN`;
+          }
+          return `https://github.com/apache/incubator-answer-website/edit/main/${blogDirPath}/${blogPath}`;
+        },
       },
     ],
     'docusaurus-plugin-sass',
@@ -167,7 +183,7 @@ const config = {
           if (locale !== 'en') {
             return `https://crowdin.com/project/answer-website/zh-CN`;
           }
-          return `https://github.com/apache/incubator-answer-website/edit/build-community/${versionDocsDirPath}/${docPath}`;
+          return `https://github.com/apache/incubator-answer-website/edit/main/${versionDocsDirPath}/${docPath}`;
         },
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
