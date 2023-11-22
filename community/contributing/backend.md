@@ -154,18 +154,7 @@ alt="repo-unit-test-coverage-rate"
 width="300"
 />
 
-### Translation
-All our translations are placed in the i18n directory.
-
-1. If you find that the corresponding key in the language you are using does not have a translation, you can submit your translation.
-2. If you want to submit a new language translation, please add your language to the `i18n.yaml` file.
-
-### Features or Plugin
-1. We developed the features for the plan based on the [roadmap](https://github.com/orgs/apache/projects/301). If you are suggestions for new functions, please confirm whether they have been planned.
-2. Plugins will be available in the future, so stay tuned.
-
 ## Notice
-### Modify the database table structure is very hard
 Usually, we don't want to modify the field that already exists in the database table.
 If you need to change it, follow these rules.
 1. Adding fields is better than modifying them.
