@@ -163,6 +163,14 @@ const config = {
         path: 'community',
         routeBasePath: 'community',
         sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        editUrl: ({locale, versionDocsDirPath, docPath}) => {
+          if (locale !== 'en') {
+            return `https://crowdin.com/project/answer-website/zh-CN`;
+          }
+          return `https://github.com/apache/incubator-answer-website/edit/build-community/${versionDocsDirPath}/${docPath}`;
+        },
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
       },
     ],
   ],
