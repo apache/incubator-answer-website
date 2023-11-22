@@ -8,7 +8,7 @@ slug: /contributing
 
 ## Code of conduct
 
-Answer has adopted a Code of Conduct that we expect project participants to adhere to. Please read the [full text](https://www.apache.org/foundation/policies/conduct.html) so that you can understand what actions will and will not be tolerated.
+Apache Answer has adopted a Code of Conduct that we expect project participants to adhere to. Please read the [full text](https://www.apache.org/foundation/policies/conduct.html) so that you can understand what actions will and will not be tolerated.
 
 ## Get involved
 
@@ -34,3 +34,13 @@ One great way you can contribute to the project without writing any code is to h
 - Suggest [labels](https://github.com/apache/incubator-answer/labels) that can help categorize issues.
 - Flag issues that are stale or that should be closed.
 - Ask for test plans and review code.
+
+## Development process
+
+Answer uses [GitHub](https://github.com/apache/incubator-answer) as its source of truth. The core team will be working directly there. All changes will be public from the beginning.
+
+All pull requests will be checked by the continuous integration system, GitHub actions. There are unit tests, and much more.
+
+### Branch organization
+
+Answer has one primary branch `main` and we use feature branches with deploy previews to deliver new features with pull requests.
