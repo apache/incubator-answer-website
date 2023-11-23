@@ -53,11 +53,11 @@ Bonus: for the top 3 accepted plugins contributions, you’ll also receive a bag
 
 ## Resources and FAQ
 
-Here's the gear you need before making a contribution, and we are always here to help ;)
+Here's the gear you need before making a contribution, and we are always here to help ;
 
-* Docs: <https://answer.apache.org/docs/>
-* Community: <https://meta.answer.dev/>
-* <dev@answer.apache.org>
+* Docs: https://answer.apache.org/docs/
+* Community: https://meta.answer.dev
+* dev@answer.apache.org
 
 1. How to show my digital badges on my GitHub?
 

@@ -6,7 +6,7 @@ slug: /faq
 
 ## 如何访问安装页面？
 
-请前往 <http://localhost:9080/install> 访问安装页面。
+请前往 http://localhost:9080/install 访问安装页面。
 
 ## 为什么我无法收到注册邮件？
 

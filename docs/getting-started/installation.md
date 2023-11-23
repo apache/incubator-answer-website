@@ -26,7 +26,7 @@ If you are using [Docker Desktop](https://www.docker.com/products/docker-desktop
 curl -fsSL https://raw.githubusercontent.com/answerdev/answer/main/docker-compose.yaml | docker compose -p answer -f - up
 ```
 
-The default port for Answer is `9080`. You can access it at <http://localhost:9080>.
+The default port for Answer is `9080`. You can access it at http://localhost:9080.
 
   </TabItem>
   <TabItem value="docker" label="Docker">
@@ -37,7 +37,7 @@ You can find all the available Docker images on [Docker Hub](https://hub.docker.
 docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:latest
 ```
 
-After running the command, heading to <http://localhost:9080/install> to continue installation.
+After running the command, heading to http://localhost:9080/install to continue installation.
 
 :::tip
 
@@ -54,7 +54,7 @@ As a golang project, Answer can be compiled into a binary file. You can download
 INSTALL_PORT=80 ./answer init -C ./answer-data/
 ```
 
-After running the command, heading to <http://localhost:80/install> to continue installation.
+After running the command, heading to http://localhost:80/install to continue installation.
 
 Follow the [Install Steps](#install-steps) to complete the installation. **After that** run the following command to start the answer again.
 

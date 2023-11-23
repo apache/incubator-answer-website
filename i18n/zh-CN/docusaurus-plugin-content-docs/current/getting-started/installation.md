@@ -24,7 +24,7 @@ import TabItem from '@theme/TabItem';
 curl -fsSL https://raw.githubusercontent.com/answerdev/answer/main/docker-compose.yaml | docker compose -p answer -f - up
 ```
 
-Answer 的默认端口为 `9080`。你可以在 <http://localhost:9080> 访问它。
+Answer 的默认端口为 `9080`。你可以在 http://localhost:9080 访问它。
 
   </TabItem>
   <TabItem value="docker" label="Docker">
@@ -35,7 +35,7 @@ Answer 的默认端口为 `9080`。你可以在 <http://localhost:9080> 访问�
 docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:latest
 ```
 
-运行该命令后，请前往 <http://localhost:9080/install> 继续安装流程。
+运行该命令后，请前往 http://localhost:9080/install 继续安装流程。
 
 :::tip
 如果你无法访问安装页面，可以使用命令 `docker logs answer` 查看日志。它可能有助于你找到具体的问题
@@ -50,7 +50,7 @@ docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:lat
 INSTALL_PORT=80 ./answer init -C ./answer-data/
 ```
 
-运行该命令后，请前往 <http://localhost:80/install> 继续安装流程。
+运行该命令后，请前往 http://localhost:80/install 继续安装流程。
 
 按照 [安装步骤](#install-steps) 完成安装。**之后**运行以下命令再次启动 Answer。
 
