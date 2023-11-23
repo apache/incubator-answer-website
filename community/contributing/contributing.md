@@ -66,7 +66,8 @@ Anyone can contribute to Answer. In addition to contributing code, there are man
 
 **Others**
 
-- Got new ideas? Feel free to reach us.
+- Got new ideas? All contributions are very welcome.
+- If you think you need help planning your contribution, please [reach us](/community/#others) and let us know you are looking for a bit of help.
 
 <!-- There are many ways to contribute to Answer, and many of them do not involve writing any code. Here's a few ideas to get started:
 
@@ -76,7 +77,6 @@ Anyone can contribute to Answer. In addition to contributing code, there are man
 - Read through the [Answer docs](/docs). If you find anything that is confusing or can be improved, you can click "Edit this page" at the bottom of most docs, which takes you to the GitHub interface to make and propose changes.
 - Take a look at the [features requested](https://github.com/apache/incubator-answer/labels/enhancement) by others in the community and consider opening a pull request if you see something you want to work on. -->
 
-Contributions are very welcome. If you think you need help planning your contribution, please ping us on Twitter at [@answerdev](https://twitter.com/answerdev) and let us know you are looking for a bit of help.
 
 ## Development process
 
