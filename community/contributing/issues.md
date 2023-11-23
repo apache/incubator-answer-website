@@ -14,8 +14,6 @@ There are some repos in the Answer project, you can raise your issue for differe
 
 When opening a new issue, always make sure to fill out the issue template. **This step is very important!** Not doing so may result in your issue not being managed in a timely fashion. Don't take this personally if this happens, and feel free to open a new issue once you've gathered all the information required by the template.
 
-**Please don't use the GitHub issue tracker for questions.** If you have questions about using Answer, you can ask them on [Answer Meta](https://meta.answer.dev). We will do our best to answer your questions.
-
 **Please don't use the GitHub issue tracker for questions.** Instead, you can ask your questions on [Answer Meta](https://meta.answer.dev), and we'll do our best to provide you with the answers you need.
 
 ## Bugs
@@ -23,6 +21,7 @@ When opening a new issue, always make sure to fill out the issue template. **Thi
 If you find a bug, the first thing to do is to search the issues to see if someone has already reported it. If so, please add any additional information as a comment on the existing issue.
 
 If no existing issue exists, please open a new issue and fill out the issue template completely. The more information you provide, the more likely it is that your issue will be resolved quickly. Please include the following with each issue:
+
 - A clear description of the problem
 - A screenshot of the problem (if applicable)
 - Steps to reproduce the problem
@@ -31,7 +30,6 @@ If no existing issue exists, please open a new issue and fill out the issue temp
 - The version of your browser (if the issue is frontend-related)
 - The operating system you are using (if the issue is backend-related)
 - Any other details you think are relevant
-
 
 ## Security bugs
 
@@ -44,11 +42,12 @@ We appreciate your feedback and ideas. If you have a feature request, please fil
 If we think the feature request is a good idea, we'll add it to the roadmap and set the milestone. If you want to implement it, comment on the issue, and we'll assign it to you.
 
 ## Issues Labels
+
 We use labels to categorize issues.
 
-- bug: Issues that are bugs.
-- enhancement: Issues that are feature requests.
-- good first issue: Issues that are good for beginners.
-- help wanted: Issues that are open to help from the community.
-- invalid: Issues that are invalid.
-- duplicate: Issues that are duplicates of other issues.
+- `bug`: Issues that are bugs.
+- `enhancement`: Issues that are feature requests.
+- `good first issue`: Issues that are good for beginners.
+- `help wanted`: Issues that are open to help from the community.
+- `invalid`: Issues that are invalid.
+- `duplicate`: Issues that are duplicates of other issues.

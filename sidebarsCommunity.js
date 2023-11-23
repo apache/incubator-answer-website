@@ -12,23 +12,10 @@ module.exports = {
       collapsed: false,
       items: [
         'contributing/issues',
-        {
-          type: 'category',
-          label: 'Development',
-          link: {
-            type: 'doc',
-            id: 'contributing/development',
-          },
-          collapsed: true,
-          items: [
-            'contributing/backend',
-            'contributing/frontend',
-            'contributing/development',
-            'contributing/plugins',
-          ],
-        },
+        'contributing/development',
         'contributing/pull-request',
         'contributing/plugins',
+        'contributing/translation',
       ],
     },
     'how-to-release',

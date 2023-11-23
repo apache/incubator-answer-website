@@ -7,7 +7,7 @@ slug: /plugins
 
 ## Plugin types
 
-目前我们总共有三种类型的插件
+Currently we have three types of plugins:
 
 - Backend
 - Builtin plugin
@@ -72,7 +72,7 @@ This plugin is suitable for the following scenarios
 1. A plug-in that can independently complete some UI functions and does not require back-end support;
 2. The code needs to be isolated to prevent confusion with the main site;
 
-Existing examples：[editor-chart](https://github.com/apache/incubator-answer-plugins/blob/main/editor-chart)、[editor-formula](https://github.com/apache/incubator-answer-plugins/tree/main/editor-formula).
+Existing examples:[editor-chart](https://github.com/apache/incubator-answer-plugins/blob/main/editor-chart)、[editor-formula](https://github.com/apache/incubator-answer-plugins/tree/main/editor-formula).
 
 In order to simplify the development and compilation process, we use [workspace](https://pnpm.io/next/workspaces) to manage this independent front-end warehouse.
 
@@ -89,7 +89,7 @@ The **name** field in package.json is the name of the package we add dependencie
 "editor-chart" ❌
 
 :::
-- Go to the `ui/src/plugins` directory and create a directory，such as editor_chart, then add the components you want to develop, then modify the `ui/src/plugins/index.ts` file to export your components; **changes here during the release phase do not need to be submitted**.
+- Go to the `ui/src/plugins` directory and create a directory, such as editor_chart, then add the components you want to develop, then modify the `ui/src/plugins/index.ts` file to export your components; **changes here during the release phase do not need to be submitted**.
 
 ```
 export { default as  editor_chart } from 'editor_chart';

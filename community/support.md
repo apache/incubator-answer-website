@@ -7,19 +7,19 @@ Hey there! Welcome to Answer, a Q&A platform software. We've got a bunch of curi
 
 If you're having trouble finding an answer to your question, check out our [community](#answer-meta), [documentations](/docs), [issues](/community/issues), or [mailing list](#mailing-list). If you find a question that you can answer, please do! Even if your answer isn't perfect, our volunteers will be happy to help you fill in the gaps.
 
-If you're still having trouble after checking our documentation and other resources, feel free to [contact us](#none-of-the-above). Since our users and contributors come from all over the world, so we recommend using English as primary communication language for the best possible assistance.
+If you're still having trouble after checking our documentation and other resources, feel free to [contact us](#others). Since our users and contributors come from all over the world, so we recommend using English as primary communication language for the best possible assistance.
 
 ## Answer Meta
 
 Answer is all about questions and answers, as its official community, Answer Meta is the best place to discuss any issues you’re having with the platform, share experience, or help others by answering their questions. Answer Meta is also a great way to keep track of questions and answers, and it helps to ensure that the content is always up-to-date.
 
-<a href="https://meta.answer.dev" class="btn btn-outline-primary">Discussion forums</a>
+<a href="https://meta.answer.dev" class="btn btn-primary"><i class="bi bi-chat-square-text-fill me-2"></i>Discussion forums</a>
 
 ## Mailing list
 
 We use email because it’s a great way to keep everyone in loop. Before sending an email, you can search the mailing list archives beforehand to see if there are any previous related discussions about your question.
 
-| Name | Description | Subscribe | Unsubscribe | Archive |
+| Name | Description | Subscribe | Unsubscribe | Archives |
 | --- | --- | --- | --- | --- |
 | <dev@answer.apache.org> | Community discussion | [Subscribe](mailto:dev-subscribe@answer.apache.org) | [Unsubscribe](mailto:dev-subscribe@answer.apache.org) | [Archives](https://lists.apache.org/list.html?dev@answer.apache.org) |
 | <commits@answer.apache.org> | Code repo update | [Subscribe](mailto:commits-subscribe@answer.apache.org) | [Unsubscribe](mailto:commits-unsubscribe@answer.apache.org) | [Archives](https://lists.apache.org/list.html?commits@answer.apache.org) |
@@ -29,8 +29,6 @@ Kindly note that, if you're not subscribed to the mailing list, you won't receiv
 ## Others
 
 For the latest news about Answer, [follow @answerdev on Twitter](https://twitter.com/answerdev) and the [official blog](/blog) on this website. You can also reach us via [Discord](https://discord.gg/a6PZZbfnFx), but due to the size of our team, we can't guarantee an instant response. Thanks for your understanding.
-
-## None of the above
 
 If you don't find what you're looking for, please use the form below to submit your request. We'll try and get back to you as soon as possible.
 
