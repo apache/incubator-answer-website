@@ -1,8 +1,12 @@
+---
+slug: /how-to-release
+---
+
 # How to Release
 
 All Apache projects are required to follow the [Apache Release Policy](https://www.apache.org/legal/release-policy.html). This guide is intended to help you understand the policy and how to release projects at Apache.
 
-## Release Process
+## Release process
 
 1. Prepare all the release artifacts.
 2. Upload the release artifacts to the svn repository.

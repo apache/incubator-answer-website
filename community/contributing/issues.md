@@ -41,7 +41,7 @@ We appreciate your feedback and ideas. If you have a feature request, please fil
 
 If we think the feature request is a good idea, we'll add it to the roadmap and set the milestone. If you want to implement it, comment on the issue, and we'll assign it to you.
 
-## Issues Labels
+## Issues labels
 
 We use labels to categorize issues.
 
