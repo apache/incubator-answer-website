@@ -40,7 +40,7 @@ Once you get comfortable with the answer, you can copy the configuration file di
 :::
 
 ```shell
-# Frontend compilation(Recommend). If you encounter problems, please refer to the frontend related documentation
+# Frontend compilation(Recommend). If you encounter problems, please refer to the frontend related [documentation](https://answer.dev/docs/development/contributing/frontend/)
 $ make ui
 # enter into dir
 $ cd cmd/answer/
@@ -50,9 +50,12 @@ $ go build .
 
 ### Run
 #### Install
-> If this is your first time starting the Answer, you need to follow the steps to install. If not, you can skip this step.
+> If this is your first time starting the Answer, you need to follow the steps to install. If not, you can skip this step. Please make sure you have completed the build.
 
 ```shell
+$ cd cmd/answer/
+$ mkdir ./answer-data/config
+$ cp ../../configs/config.yaml ./answer-data/config/
 # init environment
 $ ./answer init -C ./answer-data/
 ```
