@@ -63,9 +63,9 @@ module.exports = {
             'development/extending/plugin-for-ui',
           ],
         },
-        'development/notice',
       ],
     },
+    'notice',
     'faq',
   ],
 };
