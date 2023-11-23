@@ -1,6 +1,10 @@
 ---
 slug: /
 ---
+
+import HubspotForm from 'react-hubspot-form';
+import { Spinner } from 'react-bootstrap';
+
 # Support
 
 Hey there! Welcome to Answer, a Q&A platform software. We've got a bunch of curious and helpful users who are always willing to give a hand.
@@ -32,4 +36,16 @@ For the latest news about Answer, [follow @answerdev on Twitter](https://twitter
 
 If you don't find what you're looking for, please use the form below to submit your request. We'll try and get back to you as soon as possible.
 
-<!-- iframe https://share.hsforms.com/1eE-U5pv9T16uulukBWPejAe14rk -->
+  <HubspotForm
+      portalId="23567456"
+      formId="784f94e6-9bfd-4f5e-aeba-5ba40563de8c"
+      loading={<div className='text-center'>
+        <Spinner animation="border" role="status" variant="secondary">
+          <span className="visually-hidden">
+            <Translate id="loading">
+              Loading...
+            </Translate>
+          </span>
+        </Spinner>
+      </div> }
+    />
