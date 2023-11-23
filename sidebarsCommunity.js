@@ -16,9 +16,9 @@ module.exports = {
         'contributing/pull-request',
         'contributing/plugins',
         'contributing/translation',
+        'contributing/how-to-release',
       ],
     },
-    'how-to-release',
     {
       type: 'link',
       href: 'https://meta.answer.dev',
