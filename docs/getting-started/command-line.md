@@ -24,16 +24,19 @@ Usage:
   answer [command]
 
 Available Commands:
+  build       used to build answer with plugins
   check       checking the required environment
   dump        back up data
   help        Help about any command
   init        init answer application
+  plugin      prints all plugins packed in the binary
   run         Run the application
-  upgrade     Upgrade the application
+  upgrade     upgrade Answer version
 
 Flags:
-  -h, --help      help for answer
-  -v, --version   version for answer
+  -C, --data-path string   data path, eg: -C ./data/ (default "/data/")
+  -h, --help               help for answer
+  -v, --version            version for answer
 
 Use "answer [command] --help" for more information about a command.
 ```
@@ -90,3 +93,25 @@ All global options can be placed at the command level.
   - `--path` path, `-p` path: dump data path. Optional. (default: ./)
 - Examples
   - `answer dump -p /tmp/`
+
+### build
+> build a new Answer with plugins.
+
+- Options
+  - `--with` the field name of plugin. Required.
+- Examples
+  - `answer build --with plugin1 --with plugin2`
+
+### plugin
+> prints all plugins packed in the binary.
+
+- Examples
+  - `answer plugin`
+
+### config
+> restore some config value to default.
+
+- Options
+  - `--with` the field name of config. Required.
+- Examples
+  - `answer config -C ./data/ --with allow_password_login`
