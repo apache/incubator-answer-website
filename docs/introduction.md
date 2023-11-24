@@ -4,10 +4,9 @@ slug: /
 
 # Introduction
 
-Answer helps you to build a community between your users and your team.
-It's a place where you can share your knowledge and help your users to solve their problems.
+Apache Answer helps you to build a community between your users and your team. It's a place where you can share your knowledge and help your users to solve their problems.
 
-Main features:
+## Features
 
 - **Questions and answers** - Ask questions and get answers from your users and your team.
 - **Content organization** - Organize your content into categories and tags.
@@ -19,10 +18,8 @@ Main features:
 
 ## Architecture
 
-### Separating the frontend and backend
+Separating the frontend and backend. Answer is a monorepo that contains both the frontend and the backend.
 
-Answer is a monorepo that contains both the frontend and the backend.
-
-## UI Preview
+## Screenshot
 
 ![screenshot](/img/screenshot.png)

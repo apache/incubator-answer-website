@@ -78,17 +78,17 @@ $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 ### Vote email template
 
 ```text
-[VOTE] Release Apache Answer(Incubating) {release-version}
+[VOTE] Release Apache Answer (Incubating) {release-version}
 
 Hello,
 
-    This is a call for vote to release Apache Answer(Incubating) version {release-version}.
+    This is a call for vote to release Apache Answer (Incubating) version {release-version}.
 
     The vote thread:
-        https://lists.apache.org/thread/xxxxxx
+        https://lists.apache.org/thread/{id}
 
     Vote Result:
-        https://lists.apache.org/thread/xxxxxx
+        https://lists.apache.org/thread/{id}
 
     The release candidates:
         https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}/
@@ -100,7 +100,7 @@ Hello,
         https://github.com/apache/incubator-answer/releases/tag/{release-version}
     
     Git commit id for the release:
-        https://github.com/apache/incubator-answer/commit/xxxxxxxxxxx
+        https://github.com/apache/incubator-answer/commit/{id}
 
     Keys to verify the Release Candidate:
         https://dist.apache.org/repos/dist/dev/incubator/answer/KEYS
