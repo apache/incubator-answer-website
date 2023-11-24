@@ -12,6 +12,7 @@ All Apache projects are required to follow the [Apache Release Policy](https://w
 2. Upload the release artifacts to the svn repository.
 3. Verify the release artifacts.
 4. Vote on the release.
+5. Announce the vote result and release.
 
 ## Prepare all the release artifacts
 
@@ -28,7 +29,7 @@ All Apache projects are required to follow the [Apache Release Policy](https://w
 
 ## Verify the release artifacts
 
-Basic check items:
+Following is the basic check items for the release artifacts.
 
 - [ ] Download links are valid.
 - [ ] Checksums and PGP signatures are valid.
@@ -53,6 +54,8 @@ gpg> quit
 
 # verify the signature
 $ for i in *.tar.gz; do echo $i; gpg --verify $i.asc $i ; done
+
+# if you see 'Good signature' in the output, it means the signature is valid.
 ```
 
 ### How to verify the checksums
@@ -64,12 +67,12 @@ $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 
 ## Vote on the release
 
-1. Send a vote email to the <dev@answer.apache.org>. Incubator need to first do a vote on their dev list and that vote requires at least 3 +1s from Answer PPMC members.
-2. Wait for at least 72 hours or until the necessary number of votes are reached.
+1. Send a vote email to the <dev@answer.apache.org>. Incubator need to first do a vote on their dev list and that vote requires at least **3 +1s from Answer PPMC members**.
+2. Wait for at **least 72 hours** or until the necessary number of votes are reached.
 3. Announce the result of the vote on the dev list.
-4. If the dev vote passes, send email to the <general@incubator.apache.org> to request a vote on the general list. The incubator vote needs at least 3 +1s from Incubator PMC members
+4. If the dev vote passes, send email to the <general@incubator.apache.org> to request a vote on the general list. The incubator vote needs at least **3 +1s from Incubator PMC members**
    (binding votes).
-5. Wait for at least 72 hours or until the necessary number of votes are reached.
+5. Wait for at **least 72 hours** or until the necessary number of votes are reached.
 6. Announce the result of the vote on the dev list.
 
 ### Vote email template
@@ -126,3 +129,9 @@ Hello,
 Thanks,
 <YOUR NAME>
 ```
+
+## Note
+### RC Tag
+When you want to release a new version, you need to create a new RC tag in the git repository firstly. The tag name should be `v{release-version}-rc{rc-version}`. This has the advantage of avoiding tag deletion. 
+
+For example, if you want to release version `1.2.0`, you need to create a tag named `v1.2.0-RC1`. RC means Release Candidate. After the release vote is passed, you need to create a new tag named `v1.2.0` based on the RC tag. However, if the vote is not passed, you can fix the problems and create a new RC tag such as `v1.2.0-RC2` and start a new vote.
