@@ -45,9 +45,13 @@ If we think the feature request is a good idea, we'll add it to the roadmap and 
 
 We use labels to categorize issues.
 
-- `bug`: Issues that are bugs.
-- `enhancement`: Issues that are feature requests.
-- `good first issue`: Issues that are good for beginners.
-- `help wanted`: Issues that are open to help from the community.
-- `invalid`: Issues that are invalid.
-- `duplicate`: Issues that are duplicates of other issues.
+- `bug`: Something isn't working.
+- `enhancement`: New feature or request.
+- `good first issue`: Good for newcomers.
+- `help wanted`: Extra attention is needed, open to help from the community.
+- `invalid`: This doesn't seem right.
+- `duplicate`: This issue or pull request already exists.
+- `security`: This is a security issue.
+- `wontfix`: This will not be worked on.
+- `question`: Further information is requested.
+- `documentation`: Improvements or additions to documentation.

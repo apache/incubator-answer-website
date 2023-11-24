@@ -19,7 +19,7 @@ Becoming a contributor means you are interested in and contribute to the project
 
 ### Committer
 
-Committers have read-write access to the code repository, have signed the Contributor License Agreement (CLA), and have an email address at `@apache.org`. They can directly patch the code or documentation, and the Project Management Committee (PMC) will generally approve these changes by default, or reject them. Of course, the final decision is made by the PMC, not the committer individually.
+Committers have read-write access to the code repository, have signed the Contributor License Agreement (CLA), and have an `@apache.org` email address. They can directly patch the code or documentation, and the Project Management Committee (PMC) will generally approve these changes by default, or reject them. Of course, the final decision is made by the PMC, not the committer individually.
 
 There's no set timeline or specific code contribution requirement to become a committer, long-term active contributors are typically considered strong candidates. The Apache Software Foundation embraces diverse contributions, so anyone who supports the community and is following the CoPDoC (Contributing to Apache Projects by Doing the Right Thing) is a potential candidate for committership.
 
