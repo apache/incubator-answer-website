@@ -74,15 +74,6 @@ Anyone can contribute to Answer. In addition to contributing code, there are man
 - Got new ideas? All contributions are very welcome.
 - If you think you need help planning your contribution, please [reach us](/community/#others) and let us know you are looking for a bit of help.
 
-<!-- There are many ways to contribute to Answer, and many of them do not involve writing any code. Here's a few ideas to get started:
-
-- Simply start using Answer. Go through the [Getting Started](/docs/installation) guide. Does everything work as expected? If not, we're always looking for improvements. Let us know by [opening an issue](/community/issues).
-- Look through the [open issues](https://github.com/apache/incubator-answer/issues). Provide workarounds, ask for clarification, or suggest labels. Help [triage issues](#triaging-issues-and-pull-requests).
-- If you find an issue you would like to fix, [open a pull request](/community/pull-request). Issues tagged as [Good first issue](https://github.com/apache/incubator-answer/labels/good%20first%20issue) are a good place to get started.
-- Read through the [Answer docs](/docs). If you find anything that is confusing or can be improved, you can click "Edit this page" at the bottom of most docs, which takes you to the GitHub interface to make and propose changes.
-- Take a look at the [features requested](https://github.com/apache/incubator-answer/labels/enhancement) by others in the community and consider opening a pull request if you see something you want to work on. -->
-
-
 ## Development process
 
 Answer uses [GitHub](https://github.com/apache/incubator-answer) as its source of truth. The core team will be working directly there. All changes will be public from the beginning.
