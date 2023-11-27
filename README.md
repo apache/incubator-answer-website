@@ -3,15 +3,16 @@
 Answer official website is built using [Docusaurus](https://docusaurus.io/), and we use [pnpm](https://pnpm.io/) to manage dependencies.
 
 ```txt
-Directory description
-
-|- blog       # blog posts
-|- community  # community docs
-|- docs       # using docs
-|- i18n       # translation files
-|- plugins    # plugin config
-|- src        # components, custom css and pages
-`- static     # static files
+# Directory description
+.
+├── blog       # blog posts
+├── community  # community docs
+├── docs       # using docs
+├── i18n       # translation files
+├── plugins    # plugin config
+├── src        # components, custom css and pages
+├── static     # static files
+└── ...
 ```
 
 ## Installation

@@ -21,7 +21,7 @@ module.exports = {
     },
     {
       type: 'link',
-      href: 'https://meta.answer.dev',
+      href: 'https://github.com/apache/incubator-answer/issues',
       label: 'Feature Request',
     },
     {

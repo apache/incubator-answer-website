@@ -36,7 +36,7 @@ Anyone can contribute to Answer. In addition to contributing code, there are man
 **Contributing code**
 
 - Claim the issue if you find one that you can solve. Create a [pull request](/community/pull-request) to submit your changes.
-- Issues labeled as [`good first issue`](https://github.com/apache/incubator-answer/labels/good%20first%20issue)" are great for getting started.
+- Issues labeled as [`good first issue`](https://github.com/apache/incubator-answer/labels/good%20first%20issue) are great for getting started.
 
 **Improving documentations**
 
