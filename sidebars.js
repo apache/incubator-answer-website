@@ -44,27 +44,7 @@ module.exports = {
         'guides/settings',
       ],
     },
-    {
-      type: 'category',
-      label: 'Development',
-      collapsed: true,
-      items: [
-        {
-          type: 'category',
-          label: 'Plugins',
-          link: {
-            type: 'doc',
-            id: 'development/extending/plugins',
-          },
-          collapsed: false,
-          items: [
-            'development/extending/plugin-config',
-            'development/extending/plugin-translation',
-            'development/extending/plugin-for-ui',
-          ],
-        },
-      ],
-    },
+    'development/extending/plugins',
     'notice',
     'faq',
   ],

@@ -14,7 +14,20 @@ module.exports = {
         'contributing/issues',
         'contributing/development',
         'contributing/pull-request',
-        'contributing/plugins',
+        {
+          type: 'category',
+          label: 'Plugins',
+          link: {
+            type: 'doc',
+            id: 'contributing/plugins',
+          },
+          collapsed: true,
+          items: [
+            'contributing/plugins/plugin-config',
+            'contributing/plugins/plugin-for-ui',
+            'contributing/plugins/plugin-translation',
+          ],
+        },
         'contributing/translation',
         'contributing/how-to-release',
       ],

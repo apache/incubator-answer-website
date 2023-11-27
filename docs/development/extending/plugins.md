@@ -31,6 +31,8 @@ You can find a list of officially supported plugins for Answer [here](https://gi
 ### Prerequisites
 - Original Answer binary
 - [Golang](https://go.dev/) `>=1.18`
+- [Node.js](https://nodejs.org/) `>=16.17`
+- [pnpm](https://pnpm.io/) `>=7`
 
 ### Command
 :::tip
@@ -87,124 +89,9 @@ We recommend the use of [official plugins](https://github.com/apache/incubator-a
 ## Upgrade
 You just need to recompile and use the latest version of the plugin.
 
-## Develop
-:::tip
-Viewing the [official plugin](https://github.com/apache/incubator-answer-plugins) code will make you to quickly understand and learn plugin development.
-:::
-
-### Backend Development
-#### Implement the base 
-> The `Base` interface contains basic information about the plugin and is used to display.
-
-```go
-// Info presents the plugin information
-type Info struct {
-	Name        Translator
-	SlugName    string
-	Description Translator
-	Author      string
-	Version     string
-	Link        string
-}
-
-// Base is the base plugin
-type Base interface {
-	// Info returns the plugin information
-	Info() Info
-}
-```
-
-:::caution
-The `SlugName` of the plugin must be unique. Two plugins with the same `SlugName` will panic when registering.
-:::
-
-#### Implement the function interface
-:::note
-Different plugin types require different interfaces of implementation.
-
-For example, following is the `Connector` plugin interface. 
-:::
-
-```go
-type Connector interface {
-    Base
-    
-    // ConnectorLogoSVG presents the logo in svg format
-    ConnectorLogoSVG() string
-    
-    // ConnectorName presents the name of the connector
-    // e.g. Facebook, Twitter, Instagram
-    ConnectorName() Translator
-    
-    // ConnectorSlugName presents the slug name of the connector
-    // Please use lowercase and hyphen as the separator
-    // e.g. facebook, twitter, instagram
-    ConnectorSlugName() string
-    
-    // ConnectorSender presents the sender of the connector
-    // It handles the start endpoint of the connector
-    // receiverURL is the whole URL of the receiver
-    ConnectorSender(ctx *GinContext, receiverURL string) (redirectURL string)
-    
-    // ConnectorReceiver presents the receiver of the connector
-    // It handles the callback endpoint of the connector, and returns the
-    ConnectorReceiver(ctx *GinContext, receiverURL string) (userInfo ExternalLoginUserInfo, err error)
-}
-```
-
-:::tip
-`Translator` is a struct for translation. Please refer to [the documentation](/docs/plugins/plugin-translation) for details.
-:::
-
-
-#### Implement the configuration interface
-For details on the description of each configuration item, please refer to [the documentation](/docs/plugins/plugin-config).
-
-```go
-type Config interface {
-	Base
-
-	// ConfigFields returns the list of config fields
-	ConfigFields() []ConfigField
-
-	// ConfigReceiver receives the config data, it calls when the config is saved or initialized.
-	// We recommend to unmarshal the data to a struct, and then use the struct to do something.
-	// The config is encoded in JSON format.
-	// It depends on the definition of ConfigFields.
-	ConfigReceiver(config []byte) error
-}
-```
-
-#### Register initialization function
-```go
-import "github.com/apache/incubator-answer/plugin"
-
-func init() {
-	plugin.Register(&GitHubConnector{
-		Config: &GitHubConnectorConfig{},
-	})
-}
-```
-
-#### Debugging tips
-:::tip
-During the development and debugging phase, you can use the following tips to avoid repetitive packaging.
-:::
-
-1. Use answer source code for development.
-2. Write your plugin directly in the plugin directory.
-3. Import your plugin in the main function
-
-After that you just need to start the answer project normally and it will contain the plugins you developed.
-
-
-## Contributing
-For plugin types that have not been implemented yet, please wait for the official implementation to be completed before contributing.
-For existing plugin types, you can follow the steps below to contribute the plugin implementation to us. 
-
-1. Submit an issue request to ensure that the official is not developing the same plug-in as you.
-2. Get confirmation that you can develop your plugin, test it and submit a PR.
-3. Wait for the PR merge, the official will include your plugin.
+## Develop and Contributing
+Please refer to [the documentation](/community/plugins) for details.
 
 ## Design & Principle
 Since Golang is a static language, there is no friendly plugin mechanism. So instead of a dynamic approach, we use recompilation for deployment.
+Please refer to [the blog](/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way) for details.
