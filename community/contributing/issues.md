@@ -45,13 +45,15 @@ If we think the feature request is a good idea, we'll add it to the roadmap and 
 
 We use labels to categorize issues.
 
-- `bug`: Something isn't working.
-- `enhancement`: New feature or request.
-- `good first issue`: Good for newcomers.
-- `help wanted`: Extra attention is needed, open to help from the community.
-- `invalid`: This doesn't seem right.
-- `duplicate`: This issue or pull request already exists.
-- `security`: This is a security issue.
-- `wontfix`: This will not be worked on.
-- `question`: Further information is requested.
-- `documentation`: Improvements or additions to documentation.
+| Label | Description |
+| --- | --- |
+| `bug` | Indicates an unexpected problem or unintended behavior |
+| `documentation` | Indicates a need for improvements or additions to documentation |
+| `duplicate` | Indicates similar issues, pull requests, or discussions |
+| `enhancement` | Indicates new feature requests |
+| `good first issue` | Indicates a good issue for first-time contributors |
+| `help wanted` | Indicates that a maintainer wants help on an issue or pull request |
+| `invalid` | Indicates that an issue, pull request, or discussion is no longer relevant |
+| `question` | Indicates that an issue, pull request, or discussion needs more information |
+| `wontfix` | Indicates that work won't continue on an issue, pull request, or discussion |
+| `security` | Indicates a issue about security |
