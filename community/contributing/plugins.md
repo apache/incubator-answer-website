@@ -207,7 +207,7 @@ In order to simplify the development and compilation process, we use [workspace]
   export { default as  editor_chart } from 'editor_chart';
   ```
 
-3. 运行 `pnpm pre-install`, and 重新运行 `pnpm start`, 最后在你需要加载这个插件的页面调用一下 PluginKit 中 changePluginActiveStatus 方法来激活插件。 **Changes here during the release phase do not need to be submitted**.
+3. Run `pnpm pre-install`, and re-run `pnpm start`, and finally call the changePluginActiveStatus method in PluginKit on the page where you need to load the plugin to activate the plugin. **Changes here during the release phase do not need to be submitted**.
 
   ```ts
   import PluginKit from '@/utils/pluginKit';

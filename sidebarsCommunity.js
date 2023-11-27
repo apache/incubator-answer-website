@@ -24,7 +24,6 @@ module.exports = {
           collapsed: true,
           items: [
             'contributing/plugins/plugin-config',
-            'contributing/plugins/plugin-for-ui',
             'contributing/plugins/plugin-translation',
           ],
         },
