@@ -44,7 +44,7 @@ module.exports = {
         'guides/settings',
       ],
     },
-    'development/extending/plugins',
+    'development/plugins',
     'notice',
     'faq',
   ],

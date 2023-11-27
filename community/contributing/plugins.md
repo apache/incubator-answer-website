@@ -6,50 +6,57 @@ slug: /plugins
 # Contribute for Plugins
 
 :::tip
-Viewing the official plugin code will make you to quickly understand and learn plugin development.
 
-https://github.com/apache/incubator-answer-plugins
+Viewing the [**official plugin code**](https://github.com/apache/incubator-answer-plugins) will make you to quickly understand and learn plugin development.
+
 :::
 
 ## Plugin types
 
 Currently we have three types of plugins:
 
-- Only Backend plugin 
+- Only Backend plugin
 - Frontend Builtin plugin
 - Standard UI plugin
 
 ## Backend plugin
+
 ### Implement the Base interface
-> The `Base` interface contains basic information about the plugin and is used to display.
+
+The `Base` interface contains basic information about the plugin and is used to display.
 
 ```go
 // Info presents the plugin information
 type Info struct {
-	Name        Translator
-	SlugName    string
-	Description Translator
-	Author      string
-	Version     string
-	Link        string
+    Name        Translator
+    SlugName    string
+    Description Translator
+    Author      string
+    Version     string
+    Link        string
 }
 
 // Base is the base plugin
 type Base interface {
-	// Info returns the plugin information
-	Info() Info
+    // Info returns the plugin information
+    Info() Info
 }
 ```
 
 :::caution
+
 The `SlugName` of the plugin must be unique. Two plugins with the same `SlugName` will panic when registering.
+
 :::
 
 ### Implement the function interface
+
 :::note
+
 Different plugin types require different interfaces of implementation.
 
 For example, following is the `Connector` plugin interface.
+
 :::
 
 ```go
@@ -80,42 +87,48 @@ type Connector interface {
 ```
 
 :::tip
+
 `Translator` is a struct for translation. Please refer to [the documentation](/docs/plugins/plugin-translation) for details.
+
 :::
 
-
 ### Implement the configuration interface
-For details on the description of each configuration item, please refer to [the documentation](/docs/plugins/plugin-config).
+
+For details on the description of each configuration item, please refer to [the documentation](/community/plugins/plugin-config).
 
 ```go
 type Config interface {
-	Base
+    Base
 
-	// ConfigFields returns the list of config fields
-	ConfigFields() []ConfigField
+    // ConfigFields returns the list of config fields
+    ConfigFields() []ConfigField
 
-	// ConfigReceiver receives the config data, it calls when the config is saved or initialized.
-	// We recommend to unmarshal the data to a struct, and then use the struct to do something.
-	// The config is encoded in JSON format.
-	// It depends on the definition of ConfigFields.
-	ConfigReceiver(config []byte) error
+    // ConfigReceiver receives the config data, it calls when the config is saved or initialized.
+    // We recommend to unmarshal the data to a struct, and then use the struct to do something.
+    // The config is encoded in JSON format.
+    // It depends on the definition of ConfigFields.
+    ConfigReceiver(config []byte) error
 }
 ```
 
 ### Register initialization function
+
 ```go
 import "github.com/apache/incubator-answer/plugin"
 
 func init() {
-	plugin.Register(&GitHubConnector{
-		Config: &GitHubConnectorConfig{},
-	})
+    plugin.Register(&GitHubConnector{
+        Config: &GitHubConnectorConfig{},
+    })
 }
 ```
 
 ### Debugging tips
+
 :::tip
+
 During the development and debugging phase, you can use the following tips to avoid repetitive packaging.
+
 :::
 
 1. Use answer source code for development.
@@ -183,7 +196,7 @@ This plugin is suitable for the following scenarios
 1. A plug-in that can independently complete some UI functions and does not require back-end support;
 2. The code needs to be isolated to prevent confusion with the main site;
 
-Existing examples:[editor-chart](https://github.com/apache/incubator-answer-plugins/blob/main/editor-chart), [editor-formula](https://github.com/apache/incubator-answer-plugins/tree/main/editor-formula).
+Existing examples:[editor-chart](https://github.com/apache/incubator-answer-plugins/tree/main/editor-chart), [editor-formula](https://github.com/apache/incubator-answer-plugins/tree/main/editor-formula).
 
 In order to simplify the development and compilation process, we use [workspace](https://pnpm.io/next/workspaces) to manage this independent front-end warehouse.
 
@@ -193,10 +206,9 @@ In order to simplify the development and compilation process, we use [workspace]
 
   :::info
 
-  The **name** field in package.json is the name of the package we add dependencies to; do not use ‘-’ to connect this field naming, please use ‘_’; for example:
+  The **name** field in package.json is the name of the package we add dependencies to; do not use `-` to connect this field naming, please use `_`; for example:
 
-  "editor_chart" ✅
-
+  "editor_chart" ✅  
   "editor-chart" ❌
 
   :::
