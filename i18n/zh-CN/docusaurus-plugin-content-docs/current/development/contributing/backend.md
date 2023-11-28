@@ -184,7 +184,7 @@ width="300"
 
 ### 新功能或插件
 
-1. 我们根据 [路线图](https://github.com/orgs/apache/projects/301) 开发计划开发功能。如果你有新功能的建议，请确认它们是否已经计划中。
+1. 我们根据 [路线图](https://github.com/apache/incubator-answer/projects) 开发计划开发功能。如果你有新功能的建议，请确认它们是否已经计划中。
 2. 插件将在未来发布，敬请期待。
 
 ## 注意事项
