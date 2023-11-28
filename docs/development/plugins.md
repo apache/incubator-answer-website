@@ -65,6 +65,9 @@ $ ./answer build --with github.com/apache/incubator-answer-plugins/connector-git
 
 # cross compilation. Build a linux-amd64 binary in macos
 $ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
+
+# specify the answer version using ANSWER_MODULE environment variable
+$ ANSWER_MODULE=github.com/apache/incubator-answer@v1.2.0-RC1 ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
 ```
 
 :::tip
@@ -94,14 +97,13 @@ We recommend the use of [official plugins](https://github.com/apache/incubator-a
 
 ## Usage
 
-The answer with the plug-in version is used in the same way as before.  
-You can find the plugin's configuration in the admin page.
+The Answer with the plugin version is used in the same way as before. You can find the plugin's configuration in the admin page.
 
 ![plugin-config-admin-page](/img/docs/plugin-config-admin-page.png)
 
 ## Upgrade
 
-You just need to recompile and use the latest version of the plugin.
+You need build a new Answer binary with the new plugin version, then replace the old Answer binary with the new one.
 
 ## Develop and contributing
 
