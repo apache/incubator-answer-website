@@ -6,7 +6,7 @@ slug: /faq
 
 ## How do I access the installation page?
 
-Heading to <http://localhost:9080/install> to access installation page.
+Heading to http://localhost:9080/install to access installation page.
 
 ## Why can't I receive the registration email?
 
