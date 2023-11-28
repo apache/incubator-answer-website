@@ -43,7 +43,7 @@ Celebrate Answer’s first birthday with contributions, the more the better, no 
 
 ### Vaunt Your Contribution
 
-We are partnering with [Vaunt](https://github.com/VauntDev) during Hacktoberfest to reward contributions. Our team will have an initial review of the submitted issues, and tag it with **hacktoberfest-accepted** first. Then, we will have a closer look to see whether it shares the same goals or visions with our[roadmap](https://github.com/orgs/apache/projects/301). If it’s a yes, we will add **LGTM** tag to it, and congratulations you’ll get a digital badge from us! Here's a group photo of all the badges, from top to bottom and left to right, in order: Plugin Maestro, Bug Hunter, and Visionary Architect. Earn it and show them with pride.
+We are partnering with [Vaunt](https://github.com/VauntDev) during Hacktoberfest to reward contributions. Our team will have an initial review of the submitted issues, and tag it with **hacktoberfest-accepted** first. Then, we will have a closer look to see whether it shares the same goals or visions with our[roadmap](https://github.com/apache/incubator-answer/projects). If it’s a yes, we will add **LGTM** tag to it, and congratulations you’ll get a digital badge from us! Here's a group photo of all the badges, from top to bottom and left to right, in order: Plugin Maestro, Bug Hunter, and Visionary Architect. Earn it and show them with pride.
 
 ![Answer Digital Badges for 2023](banner.png)
 
@@ -53,11 +53,11 @@ Bonus: for the top 3 accepted plugins contributions, you’ll also receive a bag
 
 ## Resources and FAQ
 
-Here's the gear you need before making a contribution, and we are always here to help ;)
+Here's the gear you need before making a contribution, and we are always here to help ;
 
-* Docs: <https://answer.apache.org/docs/>
-* Community: <https://meta.answer.dev/>
-* <dev@answer.apache.org>
+* Docs: https://answer.apache.org/docs/
+* Community: https://meta.answer.dev
+* dev@answer.apache.org
 
 1. How to show my digital badges on my GitHub?
 

@@ -18,7 +18,7 @@
     "message": "全部"
   },
   "blogCategoryPostsPage.posts": {
-    "message": "“{category_name}” 帖子"
+    "message": "“{category_name}”帖子"
   },
   "blogHeader.title": {
     "message": "博客"
@@ -159,7 +159,7 @@
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged}「{tagName}」",
+    "message": "{nDocsTagged}[{tagName}]",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
@@ -444,7 +444,7 @@
     "message": "加载中..."
   },
   "home.title.build": {
-    "message": "用 Answer 打造"
+    "message": "用 Apache Answer 打造"
   },
   "home.title.teams": {
     "message": ""
@@ -472,6 +472,9 @@
   },
   "home.btn.started": {
     "message": "开始使用"
+  },
+  "home.apache.answer": {
+     "message": "Apache Answer 是 Apache 软件基金会正在孵化的一个项目"
   },
   "home.features.title1": {
     "message": "问答社区"
@@ -564,7 +567,7 @@
     "message": "根据您的需求扩展功能。"
   },
   "plugins.instruction": {
-    "message": "任何人都可以向 Answer {submit_link}。 如果您对构建自己的插件有任何疑问，请 {community_link}。"
+    "message": "任何人都可以向 Answer {submit_link}。如果您对构建自己的插件有任何疑问，请 {community_link}。"
   },
   "plugins.instruction.submit": {
     "message": "提交插件"

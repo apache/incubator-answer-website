@@ -1,4 +1,5 @@
 ---
+slug: /contributing/backend
 ---
 
 # 后端开发指南
@@ -69,7 +70,7 @@ $ ./answer init -C ./answer-data/
 
 前往 <http://localhost:80/install> 访问安装页面。
 
-请参考 [安装文档](../../installation) 进行安装步骤。
+请参考 [安装文档](/docs/installation) 进行安装步骤。
 
 #### 启动
 
@@ -132,7 +133,7 @@ router -> middleware -> controller(use schema) -> service -> repo(use entity)
 如果你想开发新的 API，可以按照以下步骤进行操作。
 
 1. 在 router 中添加路由规则 (GET/POST/PUT...)。
-2. 添加用于处理程序请求的 controller。 该请求应在 controller 中进行验证。
+2. 添加用于处理程序请求的 controller。该请求应在 controller 中进行验证。
 3. 添加一个 service 来处理业务。
 4. 添加用于保存或查询数据库或缓存中的数据的 repo 操作。
 5. 重新生成 swagger 文档并测试 API。
@@ -183,7 +184,7 @@ width="300"
 
 ### 新功能或插件
 
-1. 我们根据 [路线图](https://github.com/orgs/apache/projects/301) 开发计划开发功能。如果你有新功能的建议，请确认它们是否已经计划中。
+1. 我们根据 [路线图](https://github.com/apache/incubator-answer/projects) 开发计划开发功能。如果你有新功能的建议，请确认它们是否已经计划中。
 2. 插件将在未来发布，敬请期待。
 
 ## 注意事项

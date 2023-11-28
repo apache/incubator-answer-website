@@ -103,7 +103,7 @@ const HomeHead: FC = () => {
               <Translate
                 id="home.title.teams"
               >
-                with Answer
+                with Apache Answer
               </Translate>
             </h1>
 
@@ -120,7 +120,7 @@ const HomeHead: FC = () => {
               </Translate>
             </div>
 
-            <div className="d-flex">
+            <div className="d-flex mb-4">
               <Button
                 size="lg"
                 variant="primary"
@@ -141,6 +141,14 @@ const HomeHead: FC = () => {
                 {` Star `}
                 {stars !== 0 ? numWord(stars) : ''}
               </Button>
+            </div>
+
+            <div className="text-secondary text-center fs-14">
+              <Translate
+                id="home.apache.answer"
+              >
+                Apache Answer is an effort undergoing incubation at The Apache Software Foundation.
+              </Translate>
             </div>
           </Col>
         </Row>

@@ -100,7 +100,7 @@ No matter what your Q&A platform is about, it’s always great to collect valuab
 💻 [GitHub Repo](https://github.com/apache/incubator-answer): Keep an eye on what we are up to lately on GitHub.
 📄[Documents](https://answer.apache.org/docs/): Everything you need to build your Answer Community from zero to hero.
 🐞 [Bug Report](https://github.com/apache/incubator-answer/issues): Hunt a bug? Simply report it for us to track efficiently.
-🚩[Public Roadmap](https://github.com/orgs/apache/projects/301): Feel free to drop a comment here and be a part of our roadmap!
+🚩[Public Roadmap](https://github.com/apache/incubator-answer/projects): Feel free to drop a comment here and be a part of our roadmap!
   
 ## Conclusion
 

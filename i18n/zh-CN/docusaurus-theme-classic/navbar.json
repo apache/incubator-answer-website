@@ -7,14 +7,6 @@
     "message": "文档",
     "description": "Navbar item with label Docs"
   },
-  "item.label.Issue": {
-    "message": "问题",
-    "description": "Navbar item with label Issue"
-  },
-  "item.label.Roadmap": {
-    "message": "路线图",
-    "description": "Navbar item with label Roadmap"
-  },
   "item.label.Plugins": {
     "message": "插件",
     "description": "Navbar item with label Roadmap"

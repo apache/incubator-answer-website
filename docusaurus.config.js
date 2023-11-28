@@ -11,7 +11,6 @@ const asfLinks = [
   {to: 'https://privacy.apache.org/policies/privacy-policy-public.html', label: 'Privacy'},
   {to: 'https://www.apache.org/security/', label: 'Security'},
   {to: 'https://www.apache.org/foundation/thanks.html', label: 'Thanks'},
-  {to: 'https://www.apache.org/foundation/policies/conduct.html', label: 'Code of Conduct'},
 ];
 
 /** @type {import('@docusaurus/types').Config} */
@@ -56,8 +55,18 @@ const config = {
           customCss: require.resolve('./src/css/custom.scss'),
         },
         docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          breadcrumbs: false,
+          breadcrumbs: true,
+          editUrl: ({locale, versionDocsDirPath, docPath}) => {
+            if (locale !== 'en') {
+              return `https://crowdin.com/project/answer-website/zh-CN`;
+            }
+            return `https://github.com/apache/incubator-answer-website/edit/main/${versionDocsDirPath}/${docPath}`;
+          },
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: false,
       }),
@@ -88,28 +97,23 @@ const config = {
           {
             label: 'Docs',
             to: '/docs',
-
-          },
-          {
-            label: 'Issue',
-            to: 'https://github.com/apache/incubator-answer/issues',
           },
           {
             label: 'Plugins',
             to: '/plugins',
           },
           {
-            label: 'Community',
-            to: 'https://meta.answer.dev',
-          },
-          {
             label: 'Blog',
             to: '/blog',
           },
           {
-            label: 'Contact',
-            to: '/contact',
+            label: 'Community',
+            to: '/community',
           },
+          // {
+          //   label: 'Contact',
+          //   to: '/contact',
+          // },
           {
             type: 'dropdown',
             label: 'ASF',
@@ -159,9 +163,32 @@ const config = {
         postsPerPage: 16,
         showReadingTime: true,
         remarkPlugins: [math],
+        editUrl: ({locale, blogDirPath, blogPath}) => {
+          if (locale !== 'en') {
+            return `https://crowdin.com/project/answer-website/zh-CN`;
+          }
+          return `https://github.com/apache/incubator-answer-website/edit/main/${blogDirPath}/${blogPath}`;
+        },
       },
     ],
     'docusaurus-plugin-sass',
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'community',
+        path: 'community',
+        routeBasePath: 'community',
+        sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        editUrl: ({locale, versionDocsDirPath, docPath}) => {
+          if (locale !== 'en') {
+            return `https://crowdin.com/project/answer-website/zh-CN`;
+          }
+          return `https://github.com/apache/incubator-answer-website/edit/main/${versionDocsDirPath}/${docPath}`;
+        },
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+    ],
   ],
 };
 
