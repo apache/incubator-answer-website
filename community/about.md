@@ -33,6 +33,6 @@ While committers on a project have the ability to update the code, only the PMC 
 
 ## Reference
 
-- <https://community.apache.org/contributors>
-- <https://community.apache.org/contributors/becomingacommitter.html>
-- <https://www.apache.org/dev/pmc.html>
+- https://community.apache.org/contributors
+- https://community.apache.org/contributors/becomingacommitter.html
+- https://www.apache.org/dev/pmc.html
