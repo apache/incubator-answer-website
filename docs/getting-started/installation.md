@@ -23,7 +23,7 @@ If you are using [Docker Desktop](https://www.docker.com/products/docker-desktop
 :::
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/answerdev/answer/main/docker-compose.yaml | docker compose -p answer -f - up
+curl -fsSL https://raw.githubusercontent.com/apache/incubator-answer/main/docker-compose.yaml | docker compose -p answer -f - up
 ```
 
 The default port for Answer is `9080`. You can access it at http://localhost:9080.
@@ -31,10 +31,10 @@ The default port for Answer is `9080`. You can access it at http://localhost:908
   </TabItem>
   <TabItem value="docker" label="Docker">
 
-You can find all the available Docker images on [Docker Hub](https://hub.docker.com/r/answerdev/answer/tags). The `latest` tag refers to the latest stable version of Answer.
+You can find all the available Docker images on [Docker Hub](https://hub.docker.com/r/apache/answer/tags). The `latest` tag refers to the latest stable version of Answer.
 
 ```bash
-docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:latest
+docker run -d -p 9080:80 -v answer-data:/data --name answer apache/answer:latest
 ```
 
 After running the command, heading to http://localhost:9080/install to continue installation.

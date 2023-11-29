@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 :::
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/answerdev/answer/main/docker-compose.yaml | docker compose -p answer -f - up
+curl -fsSL https://raw.githubusercontent.com/apache/incubator-answer/main/docker-compose.yaml | docker compose -p answer -f - up
 ```
 
 Answer 的默认端口为 `9080`。你可以在 http://localhost:9080 访问它。
@@ -29,10 +29,10 @@ Answer 的默认端口为 `9080`。你可以在 http://localhost:9080 访问它�
   </TabItem>
   <TabItem value="docker" label="Docker">
 
-你可以在 [Docker Hub](https://hub.docker.com/r/answerdev/answer/tags) 上找到所有可用的 Docker 镜像。`latest` 标签指的是 Answer 的最新稳定版本。
+你可以在 [Docker Hub](https://hub.docker.com/r/apache/answer/tags) 上找到所有可用的 Docker 镜像。`latest` 标签指的是 Answer 的最新稳定版本。
 
 ```bash
-docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:latest
+docker run -d -p 9080:80 -v answer-data:/data --name answer apache/answer:latest
 ```
 
 运行该命令后，请前往 http://localhost:9080/install 继续安装流程。
