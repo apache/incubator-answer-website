@@ -28,10 +28,10 @@ docker-compose up -d
 如果你使用 Docker 安装 Answer，升级步骤如下。
 
 ```bash
-docker pull answerdev/answer:latest
+docker pull apache/answer:latest
 docker stop answer
 docker rm answer
-docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:latest
+docker run -d -p 9080:80 -v answer-data:/data --name answer apache/answer:latest
 ```
 
   </TabItem>

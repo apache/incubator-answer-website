@@ -9,7 +9,7 @@ import HeaderSlogan from '../components/HeaderSlogan';
 export default function Plugins(): JSX.Element {
   const [list, setList] = useState([]);
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/answerdev/plugins/main/plugins_desc.json').then(res => res.json()).then(data => {
+    fetch('https://raw.githubusercontent.com/apache/incubator-answer-plugins/main/plugins_desc.json').then(res => res.json()).then(data => {
       setList(data);
     }).catch(err => {
       console.error('featch plugins list error', err);

@@ -32,10 +32,10 @@ docker-compose up -d
 If you are using docker to install answer, the upgrade steps are as follows.
 
 ```bash
-docker pull answerdev/answer:latest
+docker pull apache/answer:latest
 docker stop answer
 docker rm answer
-docker run -d -p 9080:80 -v answer-data:/data --name answer answerdev/answer:latest
+docker run -d -p 9080:80 -v answer-data:/data --name answer apache/answer:latest
 ```
 
   </TabItem>
