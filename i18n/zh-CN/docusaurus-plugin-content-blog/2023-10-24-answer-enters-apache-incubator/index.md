@@ -1,7 +1,7 @@
 ---
 title: Answer Enters Apache Incubator
 authors: [Anne]
-category: Company
+category: Community
 featured: true
 image: 2023-10-24-cover@4x.png
 description: "On October 9th, the knowledge-based Q&A software Answer, developed by SegmentFault team under ONES.com, passed the vote and was accepted to the Apache Software Foundation (ASF) Incubator. "

@@ -1,7 +1,7 @@
 ---
 title: Celebrate Answer’s First Anniversary with Hacktoberfest 2023
 authors: [Anne]
-category: Company
+category: Community
 featured: true
 image: 2023-09-27-cover@4x.png
 description: "Answer will be part of Hacktoberfest 2023, a month-long celebration of open-source power. Here’s everything you need to know to join Answer’s event."

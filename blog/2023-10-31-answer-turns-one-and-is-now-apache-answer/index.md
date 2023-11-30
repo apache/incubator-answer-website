@@ -1,7 +1,7 @@
 ---
 title: Answer Turns 1, and is Now Apache Answer
 authors: [Anne]
-category: Company
+category: Community
 featured: true
 image: 2023-10-31-cover@4x.png
 description: "Celebrate Answer’s first anniversary with a wrap-up, and stay tuned for new features coming next year. "

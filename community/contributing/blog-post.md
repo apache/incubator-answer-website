@@ -13,7 +13,7 @@ To get started, just read our blog guidelines and get writing!
 
 ## Repository address
 
-- [GitHub](https://github.com/apache/incubator-answer-websit): Write and store blog posts.
+- [GitHub](https://github.com/apache/incubator-answer-website): Write and store blog posts.
 - [Crowdin](https://crowdin.com/project/answer-website): Translate blog posts into multiple languages to make them more accessible to a wider audience.
 
 ## Blog directory
@@ -29,6 +29,7 @@ We've integrated with Crowdin, which automatically syncs files that need to be t
 
 Our current blog categories are:
 
+- Community
 - Best Practices
 - Tutorials
 - Insights
@@ -50,7 +51,7 @@ All author information is stored in the following files:
 - `/blog/authors.yml`
 - `/i18n/docusaurus-plugin-content-blog/authors.yml`
 
-You can add information to display about yourself in these files. Here’s an example.
+You can add information to display about yourself in these files. Here’s an example:
 
 ```yaml title="/blog/authors.yml"
 Anne:
