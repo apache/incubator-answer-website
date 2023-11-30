@@ -46,6 +46,10 @@ const config = {
     }
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
   presets: [
     [
       'classic',
@@ -172,6 +176,7 @@ const config = {
       },
     ],
     'docusaurus-plugin-sass',
+    '@docusaurus/theme-mermaid',
     [
       '@docusaurus/plugin-content-docs',
       {

@@ -42,6 +42,7 @@ module.exports = {
         'guides/flags',
         'guides/moderation',
         'guides/settings',
+        'guides/users',
       ],
     },
     {
