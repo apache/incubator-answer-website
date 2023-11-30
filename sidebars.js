@@ -28,15 +28,15 @@ module.exports = {
         'getting-started/upgrade',
         'getting-started/command-line',
         'getting-started/configfile',
-        'getting-started/database',
         'getting-started/env',
       ],
     },
     {
       type: 'category',
-      label: 'Guides',
+      label: 'User Guides',
       collapsed: true,
       items: [
+        'guides/plugins',
         'guides/permission',
         'guides/reputation',
         'guides/flags',
@@ -44,7 +44,14 @@ module.exports = {
         'guides/settings',
       ],
     },
-    'development/plugins',
+    {
+      type: 'category',
+      label: 'Developer Guides',
+      collapsed: true,
+      items: [
+        'development/database',
+      ],
+    },
     'notice',
     'faq',
   ],

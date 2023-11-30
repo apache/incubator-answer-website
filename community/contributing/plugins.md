@@ -1,5 +1,5 @@
 ---
-sidebar_label: Plugins
+# sidebar_label: Plugins
 slug: /plugins
 ---
 

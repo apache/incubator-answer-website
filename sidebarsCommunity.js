@@ -28,6 +28,7 @@ module.exports = {
           ],
         },
         'contributing/translation',
+        'contributing/blog-post',
         'contributing/how-to-release',
       ],
     },

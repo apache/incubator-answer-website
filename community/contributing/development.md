@@ -12,8 +12,8 @@ slug: /development
 2. After cloning the repository, run the following command. This will install all dependencies as well as build all local packages.
 
   ```shell
-  $ cd ./ui
-  $ pnpm install
+  cd ./ui
+  pnpm install
   ```
 
 3. To start a development server, run `pnpm start`. now, your browser should already open automatically, and autoload `http://localhost:3000`. you can also manually visit it.
@@ -25,7 +25,6 @@ slug: /development
 - We do have Prettier (a formatter) and ESLint (a syntax linter) to catch most stylistic problems. If you are working locally, you can run  `pnpm lint` and `pnpm prettier` to fix most code formatting.
 - **No runtime errors** Before submitting the code, please ensure that there will be no errors when running locally. This will greatly reduce the workload of review.
 
-
 ## Backend
 
 ### Installation
@@ -34,15 +33,16 @@ slug: /development
 2. After cloning the repository, run the following command for build.
 
   ```shell
-  $ go mod download
-  $ go run cmd/answer/main.go init -C ./answer-data
+  go mod download
+  go run cmd/answer/main.go init -C ./answer-data
   ```
 
-3. Visit `http://localhost/` to see the installation page and complete the installation. 
+3. Visit `http://localhost` to see the installation page and complete the installation.
 
 4. Run the following command to start the server.
+
   ```shell
-  $ go run cmd/answer/main.go run -C ./answer-data
+  go run cmd/answer/main.go run -C ./answer-data
   ```
 
 ### Code conventions

@@ -1,7 +1,7 @@
 ---
 title: Everything You Need to Know About Answer
 authors: [Anne]
-category: Company
+category: Community
 featured: true
 image: 2023-06-29-cover@4x.png
 description: "Find out everything about Answer: our motivation, why it’s open-source, the people behind it, etc."
