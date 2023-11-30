@@ -2,7 +2,7 @@
 slug: /plugins
 ---
 
-# Plugins
+# Using Plugins
 
 :::tip
 
