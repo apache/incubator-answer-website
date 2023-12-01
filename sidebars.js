@@ -36,13 +36,29 @@ module.exports = {
       label: 'User Guides',
       collapsed: true,
       items: [
-        'guides/plugins',
-        'guides/permission',
-        'guides/reputation',
-        'guides/flags',
-        'guides/moderation',
-        'guides/settings',
+        'guides/questions',
+        'guides/tags',
         'guides/users',
+        'guides/review',
+        {
+          type: 'category',
+          label: 'Moderation',
+          collapsed: true,
+          items: [
+            'guides/settings',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Commons',
+          collapsed: true,
+          items: [
+            'guides/flags',
+            'guides/permission',
+            'guides/reputation',
+          ],
+        },
+        'guides/plugins',
       ],
     },
     {

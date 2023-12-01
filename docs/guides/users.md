@@ -4,32 +4,37 @@ slug: /users
 
 # Users
 
+## Top users
+
 Show top users in the platform.
 
 - **Users with the highest reputation scores this week**
   - Users who increased the most reputation this week
-  - Show top 20 users with their increased reputation (order)
+  - Show top 20 users with their increased reputation (ordered)
 - **Users who voted the most this week**
   - Number of votes cast for others
-  - Show top 20 users with their number of votes (order)
+  - Show top 20 users with their number of votes (ordered)
 - **Our community staff**
   - Show all moderators, administrators
   - Ordered by reputation
 
 ## Sign up
 
-A user wants to sign up from Email.
+A user wants to sign up from email.
 
 ```mermaid
+---
+title: Sign up process
+---
 stateDiagram
     direction LR
-    A1: Fill sign up form
-    B1: Send confirm email
-    B2: Visit activation link
-    %% B3: Click active button
-    C: Active successful
-    inactivate: Inactive user
-    normal: Normal user
+    A1 : Fill sign up form
+    B1 : Send confirm email
+    B2 : Visit activation link
+    %% B3 : Click active button
+    Z : Active successful
+    inactivate : Inactive user
+    normal : Normal user
 
     [*] --> A1
     state Guest {
@@ -38,12 +43,12 @@ stateDiagram
     state inactivate {
       direction LR
       B1 --> B2
-      B2 --> C
+      B2 --> Z
     }
     state normal {
-      C
+      Z
     }
-    C --> [*]
+    Z --> [*]
 ```
 
 - Display name (abbreviated as "name"):
@@ -57,18 +62,63 @@ stateDiagram
   - Reserve keywords are not allowed.
 - Record the time of registration and the IP address.
 - The activation link is valid for 14 days.
-- The user's initial reputation is `0`, after activation the reputation becomes `1`.
 
 ## Log in
 
+A user wants to log in. The user's login permissions are related to the status.
+
+| User status | Normal | Inactive | Suspended | Deleted |
+|---|---|---|---|---|
+| Log in | Allow | Denied | Denied | Denied |
+
+### Log in with email and password
+
+- Fill email and password to log in.
+  - If the user does not exist, the message "Invalid email or password" is displayed to prevent the account from being attacked.
+  - When an inactive user logs in, go to the page that asks for activation.
+  - When an suspended user logs in, go to the ban prompt page.
+- Login status is remembered for 14 days by default.
+- Click "Forgot password" to reset password if someone forgot their password.
+
+### Log in from thridy-party OAuth
+
+```mermaid
+---
+title: Thirdy-party OAuth process
+---
+flowchart TD
+  A([Start]) -- OAuth authorization --> record{"Authorization already exists?"}
+  record -- No --> get_email{Can get email}
+  record -- Yes --> Z([Login successful])
+  
+
+
+```
+
 ## Reset password
+
+TODO
 
 ## Notification
 
-## Achievement
+TODO
+
+### Inbox
+
+TODO
+
+### Achievement
+
+TODO
 
 ## Profile
 
+TODO
+
 ## Settings
 
-## Unsubscribe email
+TODO
+
+### Unsubscribe email
+
+TODO
