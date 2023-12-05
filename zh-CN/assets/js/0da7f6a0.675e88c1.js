@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkanswer=self.webpackChunkanswer||[]).push([[2997],{78960:e=>{e.exports=JSON.parse('{"permalink":"/blog/category/tech","page":1,"postsPerPage":16,"totalPages":1,"totalCount":1,"previousPage":"","nextPage":"","blogDescription":"Learn everything about Answer and leverage your Q&A community.","blogTitle":"Answer Blog"}')}}]);

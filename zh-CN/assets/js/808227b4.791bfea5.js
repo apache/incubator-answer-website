@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkanswer=self.webpackChunkanswer||[]).push([[7717],{40243:s=>{s.exports=JSON.parse('{"label":"tutorials","permalink":"/zh-CN/blog/tags/tutorials","allTagsPath":"/zh-CN/blog/tags","count":1,"unlisted":false}')}}]);
