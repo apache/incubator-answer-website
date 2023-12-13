@@ -75,7 +75,7 @@ Community is the key to a project's success in graduating from Apache, and we’
 
 ## Recommended Docs for Release
 https://incubator.apache.org/guides/releasemanagement.html        
-https://linkis.apache.org/zh-CN/community/how-to-release/
+https://linkis.apache.org/community/how-to-release/
 
 You can always welcome to check our [GitHub](https://github.com/apache/incubator-answer) for reference.
 
