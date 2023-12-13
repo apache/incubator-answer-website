@@ -43,6 +43,8 @@ The release process was extended because of the need of [Apache voting process](
 
 Though not compulsory, it is recommended to have discussion in the community via mail list before voting. The first round of voting was conducted by the Project Management Committee (PMC), and the second round of voting was conducted by the Mentors. Voting periods should generally run for **at least 72 hours** to provide an opportunity for all concerned individuals to participate, regardless of their geographic location. A vote is considered successful if it receives at least three positive binding votes (+1).
 
+![Release Process](Release%20Process.png)
+
 We were in a bit of a rush to close the voting when we received 3 votes of approval, and were told by another mentor. Please wait at least 72 hours after each round of voting before sending an email to announce the results and close the vote.
 
 Besides the release version number, don’t forget to specify the commit ID of the last commit for the current version and the build node that was used to build the current version. 
