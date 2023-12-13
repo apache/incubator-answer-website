@@ -62,14 +62,9 @@ For uncertain questions, try them first and then ask for your mentor's help if n
 
 ### Be Patient and Seek Help from the Mentors
 If you’ve tried but failed to find a solution, reach out to your mentor by email. 
-In the initial phase of the release, one of the obstacles we faced was the format of the license. We first looked at some graduated projects, but turned out that each project had its format. Then, we decided to display the following information for each license: 
+In the initial phase of the release, one of the obstacles we faced was the format of the license. We first looked at some graduated projects, but turned out that each project had its format. Then, we decided to display the following information for each license: `(License Category) Packagename (Repository URL) [link](reference link)`. We sent an email for mentors’ advice, and in the end we replaced the LICENSE application URL with the URL we have sorted out.
 
-**License information**         
-**Package name**         
-**Repository URL**        
-**License reference URL**        
-
-We sent an email for mentors’ advice, and in the end we replaced the LICENSE application URL with the URL we have sorted out.
+It finally looks like [this](https://github.com/apache/incubator-answer/blob/main/docs/release/LICENSE). As you can see, classifying and organising licenses is something that takes a lot of patience.
 
 ### Careful with the Assignment
 In the past, we simply assigned an issue to the person in charge. However, this approach is not community-driven today. Always remind yourself that: **Issues and pull requests should only be assigned to users who have volunteered to take them on**. 
