@@ -2,11 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://answer.apache.org/zh-CN/blog</id>
     <title>Apache Answer Blog</title>
-    <updated>2023-12-07T00:00:00.000Z</updated>
+    <updated>2023-12-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://answer.apache.org/zh-CN/blog"/>
     <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/zh-CN/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Behind the Scene: How We Launched the First Apache Release]]></title>
+        <id>https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release</id>
+        <link href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release"/>
+        <updated>2023-12-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Take a moment to reflect on our first Apache release, and share experience with new projects for a smooth release.]]></summary>
+        <content type="html"><![CDATA[<div class="mb-4"><img loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2023-12-13-cover@4x-79020c15405e776ea38ef9225fddd21c.png" class="rounded img_dDce" width="1280px" height="720px"></div><p>Preparing for our Apache debut was an adventure, with two questions constantly echoing in our minds:</p>
+<!-- --><p><strong>What's the next step?<!-- --><br>
+<!-- -->Which document should I check?<!-- --></strong></p>
+<!-- --><p>Joining the incubator was more than a new beginning, but a new way of collaboration that requires us to adapt to soon. Now that we finally <!-- --><a href="https://answer.apache.org/blog/2023/12/07/a-new-chapter-begins-answer-first-apache-release-launches" target="_blank" rel="noopener noreferrer">shipped it</a>, and look back to the lessons we’ve learnt during the process. We’ve been received help from other projects, so it’s our chance to pave the way for more projects by sharing our experience.<!-- --></p>
+<!-- --><p>To the future incubator projects: Consider this blog post your guide as you embark on your own first Apache release. Have a smooth release!</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="how-do-we-collaborate">How Do We Collaborate<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#how-do-we-collaborate" class="hash-link" aria-label="How Do We Collaborate的直接链接" title="How Do We Collaborate的直接链接">​</a></h2>
+<!-- --><p>The driving force behind this release are the 4 PMC members: <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">LinkinStars</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">shuashuai</a>, <!-- --><a href="https://github.com/fenbox" target="_blank" rel="noopener noreferrer">fenbox</a>, and <!-- --><a href="https://github.com/PrimmaAnna" target="_blank" rel="noopener noreferrer">AnnaPrimma</a>, and here’s how they collaborate:
+fenbox: the architect, planing and crafting the new features.
+LinkinStars: guardian of compliance, meticulous source code and binary package management.
+shuashuai: front-end developer, fix bugs, iterate new features, keep flawless user experience, etc.
+AnnaPrimma: the doc searcher, translator, and past project experience capturer.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="new-changes">New Changes<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#new-changes" class="hash-link" aria-label="New Changes的直接链接" title="New Changes的直接链接">​</a></h2>
+<!-- --><p>There are basically two significant changes: <!-- --><strong>compliance and the voting process</strong>, and we’ve spent plenty of time on them.<!-- --></p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="compliance">Compliance<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#compliance" class="hash-link" aria-label="Compliance的直接链接" title="Compliance的直接链接">​</a></h3>
+<!-- --><p>Apache releases are required to comply with the Apache Software Foundation's (ASF) policies and procedures. One of the most important compliance requirements is that all <!-- --><strong>dependencies must also be compliant</strong>.<!-- --></p>
+<!-- --><p>Before we officially launch the release vote, we focused on compliance, as these are the basic requirements before the release. This includes:</p>
+<!-- --><ul>
+<!-- --><li>Review and organize the Notice and LICENSE files</li>
+<!-- --><li>Add the Apache License Header to all files</li>
+<!-- --><li>Check the compliance of third-party libraries</li>
+<!-- --></ul>
+<!-- --><p>We also checked on docs, seemed help from mentors via emails, and traced back to other project’s releases.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="process">Process<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#process" class="hash-link" aria-label="Process的直接链接" title="Process的直接链接">​</a></h3>
+<!-- --><p>The release process was extended because of the need of <!-- --><a href="https://www.apache.org/foundation/voting.html" target="_blank" rel="noopener noreferrer">Apache voting process</a>.<!-- --></p>
+<!-- --><p>Though not compulsory, it is recommended to have discussion in the community via mail list before voting. The first round of voting was conducted by the Project Management Committee (PMC), and the second round of voting was conducted by the Mentors. Voting periods should generally run for <!-- --><strong>at least 72 hours</strong> to provide an opportunity for all concerned individuals to participate, regardless of their geographic location. A vote is considered successful if it receives at least three positive binding votes (+1).<!-- --></p>
+<!-- --><p><img loading="lazy" alt="Release Process" src="https://answer.apache.org/zh-CN/assets/images/Release%20Process-379e543f928935865c77847680c8c91a.png" width="917" height="1037" class="img_dDce"></p>
+<!-- --><p>We were in a bit of a rush to close the voting when we received 3 votes of approval, and were told by another mentor. Please wait at least 72 hours after each round of voting before sending an email to announce the results and close the vote.</p>
+<!-- --><p>Besides the release version number, don’t forget to specify the commit ID of the last commit for the current version and the build node that was used to build the current version.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="things-we-would-love-to-share">Things We Would Love to Share<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#things-we-would-love-to-share" class="hash-link" aria-label="Things We Would Love to Share的直接链接" title="Things We Would Love to Share的直接链接">​</a></h2>
+<!-- --><p>Here are some takeaways from the release process. Hope it helps ;)</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="email-email-email">Email. Email. Email.<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#email-email-email" class="hash-link" aria-label="Email. Email. Email.的直接链接" title="Email. Email. Email.的直接链接">​</a></h3>
+<!-- --><p>Apache projects use mailing lists to coordinate development of their software and administer their organization. Mailing lists also serve as a primary support channel where users can help each other learn to use the software.</p>
+<!-- --><p>We spent a bit of time getting used to email communication, since we were used to instant communication tools. Email is a great way to reduce the information gap for current community members and new members.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="try-first-ask-later">Try First, Ask Later.<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#try-first-ask-later" class="hash-link" aria-label="Try First, Ask Later.的直接链接" title="Try First, Ask Later.的直接链接">​</a></h3>
+<!-- --><p>For uncertain questions, try them first and then ask for your mentor's help if needed. Your mentors are here to guide and support, not to do all the work for you.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="be-patient-and-seek-help-from-the-mentors">Be Patient and Seek Help from the Mentors<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#be-patient-and-seek-help-from-the-mentors" class="hash-link" aria-label="Be Patient and Seek Help from the Mentors的直接链接" title="Be Patient and Seek Help from the Mentors的直接链接">​</a></h3>
+<!-- --><p>If you’ve tried but failed to find a solution, reach out to your mentor by email.
+In the initial phase of the release, one of the obstacles we faced was the format of the license. We first looked at some graduated projects, but turned out that each project had its format. Then, we decided to display the following information for each license:</p>
+<!-- --><p><strong>License information</strong><br>
+<!-- --><strong>Package name</strong><br>
+<!-- --><strong>Repository URL</strong><br>
+<!-- --><strong>License reference URL</strong></p>
+<!-- --><p>We sent an email for mentors’ advice, and in the end we replaced the LICENSE application URL with the URL we have sorted out.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="careful-with-the-assignment">Careful with the Assignment<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#careful-with-the-assignment" class="hash-link" aria-label="Careful with the Assignment的直接链接" title="Careful with the Assignment的直接链接">​</a></h3>
+<!-- --><p>In the past, we simply assigned an issue to the person in charge. However, this approach is not community-driven today. Always remind yourself that: <!-- --><strong>Issues and pull requests should only be assigned to users who have volunteered to take them on</strong>.<!-- --></p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="community-over-code">Community Over Code<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#community-over-code" class="hash-link" aria-label="Community Over Code的直接链接" title="Community Over Code的直接链接">​</a></h3>
+<!-- --><p>Community is the key to a project's success in graduating from Apache, and we’re building our community. For an easy and smooth contribution experience, we collect everything a contributor needs on the <!-- --><a href="https://answer.apache.org/community/contributing" target="_blank" rel="noopener noreferrer">Community page</a>, providing a central hub for information and simplifies the contribution process for everyone.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="recommended-docs-for-release">Recommended Docs for Release<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#recommended-docs-for-release" class="hash-link" aria-label="Recommended Docs for Release的直接链接" title="Recommended Docs for Release的直接链接">​</a></h2>
+<!-- --><p><a href="https://incubator.apache.org/guides/releasemanagement.html" target="_blank" rel="noopener noreferrer">https://incubator.apache.org/guides/releasemanagement.html</a><br>
+<!-- --><a href="https://linkis.apache.org/community/how-to-release/" target="_blank" rel="noopener noreferrer">https://linkis.apache.org/community/how-to-release/</a></p>
+<!-- --><p>You can always welcome to check our <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a> for reference.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="ready-to-shape-the-future-of-qa-software">Ready to shape the future of Q&amp;A Software?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release#ready-to-shape-the-future-of-qa-software" class="hash-link" aria-label="Ready to shape the future of Q&amp;A Software?的直接链接" title="Ready to shape the future of Q&amp;A Software?的直接链接">​</a></h2>
+<!-- --><p>We always have new ideas for Q&amp;A, and plan to release a new version every month. You can find our upcoming plans and join the discussion on our <!-- --><a href="https://github.com/apache/incubator-answer/projects?query=is%3Aopen" target="_blank" rel="noopener noreferrer">roadmap</a>.<!-- --></p>
+<!-- --><p>If you’re a Q&amp;A enthusiast, a developer, or a multilingual speaker, we welcome your contributions, and there’s always a way you can <!-- --><a href="https://answer.apache.org/community/contributing" target="_blank" rel="noopener noreferrer">get involved</a>. See you soon.<!-- --></p>]]></content>
+        <author>
+            <name>Anne Zhu</name>
+            <uri>https://github.com/PrimmaAnna</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A New Chapter Begins: Answer's First Apache Release Launches]]></title>
         <id>https://answer.apache.org/zh-CN/blog/2023/12/07/a-new-chapter-begins-answer-first-apache-release-launches</id>
