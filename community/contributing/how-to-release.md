@@ -42,15 +42,18 @@ Following is the basic check items for the release artifacts.
 
 ```shell
 # download KEYS
-$ curl https://dist.apache.org/repos/dist/dev/incubator/answer/KEYS > KEYS
+$ curl https://dist.apache.org/repos/dist/release/incubator/answer/KEYS > KEYS
 
-# import KEYS and trust the key
+# import KEYS and trust the key, please replace the email address with the one you want to trust.
 $ gpg --import KEYS
-$ gpg --edit-key joyqi@apache.org
+$ gpg --edit-key linkinstar@apache.org
 gpg> trust
 gpg> 5
 gpg> y
 gpg> quit
+
+# enter the directory where the release artifacts are located
+$ cd /path/to/release/artifacts
 
 # verify the signature
 $ for i in *.tar.gz; do echo $i; gpg --verify $i.asc $i ; done
