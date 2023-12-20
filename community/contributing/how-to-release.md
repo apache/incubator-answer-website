@@ -21,11 +21,43 @@ All Apache projects are required to follow the [Apache Release Policy](https://w
 3. Sign the release artifacts.
 4. Create the checksums for the release artifacts.
 
+### Sign the release artifacts
+
+1. Create a GPG key if you don't have one.
+2. Add the GPG key to the KEYS file.
+3. Sign the release artifacts with the GPG key.
+
+```shell
+# create a GPG key
+$ gpg --full-generate-key
+
+# list the GPG keys
+$ gpg  --keyid-format SHORT --list-keys
+
+# upload the GPG key to the key server, xxx is the GPG key id
+$ gpg --keyserver keyserver.ubuntu.com --send-key xxx
+
+# append the GPG key to the KEYS file the svn repository
+# [IMPORTANT] Don't replace the KEYS file, just append the GPG key to the KEYS file. 
+$ svn co https://dist.apache.org/repos/dist/release/incubator/answer/
+$ (gpg --list-sigs xxx@apache.org && gpg --export --armor xxx@apache.org) >> KEYS 
+$ svn ci -m "add gpg key" 
+
+# sign the release artifacts
+$ for i in *.tar.gz; do echo $i; gpg --local-user xxxx --armor --output $i.asc --detach-sig $i ; done
+```
+
+### Create the checksums for the release artifacts
+
+```shell
+# create the checksums
+$ for i in *.tar.gz; do echo $i; sha512sum  $i > $i.sha512 ; done
+```
+
 ## Upload the release artifacts to the svn repository
 
 1. Create a directory for the release artifacts in the svn repository.
 2. Upload the release artifacts to the svn repository.
-3. Upload the KEYS file to the svn repository.
 
 ## Verify the release artifacts
 
