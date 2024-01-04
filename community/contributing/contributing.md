@@ -82,4 +82,9 @@ All pull requests will be checked by the continuous integration system, GitHub a
 
 ### Branch organization
 
-Answer has one primary branch `main` and we use feature branches with deploy previews to deliver new features with pull requests.
+Which branch should you choose when you submit your PR?
+
+- The `main` branch corresponds to the **latest version** of answer. If you're doing a **fix** for the latest version, then select the main branch.
+- The `dev` branch is for the **next version**, so if you're working on a **new feature**, checkout of the dev branch and PR for it.
+
+Normally, we mark milestones on an issue to keep track of which version the issue should be fixed in. So you can check which version you should commit to based on the milestone.
