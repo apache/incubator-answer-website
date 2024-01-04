@@ -25,6 +25,34 @@ slug: /development
 - We do have Prettier (a formatter) and ESLint (a syntax linter) to catch most stylistic problems. If you are working locally, you can run  `pnpm lint` and `pnpm prettier` to fix most code formatting.
 - **No runtime errors** Before submitting the code, please ensure that there will be no errors when running locally. This will greatly reduce the workload of review.
 
+<details>
+  <summary>frontend package structure</summary>
+  <div>
+    ```
+.
+├── cmd
+├── configs
+├── ...
+└── ui (front-end project starts here)
+      ├── build (built results directory, usually without concern)
+      ├── public (html template for public)
+      ├── scripts (some scripting tools on front-end project)
+      ├── src (almost all front-end resources are here)
+            ├── assets (static resources)
+            ├── common (project information/data defined here)
+            ├── components (all components of the project)
+            ├── hooks (all hooks of the project)
+            ├── i18n (Initialize the front-end i18n)
+            ├── pages (all pages of the project)
+            ├── router (Project routing definition)
+            ├── services (all data api of the project)
+            ├── stores (all data stores of the project)
+            ├── utils (all utils of the project)
+            ├── plugins (UI Plugin Development & Debugging Directory)
+```
+  </div>
+</details>
+
 ## Backend
 
 ### Installation
@@ -48,3 +76,40 @@ slug: /development
 ### Code conventions
 
 We recommend that you follow [uber's Golang Guidelines](https://github.com/uber-go/guide) code style.
+
+<details>
+  <summary>backend package structure</summary>
+  <div>
+    ```
+.
+├── cmd (main binary)
+├── configs (default configuration)
+├── docs (swagger documentation)
+├── i18n (International translation)
+├── internal
+      ├── base (Basic component without service attributes)
+            ├── conf (Configuration)
+            ├── constant (constant)
+            ├── data (database/cache)
+            ├── handler (request/response handler)
+            ├── middleware (http middleware)
+            ├── pager (Pagination)
+            ├── reason (error reason key use to translator)
+            ├── server (http server)
+            ├── translator (translator for translate international)
+            └── validator (validator for validate request)
+      ├── cli (binary commands)
+      ├── controller (request handler controller for user)
+      ├── controller_backyard (request handler controller for admin)
+      ├── entity (all entity about database table)
+      ├── install (installation related)
+      ├── migrations (upgrade related)
+      ├── repo (database/cache operations)
+      ├── router (http router)
+      ├── schema (request/response schema)
+      └── service (business logic)
+├── pkg (tools or third party)
+└── ui (frontend)
+```
+  </div>
+</details>
