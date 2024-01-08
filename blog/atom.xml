@@ -2,11 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://answer.apache.org/blog</id>
     <title>Apache Answer Blog</title>
-    <updated>2023-12-13T00:00:00.000Z</updated>
+    <updated>2024-01-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://answer.apache.org/blog"/>
     <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Answer 1.2.1: Ask Better. Find Better.]]></title>
+        <id>https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better</id>
+        <link href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better"/>
+        <updated>2024-01-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ask and answer better with the latest Answer at the beginning of 2024.]]></summary>
+        <content type="html"><![CDATA[<div class="mb-4"><img loading="lazy" src="https://answer.apache.org/assets/images/2024-01-08-cover@4x-27c26aaab79f4fb8d60958dd0168f01b.png" class="rounded img_dDce" width="1280px" height="720px"></div><p>Happy new year, everyone. We all have new questions or new answers at the beginning of the year, and feel free to raise your hand in the first release of Answer in 2024.</p>
+<!-- --><p>In this version, we pack up new features and improvements to make finding answers easier, reduce duplicate content, and an efficient way of organizing your Q&amp;A knowledge from the very start.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="one-answer-one-question">One Answer. One Question.<!-- --><a href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better#one-answer-one-question" class="hash-link" aria-label="Direct link to One Answer. One Question." title="Direct link to One Answer. One Question.">​</a></h2>
+<!-- --><p>Answer focuses on clear and concise answers to each question. However, you can find new answers or scattered answers from one person in several responses, making it hard for the admin to pick the best answer, and maintain the content afterwards.</p>
+<!-- --><p>We've streamlined things so everyone can write or edit one, top-notch answer to each question. This helps users focus on contributing their expertise, and lets the best answer shine.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="how-to">How to<!-- --><a href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better#how-to" class="hash-link" aria-label="Direct link to How to" title="Direct link to How to">​</a></h3>
+<!-- --><p>This feature is on by default, and admin can switch it off anytime.</p>
+<!-- --><ol>
+<!-- --><li>Go Admin - Settings - Write.</li>
+<!-- --><li>Switch the button.</li>
+<!-- --></ol>
+<!-- --><p><img loading="lazy" alt="Switch on One Answer Only" src="https://answer.apache.org/assets/images/one-answer-how-to-dfdcadc4a47792fa7fb38b53c3c97d9f.png" width="1152" height="358" class="img_dDce"></p>
+<!-- --><p>If a user went back to an answered question, the page will prompt them to edit their exisitng answer instead of adding a new one.</p>
+<!-- --><p>If the button is switched off, there'll be 2 options provided. Once user clicked Add another answer, there'll be a  pop-up window shown, suggesting user to edit previous answer.</p>
+<!-- --><p><img loading="lazy" alt="Switch off Button" src="https://answer.apache.org/assets/images/switched-off-options-5f007fe457023de32acd7f62b5e49862.gif" width="1200" height="675" class="img_dDce"></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="admin-takes-control-of-access">Admin Takes Control of Access<!-- --><a href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better#admin-takes-control-of-access" class="hash-link" aria-label="Direct link to Admin Takes Control of Access" title="Direct link to Admin Takes Control of Access">​</a></h2>
+<!-- --><p>We heard the voice of the <!-- --><a href="https://github.com/apache/incubator-answer/issues/565" target="_blank" rel="noopener noreferrer">community</a>, and valued the privacy and security of a Q&amp;A platform. Now, admins have the access to disable the default password login form, having more control over who can and how to access the platform.<!-- --></p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="how-to-1">How to<!-- --><a href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better#how-to-1" class="hash-link" aria-label="Direct link to How to" title="Direct link to How to">​</a></h3>
+<!-- --><ol>
+<!-- --><li>Admin - Settings - Login</li>
+<!-- --><li>Switch off the Password login.
+Turning off this option might lock you out if you haven't set up another way to log in. A friendly reminder to add a backup login option here.</li>
+<!-- --></ol>
+<!-- --><p><img loading="lazy" alt="Reminder" src="https://answer.apache.org/assets/images/turn-off-reminder-7df699bb21dbcbe7c7cf6e3a2b547317.png" width="949" height="711" class="img_dDce"></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="tweaks-fixes-improvements">Tweaks. Fixes. Improvements.<!-- --><a href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better#tweaks-fixes-improvements" class="hash-link" aria-label="Direct link to Tweaks. Fixes. Improvements." title="Direct link to Tweaks. Fixes. Improvements.">​</a></h2>
+<!-- --><p>Sometimes, a small change can make a difference to your knowledge journey, and here they are.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="clearer-space-for-comment-and-answer">Clearer Space for Comment and Answer<!-- --><a href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better#clearer-space-for-comment-and-answer" class="hash-link" aria-label="Direct link to Clearer Space for Comment and Answer" title="Direct link to Clearer Space for Comment and Answer">​</a></h3>
+<!-- --><p>The comment used to be blending in a bit before. Now with the grey shadow behind, you can easily identify the answer and comment.</p>
+<!-- --><p><img loading="lazy" alt="Clearer Space for Answer and Comment" src="https://answer.apache.org/assets/images/clearer-answer-comment-94fbbcb177ab58076a67cde5f4607221.png" width="721" height="312" class="img_dDce"></p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="synonym-support-for-tag-search">Synonym Support for Tag Search<!-- --><a href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better#synonym-support-for-tag-search" class="hash-link" aria-label="Direct link to Synonym Support for Tag Search" title="Direct link to Synonym Support for Tag Search">​</a></h3>
+<!-- --><p>We all have abbreviations or nicknames for some tags, and now you can add synonyms for a single tag.</p>
+<!-- --><p><img loading="lazy" alt="Add Synonym for Tag" src="https://answer.apache.org/assets/images/tag-search-synonym-c3b256ac81fce6f0e9f4ba2c4b7c9c9a.gif" width="1200" height="675" class="img_dDce"></p>
+<!-- --><p>Next time, feel free to search for the tag in the tag page, or the post page easily without recalling the exact names of the tag.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="powered-up-dashboard">Powered Up Dashboard<!-- --><a href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better#powered-up-dashboard" class="hash-link" aria-label="Direct link to Powered Up Dashboard" title="Direct link to Powered Up Dashboard">​</a></h3>
+<!-- --><p>Share or tuck your Answer away by choosing the running <!-- --><strong>Public/Private</strong> mode. Database version and size info are ready for your glance, while you can easily access different resources in Answer links.<!-- --></p>
+<!-- --><p><img loading="lazy" alt="New Dashboard" src="https://answer.apache.org/assets/images/new-dashboard-2f3e7c55e5b75e735dfa78cbc11662f4.png" width="1280" height="527" class="img_dDce"></p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="faster-discovery-of-similar-questions">Faster Discovery of Similar Questions<!-- --><a href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better#faster-discovery-of-similar-questions" class="hash-link" aria-label="Direct link to Faster Discovery of Similar Questions" title="Direct link to Faster Discovery of Similar Questions">​</a></h3>
+<!-- --><p>We're refining how you experience similar questions. To bring you more focused answers, we'll wait until you've typed at least 10 characters. Then we'll showcase fresh results when any appear. Hit the existing questions and get the answer without repetitive editing. Set both users and admins' hands free.</p>
+<!-- --><p><img loading="lazy" alt="Search Similar Question" src="https://answer.apache.org/assets/images/search-similar-question-de21c6ebfd2707b2788c30c5600fa873.png" width="1280" height="423" class="img_dDce"></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="cheers-contributors">Cheers. Contributors.<!-- --><a href="https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better#cheers-contributors" class="hash-link" aria-label="Direct link to Cheers. Contributors." title="Direct link to Cheers. Contributors.">​</a></h2>
+<!-- --><p>We stand with the community, and received lots of support. Whether a bug reporting, solution discussion, or hands up for a task, this update gathers the power of the community.</p>
+<!-- --><p><img loading="lazy" alt="Screenshot of Community Discussion" src="https://answer.apache.org/assets/images/discussion-955c2102172760d648872a334a707eb6.png" width="1800" height="961" class="img_dDce"></p>
+<!-- --><p>Cheers to the lovely contributors (🥁drumrolls here), and you rock this release.
+<!-- --><a href="https://github.com/kelvinkuo" target="_blank" rel="noopener noreferrer">kelvinkuo</a>, <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>, <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">LinkinStars</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">shuaishuai</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a>.<!-- --></p>
+<!-- --><p>Big applause to our lovely <!-- --><a href="https://crowdin.com/project/answer/activity-stream" target="_blank" rel="noopener noreferrer">translators</a> who pave the way to knowledge palace to more people. We surely can't forget people who provided suggestions, reported issues, and cheered us on. You are the heart of Answer.<!-- --></p>
+<!-- --><p>Dive into the <!-- --><a href="https://github.com/apache/incubator-answer/releases/tag/v1.2.1" target="_blank" rel="noopener noreferrer">update</a> and experience the latest Answer for yourself, and you're always welcome to <!-- --><a href="https://answer.apache.org/community/about" target="_blank" rel="noopener noreferrer">join the community</a>.<!-- --></p>]]></content>
+        <author>
+            <name>Anne Zhu</name>
+            <uri>https://github.com/PrimmaAnna</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Behind the Scene: How We Launched the First Apache Release]]></title>
         <id>https://answer.apache.org/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release</id>
