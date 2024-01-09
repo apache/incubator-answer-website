@@ -58,7 +58,7 @@ Next time, feel free to search for the tag in the tag page, or the post page eas
 ### Powered Up Dashboard
 Share or tuck your Answer away by choosing the running **Public/Private** mode. Database version and size info are ready for your glance, while you can easily access different resources in Answer links.
 
-![New Dashboard](new-dashboard.png)
+![New Dashboard](new-dashboard.jpeg)
 
 ### Faster Discovery of Similar Questions
 We're refining how you experience similar questions. To bring you more focused answers, we'll wait until you've typed at least 10 characters. Then we'll showcase fresh results when any appear. Hit the existing questions and get the answer without repetitive editing. Set both users and admins' hands free.  
