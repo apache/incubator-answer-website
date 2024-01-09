@@ -50,7 +50,8 @@ We use labels to categorize issues.
 | `bug` | Indicates an unexpected problem or unintended behavior |
 | `documentation` | Indicates a need for improvements or additions to documentation |
 | `duplicate` | Indicates similar issues, pull requests, or discussions |
-| `enhancement` | Indicates new feature requests |
+| `feature` | Indicates new feature requests |
+| `enhancement` | Indicates enhancement requests |
 | `good first issue` | Indicates a good issue for first-time contributors |
 | `help wanted` | Indicates that a maintainer wants help on an issue or pull request |
 | `invalid` | Indicates that an issue, pull request, or discussion is no longer relevant |
