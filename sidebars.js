@@ -67,6 +67,7 @@ module.exports = {
       collapsed: true,
       items: [
         'development/database',
+        'development/api',
       ],
     },
     'notice',
