@@ -103,7 +103,15 @@ The Answer with the plugin version is used in the same way as before. You can fi
 
 ## Upgrade
 
-You need build a new Answer binary with the new plugin version, then replace the old Answer binary with the new one.
+:::caution
+
+Note that if you are upgrading from a non-plugin version to a plugin version, you also need to execute the upgrade command (also considered as an upgrade).
+
+:::
+
+You need build a new Answer binary with the new plugin version, then replace the old Answer binary with the new one. As with normal upgrades, you need to execute different [upgrade steps](./upgrade) depending on the  deployment method. For example, if you are using binary deployment, you need to execute the `upgrade` command.
+
+
 
 ## Develop and contributing
 
