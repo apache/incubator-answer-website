@@ -84,6 +84,63 @@ $ ./new_answer plugin
 # google connector[0.0.1] made by answerdev
 ```
 
+### Build docker image with plugin from answer base image
+> You can follow the steps above to build the binary with the plugin first, and then build a docker image that contains the binary. Of course, you can also build directly on top of the original image.
+
+```dockerfile  title="Dockerfile"
+FROM apache/answer as answer-builder
+
+RUN apk --no-cache add \
+    build-base git bash nodejs npm go && \
+    npm install -g pnpm
+
+RUN answer build \
+    --with github.com/apache/incubator-answer-plugins/connector-basic \
+    --with github.com/apache/incubator-answer-plugins/storage-s3 \
+    --with github.com/apache/incubator-answer-plugins/search-elasticsearch \
+    --output /usr/bin/new_answer
+
+FROM alpine
+LABEL maintainer="linkinstar@apache.org"
+
+ARG TIMEZONE
+ENV TIMEZONE=${TIMEZONE:-"Asia/Shanghai"}
+
+RUN apk update \
+    && apk --no-cache add \
+        bash \
+        ca-certificates \
+        curl \
+        dumb-init \
+        gettext \
+        openssh \
+        sqlite \
+        gnupg \
+        tzdata \
+    && ln -sf /usr/share/zoneinfo/${TIMEZONE} /etc/localtime \
+    && echo "${TIMEZONE}" > /etc/timezone
+
+COPY --from=answer-builder /usr/bin/new_answer /usr/bin/answer
+COPY --from=answer-builder /data /data
+COPY --from=answer-builder /entrypoint.sh /entrypoint.sh
+RUN chmod 755 /entrypoint.sh
+
+VOLUME /data
+EXPOSE 80
+ENTRYPOINT ["/entrypoint.sh"]
+```
+
+> You can update the --with parameter to add more plugins that you need.
+
+```shell
+# create a Dockerfile and copy the content above
+$ vim Dockerfile
+$ docker build -t answer-with-plugin .
+$ docker run -d -p 9080:80 -v answer-data:/data --name answer answer-with-plugin
+```
+
+
+
 ## Third-party plugin
 
 :::tip
