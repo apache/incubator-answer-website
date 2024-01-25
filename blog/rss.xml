@@ -4,10 +4,51 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Mon, 08 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jan 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[First Contribution? Come to Answer.]]></title>
+            <link>https://answer.apache.org/blog/2024/01/25/first-contribution-come-to-answer</link>
+            <guid>https://answer.apache.org/blog/2024/01/25/first-contribution-come-to-answer</guid>
+            <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ready to leave your mark on the open-source world? Come join the welcoming Apache Answer community!]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img loading="lazy" src="https://answer.apache.org/assets/images/2024-01-25-cover@4x-223166e677226a019c8a98180b990947.png" class="rounded img_dDce" width="1280px" height="720px"></div><p>2024 has been treated us well — we have more stars and contributors illuminating the path ahead of us.</p>
+<!-- --><p>As a 1-year-old project, we started our journey with the dream of making everyone find the best answer like breathing, as well as, unlocking the collective wisdom for teams at any scale.</p>
+<!-- --><p>We welcome new contributors to join our open-source journey. No matter your skill level or background, there's always a place for you in our community. Whether you want to code, write documentation, share your expertise, or simply offer feedback, your contributions will help us shine even brighter.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="why-apache-answer">Why Apache Answer<!-- --><a href="https://answer.apache.org/blog/2024/01/25/first-contribution-come-to-answer#why-apache-answer" class="hash-link" aria-label="Direct link to Why Apache Answer" title="Direct link to Why Apache Answer">​</a></h2>
+<!-- --><p>We are a group of Q&amp;A enthusiasts, and it’s lovely to deliver a product that we truly love. Answer is an open-source Q&amp;A software aiming to help people find the right answers, while unleashing collective wisdom for every team.</p>
+<!-- --><p>We’ve tagged different issues for novices and veterans to get hands on in the <!-- --><a href="https://github.com/apache/incubator-answer/issues" target="_blank" rel="noopener noreferrer">repository</a>.<!-- --></p>
+<!-- --><p><a href="https://github.com/apache/incubator-answer/issues" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Issues" src="https://answer.apache.org/assets/images/GitHub%20Screenshot-a6cda825a99b476195c3bb415d3067c6.jpeg" width="1241" height="507" class="img_dDce"></a></p>
+<!-- --><p>We know how important it is to have well-written and complete documentation to guide you. The Contributing doc covers everything you need, from how to submit an <!-- --><a href="https://answer.apache.org/community/issues" target="_blank" rel="noopener noreferrer">issue</a>, to develop a <!-- --><a href="https://answer.apache.org/community/plugins" target="_blank" rel="noopener noreferrer">plugin</a>, and how to write a <!-- --><a href="https://answer.apache.org/community/blog-post" target="_blank" rel="noopener noreferrer">blog</a>.<!-- --></p>
+<!-- --><p><img loading="lazy" alt="Answer Docs" src="https://answer.apache.org/assets/images/Docs%20Screenshot-331f2a047565f822498c2eea3d5df60c.png" width="1891" height="695" class="img_dDce"></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="not-sure-answer-is-a-good-fit">Not Sure Answer is a Good Fit?<!-- --><a href="https://answer.apache.org/blog/2024/01/25/first-contribution-come-to-answer#not-sure-answer-is-a-good-fit" class="hash-link" aria-label="Direct link to Not Sure Answer is a Good Fit?" title="Direct link to Not Sure Answer is a Good Fit?">​</a></h2>
+<!-- --><p>We know it takes courage to take the first step into the open-source world, and knowing what are the options out there is a must. These are some useful resources for you to explore and filter the project that matches your expertise.</p>
+<!-- --><ol>
+<!-- --><li>
+<!-- --><p><a href="https://up-for-grabs.net/#/filters?names=49" target="_blank" rel="noopener noreferrer">Up-for-grabs.net</a><br>
+<!-- -->The website contains curated tasks specially designed for new contributors. It’s perfect for people who are just starting out in the world of open source, but might now know where to start. Use labels and tags to filter the project that matches your expertise, and jump to the project.
+<!-- --><a href="https://up-for-grabs.net/#/filters?names=49" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Answer on up-for-grabs" src="https://answer.apache.org/assets/images/up-for-grabs-9e3b34f5dda2b057772f05dd3275cd6c.png" width="1920" height="1949" class="img_dDce"></a></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><a href="https://ovio.org/projects?searchText=apache+answer&amp;primaryOrder=SEARCH_RELEVANCE" target="_blank" rel="noopener noreferrer">ovio.org/projects</a><br>
+<!-- -->It helps developers find open-source projects that align with their skills and interests, making it easier to get involved in the open-source community. You can locate projects or issues via skills, topics, repo stars, etc.
+<!-- --><a href="https://ovio.org/project/apache/incubator-answer" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Answer on Ovio" src="https://answer.apache.org/assets/images/Ovio-67bf5af23dfdbb8eea2356afd12de116.png" width="1920" height="1282" class="img_dDce"></a></p>
+<!-- --></li>
+<!-- --></ol>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="what-you-can-do">What You can Do<!-- --><a href="https://answer.apache.org/blog/2024/01/25/first-contribution-come-to-answer#what-you-can-do" class="hash-link" aria-label="Direct link to What You can Do" title="Direct link to What You can Do">​</a></h2>
+<!-- --><p>A lot! More than coding.
+<!-- --><img loading="lazy" alt="Discussion in GitHub" src="https://answer.apache.org/assets/images/Discussion-baa4dc373e33f7dd9c3f76307ff77219.png" width="939" height="340" class="img_dDce"></p>
+<!-- --><p>Using Answer and providing us feedback is a way of contribution.
+Translate Answer in your language is a way of contribution.
+Share Answer on social media is also a great way of contribution.</p>
+<!-- --><p>No matter big or small, every contribution makes a difference. Here’s the <!-- --><a href="https://answer.apache.org/community/contributing" target="_blank" rel="noopener noreferrer">cookbook</a> you need, and just raise your hand!<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="we-got-your-back">We Got Your Back<!-- --><a href="https://answer.apache.org/blog/2024/01/25/first-contribution-come-to-answer#we-got-your-back" class="hash-link" aria-label="Direct link to We Got Your Back" title="Direct link to We Got Your Back">​</a></h2>
+<!-- --><p>Need help? Our community is always here for you!</p>
+<!-- --><p>You can always post your questions on <!-- --><a href="https://twitter.com/answerdev" target="_blank" rel="noopener noreferrer">X</a>, <!-- --><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>, <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a>, or <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Answer Meta</a>. We will reply to you as soon as we can, but please keep patience since we’re a small team at the moment.<!-- --></p>
+<!-- --><p>Our journey is just beginning, and we’re excited to continue pushing the boundaries with you. Join us ;)</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Answer 1.2.1: Ask Better. Find Better.]]></title>
             <link>https://answer.apache.org/blog/2024/01/08/answer-1.2.1-ask-better-find-better</link>
@@ -1094,23 +1135,6 @@ Photo by <!-- --><a href="https://unsplash.com/@anniespratt?utm_source=unsplash&
 <!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="conclusion">Conclusion<!-- --><a href="https://answer.apache.org/blog/2023/05/12/what-is-q-and-a-platform-and-how-to-use-it#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <!-- --><p>We always have a question or an answer sometimes in our lives, so it is natural to have a Q&amp;A platform. With <!-- --><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer">Answer</a>, you and your team will be able to solve problems, participate in discussions, and contribute fresh ideas to keep your business growing.<!-- --></p>]]></content:encoded>
             <category>tutorials</category>
-        </item>
-        <item>
-            <title><![CDATA[Have a Closer Look at Answer 1.0.9: New Features, and More]]></title>
-            <link>https://answer.apache.org/blog/2023/05/11/answer-1.0.9-release</link>
-            <guid>https://answer.apache.org/blog/2023/05/11/answer-1.0.9-release</guid>
-            <pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Take a closer look at how you can manage questions efficiently with Answer v1.0.9.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img loading="lazy" src="https://answer.apache.org/assets/images/2023-05-11-cover@4x-5646d198e3cf5f4cfbf7400b3a697da5.png" class="rounded img_dDce" width="1280px" height="720px"></div><p>The latest version of Answer comes with new tweaks, improvements and optimization. Take a closer look at how you can manage questions efficiently.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="whats-new">What’s New<!-- --><a href="https://answer.apache.org/blog/2023/05/11/answer-1.0.9-release#whats-new" class="hash-link" aria-label="Direct link to What’s New" title="Direct link to What’s New">​</a></h2>
-<!-- --><p>Pin an important or frequently asked question for your Q&amp;A platform, so that it always stay on the top of your community.
-<!-- --><img loading="lazy" alt="Pin a Question in Answer" src="https://answer.apache.org/assets/images/1.0.9release1-b10a9df59c50ef5d5c9f979408944d6d.gif" width="786" height="674" class="img_dDce"></p>
-<!-- --><p>Unlist a question to make it invisible for temporary modification, or further review. Admin can list question again in Admin&gt;Contents&gt;Questions.
-<!-- --><img loading="lazy" alt="Unlist a Question" src="https://answer.apache.org/assets/images/1.0.9release2-9e2138d07f1e0af6b87a7a014349d08b.gif" width="800" height="510" class="img_dDce"></p>
-<!-- --><p>Pin and Unlist help to tailor a knowledge-based community of your own, while maintain and organize the knowledge system can be easy.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="bug-fixes--optimization">Bug Fixes &amp; Optimization<!-- --><a href="https://answer.apache.org/blog/2023/05/11/answer-1.0.9-release#bug-fixes--optimization" class="hash-link" aria-label="Direct link to Bug Fixes &amp; Optimization" title="Direct link to Bug Fixes &amp; Optimization">​</a></h2>
-<!-- --><p>We’ve also made some tweaks to fix the display issues of tags, comments form,  and stubborn deleted questions. We’ve also removed context ambiguity with optimized translation.</p>
-<!-- --><p>We strongly recommend you to build and manage a Q&amp;A platform <!-- --><a href="https://github.com/apache/incubator-answer/releases/tag/v1.0.9" target="_blank" rel="noopener noreferrer">Answer v1.0.9</a>. You are always welcome to contribute your ideas (feature requests, or hunt a but) in <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">https://meta.answer.dev/</a>. So what will you pin first?<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
