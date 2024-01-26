@@ -1,9 +1,9 @@
 ---
-title: "How to access Answer using HTTPS"
+title: "How to Access Answer Using HTTPS"
 authors: [LinkinStar]
 category: Tech
 featured: true
-image: 2023-07-22-cover@4x.png
+image: 2024-01-25-cover@4x.png
 description: "I am already running Answer on my server, but I want to access it using HTTPS. How can I do that?"
 
 ---

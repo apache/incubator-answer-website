@@ -37,7 +37,6 @@ Following the format below when committing message can make you a better program
   - Entire length of the commit message must not go over 50 characters.
   - Describe what the commit does, not what issue it relates to or fixes.
   - Be brief, yet descriptive - we should have a good understanding of what the commit does by reading the subject.
-
 ## Licensing
 
 By contributing to Answer, you agree that your contributions will be licensed under its Apache-2.0 license. Copy and paste this to the top of your new file(s):
