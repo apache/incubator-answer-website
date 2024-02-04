@@ -27,7 +27,7 @@ I found that many people have this question. Deploying Answer is easy, but deplo
 This blog aims to introduce the easiest way to deploy Answer with HTTPS. You can use [Caddy](https://caddyserver.com/) to deploy Answer with HTTPS. Caddy is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go. Of course, you can use other tools to deploy Answer with HTTPS, such as Nginx, etc.
 
 ## Preparation
-1. You can follow the [installation guide](./docs/installation) to install Answer. After installing Answer, you can access it using HTTP. The default port for Answer is 9080. You can access it at http://localhost:9080. In the following steps, we will use 9080 as the default port for Answer.
+1. You can follow the [installation guide](https://answer.apache.org/docs/installation/) to install Answer. After installing Answer, you can access it using HTTP. The default port for Answer is 9080. You can access it at http://localhost:9080. In the following steps, we will use 9080 as the default port for Answer.
 
 2. You need a domain that **DNS resolution is already configured to point to your server**.
 
