@@ -4,10 +4,61 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Sun, 04 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Answer Project Ideas for Google Summer of Code 2024 (Draft)]]></title>
+            <link>https://answer.apache.org/blog/2024/02/05/project-ideas-for-google-summer-of-code-2024</link>
+            <guid>https://answer.apache.org/blog/2024/02/05/project-ideas-for-google-summer-of-code-2024</guid>
+            <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apache Answer intends to participate in Google Summer of Code 2024.]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img loading="lazy" src="https://answer.apache.org/assets/images/2024-02-05-cover@4x-11abd086035e0eb7c36337c326e5514e.png" class="rounded img_dDce" width="1280px" height="720px"></div><p>Apache Answer intends to participate in Google Summer of Code 2024, This post contains some of our project ideas.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="project-ideas">Project Ideas<!-- --><a href="https://answer.apache.org/blog/2024/02/05/project-ideas-for-google-summer-of-code-2024#project-ideas" class="hash-link" aria-label="Direct link to Project Ideas" title="Direct link to Project Ideas">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="plugin-ldap-authentication">Plugin: LDAP Authentication<!-- --><a href="https://answer.apache.org/blog/2024/02/05/project-ideas-for-google-summer-of-code-2024#plugin-ldap-authentication" class="hash-link" aria-label="Direct link to Plugin: LDAP Authentication" title="Direct link to Plugin: LDAP Authentication">​</a></h3>
+<!-- --><ul>
+<!-- --><li>Languages/skills: TypeScript (React), Go</li>
+<!-- --><li>Expected size of project: 90 hours</li>
+<!-- --><li>Difficulty: Easy</li>
+<!-- --></ul>
+<!-- --><p>The feature is at the top of the users’ wish list.</p>
+<!-- --><p>Today, lots of enterprises and organizations use LDAP to manage employee identity authentication. This allows employees to log in to Answer using their existing LDAP credentials, and simplifies the login process while improves security. It’s also an easy way to manage employees’ Answer usage permissions with LDAP.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="plugin-ai-bot">Plugin: AI Bot<!-- --><a href="https://answer.apache.org/blog/2024/02/05/project-ideas-for-google-summer-of-code-2024#plugin-ai-bot" class="hash-link" aria-label="Direct link to Plugin: AI Bot" title="Direct link to Plugin: AI Bot">​</a></h3>
+<!-- --><ul>
+<!-- --><li>Languages/skills: TypeScript (React), Go</li>
+<!-- --><li>Expected size of project: 175 hours</li>
+<!-- --><li>Difficulty: Hard</li>
+<!-- --></ul>
+<!-- --><p>AI Embedding helps Answer understand the context of the questions, providing comprehensive and accurate search results. Meanwhile, GPT-related technology can summarize the results in a clear and concise way, which makes it easier to find a solution.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="plugin-slack-bot-or-microsoft-teams-bot">Plugin: Slack Bot or Microsoft Teams Bot<!-- --><a href="https://answer.apache.org/blog/2024/02/05/project-ideas-for-google-summer-of-code-2024#plugin-slack-bot-or-microsoft-teams-bot" class="hash-link" aria-label="Direct link to Plugin: Slack Bot or Microsoft Teams Bot" title="Direct link to Plugin: Slack Bot or Microsoft Teams Bot">​</a></h3>
+<!-- --><ul>
+<!-- --><li>Languages/skills: TypeScript (React), Go</li>
+<!-- --><li>Expected size of project: 90 hours</li>
+<!-- --><li>Difficulty: Medium</li>
+<!-- --></ul>
+<!-- --><p>The Slack integration allows team members to search information in Answer without leaving their current workflow. Users can perform the corresponding operations by entering similar commands as below:</p>
+<!-- --><ul>
+<!-- --><li><code>/answer ask</code>：Add a new question<!-- --></li>
+<!-- --><li><code>/answer search</code>：Search<!-- --></li>
+<!-- --><li><code>/answer connect|disconnect</code>：Bind or unbind an account<!-- --></li>
+<!-- --><li><code>/answer notify</code>：Set up message notifications to receive system messages through Slack<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="webhook-notification">Webhook Notification<!-- --><a href="https://answer.apache.org/blog/2024/02/05/project-ideas-for-google-summer-of-code-2024#webhook-notification" class="hash-link" aria-label="Direct link to Webhook Notification" title="Direct link to Webhook Notification">​</a></h3>
+<!-- --><ul>
+<!-- --><li>Languages/skills: TypeScript (React), Go</li>
+<!-- --><li>Expected size of project: 90 hours</li>
+<!-- --><li>Difficulty: Medium</li>
+<!-- --></ul>
+<!-- --><p>Support multiple Webhook for integration with other applications. It sends events of Answer to third-party application and services like Slack, Zapier, and IFTTT for workflow automation. It also supports triggers for events, such as questions, answers, accepted answers, notifications, and votes.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="gamification-badges">Gamification Badges<!-- --><a href="https://answer.apache.org/blog/2024/02/05/project-ideas-for-google-summer-of-code-2024#gamification-badges" class="hash-link" aria-label="Direct link to Gamification Badges" title="Direct link to Gamification Badges">​</a></h3>
+<!-- --><ul>
+<!-- --><li>Languages/skills: TypeScript (React), Go</li>
+<!-- --><li>Expected size of project: 175 hours</li>
+<!-- --><li>Difficulty: Hard</li>
+<!-- --></ul>
+<!-- --><p>Answer offers a badge rewarding system with three levels: gold, silver and bronze. Admins can create and specify the conditions to earn the badges, while the system automatically awards the users. Admins can create exclusive badges and award users manually. This is to encourage team members to actively participate and contribute in Answer. Badges are displayed on the profile page to recognize team members' contributions.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Must-Read Notes for Your First Answer Contribution]]></title>
             <link>https://answer.apache.org/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution</link>
@@ -1057,53 +1108,6 @@ Answer provides advanced search, including tag, author, question, etc. so that y
 <!-- --><p>One of our users, <!-- --><a href="https://blog.safewebbox.com/author/david/" target="_blank" rel="noopener noreferrer">David Filed</a> have built a self-hosted knowledge base with Answer. He also shared a <!-- --><a href="https://blog.safewebbox.com/a-self-hosted-knowledgebase-which-feels-much-like-stackoverflow/" target="_blank" rel="noopener noreferrer">blog</a> about why he chose Answer, and a step-by-step tutorial of installing and running Answer.
 <!-- --><img loading="lazy" alt="Screenshot of Davids Knowledgebase" src="https://answer.apache.org/assets/images/knowledgebase5-5892b03e1eeb72af2916ba0a2602c277.png" width="1391" height="374" class="img_dDce">
 Follow his tutorial or our <!-- --><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">Docs</a> to build a knowledge base of your own now, and embrace the power of knowledge base today.<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Why Open Source is the Essence of Answer]]></title>
-            <link>https://answer.apache.org/blog/2023/05/23/why-open-source-is-the-essence-of-answer</link>
-            <guid>https://answer.apache.org/blog/2023/05/23/why-open-source-is-the-essence-of-answer</guid>
-            <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Take a nibble on open source, examples, and why it's the essence of Answer.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img loading="lazy" src="https://answer.apache.org/assets/images/2023-05-23-cover@4x-2b72f536d69e4880e094b6d668786926.png" class="rounded img_dDce" width="1280px" height="720px"></div><p>Whether it's for business or personal use, having software that aligns with our workflows, preferences, and objectives is crucial for maximizing productivity. That’s why we actively seek and try different software solutions that can be customized and personalized to suit our specific requirements.</p>
-<!-- --><p>That's when open-source software — offering a collaborative, effective, and secure experience — showed up. Open source forms the heart and soul of Answer since the day Answer launched.</p>
-<!-- --><p>Before knowing why Answer is open-source, we will take a nibble on open-source, and examples beforehand.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="what-is-open-source">What is Open-source?<!-- --><a href="https://answer.apache.org/blog/2023/05/23/why-open-source-is-the-essence-of-answer#what-is-open-source" class="hash-link" aria-label="Direct link to What is Open-source?" title="Direct link to What is Open-source?">​</a></h2>
-<!-- --><p><a href="https://opensource.com/article/18/2/coining-term-open-source-software" target="_blank" rel="noopener noreferrer">Open source</a> refers to a type of software or technology that comes with its source code which is accessible to the public for free. This means that anyone can view, modify, and distribute the code, following the guidelines outlined in the open-source license. For example, programmers can add features or fix a bug with the access to the source code.<!-- --></p>
-<!-- --><p><img loading="lazy" alt="code" src="https://answer.apache.org/assets/images/opensource1-33e96ecc672d2bd874dd10b757a81dcd.jpg" width="5760" height="3840" class="img_dDce">
-Photo by <!-- --><a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Markus Spiske</a> on <!-- --><a href="https://unsplash.com/s/photos/open-source-software?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
-<!-- --><p>It promotes collaboration, transparency, and community-driven development, often maintained by volunteers working together to create reliable and innovative solutions.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="open-source-software">Open-source Software<!-- --><a href="https://answer.apache.org/blog/2023/05/23/why-open-source-is-the-essence-of-answer#open-source-software" class="hash-link" aria-label="Direct link to Open-source Software" title="Direct link to Open-source Software">​</a></h2>
-<!-- --><p>We might have already met or used open-source software before, and here are them.</p>
-<!-- --><ol>
-<!-- --><li><a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer">Linux</a>: an operating system that powers many servers, smartphones, and other devices.<!-- --></li>
-<!-- --><li><a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python</a>: a high-level programming language that is used for web development, data analysis, artificial intelligence, and more.<!-- --></li>
-<!-- --><li><a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noopener noreferrer">Firefox</a>: a web browser developed by the Mozilla Foundation.<!-- --></li>
-<!-- --><li><a href="https://www.libreoffice.org/" target="_blank" rel="noopener noreferrer">LibreOffice</a>: an open-source office suite that includes word processing, spreadsheet, and presentation software.<!-- --></li>
-<!-- --><li><a href="https://httpd.apache.org/" target="_blank" rel="noopener noreferrer">Apache HTTP web server</a>: a web server software that powers many websites on the internet<!-- --></li>
-<!-- --><li><a href="https://opencv.org/" target="_blank" rel="noopener noreferrer">OpenCV</a>: a computer vision library used for image and video analysis.<!-- --></li>
-<!-- --><li><a href="https://www.videolan.org/" target="_blank" rel="noopener noreferrer">VLC</a>: a media player that can play a wide range of video and audio formats.<!-- --></li>
-<!-- --><li><a href="https://wordpress.com/" target="_blank" rel="noopener noreferrer">WordPress</a>: a content management system (CMS) for creating websites and blogs.<!-- --></li>
-<!-- --></ol>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="answer-open-source-is-in-essence">Answer: Open-source is in Essence<!-- --><a href="https://answer.apache.org/blog/2023/05/23/why-open-source-is-the-essence-of-answer#answer-open-source-is-in-essence" class="hash-link" aria-label="Direct link to Answer: Open-source is in Essence" title="Direct link to Answer: Open-source is in Essence">​</a></h2>
-<!-- --><p>Lately, B2B enterprises have been looking for solutions on building their own Q&amp;A community or a corporate community. A dedicated section or subsection cannot meet their needs because they wish to customize content, have control of data, rather than “being a guest” in a public community.</p>
-<!-- --><p><img loading="lazy" alt="Answer Interface" src="https://answer.apache.org/assets/images/opensource2-ba40e7a6f56ef96c831fdef19654070c.png" width="1400" height="930" class="img_dDce"></p>
-<!-- --><p>That’s the moment we decided to build Answer.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="we-wish-answer-to-be-">We Wish Answer to be …<!-- --><a href="https://answer.apache.org/blog/2023/05/23/why-open-source-is-the-essence-of-answer#we-wish-answer-to-be-" class="hash-link" aria-label="Direct link to We Wish Answer to be …" title="Direct link to We Wish Answer to be …">​</a></h3>
-<!-- --><p><strong>Easy to use</strong><br>
-<!-- -->We hope everyone can set up and run Answer at ease — well, maybe with a little guidance and documentation from us :)<!-- --></p>
-<!-- --><p><strong>Built for Everyone</strong>
-Currently, running community software or open-source products in the market still requires professional knowledge, such as understanding technical terms. We want Answer to have a bigger stage and to embrace a bigger world. Thus, in the initial design of Answer, we always considered the user as a novice, and how can they get started with Answer smoothly.<!-- --></p>
-<!-- --><p><strong>Open-source</strong>
-You can find all the source code of Answer in <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub Repo</a>, free for everybody. We love the spirit of how open source encourages collaboration and transparency, and we always welcome contributions ;)<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="where-can-i-find-more-about-answer">Where Can I Find More about Answer<!-- --><a href="https://answer.apache.org/blog/2023/05/23/why-open-source-is-the-essence-of-answer#where-can-i-find-more-about-answer" class="hash-link" aria-label="Direct link to Where Can I Find More about Answer" title="Direct link to Where Can I Find More about Answer">​</a></h2>
-<!-- --><p>No matter you are a Q&amp;A lover, self-host expert, or want-to-give-it-try person, you can always get connected with us, share new ideas, or simply for chatting.</p>
-<!-- --><ol>
-<!-- --><li><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer">Website</a>: Welcome to the home of Answer. We know there are plenty of things that need to be improved. We are working on it, we promise.<!-- --></li>
-<!-- --><li><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub Repo</a>: Enjoy your stay in the garden of Answer.<!-- --></li>
-<!-- --><li><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Meta.Answer</a>: The one and only official community built with Answer, meet new friends here.<!-- --></li>
-<!-- --><li><a href="https://twitter.com/answerdev" target="_blank" rel="noopener noreferrer">Twitter</a>: What we’ve been up to, tutorials, and tips. Follow us to keep updated.<!-- --></li>
-<!-- --><li><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>: Want to talk to our dev team in real time? Join our Discord Server!<!-- --></li>
-<!-- --></ol>]]></content:encoded>
         </item>
     </channel>
 </rss>
