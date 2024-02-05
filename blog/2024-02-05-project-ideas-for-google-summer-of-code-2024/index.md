@@ -2,7 +2,6 @@
 title: "Answer Project Ideas for Google Summer of Code 2024 (Draft)"
 authors: [fenbox]
 category: Community
-draft: true
 featured: false
 image: 2024-02-05-cover@4x.png
 description: "Apache Answer intends to participate in Google Summer of Code 2024."
