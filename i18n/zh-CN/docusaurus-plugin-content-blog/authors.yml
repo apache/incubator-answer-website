@@ -3,8 +3,15 @@ Anne:
   title: Product Marketing Manager
   url: https://github.com/PrimmaAnna
   image_url: https://avatars.githubusercontent.com/u/131739771?v=4
+
 LinkinStar:
   name: LinkinStar
   title: Developer
-  url: https://github.com/LinkinStars/
+  url: https://github.com/LinkinStars
   image_url: https://avatars.githubusercontent.com/u/19712692?v=4
+
+fenbox:
+  name: Fen
+  title: Product Designer
+  url: https://github.com
+  image_url: https://avatars.githubusercontent.com/u/360618?v=4
