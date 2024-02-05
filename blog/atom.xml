@@ -69,7 +69,7 @@
 <!-- --><p>Following these steps helps us merge PRs efficiently. We can't wait to see your first contribution that shapes Answer better.</p>]]></content>
         <author>
             <name>LinkinStar</name>
-            <uri>https://github.com/LinkinStars/</uri>
+            <uri>https://github.com/LinkinStars</uri>
         </author>
     </entry>
     <entry>
@@ -128,7 +128,7 @@
 <!-- --><p>Of course, you can also install Caddy using other methods, such as using the binary file, etc. All in all, I wish you can follow this blog to deploy Answer with HTTPS successfully. If you have any questions, please feel free to leave a question on <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Meta</a>. We will try our best to help you.<!-- --></p>]]></content>
         <author>
             <name>LinkinStar</name>
-            <uri>https://github.com/LinkinStars/</uri>
+            <uri>https://github.com/LinkinStars</uri>
         </author>
     </entry>
     <entry>
@@ -712,7 +712,7 @@ If you are interested in developing plugins for Answer, please feel free to leav
 We will also write an article on how to implement an Answer plugin from scratch, so stay focused!</p>]]></content>
         <author>
             <name>LinkinStar</name>
-            <uri>https://github.com/LinkinStars/</uri>
+            <uri>https://github.com/LinkinStars</uri>
         </author>
     </entry>
     <entry>
