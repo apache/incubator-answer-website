@@ -4,16 +4,16 @@ authors: [LinkinStar]
 category: Community
 featured: true
 image: 2024-02-04-cover@4x.png
-description: "I want to contribute code to answers, so what do I need to be concerned about when contributing for the first time?"
+description: "Before the debut, check the must-read notes to ensure your first Answer contribution shines."
 
 ---
 
 > I want to contribute code to Answer, so what do I need to be concerned about when contributing for the first time?
 
-This blog I want to talk about the first contribution to Answer. I hope this blog can help you to contribute to Answer more professionally.
+In this blog, I want to talk about the first contribution to Answer. This blog aims to help you contribute to Answer more professionally.
 
-## Steps to contribute
-When you start contributing, you need to follow the following steps:
+## Steps to Contribute
+When start contributing, here are the steps to you need to follow:
 1. Find or create an issue.
 2. You were assigned to the issue.
 3. Submit a pull request.
@@ -22,7 +22,7 @@ When you start contributing, you need to follow the following steps:
 6. The pull request is merged.
 
 ## Issue First
-Before you start contributing, you need to find an issue to work on. If issue doesn't exist, you need to create one first. BTW, the `good first issue` is a label means that the issue is friendly to new contributors. So you can find this kind of issue to start your contribution.
+Before start contributing, you need to find an issue to work on. If issue doesn't exist, you need to create one first. BTW, the `good first issue` is a label means that the issue is friendly to new contributors. So you can find this kind of issue to start your contribution.
 
 - I'm trying to work out a bug, so I need to create an issue first.
 - I'm trying to add a new feature, so I need to create an issue first.
@@ -31,7 +31,7 @@ Before you start contributing, you need to find an issue to work on. If issue do
 
 Create an issue and let us know that you plan on creating a pull request for it. If an issue already exists, please comment on that issue letting us know you would like to submit a pull request for it. **This helps us to keep track of the pull request and make sure there isn't duplicated effort.** After we assign the issue to you, you can start working on it.
 
-## Choose the right branch
+## Choose the Right Branch
 Which branch should you choose when you submit your PR?
 
 - The `main` branch corresponds to the **latest version** of answer. If you're doing a **fix** for the latest version, then select the main branch.
@@ -61,7 +61,7 @@ This is a very important part of contributing. When you finish your code, you ne
 2. Run and test your code to make sure that features are working correctly.
 3. If you have no environment to test, such as Windows, you can ask us to help you test.
 
-## Make sure ASF headers
+## Double Check the ASF Headers
 If you add new files, please make sure that the file has the ASF header. You can run the following command to add the ASF header automatically.
 
 ```bash
@@ -69,4 +69,4 @@ $ make lint
 ```
 
 ## Summary
-Follow the above and your PR will be merged faster. We are looking forward to your first contribution. Let's make Answer better together.
+Following these steps helps us merge PRs efficiently. We can't wait to see your first contribution that shapes Answer better.
