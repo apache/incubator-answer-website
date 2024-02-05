@@ -4,10 +4,71 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/zh-CN/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Fri, 26 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
+        <item>
+            <title><![CDATA[Must-Read Notes for Your First Answer Contribution]]></title>
+            <link>https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution</link>
+            <guid>https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution</guid>
+            <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Before the debut, check the must-read notes to ensure your first Answer contribution shines.]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-02-04-cover@4x-58df8cc09784c993ca76b7dc9362ed79.png" class="rounded img_dDce" width="1280px" height="720px"></div><blockquote>
+<!-- --><p>I want to contribute code to Answer, so what do I need to be concerned about when contributing for the first time?</p>
+<!-- --></blockquote>
+<!-- --><p>In this blog, I want to talk about the first contribution to Answer. This blog aims to help you contribute to Answer more professionally.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="steps-to-contribute">Steps to Contribute<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution#steps-to-contribute" class="hash-link" aria-label="Steps to Contribute的直接链接" title="Steps to Contribute的直接链接">​</a></h2>
+<!-- --><p>When start contributing, here are the steps to you need to follow:</p>
+<!-- --><ol>
+<!-- --><li>Find or create an issue.</li>
+<!-- --><li>You were assigned to the issue.</li>
+<!-- --><li>Submit a pull request.</li>
+<!-- --><li>Wait for the pull request to be reviewed.</li>
+<!-- --><li>Make changes if necessary.</li>
+<!-- --><li>The pull request is merged.</li>
+<!-- --></ol>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="issue-first">Issue First<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution#issue-first" class="hash-link" aria-label="Issue First的直接链接" title="Issue First的直接链接">​</a></h2>
+<!-- --><p>Before start contributing, you need to find an issue to work on. If issue doesn't exist, you need to create one first. BTW, the <!-- --><code>good first issue</code> is a label means that the issue is friendly to new contributors. So you can find this kind of issue to start your contribution.<!-- --></p>
+<!-- --><ul>
+<!-- --><li>I'm trying to work out a bug, so I need to create an issue first.</li>
+<!-- --><li>I'm trying to add a new feature, so I need to create an issue first.</li>
+<!-- --><li>I'm trying to improve the documentation, so I need to create an issue first.</li>
+<!-- --><li>...</li>
+<!-- --></ul>
+<!-- --><p>Create an issue and let us know that you plan on creating a pull request for it. If an issue already exists, please comment on that issue letting us know you would like to submit a pull request for it. <!-- --><strong>This helps us to keep track of the pull request and make sure there isn't duplicated effort.</strong> After we assign the issue to you, you can start working on it.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="choose-the-right-branch">Choose the Right Branch<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution#choose-the-right-branch" class="hash-link" aria-label="Choose the Right Branch的直接链接" title="Choose the Right Branch的直接链接">​</a></h2>
+<!-- --><p>Which branch should you choose when you submit your PR?</p>
+<!-- --><ul>
+<!-- --><li>The <!-- --><code>main</code> branch corresponds to the <!-- --><strong>latest version</strong> of answer. If you're doing a <!-- --><strong>fix</strong> for the latest version, then select the main branch.<!-- --></li>
+<!-- --><li>The <!-- --><code>dev</code> branch is for the <!-- --><strong>next version</strong>, so if you're working on a <!-- --><strong>new feature</strong>, checkout of the dev branch and PR for it.<!-- --></li>
+<!-- --></ul>
+<!-- --><p>Normally, we mark milestones on an issue to keep track of which version the issue should be fixed in. So you can check which version you should commit to based on the milestone.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="code-of-conduct">Code of Conduct<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution#code-of-conduct" class="hash-link" aria-label="Code of Conduct的直接链接" title="Code of Conduct的直接链接">​</a></h2>
+<!-- --><p>Apache Answer has adopted a Code of Conduct that we expect project participants to adhere to. Please read the <!-- --><a href="https://www.apache.org/foundation/policies/conduct.html" target="_blank" rel="noopener noreferrer">full text</a> so that you can understand what actions will and will not be tolerated.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="code-style">Code Style<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution#code-style" class="hash-link" aria-label="Code Style的直接链接" title="Code Style的直接链接">​</a></h2>
+<!-- --><p>When you start contributing, you need to follow the code style.</p>
+<!-- --><ul>
+<!-- --><li><a href="https://answer.apache.org/community/development#code-conventions" target="_blank" rel="noopener noreferrer">FRONTEND</a></li>
+<!-- --><li><a href="https://answer.apache.org/community/development#code-conventions-1" target="_blank" rel="noopener noreferrer">BACKEND</a></li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="license">License<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution#license" class="hash-link" aria-label="License的直接链接" title="License的直接链接">​</a></h2>
+<!-- --><p>Normally, your contributions do not import third-party dependencies. However, if you encounter such a situation, you must import a third-party dependency. <!-- --><strong>Then you need to make sure that the license of the dependency is one that meets Apache's requirements.</strong> If you are not sure if the requirements are met, you can ask us before submitting your PR.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="commit-message">Commit message<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution#commit-message" class="hash-link" aria-label="Commit message的直接链接" title="Commit message的直接链接">​</a></h2>
+<!-- --><p>When you start contributing, you need to follow the <!-- --><a href="https://answer.apache.org/community/pull-request#semantic-commit-messages" target="_blank" rel="noopener noreferrer">commit message format</a>.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="testing">Testing<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution#testing" class="hash-link" aria-label="Testing的直接链接" title="Testing的直接链接">​</a></h2>
+<!-- --><p>This is a very important part of contributing. When you finish your code, you need to test your code to make sure that your code is working correctly.</p>
+<!-- --><ol>
+<!-- --><li>Compile your code to make sure that your code can build successfully.</li>
+<!-- --><li>Run and test your code to make sure that features are working correctly.</li>
+<!-- --><li>If you have no environment to test, such as Windows, you can ask us to help you test.</li>
+<!-- --></ol>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="double-check-the-asf-headers">Double Check the ASF Headers<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution#double-check-the-asf-headers" class="hash-link" aria-label="Double Check the ASF Headers的直接链接" title="Double Check the ASF Headers的直接链接">​</a></h2>
+<!-- --><p>If you add new files, please make sure that the file has the ASF header. You can run the following command to add the ASF header automatically.</p>
+<!-- --><div class="language-bash codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-bash codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">$ </span><span class="token function" style="color:#d73a49">make</span><span class="token plain"> lint</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="summary">Summary<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/04/must-read-notes-for-your-first-answer-contribution#summary" class="hash-link" aria-label="Summary的直接链接" title="Summary的直接链接">​</a></h2>
+<!-- --><p>Following these steps helps us merge PRs efficiently. We can't wait to see your first contribution that shapes Answer better.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[How to Access Answer Using HTTPS]]></title>
             <link>https://answer.apache.org/zh-CN/blog/2024/01/26/deploy-answer-https</link>
@@ -1043,55 +1104,6 @@ You can find all the source code of Answer in <!-- --><a href="https://github.co
 <!-- --><li><a href="https://twitter.com/answerdev" target="_blank" rel="noopener noreferrer">Twitter</a>: What we’ve been up to, tutorials, and tips. Follow us to keep updated.<!-- --></li>
 <!-- --><li><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>: Want to talk to our dev team in real time? Join our Discord Server!<!-- --></li>
 <!-- --></ol>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[How to use Answer for Effective Knowledge Retention?]]></title>
-            <link>https://answer.apache.org/zh-CN/blog/2023/05/16/how-to-use-answer-for-effective-knowledge-retention</link>
-            <guid>https://answer.apache.org/zh-CN/blog/2023/05/16/how-to-use-answer-for-effective-knowledge-retention</guid>
-            <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Dive into knowledge retention, and find out how Answer empowers your internal knowledge base.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2023-05-16-cover@4x-1486644ec7a18623dd7a4cc457f563bc.png" class="rounded img_dDce" width="1280px" height="720px"></div><p>This is an overwhelming world, where an answer is available at a snap, a click, and a blink. With data and information flowing ceaselessly around us, the challenge today is not accessing knowledge but retaining it.</p>
-<!-- --><p>We’ve stepped into the world of Q&amp;A platform, and let’s dive in to tackle this challenge together.</p>
-<!-- --><p>In this article, we will figure out what is knowledge retention for both individuals and businesses, understand why it’s important, strategies that help you to prevent the collective wisdom of your business, and how Answer can help you with this.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="what-is-knowledge-retention">What is Knowledge Retention<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/05/16/how-to-use-answer-for-effective-knowledge-retention#what-is-knowledge-retention" class="hash-link" aria-label="What is Knowledge Retention的直接链接" title="What is Knowledge Retention的直接链接">​</a></h2>
-<!-- --><p><a href="https://bokcenter.harvard.edu/how-memory-works" target="_blank" rel="noopener noreferrer">Memory is an ongoing process of information retention over time</a>, so for individuals, knowledge retention is to capture, remember and retrieve critical information. As for business, knowledge retention involves capturing, storing, preserving, and sharing knowledge within an organization.<!-- --></p>
-<!-- --><p><img loading="lazy" alt="what is knowledge retention" src="https://answer.apache.org/zh-CN/assets/images/knowledgeretention1-730e7089d78092b7af1f7e55a648e34b.jpg" width="7360" height="4912" class="img_dDce">
-Photo by <!-- --><a href="https://unsplash.com/@homajob?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Scott Graham</a> on <!-- --><a href="https://unsplash.com/photos/5fNmWej4tAA?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="why-it-is-important">Why it is Important<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/05/16/how-to-use-answer-for-effective-knowledge-retention#why-it-is-important" class="hash-link" aria-label="Why it is Important的直接链接" title="Why it is Important的直接链接">​</a></h2>
-<!-- --><p>For individuals, knowledge retention reflects one’s learning ability because you’ve retained the knowledge in your long-term memory. The ability to retrieve information is essential for one’s continued personal growth, career advancement, and professional success, etc.</p>
-<!-- --><p>When it comes to business, knowledge isn’t merely about internal data or information, **it’s the experience or expertise of an employee or a team,&nbsp;**such as, best practice, customer data, operation procedure, etc. In this case, knowledge retention refers to:</p>
-<!-- --><ol>
-<!-- --><li>Core knowledge stays in the organization</li>
-<!-- --><li>Employee can always access the right knowledge</li>
-<!-- --><li>Retain and transfer for the future</li>
-<!-- --></ol>
-<!-- --><p>Knowledge retention is crucial to helping companies run efficiently and maintain a competitive edge, and it has become a core to maintain sustain growth.</p>
-<!-- --><p><img loading="lazy" alt="knowledge rention is crucial for companies" src="https://answer.apache.org/zh-CN/assets/images/knowledgeretention2-4a57dddbe84fe6fa7fbeb026dec565b4.jpg" width="1920" height="1281" class="img_dDce">
-Photo by <!-- --><a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Annie Spratt</a> on <!-- --><a href="https://unsplash.com/photos/QckxruozjRg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="effective-knowledge-retention-strategies">Effective Knowledge Retention Strategies<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/05/16/how-to-use-answer-for-effective-knowledge-retention#effective-knowledge-retention-strategies" class="hash-link" aria-label="Effective Knowledge Retention Strategies的直接链接" title="Effective Knowledge Retention Strategies的直接链接">​</a></h2>
-<!-- --><p>With the significance of knowledge retention in mind, how can companies and teams make effective knowledge retention?</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="build-a-knowledge-sharing-platforms">Build a Knowledge Sharing Platforms<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/05/16/how-to-use-answer-for-effective-knowledge-retention#build-a-knowledge-sharing-platforms" class="hash-link" aria-label="Build a Knowledge Sharing Platforms的直接链接" title="Build a Knowledge Sharing Platforms的直接链接">​</a></h3>
-<!-- --><p>To make knowledge sharing and access easier within the organization, set up platforms and tools that facilitate the process. This can be achieved through the use of intranets, collaboration software, or knowledge management systems.</p>
-<!-- --><p>Answer is an <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">open-source Q&amp;A platform</a>, which gives companies freedom to build a knowledge-based community in the way they need. No matter it’s for products, customer support, or the team, Answer is capable of making it happen on different devices.<!-- --></p>
-<!-- --><p><img loading="lazy" alt="Interface of Answer" src="https://answer.apache.org/zh-CN/assets/images/knowledgeretention3-107528b324fbeceb79891a1f1f5fd867.png" width="1134" height="717" class="img_dDce"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="identify-and-prioritize-the-knowledge">Identify and Prioritize the Knowledge<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/05/16/how-to-use-answer-for-effective-knowledge-retention#identify-and-prioritize-the-knowledge" class="hash-link" aria-label="Identify and Prioritize the Knowledge的直接链接" title="Identify and Prioritize the Knowledge的直接链接">​</a></h3>
-<!-- --><p>Obviously, it’s impossible to retain all the information, since there are different roles and departments in a company, and each plays a different role in the business.</p>
-<!-- --><p>Identify the secret weapon for your business, and prioritize the key information, skills, and expertise that are most critical to the success of your business.</p>
-<!-- --><p>Tags help users identify the knowledge they require at the moment. In <!-- --><a href="https://meta.answer.dev/questions/D1V8/how-to-create-some-tags-without-add-question" target="_blank" rel="noopener noreferrer">Answer</a>, admins can create a new tag without adding a question. This is helpful to preparing the foundation of a knowledge base.
-<!-- --><img loading="lazy" alt="Create New Tag in Answer" src="https://answer.apache.org/zh-CN/assets/images/knowledgeretention4-c4e589620c83cb3f2d6cc1b422c3820c.png" width="1102" height="644" class="img_dDce"></p>
-<!-- --><p>You can also Pin the most important knowledge to make sure everyone can access it in the first place.
-<!-- --><img loading="lazy" alt="Pin a Question in Answer" src="https://answer.apache.org/zh-CN/assets/images/knowledgeretention5-b10a9df59c50ef5d5c9f979408944d6d.gif" width="786" height="674" class="img_dDce"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="encourage-knowledge-sharing-with-award">Encourage Knowledge Sharing with Award<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/05/16/how-to-use-answer-for-effective-knowledge-retention#encourage-knowledge-sharing-with-award" class="hash-link" aria-label="Encourage Knowledge Sharing with Award的直接链接" title="Encourage Knowledge Sharing with Award的直接链接">​</a></h3>
-<!-- --><p>Create a pleasant, easy-to-share process for everyone and keep sharing going with awards. Encourage employees with expertise to contribute with an internal reward system, which is similar to the achievement system of games. It adds a sense of competition as well as fun, which makes sharing more engaging.</p>
-<!-- --><p>Stay tuned for Answer’s coming reward system, we promise it will make knowledge sharing exciting.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="keep-knowledge-staying-alive">Keep Knowledge Staying Alive<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/05/16/how-to-use-answer-for-effective-knowledge-retention#keep-knowledge-staying-alive" class="hash-link" aria-label="Keep Knowledge Staying Alive的直接链接" title="Keep Knowledge Staying Alive的直接链接">​</a></h3>
-<!-- --><p>The core knowledge is ready, and the award system for enthusiasms with expertise is on board, now what? Keep the documents always up-to-date.</p>
-<!-- --><p>Knowledge sharing is not a one-time event, it’s a sustainable process. Like a company, it develops into different phrases, and so is the knowledge. Regular reviews and modifications ensure the documents or information is up-to-date, relevant, and effective.</p>
-<!-- --><p>In Answer, you can use Unlist to prevent temporary access to a question. This allows admins or moderators to review, edit, or remove out-dated resources regularly.
-<!-- --><img loading="lazy" alt="Unlist a Question in Answer" src="https://answer.apache.org/zh-CN/assets/images/knowledgeretention6-9e2138d07f1e0af6b87a7a014349d08b.gif" width="800" height="510" class="img_dDce"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="ready-to-grow-your-business-with-answer">Ready to Grow Your Business with Answer?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/05/16/how-to-use-answer-for-effective-knowledge-retention#ready-to-grow-your-business-with-answer" class="hash-link" aria-label="Ready to Grow Your Business with Answer?的直接链接" title="Ready to Grow Your Business with Answer?的直接链接">​</a></h2>
-<!-- --><p>After reading the post, you must be aware of the significance of knowledge retention for both individuals and businesses. Let Answer be your company so that you can kick-start building a smooth knowledge sharing process for everyone, and every scenario.</p>
-<!-- --><p>Join <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">our community</a> where you can ask and get assistance easily, follow our social media for the latest updates and up-to-date tips and tricks, even better, become a contributor and ignite knowledge sharing for the world.<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
