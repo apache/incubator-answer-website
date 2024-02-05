@@ -90,7 +90,6 @@ flowchart TD
   A([Start]) -- OAuth authorization --> record{"Authorization already exists?"}
   record -- No --> get_email{Can get email}
   record -- Yes --> Z([Login successful])
-  
 
 
 ```
