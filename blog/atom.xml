@@ -2,11 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://answer.apache.org/blog</id>
     <title>Apache Answer Blog</title>
-    <updated>2024-02-05T00:00:00.000Z</updated>
+    <updated>2024-02-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://answer.apache.org/blog"/>
     <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Answer 1.2.5 is Ready]]></title>
+        <id>https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready</id>
+        <link href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready"/>
+        <updated>2024-02-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Answer supports dark mode and plugin notification. UI improvement and reputation system customization are also joining the lift. ]]></summary>
+        <content type="html"><![CDATA[<div class="mb-4"><img loading="lazy" src="https://answer.apache.org/assets/images/2024-02-20-cover@4x-5d887ed291a22931985bd7b4430e4259.png" class="rounded img_dDce" width="1280px" height="720px"></div><p>Spring is coming, and our monthly update is finally here! In this update, you’ll enjoy the coming community nights with Dark Mode, and manage third-party plugins' notification. There are new changes for better using and management experience, and we’re glad that they are ready for the stage. Check out <!-- --><a href="https://github.com/apache/incubator-answer/releases/tag/v1.2.5" target="_blank" rel="noopener noreferrer">what’s new in Answer V1.2.5</a> and the tutorials in this blog.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="turn-the-dark-mode-on">Turn the Dark Mode On<!-- --><a href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready#turn-the-dark-mode-on" class="hash-link" aria-label="Direct link to Turn the Dark Mode On" title="Direct link to Turn the Dark Mode On">​</a></h2>
+<!-- --><p>Get ready to explore the dark side with our new Dark Mode. Switch to light, dark manually to meet your needs, or follow the system for a smooth transition.</p>
+<!-- --><p><img loading="lazy" alt="Dark Mode of Answer" src="https://answer.apache.org/assets/images/dark-mode-43324018e489bca1652ee9482ec7f173.png" width="2724" height="1228" class="img_dDce"></p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="how-to">How to<!-- --><a href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready#how-to" class="hash-link" aria-label="Direct link to How to" title="Direct link to How to">​</a></h3>
+<!-- --><ol>
+<!-- --><li>Go Admin — Customize — Themes</li>
+<!-- --><li>Color scheme, and choose Dark in the dropdown menu.
+<!-- --><img loading="lazy" alt="How to Switch to Dark Mode" src="https://answer.apache.org/assets/images/switch-to-dark-mode-7df0cdcbf50f1c92c53fdb8cf8829aab.gif" width="1200" height="648" class="img_dDce"></li>
+<!-- --></ol>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="plugin-notification-management">Plugin Notification Management<!-- --><a href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready#plugin-notification-management" class="hash-link" aria-label="Direct link to Plugin Notification Management" title="Direct link to Plugin Notification Management">​</a></h2>
+<!-- --><p>Now, users can always stay on top of the third-party plugin notifications, ensuring you stay informed across all your favorite tools. With Apache Answer, managing third-party plugin notifications has never been easier.</p>
+<!-- --><p><img loading="lazy" alt="Third Party Notification" src="https://answer.apache.org/assets/images/third-party-plugins-notification-699f19c9136de477afb3add06698e111.jpeg" width="1870" height="866" class="img_dDce"></p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="how-to-1">How to<!-- --><a href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready#how-to-1" class="hash-link" aria-label="Direct link to How to" title="Direct link to How to">​</a></h3>
+<!-- --><ol>
+<!-- --><li>Click your avatar, and Settings.
+<!-- --><img loading="lazy" alt="Personal Settings" src="https://answer.apache.org/assets/images/personal-settings-f2a6e2cbf29b148aaffda3a08ce0896b.png" width="353" height="232" class="img_dDce"></li>
+<!-- --><li>Click the name of the plugin.</li>
+<!-- --></ol>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="exciting-new-changes">Exciting New Changes<!-- --><a href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready#exciting-new-changes" class="hash-link" aria-label="Direct link to Exciting New Changes" title="Direct link to Exciting New Changes">​</a></h2>
+<!-- --><p>As we embrace the new season, we also prepare some enhancements to existing features. Here’s a sneak peek for better knowledge sharing.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="easier-invitation-better-sharing">Easier Invitation. Better Sharing.<!-- --><a href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready#easier-invitation-better-sharing" class="hash-link" aria-label="Direct link to Easier Invitation. Better Sharing." title="Direct link to Easier Invitation. Better Sharing.">​</a></h3>
+<!-- --><p>The interface and interaction of invitation is refreshed. You can check invited users while add community member at the same time.
+<!-- --><img loading="lazy" alt="Invite People Answer Question" src="https://answer.apache.org/assets/images/invitation-c23b901b3324b2d9da0fb1c24a785fa0.png" width="596" height="608" class="img_dDce"></p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="customize-the-reputation-score">Customize the Reputation Score<!-- --><a href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready#customize-the-reputation-score" class="hash-link" aria-label="Direct link to Customize the Reputation Score" title="Direct link to Customize the Reputation Score">​</a></h3>
+<!-- --><p>There’s no one-size-fits-all rule, and it’s true when it comes to the community. You can familiarize with the reputation system first with default levels, and use custom level to fit your platform. Now, admins can customize the reputation score to keep the community engaged.
+<!-- --><img loading="lazy" alt="Customize Reputation Score in Answer" src="https://answer.apache.org/assets/images/privileges-custom-level-8b6988abb0d3e1db5d2c24d8f505bfc4.png" width="1252" height="528" class="img_dDce"></p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="tags-no-clutter">Tags. No Clutter.<!-- --><a href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready#tags-no-clutter" class="hash-link" aria-label="Direct link to Tags. No Clutter." title="Direct link to Tags. No Clutter.">​</a></h3>
+<!-- --><p>Small tags are powerful. It’s the thread of the community, sewing similar content together for the users, while providing a neat garment for the admin. We make slight changes to make tags adding and searching fresh.
+<!-- --><img loading="lazy" alt="Tags" src="https://answer.apache.org/assets/images/tags-interface-8d6912511c859919a1f3f67c7fbff6ec.png" width="590" height="728" class="img_dDce"></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="big-applause-to-the-contributors">Big Applause to the Contributors<!-- --><a href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready#big-applause-to-the-contributors" class="hash-link" aria-label="Direct link to Big Applause to the Contributors" title="Direct link to Big Applause to the Contributors">​</a></h2>
+<!-- --><p>Raise your glass to <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a>, <!-- --><a href="https://github.com/hbsciw" target="_blank" rel="noopener noreferrer">hbsciw</a>, and <!-- --><a href="https://github.com/insistedMarin" target="_blank" rel="noopener noreferrer">insistedMarin</a> for their time and effort in this release. Shout out to every <!-- --><a href="https://crowdin.com/project/answer/activity-stream" target="_blank" rel="noopener noreferrer">translator</a>. Special thanks to <!-- --><a href="https://github.com/lincolnzhou" target="_blank" rel="noopener noreferrer">lincolhzhou</a> for contribution to plugins.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="wed-love-to-hear-from-you">We’d love to hear from you<!-- --><a href="https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready#wed-love-to-hear-from-you" class="hash-link" aria-label="Direct link to We’d love to hear from you" title="Direct link to We’d love to hear from you">​</a></h2>
+<!-- --><p>What do you think of the releases? Anything you think it should be added to the roadmap?  What does your Answer look like? We’d love to hear from you about this release or anything else on your mind. Hit us on <!-- --><a href="https://twitter.com/answerdev" target="_blank" rel="noopener noreferrer">X</a>, <!-- --><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>, <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a>, <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Meta Answer</a>, or the <!-- --><a href="https://answer.apache.org/community" target="_blank" rel="noopener noreferrer">mailing list</a>.<!-- --></p>]]></content>
+        <author>
+            <name>Anne Zhu</name>
+            <uri>https://github.com/PrimmaAnna</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Answer Project Ideas for Google Summer of Code 2024 (Draft)]]></title>
         <id>https://answer.apache.org/blog/2024/02/05/project-ideas-for-google-summer-of-code-2024</id>
@@ -1108,81 +1153,6 @@ This not only enhances problem-solving effectiveness, but also a way of getting 
 <!-- --><p><img loading="lazy" alt="Notification Filter" src="https://answer.apache.org/assets/images/1.1.0release8-71fe2079ef0bbcce5d92f87e15eec175.png" width="2400" height="1350" class="img_dDce">
 No more clumsy scrolling for the latest notification. We divide notifications into <!-- --><strong>Posts, Invites, and Votes</strong>, and highlight unread messages in light yellow. You can also click and head to the post right away.<!-- --></p>
 <!-- --><p>Our team also adds Gravatar mirror URL configuration, ensuring a smooth and efficient user experience, while we keep an eye on the default order of your question list so that Answer will keep it in mind for your next visit. For bug fixes and improvements, you can visit our <!-- --><a href="https://github.com/apache/incubator-answer/releases?page=1" target="_blank" rel="noopener noreferrer">GitHub releases</a>, and remember to update.<!-- --></p>]]></content>
-        <author>
-            <name>Anne Zhu</name>
-            <uri>https://github.com/PrimmaAnna</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Everything You Need to Know About Knowledge Base]]></title>
-        <id>https://answer.apache.org/blog/2023/05/30/everything-you-need-to-know-about-knowledge-base</id>
-        <link href="https://answer.apache.org/blog/2023/05/30/everything-you-need-to-know-about-knowledge-base"/>
-        <updated>2023-05-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn everything about knowledge base and build your own knowledge base with Answer easily.]]></summary>
-        <content type="html"><![CDATA[<div class="mb-4"><img loading="lazy" src="https://answer.apache.org/assets/images/2023-05-30-cover@4x-c3ddcda375a87cf9237d2704b5f80692.png" class="rounded img_dDce" width="1280px" height="720px"></div><p>We’ve discussed knowledge retention is the challenge of today, since knowledge scatters like fragments of a grand puzzle, waiting to be discovered and connected. Besides having a knowledge sharing platform, running a knowledge base is also an effective strategy for knowledge retention, and the best part is you can build your one with Answer easily.</p>
-<!-- --><p>If you’re considering having a knowledge base, you’re in the right place. In today’s read, we’ll explain knowledge base, benefits, and a self-host knowledge base built with Answer.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="what-is-knowledge-base">What is Knowledge Base<!-- --><a href="https://answer.apache.org/blog/2023/05/30/everything-you-need-to-know-about-knowledge-base#what-is-knowledge-base" class="hash-link" aria-label="Direct link to What is Knowledge Base" title="Direct link to What is Knowledge Base">​</a></h2>
-<!-- --><p>In a simple way: a knowledge base is an online library where you can store, organize, and retrieve information easily.</p>
-<!-- --><p>Sounds big, right? In fact, you must use one of them for sure since a knowledge base takes various forms, such as databases, wikis, documents, articles, FAQs (Frequently Asked Questions), manuals, tutorials, or any other structured or unstructured format.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="why-you-need-it">Why You Need it<!-- --><a href="https://answer.apache.org/blog/2023/05/30/everything-you-need-to-know-about-knowledge-base#why-you-need-it" class="hash-link" aria-label="Direct link to Why You Need it" title="Direct link to Why You Need it">​</a></h2>
-<!-- --><p>We expect to retrieve the right information at the moment, and the process must be quick. That’s why we need a knowledge base that contains a wide range of information and easy-to-search, and check the benefits.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="benefits">Benefits<!-- --><a href="https://answer.apache.org/blog/2023/05/30/everything-you-need-to-know-about-knowledge-base#benefits" class="hash-link" aria-label="Direct link to Benefits" title="Direct link to Benefits">​</a></h2>
-<!-- --><ol>
-<!-- --><li>
-<!-- --><p>Easy Access to Information
-A knowledge base provides a structured and organized system for storing information, making it easily accessible to users. It allows quick retrieval of relevant data, reducing the time and effort required to search for information.</p>
-<!-- --></li>
-<!-- --><li>
-<!-- --><p>Improved Productivity and Efficiency
-By having a knowledge base in place, employees can find the information they require without relying on others or spending excessive time searching for it. This increases productivity and efficiency in performing tasks by empowering users to find information independently.</p>
-<!-- --></li>
-<!-- --><li>
-<!-- --><p>Knowledge Retention and Sharing
-A knowledge base serves as a repository for capturing and preserving institutional knowledge within an organization. It helps to retain critical information even when employees leave or change roles.</p>
-<!-- --></li>
-<!-- --><li>
-<!-- --><p>Consistency and Accuracy
-With a knowledge base, organizations can ensure consistency and accuracy in the information. It minimizes errors and conflicts, allowing for standardized procedures, guidelines, and documentation, reducing the risk of errors or inconsistencies caused by outdated or conflicting information.</p>
-<!-- --></li>
-<!-- --><li>
-<!-- --><p>Customer Self-service and Support
-Knowledge bases are commonly used in <!-- --><a href="https://answer.apache.org/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer">customer support</a> to provide self-service options. By offering a comprehensive collection of FAQs, troubleshooting guides, and instructional materials, customers can find solutions to their problems without the need to contact support, reducing support costs and improving customer satisfaction.<!-- --></p>
-<!-- --></li>
-<!-- --></ol>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="build-knowledge-base-with-answer">Build Knowledge Base with Answer<!-- --><a href="https://answer.apache.org/blog/2023/05/30/everything-you-need-to-know-about-knowledge-base#build-knowledge-base-with-answer" class="hash-link" aria-label="Direct link to Build Knowledge Base with Answer" title="Direct link to Build Knowledge Base with Answer">​</a></h2>
-<!-- --><p>Make sure you have the right tools for hosting and managing your knowledge base. Answer is the tool you can give it a go, it’s open-source and for free. Here are some delighted features in Answer that help you to build an efficient knowledge base at ease.</p>
-<!-- --><ol>
-<!-- --><li>
-<!-- --><p>Get Started with the Useful Docs
-We’ve prepared <!-- --><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">Docs</a> for you to kick-start your knowledge base smoothly, and if you need help, you can always post a question in our <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Community</a>.<!-- --></p>
-<!-- --></li>
-<!-- --><li>
-<!-- --><p>Real-time Preview for Each Post
-Always make sure your knowledge is accurate and shinning before it goes live. In Answer, you can instantly view the layout of the post before hitting the post button.</p>
-<!-- --></li>
-<!-- --></ol>
-<!-- --><p><img loading="lazy" alt="Post Real-time Preview in Answer" src="https://answer.apache.org/assets/images/knowledgebase1-5f94d72904128e72e004b8dbdf82baea.png" width="2800" height="1930" class="img_dDce"></p>
-<!-- --><ol start="3">
-<!-- --><li>Use Tags to Categorize the Content
-Add new tags to set up your knowledge management system in Answer right away, no need to add questions beforehand. Users can follow content they are interested by following tags, while admins can always edit tags description.</li>
-<!-- --></ol>
-<!-- --><p><img loading="lazy" alt="Manage Tags in Answer is Easy" src="https://answer.apache.org/assets/images/knowledgebase2-b7265447aed6afac2e34288393df6af4.png" width="2800" height="904" class="img_dDce"></p>
-<!-- --><ol start="4">
-<!-- --><li>
-<!-- --><p>Pin a Post
-Pin an important or frequently asked question for your knowledge base, so that it always stays on the top of your knowledge base.
-<!-- --><img loading="lazy" alt="Pin a Post in Answer" src="https://answer.apache.org/assets/images/knowledgebase3-b10a9df59c50ef5d5c9f979408944d6d.gif" width="786" height="674" class="img_dDce"></p>
-<!-- --></li>
-<!-- --><li>
-<!-- --><p>Search and Find What You Need
-Answer provides advanced search, including tag, author, question, etc. so that you can always access to the knowledge you require at present quickly.</p>
-<!-- --></li>
-<!-- --></ol>
-<!-- --><p><img loading="lazy" alt="Search Post in Answer" src="https://answer.apache.org/assets/images/knowledgebase4-a5b1c0b70de0c3554da8dd4005f92162.png" width="2800" height="1390" class="img_dDce"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="dont-take-our-words-for-answer-take-his">Don’t Take Our Words for Answer. Take His<!-- --><a href="https://answer.apache.org/blog/2023/05/30/everything-you-need-to-know-about-knowledge-base#dont-take-our-words-for-answer-take-his" class="hash-link" aria-label="Direct link to Don’t Take Our Words for Answer. Take His" title="Direct link to Don’t Take Our Words for Answer. Take His">​</a></h2>
-<!-- --><p>One of our users, <!-- --><a href="https://blog.safewebbox.com/author/david/" target="_blank" rel="noopener noreferrer">David Filed</a> have built a self-hosted knowledge base with Answer. He also shared a <!-- --><a href="https://blog.safewebbox.com/a-self-hosted-knowledgebase-which-feels-much-like-stackoverflow/" target="_blank" rel="noopener noreferrer">blog</a> about why he chose Answer, and a step-by-step tutorial of installing and running Answer.
-<!-- --><img loading="lazy" alt="Screenshot of Davids Knowledgebase" src="https://answer.apache.org/assets/images/knowledgebase5-5892b03e1eeb72af2916ba0a2602c277.png" width="1391" height="374" class="img_dDce">
-Follow his tutorial or our <!-- --><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">Docs</a> to build a knowledge base of your own now, and embrace the power of knowledge base today.<!-- --></p>]]></content>
         <author>
             <name>Anne Zhu</name>
             <uri>https://github.com/PrimmaAnna</uri>
