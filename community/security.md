@@ -8,6 +8,26 @@ The Apache Software Foundation takes a rigorous stance on eliminating security i
 
 # Security fixes
 
+## v1.2.1
+
+### CVE-2024-22393
+
+Pixel Flood Attack by uploading large pixel files will cause server out of memory. A logged-in user can cause such an attack by uploading an image when posting content.
+
+https://www.cve.org/CVERecord?id=CVE-2024-22393
+
+### CVE-2024-26578
+
+Repeated submission during registration resulted in the registration of the same user. When users register, if they rapidly submit multiple registrations using scripts, it can result in the creation of multiple user accounts simultaneously with the same name.
+
+https://www.cve.org/CVERecord?id=CVE-2024-26578
+
+### CVE-2024-23349
+
+XSS attack when user enters summary. A logged-in user, when modifying their own submitted question, can input malicious code in the summary to create such an attack.
+
+https://www.cve.org/CVERecord?id=CVE-2024-23349
+
 ## v1.2.0
 
 ### CVE-2023-49619
