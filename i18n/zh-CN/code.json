@@ -574,5 +574,14 @@
   },
   "plugins.instruction.join": {
     "message": "加入我们的社区"
+  },
+  "docs.sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "入门"
+  },
+  "docs.sidebar.tutorialSidebar.category.User Guides": {
+    "message": "用户指南"
+  },
+  "docs.sidebar.tutorialSidebar.category.Developer Guides": {
+    "message": "开发者指南"
   }
 }
