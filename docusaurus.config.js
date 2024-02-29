@@ -152,7 +152,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      image: 'img/head-icon.png',
     }),
+
   stylesheets: [
     '/fonts/fonts.css',
   ],
