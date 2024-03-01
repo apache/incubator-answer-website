@@ -11,6 +11,7 @@ export default function Home(): JSX.Element {
       description="A Q&A platform software for teams at any scales. Whether it’s a community forum, help center, or knowledge management platform, you can always count on Answer.">
       <Head>
         <title>Apache Answer | Free Open-source Q&A Platform</title>
+        <meta data-rh="true" name="twitter:card" content="summary" />
       </Head>
       <main className='headerBg'>
         <HomePageHeader />
