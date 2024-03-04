@@ -16,9 +16,15 @@ Get ready to explore the dark side with our new Dark Mode. Switch to light, dark
 ![Dark Mode of Answer](dark-mode.png)
 
 ### How to
+Admin can set default color theme for the users, here's how.
 1. Go Admin — Customize — Themes
 2. Color scheme, and choose Dark in the dropdown menu.
 ![How to Switch to Dark Mode](switch-to-dark-mode.gif)
+
+User can change the interface of color theme whenever they like.
+1. Click avatar - Settings - Interface
+2. Color scheme, and choose Dark in the dropdown menu.
+![User Set Dark Mode](user-dark-mode.png)
 
 ## Plugin Notification Management
 Now, users can always stay on top of the third-party plugin notifications, ensuring you stay informed across all your favorite tools. With Apache Answer, managing third-party plugin notifications has never been easier.
@@ -26,7 +32,7 @@ Now, users can always stay on top of the third-party plugin notifications, ensur
 ![Third Party Notification](third-party-plugins-notification.jpeg)
 
 ### How to
-1. Click your avatar, and Settings.
+1. Click your avatar, and Settings.      
 ![Personal Settings](personal-settings.png)
 2. Click the name of the plugin.
 
