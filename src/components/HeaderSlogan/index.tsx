@@ -19,7 +19,7 @@ const content = {
   },
   plugin: {
     title: <Translate id="plugin.title">Plugins</Translate>,
-    slogan: <Translate id="plugin.slogan">Extend functionality to your needs.</Translate>,
+    slogan: <Translate id="plugin.slogan">Extend capabilities and unlock new possibilities with our community-made plugins.</Translate>,
   }
 }
 
