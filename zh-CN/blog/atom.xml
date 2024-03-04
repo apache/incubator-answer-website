@@ -18,17 +18,24 @@
 <!-- --><p>Get ready to explore the dark side with our new Dark Mode. Switch to light, dark manually to meet your needs, or follow the system for a smooth transition.</p>
 <!-- --><p><img loading="lazy" alt="Dark Mode of Answer" src="https://answer.apache.org/zh-CN/assets/images/dark-mode-43324018e489bca1652ee9482ec7f173.png" width="2724" height="1228" class="img_dDce"></p>
 <!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="how-to">How to<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/20/answer-1.2.5-is-ready#how-to" class="hash-link" aria-label="How to的直接链接" title="How to的直接链接">​</a></h3>
+<!-- --><p>Admin can set default color theme for the users, here's how.</p>
 <!-- --><ol>
 <!-- --><li>Go Admin — Customize — Themes</li>
 <!-- --><li>Color scheme, and choose Dark in the dropdown menu.
 <!-- --><img loading="lazy" alt="How to Switch to Dark Mode" src="https://answer.apache.org/zh-CN/assets/images/switch-to-dark-mode-7df0cdcbf50f1c92c53fdb8cf8829aab.gif" width="1200" height="648" class="img_dDce"></li>
+<!-- --></ol>
+<!-- --><p>User can change the interface of color theme whenever they like.</p>
+<!-- --><ol>
+<!-- --><li>Click avatar - Settings - Interface</li>
+<!-- --><li>Color scheme, and choose Dark in the dropdown menu.
+<!-- --><img loading="lazy" alt="User Set Dark Mode" src="https://answer.apache.org/zh-CN/assets/images/user-dark-mode-77f0f8ba724e7afcfec2079f50adcc45.png" width="1257" height="384" class="img_dDce"></li>
 <!-- --></ol>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_O1Gl" id="plugin-notification-management">Plugin Notification Management<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/20/answer-1.2.5-is-ready#plugin-notification-management" class="hash-link" aria-label="Plugin Notification Management的直接链接" title="Plugin Notification Management的直接链接">​</a></h2>
 <!-- --><p>Now, users can always stay on top of the third-party plugin notifications, ensuring you stay informed across all your favorite tools. With Apache Answer, managing third-party plugin notifications has never been easier.</p>
 <!-- --><p><img loading="lazy" alt="Third Party Notification" src="https://answer.apache.org/zh-CN/assets/images/third-party-plugins-notification-699f19c9136de477afb3add06698e111.jpeg" width="1870" height="866" class="img_dDce"></p>
 <!-- --><h3 class="anchor anchorWithStickyNavbar_O1Gl" id="how-to-1">How to<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/02/20/answer-1.2.5-is-ready#how-to-1" class="hash-link" aria-label="How to的直接链接" title="How to的直接链接">​</a></h3>
 <!-- --><ol>
-<!-- --><li>Click your avatar, and Settings.
+<!-- --><li>Click your avatar, and Settings.<!-- --><br>
 <!-- --><img loading="lazy" alt="Personal Settings" src="https://answer.apache.org/zh-CN/assets/images/personal-settings-f2a6e2cbf29b148aaffda3a08ce0896b.png" width="353" height="232" class="img_dDce"></li>
 <!-- --><li>Click the name of the plugin.</li>
 <!-- --></ol>
