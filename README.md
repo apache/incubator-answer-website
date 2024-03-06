@@ -30,6 +30,9 @@ pnpm start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
+> [!WARNING]
+> Please edit `.drawio.svg` files in the [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) editor to avoid losing file layer information.
+
 ## Build
 
 ```shell
