@@ -111,16 +111,36 @@ const config = {
             to: '/blog',
           },
           {
+            type: 'dropdown',
             label: 'Community',
-            to: '/community',
+            to: 'community/support',
+            items: [
+              {
+                label: 'Support',
+                to: 'community/support',
+              },
+              {
+                label: 'Forum',
+                to: 'https://meta.answer.dev',
+              },
+              {
+                label: 'About',
+                to: 'community/about',
+              },
+              {
+                label: 'Contributing',
+                to: 'community/contributing',
+              },
+              {
+                label: 'Roadmap',
+                to: 'https://github.com/apache/incubator-answer/projects',
+              },
+            ],
           },
-          // {
-          //   label: 'Contact',
-          //   to: '/contact',
-          // },
           {
             type: 'dropdown',
             label: 'ASF',
+            to: 'https://www.apache.org/',
             items: asfLinks.map(link => ({
               label: link.label,
               to: link.to,
@@ -194,6 +214,17 @@ const config = {
         },
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/community/support',
+            from: ['/contact', '/community'],
+          },
+        ],
       },
     ],
   ],
