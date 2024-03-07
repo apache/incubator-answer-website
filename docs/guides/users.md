@@ -4,6 +4,10 @@ slug: /users
 
 # Users
 
+## User status
+
+![User state diagram](/img/docs/users-user-status.drawio.svg)
+
 ## Top users
 
 Show top users in the platform.
@@ -42,7 +46,7 @@ A user wants to log in. The user's login permissions are related to the status.
 
 | User status | Normal | Inactive | Suspended | Deleted |
 |---|---|---|---|---|
-| Log in | Allow | Denied | Denied | Denied |
+| Log in | Allowed | Denied | Denied | Denied |
 
 ### Log in with email and password
 
