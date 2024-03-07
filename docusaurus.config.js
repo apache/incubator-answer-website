@@ -216,17 +216,17 @@ const config = {
         showLastUpdateTime: true,
       },
     ],
-    // [
-    //   '@docusaurus/plugin-client-redirects',
-    //   {
-    //     redirects: [
-    //       {
-    //         to: '/community/support',
-    //         from: ['/contact', '/community'],
-    //       },
-    //     ],
-    //   },
-    // ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/community/support',
+            from: ['/contact', '/community'],
+          },
+        ],
+      },
+    ],
   ],
 };
 
