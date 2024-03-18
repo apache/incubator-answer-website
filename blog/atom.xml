@@ -2,11 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://answer.apache.org/blog</id>
     <title>Apache Answer Blog</title>
-    <updated>2024-02-20T00:00:00.000Z</updated>
+    <updated>2024-03-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://answer.apache.org/blog"/>
     <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Meet Our Releae Manager: LinkinStars]]></title>
+        <id>https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars</id>
+        <link href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars"/>
+        <updated>2024-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ ]]></summary>
+        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-03-18-cover@4x-423f2df8c1635fcca8833641862c4753.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>Answer joined the <!-- --><a href="https://answer.apache.org/blog/2023/10/24/answer-enters-apache-incubator" target="_blank" rel="noopener noreferrer">Apache Incubator</a> last October, and we've already released 3 Apache versions so far. From overwhelming during our first release, we are now out of the woods.<!-- --></p>
+<!-- --><p>Speaking of releases, we can’t neglect Release Manager. The person who makes sure that everything is compliant and everyone can access to the latest version. We talked to LinkinStars, the conductor behind each Apache Answer release. Let's see how he sees this role, how he handles obstacles, and his secrets to a smooth release.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="tell-us-a-bit-about-yourself">Tell us a bit about yourself<!-- --><a href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars#tell-us-a-bit-about-yourself" class="hash-link" aria-label="Direct link to Tell us a bit about yourself" title="Direct link to Tell us a bit about yourself">​</a></h2>
+<!-- --><p>I am the backend developer for Apache Answer. My daily routine includes developing the backend services of Answer, developing APIs, etc. I like coding, reading, and learning English. My tech stack is mainly Go, and my favorite open-source project is Kubernetes.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-makes-you-the-release-manager-of-apache-answer-and-what-do-you-think-of-this-role">What makes you the release manager of Apache Answer, and what do you think of this role?<!-- --><a href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars#what-makes-you-the-release-manager-of-apache-answer-and-what-do-you-think-of-this-role" class="hash-link" aria-label="Direct link to What makes you the release manager of Apache Answer, and what do you think of this role?" title="Direct link to What makes you the release manager of Apache Answer, and what do you think of this role?">​</a></h2>
+<!-- --><p>Usually, a backend engineer is responsible for the compilation, packaging, and deployment of the project. That’s why I am here.</p>
+<!-- --><p>This role itself requires lots of patience and carefulness. Each package needs to be carefully checked to ensure that all the required files are correct and compliant. Release managers have a lot on their plate, since the releasing problems will lead to user upgrade or usage issues.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="can-you-briefly-walk-us-through-the-release-process-which-stages-are-more-critical">Can you briefly walk us through the release process? Which stages are more critical?<!-- --><a href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars#can-you-briefly-walk-us-through-the-release-process-which-stages-are-more-critical" class="hash-link" aria-label="Direct link to Can you briefly walk us through the release process? Which stages are more critical?" title="Direct link to Can you briefly walk us through the release process? Which stages are more critical?">​</a></h2>
+<!-- --><p>Sure. The release process of Apache Answer consists of the following stages.</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Release Process of Apache Answer" src="https://answer.apache.org/assets/images/release-process-aa8ad2468c4576c95d87e516a6a2f199.png" width="917" height="1037" class="img_WevL"></p>
+<!-- --><p>The most important stage is actually the <!-- --><strong>preparation</strong>. It involves preparation and review of all the content that needs to be released. We have to check and review the open-source requirements, license, signature, etc. If this stage is not well checked, we cannot pass the voting afterward.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="which-toolsplatforms-do-you-use-to-release">Which tools/platforms do you use to release?<!-- --><a href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars#which-toolsplatforms-do-you-use-to-release" class="hash-link" aria-label="Direct link to Which tools/platforms do you use to release?" title="Direct link to Which tools/platforms do you use to release?">​</a></h2>
+<!-- --><p>We use GitHub Actions to build the packages and release.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-are-the-key-factors-for-a-successful-release">What are the key factors for a successful release?<!-- --><a href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars#what-are-the-key-factors-for-a-successful-release" class="hash-link" aria-label="Direct link to What are the key factors for a successful release?" title="Direct link to What are the key factors for a successful release?">​</a></h2>
+<!-- --><p>The 2 key factors for a successful release are:</p>
+<!-- --><p><strong>Check once, check twice, and check from the top again.</strong>
+<!-- --><strong>Test, test again, and another round of tests.</strong></p>
+<!-- --><p>No worries, as soon as you have released the first Apache version, things get easier and smoother.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="how-do-you-prioritize-the-tasks-in-the-release-process">How do you prioritize the tasks in the release process?<!-- --><a href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars#how-do-you-prioritize-the-tasks-in-the-release-process" class="hash-link" aria-label="Direct link to How do you prioritize the tasks in the release process?" title="Direct link to How do you prioritize the tasks in the release process?">​</a></h2>
+<!-- --><p>Handling multiple tasks happens occasionally, and here’s how I manage them.</p>
+<!-- --><p>Once we decide to release the version, and there might still be new issues coming from the users. In this case, if there’s no urgent bugs that need to be fixed, we will put them into the to-dos of the next version and move on.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="how-do-you-handle-unexpected-events-during-the-release-process">How do you handle "unexpected events" during the release process?<!-- --><a href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars#how-do-you-handle-unexpected-events-during-the-release-process" class="hash-link" aria-label="Direct link to How do you handle &quot;unexpected events&quot; during the release process?" title="Direct link to How do you handle &quot;unexpected events&quot; during the release process?">​</a></h2>
+<!-- --><p>Seek help from the mentors.<!-- --><br>
+<!-- -->I will ask them to locate the problem and help with the review. Then, we will fix it, and re-initiate the voting.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="can-you-share-one-of-the-most-difficult-challenges-you-faced-during-the-release-process-and-how-did-you-nail-it">Can you share one of the most difficult challenges you faced during the release process, and how did you nail it?<!-- --><a href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars#can-you-share-one-of-the-most-difficult-challenges-you-faced-during-the-release-process-and-how-did-you-nail-it" class="hash-link" aria-label="Direct link to Can you share one of the most difficult challenges you faced during the release process, and how did you nail it?" title="Direct link to Can you share one of the most difficult challenges you faced during the release process, and how did you nail it?">​</a></h2>
+<!-- --><p>The most enduring challenge I faced was the first release. I had no idea about preparation, what to expect, and what’s next. Here’s how I manage to overcome the challenges with the team.</p>
+<!-- --><ol>
+<!-- --><li>Collect and organize all the documents related to Apache releases.</li>
+<!-- --><li>Look into the release notes and emails of other Apache projects for reference.</li>
+<!-- --><li>Seek help from the mentors via emails.</li>
+<!-- --></ol>
+<!-- --><p>The most important thing is to <!-- --><strong>keep trying</strong>. The Apache community is friendly, and community members will remind you with assistance. Be brave, and embrace the mistakes.<!-- --></p>
+<!-- --><p><em>Find out how we launched the first Apache Release <!-- --><a href="https://answer.apache.org/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release" target="_blank" rel="noopener noreferrer">here</a>.<!-- --></em></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-are-some-strategiestips-you-have-for-working-effectively-with-your-team-during-the-release-process">What are some strategies/tips you have for working effectively with your team during the release process?<!-- --><a href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars#what-are-some-strategiestips-you-have-for-working-effectively-with-your-team-during-the-release-process" class="hash-link" aria-label="Direct link to What are some strategies/tips you have for working effectively with your team during the release process?" title="Direct link to What are some strategies/tips you have for working effectively with your team during the release process?">​</a></h2>
+<!-- --><ol>
+<!-- --><li>
+<!-- --><p>Use GitHub issues and projects to manage all the released content, and then check one by one with each team member.</p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p>Provide as much context as possible when describing an issue. This is particularly useful in email communication, as the more context leads to less misunderstanding and saves time.</p>
+<!-- --></li>
+<!-- --></ol>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-do-you-find-most-rewarding-about-being-a-release-manager">What do you find most rewarding about being a Release Manager?<!-- --><a href="https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars#what-do-you-find-most-rewarding-about-being-a-release-manager" class="hash-link" aria-label="Direct link to What do you find most rewarding about being a Release Manager?" title="Direct link to What do you find most rewarding about being a Release Manager?">​</a></h2>
+<!-- --><p>It's fulfilling to fix all the problems in a project after rounds of revisions, and a successful release. To receive feedback from the users is absolutely rewarding.</p>]]></content>
+        <author>
+            <name>Anne Zhu</name>
+            <uri>https://github.com/PrimmaAnna</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Answer 1.2.5 is Ready]]></title>
         <id>https://answer.apache.org/blog/2024/02/20/answer-1.2.5-is-ready</id>
@@ -1123,43 +1178,6 @@ In Answer, we’ve automated the <!-- --><a href="https://answer.apache.org/docs
 <!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="conclusion">Conclusion<!-- --><a href="https://answer.apache.org/blog/2023/06/20/how-to-improve-knowledge-sharing-with-answer#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <!-- --><p>Understand three types of knowledge and find an effective way to share in the team. Answer is always here to help. Discover a new era of knowledge sharing with Answer, and there are more features waiting for you. By harnessing the power of this dynamic Q&amp;A platform, you can unlock exchange expertise, foster collaboration, and sharing knowledge effectively like never before.</p>
 <!-- --><p>Let’s <!-- --><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">get started</a>.<!-- --></p>]]></content>
-        <author>
-            <name>Anne Zhu</name>
-            <uri>https://github.com/PrimmaAnna</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meet Answer 1.1.0: Your Q&A Community Takes a Step Forward]]></title>
-        <id>https://answer.apache.org/blog/2023/06/15/answer-1.1.0-release</id>
-        <link href="https://answer.apache.org/blog/2023/06/15/answer-1.1.0-release"/>
-        <updated>2023-06-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Answer 1.1.0 is now on GitHub, find out the updates and boost productivity with it.]]></summary>
-        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2023-06-15-cover@4x-82b8513d4cd5e6fea19b64df868b5de5.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>We made it, and it’s official here: Answer v1.1.0 is now available on GitHub.</p>
-<!-- --><p>From 1.0 to 1.1.0, it's not just a stack-up of numbers, but a step forward for your Answer in: <!-- --><strong>security, functionality, and stability</strong>. Find out what are the updates, and how you can use them to boost productivity. Don’t forget to update ;)<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="plugin-the-new-wings-to-your-answer">Plugin: The New Wings to Your Answer<!-- --><a href="https://answer.apache.org/blog/2023/06/15/answer-1.1.0-release#plugin-the-new-wings-to-your-answer" class="hash-link" aria-label="Direct link to Plugin: The New Wings to Your Answer" title="Direct link to Plugin: The New Wings to Your Answer">​</a></h2>
-<!-- --><p><img decoding="async" loading="lazy" alt="Answer Supports Plugin" src="https://answer.apache.org/assets/images/1.1.0release1-07e7cfe2e55772980deb595312fb66be.png" width="2400" height="1350" class="img_WevL">
-The most notable in this update is <!-- --><strong>the support of Plugin</strong>. From small tweaks to big changes, you can make it happen in Answer. Read the documentation of Plugin <!-- --><a href="https://answer.apache.org/docs/plugins" target="_blank" rel="noopener noreferrer">here</a> before bust a move.<!-- --></p>
-<!-- --><p>A quick example is to embrace a simplified and efficient user authentication experience with the plugin's OAuth capabilities for your Answer. Now, your community members can sign up or log in with existing accounts from social media platforms. For adding other log-in options, admin can go <!-- --><strong>Admin&gt;Plugins&gt;OAuth2Basic</strong>, then fill in the necessary information in <!-- --><strong>OAuth2Basic</strong>.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Installed Plugins in Answer" src="https://answer.apache.org/assets/images/1.1.0release2-0ebfd7c7b7dcf5e347e778a00b450bb4.png" width="1200" height="675" class="img_WevL"></p>
-<!-- --><p>Add features, customize appearance, or enhance functionalities with Plugin and make Answer in the way you want. Don’t forget to share with us your work.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="navigation-bar-new-home-better-view">Navigation Bar: New Home. Better View<!-- --><a href="https://answer.apache.org/blog/2023/06/15/answer-1.1.0-release#navigation-bar-new-home-better-view" class="hash-link" aria-label="Direct link to Navigation Bar: New Home. Better View" title="Direct link to Navigation Bar: New Home. Better View">​</a></h2>
-<!-- --><p><img decoding="async" loading="lazy" alt="Navigation Bar" src="https://answer.apache.org/assets/images/1.1.0release3-b4afa46a634d725c2e1056c21ab4e751.png" width="2400" height="1350" class="img_WevL">
-All the tabs you need are now on the left side of the window, providing an intuitive and easy-to-read experience.<!-- --></p>
-<!-- --><p>For admins, switching between visitor and admin mode is faster, which helps admin to view instant changes or updates.
-<!-- --><img decoding="async" loading="lazy" alt="Admin View in Answer" src="https://answer.apache.org/assets/images/1.1.0release4-e778dff93c6b3d937ad754390361b9c1.gif" width="1200" height="676" class="img_WevL"></p>
-<!-- --><p>Customize the sidebar based on your needs. Add new tabs linked to related sources or pages for users. Here’s where Admin do the magic: <!-- --><strong>Customize&gt;CSS/HTML</strong>.
-<!-- --><img decoding="async" loading="lazy" alt="Customize Side Bar" src="https://answer.apache.org/assets/images/1.1.0release5-d528c682ccb925d94145ae8ef65453d3.png" width="1026" height="485" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="invite-an-answer-expertise-meets-the-right-answer">Invite an Answer: Expertise Meets the Right Answer<!-- --><a href="https://answer.apache.org/blog/2023/06/15/answer-1.1.0-release#invite-an-answer-expertise-meets-the-right-answer" class="hash-link" aria-label="Direct link to Invite an Answer: Expertise Meets the Right Answer" title="Direct link to Invite an Answer: Expertise Meets the Right Answer">​</a></h2>
-<!-- --><p><img decoding="async" loading="lazy" alt="Invite an Answer" src="https://answer.apache.org/assets/images/1.1.0release6-aa69df94dafc2a41f39c107ee11c5965.png" width="2400" height="1350" class="img_WevL">
-Unlock collective wisdom and collaboration for your Answer. Invite someone you know who possess the expertise or insights of the question to share with the community.<!-- --></p>
-<!-- --><p>Before officially sending an invitation to an expert, you’ll have to earn reputation scores first. In Answer, we’ve automated the <!-- --><a href="https://answer.apache.org/docs/recipes/contents/reputation/" target="_blank" rel="noopener noreferrer">reputation system</a> to maintain community ecology. Reputation reflects your contribution to the community. By earning more reputation score, you’ll <!-- --><a href="https://answer.apache.org/docs/recipes/contents/permission" target="_blank" rel="noopener noreferrer">unlock more features</a> in Answer.<!-- --></p>
-<!-- --><p>For admins, you can always choose the right reputation level for your community at <!-- --><strong>Admin&gt;Settings&gt;Privileges</strong>.
-<!-- --><img decoding="async" loading="lazy" alt="Privileges Settings for Admin in Answer" src="https://answer.apache.org/assets/images/1.1.0release7-213d59227c04aa9694c54f87d55a09d6.png" width="1039" height="688" class="img_WevL">
-This not only enhances problem-solving effectiveness, but also a way of getting your community members connected.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="notification-filter-read-messages-you-need">Notification Filter: Read Messages You Need<!-- --><a href="https://answer.apache.org/blog/2023/06/15/answer-1.1.0-release#notification-filter-read-messages-you-need" class="hash-link" aria-label="Direct link to Notification Filter: Read Messages You Need" title="Direct link to Notification Filter: Read Messages You Need">​</a></h2>
-<!-- --><p><img decoding="async" loading="lazy" alt="Notification Filter" src="https://answer.apache.org/assets/images/1.1.0release8-71fe2079ef0bbcce5d92f87e15eec175.png" width="2400" height="1350" class="img_WevL">
-No more clumsy scrolling for the latest notification. We divide notifications into <!-- --><strong>Posts, Invites, and Votes</strong>, and highlight unread messages in light yellow. You can also click and head to the post right away.<!-- --></p>
-<!-- --><p>Our team also adds Gravatar mirror URL configuration, ensuring a smooth and efficient user experience, while we keep an eye on the default order of your question list so that Answer will keep it in mind for your next visit. For bug fixes and improvements, you can visit our <!-- --><a href="https://github.com/apache/incubator-answer/releases?page=1" target="_blank" rel="noopener noreferrer">GitHub releases</a>, and remember to update.<!-- --></p>]]></content>
         <author>
             <name>Anne Zhu</name>
             <uri>https://github.com/PrimmaAnna</uri>
