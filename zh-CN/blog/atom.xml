@@ -8,11 +8,11 @@
     <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/zh-CN/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Meet Our Releae Manager: LinkinStars]]></title>
+        <title type="html"><![CDATA[Meet Our Release Manager: LinkinStars]]></title>
         <id>https://answer.apache.org/zh-CN/blog/2024/03/18/meet-our-release-manager-linkinstars</id>
         <link href="https://answer.apache.org/zh-CN/blog/2024/03/18/meet-our-release-manager-linkinstars"/>
         <updated>2024-03-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ ]]></summary>
+        <summary type="html"><![CDATA[Find out what's behind a release manager: daily routine, tips and tricks, insights.]]></summary>
         <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-03-18-cover@4x-423f2df8c1635fcca8833641862c4753.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>Answer joined the <!-- --><a href="https://answer.apache.org/blog/2023/10/24/answer-enters-apache-incubator" target="_blank" rel="noopener noreferrer">Apache Incubator</a> last October, and we've already released 3 Apache versions so far. From overwhelming during our first release, we are now out of the woods.<!-- --></p>
 <!-- --><p>Speaking of releases, we can’t neglect Release Manager. The person who makes sure that everything is compliant and everyone can access to the latest version. We talked to LinkinStars, the conductor behind each Apache Answer release. Let's see how he sees this role, how he handles obstacles, and his secrets to a smooth release.</p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="tell-us-a-bit-about-yourself">Tell us a bit about yourself<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/03/18/meet-our-release-manager-linkinstars#tell-us-a-bit-about-yourself" class="hash-link" aria-label="Tell us a bit about yourself的直接链接" title="Tell us a bit about yourself的直接链接">​</a></h2>
