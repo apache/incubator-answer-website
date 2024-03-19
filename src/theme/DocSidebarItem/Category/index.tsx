@@ -80,6 +80,7 @@ function CollapseButton({
   categoryLabel: string;
   onClick: ComponentProps<'button'>['onClick'];
 }) {
+  console.log('categoryLabel', categoryLabel);
   return (
     <button
       aria-label={
@@ -156,6 +157,8 @@ export default function DocSidebarItemCategory({
     }
   }, [collapsible, expandedItem, index, setCollapsed, autoCollapseCategories]);
 
+  console.log('collapsed', item);
+
   return (
     <li
       className={clsx(
@@ -196,7 +199,11 @@ export default function DocSidebarItemCategory({
           aria-expanded={collapsible ? !collapsed : undefined}
           href={collapsible ? hrefWithSSRFallback ?? '#' : hrefWithSSRFallback}
           {...props}>
-          {label}
+          {translate({
+                id: `docs.sidebar.tutorialSidebar.category.${label}`,
+                message: label,
+              },
+              {label: label},)}
         </Link>
         {href && collapsible && (
           <CollapseButton

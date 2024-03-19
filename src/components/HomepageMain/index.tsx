@@ -60,7 +60,6 @@ const FeatureList: FeatureItem[] = [
         other tools better.
       </Translate>
     ),
-    later: <Translate id="home.features.comming_soon">Coming soon</Translate>,
   },
   {
     title: (
@@ -91,13 +90,15 @@ const settings = {
 
 function Feature({ title, icon, description, later }: FeatureItem) {
   return (
-    <Col  sm={12} md={6} lg={3} className="mb-4">
-      <div className="mb-3">
-        <img className={styles.featureSvg} role="img" src={icon} />
+    <Col sm={12} md={6} lg={3} className="mb-4">
+      <div className="border p-4 rounded h-100">
+        <div className="mb-3">
+          <img className={styles.featureSvg} role="img" src={icon} />
+        </div>
+        <h4 className="mb-3">{title}</h4>
+        <p>{description}</p>
+        {later && <div className={styles.badge}>{later}</div>}
       </div>
-      <h4 className="mb-3">{title}</h4>
-      <p>{description}</p>
-      {later && <div className={styles.badge}>{later}</div>}
     </Col>
   );
 }

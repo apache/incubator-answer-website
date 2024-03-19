@@ -23,9 +23,9 @@
     "message": "贡献",
     "description": "The label for category Contributing in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.link.Getting Started": {
+  "sidebar.tutorialSidebar.category.Getting Started": {
     "message": "入门",
-    "description": "The label for link Getting Started in sidebar tutorialSidebar, linking to #"
+    "description": "The label for category Contents Management in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.link.Recipes": {
     "message": "教程",

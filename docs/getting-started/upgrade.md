@@ -54,6 +54,6 @@ If you are using a binary installation of answer, the upgrade steps are as follo
 
 :::tip
 
-When there are other unexpected cases such as upgrade exceptions, we provide a command to manually force the upgrade the Answer. `answer upgrade -f v1.1.0` Executing this command will force upgrade from the specified version, even if your Answer is already up to date. If you encounter an upgrade exception, you can try to execute this command or pull the latest docker image again and execute this command inside the container.
+When there are other unexpected cases such as upgrade exceptions, we provide a command to manually force the upgrade of Answer. `answer upgrade -f v1.1.0` Executing this command will force upgrade from the specified version, even if your Answer is already up to date. If you encounter an upgrade exception, you can try to execute this command or pull the latest docker image again and execute this command inside the container.
 
 :::
