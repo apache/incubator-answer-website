@@ -1,10 +1,10 @@
 ---
-title: "Meet Our Releae Manager: LinkinStars"
+title: "Meet Our Release Manager: LinkinStars"
 authors: [Anne]
 category: Community
 featured: true
 image: 2024-03-18-cover@4x.png
-description: " "
+description: "Find out what's behind a release manager: daily routine, tips and tricks, insights."
 
 ---
 Answer joined the [Apache Incubator](https://answer.apache.org/blog/2023/10/24/answer-enters-apache-incubator) last October, and we've already released 3 Apache versions so far. From overwhelming during our first release, we are now out of the woods.
