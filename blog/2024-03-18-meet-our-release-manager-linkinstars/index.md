@@ -1,5 +1,5 @@
 ---
-title: "Meet Our Releae Manager: LinkinStars"
+title: "Meet Our Release Manager: LinkinStars"
 authors: [Anne]
 category: Community
 featured: true
