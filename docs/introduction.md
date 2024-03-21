@@ -28,7 +28,7 @@ Apache Answer helps you to build a community between your users and your team. I
 
 ### Cultivate a Thriving Community
 
-- **Voting System**: Build a better community with your voice**: upvote the great answers, and downvote those doesn’t.
+- **Voting System**: Build a better community with your voice: upvote the great answers, and downvote those doesn’t.
 - **Reputation System**: Earn recognition with contributions and unlock privileges in the community.
 - **Notification**: Always get notified of new comments, answers, invites, votes, and more.
 - **Follow Tags**: Follow tags and stay in the loop of your favorite Q&A.
