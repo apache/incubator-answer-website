@@ -30,6 +30,5 @@ swaggerui:
   host: 127.0.0.1 # An accessible IP address or domain name
   address: ':80'  # accessible port number
 service_config:
-  secret_key: "answer" # encryption key
   upload_path: "/data/uploads" # upload directory
 ```
