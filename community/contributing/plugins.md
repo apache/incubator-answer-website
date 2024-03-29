@@ -151,7 +151,7 @@ It is not so different from React component, this plugin is more suitable for th
 
 ### How to develop builtin plugin
 
-1. **Familiar with the directory structure**. Go to the `ui/src/plugins/builtin` directory and create a directory, such as Demo. Then refer to the existing plugins to create the necessary files to start development.
+1. **Get familiar with the directory structure**. Go to the `ui/src/plugins/builtin` directory and create a directory, such as Demo. Then refer to the existing plugins to create the necessary files to start development.
 
   ```txt
   // ui/src/plugins/builtin
