@@ -90,6 +90,10 @@ $ ./new_answer plugin
 ```dockerfile  title="Dockerfile"
 FROM apache/answer as answer-builder
 
+FROM golang:1.19-alpine AS golang-builder
+
+COPY --from=answer-builder /usr/bin/answer /usr/bin/answer
+
 RUN apk --no-cache add \
     build-base git bash nodejs npm go && \
     npm install -g pnpm
@@ -120,7 +124,7 @@ RUN apk update \
     && ln -sf /usr/share/zoneinfo/${TIMEZONE} /etc/localtime \
     && echo "${TIMEZONE}" > /etc/timezone
 
-COPY --from=answer-builder /usr/bin/new_answer /usr/bin/answer
+COPY --from=golang-builder /usr/bin/new_answer /usr/bin/answer
 COPY --from=answer-builder /data /data
 COPY --from=answer-builder /entrypoint.sh /entrypoint.sh
 RUN chmod 755 /entrypoint.sh
