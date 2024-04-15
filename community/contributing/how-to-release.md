@@ -59,6 +59,15 @@ $ for i in *.tar.gz; do echo $i; sha512sum  $i > $i.sha512 ; done
 1. Create a directory for the release artifacts in the svn repository.
 2. Upload the release artifacts to the svn repository.
 
+The release artifacts should be uploaded to the `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` directory.
+
+```shell
+$ svn co https://dist.apache.org/repos/dist/dev/incubator/answer/
+$ cp /path/to/release/artifacts/* ./{release-version}/
+$ svn add ./{release-version}/*
+$ svn commit -m "add Answer release artifacts for {release-version}"
+```
+
 ## Verify the release artifacts
 
 Following is the basic check items for the release artifacts.
@@ -163,6 +172,38 @@ Hello,
 
 Thanks,
 <YOUR NAME>
+```
+
+### ANNOUNCE email template
+
+```text
+Hello everyone,
+
+The Apache Answer(Incubating) {release-version} has been released!
+
+Apache Answer is a Q&A platform software for teams at any scale.
+Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
+
+Download Links: https://downloads.apache.org/incubator/answer/
+
+Release Notes: https://github.com/apache/incubator-answer/releases/tag/{release-version}
+
+Website: https://answer.apache.org/
+
+Resources:
+- Issue: https://github.com/apache/incubator-answer/issues
+- Mailing list: dev@answer.apache.org
+
+Thanks,
+<YOUR NAME>
+```
+
+## Migrating the release artifacts to the release Apache SVN
+
+Before announcing the vote result, you need to migrate the release artifacts from the dev Apache SVN to the release Apache SVN. The release artifacts should be uploaded to the `https://dist.apache.org/repos/dist/release/incubator/answer/{release-version}` directory.
+
+```shell
+$ svn mv https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version} https://dist.apache.org/repos/dist/release/incubator/answer/{release-version} -m "transfer packages for answer {release-version}"
 ```
 
 ## Note
