@@ -1,0 +1,47 @@
+---
+slug: /team
+---
+
+
+# Team
+
+The Apache Answer team works on the core functionality, plugins, as well as the documentation website.
+
+Current members of the team are listed in alphabetical order below.
+
+import data from './team.json';
+
+<div>
+  {
+    data.map(v => {
+      return (
+        <div key={v.title}>
+           <h1>{v.title}</h1>
+           <div className="row">
+            {
+              v.users.map(u => {
+                if (v.type === 'contributor') {
+                  return (
+                    <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-1">
+                      <a href={u.github}>{u.name}</a>
+                    </div>
+                  )
+                }
+                return (
+                  <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-4">
+                      <img src={u.avatar} width="48" height="48" className="rounded me-2 lh-normal" />
+                      <div>
+                        <a href={u.github}>{u.name}</a>
+                        <div className="fs-14 text-secondary">{u.role}</div>
+                      </div>
+                  </div>
+                )
+              })
+            }
+           </div>
+        </div>
+      )
+    })
+  }
+
+</div>

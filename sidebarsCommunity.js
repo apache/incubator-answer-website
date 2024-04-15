@@ -2,6 +2,7 @@ module.exports = {
   community: [
     'support',
     'about',
+    'team',
     'security',
     {
       type: 'category',
