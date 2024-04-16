@@ -34,7 +34,7 @@ fetch(url).then(function(res) {
   var jsonData = JSON.parse(existingData);
   jsonData[2].users = contributors;
   // save data to team.json
-  fs.writeFile(outputFile, JSON.stringify(jsonData, null, 2), err => {
+  fs.writeFile(outputFile, JSON.stringify(jsonData, null, 2), function(err) {
     if (err) {
       console.error('write file err：', err);
     }
