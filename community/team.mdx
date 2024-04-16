@@ -23,7 +23,7 @@ import UserData from './team.json';
                 if (v.type === 'contributor') {
                   return (
                     <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-1">
-                      <a href={u.github}>{u.name}</a>
+                      <a href={u.github} target="_blank">{u.name}</a>
                     </div>
                   )
                 }
@@ -31,7 +31,7 @@ import UserData from './team.json';
                   <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-4">
                       <img src={u.avatar} width="48" height="48" className="rounded me-2 lh-normal" />
                       <div>
-                        <a href={u.github} className="d-block lh-base">{u.name}</a>
+                        <a href={u.github} target="_blank" className="d-block lh-base">{u.name}</a>
                         <div className="fs-14 text-secondary">{u.role}</div>
                       </div>
                   </div>

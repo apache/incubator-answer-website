@@ -4,12 +4,6 @@
     "type": "ppmc",
     "users": [
       {
-        "name": "PrimmaAnna",
-        "avatar": "https://avatars.githubusercontent.com/u/131739771?v=4",
-        "github": "https://github.com/PrimmaAnna",
-        "role": "Operator"
-      },
-      {
         "name": "chrisdutz",
         "avatar": "https://avatars.githubusercontent.com/u/651105?v=4",
         "github": "https://github.com/chrisdutz",
@@ -20,6 +14,12 @@
         "avatar": "https://avatars.githubusercontent.com/u/360618?v=4",
         "github": "https://github.com/fenbox",
         "role": "Product Manager"
+      },
+      {
+        "name": "jiangbonadia",
+        "avatar": "https://avatars.githubusercontent.com/u/1227386?v=4",
+        "github": "https://github.com/jiangbonadia",
+        "role": "COO"
       },
       {
         "name": "joyqi",
@@ -52,16 +52,10 @@
         "role": "Developer"
       },
       {
-        "name": "jiangbonadia",
-        "avatar": "https://avatars.githubusercontent.com/u/1227386?v=4",
-        "github": "https://github.com/jiangbonadia",
-        "role": "COO"
-      },
-      {
-        "name": "WillemJiang",
-        "avatar": "https://avatars.githubusercontent.com/u/219644?v=4",
-        "github": "https://github.com/WillemJiang/",
-        "role": "Mentor"
+        "name": "PrimmaAnna",
+        "avatar": "https://avatars.githubusercontent.com/u/131739771?v=4",
+        "github": "https://github.com/PrimmaAnna",
+        "role": "Operator"
       },
       {
         "name": "robinv8",
@@ -79,6 +73,12 @@
         "name": "tisonkun",
         "avatar": "https://avatars.githubusercontent.com/u/18818196?v=4",
         "github": "https://github.com/tisonkun/",
+        "role": "Mentor"
+      },
+      {
+        "name": "WillemJiang",
+        "avatar": "https://avatars.githubusercontent.com/u/219644?v=4",
+        "github": "https://github.com/WillemJiang/",
         "role": "Mentor"
       }
     ]
