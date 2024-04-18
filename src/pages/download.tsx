@@ -68,7 +68,7 @@ export default function Plugins(): JSX.Element {
         <Layout
             title={translate({message: 'Download'})}
             description="This page provides download links for the latest release of Apache Answer.">
-            <HeaderSlogan type="plugin"/>
+            <HeaderSlogan type="download"/>
             <Container className='py-5'>
                 <table>
                     <thead>
@@ -90,9 +90,9 @@ export default function Plugins(): JSX.Element {
                     <h3> Release Integrity </h3>
                     <p>You can verify the integrity of the downloaded files. </p>
                     <h4>Signatures</h4>
-                    <a href="./community/how-to-release#how-to-verify-the-signatures">How to verify the signatures</a>
+                    <a href="https://answer.apache.org/community/how-to-release/#how-to-verify-the-signatures">How to verify the signatures</a>
                     <h4>Checksums</h4>
-                    <a href="./community/how-to-release#how-to-verify-the-checksums">How to verify the checksums</a>
+                    <a href="https://answer.apache.org/community/how-to-release#how-to-verify-the-checksums">How to verify the checksums</a>
                 </div>
             </Container>
         </Layout>
