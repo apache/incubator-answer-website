@@ -23,7 +23,7 @@ export default function Plugins(): JSX.Element {
                 </td>
                 <td>[<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-darwin-amd64.tar.gz`}
-                    target="_blank" rel="noopener noreferrer">Download</a>] [<a
+                    target="_blank" rel="noopener noreferrer">Binary</a>] [<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-darwin-amd64.tar.gz.asc`}
                     target="_blank" rel="noopener noreferrer">Sign</a>] [<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-darwin-amd64.tar.gz.sha512`}
@@ -31,7 +31,7 @@ export default function Plugins(): JSX.Element {
                 </td>
                 <td>[<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-darwin-arm64.tar.gz`}
-                    target="_blank" rel="noopener noreferrer">Download</a>] [<a
+                    target="_blank" rel="noopener noreferrer">Binary</a>] [<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-darwin-arm64.tar.gz.asc`}
                     target="_blank" rel="noopener noreferrer">Sign</a>] [<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-darwin-arm64.tar.gz.sha512`}
@@ -39,7 +39,7 @@ export default function Plugins(): JSX.Element {
                 </td>
                 <td>[<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-amd64.tar.gz`}
-                    target="_blank" rel="noopener noreferrer">Download</a>] [<a
+                    target="_blank" rel="noopener noreferrer">Binary</a>] [<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-amd64.tar.gz.asc`}
                     target="_blank" rel="noopener noreferrer">Sign</a>] [<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-amd64.tar.gz.sha512`}
@@ -47,7 +47,7 @@ export default function Plugins(): JSX.Element {
                 </td>
                 <td>[<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-arm64.tar.gz`}
-                    target="_blank" rel="noopener noreferrer">Download</a>] [<a
+                    target="_blank" rel="noopener noreferrer">Binary</a>] [<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-arm64.tar.gz.asc`}
                     target="_blank" rel="noopener noreferrer">Sign</a>] [<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-arm64.tar.gz.sha512`}
@@ -55,7 +55,7 @@ export default function Plugins(): JSX.Element {
                 </td>
                 <td>[<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-windows-amd64.tar.gz`}
-                    target="_blank" rel="noopener noreferrer">Download</a>] [<a
+                    target="_blank" rel="noopener noreferrer">Binary</a>] [<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-windows-amd64.tar.gz.asc`}
                     target="_blank" rel="noopener noreferrer">Sign</a>] [<a
                     href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-windows-amd64.tar.gz.sha512`}
