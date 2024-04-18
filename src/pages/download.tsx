@@ -70,6 +70,8 @@ export default function Plugins(): JSX.Element {
             description="This page provides download links for the latest release of Apache Answer.">
             <HeaderSlogan type="download"/>
             <Container className='py-5'>
+                <h3>Release Source And Binary</h3>
+                <br/>
                 <table>
                     <thead>
                     <tr>
@@ -87,12 +89,20 @@ export default function Plugins(): JSX.Element {
                     </tbody>
                 </table>
                 <div className='mt-5'>
-                    <h3> Release Integrity </h3>
+                    <h3>Release Integrity</h3>
                     <p>You can verify the integrity of the downloaded files. </p>
-                    <h4>Signatures</h4>
-                    <a href="https://answer.apache.org/community/how-to-release/#how-to-verify-the-signatures">How to verify the signatures</a>
-                    <h4>Checksums</h4>
-                    <a href="https://answer.apache.org/community/how-to-release#how-to-verify-the-checksums">How to verify the checksums</a>
+                    <ul>
+                        <li>
+                            <a href="https://answer.apache.org/community/how-to-release/#how-to-verify-the-signatures">How to verify the signatures</a>
+                        </li>
+                        <li>
+                            <a href="https://answer.apache.org/community/how-to-release#how-to-verify-the-checksums">How to verify the checksums</a>
+                        </li>
+                    </ul>
+                </div>
+                <div className='mt-5'>
+                    <h3>Release Docker Image</h3>
+                    <p>Apache Answer provides a docker image for each release. You can pull the image from the <a href="https://hub.docker.com/r/apache/answer/tags" target="_blank" rel="noopener noreferrer">Docker Hub</a>.</p>
                 </div>
             </Container>
         </Layout>
