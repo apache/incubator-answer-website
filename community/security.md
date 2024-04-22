@@ -8,6 +8,14 @@ The Apache Software Foundation takes a rigorous stance on eliminating security i
 
 # Security fixes
 
+## v1.2.5
+
+### CVE-2024-29217
+
+XSS attack when user changes personal website. A logged-in user, when modifying their personal website, can input malicious code in the website to create such an attack.
+
+https://www.cve.org/CVERecord?id=CVE-2024-29217
+
 ## v1.2.1
 
 ### CVE-2024-22393
