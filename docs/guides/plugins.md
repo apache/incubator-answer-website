@@ -96,7 +96,7 @@ COPY --from=answer-builder /usr/bin/answer /usr/bin/answer
 
 RUN apk --no-cache add \
     build-base git bash nodejs npm go && \
-    npm install -g pnpm
+    npm install -g pnpm@8.9.2
 
 RUN answer build \
     --with github.com/apache/incubator-answer-plugins/connector-basic \
