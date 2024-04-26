@@ -47,7 +47,7 @@ const config = {
   },
 
   markdown: {
-    mermaid: true,
+    // mermaid: true,
   },
 
   presets: [
@@ -111,16 +111,40 @@ const config = {
             to: '/blog',
           },
           {
-            label: 'Community',
-            to: '/community',
+            label: 'Download',
+            to: '/download',
           },
-          // {
-          //   label: 'Contact',
-          //   to: '/contact',
-          // },
+          {
+            type: 'dropdown',
+            label: 'Community',
+            to: 'community/support',
+            items: [
+              {
+                label: 'Support',
+                to: 'community/support',
+              },
+              {
+                label: 'Forum',
+                to: 'https://meta.answer.dev',
+              },
+              {
+                label: 'About',
+                to: 'community/about',
+              },
+              {
+                label: 'Contributing',
+                to: 'community/contributing',
+              },
+              {
+                label: 'Roadmap',
+                to: 'https://github.com/apache/incubator-answer/projects',
+              },
+            ],
+          },
           {
             type: 'dropdown',
             label: 'ASF',
+            to: 'https://www.apache.org/',
             items: asfLinks.map(link => ({
               label: link.label,
               to: link.to,
@@ -152,7 +176,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      image: 'img/head-icon.png',
     }),
+
   stylesheets: [
     '/fonts/fonts.css',
   ],
@@ -176,7 +202,7 @@ const config = {
       },
     ],
     'docusaurus-plugin-sass',
-    '@docusaurus/theme-mermaid',
+    // '@docusaurus/theme-mermaid',
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -192,6 +218,17 @@ const config = {
         },
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/community/support',
+            from: ['/contact', '/community'],
+          },
+        ],
       },
     ],
   ],

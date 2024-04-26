@@ -18,7 +18,7 @@ export default function Plugins(): JSX.Element {
   return (
     <Layout
       title={translate({ message: 'Plugins' })}
-      description="Extend functionality to your needs.">
+      description="Extend capabilities and unlock new possibilities with our community-made plugins.">
       <HeaderSlogan type="plugin" />
       <Container className='py-5'>
          <div style={{ fontSize: '1.25rem' }}>
@@ -37,7 +37,7 @@ export default function Plugins(): JSX.Element {
               )
             }}
             >
-            {`Anyone can {submit_link} to Apache Answer. If you have questions about building your own plugin, {community_link}.`}
+            {`Built by the community, for the community. Everyone can {submit_link} to Apache Answer. Need help building yours? Join the {community_link}.`}
           </Translate>
           </div>
 

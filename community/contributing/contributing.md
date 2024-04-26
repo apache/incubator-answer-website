@@ -61,7 +61,7 @@ Anyone can contribute to Answer. In addition to contributing code, there are man
 ##### Helping with support
 
 - You can be of great help by helping other users on [Answer Meta](https://meta.answer.dev).
-- Reply and solve the questions in the [Mailing List](/community/#mailing-list).
+- Reply and solve the questions in the [Mailing List](/community/support/#mailing-list).
 
 ##### Promoting Answer
 
@@ -72,7 +72,7 @@ Anyone can contribute to Answer. In addition to contributing code, there are man
 ##### Others
 
 - Got new ideas? All contributions are very welcome.
-- If you think you need help planning your contribution, please [reach us](/community/#others) and let us know you are looking for a bit of help.
+- If you think you need help planning your contribution, please [reach us](/community/support/#others) and let us know you are looking for a bit of help.
 
 ## Development process
 

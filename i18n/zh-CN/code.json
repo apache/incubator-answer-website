@@ -574,5 +574,20 @@
   },
   "plugins.instruction.join": {
     "message": "加入我们的社区"
+  },
+  "docs.sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "入门"
+  },
+  "docs.sidebar.tutorialSidebar.category.User Guides": {
+    "message": "用户指南"
+  },
+  "download.title" : {
+    "message": "下载"
+  },
+  "download.slogan": {
+    "message": "此页面提供最新版本的 Apache Answer 的下载链接。"
+  },
+  "docs.sidebar.tutorialSidebar.category.Developer Guides": {
+    "message": "开发者指南"
   }
 }

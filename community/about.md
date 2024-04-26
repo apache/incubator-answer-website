@@ -11,7 +11,7 @@ Apache Answer aligns with the Apache Way. Based on community philosophy of Apach
 
 ### Users
 
-For Apache Answer users, you can share and communicate with other users in the [community](/community). If you need help, you can refer to our [documentations](/docs) and pick the one that works for you. We encourage everyone to help each other, so when you have an answer to a question while searching, please don't hesitate to respond. We also welcome more users to join our contributor family.
+For Apache Answer users, you can share and communicate with other users in the [community](/community/support). If you need help, you can refer to our [documentations](/docs) and pick the one that works for you. We encourage everyone to help each other, so when you have an answer to a question while searching, please don't hesitate to respond. We also welcome more users to join our contributor family.
 
 ### Contributor
 
