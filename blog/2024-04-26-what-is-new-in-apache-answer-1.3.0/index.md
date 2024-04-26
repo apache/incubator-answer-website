@@ -41,7 +41,8 @@ Observing how an answer develops until the current version can bring clarity. No
 We heard your voice! Here are some tweaks we made for existed features. 
 
 It’s easy to spot your search terms within the results, because of the latest highlight.
-Image: Highlight Search Result Keyword
+
+![Highlight Search Result](Highlight%20Search%20Result%20Keyword.png)
 
 Now admin can go through all the published posts, check the post’s status, and unlist it in a few clicks. 
 
