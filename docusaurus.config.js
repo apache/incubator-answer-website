@@ -111,6 +111,10 @@ const config = {
             to: '/blog',
           },
           {
+            label: 'Download',
+            to: '/download',
+          },
+          {
             type: 'dropdown',
             label: 'Community',
             to: 'community/support',
