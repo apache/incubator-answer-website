@@ -1,0 +1,80 @@
+---
+slug: /team
+---
+
+
+# Team
+
+The Apache Answer team works on the core functionality, plugins, as well as the documentation website. Current members of the team are listed in alphabetical order below.
+
+import UserData from './team.json';
+
+## Podling PMC
+
+Each Podling Project Management Committee (PPMC) helps its Podling learn how to govern itself. It works like a PMC but reports to the Incubator PMC instead of to the ASF Board. Initially, it is composed of the Podling’s mentors and the initial committers. The PPMC is directly responsible for the oversight of the podling, and it also decides who to add as a PPMC member.
+
+<div className="row">
+  {
+    UserData[0].users.map(u => {
+      return (
+        <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-4">
+            <img src={u.avatar} width="48" height="48" className="rounded me-2 lh-normal" />
+            <div>
+              <a href={u.github} target="_blank" className="d-block lh-base">{u.name}</a>
+              <div className="fs-14 text-secondary">{u.role}</div>
+            </div>
+        </div>
+      )
+    })
+  }
+</div>
+
+## Committer
+
+Committers have read-write access to the code repository, signed the CLA, and use an `@apache.org` email. They can patch code or docs, with approval from the PMC. There's no timeline or specific requirement to become a committer, but active contributors are strong candidates. As a committer, you shape the project's future by reviewing and merging code, testing release candidates, participating in discussions, and contributing in various ways. Active contributors may be invited to join the PMC.
+
+<div className="row">
+  {
+    UserData[1].users.map(u => {
+      return (
+        <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-4">
+            <img src={u.avatar} width="48" height="48" className="rounded me-2 lh-normal" />
+            <div>
+              <a href={u.github} target="_blank" className="d-block lh-base">{u.name}</a>
+              <div className="fs-14 text-secondary">{u.role}</div>
+            </div>
+        </div>
+      )
+    })
+  }
+</div>
+
+## Contributor
+
+Becoming a contributor means you are interested in and contribute to the project, not just code. In Answer, there are ways of contribution, and you can find out more [here](/community/contributing). As long as you contribute to the Answer project, you are a recognized Answer Contributor. If you become a valuable contributor to the project, the Project Management Committee (PMC) may invite you to become a Committer.
+
+<div className="row mb-3">
+  {
+    UserData[2].users.map(u => {
+      return (
+        <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-1">
+          <a href={u.github} target="_blank">{u.name}</a>
+        </div>
+      )
+    })
+  }
+</div>
+
+You can find all the code contributors on and translation contributors on these pages:
+
+- [Contributors to apache/incubator-answer](https://github.com/apache/incubator-answer/graphs/contributors)
+- [Contributors to apache/incubator-answer-plugin](https://github.com/apache/incubator-answer-plugin/graphs/contributors)
+- [Contributors to apache/incubator-answer-website](https://github.com/apache/incubator-answer-website/graphs/contributors)
+- [Contributors to translation](https://crowdin.com/project/answer/reports/top-members)
+
+## Reference
+
+- https://community.apache.org/contributors
+- https://community.apache.org/contributors/becomingacommitter.html
+- https://incubator.apache.org/guides/ppmc.html
+- https://www.apache.org/dev/pmc.html
