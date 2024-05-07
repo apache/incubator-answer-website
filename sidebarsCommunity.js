@@ -1,7 +1,6 @@
 module.exports = {
   community: [
     'support',
-    'about',
     'team',
     'security',
     {

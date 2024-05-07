@@ -124,8 +124,12 @@ const config = {
                 to: 'https://meta.answer.dev',
               },
               {
-                label: 'About',
-                to: 'community/about',
+                label: 'Team',
+                to: 'community/team',
+              },
+              {
+                label: 'Security',
+                to: 'community/security',
               },
               {
                 label: 'Contributing',
@@ -223,6 +227,10 @@ const config = {
           {
             to: '/community/support',
             from: ['/contact', '/community'],
+          },
+          {
+            to: '/community/team',
+            from: '/community/about',
           },
         ],
       },
