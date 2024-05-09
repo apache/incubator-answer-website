@@ -27,7 +27,7 @@ Find out more about us with the links below:
 ## Our Projects for OSPP 2024
 We strike to build easy-to-start and good-to-go Q&A platform software for every team. With this idea in mind, we bring 2 projects this year. Both projects require applicants to process fundamental experience in TypeScript, Golang, and React. 
 
-**Project 1: Personalized Recommendations**      
+[**Project 1: Personalized Recommendations**](https://summer-ospp.ac.cn/org/prodetail/246a40179?list=org&navpage=org)      
 Language: Chinese    
 Difficulty: Basic 
 Bonus: RMB 8,000 (before tax)     
@@ -36,7 +36,8 @@ Mailbox: lishuailing666@gmail.com
 Description: Develop a personalized recommendation system that generates tailored content lists based on a user's current interests, interactions, and engagement. This feature will empower users to easily discover relevant content and actively participate in community activities.       
 [Apply Now](https://summer-ospp.ac.cn/org/prodetail/246a40179?list=org&navpage=org)
 
-**Project 2: Answer Bot Plugin**
+
+[**Project 2: Answer Bot Plugin**](https://summer-ospp.ac.cn/org/prodetail/246a40172?list=org&navpage=org)        
 Language: Chinese and English      
 Difficulty: Advanced          
 Bonus: RMB 12,000 (before tax)      
