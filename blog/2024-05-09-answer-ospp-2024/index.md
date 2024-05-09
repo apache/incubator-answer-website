@@ -1,7 +1,7 @@
 ---
 title: "Apply for Apache Answer’s Project at OSPP 2024"
 authors: [Anne]
-category: Category
+category: Community
 featured: true
 image: 2024-05-09-cover@4x.png
 description: "Students wanted! Improve your skills. Win bonus and certificate with your open-source achievements for this summer!"
