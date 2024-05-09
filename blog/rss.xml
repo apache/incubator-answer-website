@@ -4,10 +4,66 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Fri, 26 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apply for Apache Answer’s Project at OSPP 2024]]></title>
+            <link>https://answer.apache.org/blog/2024/05/09/answer-ospp-2024</link>
+            <guid>https://answer.apache.org/blog/2024/05/09/answer-ospp-2024</guid>
+            <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Students wanted! Improve your skills. Win bonus and certificate with your open-source achievements for this summer!]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-05-09-cover@4x-456abe45411674726d0fcad3ae1df455.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>Calling all students passionate about open-source software development!</p>
+<!-- --><p>Apache Answer is waiting for you in <!-- --><a href="https://summer-ospp.ac.cn/" target="_blank" rel="noopener noreferrer">OSPP 2024</a>.<!-- --></p>
+<!-- --><p>The Open Source Promotion Program (OSPP), initiated by the the Institute of Software Chinese Academy of Sciences, is an exciting summer event that encourages university students to actively participate in the development and maintenance of open-source software, push the growth of open-source communities.</p>
+<!-- --><p>We made our debut and announced <!-- --><a href="https://summer-ospp.ac.cn/org/orgdetail/6a467fc2-8a16-486d-9d85-ad7ebdf9fd4b?lang=en" target="_blank" rel="noopener noreferrer">2 projects</a> for students all over the world! We want to invite students worldwide to apply our projects, and dive into the open-source world with us.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="hi-this-is-apache-answer">Hi! This is Apache Answer<!-- --><a href="https://answer.apache.org/blog/2024/05/09/answer-ospp-2024#hi-this-is-apache-answer" class="hash-link" aria-label="Direct link to Hi! This is Apache Answer" title="Direct link to Hi! This is Apache Answer">​</a></h2>
+<!-- --><p>Apache Answer is an open-source Q&amp;A platform software. Launched in October 2022, entered Apache Software Foundation in 2023, Apache Answer has received over 400 PRs, 60,000+ downloads, and carried an average monthly release. In January 2024, we’ve achieved 10,000 GitHub Stars.</p>
+<!-- --><p>Find out more about us with the links below:
+<!-- --><a href="https://answer.dev/" target="_blank" rel="noopener noreferrer">Homepage</a>
+<!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a>
+<!-- --><a href="https://answer.apache.org/blog/2023/05/23/why-open-source-is-the-essence-of-answer" target="_blank" rel="noopener noreferrer">Blog: Why Open Source Matters to Answer</a></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="our-projects-for-ospp-2024">Our Projects for OSPP 2024<!-- --><a href="https://answer.apache.org/blog/2024/05/09/answer-ospp-2024#our-projects-for-ospp-2024" class="hash-link" aria-label="Direct link to Our Projects for OSPP 2024" title="Direct link to Our Projects for OSPP 2024">​</a></h2>
+<!-- --><p>We strike to build easy-to-start and good-to-go Q&amp;A platform software for every team. With this idea in mind, we bring 2 projects this year. Both projects require applicants to process fundamental experience in TypeScript, Golang, and React.</p>
+<!-- --><p><a href="https://summer-ospp.ac.cn/org/prodetail/246a40179?list=org&amp;navpage=org" target="_blank" rel="noopener noreferrer"><strong>Project 1: Personalized Recommendations</strong></a><br>
+<!-- -->Language: Chinese<!-- --><br>
+<!-- -->Difficulty: Basic
+Bonus: RMB 8,000 (before tax)<!-- --><br>
+<!-- -->Mentor: shuai<!-- --><br>
+<!-- -->Mailbox: <!-- --><a href="mailto:lishuailing666@gmail.com" target="_blank" rel="noopener noreferrer">lishuailing666@gmail.com</a><br>
+<!-- -->Description: Develop a personalized recommendation system that generates tailored content lists based on a user's current interests, interactions, and engagement. This feature will empower users to easily discover relevant content and actively participate in community activities.<!-- --><br>
+<!-- --><a href="https://summer-ospp.ac.cn/org/prodetail/246a40179?list=org&amp;navpage=org" target="_blank" rel="noopener noreferrer">Apply Now</a></p>
+<!-- --><p><a href="https://summer-ospp.ac.cn/org/prodetail/246a40172?list=org&amp;navpage=org" target="_blank" rel="noopener noreferrer"><strong>Project 2: Answer Bot Plugin</strong></a><br>
+<!-- -->Language: Chinese and English<!-- --><br>
+<!-- -->Difficulty: Advanced<!-- --><br>
+<!-- -->Bonus: RMB 12,000 (before tax)<!-- --><br>
+<!-- -->Mentor: LinkinStar<!-- --><br>
+<!-- -->Description: Choose an instant messaging platform (such as Slack, etc.) and integrate it into Apache Answer with plugin to allow users log in and bind accounts, receive notification reminders from Answer, and directly <!-- --><code>ask</code> questions through <!-- --><code>keywords/ask</code> and search content through keywords/search. etc,. There’s no need for users to leave current workflow to ask or answer a question.<!-- --><br>
+<!-- --><a href="https://summer-ospp.ac.cn/org/prodetail/246a40172?list=org&amp;navpage=org" target="_blank" rel="noopener noreferrer">Apply Now</a></p>
+<!-- --><p>If you are interested or having questions about the project, we encourage you to reach out to the mentor directly via email. We are more than happy to address your inquiries and provide assistance. We strongly recommend you to explore our <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a> and <!-- --><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">official documentation</a> beforehand, which will give you comprehensive view of our project.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-you-can-get">What You Can Get<!-- --><a href="https://answer.apache.org/blog/2024/05/09/answer-ospp-2024#what-you-can-get" class="hash-link" aria-label="Direct link to What You Can Get" title="Direct link to What You Can Get">​</a></h2>
+<!-- --><ul>
+<!-- --><li>Connect with open source peers and tech experts.</li>
+<!-- --><li>Receive professional guidance from community mentors, and have in-depth discussions with open source developers.</li>
+<!-- --><li>Enhance project experience, and improve development skills.</li>
+<!-- --><li>Gain insights for learning direction and build professional networks for career development.</li>
+<!-- --><li>Earn bonus and certificate: Students who pass the final evaluation will have the opportunity to receive an outstanding student certificate.</li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="how-to-participate">How to Participate<!-- --><a href="https://answer.apache.org/blog/2024/05/09/answer-ospp-2024#how-to-participate" class="hash-link" aria-label="Direct link to How to Participate" title="Direct link to How to Participate">​</a></h2>
+<!-- --><p>Students can register now and log in to the system through the student login portal on the <!-- --><a href="https://summer-ospp.ac.cn/" target="_blank" rel="noopener noreferrer">official website</a>, and fill in their personal information according to the requirements. Once the information is approved by the committee, the registration will be considered successful. Please kindly check the <!-- --><a href="https://summer-ospp.ac.cn/help/en/student/#student-guide_1" target="_blank" rel="noopener noreferrer">student guide</a> for timeline and notice.<!-- --></p>
+<!-- --><p>Deadline for student registration: 06/03 15:00 UTC+8.<!-- --><br>
+<!-- -->Deadline for project application: 06/04 18:00 UTC+8.<!-- --></p>
+<!-- --><p>Upon successful registration, you can choose the projects and communicate with the mentors before project application. Once again, if you have any questions for our projects, please reach mentor directly via email. We’re always here for you.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="links-to-check">Links to Check<!-- --><a href="https://answer.apache.org/blog/2024/05/09/answer-ospp-2024#links-to-check" class="hash-link" aria-label="Direct link to Links to Check" title="Direct link to Links to Check">​</a></h2>
+<!-- --><p><a href="https://summer-ospp.ac.cn/" target="_blank" rel="noopener noreferrer">OSPP 2024</a><br>
+<!-- --><a href="https://summer-ospp.ac.cn/help/en/student/#student-guide_1" target="_blank" rel="noopener noreferrer">OSPP Student Guide</a><br>
+<!-- --><a href="https://summer-ospp.ac.cn/org/orgdetail/6a467fc2-8a16-486d-9d85-ad7ebdf9fd4b?lang=en" target="_blank" rel="noopener noreferrer">Apache Answer Community Page</a><br>
+<!-- --><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer">Home Page</a><br>
+<!-- --><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">Documentations</a><br>
+<!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a><br>
+<!-- --><a href="https://answer.apache.org/community/contributing" target="_blank" rel="noopener noreferrer">Be a Part of Apache Answer Community</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[What’s New in Apache Answer 1.3.0?]]></title>
             <link>https://answer.apache.org/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0</link>
@@ -1019,51 +1075,6 @@ You can customize Answer freely, such as adding extra information in the sidebar
 <!-- --><p>With the tutorials and tips in this blog, we believe you can now build a help center that your users will love. You are always welcome to check this guide when working on your help center, and we will also keep it updated too. It’s time to kick-start a help center for your product, and here’s a complete <!-- --><a href="https://answer.apache.org/docs/installation" target="_blank" rel="noopener noreferrer">Answer guide</a>.<!-- --></p>
 <!-- --><p><strong>Need Help?</strong>
 We are always <!-- --><a href="https://answer.apache.org/contact" target="_blank" rel="noopener noreferrer">here for you</a> with an Answer.<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Everything You Need to Know About Answer]]></title>
-            <link>https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer</link>
-            <guid>https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer</guid>
-            <pubDate>Thu, 29 Jun 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Find out everything about Answer: our motivation, why it’s open-source, the people behind it, etc.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2023-06-29-cover@4x-fc60d3a6aa73a1100a46a688108d8b04.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>Whether you’re a user of Answer, curious about the stories behind Answer, or simply an open-source lover, you’ve come to the right place.</p>
-<!-- --><p>Today, we'll share more stories behind Answer: how we started it, the tech stack we picked, and the next step on our roadmap. Find out more about Answer, and have a deeper understanding of Answer, our motivation, and the people behind it.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-is-answer">What is Answer<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#what-is-answer" class="hash-link" aria-label="Direct link to What is Answer" title="Direct link to What is Answer">​</a></h2>
-<!-- --><p>Answer is a Q&amp;A software which allows users to ask and answer questions about a particular topic or subject. It’s open-source, and everyone can access it freely.
-You can use it to build a platform in the form of Q&amp;A. No matter a knowledge base, product forum, a support, Answer got it covered.
-<!-- --><img decoding="async" loading="lazy" alt="Platforms built with Answer" src="https://answer.apache.org/assets/images/everythingabtanswer1-58ce19fe849762fc3fd5f10046c4cc4b.png" width="2782" height="2581" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="why-answer">Why Answer?<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#why-answer" class="hash-link" aria-label="Direct link to Why Answer?" title="Direct link to Why Answer?">​</a></h2>
-<!-- --><p>Recently, we noticed that B2B enterprises have been looking for solutions to build their own Q&amp;A community or a corporate community. A dedicated section or subsection obviously cannot meet their needs because they request to customize content, have control over their data, rather than just “being a guest” in a public community.</p>
-<!-- --><p>That’s the moment we decided to build Answer — to help individuals, teams, and company at different scales to run their Q&amp;A platform easily while have full control over their data.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="why-answer-is-open-source">Why Answer is Open-source?<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#why-answer-is-open-source" class="hash-link" aria-label="Direct link to Why Answer is Open-source?" title="Direct link to Why Answer is Open-source?">​</a></h2>
-<!-- --><p>We’ve been longing to share our research and experience over the years in Q&amp;A communities. The best way is to create an <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">open-source project</a> that is accessible to everyone. We have also made Answer website and plugins open-source on <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a>.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-is-answer-built-with">What is Answer built with?<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#what-is-answer-built-with" class="hash-link" aria-label="Direct link to What is Answer built with?" title="Direct link to What is Answer built with?">​</a></h2>
-<!-- --><p>Answer is mainly built Golang, and React.js.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-license-is-the-code-under">What license is the code under?<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#what-license-is-the-code-under" class="hash-link" aria-label="Direct link to What license is the code under?" title="Direct link to What license is the code under?">​</a></h2>
-<!-- --><p>Apache-2.0 license.<!-- --><br>
-<!-- -->It’s a highly flexible, business-friendly, community-supportive, and easy-to-manage license.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="whats-the-browser-requirements">What’s the browser requirements?<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#whats-the-browser-requirements" class="hash-link" aria-label="Direct link to What’s the browser requirements?" title="Direct link to What’s the browser requirements?">​</a></h2>
-<!-- --><p>You can always run Answer on the latest and stable release of the browsers. These are the minimum browser requirements.</p>
-<!-- --><ul>
-<!-- --><li>Microsoft Edge: Version 100 and later.</li>
-<!-- --><li>Mozilla Firefox: Version 100 and later.</li>
-<!-- --><li>Google Chrome: Version 90 and later.</li>
-<!-- --><li>Apple Safari: Version 15 and later.</li>
-<!-- --></ul>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="can-i-browse-answer-on-mobile-devices">Can I browse Answer on mobile devices?<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#can-i-browse-answer-on-mobile-devices" class="hash-link" aria-label="Direct link to Can I browse Answer on mobile devices?" title="Direct link to Can I browse Answer on mobile devices?">​</a></h2>
-<!-- --><p>Sure ;)<!-- --><br>
-<!-- -->You can browse Answer in Safari, or Chrome on your mobile devices.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="whats-the-difference-between-wiki-and-answer">What’s the Difference between Wiki and Answer?<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#whats-the-difference-between-wiki-and-answer" class="hash-link" aria-label="Direct link to What’s the Difference between Wiki and Answer?" title="Direct link to What’s the Difference between Wiki and Answer?">​</a></h2>
-<!-- --><table><thead><tr><th></th><th>Answer</th><th>Wiki</th></tr></thead><tbody><tr><td>Format</td><td>Question and answer. Focus on problem-solving, and mutual assistance.</td><td>Document. Emphasize content enhancement. Suitable for writing long articles.</td></tr><tr><td>Management</td><td>Based on tags. Categorize and search information quickly.</td><td>Based on structure. Coherent and organized knowledge system.</td></tr><tr><td>Governance</td><td>Reputation system and mutual trust.</td><td>Individuals and editors.</td></tr></tbody></table>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="who-build-answer">Who build Answer?<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#who-build-answer" class="hash-link" aria-label="Direct link to Who build Answer?" title="Direct link to Who build Answer?">​</a></h2>
-<!-- --><p>We are a small and agile team, working closely with each other in different cities. As a part of the open-source community, we have also received love and help from contributors around the world.
-<!-- --><img decoding="async" loading="lazy" alt="Answer Footer with Gratitude to Contributors" src="https://answer.apache.org/assets/images/everythingabtanswer2-b58e7a0473984cddbf68ed74a9e6b4b0.png" width="1166" height="254" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="can-i-use-answer">Can I use Answer?<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#can-i-use-answer" class="hash-link" aria-label="Direct link to Can I use Answer?" title="Direct link to Can I use Answer?">​</a></h2>
-<!-- --><p>Why not?
-With a simple and intuitive design, you can build a <!-- --><a href="https://answer.apache.org/blog/2023/05/30/everything-you-need-to-know-about-knowledge-base">knowledge base</a>, game forum, or support center with Answer smoothly. <!-- --><a href="https://answer.apache.org/blog/2023/06/15/answer-1.1.0-release">Answer 1.1.0</a> also supports plugins so that you can enhance Answer’s performance in the way you want.
-<!-- --><img decoding="async" loading="lazy" alt="Plugin" src="https://answer.apache.org/assets/images/everythingabtanswer3-cae9738c9093ce621474ad45ce093dde.png" width="1800" height="2206" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="how-do-i-get-answer">How do I Get Answer?<!-- --><a href="https://answer.apache.org/blog/2023/06/29/everything-you-need-to-know-about-answer#how-do-i-get-answer" class="hash-link" aria-label="Direct link to How do I Get Answer?" title="Direct link to How do I Get Answer?">​</a></h2>
-<!-- --><p>Oh, it’s easy. Everything you need is <!-- --><a href="https://answer.apache.org/docs/installation/" target="_blank" rel="noopener noreferrer">here</a>, and just follow the guide.<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>

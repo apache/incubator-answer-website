@@ -2,11 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://answer.apache.org/zh-CN/blog</id>
     <title>Apache Answer Blog</title>
-    <updated>2024-04-26T00:00:00.000Z</updated>
+    <updated>2024-05-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://answer.apache.org/zh-CN/blog"/>
     <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/zh-CN/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[大牛导师，万元奖金！Apache Answer 邀你共度开源之夏]]></title>
+        <id>https://answer.apache.org/zh-CN/blog/2024/05/09/answer-ospp-2024</id>
+        <link href="https://answer.apache.org/zh-CN/blog/2024/05/09/answer-ospp-2024"/>
+        <updated>2024-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[社区任务正式发布，学生报名通道已开启，邀你沉浸式体验有趣有料的开源项目。]]></summary>
+        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-05-09-cover-zh@4x-bfa3ad34d035835a40f83313d2ba0fc0.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>想深度参与到优秀的开源项目中吗？<!-- --><br>
+<!-- -->和来自全球优秀的开发者的那种！打造一款优秀的问答社区软件的那种！还有含金量超高的结项证书，和丰厚奖金的那种！<!-- --></p>
+<!-- --><p><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer">Apache Answer 社区</a>喊你来参加开源之夏 2024 啦！<!-- --></p>
+<!-- --><p><a href="https://summer-ospp.ac.cn/" target="_blank" rel="noopener noreferrer">开源之夏</a>是由中国科学院软件研究所发起的暑期活动，旨在鼓励高校学生积极参与开源软件的开发维护，促进开源软件社区发展。<!-- --><br>
+<!-- -->今年，Apache Answer 将首次在开源之夏亮相！我们诚挚邀请全球高校学生投递我们的项目。报名成功后，你将在项目开发者（社区导师）的一对一指导下进行开发及完成对应项目，通过结项考核后即可获得丰厚的结项奖金和结项证书。<!-- --><br>
+<!-- -->加入我们！和来自全球的开发者共同打造更好的问答社区软件，提升个人开发技能和突破！<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="关于-apache-answer-社区">关于 Apache Answer 社区<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/09/answer-ospp-2024#%E5%85%B3%E4%BA%8E-apache-answer-%E7%A4%BE%E5%8C%BA" class="hash-link" aria-label="关于 Apache Answer 社区的直接链接" title="关于 Apache Answer 社区的直接链接">​</a></h2>
+<!-- --><p>Apache Answer 是一款问答社区软件，由中国领先的技术问答社区 SegmentFault 思否开发并开源。项目于 2022 年 10 月上线并开源，并于 2023 年进入 Apache 软件基金孵化器。目前，我们收获了 400+ PR，60k+ 下载量，平均每月一次发版，并构建起了一个小型的活跃社区。今年 1 月，我们在 GitHub 上解锁了 10k+ Stars，你可以通过<!-- --><a href="https://www.bilibili.com/video/BV1KT421171S/" target="_blank" rel="noopener noreferrer">视频</a>了解了解更多关于社区和项目相关的内容。<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="apache-answer-项目">Apache Answer 项目<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/09/answer-ospp-2024#apache-answer-%E9%A1%B9%E7%9B%AE" class="hash-link" aria-label="Apache Answer 项目的直接链接" title="Apache Answer 项目的直接链接">​</a></h2>
+<!-- --><p>我们致力于打造易用好用的问答社区软件，帮助每个组织轻松构建起自己的问答社区。基于此，我们今年带来了两个项目。这两个项目都需要你具有 TypeScript、Golang 基础开发经验，以及 React 开发经验。</p>
+<!-- --><p><a href="https://summer-ospp.ac.cn/org/prodetail/246a40179?list=org&amp;navpage=or" target="_blank" rel="noopener noreferrer"><strong>项目 1：个性化内容推荐</strong></a><br>
+<!-- -->项目难度：基础<!-- --><br>
+<!-- -->奖金：8000 元人民币（税前）<!-- --><br>
+<!-- -->导师：shuai<!-- --><br>
+<!-- -->导师邮箱：<!-- --><a href="mailto:lishuailing666@gmail.com" target="_blank" rel="noopener noreferrer">lishuailing666@gmail.com</a><br>
+<!-- -->项目简述：根据当前用户在的关注内容，互动等情况，生成个性化推荐列表。方便用户筛选出与自己有关的内容，更多地参与社区活动。<!-- --><br>
+<!-- --><a href="https://summer-ospp.ac.cn/org/prodetail/246a40179?list=org&amp;navpage=org" target="_blank" rel="noopener noreferrer">立即申请</a></p>
+<!-- --><p><a href="https://summer-ospp.ac.cn/org/prodetail/246a40172?list=org&amp;navpage=org" target="_blank" rel="noopener noreferrer"><strong>项目 2: Answer Bot Plugin</strong></a><br>
+<!-- -->项目难度：进阶/Advanced<!-- --><br>
+<!-- -->奖金：12000 元人民币（税前）<!-- --><br>
+<!-- -->导师：LinkinStar<!-- --><br>
+<!-- -->导师邮箱：<!-- --><a href="mailto:linkinstar@foxmail.com" target="_blank" rel="noopener noreferrer">linkinstar@foxmail.com</a><br>
+<!-- -->项目简述：选择一个即时通讯平台(如: Slack等)，以插件的形式集成到 Apache Answer 中，以实现登录并绑定账号，接收 Answer 的通知提醒，通过关键字 <!-- --><code>/ask</code> 直接提问、关键字 <!-- --><code>/search</code> 搜索内容等，使用户无需离开原本工作流完成提问和回答。<!-- --><br>
+<!-- --><a href="https://summer-ospp.ac.cn/org/prodetail/246a40172?list=org&amp;navpage=org" target="_blank" rel="noopener noreferrer">立即申请</a></p>
+<!-- --><p>对项目感兴趣或者有疑问的同学，我们鼓励你通过导师邮箱，与导师及时联系沟通，我们非常乐意解答和帮助你。我们非常欢迎你浏览我们的 <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a> 库和<!-- --><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">官方文档</a>，这会帮助你更好地了解产品。<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="参与开源之夏你将收获">参与开源之夏，你将收获<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/09/answer-ospp-2024#%E5%8F%82%E4%B8%8E%E5%BC%80%E6%BA%90%E4%B9%8B%E5%A4%8F%E4%BD%A0%E5%B0%86%E6%94%B6%E8%8E%B7" class="hash-link" aria-label="参与开源之夏，你将收获的直接链接" title="参与开源之夏，你将收获的直接链接">​</a></h2>
+<!-- --><ul>
+<!-- --><li>导师一对一指导，学习并提升项目开发技能</li>
+<!-- --><li>深度参与到 Apache Answer 项目中，丰富项目实践经验</li>
+<!-- --><li>结识优秀的开源开发者</li>
+<!-- --><li>为简历添上浓墨重彩的一笔，为就业提供方向参考</li>
+<!-- --><li>通过结项考核，获得丰厚的结项奖金和结项证书，更有机会评为年度优秀学生</li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="如何参与">如何参与<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/09/answer-ospp-2024#%E5%A6%82%E4%BD%95%E5%8F%82%E4%B8%8E" class="hash-link" aria-label="如何参与的直接链接" title="如何参与的直接链接">​</a></h2>
+<!-- --><p>学生可通过<!-- --><a href="https://summer-ospp.ac.cn/" target="_blank" rel="noopener noreferrer">活动官网</a>首页的学生登录入口注册学生账号、登录系统，并按活动要求填写提交个人资料，资料经组委会审核通过即报名成功。你也可以阅读<!-- --><a href="https://summer-ospp.ac.cn/help/student/" target="_blank" rel="noopener noreferrer">学生指南</a>，更好地了解活动流程和其他注意事项。<!-- --></p>
+<!-- --><p>学生报名通道现已开启，学生可在系统注册账号并填写个人资料，资料审核通过的学生可在系统提交项目申请书。
+<!-- --><em>注：个人资料应在 6 月 3 日 15:00（UTC+8） 前完成填写并提交审核，项目申请书应在 6月 4 日 18:00（UTC+8）前完成提交。</em></p>
+<!-- --><p>如果你有关于 Apache Answer 的疑问，请通过项目导师邮箱和导师联系。我们期待你的加入，一同度过这个属于开源的夏天，共同书写我们的开源故事！</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="相关链接">相关链接<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/09/answer-ospp-2024#%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="相关链接的直接链接" title="相关链接的直接链接">​</a></h2>
+<!-- --><p><a href="https://summer-ospp.ac.cn/" target="_blank" rel="noopener noreferrer">开源之夏</a><br>
+<!-- --><a href="https://summer-ospp.ac.cn/help/student/" target="_blank" rel="noopener noreferrer">学生指南</a><br>
+<!-- --><a href="https://summer-ospp.ac.cn/org/orgdetail/6a467fc2-8a16-486d-9d85-ad7ebdf9fd4b?lang=zh" target="_blank" rel="noopener noreferrer">Apache Answer 项目页面</a><br>
+<!-- --><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer">Apache Answer 官方网站</a>
+<!-- --><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">官方文档</a>
+<!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub 库</a><br>
+<!-- --><a href="https://answer.apache.org/community/contributing" target="_blank" rel="noopener noreferrer">为 Apache Answer 做贡献</a></p>]]></content>
+        <author>
+            <name>Anne Zhu</name>
+            <uri>https://github.com/PrimmaAnna</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What’s New in Apache Answer 1.3.0?]]></title>
         <id>https://answer.apache.org/zh-CN/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0</id>
@@ -1090,55 +1147,6 @@ You can customize Answer freely, such as adding extra information in the sidebar
 <!-- --><p>With the tutorials and tips in this blog, we believe you can now build a help center that your users will love. You are always welcome to check this guide when working on your help center, and we will also keep it updated too. It’s time to kick-start a help center for your product, and here’s a complete <!-- --><a href="https://answer.apache.org/docs/installation" target="_blank" rel="noopener noreferrer">Answer guide</a>.<!-- --></p>
 <!-- --><p><strong>Need Help?</strong>
 We are always <!-- --><a href="https://answer.apache.org/contact" target="_blank" rel="noopener noreferrer">here for you</a> with an Answer.<!-- --></p>]]></content>
-        <author>
-            <name>Anne Zhu</name>
-            <uri>https://github.com/PrimmaAnna</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Everything You Need to Know About Answer]]></title>
-        <id>https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer</id>
-        <link href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer"/>
-        <updated>2023-06-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Find out everything about Answer: our motivation, why it’s open-source, the people behind it, etc.]]></summary>
-        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2023-06-29-cover@4x-fc60d3a6aa73a1100a46a688108d8b04.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>Whether you’re a user of Answer, curious about the stories behind Answer, or simply an open-source lover, you’ve come to the right place.</p>
-<!-- --><p>Today, we'll share more stories behind Answer: how we started it, the tech stack we picked, and the next step on our roadmap. Find out more about Answer, and have a deeper understanding of Answer, our motivation, and the people behind it.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-is-answer">What is Answer<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#what-is-answer" class="hash-link" aria-label="What is Answer的直接链接" title="What is Answer的直接链接">​</a></h2>
-<!-- --><p>Answer is a Q&amp;A software which allows users to ask and answer questions about a particular topic or subject. It’s open-source, and everyone can access it freely.
-You can use it to build a platform in the form of Q&amp;A. No matter a knowledge base, product forum, a support, Answer got it covered.
-<!-- --><img decoding="async" loading="lazy" alt="Platforms built with Answer" src="https://answer.apache.org/zh-CN/assets/images/everythingabtanswer1-58ce19fe849762fc3fd5f10046c4cc4b.png" width="2782" height="2581" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="why-answer">Why Answer?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#why-answer" class="hash-link" aria-label="Why Answer?的直接链接" title="Why Answer?的直接链接">​</a></h2>
-<!-- --><p>Recently, we noticed that B2B enterprises have been looking for solutions to build their own Q&amp;A community or a corporate community. A dedicated section or subsection obviously cannot meet their needs because they request to customize content, have control over their data, rather than just “being a guest” in a public community.</p>
-<!-- --><p>That’s the moment we decided to build Answer — to help individuals, teams, and company at different scales to run their Q&amp;A platform easily while have full control over their data.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="why-answer-is-open-source">Why Answer is Open-source?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#why-answer-is-open-source" class="hash-link" aria-label="Why Answer is Open-source?的直接链接" title="Why Answer is Open-source?的直接链接">​</a></h2>
-<!-- --><p>We’ve been longing to share our research and experience over the years in Q&amp;A communities. The best way is to create an <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">open-source project</a> that is accessible to everyone. We have also made Answer website and plugins open-source on <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a>.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-is-answer-built-with">What is Answer built with?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#what-is-answer-built-with" class="hash-link" aria-label="What is Answer built with?的直接链接" title="What is Answer built with?的直接链接">​</a></h2>
-<!-- --><p>Answer is mainly built Golang, and React.js.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="what-license-is-the-code-under">What license is the code under?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#what-license-is-the-code-under" class="hash-link" aria-label="What license is the code under?的直接链接" title="What license is the code under?的直接链接">​</a></h2>
-<!-- --><p>Apache-2.0 license.<!-- --><br>
-<!-- -->It’s a highly flexible, business-friendly, community-supportive, and easy-to-manage license.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="whats-the-browser-requirements">What’s the browser requirements?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#whats-the-browser-requirements" class="hash-link" aria-label="What’s the browser requirements?的直接链接" title="What’s the browser requirements?的直接链接">​</a></h2>
-<!-- --><p>You can always run Answer on the latest and stable release of the browsers. These are the minimum browser requirements.</p>
-<!-- --><ul>
-<!-- --><li>Microsoft Edge: Version 100 and later.</li>
-<!-- --><li>Mozilla Firefox: Version 100 and later.</li>
-<!-- --><li>Google Chrome: Version 90 and later.</li>
-<!-- --><li>Apple Safari: Version 15 and later.</li>
-<!-- --></ul>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="can-i-browse-answer-on-mobile-devices">Can I browse Answer on mobile devices?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#can-i-browse-answer-on-mobile-devices" class="hash-link" aria-label="Can I browse Answer on mobile devices?的直接链接" title="Can I browse Answer on mobile devices?的直接链接">​</a></h2>
-<!-- --><p>Sure ;)<!-- --><br>
-<!-- -->You can browse Answer in Safari, or Chrome on your mobile devices.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="whats-the-difference-between-wiki-and-answer">What’s the Difference between Wiki and Answer?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#whats-the-difference-between-wiki-and-answer" class="hash-link" aria-label="What’s the Difference between Wiki and Answer?的直接链接" title="What’s the Difference between Wiki and Answer?的直接链接">​</a></h2>
-<!-- --><table><thead><tr><th></th><th>Answer</th><th>Wiki</th></tr></thead><tbody><tr><td>Format</td><td>Question and answer. Focus on problem-solving, and mutual assistance.</td><td>Document. Emphasize content enhancement. Suitable for writing long articles.</td></tr><tr><td>Management</td><td>Based on tags. Categorize and search information quickly.</td><td>Based on structure. Coherent and organized knowledge system.</td></tr><tr><td>Governance</td><td>Reputation system and mutual trust.</td><td>Individuals and editors.</td></tr></tbody></table>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="who-build-answer">Who build Answer?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#who-build-answer" class="hash-link" aria-label="Who build Answer?的直接链接" title="Who build Answer?的直接链接">​</a></h2>
-<!-- --><p>We are a small and agile team, working closely with each other in different cities. As a part of the open-source community, we have also received love and help from contributors around the world.
-<!-- --><img decoding="async" loading="lazy" alt="Answer Footer with Gratitude to Contributors" src="https://answer.apache.org/zh-CN/assets/images/everythingabtanswer2-b58e7a0473984cddbf68ed74a9e6b4b0.png" width="1166" height="254" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="can-i-use-answer">Can I use Answer?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#can-i-use-answer" class="hash-link" aria-label="Can I use Answer?的直接链接" title="Can I use Answer?的直接链接">​</a></h2>
-<!-- --><p>Why not?
-With a simple and intuitive design, you can build a <!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/05/30/everything-you-need-to-know-about-knowledge-base">knowledge base</a>, game forum, or support center with Answer smoothly. <!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/15/answer-1.1.0-release">Answer 1.1.0</a> also supports plugins so that you can enhance Answer’s performance in the way you want.
-<!-- --><img decoding="async" loading="lazy" alt="Plugin" src="https://answer.apache.org/zh-CN/assets/images/everythingabtanswer3-cae9738c9093ce621474ad45ce093dde.png" width="1800" height="2206" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="how-do-i-get-answer">How do I Get Answer?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/29/everything-you-need-to-know-about-answer#how-do-i-get-answer" class="hash-link" aria-label="How do I Get Answer?的直接链接" title="How do I Get Answer?的直接链接">​</a></h2>
-<!-- --><p>Oh, it’s easy. Everything you need is <!-- --><a href="https://answer.apache.org/docs/installation/" target="_blank" rel="noopener noreferrer">here</a>, and just follow the guide.<!-- --></p>]]></content>
         <author>
             <name>Anne Zhu</name>
             <uri>https://github.com/PrimmaAnna</uri>
