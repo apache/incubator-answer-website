@@ -8,7 +8,7 @@ import HeaderSlogan from '../components/HeaderSlogan';
 
 export default function Plugins(): JSX.Element {
     const [] = React.useState([]);
-    const list:string[] = ["1.3.0", "1.2.5", "1.2.1", "1.2.0"]
+    const list:string[] = ["1.3.1","1.3.0", "1.2.5", "1.2.1", "1.2.0"]
     let table:JSX.Element = list.map((item: string) => {
         return (
             <tr>
