@@ -25,16 +25,17 @@ All Apache projects are required to follow the [Apache Release Policy](https://w
 
 1. Create a GPG key if you don't have one.
 2. Add the GPG key to the KEYS file.
-3. Sign the release artifacts with the GPG key.
+3. Sign the release artifacts with the GPG key. **Be careful to check that the binary file is complete to avoid a size of 0.**
 
 ```shell
-# create a GPG key
+# create a GPG key, after executing this command, select the first one RSA 和 RSA
 $ gpg --full-generate-key
 
 # list the GPG keys
 $ gpg  --keyid-format SHORT --list-keys
 
 # upload the GPG key to the key server, xxx is the GPG key id
+# eg: pub rsa4096/4C21E346 2024-05-06 [SC], 4C21E346 is the GPG key id;
 $ gpg --keyserver keyserver.ubuntu.com --send-key xxx
 
 # append the GPG key to the KEYS file the svn repository
@@ -43,7 +44,7 @@ $ svn co https://dist.apache.org/repos/dist/release/incubator/answer/
 $ (gpg --list-sigs xxx@apache.org && gpg --export --armor xxx@apache.org) >> KEYS 
 $ svn ci -m "add gpg key" 
 
-# sign the release artifacts
+# sign the release artifacts, xxxx is xxx@apache.org
 $ for i in *.tar.gz; do echo $i; gpg --local-user xxxx --armor --output $i.asc --detach-sig $i ; done
 ```
 
@@ -58,8 +59,10 @@ $ for i in *.tar.gz; do echo $i; sha512sum  $i > $i.sha512 ; done
 
 1. Create a directory for the release artifacts in the svn repository.
 2. Upload the release artifacts to the svn repository.
+3. release-version format： 1.3.1-incubating
 
 The release artifacts should be uploaded to the `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` directory.
+
 
 ```shell
 $ svn co https://dist.apache.org/repos/dist/dev/incubator/answer/
@@ -67,6 +70,11 @@ $ cp /path/to/release/artifacts/* ./{release-version}/
 $ svn add ./{release-version}/*
 $ svn commit -m "add Answer release artifacts for {release-version}"
 ```
+
+**IMPORTANT** After completion, visit the link `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` to check whether the file upload is correct.
+
+![correct result](/img/community/release.jpeg)
+
 
 ## Verify the release artifacts
 
@@ -121,6 +129,16 @@ $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 
 ### Vote email template
 
+**NOTICE**  Directly copying the email content will cause the format to be incorrect. It is recommended to copy the email to a `.txt` file. After writing the content, copy it into the email tool you are using.  `The vote tread` and `Vote Result` is not needed during the first round of voting in dev.
+
+How to get the link to The vote thread：
+1. Find the email you sent from the apache mailing list.
+2. Click the link button below the email to get the link you need.
+
+![vote thread link](/img/community/vote-tread-link.jpeg)
+
+
+
 ```text
 [VOTE] Release Apache Answer (Incubating) {release-version}
 
@@ -147,7 +165,7 @@ Hello,
         https://github.com/apache/incubator-answer/commit/{id}
 
     Keys to verify the Release Candidate:
-        https://dist.apache.org/repos/dist/dev/incubator/answer/KEYS
+        https://downloads.apache.org/incubator/answer/KEYS
         
     The vote will be open for at least 72 hours or until the necessary number of votes are reached.
 
