@@ -2,11 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://answer.apache.org/zh-CN/blog</id>
     <title>Apache Answer Blog</title>
-    <updated>2024-05-09T00:00:00.000Z</updated>
+    <updated>2024-05-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://answer.apache.org/zh-CN/blog"/>
     <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/zh-CN/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Build a Safe and Respectful Community with Answer 1.3.1 ]]></title>
+        <id>https://answer.apache.org/zh-CN/blog/2024/05/28/build-a-save-and-respectful-community-with-answer-1.3.1</id>
+        <link href="https://answer.apache.org/zh-CN/blog/2024/05/28/build-a-save-and-respectful-community-with-answer-1.3.1"/>
+        <updated>2024-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Answer 1.3.1 brings a set of new features and enhancement to make your community a safe place where everyone can express themselves freely.]]></summary>
+        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-05-28-cover@4x-dbe3c00f320d2856d9614006a44257c8.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>Build a thriving community, while making it a safe place for everyone to express themselves freely, is a dream and a challenge. Answer 1.3.1 is here for these two goals.</p>
+<!-- --><p>In this version, we add new tool for admin to define keyword lists to identify and review specific content beforehand, ensuring a safe space for everyone. Users can also mention the admin and moderator in comments of a post to seek response actively. New Captcha plugins are ready to safeguard your community.</p>
+<!-- --><p>Ready to <!-- --><a href="https://answer.apache.org/docs/upgrade" target="_blank" rel="noopener noreferrer">upgrade</a>? Leave us several minutes to dive in.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="whats-new">What’s New<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/28/build-a-save-and-respectful-community-with-answer-1.3.1#whats-new" class="hash-link" aria-label="What’s New的直接链接" title="What’s New的直接链接">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="keyword-censorship-for-secure-communities">Keyword Censorship for Secure Communities<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/28/build-a-save-and-respectful-community-with-answer-1.3.1#keyword-censorship-for-secure-communities" class="hash-link" aria-label="Keyword Censorship for Secure Communities的直接链接" title="Keyword Censorship for Secure Communities的直接链接">​</a></h3>
+<!-- --><p>Apache Answer is for open knowledge exchange and discussion respectfully. Keyword censorship helps achieve this by proactively filtering out offensive, discriminatory, or harassing content. It ensures a platform where everyone feels comfortable expressing themselves freely.
+Here’s how it works.</p>
+<!-- --><ol>
+<!-- --><li>Admin can develop a keyword list of the community to check or filter.</li>
+<!-- --><li>Then, go <!-- --><strong>Admin -&gt; Plugin -&gt; Review Basic</strong> where you can add these keywords in <!-- --><strong>Review</strong> post keywords or <!-- --><strong>Disallowed</strong> post keywords based on your need. One keyword or IP address per line. Scroll and click <!-- --><strong>Save</strong>.<!-- --><br>
+<!-- --><img decoding="async" loading="lazy" alt="Keyword List to Review" src="https://answer.apache.org/zh-CN/assets/images/Keyword%20Censorship-77482069ae99d9bbf6667e201ffbbbdc.png" width="1430" height="730" class="img_WevL"></li>
+<!-- --><li>Content, IP addresses, or browser identifiers that contain any of these words will be sent to the review queue or deleted. It will match the internal words. For example, if "alpha" is not allowed, then "Alphabet" is also not allowed.<!-- --><br>
+<!-- --><img decoding="async" loading="lazy" alt="Review" src="https://answer.apache.org/zh-CN/assets/images/Review-8b3436b74585b49977d2566bf5051c71.png" width="1430" height="692" class="img_WevL"></li>
+<!-- --></ol>
+<!-- --><p>This feature would allow administrators to review or filter out specific words or phrases, potentially creating safe spaces for younger audiences or communities with content restrictions.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="tag-moderators-and-admin-in-comment">Tag Moderators and Admin in Comment<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/28/build-a-save-and-respectful-community-with-answer-1.3.1#tag-moderators-and-admin-in-comment" class="hash-link" aria-label="Tag Moderators and Admin in Comment的直接链接" title="Tag Moderators and Admin in Comment的直接链接">​</a></h2>
+<!-- --><p>Now, you can mention moderator or admin in a comment of a post. As you type the first letter of the moderator or admin's username, a search bar will appear. Select the admin/moderator from the dropdown list for a faster response.</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Mention Moderator and Admins" src="https://answer.apache.org/zh-CN/assets/images/Mention%20Moderators%20and%20Admin-2f578402b5820b04a1e5a4d36329fd44.png" width="1430" height="450" class="img_WevL"></p>
+<!-- --><p>The moderator and admins will receive an email in their email box.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="shining-on-social-platforms">Shining on Social Platforms<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/28/build-a-save-and-respectful-community-with-answer-1.3.1#shining-on-social-platforms" class="hash-link" aria-label="Shining on Social Platforms的直接链接" title="Shining on Social Platforms的直接链接">​</a></h3>
+<!-- --><p>Social media meta tag is on the stage! Let’s make your shared content appears more attractive on social media platforms. Social meta tags use the following defaults:</p>
+<!-- --><ul>
+<!-- --><li>Title: the title of current page</li>
+<!-- --><li>Image: the logo of the site</li>
+<!-- --></ul>
+<!-- --><p>Share it and don’t forget to mention us on <!-- --><a href="https://x.com/AnswerDev" target="_blank" rel="noopener noreferrer">Twitter</a>.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="improvements-and-fixed-bugs">Improvements and Fixed Bugs<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/28/build-a-save-and-respectful-community-with-answer-1.3.1#improvements-and-fixed-bugs" class="hash-link" aria-label="Improvements and Fixed Bugs的直接链接" title="Improvements and Fixed Bugs的直接链接">​</a></h2>
+<!-- --><p>We’ve got new plugins for you: <!-- --><a href="https://github.com/apache/incubator-answer-plugins/tree/main/captcha-basic" target="_blank" rel="noopener noreferrer">Captcha Basic</a> and <!-- --><a href="https://github.com/apache/incubator-answer-plugins/tree/main/captcha-google-v2" target="_blank" rel="noopener noreferrer">Captcha Google V2</a>. These two plugins enable or disable the CAPTCHA feature, allowing users to implement their CAPTCHA plugins, such as Google reCAPTCHA.<!-- --></p>
+<!-- --><p>We also add auto-scroll for posting so that you can jump right to the blank space for you to edit it.
+<!-- --><img decoding="async" loading="lazy" alt="Auto Scroll" src="https://answer.apache.org/zh-CN/assets/images/Auto-Scroll-2806e3723d814356f736759b9fc0a473.gif" width="1200" height="609" class="img_WevL"></p>
+<!-- --><p>Find out more in our <!-- --><a href="https://github.com/apache/incubator-answer/releases/tag/v1.3.1" target="_blank" rel="noopener noreferrer">Release note</a>.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="thanks-to-the-community">Thanks to the Community.<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/28/build-a-save-and-respectful-community-with-answer-1.3.1#thanks-to-the-community" class="hash-link" aria-label="Thanks to the Community.的直接链接" title="Thanks to the Community.的直接链接">​</a></h2>
+<!-- --><p>This version is proudly presented by 8 contributors from the community, and they are:
+<!-- --><a href="https://github.com/kumfo" target="_blank" rel="noopener noreferrer">kumfo</a>, hgaol, <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">LinkinStars</a>, <!-- --><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">robinv8</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">shuaishuai</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a>, <!-- --><a href="https://github.com/zahash" target="_blank" rel="noopener noreferrer">zahash</a>, and <!-- --><a href="https://github.com/prithvidasgupta" target="_blank" rel="noopener noreferrer">prithvidasgupta</a>.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="we-love-feedback">We Love Feedback<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/05/28/build-a-save-and-respectful-community-with-answer-1.3.1#we-love-feedback" class="hash-link" aria-label="We Love Feedback的直接链接" title="We Love Feedback的直接链接">​</a></h2>
+<!-- --><p>We'd love your feedback! Share your thoughts on the latest releases, suggest features you need, or just send us messages. Please don't hesitate to reach out on <!-- --><a href="https://twitter.com/answerdev" target="_blank" rel="noopener noreferrer">X</a>, <!-- --><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>, <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a>, <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Meta Answer</a>, or our <!-- --><a href="https://answer.apache.org/community/support" target="_blank" rel="noopener noreferrer">mailing list</a>.<!-- --></p>]]></content>
+        <author>
+            <name>Anne Zhu</name>
+            <uri>https://github.com/PrimmaAnna</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[大牛导师，万元奖金！Apache Answer 邀你共度开源之夏]]></title>
         <id>https://answer.apache.org/zh-CN/blog/2024/05/09/answer-ospp-2024</id>
@@ -1076,77 +1123,6 @@ Analyzing popular tags helps identify trends in Answer. In Answer, you will see 
 <!-- --><p><img decoding="async" loading="lazy" alt="Analyze Trends" src="https://answer.apache.org/zh-CN/assets/images/AnalyzeTrends-8b216bbbdeef80dd2bf77f66920e16df.png" width="1600" height="898" class="img_WevL"></p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="conclusion">Conclusion<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/11/the-what-why-using-tags-for-online-community#conclusion" class="hash-link" aria-label="Conclusion的直接链接" title="Conclusion的直接链接">​</a></h2>
 <!-- --><p>Use tags to weave a web of content as well as better content management, searchability, and user experience. You can start tagging, and gradually build a tagging system to manage your content efficiently. In Answer, everything about tagging is ready and easy to start. Both users and admins will love it for sure. Start a wonderful content management journey <!-- --><a href="https://answer.apache.org/docs/installation" target="_blank" rel="noopener noreferrer">with Answer</a> from today.<!-- --></p>]]></content>
-        <author>
-            <name>Anne Zhu</name>
-            <uri>https://github.com/PrimmaAnna</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Build a Help Center with Your Users and Answer]]></title>
-        <id>https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer</id>
-        <link href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer"/>
-        <updated>2023-07-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Build a help center with tutorials and tips from Answer, and the best part is with your users in this journey.]]></summary>
-        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2023-07-05-cover@4x-14e7206e69deb4a88610be0d5409ca21.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>You have to admit that, your customers always have and will ask questions even if your product is perfect. Obviously, not every question needs a team to solve, which makes self-service effective (a support team is still needed). That’s what help center comes for: provide the right information, in a right approach, at the right time for your customers.</p>
-<!-- --><p>In today’s blog, we will build a help center from the scratch with a bit of community sprit in Answer.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="whats-a-help-center">What’s a Help Center<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#whats-a-help-center" class="hash-link" aria-label="What’s a Help Center的直接链接" title="What’s a Help Center的直接链接">​</a></h2>
-<!-- --><p>A Help Center serves as a valuable resource for users. It provides customers immediate help by helping them find answers and resolve issues independently.</p>
-<!-- --><p>When building a help center, here are 2 common questions you need to address:</p>
-<!-- --><p><strong>What types of answers or help do users require?</strong>
-<!-- --><strong>How can they always get the answers they require?</strong>
-<!-- --><strong>How can I maintain and run help center efficiently?</strong></p>
-<!-- --><p>No worries, we will resolve these problems one by one and build a help center from the scratch together in the coming part of this blog.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="why-answer-for-a-help-center">Why Answer for a Help Center?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#why-answer-for-a-help-center" class="hash-link" aria-label="Why Answer for a Help Center?的直接链接" title="Why Answer for a Help Center?的直接链接">​</a></h2>
-<!-- --><p>Here’s how a traditional help center works: users come and seek answers, administrators provide answers constantly, and everything goes over again.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Traditional Help Center" src="https://answer.apache.org/zh-CN/assets/images/HowHelpCenterWorks-2c656867ecc3e74a7b2451825bd16f33.png" width="1818" height="874" class="img_WevL"></p>
-<!-- --><p>As the content in the help center becomes abundant, things change. For users, finding the correct answer can be challenging. Similarly, administrators face the pressure of maintaining, and running an effective help center.</p>
-<!-- --><p>However, in Answer, everything is entirely different from traditional help center.
-In Answer, <!-- --><strong>everyone can ask and respond</strong>, creating a mutual way interaction. Every user can ask a question, contribute, vote for an answer, etc. Here, the user is no longer waiting for answers passively, but becomes a part of help center management. This also alleviates the pressure of administrators, allowing them to focus on the roadmap of the help center.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="build-a-help-center-with-answer-tutorials-and-tips">Build a Help Center with Answer (Tutorials and Tips)<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#build-a-help-center-with-answer-tutorials-and-tips" class="hash-link" aria-label="Build a Help Center with Answer (Tutorials and Tips)的直接链接" title="Build a Help Center with Answer (Tutorials and Tips)的直接链接">​</a></h2>
-<!-- --><p>The essence of a help center is to provide the right answer to the problems occurring already, and Answer is born for this. Here’s how, and you’ll know why.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="01-start-with-the-faqs">01. Start with the FAQs<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#01-start-with-the-faqs" class="hash-link" aria-label="01. Start with the FAQs的直接链接" title="01. Start with the FAQs的直接链接">​</a></h3>
-<!-- --><p>It’s hard to immediately categorize questions in the beginning, why not start with the frequently asked questions? It not only makes sure your content is right for the help center, but also solves the most common issues for your customers at the moment.</p>
-<!-- --><p>The best part in Answer is that, as long as you run a support center with it, gradually you’ll get the FAQ at present because your customers have done it for you ;)</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Hot Question in Answer" src="https://answer.apache.org/zh-CN/assets/images/HotQuestion-ef67ffdab6d52bb688402904a7fb9f19.png" width="2400" height="911" class="img_WevL"></p>
-<!-- --><p>You can also <!-- --><a href="https://answer.apache.org/blog/2023/05/11/answer-1.0.9-release#whats-new" target="_blank" rel="noopener noreferrer">Pin recent FAQs</a> for your customers, or add as an additional resource in the sidebar, so that users can get the answer they need right away.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Pin an FAQ in Answer" src="https://answer.apache.org/zh-CN/assets/images/Pin-8e1d1995537cee48a87fcf6ddc0cd39c.png" width="787" height="299" class="img_WevL"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="02-make-content-consistent">02. Make Content Consistent<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#02-make-content-consistent" class="hash-link" aria-label="02. Make Content Consistent的直接链接" title="02. Make Content Consistent的直接链接">​</a></h3>
-<!-- --><p>In Answer, help center is not just about self-service, but also about helping each other. Customers can also write answers to others, then admin and moderator will read and accept the best answers. If the question is answered perfectly in content, but not consistent with your style guide, you can have an admin or moderator to tune and make it looks shining again.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Approved Answer" src="https://answer.apache.org/zh-CN/assets/images/ApprovedAnswer-ba49dc086762005556e29c2257350c19.png" width="2400" height="840" class="img_WevL"></p>
-<!-- --><p>There are tips and notice to assist users deliver a concise question, while keeping the help center neat, such as tips for a clear title, format guidance, tag notes, etc.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Tips and Notice in Answer" src="https://answer.apache.org/zh-CN/assets/images/TipsandNotice-83f10e51e511b10a8da326365d0572d3.png" width="2400" height="1519" class="img_WevL"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="03-organize-categories-with-tags">03. Organize Categories with Tags<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#03-organize-categories-with-tags" class="hash-link" aria-label="03. Organize Categories with Tags的直接链接" title="03. Organize Categories with Tags的直接链接">​</a></h3>
-<!-- --><p>Time to make informative content easy to store and manage. In Answer, you can create new tags freely: add one in the Tag page, or build a new one right after a post.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Categorize with Tags in Answer" src="https://answer.apache.org/zh-CN/assets/images/CategorizewithTags-8715752fa165b3a70fe524f615b6839c.png" width="2262" height="652" class="img_WevL"></p>
-<!-- --><p>Add a description for your users to know what the tag is about, and what content can they find in this tag. Users can click to view all the related information they require. With filter, they can find the content in the way they want.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Tag and Description in Answer" src="https://answer.apache.org/zh-CN/assets/images/TagandDescription-15c31c5f39effe4cee7b277d04f430e0.png" width="2400" height="1128" class="img_WevL"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="04-keep-the-answers-fresh-and-ready">04. Keep the Answers Fresh and Ready<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#04-keep-the-answers-fresh-and-ready" class="hash-link" aria-label="04. Keep the Answers Fresh and Ready的直接链接" title="04. Keep the Answers Fresh and Ready的直接链接">​</a></h3>
-<!-- --><p>Don’t make your help center end up with outdated answers. Though users are actively becoming a part of the community, moderators still need regular review and edit. Keep an eye on product launch, tweaks and updates, and you’ll notice how effective tags can be when updating the content.</p>
-<!-- --><p>When updating or editing a post, use <!-- --><a href="https://answer.apache.org/blog/2023/05/11/answer-1.0.9-release#whats-new" target="_blank" rel="noopener noreferrer">Unlist</a> to hide the post temporarily to avoid misunderstanding.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Unlist a Question in Answer" src="https://answer.apache.org/zh-CN/assets/images/UnlistQuestion-6cdba95a4cd9e2eeeeec25d84c86ee9c.gif" width="1200" height="668" class="img_WevL"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="05-make-sure-users-can-access-answers-easily">05. Make Sure Users Can Access Answers Easily<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#05-make-sure-users-can-access-answers-easily" class="hash-link" aria-label="05. Make Sure Users Can Access Answers Easily的直接链接" title="05. Make Sure Users Can Access Answers Easily的直接链接">​</a></h3>
-<!-- --><p>Answer provides various ways for users to access the content they are searching for. Besides browsing in the help center, users can also get answers in the following ways:</p>
-<!-- --><p><strong>1. Search</strong>
-Users can search for a keyword for an answer, and use a filter to sort the answers they need.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Search in Answer" src="https://answer.apache.org/zh-CN/assets/images/Search-d4acd63f183f16b6baea761c2772bb4d.png" width="2400" height="1646" class="img_WevL"></p>
-<!-- --><p>Answer also provides advanced search tips to boost search efficiency, offering a smooth self-service experience.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Advanced Search Tips" src="https://answer.apache.org/zh-CN/assets/images/AdvancedSearchTips-68bdb464adadd99d49550c5fbc3942d4.png" width="2400" height="1122" class="img_WevL"></p>
-<!-- --><p><strong>2. Click or Follow a Tag</strong>
-Users can click and view all the content under this tag. It’s like a bookshelf in the library where it collects all related books.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/FollowaTag-74eab8ca00e70e0cce690979ed6c1dfe.png" width="1150" height="616" class="img_WevL"></p>
-<!-- --><p><strong>3. Related Questions</strong>
-You’ll find related questions in every post, providing relevant content for users to access easily.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Related Question in Answer" src="https://answer.apache.org/zh-CN/assets/images/RelatedQuestions-ae3bb4517fc4c1347036ef9fb93d6e96.png" width="2400" height="1066" class="img_WevL"></p>
-<!-- --><p><strong>4. Add Additional Resources</strong>
-You can customize Answer freely, such as adding extra information in the sidebar. In <!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/06/15/answer-1.1.0-release">Answer 1.1.0</a>, we support <!-- --><a href="https://github.com/apache/incubator-answer-plugins" target="_blank" rel="noopener noreferrer">plugin</a> and your Answer is about to fly.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Customize Sidebar in Answer" src="https://answer.apache.org/zh-CN/assets/images/Sidebar-4f46b62c8722ee73f80ac1863adb1a5b.png" width="2400" height="1040" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="whats-more">What's More<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#whats-more" class="hash-link" aria-label="What's More的直接链接" title="What's More的直接链接">​</a></h2>
-<!-- --><p>You might also be concerned about having numerous similar questions, which increases the workload for the administrators. Answer got it covered for you. When users fill a title, Answer automatically displays similar questions which are existed in the community. User can click and jump right to that question.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Related Questions" src="https://answer.apache.org/zh-CN/assets/images/RelatedQuestions-ae3bb4517fc4c1347036ef9fb93d6e96.png" width="2400" height="1066" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="its-your-turn-to-build-your-answer-help-center">It’s Your Turn to Build Your Answer Help Center<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#its-your-turn-to-build-your-answer-help-center" class="hash-link" aria-label="It’s Your Turn to Build Your Answer Help Center的直接链接" title="It’s Your Turn to Build Your Answer Help Center的直接链接">​</a></h2>
-<!-- --><p>With the tutorials and tips in this blog, we believe you can now build a help center that your users will love. You are always welcome to check this guide when working on your help center, and we will also keep it updated too. It’s time to kick-start a help center for your product, and here’s a complete <!-- --><a href="https://answer.apache.org/docs/installation" target="_blank" rel="noopener noreferrer">Answer guide</a>.<!-- --></p>
-<!-- --><p><strong>Need Help?</strong>
-We are always <!-- --><a href="https://answer.apache.org/contact" target="_blank" rel="noopener noreferrer">here for you</a> with an Answer.<!-- --></p>]]></content>
         <author>
             <name>Anne Zhu</name>
             <uri>https://github.com/PrimmaAnna</uri>
