@@ -26,7 +26,7 @@ Here’s how it works.
 
 This feature would allow administrators to review or filter out specific words or phrases, potentially creating safe spaces for younger audiences or communities with content restrictions.
 
-## Tag Moderators and Admin in Comment
+### Tag Moderators and Admin in Comment
 Now, you can mention moderator or admin in a comment of a post. As you type the first letter of the moderator or admin's username, a search bar will appear. Select the admin/moderator from the dropdown list for a faster response. 
 
 ![Mention Moderator and Admins](Mention%20Moderators%20and%20Admin.png)
