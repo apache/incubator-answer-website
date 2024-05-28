@@ -51,7 +51,7 @@ Find out more in our [Release note](https://github.com/apache/incubator-answer/r
 
 ## Thanks to the Community.
 This version is proudly presented by 8 contributors from the community, and they are:
-[kumfo](https://github.com/kumfo), hgaol, [LinkinStars](https://github.com/LinkinStars), [robinv8](https://github.com/robinv8), [shuaishuai](https://github.com/shuashuai), [sy-records](https://github.com/sy-records), [zahash](https://github.com/zahash), and [prithvidasgupta](https://github.com/prithvidasgupta).
+[kumfo](https://github.com/kumfo), [hgaol](https://github.com/hgaol), [LinkinStars](https://github.com/LinkinStars), [robinv8](https://github.com/robinv8), [shuaishuai](https://github.com/shuashuai), [sy-records](https://github.com/sy-records), [zahash](https://github.com/zahash), and [prithvidasgupta](https://github.com/prithvidasgupta).
 
 
 ## We Love Feedback
