@@ -19,9 +19,9 @@ We made our debut and announced [2 projects](https://summer-ospp.ac.cn/org/orgde
 ## Hi! This is Apache Answer
 Apache Answer is an open-source Q&A platform software. Launched in October 2022, entered Apache Software Foundation in 2023, Apache Answer has received over 400 PRs, 60,000+ downloads, and carried an average monthly release. In January 2024, we’ve achieved 10,000 GitHub Stars. 
 
-Find out more about us with the links below:
-[Homepage](https://answer.dev/)
-[GitHub](https://github.com/apache/incubator-answer)
+Find out more about us with the links below:      
+[Homepage](https://answer.dev/)     
+[GitHub](https://github.com/apache/incubator-answer)        
 [Blog: Why Open Source Matters to Answer](https://answer.apache.org/blog/2023/05/23/why-open-source-is-the-essence-of-answer)
 
 ## Our Projects for OSPP 2024
