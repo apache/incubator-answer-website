@@ -13,7 +13,7 @@ From 1.0 to 1.1.0, it's not just a stack-up of numbers, but a step forward for y
 
 ## Plugin: The New Wings to Your Answer
 ![Answer Supports Plugin](1.1.0release1.png)
-The most notable in this update is **the support of Plugin**. From small tweaks to big changes, you can make it happen in Answer. Read the documentation of Plugin [here](https://answer.dev/docs/plugins) before bust a move.
+The most notable in this update is **the support of Plugin**. From small tweaks to big changes, you can make it happen in Answer. Read the documentation of Plugin [here](https://answer.apache.org/docs/plugins) before bust a move.
 
 A quick example is to embrace a simplified and efficient user authentication experience with the plugin's OAuth capabilities for your Answer. Now, your community members can sign up or log in with existing accounts from social media platforms. For adding other log-in options, admin can go **Admin\>Plugins\>OAuth2Basic**, then fill in the necessary information in **OAuth2Basic**.
 
@@ -36,7 +36,7 @@ Customize the sidebar based on your needs. Add new tabs linked to related source
 Unlock collective wisdom and collaboration for your Answer. Invite someone you know who possess the expertise or insights of the question to share with the community. 
 
 
-Before officially sending an invitation to an expert, you’ll have to earn reputation scores first. In Answer, we’ve automated the [reputation system](https://answer.dev/docs/recipes/contents/reputation/) to maintain community ecology. Reputation reflects your contribution to the community. By earning more reputation score, you’ll [unlock more features](https://answer.dev/docs/recipes/contents/permission) in Answer.
+Before officially sending an invitation to an expert, you’ll have to earn reputation scores first. In Answer, we’ve automated the [reputation system](https://answer.apache.org/docs/reputation) to maintain community ecology. Reputation reflects your contribution to the community. By earning more reputation score, you’ll [unlock more features](https://answer.apache.org/docs/permission) in Answer.
 
 For admins, you can always choose the right reputation level for your community at **Admin\>Settings\>Privileges**. 
 ![Privileges Settings for Admin in Answer](1.1.0release7.png)
