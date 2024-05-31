@@ -7,7 +7,7 @@ import HeaderSlogan from '../components/HeaderSlogan';
 
 
 export default function Plugins(): JSX.Element {
-  let item: string = "1.3.1"
+  let item = "1.3.1";
   let table:JSX.Element = () => {
   };
   return (
