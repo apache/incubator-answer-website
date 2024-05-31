@@ -86,7 +86,7 @@ export default function Plugins(): JSX.Element {
         </table>
         <div className='mt-5'>
           <h3>All Archived Releases</h3>
-          <p>For older releases, please check the <a href="https://archive.apache.org/dist/incubator/answer/">archive</a>.</p>
+          <p>For older releases, please check the <a target="_blank" rel="noopener noreferrer" href="https://archive.apache.org/dist/incubator/answer/">archive</a>.</p>
         </div>
         <div className='mt-5'>
           <h3>Release Integrity</h3>
