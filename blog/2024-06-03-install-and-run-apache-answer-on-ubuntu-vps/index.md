@@ -1,6 +1,6 @@
 ---
 title: "Install and Run Apache Answer on Ubuntu VPS"
-category: Tutorial
+category: Tutorials
 featured: false
 image: 2024-06-03-cover@4x.png
 description: "This article provides a guide for how to install and run Apache Answer on Ubuntu VPS."
