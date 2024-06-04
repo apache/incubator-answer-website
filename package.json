@@ -16,7 +16,8 @@
     "write:zh": "docusaurus write-translations --locale zh-CN",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "crowdin": "crowdin"
+    "crowdin": "crowdin",
+    "contributors": "node ./scripts/contributor.js"
   },
   "dependencies": {
     "-": "^0.0.1",
