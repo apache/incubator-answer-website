@@ -39,7 +39,9 @@ async function getCrowdinContributors(token) {
       name: contributor.data.username,
       github: `https://crowdin.com/profile/${contributor.data.username}`,
       avatar: contributor.data.avatarUrl
-    })));
+    }))).sort(function(a, b) {
+      return a.name.localeCompare(b.name);
+    });;
   }
 
   // Deduplicate contributors
