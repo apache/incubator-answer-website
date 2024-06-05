@@ -25,19 +25,24 @@ export default function Plugins(): JSX.Element {
           <Translate
             id="plugins.instruction"
             values={{
-              submit_link: (
-                <a href="https://github.com/apache/incubator-answer-plugins" target='_blank'>
-                  <Translate id="plugins.instruction.submit">submit a plugin</Translate>
+              install_plugin_link: (
+                <a href="/docs/plugins">
+                  <Translate id="plugins.instruction.install">Install plugins</Translate>
                 </a>
               ),
-              community_link: (
-                <a href="https://meta.answer.dev/" target='_blank'>
-                  <Translate id="plugins.instruction.join">join our community</Translate>
+              create_link: (
+                <a href="/community/plugins">
+                  <Translate id="plugins.instruction.create">Create a plugin</Translate>
+                </a>
+              ),
+              submit_link: (
+                <a href="https://github.com/apache/incubator-answer-plugins" target='_blank'>
+                  <Translate id="plugins.instruction.submit">Submit a plugin</Translate>
                 </a>
               )
             }}
             >
-            {`Built by the community, for the community. Everyone can {submit_link} to Apache Answer. Need help building yours? Join the {community_link}.`}
+            {`{install_plugin_link} · {create_link} · {submit_link}`}
           </Translate>
           </div>
 

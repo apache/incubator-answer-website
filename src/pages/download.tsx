@@ -32,7 +32,7 @@ export default function Plugins(): JSX.Element {
               <td>{item}</td>
               <td>2024-05-27</td>
               <td>
-                <ul className='list-unstyled'>
+                <ul className='list-unstyled mb-0'>
                   <li>
                     <a
             href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-src.tar.gz`}
