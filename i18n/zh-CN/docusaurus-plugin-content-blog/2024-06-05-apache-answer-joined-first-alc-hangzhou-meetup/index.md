@@ -16,23 +16,23 @@ Apache Answer PPMC 成员江波发表开场致辞。她讲述了第一次参加 
 
 今年，ALC Hangzhou 的成立，标志着杭州在开源社区发展中迈出了坚实的一步。与此同时，2024 年的 CommunityOverCode Asia 也将于 7 月 26 日至 7 月 28 日在杭州举办。ALC Hangzhou 的成立和 CommunityOverCode Asia 2024 的举办将进一步推动开源技术的发展和开源社区成长，促进技术人才交流与合作。
 
-![Alt text](../../i18n/zh-CN/docusaurus-plugin-content-blog/2024-06-05-apache-answer-joined-first-alc-hangzhou-meetup/Nadia%20Open%20Remarks.jpeg)
+![Alt text](Nadia%20Open%20Remarks.jpeg)
 
 随后，Apache Answer PPMC 成员祁宁向大家介绍了 Answer 项目的背景故事、发展现状、和愿景，呼吁更多的贡献者加入到 Answer 社区中，一起打造一个更加强大的生态系统。
 
 来自世界各地的贡献者是 Answer 的社区中坚实的力量。目前，Answer 社区由核心贡献者 59 名，翻译贡献者 122 名，网站贡献者 12 名，插件贡献者 12 名组成，以每月一个版本的节奏，一同打造更好的问答平台软件。
 
-![Alt text](../../i18n/zh-CN/docusaurus-plugin-content-blog/2024-06-05-apache-answer-joined-first-alc-hangzhou-meetup/Joyqi.jpeg)
+![Alt text](Joyqi.jpeg)
 
 最后的自由交流环节给大家留下了较为深刻的印象，项目组成员就项目中遇到的问题，如何毕业，以及如何吸引更多的贡献者等问题向较为成熟的项目和社区进行提问，收获了宝贵的经验。
 
 活动现场还设置了项目展板，帮助 Apache 项目开发者了解其他项目。与会者也可以在展板上贴纸为喜欢的项目点赞。
 
-![Alt text](../../i18n/zh-CN/docusaurus-plugin-content-blog/2024-06-05-apache-answer-joined-first-alc-hangzhou-meetup/Fen.jpeg)
+![Alt text](Fen.jpeg)
 
 通过这次活动，Answer PPMC 成员不仅认识了其他在邮件列表上的小伙伴，也学习和交流了各自开源过程和开源社区运营的经验。Answer PPMC 成员 LinkinStars 表示，对于浙江大学软件学院副教授倪超分享的开源合作平台正式上线充满期待，这将会是高校和开源之间的一座桥梁，他也期待有更多的开源组织加入进来。
 
-![Alt text](../../i18n/zh-CN/docusaurus-plugin-content-blog/2024-06-05-apache-answer-joined-first-alc-hangzhou-meetup/Open%20Discussion.jpeg)
+![Alt text](Open%20Discussion.jpeg)
 
 ALC Hangzhou 的意义不止于技术交流。在 ALC Hangzhou 的发起人刘军看来，“在这样的聚会里我们不仅可以讨论技术，探讨项目合作的可能；大家也可以聊聊开源以外的话题——分享自己的生活”。
 
