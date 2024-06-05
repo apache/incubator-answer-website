@@ -43,13 +43,14 @@
 <!-- --><p>只要你认同 Apache Way 并乐于和开源社区一起协作小伙伴都可以参与进来！具体的方式如下：</p>
 <!-- --><ol>
 <!-- --><li>参与 ALC Hangzhou 的活动<!-- --><br>
-<!-- -->大家可以通过关注 ALC Hangzhou 公众号[^1]和官网[^2]获取最新的活动信息，并参加 ALC Hangzhou 的线上线下活动。<!-- --></li>
+<!-- -->大家可以通过关注 ALC Hangzhou 公众号<!-- --><sup><a href="https://answer.apache.org/zh-CN/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#ref1">[1]</a></sup>和官网<!-- --><sup><a href="https://answer.apache.org/zh-CN/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#ref2">[2]</a></sup>获取最新的活动信息，并参加 ALC Hangzhou 的线上线下活动。<!-- --></li>
 <!-- --><li>成为 ALC Hangzhou 成员
-ALC Hangzhou 作为一个公益组织，需要志愿者来帮助协调和组织活动。志愿者加入的原则和Apache软件基金的其他项目发展 Committer 以及 PMC 成员的方式一样, 基于大家在社区中的贡献，采用投票邀请方式进行。[^3]</li>
+ALC Hangzhou 作为一个公益组织，需要志愿者来帮助协调和组织活动。志愿者加入的原则和Apache软件基金的其他项目发展 Committer 以及 PMC 成员的方式一样, 基于大家在社区中的贡献，采用投票邀请方式进行。<!-- --><sup><a href="https://answer.apache.org/zh-CN/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#ref3">[3]</a></sup></li>
 <!-- --></ol>
-<!-- --><p>[^1] 微信公众号ID：alc_hangzhou<!-- --><br>
-<!-- -->[^2] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou</a><br>
-<!-- -->[^3] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter</a></p>]]></content:encoded>
+<!-- --><h4 class="anchor anchorWithStickyNavbar_pwhL" id="引用链接">引用链接<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#%E5%BC%95%E7%94%A8%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="引用链接的直接链接" title="引用链接的直接链接">​</a></h4>
+<!-- --><p><span id="ref1"> [1] 微信公众号ID：alc_hangzhou </span><br>
+<!-- --><span id="ref2"> [2] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou</a> <!-- --></span><br>
+<!-- --><span id="ref3"> [3] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter</a> <!-- --></span></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Install and Run Apache Answer on Ubuntu VPS]]></title>

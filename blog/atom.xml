@@ -29,7 +29,7 @@
 <!-- --><p><img decoding="async" loading="lazy" alt="Open Discussion" src="https://answer.apache.org/assets/images/Open%20Discussion-ff326fa19f73b2aafec8cab4ffa1bd21.jpeg" width="1280" height="853" class="img_WevL"></p>
 <!-- --><p>ALC Hangzhou is more than a platform for technical discussion. As Jun Liu, the initiator of ALC Hangzhou, said, “The meetup goes beyond open-source technology and potential collaborations. It offers a space for casual topics, like sharing personal experience or stories.”</p>
 <!-- --><p>We encourage more open-source enthusiasts to join ALC Hangzhou. Answer will keep supporting and participating in future ALC Hangzhou events.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="about-apache-local-community-alc-1">About Apache Local Community (ALC) [^1]<!-- --><a href="https://answer.apache.org/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#about-apache-local-community-alc-1" class="hash-link" aria-label="Direct link to About Apache Local Community (ALC) [^1]" title="Direct link to About Apache Local Community (ALC) [^1]">​</a></h2>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="about-apache-local-community-alc-1">About Apache Local Community (ALC) <!-- --><sup><a href="https://answer.apache.org/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#ref1">[1]</a></sup><a href="https://answer.apache.org/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#about-apache-local-community-alc-1" class="hash-link" aria-label="Direct link to about-apache-local-community-alc-1" title="Direct link to about-apache-local-community-alc-1">​</a></h2>
 <!-- --><p>ALC comprises local groups of Apache (Open Source) enthusiasts, called an 'ALC Chapter'. There will be a single ALC chapter per town/city.</p>
 <!-- --><p>ALC is similar to <!-- --><a href="https://developers.google.com/programs/community/gdg/" target="_blank" rel="noopener noreferrer">Google Developer Group</a>, <!-- --><a href="https://developers.facebook.com/developercircles/" target="_blank" rel="noopener noreferrer">Facebook Developer Circles</a>, <!-- --><a href="https://reps.mozilla.org/about/" target="_blank" rel="noopener noreferrer">Mozilla Reps</a>.<!-- --></p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="about-alc-hangzhou">About ALC Hangzhou<!-- --><a href="https://answer.apache.org/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#about-alc-hangzhou" class="hash-link" aria-label="Direct link to About ALC Hangzhou" title="Direct link to About ALC Hangzhou">​</a></h2>
@@ -45,18 +45,18 @@
 <!-- --><ol>
 <!-- --><li>
 <!-- --><p>Join ALC Hangzhou Events<!-- --><br>
-<!-- -->Stay updated on upcoming events by following ALC Hangzhou's WeChat public account [^2] and official website [^3]. Participate in both online and offline gatherings organized by ALC Hangzhou.<!-- --></p>
+<!-- -->Stay updated on upcoming events by following ALC Hangzhou's WeChat public account <!-- --><sup><a href="https://answer.apache.org/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#ref2">[2]</a></sup> and official website <!-- --><sup><a href="https://answer.apache.org/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#ref3">[3]</a></sup>. Participate in both online and offline gatherings organized by ALC Hangzhou.<!-- --></p>
 <!-- --></li>
 <!-- --><li>
 <!-- --><p>Become an ALC Hangzhou Member<!-- --><br>
-<!-- -->As a non-profit organization, ALC Hangzhou needs volunteers to assist with event coordination and organization. The principles for becoming an ALC Hangzhou volunteer are similar to those for Committer and PMC members in other Apache Software Foundation projects. The selection is based on individual contributions to the community and involves a voting process [^4].<!-- --></p>
+<!-- -->As a non-profit organization, ALC Hangzhou needs volunteers to assist with event coordination and organization. The principles for becoming an ALC Hangzhou volunteer are similar to those for Committer and PMC members in other Apache Software Foundation projects. The selection is based on individual contributions to the community and involves a voting process <!-- --><sup><a href="https://answer.apache.org/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#ref4">[4]</a></sup>.<!-- --></p>
 <!-- --></li>
 <!-- --></ol>
-<!-- --><p>Reference<!-- --><br>
-<!-- -->[^1] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC</a><br>
-<!-- -->[^2] WeChat Public Account：alc_hangzhou<!-- --><br>
-<!-- -->[^3] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou</a><br>
-<!-- -->[^4] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter</a></p>]]></content>
+<!-- --><p>Reference</p>
+<!-- --><p id="ref1">[1] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC</a> <!-- --></p>
+<!-- --><p id="ref2">[2] WeChat Public Account：alc_hangzhou </p>
+<!-- --><p id="ref3">[3] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou</a></p>
+<!-- --><p id="ref4">[4] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter</a></p>]]></content>
         <author>
             <name>Anne Zhu</name>
             <uri>https://github.com/PrimmaAnna</uri>
