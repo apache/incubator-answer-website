@@ -40,7 +40,7 @@ ALC Hangzhou is more than a platform for technical discussion. As Jun Liu, the i
 
 We encourage more open-source enthusiasts to join ALC Hangzhou. Answer will keep supporting and participating in future ALC Hangzhou events.
 
-## About Apache Local Community (ALC) [^1]
+## About Apache Local Community (ALC) <sup><a href="#ref1">[1]</a></sup>
 ALC comprises local groups of Apache (Open Source) enthusiasts, called an 'ALC Chapter'. There will be a single ALC chapter per town/city.
 
 ALC is similar to [Google Developer Group](https://developers.google.com/programs/community/gdg/), [Facebook Developer Circles](https://developers.facebook.com/developercircles/), [Mozilla Reps](https://reps.mozilla.org/about/).
@@ -56,13 +56,14 @@ ALC Hangzhou is dedicated to helping open-source enthusiasts thrive in Apache Co
 ## Joining ALC Hangzhou
 ALC Hangzhou is open to every open-source enthusiast who align with the Apache Way and love open collaboration. Here are the ways to get involve:
 1. Join ALC Hangzhou Events   
-	Stay updated on upcoming events by following ALC Hangzhou's WeChat public account [^2] and official website [^3]. Participate in both online and offline gatherings organized by ALC Hangzhou.
+	Stay updated on upcoming events by following ALC Hangzhou's WeChat public account <sup><a href="#ref2">[2]</a></sup> and official website <sup><a href="#ref3">[3]</a></sup>. Participate in both online and offline gatherings organized by ALC Hangzhou.
 
 2. Become an ALC Hangzhou Member   
-	As a non-profit organization, ALC Hangzhou needs volunteers to assist with event coordination and organization. The principles for becoming an ALC Hangzhou volunteer are similar to those for Committer and PMC members in other Apache Software Foundation projects. The selection is based on individual contributions to the community and involves a voting process [^4].
+	As a non-profit organization, ALC Hangzhou needs volunteers to assist with event coordination and organization. The principles for becoming an ALC Hangzhou volunteer are similar to those for Committer and PMC members in other Apache Software Foundation projects. The selection is based on individual contributions to the community and involves a voting process <sup><a href="#ref4">[4]</a></sup>.
 
 Reference        
-[^1] https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC     
-[^2] WeChat Public Account：alc_hangzhou    
-[^3] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou      
-[^4] https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter
+
+<p id="ref1">[1] https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC </p> 
+<p id="ref2">[2] WeChat Public Account：alc_hangzhou </p>
+<p id="ref3">[3] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou</p>
+<p id="ref4">[4] https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter</p>
