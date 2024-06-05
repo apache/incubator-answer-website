@@ -22,7 +22,7 @@ The establishment of the Apache Local Community Hangzhou (ALC Hangzhou) and the 
 
 Following the opening remarks, Apache Answer PPMC member Joyqi presented Answer to the attendees and encouraged contributors to join Answer community for building a powerful ecosystem. 
 
-Community is the driving force for Answer. Toady, Answer’s community gathers 59 core contributors, 122 translation contributors, 12 website contributors, and 12 plugin contributors. They follow a monthly release cycle and push the boundary of Answer every day. 
+Community is the driving force for Answer. Today, Answer’s community gathers 59 core contributors, 122 translation contributors, 12 website contributors, and 12 plugin contributors. They follow a monthly release cycle and push the boundary of Answer every day. 
 
 ![Joyqi introduced Apache Answer to more participants](Joyqi.jpeg)
 
