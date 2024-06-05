@@ -4,10 +4,53 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/zh-CN/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Mon, 03 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
+        <item>
+            <title><![CDATA[Apache Answer 参与首次 ALC Hangzhou 线下聚会]]></title>
+            <link>https://answer.apache.org/zh-CN/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup</link>
+            <guid>https://answer.apache.org/zh-CN/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Answer 作为 ALC Hangzhou 初始成员受邀参加首次线下聚会，和多个 Apache 项目进行分享和交流。]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-06-05-cover@4x-08ac825f26a9a5a3df1e1a941a193dc6.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>5 月 28 日，Apache Local Community Hangzhou (ALC Hangzhou) 首次线下聚会顺利举办。Apache Answer 作为 ALC Hangzhou 初始成员受邀参加。Answer 大部分 PPMC 成员均参加了活动，其中 PPMC 成员祁宁介绍了社区 Roadmap，并就社区运营、开源社区开发者贡献量等话题分享了 Answer 的最新实践成果。</p>
+<!-- --><p>此外，Apache Dubbo、Apache RocketMQ、Apache Flink、Apache Paimon、Apache Fury、Apache Celeborn、Apache HoraeDB 等社区的 PMC Member、核心 Committer、浙江大学软件学院副教授倪超等专家均出席了活动。</p>
+<!-- --><p>Apache Answer PPMC 成员江波发表开场致辞。她讲述了第一次参加 ALC Beijing 线下聚会的难忘经历，并分享了她参与组织首届 CommunityOverCode Asia（原 ApacheCon Asia）大会的宝贵经验。</p>
+<!-- --><p>今年，ALC Hangzhou 的成立，标志着杭州在开源社区发展中迈出了坚实的一步。与此同时，2024 年的 CommunityOverCode Asia 也将于 7 月 26 日至 7 月 28 日在杭州举办。ALC Hangzhou 的成立和 CommunityOverCode Asia 2024 的举办将进一步推动开源技术的发展和开源社区成长，促进技术人才交流与合作。</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/Nadia%20Open%20Remarks-43800cd84cd50bc496f95dfd0a6498e0.jpeg" width="1280" height="853" class="img_WevL"></p>
+<!-- --><p>随后，Apache Answer PPMC 成员祁宁向大家介绍了 Answer 项目的背景故事、发展现状、和愿景，呼吁更多的贡献者加入到 Answer 社区中，一起打造一个更加强大的生态系统。</p>
+<!-- --><p>来自世界各地的贡献者是 Answer 的社区中坚实的力量。目前，Answer 社区由核心贡献者 59 名，翻译贡献者 122 名，网站贡献者 12 名，插件贡献者 12 名组成，以每月一个版本的节奏，一同打造更好的问答平台软件。</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/Joyqi-230c15bac13d74b91f7071e0ca88b8e0.jpeg" width="1280" height="853" class="img_WevL"></p>
+<!-- --><p>最后的自由交流环节给大家留下了较为深刻的印象，项目组成员就项目中遇到的问题，如何毕业，以及如何吸引更多的贡献者等问题向较为成熟的项目和社区进行提问，收获了宝贵的经验。</p>
+<!-- --><p>活动现场还设置了项目展板，帮助 Apache 项目开发者了解其他项目。与会者也可以在展板上贴纸为喜欢的项目点赞。</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/Fen-be222c5dc54ebdec295445bff4cc658e.jpeg" width="1280" height="853" class="img_WevL"></p>
+<!-- --><p>通过这次活动，Answer PPMC 成员不仅认识了其他在邮件列表上的小伙伴，也学习和交流了各自开源过程和开源社区运营的经验。Answer PPMC 成员 LinkinStars 表示，对于浙江大学软件学院副教授倪超分享的开源合作平台正式上线充满期待，这将会是高校和开源之间的一座桥梁，他也期待有更多的开源组织加入进来。</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/Open%20Discussion-ff326fa19f73b2aafec8cab4ffa1bd21.jpeg" width="1280" height="853" class="img_WevL"></p>
+<!-- --><p>ALC Hangzhou 的意义不止于技术交流。在 ALC Hangzhou 的发起人刘军看来，“在这样的聚会里我们不仅可以讨论技术，探讨项目合作的可能；大家也可以聊聊开源以外的话题——分享自己的生活”。</p>
+<!-- --><p>我们期待有更多开源爱好者加入 ALC Hangzhou， 一起为开源做出更大的贡献，Answer 会持续关注和参与到后续 ALC Hangzhou 的活动当中。</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="什么是-alc">什么是 ALC<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#%E4%BB%80%E4%B9%88%E6%98%AF-alc" class="hash-link" aria-label="什么是 ALC的直接链接" title="什么是 ALC的直接链接">​</a></h2>
+<!-- --><p>ALC 是 Apache Local Community 的缩写，是全世界范围的 Apache 开源爱好者本地群组。因为是本地组织，ALC 是按照城市或地区的方式进行划分的，类似的机构还有 GDG (Google Developer Group), Facebook Developer Circles, Mozilla Reps 等。任何 Apache 开源爱好者都可以代表自己所在的城市向 ALC 提出申请创建本地的组织。</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="关于-alc-hangzhou">关于 ALC Hangzhou<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#%E5%85%B3%E4%BA%8E-alc-hangzhou" class="hash-link" aria-label="关于 ALC Hangzhou的直接链接" title="关于 ALC Hangzhou的直接链接">​</a></h2>
+<!-- --><p>ALC Hangzhou 将致力于通过（但不限于）下述行动帮助开源爱好者更好的在 Apache 社区生根发芽：</p>
+<!-- --><ul>
+<!-- --><li>举办线上和线下沙龙，将本地的开发者与用户聚焦在一起。</li>
+<!-- --><li>通过分享开源开发经验，鼓励更多的人参与到 ASF 的项目开发中来。</li>
+<!-- --><li>为 ASF 的项目寻找相互合作的机会，让这些项目能够更加茁壮地成长。</li>
+<!-- --><li>介绍 ASF 管理和运作开源项目的成功之道，帮助大家更好地运作开源项目。</li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="如何加入">如何加入<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup#%E5%A6%82%E4%BD%95%E5%8A%A0%E5%85%A5" class="hash-link" aria-label="如何加入的直接链接" title="如何加入的直接链接">​</a></h2>
+<!-- --><p>只要你认同 Apache Way 并乐于和开源社区一起协作小伙伴都可以参与进来！具体的方式如下：</p>
+<!-- --><ol>
+<!-- --><li>参与 ALC Hangzhou 的活动<!-- --><br>
+<!-- -->大家可以通过关注 ALC Hangzhou 公众号[^1]和官网[^2]获取最新的活动信息，并参加 ALC Hangzhou 的线上线下活动。<!-- --></li>
+<!-- --><li>成为 ALC Hangzhou 成员
+ALC Hangzhou 作为一个公益组织，需要志愿者来帮助协调和组织活动。志愿者加入的原则和Apache软件基金的其他项目发展 Committer 以及 PMC 成员的方式一样, 基于大家在社区中的贡献，采用投票邀请方式进行。[^3]</li>
+<!-- --></ol>
+<!-- --><p>[^1] 微信公众号ID：alc_hangzhou<!-- --><br>
+<!-- -->[^2] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou</a><br>
+<!-- -->[^3] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Install and Run Apache Answer on Ubuntu VPS]]></title>
             <link>https://answer.apache.org/zh-CN/blog/2024/06/03/install-and-run-apache-answer-on-ubuntu-vps</link>
@@ -1032,41 +1075,6 @@ Using <!-- --><a href="https://github.com/caddyserver/xcaddy/" target="_blank" r
 We discussed the motivation behind the design, and the features and principles of the plugin system, and provided a step-by-step guide on implementation.
 If you are interested in developing plugins for Answer, please feel free to leave us a comment.
 We will also write an article on how to implement an Answer plugin from scratch, so stay focused!</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[How to Utilize Reputation and Privilege in Online Community]]></title>
-            <link>https://answer.apache.org/zh-CN/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community</link>
-            <guid>https://answer.apache.org/zh-CN/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community</guid>
-            <pubDate>Wed, 19 Jul 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Meet Answer’s reputation and privilege systems and automate them for efficient community content management. ]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2023-07-19-cover@4x-fb5729f0eb278096e3485b69538e36e0.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>Reputation score is a reflection of a community member’s credibility. Community members establish this based on their actions and contributions. Simultaneously, a reputation system is formed to track participants' trustworthiness, credibility, and behavior.</p>
-<!-- --><p>Besides <!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/11/the-what-why-using-tags-for-online-community">tagging</a>, <!-- --><a href="https://answer.apache.org/docs/recipes/contents/reputation" target="_blank" rel="noopener noreferrer">reputation</a> is an important part of <!-- --><strong>content management</strong> in Answer. Community members gain reputation scores by adhering to community guidelines and continuous contributions. Community moderators and administrators use reputation scores to determine user privileges. This helps run and maintain a healthy community environment and discourages disruptive behavior.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="purposes-of-reputation">Purposes of Reputation<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community#purposes-of-reputation" class="hash-link" aria-label="Purposes of Reputation的直接链接" title="Purposes of Reputation的直接链接">​</a></h2>
-<!-- --><p>In the mid-1900s, eBay introduced a feedback system, allowing buyers and sellers to rate each other based on transaction experience. This feedback mechanism, which influenced the reputation of users, helped build trust within the <!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/05/12/what-is-q-and-a-platform-and-how-to-use-it">Q&amp;A platform</a>.<!-- --></p>
-<!-- --><p>You can still find this mechanism running in Answer — community members upvote question or answer, accept answer, etc. Find out how we implement it for different purposes for a thriving online community.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="ways-to-implement-reputation-system-in-answer">Ways to Implement Reputation System in Answer<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community#ways-to-implement-reputation-system-in-answer" class="hash-link" aria-label="Ways to Implement Reputation System in Answer的直接链接" title="Ways to Implement Reputation System in Answer的直接链接">​</a></h2>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="1-trust-building">1. Trust Building<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community#1-trust-building" class="hash-link" aria-label="1. Trust Building的直接链接" title="1. Trust Building的直接链接">​</a></h3>
-<!-- --><p>A positive reputation indicates credibility, reliability, and expertise. In Answer, you can always find a reputation score next to the name, providing an initial impression of the community member.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Reputation Score Next to Community Member in Answer" src="https://answer.apache.org/zh-CN/assets/images/TrustBuilding1-66ed75f7774a5c9af90a94a083682548.png" width="800" height="270" class="img_WevL"></p>
-<!-- --><p>Click the name and jump to a community member’s profile page, where it includes reputation and related contributions.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Community Member Profile in Answer" src="https://answer.apache.org/zh-CN/assets/images/TrustBuilding2-0017ddc6b3f69669288f2ba37d50fcbc.png" width="800" height="466" class="img_WevL"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="2-rewards-and-penalties">2. Rewards and Penalties<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community#2-rewards-and-penalties" class="hash-link" aria-label="2. Rewards and Penalties的直接链接" title="2. Rewards and Penalties的直接链接">​</a></h3>
-<!-- --><p>Answer appreciate and encourage positive contributions, such as providing helpful answers, valuable content, upvote useful answers. Meanwhile, negative actions like downvote, spamming or abusive behavior can result in reputation penalties.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Reputation Rules in Answer" src="https://answer.apache.org/zh-CN/assets/images/RewardsandPenalties-448faa7639ffacbc69e7d31536074486.png" width="800" height="1022" class="img_WevL"></p>
-<!-- --><p>Click <!-- --><a href="https://answer.apache.org/docs/recipes/contents/reputation" target="_blank" rel="noopener noreferrer">here</a> for Answer's complete reputation rules that might inspire you.<!-- --></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="3-moderation-and-governance">3. Moderation and Governance<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community#3-moderation-and-governance" class="hash-link" aria-label="3. Moderation and Governance的直接链接" title="3. Moderation and Governance的直接链接">​</a></h3>
-<!-- --><p>After activation in Answer, community members will gain 1 reputation score, and are allowed to participate in general activities in the community, such as asking questions, writing answers, upvote comment, etc. Reputation scores are also used by community moderators and administrators to determine user <!-- --><a href="https://answer.apache.org/docs/recipes/contents/permission" target="_blank" rel="noopener noreferrer">privileges</a>, such as posting more than 2 links at a time, creating a new tag, etc.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Add a New Tag in Answer" src="https://answer.apache.org/zh-CN/assets/images/AddaNewTag-5e3da1b56a31322d02f0c190193de33c.png" width="800" height="414" class="img_WevL"></p>
-<!-- --><p>In Answer, you’ll need 125 reputation scores to downvote, while downvote someone’s answer will reduce one reputation score. This prevents malicious downvoting and boosts answers through intentional others’ answers. This helps maintain a healthy community environment and discourage disruptive behavior.</p>
-<!-- --><p>The scale of communities is different, so is the reputation system. We’ve prepared 3 different privilege levels for teams at different scales.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Levels of Privileges in Answer" src="https://answer.apache.org/zh-CN/assets/images/LevelsofPrivileges-1eeb224a1bb483a8b211f219372c4291.png" width="800" height="871" class="img_WevL"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="4-community-engagement">4. Community Engagement<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community#4-community-engagement" class="hash-link" aria-label="4. Community Engagement的直接链接" title="4. Community Engagement的直接链接">​</a></h3>
-<!-- --><p>The reputation system allows community members to actively engage in the community. They can share expertise, contribute to discussions, and vote for better answers, fostering a positive and collaborative environment.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="conclusion">Conclusion<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community#conclusion" class="hash-link" aria-label="Conclusion的直接链接" title="Conclusion的直接链接">​</a></h2>
-<!-- --><p>Reputation in an online community is a reflection of a user’s contributions, engagement, and commitment to the community. We know the reputation system is dynamic, and it’s hard to build one from the ground, that’s why we’ve already got a complete <!-- --><a href="https://answer.apache.org/docs/recipes/contents/reputation" target="_blank" rel="noopener noreferrer">reputation</a> and <!-- --><a href="https://answer.apache.org/docs/recipes/contents/permission" target="_blank" rel="noopener noreferrer">permission</a> rules for you, and it runs perfectly fine in our <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">official community</a>.<!-- --></p>
-<!-- --><p>By the time you <!-- --><a href="https://answer.apache.org/docs/installation" target="_blank" rel="noopener noreferrer">install</a> Answer successfully, the reputation system is already there. All you need to do is to choose the right reputation level for your community in the Admin page.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Chose Privileges Level in Answer Admin" src="https://answer.apache.org/zh-CN/assets/images/PrivilegesLevel-ec1201d55c5c3f1adda4abcc09cf7c3e.png" width="800" height="329" class="img_WevL"></p>
-<!-- --><p>By automating this reputation system, your members are encouraged to share and become a significant part of the community. <!-- --><a href="https://answer.apache.org/docs/" target="_blank" rel="noopener noreferrer">Start Answer</a> now and shape the growth of the community along with other like-minded community members.<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
