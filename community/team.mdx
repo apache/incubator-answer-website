@@ -53,6 +53,7 @@ Committers have read-write access to the code repository, signed the CLA, and us
 
 Becoming a contributor means you are interested in and contribute to the project, not just code. In Answer, there are ways of contribution, and you can find out more [here](/community/contributing). As long as you contribute to the Answer project, you are a recognized Answer Contributor. If you become a valuable contributor to the project, the Project Management Committee (PMC) may invite you to become a Committer.
 
+### Code
 <div className="row mb-3">
   {
     UserData[2].users.map(u => {
@@ -64,6 +65,21 @@ Becoming a contributor means you are interested in and contribute to the project
     })
   }
 </div>
+
+### Translation
+
+<div className="row mb-3">
+  {
+    UserData[3].users.map(u => {
+      return (
+        <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-1">
+          <a href={u.github} target="_blank">{u.name}</a>
+        </div>
+      )
+    })
+  }
+</div>
+
 
 You can find all the code contributors on and translation contributors on these pages:
 

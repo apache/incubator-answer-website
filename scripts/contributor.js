@@ -1,3 +1,5 @@
+// Get contributor information of github repository
+
 var fs = require('fs');
 var path = require('path');
 var TeamJson = require('../community/team.json');

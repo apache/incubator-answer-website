@@ -44,5 +44,7 @@ This command generates static content into the `build` directory and can be serv
 ## Update Contributor data
 
 ```shell
+
+// github code contributors
 pnpm contributors
 ```
