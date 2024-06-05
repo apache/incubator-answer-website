@@ -52,10 +52,11 @@ ALC Hangzhou 将致力于通过（但不限于）下述行动帮助开源爱好�
 ## 如何加入     
 只要你认同 Apache Way 并乐于和开源社区一起协作小伙伴都可以参与进来！具体的方式如下：
 1. 参与 ALC Hangzhou 的活动     
-大家可以通过关注 ALC Hangzhou 公众号[^1]和官网[^2]获取最新的活动信息，并参加 ALC Hangzhou 的线上线下活动。
+大家可以通过关注 ALC Hangzhou 公众号<sup><a href="#ref1">[1]</a></sup>和官网<sup><a href="#ref2">[2]</a></sup>获取最新的活动信息，并参加 ALC Hangzhou 的线上线下活动。
 2. 成为 ALC Hangzhou 成员
-ALC Hangzhou 作为一个公益组织，需要志愿者来帮助协调和组织活动。志愿者加入的原则和Apache软件基金的其他项目发展 Committer 以及 PMC 成员的方式一样, 基于大家在社区中的贡献，采用投票邀请方式进行。[^3]
+ALC Hangzhou 作为一个公益组织，需要志愿者来帮助协调和组织活动。志愿者加入的原则和Apache软件基金的其他项目发展 Committer 以及 PMC 成员的方式一样, 基于大家在社区中的贡献，采用投票邀请方式进行。<sup><a href="#ref3">[3]</a></sup>
 
-[^1] 微信公众号ID：alc_hangzhou          
-[^2] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou        
-[^3] https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter
+#### 引用链接
+<span id="ref1"> [1] 微信公众号ID：alc_hangzhou </span>        
+<span id="ref2"> [2] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou </span>        
+<span id="ref3"> [3] https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter </span>
