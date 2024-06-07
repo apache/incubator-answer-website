@@ -79,6 +79,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'keywords', content: 'Free, Open-source, Q&A Platform, Knowledge Sharing Platform, Community Forum, Knowledge Base, Developer Hub, Support Center'},
+      ],
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
