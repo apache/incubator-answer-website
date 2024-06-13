@@ -39,7 +39,7 @@ Following the format below when committing message can make you a better program
   - Be brief, yet descriptive - we should have a good understanding of what the commit does by reading the subject.
 ## Licensing
 
-By contributing to Answer, you agree that your contributions will be licensed under its Apache-2.0 license. Copy and paste this to the top of your new file(s):
+By contributing to Apache Answer, you agree that your contributions will be licensed under its Apache-2.0 license. Copy and paste this to the top of your new file(s):
 
 ```go
 /*
