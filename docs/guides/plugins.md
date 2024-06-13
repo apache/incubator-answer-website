@@ -6,7 +6,7 @@ slug: /plugins
 
 :::tip
 
-When we need to do some extensions to Answer's functionality, for example, OAuth login, we design a way to use plugins to implement these functions. 
+When we need to do some extensions to Apache Answer's functionality, for example, OAuth login, we design a way to use plugins to implement these functions. 
 
 :::
 
@@ -14,7 +14,7 @@ When we need to do some extensions to Answer's functionality, for example, OAuth
 
 ### Official plugins
 
-You can find a list of officially supported plugins for Answer [here](https://github.com/apache/incubator-answer-plugins).
+You can find a list of officially supported plugins for Apache Answer [here](https://github.com/apache/incubator-answer-plugins).
 
 ### Plugin type
 
@@ -29,11 +29,11 @@ We classify plugins into different types. Different types of plugins have differ
 
 ## Build
 
-Answer binary supports packaging different required plugins into the binary.
+Apache Answer binary supports packaging different required plugins into the binary.
 
 ### Prerequisites
 
-- Original Answer binary
+- Original Apache Answer binary
 - [Golang](https://go.dev/) `>=1.18`
 - [Node.js](https://nodejs.org/) `>=16.17`
 - [pnpm](https://pnpm.io/) `>=7`
@@ -42,11 +42,11 @@ Answer binary supports packaging different required plugins into the binary.
 
 :::tip
 
-We use the `build` command provided with the Answer binary to rebuild a version of Answer with the plugin.
+We use the `build` command provided with the Apache Answer binary to rebuild a version of Apache Answer with the plugin.
 
 :::
 
-For example, let's see how to build an Answer binary that includes the github third-party login plugin.
+For example, let's see how to build an Apache Answer binary that includes the github third-party login plugin.
 
 ```shell
 # answer build --with [plugin@plugin_version=[replacement]] --output [file]
@@ -158,7 +158,7 @@ We recommend the use of [official plugins](https://github.com/apache/incubator-a
 
 ## Usage
 
-The Answer with the plugin version is used in the same way as before. You can find the plugin's configuration in the admin page.
+The Apache Answer with the plugin version is used in the same way as before. You can find the plugin's configuration in the admin page.
 
 ![plugin-config-admin-page](/img/docs/plugin-config-admin-page.png)
 
@@ -170,7 +170,7 @@ Note that if you are upgrading from a non-plugin version to a plugin version, yo
 
 :::
 
-You need build a new Answer binary with the new plugin version, then replace the old Answer binary with the new one. As with normal upgrades, you need to execute different [upgrade steps](./upgrade) depending on the  deployment method. For example, if you are using binary deployment, you need to execute the `upgrade` command.
+You need build a new Apache Answer binary with the new plugin version, then replace the old Apache Answer binary with the new one. As with normal upgrades, you need to execute different [upgrade steps](./upgrade) depending on the  deployment method. For example, if you are using binary deployment, you need to execute the `upgrade` command.
 
 
 

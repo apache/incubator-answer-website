@@ -6,7 +6,7 @@ slug: /command-line
 
 :::tip
 
-Answer binary support some command-line options
+Apache Answer binary support some command-line options
 
 :::
 
@@ -31,7 +31,7 @@ Available Commands:
   init        init answer application
   plugin      prints all plugins packed in the binary
   run         Run the application
-  upgrade     upgrade Answer version
+  upgrade     upgrade Apache Answer version
 
 Flags:
   -C, --data-path string   data path, eg: -C ./data/ (default "/data/")
@@ -95,7 +95,7 @@ All global options can be placed at the command level.
   - `answer dump -p /tmp/`
 
 ### build
-> build a new Answer with plugins.
+> build a new Apache Answer with plugins.
 
 - Options
   - `--with` the field name of plugin. Required.

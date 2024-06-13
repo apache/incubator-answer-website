@@ -6,7 +6,7 @@ slug: /env
 
 ## 安装
 
-- INSTALL_PORT：指定安装时启动的端口，默认为80。
+- INSTALL_PORT：指定安装时启动的端口，默认为 80。
 - AUTO_INSTALL：如果设置为 `true`，则安装将通过环境变量自动完成。
 
 ### 对于自动安装
@@ -18,7 +18,7 @@ slug: /env
 - DB_NAME：数据库名称。
 - DB_FILE：数据库文件路径，仅适用于 sqlite3。
 - LANGUAGE：语言，如  `en-US`。
-- SITE_NAME：站点名称 `Answer`。
+- SITE_NAME：站点名称 `Apache Answer`。
 - SITE_URL：站点 URL，`https://answer.apache.org`。
 - CONTACT_EMAIL：联系人电子邮件。
 - ADMIN_NAME：管理员名称。

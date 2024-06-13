@@ -59,7 +59,7 @@ $ for i in *.tar.gz; do echo $i; sha512sum  $i > $i.sha512 ; done
 
 1. Create a directory for the release artifacts in the svn repository.
 2. Upload the release artifacts to the svn repository.
-3. release-version format： 1.3.1-incubating
+3. release-version format: 1.3.1-incubating
 
 The release artifacts should be uploaded to the `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` directory.
 
@@ -68,7 +68,7 @@ The release artifacts should be uploaded to the `https://dist.apache.org/repos/d
 $ svn co https://dist.apache.org/repos/dist/dev/incubator/answer/
 $ cp /path/to/release/artifacts/* ./{release-version}/
 $ svn add ./{release-version}/*
-$ svn commit -m "add Answer release artifacts for {release-version}"
+$ svn commit -m "add Apache Answer release artifacts for {release-version}"
 ```
 
 **IMPORTANT** After completion, visit the link `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` to check whether the file upload is correct.
@@ -83,7 +83,7 @@ Following is the basic check items for the release artifacts.
 - [ ] Download links are valid.
 - [ ] Checksums and PGP signatures are valid.
 - [ ] Source code distributions have correct names matching the current release.
-- [ ] LICENSE and NOTICE files are correct for each Answer repo.
+- [ ] LICENSE and NOTICE files are correct for each Apache Answer repo.
 - [ ] All files have license headers if necessary.
 - [ ] No unlicensed compiled archives bundled in source archive.
 
@@ -119,7 +119,7 @@ $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 
 ## Vote on the release
 
-1. Send a vote email to the dev@answer.apache.org. Incubator need to first do a vote on their dev list and that vote requires at least **3 +1s from Answer PPMC members**.
+1. Send a vote email to the dev@answer.apache.org. Incubator need to first do a vote on their dev list and that vote requires at least **3 +1s from Apache Answer PPMC members**.
 2. Wait for at **least 72 hours** or until the necessary number of votes are reached.
 3. Announce the result of the vote on the dev list.
 4. If the dev vote passes, send email to the general@incubator.apache.org to request a vote on the general list. The incubator vote needs at least **3 +1s from Incubator PMC members**
@@ -131,7 +131,7 @@ $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 
 **NOTICE**  Directly copying the email content will cause the format to be incorrect. It is recommended to copy the email to a `.txt` file. After writing the content, copy it into the email tool you are using.  `The vote tread` and `Vote Result` is not needed during the first round of voting in dev.
 
-How to get the link to The vote thread：
+How to get the link to The vote thread:
 1. Find the email you sent from the apache mailing list.
 2. Click the link button below the email to get the link you need.
 
@@ -180,7 +180,7 @@ Hello,
     [ ] Download links are valid.
     [ ] Checksums and PGP signatures are valid.
     [ ] Source code distributions have correct names matching the current release.
-    [ ] LICENSE and NOTICE files are correct for each Answer repo.
+    [ ] LICENSE and NOTICE files are correct for each Apache Answer repo.
     [ ] All files have license headers if necessary.
     [ ] No unlicensed compiled archives bundled in source archive.
 
@@ -197,7 +197,7 @@ Thanks,
 ```text
 Hello everyone,
 
-The Apache Answer(Incubating) {release-version} has been released!
+The Apache Answer (Incubating) {release-version} has been released!
 
 Apache Answer is a Q&A platform software for teams at any scale.
 Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.

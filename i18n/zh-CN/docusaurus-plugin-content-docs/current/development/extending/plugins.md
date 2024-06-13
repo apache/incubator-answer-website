@@ -6,7 +6,7 @@ slug: /plugins
 
 :::tip
 
-当我们需要对 Answer 的功能进行扩展，例如 OAuth 登录，我们设计了一种使用插件实现这些功能的方式。
+当我们需要对 Apache Answer 的功能进行扩展，例如 OAuth 登录，我们设计了一种使用插件实现这些功能的方式。
 
 :::
 
@@ -14,7 +14,7 @@ slug: /plugins
 
 ### 官方插件
 
-你可以在 [这里](https://github.com/apache/incubator-answer-plugins) 找到 Answer 官方支持的插件列表。
+你可以在 [这里](https://github.com/apache/incubator-answer-plugins) 找到 Apache Answer 官方支持的插件列表。
 
 ### 插件类型
 > 我们将插件分为不同的类型。
@@ -29,26 +29,26 @@ slug: /plugins
 - Finder: 支持使用搜索引擎加速搜索问题和回答。（即将推出）
 
 ## 构建
-> Answer 二进制文件支持将不同的必需插件打包到二进制文件中。
+> Apache Answer 二进制文件支持将不同的必需插件打包到二进制文件中。
 
 ### 先决条件
 
-- 原始的 Answer 二进制文件
+- 原始的 Apache Answer 二进制文件
 - [Golang](https://go.dev/) `>=1.18`
 
 ### 命令
 
 :::tip
-我们使用 Answer 二进制文件提供的 build 命令来重新构建带插件的 Answer 版本。
+我们使用 Apache Answer 二进制文件提供的 build 命令来重新构建带插件的 Apache Answer 版本。
 :::
 
-> 例如，让我们看看如何构建一个包含 github 第三方登录插件的 Answer 二进制文件
+> 例如，让我们看看如何构建一个包含 github 第三方登录插件的 Apache Answer 二进制文件
 
 ```shell
 # answer build --with [plugin@plugin_version=[replacement]] --output [file]
 $ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
 
-# 构建一个带有 github 登录插件的新 Answer，然后输出到 ./new_answer。
+# 构建一个带有 github 登录插件的新 Apache Answer，然后输出到 ./new_answer。
 $ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github@1.0.0 --output ./new_answer
 
 # 带有多个插件
@@ -205,11 +205,11 @@ func init() {
 在开发和调试阶段，你可以使用以下提示，避免重复打包。
 :::
 
-1. U 使用 Answer 的源代码进行开发。
+1. U 使用 Apache Answer 的源代码进行开发。
 2. 直接在插件目录中编写插件。
 3. 在主函数中导入插件。
 
-之后，你只需要正常启动 Answer 项目，它将包含你开发的插件。
+之后，你只需要正常启动 Apache Answer 项目，它将包含你开发的插件。
 
 ## 贡献
 
