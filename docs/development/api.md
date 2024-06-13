@@ -6,7 +6,7 @@ slug: /api
 
 :::tip
 
-Answer using swagger to generate API document automatically. Swagger can display the API document in a friendly way, and can also provide a convenient way to test the API.
+Apache Answer using swagger to generate API document automatically. Swagger can display the API document in a friendly way, and can also provide a convenient way to test the API.
 
 :::
 
@@ -19,7 +19,7 @@ https://meta.answer.dev/swagger/index.html
 
 ### View your own API document
 
-If you already have an Answer instance, you can view the API document of your own instance by visiting the following link:
+If you already have an Apache Answer instance, you can view the API document of your own instance by visiting the following link:
 `https://example.com/swagger/index.html`
 
 If you can't access the above link, please check the following configuration items whether they are configured correctly.
@@ -34,7 +34,7 @@ swaggerui:
 
 ## Generate API document
 
-Answer using [swag](https://github.com/swaggo/swag) to generate API document json/yaml file automatically according to the comments in the code. You can use the following steps to generate API document.
+Apache Answer using [swag](https://github.com/swaggo/swag) to generate API document json/yaml file automatically according to the comments in the code. You can use the following steps to generate API document.
 
 ```bash
 # install swag cli

@@ -44,8 +44,8 @@ swag init --generalInfo ./cmd/answer/main.go
 ### 构建
 
 :::note
-如果这是你第一次启动 Answer，请先编译前端项目，以确保你可以更轻松地测试它。
-一旦你熟悉了 Answer，也可以使用 Swagger 进行测试。
+如果这是你第一次启动 Apache Answer，请先编译前端项目，以确保你可以更轻松地测试它。
+一旦你熟悉了 Apache Answer，也可以使用 Swagger 进行测试。
 :::
 
 ```shell
@@ -61,7 +61,7 @@ $ go build .
 
 #### 安装
 >
-> 如果这是你第一次启动 Answer，请按照以下步骤进行安装。如果不是，则可以跳过此步骤。
+> 如果这是你第一次启动 Apache Answer，请按照以下步骤进行安装。如果不是，则可以跳过此步骤。
 
 ```shell
 # 初始化环境
@@ -78,7 +78,7 @@ $ ./answer init -C ./answer-data/
 ./answer run -C ./answer-data/
 ```
 
-前往 <http://localhost:80/> 使用 Answer。
+前往 <http://localhost:80/> 使用 Apache Answer。
 
 ### Debug
 
@@ -199,7 +199,7 @@ width="300"
 
 ## 构建工具
 
-Answer 应用的后端使用以下组件/库构建：
+Apache Answer 应用的后端使用以下组件/库构建：
 
 - [pacman](https://github.com/segmentfault/pacman) - 快速构建 Go 应用程序的工具包。
 - [gin](https://github.com/gin-gonic/gin/) - 路由器。

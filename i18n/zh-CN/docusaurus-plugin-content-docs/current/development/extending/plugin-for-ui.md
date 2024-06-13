@@ -23,7 +23,7 @@ UI 插件与 [标准插件](/docs/plugins) 或 React 组件并没有太大的区
 # info.yaml
 slug_name: ui_plugin_demo
 version: 0.0.1
-author:  Answer.dev
+author: Apache Answer 
 ```
 
 * 在 `index.tsx` 文件中编写所需的任何 React 组件，并导出如下

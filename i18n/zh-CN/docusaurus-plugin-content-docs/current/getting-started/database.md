@@ -280,7 +280,7 @@ slug: /database
 
 ## uniqid
 >
-> `uniqid` 表记录可以唯一标识对象的对象ID。
+> `uniqid` 表记录可以唯一标识对象的对象 ID。
 
 |   COLUMN    | DATA TYPE  | NULLABLE | KEY | DEFAULT |   COMMENT   |
 |-------------|------------|----------|-----|---------|-------------|
@@ -334,7 +334,7 @@ slug: /database
 
 ## version
 >
-> 当前 Answer 的版本记录在版本表中以进行升级。
+> 当前 Apache Answer 的版本记录在版本表中以进行升级。
 
 |     COLUMN     | DATA TYPE | NULLABLE | KEY | DEFAULT |    COMMENT     |
 |----------------|-----------|----------|-----|---------|----------------|

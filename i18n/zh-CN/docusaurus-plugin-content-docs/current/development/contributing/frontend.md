@@ -9,7 +9,7 @@ slug: /contributing/frontend
 - [Node.js](https://nodejs.org/) `>=16.17`
 - [pnpm](https://pnpm.io/) `>=7`
 
-在构建 Answer 项目时需要 pnpm。使用以下命令安装 pnpm 工具：
+在构建 Apache Answer 项目时需要 pnpm。使用以下命令安装 pnpm 工具：
 
 ```bash
 corepack enable
@@ -39,15 +39,15 @@ pnpm start
 
 克隆仓库并运行 pnpm install 初始化依赖项后，你可以使用以下项目命令：
 
-- `pnpm start` 在本地运行 Answer 网站。
-- `pnpm build` 为生产环境构建 Answer。
+- `pnpm start` 在本地运行 Apache Answer 网站。
+- `pnpm build` 为生产环境构建 Apache Answer。
 - `pnpm lint` 检查和修复代码风格。
 
 ## 🌍 I18n（多语言）
 
 如果你需要添加或编辑语言条目，只需转到 `/i18n/en_US.yaml` 文件，所有前端语言条目都放在 `ui` 字段下。
 
-如果想帮助我们进行 i18n 翻译，请访问 [Answer at Crowdin](https://crowdin.com/translate/answer) 。
+如果想帮助我们进行 i18n 翻译，请访问 [Apache Answer at Crowdin](https://crowdin.com/translate/answer) 。
 
 ## 💡 项目说明
 

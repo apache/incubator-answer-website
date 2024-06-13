@@ -4,11 +4,11 @@ slug: /contributing
 
 # 贡献指南
 >
-> 感谢你对 Answer 的贡献兴趣！
+> 感谢你对 Apache Answer 的贡献兴趣！
 
 ## 如何贡献
 >
-> 你可以通过提交 PR 直接贡献到 github 仓库中。
+> 你可以通过提交 PR 直接贡献到 GitHub 仓库中。
 
 ## 创建问题
 

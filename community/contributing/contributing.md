@@ -19,11 +19,11 @@ Apache Answer has adopted a Code of Conduct that we expect project participants 
 
 Apache Answer is an open source project built by passionate users, contributors, and PMC members. We are committed to creating an open and inclusive community, and we welcome everyone to join us in embracing the Apache way and building open source together.
 
-Anyone can contribute to Answer. In addition to contributing code, there are many other ways to get involved, such as:
+Anyone can contribute to Apache Answer. In addition to contributing code, there are many other ways to get involved, such as:
 
-##### Using Answer
+##### Using Apache Answer
 
-- Getting started with Answer is easy. Just follow our [Getting Started Guide](/docs/installation) to see if everything works as expected.
+- Getting started with Apache Answer is easy. Just follow our [Getting Started Guide](/docs/installation) to see if everything works as expected.
 - If not, you can [create an issue](/community/issues) to report a bug or suggest an improvement.
 
 ##### Triaging issues and pull requests
@@ -44,29 +44,29 @@ Anyone can contribute to Answer. In addition to contributing code, there are man
 
 ##### Develop plugins
 
-- Extend the functionality of Answer with plugins.
+- Extend the functionality of Apache Answer with plugins.
 - There are features that users are expecting, and you can claim or create your needs with [develop and submit](/community/plugins).
 
 ##### Helping with version releases
 
-- Help us make Answer even better by testing new candidate releases and voting on [dev@answer.apache.org](https://lists.apache.org/list.html?dev@answer.apache.org).
+- Help us make Apache Answer even better by testing new candidate releases and voting on [dev@answer.apache.org](https://lists.apache.org/list.html?dev@answer.apache.org).
 - If you don't find any problems, give it a `+1 (non-binding)` upvote.
 - If you find a problem, give it a `-1 (non-binding)` downvote.
 
 ##### Contributing translations
 
-- If you are fluent in a language other than English, you can help us translate Answer into other languages using [Crowdin](https://crowdin.com/project/answer).
+- If you are fluent in a language other than English, you can help us translate Apache Answer into other languages using [Crowdin](https://crowdin.com/project/answer).
 - Please refer to the [Contributing Translations Guide](/community/translation) for more information.
 
 ##### Helping with support
 
-- You can be of great help by helping other users on [Answer Meta](https://meta.answer.dev).
+- You can be of great help by helping other users on [Apache Answer Meta](https://meta.answer.dev).
 - Reply and solve the questions in the [Mailing List](/community/support/#mailing-list).
 
-##### Promoting Answer
+##### Promoting Apache Answer
 
-- Share Answer on Social Media
-- Share your story with Answer to more people
+- Share Apache Answer on Social Media
+- Share your story with Apache Answer to more people
 - Join our meetup, forum, etc.
 
 ##### Others
@@ -76,7 +76,7 @@ Anyone can contribute to Answer. In addition to contributing code, there are man
 
 ## Development process
 
-Answer uses [GitHub](https://github.com/apache/incubator-answer) as its source of truth. The core team will be working directly there. All changes will be public from the beginning.
+Apache Answer uses [GitHub](https://github.com/apache/incubator-answer) as its source of truth. The core team will be working directly there. All changes will be public from the beginning.
 
 All pull requests will be checked by the continuous integration system, GitHub actions. There are unit tests, and much more.
 

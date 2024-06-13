@@ -6,7 +6,7 @@ slug: /command-line
 
 :::tip
 
-Answer 二进制文件支持一些命令行选项
+Apache Answer 二进制文件支持一些命令行选项
 
 :::
 
@@ -31,7 +31,7 @@ Answer 二进制文件支持一些命令行选项
   init        初始化 answer 应用程序
   plugin      打印打包在二进制文件中的所有插件
   run         运行应用程序
-  upgrade     升级 Answer 版本
+  upgrade     升级 Apache Answer 版本
 
 选项:
   -C, --data-path string   数据路径，例如：-C ./data/（默认值为 "/data/"）
@@ -87,7 +87,7 @@ Answer 二进制文件支持一些命令行选项
   - `answer dump -p /tmp/`
 
 ### build
-> 构建一个新的 Answer 包含指定插件。
+> 构建一个新的 Apache Answer 包含指定插件。
 
 - 选项
   - `--with` 插件的字段名。必需。

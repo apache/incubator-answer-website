@@ -18,7 +18,7 @@ slug: /env
 - `DB_NAME`: database name
 - `DB_FILE`: database file path, only for sqlite3
 - `LANGUAGE`: language, like `en-US`
-- `SITE_NAME`: site name `Answer`
+- `SITE_NAME`: site name `Apache Answer`
 - `SITE_URL`: site url, `https://answer.apache.org`
 - `CONTACT_EMAIL`:  contact email
 - `ADMIN_NAME`:  admin name

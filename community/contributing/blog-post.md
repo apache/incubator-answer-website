@@ -7,7 +7,7 @@ slug: /blog-post
 
 Blogs are one of the easiest ways to [get involved](/community/contributing#get-involved) in Apache Answer. It is also a great way to share your knowledge and experience with others.
 
-If you've used Answer to build your own Q&A community, or if Answer has helped you solve a problem, we'd love to hear your story. We also encourage you to share tips and tricks for using Answer, or to write about how to contribute to the project.
+If you've used Apache Answer to build your own Q&A community, or if Apache Answer has helped you solve a problem, we'd love to hear your story. We also encourage you to share tips and tricks for using Apache Answer, or to write about how to contribute to the project.
 
 To get started, just read our blog guidelines and get writing!
 
