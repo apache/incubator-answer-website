@@ -59,6 +59,7 @@ module.exports = {
           ],
         },
         'guides/plugins',
+        'guides/deploy-subdirectory'
       ],
     },
     {
