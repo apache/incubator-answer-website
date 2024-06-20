@@ -1,7 +1,7 @@
 ---
 title: "How to Search Like a Pro in Answer"
 authors: [Anne]
-category: Tutorial
+category: Tutorials
 featured: true
 image: 2024-06-20-cover@4x.png
 description: "Learn and make the best use from the search basics to the advanced tips in Apache Answer."
