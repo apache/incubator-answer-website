@@ -4,10 +4,43 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Wed, 05 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[How to Search Like a Pro in Answer]]></title>
+            <link>https://answer.apache.org/blog/2024/06/20/how-to-search-like-a-pro-in-answer</link>
+            <guid>https://answer.apache.org/blog/2024/06/20/how-to-search-like-a-pro-in-answer</guid>
+            <pubDate>Thu, 20 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn and make the best use from the search basics to the advanced tips in Apache Answer.]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-06-20-cover@4x-6b1768cf422fc979417fa98963ccba00.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>Discussions are always going in Apache Answer. How can you find the information you need in all these conversations? Try to search! Answer provides ways for you to search the information you need, and let’s equip you with all the search tips.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="search-bar">Search Bar<!-- --><a href="https://answer.apache.org/blog/2024/06/20/how-to-search-like-a-pro-in-answer#search-bar" class="hash-link" aria-label="Direct link to Search Bar" title="Direct link to Search Bar">​</a></h2>
+<!-- --><p>The search bar locates at the top of every page. Whether you’re browsing on the homepage, or taking a closer look at a post, you can always type and search for the content you require.</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Search Bar in Answer Locates on the Top of Every Page" src="https://answer.apache.org/assets/images/Search%20Bar-0b2cfd9a34cd0f5116752baf66025911.png" width="1200" height="470" class="img_WevL"></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="start-from-a-keyword">Start from a Keyword<!-- --><a href="https://answer.apache.org/blog/2024/06/20/how-to-search-like-a-pro-in-answer#start-from-a-keyword" class="hash-link" aria-label="Direct link to Start from a Keyword" title="Direct link to Start from a Keyword">​</a></h2>
+<!-- --><p>Just like a search engine, let’s start searching in Answer with a single keyword. Then, you can refine your search by making it to a phrase or sentence. In Answer, we <!-- --><a href="https://answer.apache.org/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0/#fine-tunings-youll-love" target="_blank" rel="noopener noreferrer">highlight the key terms</a> so that you can identify it with just a glance.<!-- --></p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Search with Keyword in Answer" src="https://answer.apache.org/assets/images/search%20with%20keyword-c7cc3a48243f8e798b88770c30baa9d3.png" width="1200" height="719" class="img_WevL"></p>
+<!-- --><p>You can also sort the results with <!-- --><strong>Active, Newest, Relevance, and Score</strong> to better hunt down the content you need.<!-- --></p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Sort Search Results" src="https://answer.apache.org/assets/images/sort%20search%20results-9e937179c1f704baaa3f7e5d2a58553c.png" width="1200" height="723" class="img_WevL"></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="search-with-tag">Search with Tag<!-- --><a href="https://answer.apache.org/blog/2024/06/20/how-to-search-like-a-pro-in-answer#search-with-tag" class="hash-link" aria-label="Direct link to Search with Tag" title="Direct link to Search with Tag">​</a></h2>
+<!-- --><p>Remember the <!-- --><a href="https://answer.apache.org/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#03-organize-categories-with-tags" target="_blank" rel="noopener noreferrer">magical tag</a> that play a big role in organizing the community? They’re powerful for tracking the content. If you’re looking for content in the same category, searching with a relevant tag is a productive way to start with.<!-- --></p>
+<!-- --><p>Simply type the tag name inside square brackets and hit search, e.g., [Release].</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Search with Tag in Answer" src="https://answer.apache.org/assets/images/search%20with%20tags-ba8b620206a970b6d62bbbd5bf2da2aa.png" width="1200" height="525" class="img_WevL"></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="advanced-search-tips">Advanced Search Tips<!-- --><a href="https://answer.apache.org/blog/2024/06/20/how-to-search-like-a-pro-in-answer#advanced-search-tips" class="hash-link" aria-label="Direct link to Advanced Search Tips" title="Direct link to Advanced Search Tips">​</a></h2>
+<!-- --><p>Besides keyword and tags, Answer provides multiple ways to search to meet your needs.</p>
+<!-- --><ul>
+<!-- --><li>Search by author with: <!-- --><strong>user<!-- -->:username<!-- --></strong></li>
+<!-- --><li>Find unanswered questions with: <!-- --><strong>answers:0</strong></li>
+<!-- --><li>Look for a post with a score with: <!-- --><strong>score: score number</strong></li>
+<!-- --><li>Find a question/answer with: <!-- --><strong>is<!-- -->:question<!-- --></strong> or <!-- --><strong>is<!-- -->:answer<!-- --></strong></li>
+<!-- --></ul>
+<!-- --><p>Don’t panic if you forget the rules. The advanced search tips are displayed on the right side whenever you’re searching.</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Advanced Search Tips at the Right Side of the Searching Page" src="https://answer.apache.org/assets/images/Advanced%20Search%20Tips-99f69dbe74a77c0f58a093972f1785f4.png" width="1200" height="518" class="img_WevL"></p>
+<!-- --><p>You can also combine the search rules together to hunt the exact content down.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="we-love-to-hear-from-you">We Love to Hear from You<!-- --><a href="https://answer.apache.org/blog/2024/06/20/how-to-search-like-a-pro-in-answer#we-love-to-hear-from-you" class="hash-link" aria-label="Direct link to We Love to Hear from You" title="Direct link to We Love to Hear from You">​</a></h2>
+<!-- --><p>It’s always nice to have feedback and advice. If you have feature requests, bug report, or show your Answer. You are welcome to reach out on <!-- --><a href="https://twitter.com/answerdev" target="_blank" rel="noopener noreferrer">X</a>, <!-- --><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>, <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a>, <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Meta Answer</a>, or our <!-- --><a href="https://answer.apache.org/community/support" target="_blank" rel="noopener noreferrer">mailing list</a>.<!-- --></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer Joined the First ALC Hangzhou Meetup]]></title>
             <link>https://answer.apache.org/blog/2024/06/05/apache-answer-joined-first-alc-hangzhou-meetup</link>
@@ -1016,76 +1049,6 @@ The logo will be displayed at the top left of the page, and make sure to follow 
 <!-- --><p><img decoding="async" loading="lazy" alt="Moderation" src="https://answer.apache.org/assets/images/moderation-109f941af4f80c6d095ced319206dd14.png" width="800" height="451" class="img_WevL"></p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="conclusion">Conclusion<!-- --><a href="https://answer.apache.org/blog/2023/08/09/how-to-manage-content-system-efficiently-with-answer#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <!-- --><p>Whether you're a community starter seeking to learn, or a community expert willing to share knowledge, Answer's content management tools are intuitive, efficient, and reliable. You can explore how the Answer team apply this system in the <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">community</a>, or start knowledge sharing and managing with <!-- --><a href="https://answer.apache.org/docs/installation" target="_blank" rel="noopener noreferrer">Answer</a> today and manage the content at ease.<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The Packaging Process for Answer Plugins]]></title>
-            <link>https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way</link>
-            <guid>https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way</guid>
-            <pubDate>Sat, 22 Jul 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Let's discuss the design and implementation of the plugin system for Answer, and know why we design this way.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2023-07-22-cover@4x-adfc331ff0caa372bd48d7c798155678.png" class="rounded img_WevL" width="1280px" height="720px"></div><blockquote>
-<!-- --><ol>
-<!-- --><li>Why is Answer's plugin system designed in such a way that it seems a bit difficult to use?</li>
-<!-- --><li>How can I implement plugin functionality using Golang?</li>
-<!-- --><li>What exactly does Answer's plugin system do when it is compiled and packaged?</li>
-<!-- --></ol>
-<!-- --></blockquote>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="background">Background<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h2>
-<!-- --><p>You can build a Q&amp;A community using Answer easily. However, the basic features of Answer may not sufficiently support to every use case.
-Therefore, we need to design a plugin system to extend its features.
-As you may know, Answer is built using <!-- --><code>React.js</code> and <!-- --><code>Golang</code>. Both these languages require compilation. So designing a plugin system is a bit difficult.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="goal--features">Goal &amp; Features<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#goal--features" class="hash-link" aria-label="Direct link to Goal &amp; Features" title="Direct link to Goal &amp; Features">​</a></h2>
-<!-- --><p>The goal of Answer's plugin system is to provide a <!-- --><strong>flexible</strong> and <!-- --><strong>extendable</strong> architecture that can accommodate a wide range of use cases. Some of the key features of the plugin system include:<!-- --></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="connectors">Connectors<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#connectors" class="hash-link" aria-label="Direct link to Connectors" title="Direct link to Connectors">​</a></h3>
-<!-- --><p>By default, Answer supports login via email and password. Within the plugin system, developers can easily integrate other authentication, such as GitHub.</p>
-<!-- --><img src="https://answer.apache.org/assets/images/answer-plugin-connector-bc65790664a0b5e0d065ed7448d5429c.png" alt="install-choose-language" width="400">
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="storage">Storage<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#storage" class="hash-link" aria-label="Direct link to Storage" title="Direct link to Storage">​</a></h3>
-<!-- --><p>Out of the box, Answer stores files in the local file system. However, there could be scenarios where users might prefer to save their uploaded files to a cloud storage service like <!-- --><code>S3</code>. This can be achieved by the plugin system.<!-- --></p>
-<!-- --><img src="https://answer.apache.org/assets/images/answer-plugin-storage-5665a6432f5cacaaef81d7bcc8128555.png" alt="install-choose-language" width="400">
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="implementation">Implementation<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#implementation" class="hash-link" aria-label="Direct link to Implementation" title="Direct link to Implementation">​</a></h2>
-<!-- --><p>Now, let's explore how the plugin system is implemented, followed by the reasons behind our design decisions.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="details">Details<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#details" class="hash-link" aria-label="Direct link to Details" title="Direct link to Details">​</a></h3>
-<!-- --><p>The general process is as follows:</p>
-<!-- --><img src="https://answer.apache.org/assets/images/answer-plugin-build-brief-870a86d5966ae754f1a166604524137e.png" alt="install-choose-language" width="400">
-<!-- --><p>Here are the steps involved in implementing a plugin:</p>
-<!-- --><ol>
-<!-- --><li>Generate a <!-- --><code>main.go</code> file.<!-- --></li>
-<!-- --><li>Import the specific plugin list.</li>
-<!-- --><li>Execute <!-- --><code>go mod tidy</code> and <!-- --><code>go mod vendor</code> to manage dependencies.<!-- --></li>
-<!-- --><li>Copy the UI directory.</li>
-<!-- --><li>Overwrite the <!-- --><code>index.ts</code> file.<!-- --></li>
-<!-- --><li>Execute <!-- --><code>pnpm install</code> and <!-- --><code>pnpm build</code> to manage the package and build the project.<!-- --></li>
-<!-- --><li>Merge the <!-- --><code>i18n</code> file from the plugin with the original <!-- --><code>i18n</code> file.<!-- --></li>
-<!-- --><li>Build a new binary.</li>
-<!-- --><li>Clean up the byproducts generated during the build process.</li>
-<!-- --></ol>
-<!-- --><p><img decoding="async" loading="lazy" alt="answer-plugin-build-all.png" src="https://answer.apache.org/assets/images/answer-plugin-build-all-419696fc6220d13e784931f52c29a9fd.png" width="1862" height="846" class="img_WevL"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="reason">Reason<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#reason" class="hash-link" aria-label="Direct link to Reason" title="Direct link to Reason">​</a></h3>
-<!-- --><p>Here are the reasons behind our design choices:</p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_pwhL" id="static-compilation">Static Compilation<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#static-compilation" class="hash-link" aria-label="Direct link to Static Compilation" title="Direct link to Static Compilation">​</a></h4>
-<!-- --><blockquote>
-<!-- --><p>This is the main reason why the plugin system is designed this way.</p>
-<!-- --></blockquote>
-<!-- --><p><code>React.js</code> and <!-- --><code>Golang</code> both these languages require compilation. They are not dynamically executable like some other scripting languages.
-So the plugin system should be a static compilation, which means that the application and plugins are compiled together, resulting in a single binary that can be easily distributed and deployed.<!-- --></p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_pwhL" id="fixed-functionality">Fixed Functionality<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#fixed-functionality" class="hash-link" aria-label="Direct link to Fixed Functionality" title="Direct link to Fixed Functionality">​</a></h4>
-<!-- --><p>The plugin system allows users to add features that are fixed for their specific use cases without changing the core system.
-Furthermore, these functionalities persistently remain operational once they are employed.
-Therefore, it is sufficient to deliberate on the necessities of their incorporation at the initial stage, and subsequently, package them accordingly.
-In the future, we can build a Docker image that contains all official plugins, thereby enabling users to access the entire range of features. The enablement or disablement of these functionalities can be managed through the plugin control interface.</p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_pwhL" id="extension">Extension<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#extension" class="hash-link" aria-label="Direct link to Extension" title="Direct link to Extension">​</a></h4>
-<!-- --><p>The most important capability of a plugin system is its extensibility.
-A program can't provide all the functions that every user wants.
-However, with a plugin system, users can develop their plugins to help them achieve the functions that they want.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="reference">Reference<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference">​</a></h2>
-<!-- --><p>The Caddy is a great open-source software that inspired the design of the Answer plugin system.
-Caddy is a web server that allows developers to extend its functionality using plugins.
-Using <!-- --><a href="https://github.com/caddyserver/xcaddy/" target="_blank" rel="noopener noreferrer">xcaddy</a> can easy to make custom builds of the Caddy Web Server.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="more">More<!-- --><a href="https://answer.apache.org/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way#more" class="hash-link" aria-label="Direct link to More" title="Direct link to More">​</a></h2>
-<!-- --><p>In this blog post, we discussed the design and implementation of the plugin system for Answer, a popular open-source Q&amp;A platform.
-We discussed the motivation behind the design, and the features and principles of the plugin system, and provided a step-by-step guide on implementation.
-If you are interested in developing plugins for Answer, please feel free to leave us a comment.
-We will also write an article on how to implement an Answer plugin from scratch, so stay focused!</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
