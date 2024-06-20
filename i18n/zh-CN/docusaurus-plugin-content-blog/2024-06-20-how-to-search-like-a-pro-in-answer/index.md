@@ -1,68 +1,49 @@
 ---
-title: "Apache Answer Joined the First ALC Hangzhou Meetup"
+title: "How to Search Like a Pro in Answer"
 authors: [Anne]
-category: Community
-featured: false
-image: 2024-06-05-cover@4x.png
-description: "ALC Hangzhou offers a valuable platform for projects to learn, share, and exchange new ideas."
+category: Tutorial
+featured: true
+image: 2024-06-20-cover@4x.png
+description: "Learn and make the best use from the search basics to the advanced tips in Apache Answer."
 
 ---
 
-May 28th, Apache Local Community Hangzhou (ALC Hangzhou) held its first offline meetup successfully.  Apache Answer, as an incubating project within the Apache Software Foundation (ASF), was represented by most of its Project Management Committee (PPMC) members. Joyqi, PPMC member of Answer, introduced Answer with a presentation in the meetup. The presentation covered the project roadmap, community management, contributions, etc.
+Discussions are always going in Apache Answer. How can you find the information you need in all these conversations? Try to search! Answer provides ways for you to search the information you need, and let’s equip you with all the search tips.
 
-The meetup attracted a range of attendees from Apache ecosystem. PMC members and core committers from projects including Apache Dubbo, Apache RocketMQ, Apache Flink, Apache Paimon, Apache Fury, Apache Celeborn, and Apache HoraeDB shared and exchanged ideas on open-source field. Additionally, Ni Chao, professor of the School of Software Technology, Zhejiang University also participated in the event.
+## Search Bar
+The search bar locates at the top of every page. Whether you’re browsing on the homepage, or taking a closer look at a post, you can always type and search for the content you require. 
 
-Nadia Jiang, PPMC member of Answer, delivered opening remarks at the meetup. She shared her memory of joining the first ALC Beijing offline meetup and later became an organizer for the first CommunityOverCode Asia (formerly ApacheCon Asia). 
+![Search Bar in Answer Locates on the Top of Every Page](Search%20Bar.png)
 
-2024 is a milestone for Hangzhou open-source communities — the establishment of ALC Hangzhou, and the upcoming CommunityOverCode Asia 2024 conference, scheduled to take place in Hangzhou from July 26th to 28th. Both are poised to propel the advancement of open-source technologies, foster community growth, and facilitate collaboration among tech professionals.
+## Start from a Keyword
+Just like a search engine, let’s start searching in Answer with a single keyword. Then, you can refine your search by making it to a phrase or sentence. In Answer, we [highlight the key terms](https://answer.apache.org/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0/#fine-tunings-youll-love) so that you can identify it with just a glance. 
 
-The establishment of the Apache Local Community Hangzhou (ALC Hangzhou) and the upcoming CommunityOverCode Asia 2024 conference, scheduled for July 26-28 in Hangzhou, mark significant developments for the city's open-source communities. 
+![Search with Keyword in Answer](search%20with%20keyword.png)
 
-![Nadia was giving an opening remarks](Nadia%20Open%20Remarks.jpeg)
+You can also sort the results with **Active, Newest, Relevance, and Score** to better hunt down the content you need.
 
-Following the opening remarks, Apache Answer PPMC member Joyqi presented Answer to the attendees and encouraged contributors to join Answer community for building a powerful ecosystem. 
-
-Community is the driving force for Answer. Toady, Answer’s community gathers 59 core contributors, 122 translation contributors, 12 website contributors, and 12 plugin contributors. They follow a monthly release cycle and push the boundary of Answer every day. 
-
-![Joyqi introduced Apache Answer to more participants](Joyqi.jpeg)
-
-The meetup concluded with an open discussion session, allowing participants to engage in exchanging ideas. Members of Answer project asked other established projects and communities, seeking guidance on addressing project challenges, successful graduation notes, and attracting contributors.
-
-A project showcase area was set up at the event, where developers could learn about other projects in the ALC Hangzhou meetup quickly. Attendees were invited to leave stickers on the showcase boards to express their appreciation for the projects they found most interesting.
-
-![Answer PPMC member leaves sticker on an Apache project](Fen.jpeg)
-
-The meetup of ALC Hangzhou was a valuable opportunity for connection and learning. LinkinStars, an Apache Answer PPMC member, expressed excitement the upcoming launch of the open-source collaboration platform presented by Chao Ni, professor of Zhejiang University's School of Software Technology. LinkinStars viewed the platform as a potential bridge between universities and open-source communities. He also looked forward to more communities’ involvement.
-
-![Open Discussion](Open%20Discussion.jpeg)
-
-ALC Hangzhou is more than a platform for technical discussion. As Jun Liu, the initiator of ALC Hangzhou, said, “The meetup goes beyond open-source technology and potential collaborations. It offers a space for casual topics, like sharing personal experience or stories.”
-
-We encourage more open-source enthusiasts to join ALC Hangzhou. Answer will keep supporting and participating in future ALC Hangzhou events.
-
-## About Apache Local Community (ALC) [^1]
-ALC comprises local groups of Apache (Open Source) enthusiasts, called an 'ALC Chapter'. There will be a single ALC chapter per town/city.
-
-ALC is similar to [Google Developer Group](https://developers.google.com/programs/community/gdg/), [Facebook Developer Circles](https://developers.facebook.com/developercircles/), [Mozilla Reps](https://reps.mozilla.org/about/).
+![Sort Search Results](sort%20search%20results.png)
 
 
-## About ALC Hangzhou
-ALC Hangzhou is dedicated to helping open-source enthusiasts thrive in Apache Community through various ways, such as (but not limited to):
-* Bring together developers and users with online and offline workshops or meetups.
-* Share open-source knowledge and experience.
-* Connect different ASF projects and seek potential collaboration opportunities.
-* Introduce ASF, The Apache Way, and various Apache projects.
+## Search with Tag
+Remember the [magical tag](https://answer.apache.org/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#03-organize-categories-with-tags) that play a big role in organizing the community? They’re powerful for tracking the content. If you’re looking for content in the same category, searching with a relevant tag is a productive way to start with. 
 
-## Joining ALC Hangzhou
-ALC Hangzhou is open to every open-source enthusiast who align with the Apache Way and love open collaboration. Here are the ways to get involve:
-1. Join ALC Hangzhou Events   
-	Stay updated on upcoming events by following ALC Hangzhou's WeChat public account [^2] and official website [^3]. Participate in both online and offline gatherings organized by ALC Hangzhou.
+Simply type the tag name inside square brackets and hit search, e.g., [Release]. 
 
-2. Become an ALC Hangzhou Member   
-	As a non-profit organization, ALC Hangzhou needs volunteers to assist with event coordination and organization. The principles for becoming an ALC Hangzhou volunteer are similar to those for Committer and PMC members in other Apache Software Foundation projects. The selection is based on individual contributions to the community and involves a voting process [^4].
+![Search with Tag in Answer](search%20with%20tags.png)
 
-Reference        
-[^1] https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC     
-[^2] WeChat Public Account：alc_hangzhou    
-[^3] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou      
-[^4] https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter
+## Advanced Search Tips
+Besides keyword and tags, Answer provides multiple ways to search to meet your needs.
+* Search by author with: **user:username**
+* Find unanswered questions with: **answers:0**
+* Look for a post with a score with: **score: score number**
+* Find a question/answer with: **is:question** or **is:answer**
+
+Don’t panic if you forget the rules. The advanced search tips are displayed on the right side whenever you’re searching.
+
+![Advanced Search Tips at the Right Side of the Searching Page](Advanced%20Search%20Tips.png)
+
+You can also combine the search rules together to hunt the exact content down.
+
+## We Love to Hear from You
+It’s always nice to have feedback and advice. If you have feature requests, bug report, or show your Answer. You are welcome to reach out on [X](https://twitter.com/answerdev), [Discord](https://discord.gg/a6PZZbfnFx), [GitHub](https://github.com/apache/incubator-answer), [Meta Answer](https://meta.answer.dev/), or our [mailing list](https://answer.apache.org/community/support).
