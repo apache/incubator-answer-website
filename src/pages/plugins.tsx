@@ -22,28 +22,17 @@ export default function Plugins(): JSX.Element {
       <HeaderSlogan type="plugin" />
       <Container className='py-5'>
          <div style={{ fontSize: '1.25rem' }}>
-          <Translate
-            id="plugins.instruction"
-            values={{
-              install_plugin_link: (
-                <a href="/docs/plugins">
-                  <Translate id="plugins.instruction.install">Install plugins</Translate>
-                </a>
-              ),
-              create_link: (
-                <a href="/community/plugins">
-                  <Translate id="plugins.instruction.create">Create a plugin</Translate>
-                </a>
-              ),
-              submit_link: (
-                <a href="https://github.com/apache/incubator-answer-plugins" target='_blank'>
-                  <Translate id="plugins.instruction.submit">Submit a plugin</Translate>
-                </a>
-              )
-            }}
-            >
-            {`{install_plugin_link} · {create_link} · {submit_link}`}
-          </Translate>
+            <a href="/docs/plugins">
+              <Translate id="plugins.instruction.install">Install plugins</Translate>
+            </a>
+            {' · '}
+            <a href="/community/plugins">
+              <Translate id="plugins.instruction.create">Create a plugin</Translate>
+            </a>
+            {' · '}
+            <a href="https://github.com/apache/incubator-answer-plugins" target='_blank'>
+              <Translate id="plugins.instruction.submit">Submit a plugin</Translate>
+            </a>
           </div>
 
          <Row className='mt-5'>
