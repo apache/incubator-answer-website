@@ -22,11 +22,11 @@ export default function Plugins(): JSX.Element {
       <HeaderSlogan type="plugin" />
       <Container className='py-5'>
          <div style={{ fontSize: '1.25rem' }}>
-            <a href="/docs/plugins">
+            <a href="docs/plugins">
               <Translate id="plugins.instruction.install">Install plugins</Translate>
             </a>
             {' · '}
-            <a href="/community/plugins">
+            <a href="community/plugins">
               <Translate id="plugins.instruction.create">Create a plugin</Translate>
             </a>
             {' · '}
