@@ -101,7 +101,7 @@ $ ./new_answer plugin
 
 ### Docker Build
 
-You can follow the steps above to build the binary with the plugin first, and then build a Docker image that contains the binary. Alternatively, you can also build directly on top of the original image.
+#### build with plugin from answer base image
 
 ```dockerfile  title="Dockerfile"
 FROM apache/answer as answer-builder
@@ -158,6 +158,19 @@ $ vim Dockerfile
 $ docker build -t answer-with-plugin .
 $ docker run -d -p 9080:80 -v answer-data:/data --name answer answer-with-plugin
 ```
+
+#### build with plugin from local code
+
+1. **keep your code up-to-date**: Make sure your local code is synchronized with the official repositories, or at least with the v1.3.5 version.
+2. **add required plugins**: Add your required plugin repositories to the `/script/plugin_list` file in the root directory, one per line.
+```
+github.com/apache/incubator-answer-plugins/connector-basic@latest  
+github.com/apache/incubator-answer-plugins/reviewer-basic@latest  
+github.com/apache/incubator-answer-plugins/captcha-basic@latest  
+github.com/apache/incubator-answer-plugins/editor_formula@latest
+```
+3. **build the Docker image**: Run the `docker build -t <name[:tag]> . ` command to start building the image.
+4. **verify image construction**: Run the `docker run -d -p 9080:80 -v answer-data:/data --name <container_name> <image_name>` command to start the container and locally verify whether the image is built successfully.
 
 ## Usage
 
