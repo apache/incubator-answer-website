@@ -201,7 +201,7 @@ We recommend the use of [official plugins](https://github.com/apache/incubator-a
 
 ## Develop and Contribute
 
-Please refer to [the documentation](/docs/development/plugins) for details.
+Please refer to [the documentation](/docs/development/overview) for details.
 
 ## Design & Principle
 

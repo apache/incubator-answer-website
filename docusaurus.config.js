@@ -241,7 +241,7 @@ const config = {
           },
           {
             to: '/docs/development/overview',
-            from: '/community/development',
+            from: ['/community/development', '/docs/development/plugins'],
           },
           {
             to: '/docs/development/plugins/overview',
