@@ -240,11 +240,11 @@ const config = {
             from: '/community/about',
           },
           {
-            to: '/docs/development/overview',
-            from: ['/community/development', '/docs/development/plugins'],
+            to: '/docs/development',
+            from: '/community/development',
           },
           {
-            to: '/docs/development/plugins/overview',
+            to: '/docs/development/plugins',
             from: '/community/plugins'
           },
           {

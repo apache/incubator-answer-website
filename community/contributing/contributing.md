@@ -45,7 +45,7 @@ Anyone can contribute to Apache Answer. In addition to contributing code, there 
 ##### Develop plugins
 
 - Extend the functionality of Apache Answer with plugins.
-- There are features that users are expecting, and you can claim or create your needs with [develop and submit](/docs/development/plugins/overview).
+- There are features that users are expecting, and you can claim or create your needs with [develop and submit](/docs/development/plugins).
 
 ##### Helping with version releases
 

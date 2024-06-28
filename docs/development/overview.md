@@ -1,5 +1,5 @@
 ---
-slug: /development/overview
+slug: /development
 ---
 
 # Overview

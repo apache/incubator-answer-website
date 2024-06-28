@@ -73,6 +73,6 @@ If you have already signed an Apache ICLA, no need to send an email. As you have
 
 ## Develop and Contribute
 
-Please refer to [the documentation](/docs/development/overview) for details.
+Please refer to [the documentation](/docs/development) for details.
 
 

@@ -1,6 +1,6 @@
 ---
 # sidebar_label: Plugins
-slug: /development/plugins/overview
+slug: /development/plugins
 ---
 
 # Overview

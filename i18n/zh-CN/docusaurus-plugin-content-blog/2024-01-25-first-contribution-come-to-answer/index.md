@@ -21,7 +21,7 @@ We’ve tagged different issues for novices and veterans to get hands on in the 
 
 [![Issues](GitHub%20Screenshot.jpeg)](https://github.com/apache/incubator-answer/issues)
 
-We know how important it is to have well-written and complete documentation to guide you. The Contributing doc covers everything you need, from how to submit an [issue](https://answer.apache.org/community/issues), to develop a [plugin](https://answer.apache.org/docs/development/plugins/overview), and how to write a [blog](https://answer.apache.org/community/blog-post).
+We know how important it is to have well-written and complete documentation to guide you. The Contributing doc covers everything you need, from how to submit an [issue](https://answer.apache.org/community/issues), to develop a [plugin](https://answer.apache.org/docs/development/plugins), and how to write a [blog](https://answer.apache.org/community/blog-post).
 
 ![Answer Docs](Docs%20Screenshot.png)
 
