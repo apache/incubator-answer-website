@@ -286,10 +286,10 @@ In order to simplify the development and compilation process, we use [workspace]
 
   :::info
 
-  The **name** field in package.json is the name of the package we add dependencies to; do not use `-` to connect this field naming, please use `_`; for example:
+  The **name** field in package.json is the name of the package we add dependencies to; do not use `_` to connect this field naming, please use `-`; for example:
 
-  "editor_chart" ✅  
-  "editor-chart" ❌
+  "editor-chart" ✅  
+  "editor_chart" ❌
 
   :::
 
