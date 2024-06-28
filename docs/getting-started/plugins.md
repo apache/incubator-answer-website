@@ -6,39 +6,28 @@ slug: /plugins
 
 :::tip
 
-When we need to do some extensions to Apache Answer's functionality, for example, OAuth login, we design a way to use plugins to implement these functions. 
+When we need to extend Apache Answer's functionality, such as adding OAuth login, we can design plugins to implement these features.
 
 :::
 
 ## Introduction
 
-### Official plugins
+### Official Plugins
 
 You can find a list of officially supported plugins for Apache Answer [here](https://github.com/apache/incubator-answer-plugins).
 
-### Plugin type
-
-We classify plugins into different types. Different types of plugins have different functions. Plugins of the same type have the same effect, but are implemented differently.
-
-- **Connector**: The Connector plugin helps us to implement third-party login functionality. e.g. `GitHub OAuth Login`
-- **Storage**: The Storage plugin helps us to upload files to third-party storage. (preview)
-- **Cache**: Support for using different caching middleware. e.g. `Redis` (preview)
-- **Filter**: Filter out illegal questions or answers. (coming soon)
-- **Render**: Parsers for different content formats. (coming soon)
-- **Finder**: Support for using search engines to speed up the search for question answers. (coming soon)
-
 ## Build
 
-Apache Answer binary supports packaging different required plugins into the binary.
+The Apache Answer binary supports packaging different required plugins into the binary.
 
 ### Prerequisites
 
 - Original Apache Answer binary
-- [Golang](https://go.dev/) `>=1.18`
+- [Go](https://go.dev/) `>=1.18`
 - [Node.js](https://nodejs.org/) `>=16.17`
 - [pnpm](https://pnpm.io/) `>=7`
 
-### Command
+### Binary Build
 
 :::tip
 
@@ -46,27 +35,53 @@ We use the `build` command provided with the Apache Answer binary to rebuild a v
 
 :::
 
-For example, let's see how to build an Apache Answer binary that includes the github third-party login plugin.
+For example, let's see how to build an Apache Answer binary that includes the GitHub third-party login plugin.
+
+#### Using Official Plugins
+
+You can specify the plugins to use with the `--with` parameter:
 
 ```shell
-# answer build --with [plugin@plugin_version=[replacement]] --output [file]
+# Build Answer with the GitHub connector plugin
 $ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
+```
 
-# build a new answer with github login plugin then output to ./new_answer.
+You can also specify the plugin version:
+
+```shell
+# Build Answer with the GitHub connector plugin version 1.0.0
 $ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github@1.0.0 --output ./new_answer
+```
 
-# with multiple plugins
+You can use multiple plugins at the same time:
+
+```shell
 $ ./answer build \
 --with github.com/apache/incubator-answer-plugins/connector-github \
 --with github.com/apache/incubator-answer-plugins/connector-google
+```
 
-# with local plugins
+#### Using Local Plugins
+
+If you need to use a local plugin, you can use the following command:
+
+```shell
 $ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github@1.0.0=/my-local-space
+```
 
-# cross compilation. Build a linux-amd64 binary in macos
+#### Cross Compilation
+
+You can use the following command to build a Linux-amd64 binary on macOS:
+
+```shell
 $ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
+```
 
-# specify the answer version using ANSWER_MODULE environment variable
+#### Specifying the Answer Version
+
+You can use the `ANSWER_MODULE` environment variable to specify the Answer version:
+
+```shell
 $ ANSWER_MODULE=github.com/apache/incubator-answer@v1.2.0-RC1 ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
 ```
 
@@ -79,13 +94,14 @@ You can use the `plugin` command to list the current binary containing plugins.
 ```shell
 $ ./new_answer plugin
 
-# output
+# Output:
 # github connector[0.0.1] made by answerdev
 # google connector[0.0.1] made by answerdev
 ```
 
-### Build docker image with plugin from answer base image
-> You can follow the steps above to build the binary with the plugin first, and then build a docker image that contains the binary. Of course, you can also build directly on top of the original image.
+### Docker Build
+
+You can follow the steps above to build the binary with the plugin first, and then build a Docker image that contains the binary. Alternatively, you can also build directly on top of the original image.
 
 ```dockerfile  title="Dockerfile"
 FROM apache/answer as answer-builder
@@ -137,24 +153,11 @@ ENTRYPOINT ["/entrypoint.sh"]
 > You can update the --with parameter to add more plugins that you need.
 
 ```shell
-# create a Dockerfile and copy the content above
+# Create a Dockerfile and copy the content above
 $ vim Dockerfile
 $ docker build -t answer-with-plugin .
 $ docker run -d -p 9080:80 -v answer-data:/data --name answer answer-with-plugin
 ```
-
-
-
-## Third-party plugin
-
-:::tip
-
-We recommend the use of [official plugins](https://github.com/apache/incubator-answer-plugins), if you want to use third-party plugins, refer to the following.
-
-:::
-
-- If the third-party plugin is publicly available, you can build with it like official plugins.
-- If the third-party plugin is private, you need to download it then build with.
 
 ## Usage
 
@@ -170,14 +173,23 @@ Note that if you are upgrading from a non-plugin version to a plugin version, yo
 
 :::
 
-You need build a new Apache Answer binary with the new plugin version, then replace the old Apache Answer binary with the new one. As with normal upgrades, you need to execute different [upgrade steps](./upgrade) depending on the  deployment method. For example, if you are using binary deployment, you need to execute the `upgrade` command.
+You need to build a new Apache Answer binary with the new plugin version, then replace the old Apache Answer binary with the new one. As with normal upgrades, you need to execute different [upgrade steps](./upgrade) depending on the deployment method. For example, if you are using binary deployment, you need to execute the `upgrade` command.
 
+## Third-party Plugin
 
+:::tip
 
-## Develop and contributing
+We recommend the use of [official plugins](https://github.com/apache/incubator-answer-plugins). If you want to use third-party plugins, refer to the following.
 
-Please refer to [the documentation](/community/plugins) for details.
+:::
 
-## Design & principle
+- If the third-party plugin is publicly available, you can build with it like official plugins.
+- If the third-party plugin is private, you need to download it and then build with it.
 
-Since Golang is a static language, there is no friendly plugin mechanism. So instead of a dynamic approach, we use recompilation for deployment. Please refer to [the blog](/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way) for details.
+## Develop and Contribute
+
+Please refer to [the documentation](/docs/development/plugins) for details.
+
+## Design & Principle
+
+Since Go is a static language, there is no friendly plugin mechanism. Instead of a dynamic approach, we use recompilation for deployment. Please refer to [the blog](/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way) for details.
