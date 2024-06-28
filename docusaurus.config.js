@@ -239,6 +239,22 @@ const config = {
             to: '/community/team',
             from: '/community/about',
           },
+          {
+            to: '/docs/development/overview',
+            from: '/community/development',
+          },
+          {
+            to: '/docs/development/plugins/overview',
+            from: '/community/plugins'
+          },
+          {
+            to:'/docs/development/plugins/plugin-config',
+            from: '/community/plugins/plugin-config'
+          },
+          {
+            to:'/docs/development/plugins/plugin-translation',
+            from: '/community/plugins/plugin-translation',
+          }
         ],
       },
     ],
