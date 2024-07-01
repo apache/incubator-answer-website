@@ -1,0 +1,50 @@
+---
+slug: /support
+---
+
+# 支持
+
+你好！欢迎使用 Apache Answer。作为一款问答平台软件，我们吸引了一群好奇并乐于助人的用户，他们总是愿意帮助解答你的疑问。 
+
+如果你在寻找答案时遇到了困难，可以查看我们的[社区](#answer-meta)、[文档](/docs)、[问题](/community/issues)或者[邮件列表](#mailing-list)。如果你找到了你能回答的问题，请解答它吧！即使你的回答可能不完美，我们的志愿者也很高兴帮助你查漏补缺。
+
+如果你在查看我们的文档与资源之后仍然有疑问，可以随时[与我们联系](#others)。由于我们的用户和贡献者来自世界各地，所以我们建议使用英文作为作为主要沟通语言，以获得更好的帮助。
+
+## Apache Answer Meta
+
+Apache Answer 本身是关于提问和解答，那么作为其官方社区， Apache Answer Meta 是讨论你在 Answer 里遇到的任何问题、分享经验或通过帮助解答他人问题的最佳平台。 Apache Answer Meta 同时也是追踪问题和答案的好方法，并且有助于确保内容始终是最新的。
+
+<a href="https://meta.answer.dev" className="btn btn-lg btn-primary"><i className="bi bi-chat-square-text-fill me-2"></i>讨论论坛</a>
+
+## 邮件列表
+
+我们使用邮件沟通，因为这这是一种让每人都知晓情况的途径。在发邮件之前，你可以先搜索过往邮件记录列表，看看之前是否有讨论过与你的问题相关的内容。
+
+| 邮箱 | 描述 | 订阅 | 取消订阅 | 过往邮件 |
+| --- | --- | --- | --- | --- |
+| dev@answer.apache.org | 社区讨论 | [订阅](mailto:dev-subscribe@answer.apache.org) | [取消订阅](mailto:dev-subscribe@answer.apache.org) | [过往邮件](https://lists.apache.org/list.html?dev@answer.apache.org) |
+| commits@answer.apache.org | 代码仓库更新 | [订阅](mailto:commits-subscribe@answer.apache.org) | [取消订阅](mailto:commits-unsubscribe@answer.apache.org) | [过往邮件](https://lists.apache.org/list.html?commits@answer.apache.org) |
+
+温馨提示，如果你没有订阅邮件列表，你将不会收到该组群的任何回复。
+
+## 其他
+
+关于 Apache Answer 的最新消息，请在公众号上关注 Answer Dev 和[官方博客](/blog)。你也可以通过 [Discord](https://discord.gg/a6PZZbfnFx) 和我们联系，但是由于团队规模限制，我们不能确保回复的即时性，感谢你的理解。
+
+import HubspotForm from 'react-hubspot-form';
+import Translate from '@docusaurus/Translate';
+import { Spinner } from 'react-bootstrap';
+
+  <HubspotForm
+      portalId="23567456"
+      formId="784f94e6-9bfd-4f5e-aeba-5ba40563de8c"
+      loading={<div className='text-center'>
+        <Spinner animation="border" role="status" variant="secondary">
+          <span className="visually-hidden">
+            <Translate id="loading">
+              Loading...
+            </Translate>
+          </span>
+        </Spinner>
+      </div> }
+    />

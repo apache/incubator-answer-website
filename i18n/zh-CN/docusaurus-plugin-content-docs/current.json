@@ -46,5 +46,25 @@
   "sidebar.tutorialSidebar.link.Roadmap": {
     "message": "规划",
     "description": "The label for link Roadmap in sidebar tutorialSidebar, linking to https://github.com/apache/incubator-answer/projects"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.User Guides": {
+    "message": "User Guides",
+    "description": "The label for category User Guides in sidebar docs"
+  },
+  "sidebar.docs.category.Moderation": {
+    "message": "Moderation",
+    "description": "The label for category Moderation in sidebar docs"
+  },
+  "sidebar.docs.category.Commons": {
+    "message": "Commons",
+    "description": "The label for category Commons in sidebar docs"
+  },
+  "sidebar.docs.category.Developer Guides": {
+    "message": "开发者指南",
+    "description": "The label for category Developer Guides in sidebar docs"
   }
 }
