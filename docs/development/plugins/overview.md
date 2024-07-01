@@ -1,9 +1,9 @@
 ---
 # sidebar_label: Plugins
-slug: /plugins
+slug: /development/plugins
 ---
 
-# Contribute for Plugins
+# Overview
 
 :::tip
 
@@ -11,15 +11,95 @@ Viewing the [**official plugin code**](https://github.com/apache/incubator-answe
 
 :::
 
-## Plugin types
+## Introduction
 
+### Plugin template types
 Currently we have three types of plugins:
 
-- Only Backend plugin
-- Frontend Builtin plugin
+- Backend plugin
 - Standard UI plugin
+- Builtin plugin
+  
+### Plugin type
 
-## Backend plugin
+We classify plugins into different types. Different types of plugins have different functions. Plugins of the same type have the same effect, but are implemented differently.
+
+- **Connector**: The Connector plugin helps us to implement third-party login functionality.
+- **Storage**: The Storage plugin helps us to upload files to third-party storage.
+- **Cache**: Support for using different caching middleware.
+- **Search**: Support for using search engines to speed up the search for question answers.
+- **User Center**: Using the third-party user system to manage users.
+- **Notification**: The Notification plugin helps us to send messages to third-party notification systems.
+- **Route**: Provides support for custom routing.
+- **Editor**: Supports extending the markdown editor's toolbar.
+- **Reviewer**: Allows customizing the reviewer functionality.
+- **Filter**: Filter out illegal questions or answers. (coming soon)
+- **Render**: Parsers for different content formats. (coming soon)
+
+## Create a Plugin
+
+1. Go to the `ui > src > plugin` directory of the project.
+
+2. Execute the following commands in that directory:
+
+```shell
+npx create-answer-plugin <pluginName>
+```
+
+3. Select the type of plugin you want to create.
+
+The plugin will be created in the `ui > src > plugin` directory.
+
+## Debugging Plugins
+
+### Debugging Backend Plugins
+
+1. First, execute `make ui` to compile the front-end code.
+2. In the `cmd > answer > main.go` file, import your plugin.
+
+    ```go
+    import (
+      answercmd "github.com/apache/incubator-answer/cmd"
+
+      // Import the plugins
+      _ "github.com/apache/incubator-answer/ui/src/plugins/my-plugin"
+    )
+    ```
+3. Use `go mod edit` to add the plugin to the `go.mod` file.
+
+    ```shell
+    go mod edit -replace=github.com/apache/incubator-answer/ui/src/plugins/my-plugin=../ui/src/plugins/my-plugin
+    ```
+4. Update the dependencies.
+
+    ```shell
+    go mod tidy
+    ```
+
+5. Start the project.
+
+    ```shell
+    go run cmd/answer/main.go run -C ./answer-data
+    ```
+
+### Debugging Standard UI Plugins
+
+1. Go to the `ui` directory.
+2. Install the dependencies.
+
+    ```shell
+    pnpm pre-install
+    ```
+
+3. Start the project.
+
+    ```shell
+    pnpm start
+    ```
+
+4. Refer to the [Debugging Backend Plugins](/docs/development/plugins#debugging-plugins) and add the plugin to the project.
+
+## Backend Plugin Development
 
 ### Implement the Base interface
 
@@ -88,13 +168,13 @@ type Connector interface {
 
 :::tip
 
-`Translator` is a struct for translation. Please refer to [the documentation](/community/plugins/plugin-translation) for details.
+`Translator` is a struct for translation. Please refer to [the documentation](/docs/development/plugins/plugin-translation) for details.
 
 :::
 
 ### Implement the configuration interface
 
-For details on the description of each configuration item, please refer to [the documentation](/community/plugins/plugin-config).
+For details on the description of each configuration item, please refer to [the documentation](/docs/development/plugins/plugin-config).
 
 ```go
 type Config interface {
@@ -206,10 +286,10 @@ In order to simplify the development and compilation process, we use [workspace]
 
   :::info
 
-  The **name** field in package.json is the name of the package we add dependencies to; do not use `-` to connect this field naming, please use `_`; for example:
+  The **name** field in package.json is the name of the package we add dependencies to; do not use `_` to connect this field naming, please use `-`; for example:
 
-  "editor_chart" ✅  
-  "editor-chart" ❌
+  "editor-chart" ✅  
+  "editor_chart" ❌
 
   :::
 

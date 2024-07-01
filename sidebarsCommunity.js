@@ -13,21 +13,7 @@ module.exports = {
       collapsed: false,
       items: [
         'contributing/issues',
-        'contributing/development',
         'contributing/pull-request',
-        {
-          type: 'category',
-          label: 'Plugins',
-          link: {
-            type: 'doc',
-            id: 'contributing/plugins',
-          },
-          collapsed: true,
-          items: [
-            'contributing/plugins/plugin-config',
-            'contributing/plugins/plugin-translation',
-          ],
-        },
         'contributing/translation',
         'contributing/blog-post',
         'contributing/how-to-release',

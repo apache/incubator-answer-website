@@ -69,3 +69,10 @@ Apache CLA short for Apache Contributor License Agreement, the purpose of this a
 For larger contributions, contributed by a single original author, we might ask you to submit an [Individual Contributor License Agreement (ICLA)](https://www.apache.org/licenses/contributor-agreements.html) form. The copyright on your code will still belong to you, but the ICLA helps protect the users of Apache Answer. All project Committers have also signed this form.
 
 If you have already signed an Apache ICLA, no need to send an email. As you have already submitted an ICLA under your public name, no need to resubmit it. If you have never signed an ICLA, please indicate this in your email, and PMC can apply for this account directly.
+
+
+## Develop and Contribute
+
+Please refer to [the documentation](/docs/development) for details.
+
+
