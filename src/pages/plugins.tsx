@@ -26,7 +26,7 @@ export default function Plugins(): JSX.Element {
               <Translate id="plugins.instruction.install">Install plugins</Translate>
             </a>
             {' · '}
-            <a href="/community/plugins">
+            <a href="/docs/development/plugins#create-a-plugin">
               <Translate id="plugins.instruction.create">Create a plugin</Translate>
             </a>
             {' · '}
