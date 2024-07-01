@@ -59,6 +59,7 @@ module.exports = {
             'guides/reputation',
           ],
         },
+        'guides/deploy-subdirectory'
       ],
     },
     {
