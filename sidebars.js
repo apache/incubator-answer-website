@@ -29,6 +29,7 @@ module.exports = {
         'getting-started/command-line',
         'getting-started/configfile',
         'getting-started/env',
+        'getting-started/plugins',
       ],
     },
     {
@@ -58,7 +59,7 @@ module.exports = {
             'guides/reputation',
           ],
         },
-        'guides/plugins',
+        'guides/deploy-subdirectory'
       ],
     },
     {
@@ -66,8 +67,20 @@ module.exports = {
       label: 'Developer Guides',
       collapsed: true,
       items: [
+        'development/overview',
+        {
+          type: 'category',
+          label: 'Plugins',
+          collapsed: true,
+          items: [
+            'development/plugins/overview',
+            'development/plugins/plugin-config',
+            'development/plugins/plugin-translation',
+          ],
+        },
         'development/database',
         'development/api',
+
       ],
     },
     'notice',

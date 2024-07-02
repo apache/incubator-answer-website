@@ -9,7 +9,7 @@
   },
   "item.label.Plugins": {
     "message": "插件",
-    "description": "Navbar item with label Roadmap"
+    "description": "Navbar item with label Plugins"
   },
   "item.label.Community": {
     "message": "社区",
@@ -22,5 +22,61 @@
   "item.label.Contact": {
     "message": "联系我们",
     "description": "Navbar item with label Contact"
+  },
+  "item.label.Download": {
+    "message": "下载",
+    "description": "Navbar item with label Download"
+  },
+  "item.label.ASF": {
+    "message": "阿帕奇软件基金会",
+    "description": "Navbar item with label ASF"
+  },
+  "item.label.Support": {
+    "message": "支持",
+    "description": "Navbar item with label Support"
+  },
+  "item.label.Forum": {
+    "message": "论坛",
+    "description": "Navbar item with label Forum"
+  },
+  "item.label.Team": {
+    "message": "团队",
+    "description": "Navbar item with label Team"
+  },
+  "item.label.Security": {
+    "message": "安全",
+    "description": "Navbar item with label Security"
+  },
+  "item.label.Contributing": {
+    "message": "贡献",
+    "description": "Navbar item with label Contributing"
+  },
+  "item.label.Roadmap": {
+    "message": "路线图",
+    "description": "Navbar item with label Roadmap"
+  },
+  "item.label.Foundation": {
+    "message": "基金会",
+    "description": "Navbar item with label Foundation"
+  },
+  "item.label.License": {
+    "message": "许可证",
+    "description": "Navbar item with label License"
+  },
+  "item.label.Events": {
+    "message": "活动",
+    "description": "Navbar item with label Events"
+  },
+  "item.label.Sponsorship": {
+    "message": "赞助",
+    "description": "Navbar item with label Sponsorship"
+  },
+  "item.label.Privacy": {
+    "message": "隐私",
+    "description": "Navbar item with label Privacy"
+  },
+  "item.label.Thanks": {
+    "message": "致谢",
+    "description": "Navbar item with label Thanks"
   }
 }

@@ -1,5 +1,5 @@
 ---
-slug: /plugins/plugin-translation
+slug: /development/plugins/plugin-translation
 ---
 
 # Plugin Translation

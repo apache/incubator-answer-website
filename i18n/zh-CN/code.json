@@ -474,7 +474,7 @@
     "message": "开始使用"
   },
   "home.apache.answer": {
-     "message": "Apache Answer 是 Apache 软件基金会正在孵化的一个项目"
+    "message": "Apache Answer 是 Apache 软件基金会正在孵化的一个项目"
   },
   "home.features.title1": {
     "message": "问答社区"
@@ -566,8 +566,11 @@
   "plugins.slogan": {
     "message": "根据您的需求扩展功能。"
   },
-  "plugins.instruction": {
-    "message": "任何人都可以向 Answer {submit_link}。如果您对构建自己的插件有任何疑问，请 {community_link}。"
+  "plugins.instruction.install": {
+    "message": "下载插件"
+  },
+  "plugins.instruction.create": {
+    "message": "创建插件"
   },
   "plugins.instruction.submit": {
     "message": "提交插件"
@@ -581,7 +584,7 @@
   "docs.sidebar.tutorialSidebar.category.User Guides": {
     "message": "用户指南"
   },
-  "download.title" : {
+  "download.title": {
     "message": "下载"
   },
   "download.slogan": {
@@ -589,5 +592,37 @@
   },
   "docs.sidebar.tutorialSidebar.category.Developer Guides": {
     "message": "开发者指南"
+  },
+  "Download": {
+    "message": "下载"
+  },
+  "Plugins": {
+    "message": "插件"
+  },
+  "plugin.title": {
+    "message": "插件"
+  },
+  "plugin.slogan": {
+    "message": "利用我们的社区插件扩展功能并开启新的可能性。"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展开侧边栏分类 '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "折叠侧边栏分类 '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.admonition.warning": {
+    "message": "注意",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.unlistedContent.title": {
+    "message": "未列出页",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "此页面未列出。搜索引擎不会对其索引，只有拥有直接链接的用户才能访问。",
+    "description": "The unlisted content banner message"
   }
 }

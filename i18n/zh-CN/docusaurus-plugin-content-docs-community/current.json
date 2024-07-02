@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "下一个",
+    "description": "The label for version current"
+  },
+  "sidebar.community.category.Contributing": {
+    "message": "贡献",
+    "description": "The label for category Contributing in sidebar community"
+  },
+  "sidebar.community.category.Plugins": {
+    "message": "插件",
+    "description": "The label for category Plugins in sidebar community"
+  },
+  "sidebar.community.link.Feature Request": {
+    "message": "功能需求",
+    "description": "The label for link Feature Request in sidebar community, linking to https://github.com/apache/incubator-answer/issues"
+  },
+  "sidebar.community.link.Roadmap": {
+    "message": "路线图",
+    "description": "The label for link Roadmap in sidebar community, linking to https://github.com/apache/incubator-answer/projects"
+  }
+}
