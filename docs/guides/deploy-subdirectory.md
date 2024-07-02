@@ -27,7 +27,7 @@ The configuration must be set at build time and cannot be changed without a rebu
 
 In order to unify the management of configuration-related variables, starting from v1.3.5, the environment variables in the ui directory are unified into `/configs/config.yaml` in the root directory, and the configurations here will be generated into `/ui/.env.production` by scripts, so as to realize the injection of environment variables.
 
-Note: This only affects variables in the production environment, for development mode please continue to refer [here](/community/development). For more information on configuration files, please refer to [here](/docs/configfile).
+Note: This only affects variables in the production environment, for development mode please continue to refer [here](/docs/development). For more information on configuration files, please refer to [here](/docs/configfile).
 
 
 ```
