@@ -3,7 +3,9 @@
 slug: /development/plugins
 ---
 
-# Overview
+# Plugins Development Guide
+
+Plugins are a way to extend the functionality of the Answer project. You can create your own plugins to meet your own needs.
 
 :::tip
 
