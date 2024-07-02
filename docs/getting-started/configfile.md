@@ -8,6 +8,8 @@ slug: /configfile
 
 We use `yaml` configuration file. It will be created automatically after `answer init` command. The default path is `/data/conf/config.yaml`
 
+The `ui` configuration first is used to configure React's environment variables, which generally don't need to be changed unless you want to configure a CDN or deploy the project in a subdirectory.
+
 :::
 
 ## config.yaml description
@@ -31,4 +33,8 @@ swaggerui:
   address: ':80'  # accessible port number
 service_config:
   upload_path: "/data/uploads" # upload directory
+ui:
+  public_url: '/' # static resource path
+  api_url: '/' # api url for  ajax requests
+  base_url: ''  # the default deployment is in the root directory, you need to change this value when deploying in a subdirectory
 ```

@@ -98,7 +98,8 @@ Click Next button to create the configuration file.
 ### Step 4: Fill in basic information
 
 :::caution
-Site URL is the browser address you will use to access answers after installation.  
+Site URL is the browser address you will use to access answers after installation. If you are deploying a subdirectory, the site url needs to include the subdirectory's path, eg: https://yourdoamin/{subdirectory}
+
 **Don't forget the admin Email and password.**
 :::
 
