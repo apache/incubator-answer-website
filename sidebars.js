@@ -66,14 +66,20 @@ module.exports = {
       type: 'category',
       label: 'Developer Guides',
       collapsed: true,
+      link: {
+        type: 'doc',
+        id: 'development/guide',
+      },
       items: [
-        'development/overview',
         {
           type: 'category',
           label: 'Plugins',
           collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'development/plugins/plugin',
+          },
           items: [
-            'development/plugins/overview',
             'development/plugins/plugin-config',
             'development/plugins/plugin-translation',
           ],
