@@ -1,12 +1,14 @@
 ---
 slug: /development
 ---
+# Development Guide
 
-# Overview
+This guide will help you get started with the development of the project.
 
 ## Frontend
 
 ### Installation
+
 
 1. Ensure you have [node](https://nodejs.org/en) and [pnpm](https://pnpm.io/installation) installed.
 2. After cloning the repository, run the following command. This will install all dependencies as well as build all local packages.
