@@ -1,0 +1,96 @@
+---
+slug: /team
+---
+
+
+# 团队
+
+Apache Answer 团队致力于核心功能、插件以及文档网站。团队的现任成员按字母顺序排列如下。
+
+import UserData from './team.json';
+
+## Podling 项目管理委员会
+
+每个Podling项目管理委员会（PPMC）都帮助其Podling学习如何管理自己。它像PMC一样工作，但向孵化器PMC报告，而不是向ASF董事会报告。最初，它由Podling的导师和最初的提交者组成。PPMC直接负责监督podling，它还决定添加谁作为PPMC成员。
+
+<div className="row">
+  {
+    UserData[0].users.map(u => {
+      return (
+        <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-4">
+            <img src={u.avatar} width="48" height="48" className="rounded me-2 lh-normal" />
+            <div>
+              <a href={u.github} target="_blank" className="d-block lh-base">{u.name}</a>
+              <div className="fs-14 text-secondary">{u.role}</div>
+            </div>
+        </div>
+      )
+    })
+  }
+</div>
+
+## 代码贡献者
+
+提交者可以对代码存储库进行读写访问，签署CLA，并使用 `@apache.org` 电子邮件。经PMC批准，他们可以修补代码或文档。成为提交者没有时间表或具体要求，但积极的贡献者是强有力的候选人。作为提交者，你通过审查和合并代码、测试发布候选者、参与讨论并以各种方式做出贡献来塑造项目的未来。活跃的贡献者可能会被邀请加入PMC。
+
+<div className="row">
+  {
+    UserData[1].users.map(u => {
+      return (
+        <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-4">
+            <img src={u.avatar} width="48" height="48" className="rounded me-2 lh-normal" />
+            <div>
+              <a href={u.github} target="_blank" className="d-block lh-base">{u.name}</a>
+              <div className="fs-14 text-secondary">{u.role}</div>
+            </div>
+        </div>
+      )
+    })
+  }
+</div>
+
+## 撰稿人
+
+成为贡献者意味着你对项目感兴趣并做出贡献，而不仅仅是代码。在 Apache Answer 中，有一些贡献方式，你可以在[这里](/community/contributing)找到更多信息。只要你为 Apache Answer 项目做出贡献，你就是公认的 Apache Answer 贡献者。如果你成为该项目的宝贵贡献者，项目管理委员会（PMC）可能会邀请你成为委员会成员。
+
+### 编码
+<div className="row mb-3">
+  {
+    UserData[2].users.map(u => {
+      return (
+        <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-1">
+          <a href={u.github} target="_blank">{u.name}</a>
+        </div>
+      )
+    })
+  }
+</div>
+
+### 翻译
+
+<div className="row mb-3">
+  {
+    UserData[3].users.map(u => {
+      return (
+        <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-1">
+          <a href={u.github} target="_blank">{u.name}</a>
+        </div>
+      )
+    })
+  }
+</div>
+
+
+你可以在这些页面找到所有代码贡献者：
+
+- [Contributors to apache/incubator-answer](https://github.com/apache/incubator-answer/graphs/contributors)
+- [Contributors to apache/incubator-answer-plugins](https://github.com/apache/incubator-answer-plugins/graphs/contributors)
+- [Contributors to apache/incubator-answer-website](https://github.com/apache/incubator-answer-website/graphs/contributors)
+- [Contributors to translation](https://crowdin.com/project/answer/reports/top-members)
+
+## 参考
+
+- https://community.apache.org/contributors
+- https://community.apache.org/contributors/becomingacommitter.html
+- https://incubator.apache.org/guides/ppmc.html
+- https://www.apache.org/dev/pmc.html
