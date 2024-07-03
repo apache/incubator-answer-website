@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 var path = require('path');
-var outputFile = path.resolve(__dirname, '../community/team.json');
+var outputFile = path.resolve(__dirname, '../static/data/team.json');
 
 // crowdin token
 var TOKEN = '';
