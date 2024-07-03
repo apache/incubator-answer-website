@@ -3,7 +3,9 @@
 slug: /development/plugins
 ---
 
-# Overview
+# Plugins Development Guide
+
+Plugins are a way to extend the functionality of the Answer project. You can create your own plugins to meet your own needs.
 
 :::tip
 
@@ -24,19 +26,31 @@ Currently we have three types of plugins:
 
 We classify plugins into different types. Different types of plugins have different functions. Plugins of the same type have the same effect, but are implemented differently.
 
-- **Connector**: The Connector plugin helps us to implement third-party login functionality.
-- **Storage**: The Storage plugin helps us to upload files to third-party storage.
-- **Cache**: Support for using different caching middleware.
-- **Search**: Support for using search engines to speed up the search for question answers.
-- **User Center**: Using the third-party user system to manage users.
-- **Notification**: The Notification plugin helps us to send messages to third-party notification systems.
-- **Route**: Provides support for custom routing.
-- **Editor**: Supports extending the markdown editor's toolbar.
-- **Reviewer**: Allows customizing the reviewer functionality.
-- **Filter**: Filter out illegal questions or answers. (coming soon)
-- **Render**: Parsers for different content formats. (coming soon)
+Plugin Name | Template Type | Description
+--- | --- | ---
+Connector | Backend Plugin | The Connector plugin helps us to implement third-party login functionality
+Storage | Backend Plugin | The Storage plugin helps us to upload files to third-party storage.
+Cache | Backend Plugin | Support for using different caching middleware.
+Search | Backend Plugin | Support for using search engines to speed up the search for question answers.
+User Center | Backend Plugin | Using the third-party user system to manage users.
+Notification | Backend Plugin | The Notification plugin helps us to send messages to third-party notification systems.
+Route | Standard UI Plugin | Provides support for custom routing.
+Editor | Standard UI Plugin | Supports extending the markdown editor's toolbar.
+Captcha | Standard UI Plugin | Provides support for captcha.
+Reviewer |  Backend Plugin  |Allows customizing the reviewer functionality.
+Filter |  Backend Plugin | Filter out illegal questions or answers. (coming soon)
+Render | Standard UI Plugin | Parsers for different content formats. (coming soon)
 
 ## Create a Plugin
+
+:::info
+
+The **name** field in package.json is the name of the package we add dependencies to; do not use `_` to connect this field naming, please use `-`; for example:
+
+"editor-chart" ✅  
+"editor_chart" ❌
+
+:::
 
 1. Go to the `ui > src > plugin` directory of the project.
 
@@ -48,11 +62,11 @@ npx create-answer-plugin <pluginName>
 
 3. Select the type of plugin you want to create.
 
-The plugin will be created in the `ui > src > plugin` directory.
 
-## Debugging Plugins
 
-### Debugging Backend Plugins
+## Run the Plugin
+
+### Run the Backend Plugin
 
 1. First, execute `make ui` to compile the front-end code.
 2. In the `cmd > answer > main.go` file, import your plugin.
@@ -82,7 +96,7 @@ The plugin will be created in the `ui > src > plugin` directory.
     go run cmd/answer/main.go run -C ./answer-data
     ```
 
-### Debugging Standard UI Plugins
+### Run the Standard UI Plugin
 
 1. Go to the `ui` directory.
 2. Install the dependencies.
@@ -97,7 +111,7 @@ The plugin will be created in the `ui > src > plugin` directory.
     pnpm start
     ```
 
-4. Refer to the [Debugging Backend Plugins](/docs/development/plugins#debugging-plugins) and add the plugin to the project.
+4. Refer to the [Run the Backend Plugin](/docs/development/plugins#debugging-plugins) and add the plugin to the project.
 
 ## Backend Plugin Development
 
@@ -203,31 +217,82 @@ func init() {
 }
 ```
 
-### Debugging tips
+## Standard UI plugin Development
 
-:::tip
+The default configuration is as follows:
 
-During the development and debugging phase, you can use the following tips to avoid repetitive packaging.
+```yaml
+slug_name: <slug_name> 
+type: <type>
+version: 0.0.1
+author: 
 
-:::
+```
+```tsx
+import i18nConfig from './i18n';
+import Component from './Component';
+import info from './info.yaml';
 
-1. Use answer source code for development.
-2. Write your plugin directly in the plugin directory.
-3. Import your plugin in the main function
+export default {
+  info: {
+    slug_name: info.slug_name,
+    type: info.type, 
+  },
+  i18nConfig,
+  component: Component, 
+};
+```
 
-After that you just need to start the answer project normally and it will contain the plugins you developed.
+Among them, `type`、`slug_name` and `component` are required fields. `i18nConfig` and `hooks` are optional fields.
 
-## Registration and activation of plugins
+Currently the front end supports the following types of plugins:
+* editor
+* route
+* captcha
 
-All types of plug-in activation registration (or display) logic are in the `ui/utils/pluginKit/index.ts` file. During the development process, you can modify `registerPlugins` or call `changePluginActiveStatus` either of these two methods. to control whether your plugin is displayed.
+### Editor plugin
 
-## Builtin plugin
+Refer to [editor-chart](https://github.com/apache/incubator-answer-plugins/tree/main/editor-chart) for details.
+
+### Route plugin
+
+The plugin configuration of the routing type adds the `route` field to the configuration file.
+
+```yaml
+slug_name: <slug_name>
+route: /<route>
+type: route
+version: 0.0.1
+author: 
+
+```
+```tsx
+import i18nConfig from './i18n';
+import Component from './Component';
+import info from './info.yaml';
+
+export default {
+  info: {
+    slug_name: info.slug_name,
+    type: info.type,
+    route: info.route,
+  },
+  i18nConfig,
+  component: Component,
+};
+```
+
+### Captcha plugin
+
+Refer to [captcha-basic](https://github.com/apache/incubator-answer-plugins/tree/main/captcha-basic) for details.
+
+## Builtin plugin Development
 
 It is not so different from React component, this plugin is more suitable for the following scenarios:
 
 1. There are complex business logics that cannot be separated from the code (such as Oauth).
-2. Some back-end plug-ins require UI support for business purposes (such as Search).
-3. This plug-in has extremely low requirements for developers and requires no additional configuration work.
+2. Some back-end plugins require UI support for business purposes (such as Search).
+3. This plugin has extremely low requirements for developers and requires no additional configuration work.
 
 ### How to develop builtin plugin
 
@@ -267,46 +332,4 @@ It is not so different from React component, this plugin is more suitable for th
     />
   ```
 
-4. **Publish plugin**: initiate the PR process normally and describe the plug-in function and scope of influence in detail.
-
-## Standard UI plugin
-
-This plugin is suitable for the following scenarios
-
-1. A plug-in that can independently complete some UI functions and does not require back-end support;
-2. The code needs to be isolated to prevent confusion with the main site;
-
-Existing examples:[editor-chart](https://github.com/apache/incubator-answer-plugins/tree/main/editor-chart), [editor-formula](https://github.com/apache/incubator-answer-plugins/tree/main/editor-formula).
-
-In order to simplify the development and compilation process, we use [workspace](https://pnpm.io/next/workspaces) to manage this independent front-end warehouse.
-
-### How to develop standard UI plugin
-
-1. First, refer to the two existing warehouses above to familiarize yourself with the basic configuration and component export methods.
-
-  :::info
-
-  The **name** field in package.json is the name of the package we add dependencies to; do not use `_` to connect this field naming, please use `-`; for example:
-
-  "editor-chart" ✅  
-  "editor_chart" ❌
-
-  :::
-
-2. Go to the `ui/src/plugins` directory and create a directory, such as editor_chart, then add the components you want to develop, then modify the `ui/src/plugins/index.ts` file to export your components; **changes here during the release phase do not need to be submitted**.
-
-  ```ts
-  export { default as  editor_chart } from 'editor_chart';
-  ```
-
-3. Run `pnpm pre-install`, and re-run `pnpm start`, and finally call the changePluginActiveStatus method in PluginKit on the page where you need to load the plugin to activate the plugin. **Changes here during the release phase do not need to be submitted**.
-
-  ```ts
-  import PluginKit from '@/utils/pluginKit';
-  // call this method
-  // @param1 plugin_name 
-  // @param2 boolean; is whether or not to activate the
-  PluginKit.changePluginActiveStatus('editor_chart', true);
-  ```
-
-4. **Publish plugin**: after the function is developed, copy your entire plug-in folder to [incubator-answer-plugins](https://github.com/apache/incubator-answer-plugins), **and add  `go.mod` `[plugin_name].go` `go.sum` these three files**; then initiate a PR and wait for review by relevant personnel; if incubator-answer If there are relevant changes in PR, please describe the scope of impact in PR.
+4. **Publish plugin**: initiate the PR process normally and describe the plugin function and scope of influence in detail.
