@@ -2,9 +2,9 @@
 
 var fs = require('fs');
 var path = require('path');
-var TeamJson = require('../community/team.json');
+var TeamJson = require('../static/data/team.json');
 
-var outputFile = path.resolve(__dirname, '../community/team.json');
+var outputFile = path.resolve(__dirname, '../static/data/team.json');
 
 // ignore PPMC and committers members
 var ignoreList = [];
