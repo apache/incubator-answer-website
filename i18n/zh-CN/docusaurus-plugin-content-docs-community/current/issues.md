@@ -2,11 +2,7 @@
 slug: /issues
 ---
 
-<<<<<<< Updated upstream
-# 问题
-=======
 # Issues
->>>>>>> Stashed changes
 
 Apache Answer 项目中有一些仓库，你可以在不同的仓库提 issue。
 
