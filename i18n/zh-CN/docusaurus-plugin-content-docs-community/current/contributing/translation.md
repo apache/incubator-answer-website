@@ -2,7 +2,7 @@
 slug: /translation
 ---
 
-# Translation
+# 翻译
 
 我们的项目使用[Crowdin](https://crowdin.com/)进行翻译；我们建议通过 Crowdin 贡献翻译。
 

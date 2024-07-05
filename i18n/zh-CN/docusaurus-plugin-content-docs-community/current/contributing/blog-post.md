@@ -1,5 +1,5 @@
 ---
-sidebar_label: Blog Post
+sidebar_label: 发布博客
 slug: /blog-post
 ---
 
