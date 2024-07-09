@@ -2,6 +2,6 @@
 slug: /flags
 ---
 
-# 举报
->
-> 用户可以通过举报来举报非法内容。
+# Flags
+
+User can flag the spam post.
