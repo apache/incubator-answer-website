@@ -4,10 +4,45 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/zh-CN/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Wed, 03 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jul 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
+        <item>
+            <title><![CDATA[Apache Answer 邀你共赴 CommunityOverCode Asia 2024]]></title>
+            <link>https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024</link>
+            <guid>https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024</guid>
+            <pubDate>Thu, 11 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apache Answer 将亮相主论坛和两个分会场，杭州见。]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-07-11-cover@4x-e821c9cb468575f1936d15c9cb528ec3.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>CommunityOverCode Asia 2024 将于 7 月 26 日至 28 日在杭州举行。</p>
+<!-- --><p>此次会议共设有 1 个主论坛和 15 个分论坛，来自不同领域的 150 余位专家导师将和大家分享 Apache 项目的新突破和 Apache 孵化器中的新创新，以及开源开发和以 “The Apache Way” 领导社区驱动的项目，共同探讨 Apache 的运作生态、Apache 软件的商业模式、开源的法律问题以及其他许多主题的内容。</p>
+<!-- --><p>今年，Apache Answer 将在两个分会场和主论坛和大家见面，分享关于我们进入孵化器后的收获，你还将了解到如何用 Answer 打造一个活跃的社区，以及非开发人员如何参与到开源贡献中。 此外，我们也欢迎你来到我们的展台和项目的 Committer 交流互动，了解更多 Answer 相关的内容。</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="主题分享">主题分享<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024#%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB" class="hash-link" aria-label="主题分享的直接链接" title="主题分享的直接链接">​</a></h2>
+<!-- --><p>去年，Apache Answer 通过投票，成功进入孵化器。在过去的一段时间里，我们收获了来自 Apache 社区不同方面的支持，包括但不限于文档、代码提交、和线下分享。
+Apache Answer 一直秉持开放沟通和协作精神，希望通过今年的 CommunityOverCode Asia 大会，能够将我们的经历和思考回馈给社区。</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="incubator-专题">Incubator 专题<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024#incubator-%E4%B8%93%E9%A2%98" class="hash-link" aria-label="Incubator 专题的直接链接" title="Incubator 专题的直接链接">​</a></h3>
+<!-- --><p>如果你希望了解一个开源项目是如何从零开始，一步步成长为全球开发者共同参与的杰作，亦或是想知道当一个项目被 Apache 软件基金会所接纳所需要经历哪些挑战和准备，你可以前往 Incubator 专题！LinkinStar 将与你分享 Apache Answer 的成长之路，带你了解 Answer 从开源到进入孵化器，再到首次发布 Apache 版本所面临的挑战和收获的成长。</p>
+<!-- --><h4 class="anchor anchorWithStickyNavbar_pwhL" id="apache-answer-的首个-apache-版本发布之路">Apache Answer 的首个 Apache 版本发布之路<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024#apache-answer-%E7%9A%84%E9%A6%96%E4%B8%AA-apache-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E4%B9%8B%E8%B7%AF" class="hash-link" aria-label="Apache Answer 的首个 Apache 版本发布之路的直接链接" title="Apache Answer 的首个 Apache 版本发布之路的直接链接">​</a></h4>
+<!-- --><p>讲者：LinkinStar｜Go 语言后端开发工程师，Apache Answer PPMC 成员</p>
+<!-- --><p>你将了解到 Answer 从开源到进入孵化器，再到首次发布 Apache 版本的过程。通过我的演讲，你可以了解开源是如何重塑我的认知，我们为 Answer 进入 Apache 软件基金会孵化器所做的准备，以及我们如何解决在发布首个 Apache 版本过程中所遇到的困难。</p>
+<!-- --><hr>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="community-专题">Community 专题<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024#community-%E4%B8%93%E9%A2%98" class="hash-link" aria-label="Community 专题的直接链接" title="Community 专题的直接链接">​</a></h3>
+<!-- --><p>社区每天都在产生大量的知识和信息，如何有效地组织、分享并利用这些知识？如何调动更多用户积极地参与？欢迎你前往 Community 专题！Anne 将与你分享 Answer 有趣且有效的运营方式，以及如何让 Answer 成为你构建活跃社区的利器。</p>
+<!-- --><h4 class="anchor anchorWithStickyNavbar_pwhL" id="通过-apache-answer-提升你和社区的互动">通过 Apache Answer 提升你和社区的互动<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024#%E9%80%9A%E8%BF%87-apache-answer-%E6%8F%90%E5%8D%87%E4%BD%A0%E5%92%8C%E7%A4%BE%E5%8C%BA%E7%9A%84%E4%BA%92%E5%8A%A8" class="hash-link" aria-label="通过 Apache Answer 提升你和社区的互动的直接链接" title="通过 Apache Answer 提升你和社区的互动的直接链接">​</a></h4>
+<!-- --><p>讲者：Anne Zhu ｜ 市场营销，Apache Answer PPMC 成员</p>
+<!-- --><p>Apache Answer 是一款开源的问答平台软件。我将向你展示 Answer 的功能，我们如何设立激励制度，并如何以有趣的方式调动用户的积极性。除此之外，我们还将分享该项目诞生的灵感，以及你可以如何利用 Apache Answer 构建一个活跃的线上社区。</p>
+<!-- --><hr>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="keynote-专题">Keynote 专题<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024#keynote-%E4%B8%93%E9%A2%98" class="hash-link" aria-label="Keynote 专题的直接链接" title="Keynote 专题的直接链接">​</a></h3>
+<!-- --><p>在硬核技术含量拉满的 Keynote 专题中，你或许想知道非技术人如何进行社区贡献，如何收获个人成长，并了解社区建设的实践案例，那么，请不要错过 Nadia 和 Anne 的演讲！</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="非技术人在开源社区的成长">非技术人在开源社区的成长<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024#%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%9C%A8%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E7%9A%84%E6%88%90%E9%95%BF" class="hash-link" aria-label="非技术人在开源社区的成长的直接链接" title="非技术人在开源社区的成长的直接链接">​</a></h3>
+<!-- --><p>讲者：Nadia Jiang 和 Anne Zhu ｜ Apache Answer PPMC 成员</p>
+<!-- --><p>在这个演讲中，Nadia 和 Anne 将从非技术开发的视角，介绍在开源社区中有哪些非代码贡献的机会。我们将探讨文档编写、社区管理、市场营销等各种对社区产生重要影响的角色和活动。此外，我们还将分享非技术人在开源世界中的职业发展路径，展示这些角色的职业道路和成长潜力。</p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="开源集市等你来">开源集市等你来<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024#%E5%BC%80%E6%BA%90%E9%9B%86%E5%B8%82%E7%AD%89%E4%BD%A0%E6%9D%A5" class="hash-link" aria-label="开源集市等你来的直接链接" title="开源集市等你来的直接链接">​</a></h2>
+<!-- --><p>无论你刚听说 Answer，还是资深的使用者，我们都非常欢迎你来到我们的展位和我们交流互动。我们的 Committer 会在展位解答你的疑问，倾听你的使用反馈。</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="即刻报名">即刻报名<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/07/11/apache-answer-coc-asia-2024#%E5%8D%B3%E5%88%BB%E6%8A%A5%E5%90%8D" class="hash-link" aria-label="即刻报名的直接链接" title="即刻报名的直接链接">​</a></h2>
+<!-- --><p>感兴趣的各位开发者，可以点击<!-- --><a href="https://www.bagevent.com/event/8766402" target="_blank" rel="noopener noreferrer">此处</a>注册参会。<!-- --></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer 1.3.5: Flexibility. Reaction. Extension.]]></title>
             <link>https://answer.apache.org/zh-CN/blog/2024/07/03/answer-1.3.5-release</link>
@@ -960,84 +995,6 @@ In the initial phase of the release, one of the obstacles we faced was the forma
 <!-- --></ol>
 <!-- --><p>It’s hard to say this, but it’s a No.
 We appreciate your participation greatly. For various reasons, your suggested enhancement might not align with our roadmap or product direction as you may think. We recommend you start with a bug. A bug is a bug, and this will increase your chances of earning a badge.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Build Your Online Community Like the Pros with Answer]]></title>
-            <link>https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer</link>
-            <guid>https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer</guid>
-            <pubDate>Thu, 14 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[From inception to execution, make your online community happen in 4 steps with Answer.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2023-09-14-cover@4x-f7c816ae5a5675f3a6bc1ed5002b648d.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>Q&amp;A is one of the most effective ways to obtain knowledge, build connections, and create interaction. You can also find the trail of Q&amp;A format in a support center, forum, and knowledge base which allows you to dive in any topics. It streamlines communication and information, making it an efficient format to run an online community.</p>
-<!-- --><p>Having the idea of running an online community is remarkable, but don’t step back when thinking to make it happen in the reality. In today’s read, you’ll set up and launch your online community in just 4 steps with Answer.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="customize-your-branding">Customize Your Branding<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#customize-your-branding" class="hash-link" aria-label="Customize Your Branding的直接链接" title="Customize Your Branding的直接链接">​</a></h2>
-<!-- --><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/AnswerCommuties-8e9fdc82fee88d4cdc486f9a5ae7a6f3.png" width="844" height="544" class="img_WevL"></p>
-<!-- --><p>Your branding is unique, so is your community. Let’s personalize <!-- --><strong>name, color scheme and logo</strong> to align with your brand freely while.<!-- --></p>
-<!-- --><p>Greet your users with a distinct logo, color scheme, and visual elements that echo your idea of a community. Make sure they are consistent in design, which helps your members recognize and memorize it easily. Here’s how to customize them in Answer.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="community-name">Community Name<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#community-name" class="hash-link" aria-label="Community Name的直接链接" title="Community Name的直接链接">​</a></h3>
-<!-- --><ol>
-<!-- --><li>For admins, go to the left side of the page and click <!-- --><strong>Admin</strong>.<!-- --></li>
-<!-- --><li>Settings &gt; General
-<!-- --><img decoding="async" loading="lazy" alt="Admin Page in Answer" src="https://answer.apache.org/zh-CN/assets/images/CommunityName-33c619f601215e601d3c8021d6e7d96b.png" width="800" height="450" class="img_WevL">
-You can also fill the site URL, provide a description, and leave a contact email for your Answer.<!-- --></li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="logo">Logo<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#logo" class="hash-link" aria-label="Logo的直接链接" title="Logo的直接链接">​</a></h3>
-<!-- --><ol>
-<!-- --><li>For admins, go to the left side of the page and click <!-- --><strong>Admin</strong>.<!-- --></li>
-<!-- --><li>Settings &gt; Branding
-<!-- --><img decoding="async" loading="lazy" alt="Branding Page in Answer" src="https://answer.apache.org/zh-CN/assets/images/Logo-e05a0bb6d411a4b89b5bd3eeafbe4f2d.png" width="800" height="372" class="img_WevL">
-The logo will be displayed at the top left of the page, and make sure to follow the dimensions on the Branding page before uploading it.<!-- --></li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="color-theme">Color Theme<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#color-theme" class="hash-link" aria-label="Color Theme的直接链接" title="Color Theme的直接链接">​</a></h3>
-<!-- --><ol>
-<!-- --><li>For admins, go to the left side of the page and click <!-- --><strong>Admin</strong>.<!-- --></li>
-<!-- --><li>Customize &gt; Themes
-<!-- --><img decoding="async" loading="lazy" alt="Themes Page in Answer" src="https://answer.apache.org/zh-CN/assets/images/ColorTheme1-bd1e006a1e2c4381dfbec5f77678c3a1.png" width="800" height="484" class="img_WevL"></li>
-<!-- --></ol>
-<!-- --><p>In Answer, we provide 2 different navigation bar styles: <!-- --><strong>Colored and Light</strong>. You can find out the difference with the image below.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Theme Comparison" src="https://answer.apache.org/zh-CN/assets/images/ColorTheme-718e932b99130fa92576a7821b50a917.png" width="800" height="222" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="get-your-users-on-board">Get Your Users on Board<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#get-your-users-on-board" class="hash-link" aria-label="Get Your Users on Board的直接链接" title="Get Your Users on Board的直接链接">​</a></h2>
-<!-- --><p>Make sure your users have a smooth onboarding process by offering them a warm welcome, resources, and guidance. Here’s how Answer helps.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="add-users-in-bulk">Add Users in Bulk<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#add-users-in-bulk" class="hash-link" aria-label="Add Users in Bulk的直接链接" title="Add Users in Bulk的直接链接">​</a></h3>
-<!-- --><p>In Answer <!-- --><a href="https://github.com/apache/incubator-answer/releases/tag/v1.1.2" target="_blank" rel="noopener noreferrer">v1.1.2</a>, admins can add new users in bulk. You can set name, email, and password for them in one place. Here’s how.<!-- --></p>
-<!-- --><ol>
-<!-- --><li>For admins, go to the left side of the page and click <!-- --><strong>Admin</strong>.<!-- --></li>
-<!-- --><li>Users &gt; Add user</li>
-<!-- --><li>Follow the format instruction to add users.
-<!-- --><img decoding="async" loading="lazy" alt="Add Users in Bulk" src="https://answer.apache.org/zh-CN/assets/images/AddinBulk-c0d695417bfb40a3916660406fed7507.png" width="800" height="450" class="img_WevL"></li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="community-layout">Community Layout<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#community-layout" class="hash-link" aria-label="Community Layout的直接链接" title="Community Layout的直接链接">​</a></h3>
-<!-- --><p>In Answer, you can use CSS and Html to customize the home page. For example, personalize the sidebar to add shortcuts for your users. Find out how Answer users do that in <!-- --><a href="https://meta.answer.dev/questions/D1xc/how-can-i-display-quick-links-in-the-side-nav" target="_blank" rel="noopener noreferrer">our community</a>, and you are always welcome to ask and contribute here.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Customize Community Layout" src="https://answer.apache.org/zh-CN/assets/images/CommunityLayout-38a5ce9c6331888067769b924d247c5c.png" width="800" height="537" class="img_WevL"></p>
-<!-- --><p>Besides shortcut, you can also place community rules on the home page to notify everyone to keep a respectful and friendly atmosphere.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="SideBar" src="https://answer.apache.org/zh-CN/assets/images/SidebarRules-8201f317c5075a30c070ee596c341ac0.png" width="800" height="800" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="create-interesting-content">Create Interesting Content<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#create-interesting-content" class="hash-link" aria-label="Create Interesting Content的直接链接" title="Create Interesting Content的直接链接">​</a></h2>
-<!-- --><p>Engage users with diverse topics and discussions, and encourage them to post their first questions. But before that, let’s start with adding a few new tags, which are helpful to manage the content later on.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="build-some-tags">Build Some Tags<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#build-some-tags" class="hash-link" aria-label="Build Some Tags的直接链接" title="Build Some Tags的直接链接">​</a></h3>
-<!-- --><p>Your community will become larger, both at user scale and content scale. Start adding some tags as the basics of your content structure, enabling your users to create content while adding the tags at the same time.</p>
-<!-- --><ol>
-<!-- --><li>For admin and moderator, click <!-- --><strong>Tags</strong> on the left sidebar.<!-- --></li>
-<!-- --><li>Create new tag.
-<!-- --><img decoding="async" loading="lazy" alt="CreateaNewTag" src="https://answer.apache.org/zh-CN/assets/images/CreateaNewTag-d7d6788eb0f4d7df801a9446faec8cec.png" width="800" height="278" class="img_WevL"></li>
-<!-- --><li>Add information for the tag to help your users understand better.
-<!-- --><img decoding="async" loading="lazy" alt="AddTagInfo" src="https://answer.apache.org/zh-CN/assets/images/AddTagInfo-baf7d540bb7f918e65bab543ebd03a97.png" width="800" height="744" class="img_WevL"></li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="the-first-post-is-easy">The First Post is Easy<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#the-first-post-is-easy" class="hash-link" aria-label="The First Post is Easy的直接链接" title="The First Post is Easy的直接链接">​</a></h3>
-<!-- --><p>Now that the tags are ready, let’s have the very first post by clicking <!-- --><strong>Add Question</strong>. It is recommended to include <!-- --><strong>a welcome message, introduction, community guidelines</strong> in the first post to get your users to understand your community better. Besides, you can add goals and upcoming plans, and encourage users to post, answer, and engage in the community. In Answer, adding a new post is easy.<!-- --></p>
-<!-- --><ol>
-<!-- --><li>Click <!-- --><strong>Add Question</strong> in the upper-right corner.<!-- --></li>
-<!-- --><li>Edit your post, and follow <!-- --><strong>How to Format</strong>. Answer provides real-time preview before you officially post it.
-<!-- --><img decoding="async" loading="lazy" alt="Post Preview" src="https://answer.apache.org/zh-CN/assets/images/PostPreview-eb63fa55c2122f6f229ae85da4a48964.png" width="800" height="439" class="img_WevL"></li>
-<!-- --><li>Always remember to add a tag before posting it.</li>
-<!-- --><li>Post your question, and you are good to go.</li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="time-to-manage-the-content">Time to Manage the Content<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#time-to-manage-the-content" class="hash-link" aria-label="Time to Manage the Content的直接链接" title="Time to Manage the Content的直接链接">​</a></h3>
-<!-- --><p>Admin and moderators can review and edit the posts to maintain a vibrant environment for everyone. That’s not it, in Answer, everyone is a part of content management. You can find Flag, Moderation, Permission and Reputation, find out how they better online community experience for your users in our <!-- --><a href="https://answer.apache.org/blog/2023/08/09/how-to-manage-content-system-efficiently-with-answer" target="_blank" rel="noopener noreferrer">blog</a>.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="engage-and-award-your-users">Engage and Award Your Users<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#engage-and-award-your-users" class="hash-link" aria-label="Engage and Award Your Users的直接链接" title="Engage and Award Your Users的直接链接">​</a></h2>
-<!-- --><p>Diverse topics and high-quality discussion are both good content to engage users. In Answer, <!-- --><a href="https://answer.apache.org/docs/recipes/contents/reputation" target="_blank" rel="noopener noreferrer">reputation</a> score to reflect user’s credibility. Community members gain reputation scores by adhering to community guidelines and continuous contributions. When community members recognize someone as a reputable contributor, they are more likely to value their opinions. This way, more users see the community is a home for respected and well-behaved users, they are more likely to be a part of the community.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Reputation Score" src="https://answer.apache.org/zh-CN/assets/images/ReputationScore-6caf1889c0f1ec9baae3e70558bace42.png" width="800" height="312" class="img_WevL"></p>
-<!-- --><p>Reputation scores are also used by community moderators and administrators to determine user <!-- --><a href="https://answer.apache.org/docs/recipes/contents/permission" target="_blank" rel="noopener noreferrer">privileges</a>, such as posting more than 2 links at a time, creating a new tag, etc. Answer provides 3 levels of reputation, and you can choose a level based on your needs. Explore more on how to utilize reputation and privilege in your online community <!-- --><a href="https://answer.apache.org/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community/" target="_blank" rel="noopener noreferrer">here</a>.<!-- --></p>
-<!-- --><p>From customizable features to engagement, Answer equips you to connect with your users in meaningful ways. Whether you're launching a new community or looking to revitalize an existing one, Answer got practical features you need to make your online community a home for your users. Start building your community like the pros with <!-- --><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer">Answer</a> today, and watch it flourish into any communities you dream about.<!-- --></p>
-<!-- --><p><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" alt="AnswerScreenshot" src="https://answer.apache.org/zh-CN/assets/images/AnswerScreenshot-50412ac7309285a01092b8da55a239ea.png" width="1078" height="716" class="img_WevL"></a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>

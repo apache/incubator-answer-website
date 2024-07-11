@@ -4,10 +4,50 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Wed, 03 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jul 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Join Apache Answer at CommunityOverCode Asia 2024]]></title>
+            <link>https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024</link>
+            <guid>https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024</guid>
+            <pubDate>Thu, 11 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Join Apache Answer's speeches in Incubator track, Community track, Keynote. Talk to us at our booth in CoC Asia 2024.]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-07-11-cover@4x-e821c9cb468575f1936d15c9cb528ec3.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>CommunityOver ode Asia 2024 will take place in Hangzhou, China, July 26-28, 2024.</p>
+<!-- --><p>This year, the event features one main forum,15 sub-forums with over 150 experts and mentors. Attendees can learn about Apache's latest breakthrough, upcoming innovations, and insights from community-driven projects guided by the Apache way, while exploring Apache's ecosystem, business models, legal issues, and more. The full breakout session schedule can be viewed <!-- --><a href="https://asia.communityovercode.org/schedule.html" target="_blank" rel="noopener noreferrer">here</a>.<!-- --></p>
+<!-- --><p>As an incubating project, Apache Answer is always open to communication and collaboration. We started our CommunityOverCode Asia journey from a booth last year, and this year we’re back with not just the booth, but <!-- --><strong>two sessions, and one keynote</strong>.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="see-you-in-our-sessions">See You in Our Sessions<!-- --><a href="https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024#see-you-in-our-sessions" class="hash-link" aria-label="Direct link to See You in Our Sessions" title="Direct link to See You in Our Sessions">​</a></h2>
+<!-- --><p>Last year, Apache Answer passed the vote and entered the incubator. We’ve been receiving help from the community, including but not limited to documentations, PRs, and meetup. Time for us to give it back to the open-source world.</p>
+<!-- --><p>Follow PPMC member LinkinStar, backend engineer, to look back at our first Apache release, how we settled down, and how the community nail the challenges. Dive with Anne Zhu, marketing specialist, for a closer look at Apache Answer with practical how-tos to engage your community members. Don’t forget to join Nadia and Anne for their keynote on non-code contributions within the open-source ecosystem.&nbsp;</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="incubator-track">Incubator Track<!-- --><a href="https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024#incubator-track" class="hash-link" aria-label="Direct link to Incubator Track" title="Direct link to Incubator Track">​</a></h3>
+<!-- --><p>This track provides insights on the incubator journey, Apache’s governance, and operations. Participants will learn about advancing from incubation to a Top-Level Project (TLP) and strategies for building a diverse, compliant open-source community.</p>
+<!-- --><h4 class="anchor anchorWithStickyNavbar_pwhL" id="the-journey-from-incubation-to-first-release-unveiling-the-apache-answer-release-way">The Journey from Incubation to First Release: Unveiling the Apache Answer Release Way<!-- --><a href="https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024#the-journey-from-incubation-to-first-release-unveiling-the-apache-answer-release-way" class="hash-link" aria-label="Direct link to The Journey from Incubation to First Release: Unveiling the Apache Answer Release Way" title="Direct link to The Journey from Incubation to First Release: Unveiling the Apache Answer Release Way">​</a></h4>
+<!-- --><p>Speaker: LinkinStar<!-- --><br>
+<!-- -->Apache Answer PPMC Member, architect of SegmentFault, and Golang backend expert.<!-- --></p>
+<!-- --><p>Join me as I share Answer's journey—from the transformative insights gained by participating in open source, through the story-rich donation process to Apache, to the challenging yet rewarding path to our first release. Discover how open source reshaped my understanding, the collaborative efforts behind Answer's integration into the Apache Software Foundation, and the persistence needed to navigate the complexities of launching our initial version. This session is a concise exploration of lessons learned and the unyielding spirit of the open-source community.</p>
+<!-- --><p><em>Click <!-- --><a href="https://asia.communityovercode.org/schedule.html" target="_blank" rel="noopener noreferrer">here</a> for more on the schedule.<!-- --></em></p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="community-track">Community Track<!-- --><a href="https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024#community-track" class="hash-link" aria-label="Direct link to Community Track" title="Direct link to Community Track">​</a></h2>
+<!-- --><p>Why does ASF believe in "Community over Code"? There is more to open-source than just code contribution. In this track, let’s explore topics like governance models, growing project communities, diversity and inclusion, community health metrics, management tools, project roadmaps, case studies, and sustaining open-source communities.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="enhance-your-community-engagement-with-apache-answer">Enhance Your Community Engagement with Apache Answer<!-- --><a href="https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024#enhance-your-community-engagement-with-apache-answer" class="hash-link" aria-label="Direct link to Enhance Your Community Engagement with Apache Answer" title="Direct link to Enhance Your Community Engagement with Apache Answer">​</a></h3>
+<!-- --><p>Speaker: Anne Zhu<!-- --><br>
+<!-- -->Apache Answer PPMC member, and marketing specialist.<!-- --></p>
+<!-- --><p>Apache Answer is an open-source Q&amp;A platform software. It is designed to enhance your community engagement with features you'll need and love. In this session, we will start with the paths of how we help users find better answers, how we cherish and reward the good deeds, and engage the users in fun ways. We would also love to share your ideas on how we have the idea of this project, and how you can use Apache Answer for building your next online community.</p>
+<!-- --><p><em>Click <!-- --><a href="https://asia.communityovercode.org/schedule.html" target="_blank" rel="noopener noreferrer">here</a> for more on the schedule.<!-- --></em></p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="keynote">Keynote<!-- --><a href="https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024#keynote" class="hash-link" aria-label="Direct link to Keynote" title="Direct link to Keynote">​</a></h2>
+<!-- --><p>Keynote is the place where you can see the latest breakthrough of open source, gain views of from different aspects of open source, and ways you can get involve.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="beyond-the-code-growing-in-the-apache-community">Beyond the Code: Growing in the Apache Community<!-- --><a href="https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024#beyond-the-code-growing-in-the-apache-community" class="hash-link" aria-label="Direct link to Beyond the Code: Growing in the Apache Community" title="Direct link to Beyond the Code: Growing in the Apache Community">​</a></h3>
+<!-- --><p>Speaker: Nadia Jiang and Anne Zhu<!-- --><br>
+<!-- -->PPMC member of Apache Answer<!-- --></p>
+<!-- --><p>Nadia and Anne will share their experiences as non-developers thriving in open source. We will explore various roles and activities that significantly impact the community, such as documentation, community management, marketing, and more. Furthermore, we will share insights on career development for non-technical individuals in the open-source world, highlighting the unique career paths and growth potential available.</p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="drop-by-at-our-booth">Drop By at Our Booth<!-- --><a href="https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024#drop-by-at-our-booth" class="hash-link" aria-label="Direct link to Drop By at Our Booth" title="Direct link to Drop By at Our Booth">​</a></h2>
+<!-- --><p>Our journey starts with the booth, how can we miss it this year? We’ve prepared stickers, brand-new flyers, and of course, you can give it a try with Answer.Meta to unlock the latest features. Come and talk to our committers, we’re all ears for your feedback and questions.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="save-your-date-get-the-ticket">Save Your Date. Get the Ticket.<!-- --><a href="https://answer.apache.org/blog/2024/07/11/apache-answer-coc-asia-2024#save-your-date-get-the-ticket" class="hash-link" aria-label="Direct link to Save Your Date. Get the Ticket." title="Direct link to Save Your Date. Get the Ticket.">​</a></h2>
+<!-- --><p>Ready for an Apache journey? <!-- --><a href="https://asia.communityovercode.org/#register" target="_blank" rel="noopener noreferrer">Register now</a> and get your ticket. See you in Hangzhou.<!-- --></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer 1.3.5: Flexibility. Reaction. Extension.]]></title>
             <link>https://answer.apache.org/blog/2024/07/03/answer-1.3.5-release</link>
@@ -970,84 +1010,6 @@ In the initial phase of the release, one of the obstacles we faced was the forma
 <!-- --></ol>
 <!-- --><p>It’s hard to say this, but it’s a No.
 We appreciate your participation greatly. For various reasons, your suggested enhancement might not align with our roadmap or product direction as you may think. We recommend you start with a bug. A bug is a bug, and this will increase your chances of earning a badge.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Build Your Online Community Like the Pros with Answer]]></title>
-            <link>https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer</link>
-            <guid>https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer</guid>
-            <pubDate>Thu, 14 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[From inception to execution, make your online community happen in 4 steps with Answer.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2023-09-14-cover@4x-f7c816ae5a5675f3a6bc1ed5002b648d.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>Q&amp;A is one of the most effective ways to obtain knowledge, build connections, and create interaction. You can also find the trail of Q&amp;A format in a support center, forum, and knowledge base which allows you to dive in any topics. It streamlines communication and information, making it an efficient format to run an online community.</p>
-<!-- --><p>Having the idea of running an online community is remarkable, but don’t step back when thinking to make it happen in the reality. In today’s read, you’ll set up and launch your online community in just 4 steps with Answer.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="customize-your-branding">Customize Your Branding<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#customize-your-branding" class="hash-link" aria-label="Direct link to Customize Your Branding" title="Direct link to Customize Your Branding">​</a></h2>
-<!-- --><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/assets/images/AnswerCommuties-8e9fdc82fee88d4cdc486f9a5ae7a6f3.png" width="844" height="544" class="img_WevL"></p>
-<!-- --><p>Your branding is unique, so is your community. Let’s personalize <!-- --><strong>name, color scheme and logo</strong> to align with your brand freely while.<!-- --></p>
-<!-- --><p>Greet your users with a distinct logo, color scheme, and visual elements that echo your idea of a community. Make sure they are consistent in design, which helps your members recognize and memorize it easily. Here’s how to customize them in Answer.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="community-name">Community Name<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#community-name" class="hash-link" aria-label="Direct link to Community Name" title="Direct link to Community Name">​</a></h3>
-<!-- --><ol>
-<!-- --><li>For admins, go to the left side of the page and click <!-- --><strong>Admin</strong>.<!-- --></li>
-<!-- --><li>Settings &gt; General
-<!-- --><img decoding="async" loading="lazy" alt="Admin Page in Answer" src="https://answer.apache.org/assets/images/CommunityName-33c619f601215e601d3c8021d6e7d96b.png" width="800" height="450" class="img_WevL">
-You can also fill the site URL, provide a description, and leave a contact email for your Answer.<!-- --></li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="logo">Logo<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#logo" class="hash-link" aria-label="Direct link to Logo" title="Direct link to Logo">​</a></h3>
-<!-- --><ol>
-<!-- --><li>For admins, go to the left side of the page and click <!-- --><strong>Admin</strong>.<!-- --></li>
-<!-- --><li>Settings &gt; Branding
-<!-- --><img decoding="async" loading="lazy" alt="Branding Page in Answer" src="https://answer.apache.org/assets/images/Logo-e05a0bb6d411a4b89b5bd3eeafbe4f2d.png" width="800" height="372" class="img_WevL">
-The logo will be displayed at the top left of the page, and make sure to follow the dimensions on the Branding page before uploading it.<!-- --></li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="color-theme">Color Theme<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#color-theme" class="hash-link" aria-label="Direct link to Color Theme" title="Direct link to Color Theme">​</a></h3>
-<!-- --><ol>
-<!-- --><li>For admins, go to the left side of the page and click <!-- --><strong>Admin</strong>.<!-- --></li>
-<!-- --><li>Customize &gt; Themes
-<!-- --><img decoding="async" loading="lazy" alt="Themes Page in Answer" src="https://answer.apache.org/assets/images/ColorTheme1-bd1e006a1e2c4381dfbec5f77678c3a1.png" width="800" height="484" class="img_WevL"></li>
-<!-- --></ol>
-<!-- --><p>In Answer, we provide 2 different navigation bar styles: <!-- --><strong>Colored and Light</strong>. You can find out the difference with the image below.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Theme Comparison" src="https://answer.apache.org/assets/images/ColorTheme-718e932b99130fa92576a7821b50a917.png" width="800" height="222" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="get-your-users-on-board">Get Your Users on Board<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#get-your-users-on-board" class="hash-link" aria-label="Direct link to Get Your Users on Board" title="Direct link to Get Your Users on Board">​</a></h2>
-<!-- --><p>Make sure your users have a smooth onboarding process by offering them a warm welcome, resources, and guidance. Here’s how Answer helps.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="add-users-in-bulk">Add Users in Bulk<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#add-users-in-bulk" class="hash-link" aria-label="Direct link to Add Users in Bulk" title="Direct link to Add Users in Bulk">​</a></h3>
-<!-- --><p>In Answer <!-- --><a href="https://github.com/apache/incubator-answer/releases/tag/v1.1.2" target="_blank" rel="noopener noreferrer">v1.1.2</a>, admins can add new users in bulk. You can set name, email, and password for them in one place. Here’s how.<!-- --></p>
-<!-- --><ol>
-<!-- --><li>For admins, go to the left side of the page and click <!-- --><strong>Admin</strong>.<!-- --></li>
-<!-- --><li>Users &gt; Add user</li>
-<!-- --><li>Follow the format instruction to add users.
-<!-- --><img decoding="async" loading="lazy" alt="Add Users in Bulk" src="https://answer.apache.org/assets/images/AddinBulk-c0d695417bfb40a3916660406fed7507.png" width="800" height="450" class="img_WevL"></li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="community-layout">Community Layout<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#community-layout" class="hash-link" aria-label="Direct link to Community Layout" title="Direct link to Community Layout">​</a></h3>
-<!-- --><p>In Answer, you can use CSS and Html to customize the home page. For example, personalize the sidebar to add shortcuts for your users. Find out how Answer users do that in <!-- --><a href="https://meta.answer.dev/questions/D1xc/how-can-i-display-quick-links-in-the-side-nav" target="_blank" rel="noopener noreferrer">our community</a>, and you are always welcome to ask and contribute here.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Customize Community Layout" src="https://answer.apache.org/assets/images/CommunityLayout-38a5ce9c6331888067769b924d247c5c.png" width="800" height="537" class="img_WevL"></p>
-<!-- --><p>Besides shortcut, you can also place community rules on the home page to notify everyone to keep a respectful and friendly atmosphere.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="SideBar" src="https://answer.apache.org/assets/images/SidebarRules-8201f317c5075a30c070ee596c341ac0.png" width="800" height="800" class="img_WevL"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="create-interesting-content">Create Interesting Content<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#create-interesting-content" class="hash-link" aria-label="Direct link to Create Interesting Content" title="Direct link to Create Interesting Content">​</a></h2>
-<!-- --><p>Engage users with diverse topics and discussions, and encourage them to post their first questions. But before that, let’s start with adding a few new tags, which are helpful to manage the content later on.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="build-some-tags">Build Some Tags<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#build-some-tags" class="hash-link" aria-label="Direct link to Build Some Tags" title="Direct link to Build Some Tags">​</a></h3>
-<!-- --><p>Your community will become larger, both at user scale and content scale. Start adding some tags as the basics of your content structure, enabling your users to create content while adding the tags at the same time.</p>
-<!-- --><ol>
-<!-- --><li>For admin and moderator, click <!-- --><strong>Tags</strong> on the left sidebar.<!-- --></li>
-<!-- --><li>Create new tag.
-<!-- --><img decoding="async" loading="lazy" alt="CreateaNewTag" src="https://answer.apache.org/assets/images/CreateaNewTag-d7d6788eb0f4d7df801a9446faec8cec.png" width="800" height="278" class="img_WevL"></li>
-<!-- --><li>Add information for the tag to help your users understand better.
-<!-- --><img decoding="async" loading="lazy" alt="AddTagInfo" src="https://answer.apache.org/assets/images/AddTagInfo-baf7d540bb7f918e65bab543ebd03a97.png" width="800" height="744" class="img_WevL"></li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="the-first-post-is-easy">The First Post is Easy<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#the-first-post-is-easy" class="hash-link" aria-label="Direct link to The First Post is Easy" title="Direct link to The First Post is Easy">​</a></h3>
-<!-- --><p>Now that the tags are ready, let’s have the very first post by clicking <!-- --><strong>Add Question</strong>. It is recommended to include <!-- --><strong>a welcome message, introduction, community guidelines</strong> in the first post to get your users to understand your community better. Besides, you can add goals and upcoming plans, and encourage users to post, answer, and engage in the community. In Answer, adding a new post is easy.<!-- --></p>
-<!-- --><ol>
-<!-- --><li>Click <!-- --><strong>Add Question</strong> in the upper-right corner.<!-- --></li>
-<!-- --><li>Edit your post, and follow <!-- --><strong>How to Format</strong>. Answer provides real-time preview before you officially post it.
-<!-- --><img decoding="async" loading="lazy" alt="Post Preview" src="https://answer.apache.org/assets/images/PostPreview-eb63fa55c2122f6f229ae85da4a48964.png" width="800" height="439" class="img_WevL"></li>
-<!-- --><li>Always remember to add a tag before posting it.</li>
-<!-- --><li>Post your question, and you are good to go.</li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="time-to-manage-the-content">Time to Manage the Content<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#time-to-manage-the-content" class="hash-link" aria-label="Direct link to Time to Manage the Content" title="Direct link to Time to Manage the Content">​</a></h3>
-<!-- --><p>Admin and moderators can review and edit the posts to maintain a vibrant environment for everyone. That’s not it, in Answer, everyone is a part of content management. You can find Flag, Moderation, Permission and Reputation, find out how they better online community experience for your users in our <!-- --><a href="https://answer.apache.org/blog/2023/08/09/how-to-manage-content-system-efficiently-with-answer" target="_blank" rel="noopener noreferrer">blog</a>.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="engage-and-award-your-users">Engage and Award Your Users<!-- --><a href="https://answer.apache.org/blog/2023/09/14/build-your-online-community-like-the-pros-with-answer#engage-and-award-your-users" class="hash-link" aria-label="Direct link to Engage and Award Your Users" title="Direct link to Engage and Award Your Users">​</a></h2>
-<!-- --><p>Diverse topics and high-quality discussion are both good content to engage users. In Answer, <!-- --><a href="https://answer.apache.org/docs/recipes/contents/reputation" target="_blank" rel="noopener noreferrer">reputation</a> score to reflect user’s credibility. Community members gain reputation scores by adhering to community guidelines and continuous contributions. When community members recognize someone as a reputable contributor, they are more likely to value their opinions. This way, more users see the community is a home for respected and well-behaved users, they are more likely to be a part of the community.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Reputation Score" src="https://answer.apache.org/assets/images/ReputationScore-6caf1889c0f1ec9baae3e70558bace42.png" width="800" height="312" class="img_WevL"></p>
-<!-- --><p>Reputation scores are also used by community moderators and administrators to determine user <!-- --><a href="https://answer.apache.org/docs/recipes/contents/permission" target="_blank" rel="noopener noreferrer">privileges</a>, such as posting more than 2 links at a time, creating a new tag, etc. Answer provides 3 levels of reputation, and you can choose a level based on your needs. Explore more on how to utilize reputation and privilege in your online community <!-- --><a href="https://answer.apache.org/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community/" target="_blank" rel="noopener noreferrer">here</a>.<!-- --></p>
-<!-- --><p>From customizable features to engagement, Answer equips you to connect with your users in meaningful ways. Whether you're launching a new community or looking to revitalize an existing one, Answer got practical features you need to make your online community a home for your users. Start building your community like the pros with <!-- --><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer">Answer</a> today, and watch it flourish into any communities you dream about.<!-- --></p>
-<!-- --><p><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" alt="AnswerScreenshot" src="https://answer.apache.org/assets/images/AnswerScreenshot-50412ac7309285a01092b8da55a239ea.png" width="1078" height="716" class="img_WevL"></a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
