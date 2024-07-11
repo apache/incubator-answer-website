@@ -22,8 +22,6 @@ Follow PPMC member LinkinStar, backend engineer, to look back at our first Apach
 ### Incubator Track 
 This track provides insights on the incubator journey, Apache’s governance, and operations. Participants will learn about advancing from incubation to a Top-Level Project (TLP) and strategies for building a diverse, compliant open-source community.
 
----
-
 #### The Journey from Incubation to First Release: Unveiling the Apache Answer Release Way   
 Speaker: LinkinStar    
 Apache Answer PPMC Member, architect of SegmentFault, and Golang backend expert.
@@ -36,8 +34,6 @@ Join me as I share Answer's journey—from the transformative insights gained by
 
 ## Community Track   
 Why does ASF believe in "Community over Code"? There is more to open-source than just code contribution. In this track, let’s explore topics like governance models, growing project communities, diversity and inclusion, community health metrics, management tools, project roadmaps, case studies, and sustaining open-source communities.
-
----
 
 ### Enhance Your Community Engagement with Apache Answer
 Speaker: Anne Zhu  
@@ -53,10 +49,12 @@ Apache Answer is an open-source Q&A platform software. It is designed to enhance
 Keynote is the place where you can see the latest breakthrough of open source, gain views of from different aspects of open source, and ways you can get involve. 
 
 ### Beyond the Code: Growing in the Apache Community
-Speaker: Nadia Jiang and Anne Zhu 
+Speaker: Nadia Jiang and Anne Zhu      
 PPMC member of Apache Answer
 
 Nadia and Anne will share their experiences as non-developers thriving in open source. We will explore various roles and activities that significantly impact the community, such as documentation, community management, marketing, and more. Furthermore, we will share insights on career development for non-technical individuals in the open-source world, highlighting the unique career paths and growth potential available. 
+
+---
 
 ## Drop By at Our Booth
 Our journey starts with the booth, how can we miss it this year? We’ve prepared stickers, brand-new flyers, and of course, you can give it a try with Answer.Meta to unlock the latest features. Come and talk to our committers, we’re all ears for your feedback and questions. 
