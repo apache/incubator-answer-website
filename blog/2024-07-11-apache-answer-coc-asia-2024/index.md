@@ -32,10 +32,10 @@ Join me as I share Answer's journey—from the transformative insights gained by
 
 ------
 
-## Community Track   
+### Community Track   
 Why does ASF believe in "Community over Code"? There is more to open-source than just code contribution. In this track, let’s explore topics like governance models, growing project communities, diversity and inclusion, community health metrics, management tools, project roadmaps, case studies, and sustaining open-source communities.
 
-### Enhance Your Community Engagement with Apache Answer
+#### Enhance Your Community Engagement with Apache Answer
 Speaker: Anne Zhu  
 Apache Answer PPMC member, and marketing specialist.
 
@@ -45,10 +45,10 @@ Apache Answer is an open-source Q&A platform software. It is designed to enhance
 
 ----
 
-## Keynote  
+### Keynote  
 Keynote is the place where you can see the latest breakthrough of open source, gain views of from different aspects of open source, and ways you can get involve. 
 
-### Beyond the Code: Growing in the Apache Community
+#### Beyond the Code: Growing in the Apache Community
 Speaker: Nadia Jiang and Anne Zhu      
 PPMC member of Apache Answer
 
