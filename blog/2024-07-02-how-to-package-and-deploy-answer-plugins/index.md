@@ -1,5 +1,5 @@
 ---
-title: "How to How to Package and Deploy Answer Plugins"
+title: "How to Package and Deploy Answer Plugins"
 authors: [shuai]
 category: Tutorials
 featured: false
