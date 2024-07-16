@@ -3,7 +3,7 @@ title: "Apache Answer 使用插件详细教程"
 authors: [shuai]
 category: Tutorials
 featured: false
-image: 2024-06-20-cover@4x.png
+image: 2024-07-02-cover-zh@4x.png
 description: "手把手教你如何使用 Answer 插件"
 
 ---
