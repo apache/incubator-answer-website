@@ -3,7 +3,7 @@ title: "How to How to Package and Deploy Answer Plugins"
 authors: [shuai]
 category: Tutorials
 featured: false
-image: 2024-06-20-cover@4x.png
+image: 2024-07-02-cover@4x.png
 description: "Follow this step-by-step guide to package plugins for your Answer."
 
 ---
