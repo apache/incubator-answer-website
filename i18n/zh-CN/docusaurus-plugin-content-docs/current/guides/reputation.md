@@ -2,28 +2,28 @@
 slug: /reputation
 ---
 
-# 声望
+# Reputation
 
-声望用于自动化社区生态管理。
+Reputation used to automate the management of community ecology.  
 
-## 声望变化规则
+## Reputation change rules
 
-| 条件 | 变化 |
+| Condition | Change |
 |---|---|
-| 有人点赞你的问题  | +10 |
-| 有人点赞你的回答 | +10 |
-| 有人接受了你的回答 | +15 |
-| 你接受了某人的回答 | +2 |
-| 你的提议被采纳 | +2 |
-| 你踩了某人的回答 | -1 |
-| 你的问题被踩 | -2 |
-| 你的回答被踩 | -2 |
+| Someone upvote your question | +10 |
+| Someone upvote your answer | +10 |
+| Someone accept your answer | +15 |
+| You accept someone's answer | +2 |
+| Your proposed was accepted | +2 |
+| You downvote someone's answer | -1 |
+| Your question was downvoted | -2 |
+| Your answer was downvoted | -2 |
 
-## 额外规则
+## Additional rules
 
-- 初始声望为 0，激活后声望变为 1。
-- 如果有某项操作导致用户的声望 `< 1`，那么任何后续降低声望的操作都不会降低用户的声望。
-- 每天最多获得 200 声望。
-- 如果某项操作导致用户一天内获得 `> 200` 声望，那么任何后续增加声望的操作都不会增加用户的声望。
-- 接受回答获得的声望不受 200 声望限制。  
-- 自己接受的回答不会获得声望。
+- The initial reputation is `0`, after activation the reputation becomes `1`
+- If there is an action that causes the user's reputation to be `< 1`, any subsequent actions that reduce the reputation will not reduce the user's reputation  
+- Maximum of `200` reputation per day  
+- If an action results in a user gaining `> 200` reputation for the day, any subsequent actions that increase reputation will not increase the user's reputation.  
+- The reputation gained from accepted answers is not limited by the `200` cap  
+- No reputation gained for accepting your own answer  

@@ -98,23 +98,30 @@
         "avatar": "https://avatars.githubusercontent.com/u/344142",
         "github": "https://github.com/haitaojarvis",
         "role": "Developer"
+      },
+      {
+        "name": "hgaol",
+        "avatar": "https://avatars.githubusercontent.com/u/11908658?v=4",
+        "github": "https://github.com/hgaol",
+        "role": "Developer"
+      },
+      {
+        "name": "sy-records",
+        "github": "https://github.com/sy-records",
+        "avatar": "https://avatars.githubusercontent.com/u/33931153?v=4",
+        "role": "Developer"
       }
     ]
   },
   {
     "title": "Contributor",
     "type": "contributor",
-    "count": 50,
+    "count": 57,
     "users": [
       {
         "name": "alrs",
         "github": "https://github.com/alrs",
         "avatar": "https://avatars.githubusercontent.com/u/28523?v=4"
-      },
-      {
-        "name": "Apricity001",
-        "github": "https://github.com/Apricity001",
-        "avatar": "https://avatars.githubusercontent.com/u/75669303?v=4"
       },
       {
         "name": "axisofentropy",
@@ -137,6 +144,11 @@
         "avatar": "https://avatars.githubusercontent.com/u/36593447?v=4"
       },
       {
+        "name": "byerer",
+        "github": "https://github.com/byerer",
+        "avatar": "https://avatars.githubusercontent.com/u/110678099?v=4"
+      },
+      {
         "name": "carehart",
         "github": "https://github.com/carehart",
         "avatar": "https://avatars.githubusercontent.com/u/389746?v=4"
@@ -157,6 +169,11 @@
         "avatar": "https://avatars.githubusercontent.com/u/212329?v=4"
       },
       {
+        "name": "estella2006",
+        "github": "https://github.com/estella2006",
+        "avatar": "https://avatars.githubusercontent.com/u/173033236?v=4"
+      },
+      {
         "name": "eurooooo",
         "github": "https://github.com/eurooooo",
         "avatar": "https://avatars.githubusercontent.com/u/88925843?v=4"
@@ -165,6 +182,11 @@
         "name": "findmyhappy",
         "github": "https://github.com/findmyhappy",
         "avatar": "https://avatars.githubusercontent.com/u/167661649?v=4"
+      },
+      {
+        "name": "foxzero-007",
+        "github": "https://github.com/foxzero-007",
+        "avatar": "https://avatars.githubusercontent.com/u/58644520?v=4"
       },
       {
         "name": "fyzhu",
@@ -187,9 +209,9 @@
         "avatar": "https://avatars.githubusercontent.com/u/5207957?v=4"
       },
       {
-        "name": "hgaol",
-        "github": "https://github.com/hgaol",
-        "avatar": "https://avatars.githubusercontent.com/u/11908658?v=4"
+        "name": "hbsciw",
+        "github": "https://github.com/hbsciw",
+        "avatar": "https://avatars.githubusercontent.com/u/7039555?v=4"
       },
       {
         "name": "iamabhijeet2003",
@@ -232,6 +254,16 @@
         "avatar": "https://avatars.githubusercontent.com/u/2784354?v=4"
       },
       {
+        "name": "kevingil",
+        "github": "https://github.com/kevingil",
+        "avatar": "https://avatars.githubusercontent.com/u/2253237?v=4"
+      },
+      {
+        "name": "kimhsno1",
+        "github": "https://github.com/kimhsno1",
+        "avatar": "https://avatars.githubusercontent.com/u/73380922?v=4"
+      },
+      {
         "name": "lincolnzhou",
         "github": "https://github.com/lincolnzhou",
         "avatar": "https://avatars.githubusercontent.com/u/3911154?v=4"
@@ -242,6 +274,11 @@
         "avatar": "https://avatars.githubusercontent.com/u/1450685?v=4"
       },
       {
+        "name": "lnnt",
+        "github": "https://github.com/lnnt",
+        "avatar": "https://avatars.githubusercontent.com/u/22957642?v=4"
+      },
+      {
         "name": "lzakharov",
         "github": "https://github.com/lzakharov",
         "avatar": "https://avatars.githubusercontent.com/u/26368218?v=4"
@@ -250,6 +287,11 @@
         "name": "Mangon",
         "github": "https://github.com/Mangon",
         "avatar": "https://avatars.githubusercontent.com/u/8265430?v=4"
+      },
+      {
+        "name": "nayanthulkar28",
+        "github": "https://github.com/nayanthulkar28",
+        "avatar": "https://avatars.githubusercontent.com/u/43349097?v=4"
       },
       {
         "name": "nicolabosco87",
@@ -322,14 +364,14 @@
         "avatar": "https://avatars.githubusercontent.com/u/66940685?v=4"
       },
       {
+        "name": "sunshineg",
+        "github": "https://github.com/sunshineg",
+        "avatar": "https://avatars.githubusercontent.com/u/1147886?v=4"
+      },
+      {
         "name": "surapuramakhil",
         "github": "https://github.com/surapuramakhil",
         "avatar": "https://avatars.githubusercontent.com/u/9161543?v=4"
-      },
-      {
-        "name": "sy-records",
-        "github": "https://github.com/sy-records",
-        "avatar": "https://avatars.githubusercontent.com/u/33931153?v=4"
       },
       {
         "name": "taigrr",
@@ -347,6 +389,11 @@
         "avatar": "https://avatars.githubusercontent.com/u/5136506?v=4"
       },
       {
+        "name": "yuhaoran1214",
+        "github": "https://github.com/yuhaoran1214",
+        "avatar": "https://avatars.githubusercontent.com/u/75669303?v=4"
+      },
+      {
         "name": "zahash",
         "github": "https://github.com/zahash",
         "avatar": "https://avatars.githubusercontent.com/u/36153955?v=4"
@@ -361,7 +408,7 @@
   {
     "title": "Crowdin",
     "type": "contributor",
-    "count": 110,
+    "count": 121,
     "users": [
       {
         "name": "acidtmn",
@@ -409,6 +456,11 @@
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/15514506/medium/d672749e24c63982de21ce5886a9f415.png"
       },
       {
+        "name": "atlesg",
+        "github": "https://crowdin.com/profile/atlesg",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16426358/medium/e82b726a8d2ec0b8325ae5e2765392a9.png"
+      },
+      {
         "name": "bbaltatu",
         "github": "https://crowdin.com/profile/bbaltatu",
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16187138/medium/9b4a50d8f432603f7c487021b59e6c74.png"
@@ -422,6 +474,11 @@
         "name": "BingYanchi",
         "github": "https://crowdin.com/profile/BingYanchi",
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/13911155/medium/45bf6bca80cb16ed2c3cfecac52c23a0.jpg"
+      },
+      {
+        "name": "c7li01c2000",
+        "github": "https://crowdin.com/profile/c7li01c2000",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16431491/medium/4bc3450fef87bdc8cc5912eddd117399.png"
       },
       {
         "name": "cdesouche28",
@@ -464,6 +521,11 @@
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/13861503/medium/6a2a6d0328d3aded6e609f834b926741.jpg"
       },
       {
+        "name": "dies",
+        "github": "https://crowdin.com/profile/dies",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/1/medium/6b8199c0f783d6443e606846462e9ea7.jpeg"
+      },
+      {
         "name": "dmitriev-ivan",
         "github": "https://crowdin.com/profile/dmitriev-ivan",
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/15958399/medium/459142bf46e5b02937e0d068d02575b0.jpeg"
@@ -487,6 +549,11 @@
         "name": "fenbox",
         "github": "https://crowdin.com/profile/fenbox",
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/15577837/medium/5d1f54e1ef76a5c452a6950f7dcf1b79.png"
+      },
+      {
+        "name": "fritoredux",
+        "github": "https://crowdin.com/profile/fritoredux",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16447653/medium/c384319f13284e8d633b52e743363505_default.png"
       },
       {
         "name": "georgsius",
@@ -519,9 +586,19 @@
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/13886153/medium/9a632139d04c1b4fb0c72b3f80adbf20.jpg"
       },
       {
+        "name": "hocdata.online",
+        "github": "https://crowdin.com/profile/hocdata.online",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16427620/medium/27f79d8a581644f6db7e3112b6bea10c.png"
+      },
+      {
         "name": "hoseong",
         "github": "https://crowdin.com/profile/hoseong",
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/15319926/medium/1ed0564100bcc58bc5d9a758896e57b4_default.png"
+      },
+      {
+        "name": "hotr1pak",
+        "github": "https://crowdin.com/profile/hotr1pak",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/15473664/medium/3a3252bf9769d99be4ca6d1b94dbb91f.jpg"
       },
       {
         "name": "hrp7",
@@ -626,7 +703,7 @@
       {
         "name": "lufei",
         "github": "https://crowdin.com/profile/lufei",
-        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16082016/medium/4fe92d72a465489014919db16fb35ab7_default.png"
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16082016/medium/80fc5b2821aee9855a33ee5ef3b2f796.jpeg"
       },
       {
         "name": "lutek",
@@ -647,6 +724,11 @@
         "name": "makerspathe",
         "github": "https://crowdin.com/profile/makerspathe",
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16188736/medium/1ae10d5e18a359e774159e4dabd6adde.png"
+      },
+      {
+        "name": "MamuMehdi",
+        "github": "https://crowdin.com/profile/MamuMehdi",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16476807/medium/b37e5d52f0eac404a0986fa6ea000d40_default.png"
       },
       {
         "name": "MarcinBigDataLinux",
@@ -704,6 +786,11 @@
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/15917073/medium/5025fb21d2f5585f93f6dd55dc80ca54.jpeg"
       },
       {
+        "name": "mvptinnhan",
+        "github": "https://crowdin.com/profile/mvptinnhan",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16428194/medium/f0a87bce3d655d820d6fe627917bb07a.png"
+      },
+      {
         "name": "NadiaJiang",
         "github": "https://crowdin.com/profile/NadiaJiang",
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/15666971/medium/30e0546219bb84679f05fa4c874083ae_default.png"
@@ -717,6 +804,11 @@
         "name": "nossster",
         "github": "https://crowdin.com/profile/nossster",
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/14695530/medium/5193a874a56f3cef7aea038944cc48c2.jpeg"
+      },
+      {
+        "name": "OfficialCRUGG",
+        "github": "https://crowdin.com/profile/OfficialCRUGG",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/13583700/medium/25d197ead99cd8a7f505f42aeb1fdfbd.png"
       },
       {
         "name": "omahs",
@@ -757,6 +849,11 @@
         "name": "riccardo.derrico",
         "github": "https://crowdin.com/profile/riccardo.derrico",
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/15590981/medium/1aa131fb2588b1bbe805dbb66b1f5772.png"
+      },
+      {
+        "name": "richardex666",
+        "github": "https://crowdin.com/profile/richardex666",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16418396/medium/7f97a76de89fe467104bb6da05158135.png"
       },
       {
         "name": "rio.08-chiefs",
@@ -817,6 +914,11 @@
         "name": "Sunflower1995",
         "github": "https://crowdin.com/profile/Sunflower1995",
         "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/15666969/medium/1d659d622f070d60fb875ca473caf107_default.png"
+      },
+      {
+        "name": "sunnygao",
+        "github": "https://crowdin.com/profile/sunnygao",
+        "avatar": "https://crowdin-static.downloads.crowdin.com/avatar/16407686/medium/334f0807a53f6d9bcd38e93ff714c88f.png"
       },
       {
         "name": "Superskyyy",

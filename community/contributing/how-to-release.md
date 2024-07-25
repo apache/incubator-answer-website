@@ -125,7 +125,7 @@ $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 4. If the dev vote passes, send email to the general@incubator.apache.org to request a vote on the general list. The incubator vote needs at least **3 +1s from Incubator PMC members**
    (binding votes).
 5. Wait for at **least 72 hours** or until the necessary number of votes are reached.
-6. Announce the result of the vote on the dev list.
+6. Announce the result of the vote on the general list.
 
 ### Vote email template
 

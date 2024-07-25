@@ -66,5 +66,9 @@
   "sidebar.docs.category.Developer Guides": {
     "message": "开发者指南",
     "description": "The label for category Developer Guides in sidebar docs"
+  },
+  "sidebar.docs.category.Plugins": {
+    "message": "插件",
+    "description": "The label for category Plugins in sidebar docs"
   }
 }
