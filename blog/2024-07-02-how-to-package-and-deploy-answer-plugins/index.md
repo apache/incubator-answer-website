@@ -130,8 +130,6 @@ $ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/apache/
 $ ANSWER_MODULE=github.com/apache/incubator-answer@v1.2.0-RC1 ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
 ```
 
-可以根据文档上的提示来选择所需要的插件,打包插件的会重新构建前端静态资源，插件可能有特有的依赖项，所以这里会重新执行依赖安装跟构建。构建成功后会在更目录生成 `new_answer` 二进制文件。
-
 You can choose the required plugins according to the instructions in the documentation. Compiling plugins will rebuild the front-end static resources. Plugins may have special dependencies, so dependency installation and compilation will be performed again here. After successful compilation, the `new_answer` binary file will be generated in the dist directory.
 
 
@@ -155,9 +153,7 @@ Verify plugin installation command: `./new_answer plugin`.
 ![confirm result](2.1.4.webp)
 
 
-#### 2.2.Build Single Plugin Using Local Plugin Code
-
-如果需要调整插件的一些信息或者使用自己实现的私有插件来构建，需要使用 `with local plugins` 命令来构建，比如上面提到的 `editor-formula` 插件，并且使用的 Answer 代码版本是小于 1.3.5 的，所以需要调整插件的一些信息，这种情况就需要使用该命令来完成构建。
+#### 2.2.Build Single Plugin Using Local Plugin Code 
 
 If you need to modify some plugin information or build a plugin using your own private implementation, you need to use the command `with local plugins`. For example, the `editor-formula` plugin mentioned above is compatible with Answer versions below 1.3.5, so you need to modify some plugin information. In this case, you can use the following command to build the plugin:
 
@@ -178,11 +174,7 @@ Verify plugin installation command: `./new_answer plugin`.
 #### 2.3.Build Multiple Plugins  
 The process for building multiple plugins is similar to building a single plugin. Please kindly refer to building single plugin and try it yourself.
 
-
-### 3.Verify Plugins Locally
- 
-使用命令行验证只是确保插件已经打进去了，想要查看插件是否能正常运行，可以本地运行生成的二进制文件进行查看，二进制运行[文档](https://answer.apache.org/docs/installation)
-![installation docs](installation.webp), 按照文档步骤初始化完信息。注意这里需要运行的是 new_answer 二进制，所以命令行中的 ./answer 需要使用 ./new_answer
+### 3.Verify Plugins Locally   
 
 Using the command line only ensures that the plugins have been installed. To check if the plugins are running correctly, you can run the generated binary file locally. Please refer to the [installation documentation](https://answer.apache.org/docs/installation) for instructions on initializing the information. 
 ![installation docs](installation.webp)

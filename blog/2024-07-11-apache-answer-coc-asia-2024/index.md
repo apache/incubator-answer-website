@@ -36,6 +36,7 @@ Join me as I share Answer's journey—from the transformative insights gained by
 Why does ASF believe in "Community over Code"? There is more to open-source than just code contribution. In this track, let’s explore topics like governance models, growing project communities, diversity and inclusion, community health metrics, management tools, project roadmaps, case studies, and sustaining open-source communities.
 
 #### Enhance Your Community Engagement with Apache Answer
+
 Speaker: Anne Zhu  
 Apache Answer PPMC member, and marketing specialist.
 
@@ -48,7 +49,7 @@ Apache Answer is an open-source Q&A platform software. It is designed to enhance
 ### Keynote  
 Keynote is the place where you can see the latest breakthrough of open source, gain views of from different aspects of open source, and ways you can get involve. 
 
-#### Beyond the Code: Growing in the Apache Community
+#### Beyond the Code: Growing in the Apache Community     
 Speaker: Nadia Jiang and Anne Zhu      
 PPMC member of Apache Answer
 
@@ -59,5 +60,6 @@ Nadia and Anne will share their experiences as non-developers thriving in open s
 ## Drop By at Our Booth
 Our journey starts with the booth, how can we miss it this year? We’ve prepared stickers, brand-new flyers, and of course, you can give it a try with Answer.Meta to unlock the latest features. Come and talk to our committers, we’re all ears for your feedback and questions. 
 
-## Save Your Date. Get the Ticket.
+## Save Your Date. Get the Ticket.    
 Ready for an Apache journey? [Register now](https://asia.communityovercode.org/#register) and get your ticket. See you in Hangzhou.
+
