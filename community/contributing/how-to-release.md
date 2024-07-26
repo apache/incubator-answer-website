@@ -17,9 +17,11 @@ All Apache projects are required to follow the [Apache Release Policy](https://w
 ## Prepare all the release artifacts
 
 1. Create the RC tag in the git repository and write the release notes.
-2. Build the release artifacts(bundles, source archives, etc).
-3. Sign the release artifacts.
-4. Create the checksums for the release artifacts.
+   1. notice 1: Remember to select `Set as a pre-release` before clicking `Publish release`.
+   2. notice 2: Release notes should choose a tag that is not the branch, such as `v1.2.0-RC1`.
+3. Build the release artifacts(bundles, source archives, etc).
+4. Sign the release artifacts.
+5. Create the checksums for the release artifacts.
 
 ### Sign the release artifacts
 
