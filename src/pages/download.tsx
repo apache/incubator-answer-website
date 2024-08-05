@@ -7,7 +7,7 @@ import HeaderSlogan from '../components/HeaderSlogan';
 
 
 export default function Plugins(): JSX.Element {
-  let item = "1.3.5";
+  let item = "1.3.6";
   return (
     <Layout
       title={translate({message: 'Download'})}
