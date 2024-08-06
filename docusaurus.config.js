@@ -127,7 +127,7 @@ const config = {
                 to: 'community/support',
               },
               {
-                label: 'Forum',
+                label: 'Q&A Community',
                 to: 'https://meta.answer.dev',
               },
               {

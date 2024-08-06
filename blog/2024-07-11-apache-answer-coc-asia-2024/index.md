@@ -8,9 +8,9 @@ description: "Join Apache Answer's speeches in Incubator track, Community track,
 
 ---
 
-CommunityOverCode Asia 2024 will take place in Hangzhou, China, July 26-28, 2024. 
+CommunityOverCode Asia 2024 will take place in Hangzhou, China, July 26-28, 2024.
 
-This year, the event features one main forum,15 sub-forums with over 150 experts and mentors. Attendees can learn about Apache's latest breakthrough, upcoming innovations, and insights from community-driven projects guided by the Apache way, while exploring Apache's ecosystem, business models, legal issues, and more. The full breakout session schedule can be viewed [here](https://asia.communityovercode.org/schedule.html).
+This year, the event features one main forum, 15 sub-forums with over 150 experts and mentors. Attendees can learn about Apache's latest breakthrough, upcoming innovations, and insights from community-driven projects guided by the Apache way, while exploring Apache's ecosystem, business models, legal issues, and more. The full breakout session schedule can be viewed [here](https://asia.communityovercode.org/schedule.html).
 
 As an incubating project, Apache Answer is always open to communication and collaboration. We started our CommunityOverCode Asia journey from a booth last year, and this year we’re back with not just the booth, but **two sessions, and one keynote**.
 
