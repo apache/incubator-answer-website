@@ -1,46 +1,39 @@
-import React, { FC, useEffect, useState } from 'react';
-import Link from '@docusaurus/Link';
-import { Row, Col, Button } from 'react-bootstrap';
-import clsx from 'clsx';
-import Translate from '@docusaurus/Translate';
-import Icon from '@site/src/components/Icon';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React, { FC, useEffect, useState } from "react";
+import Link from "@docusaurus/Link";
+import { Row, Col, Button } from "react-bootstrap";
+import clsx from "clsx";
+import Translate from "@docusaurus/Translate";
+import Icon from "@site/src/components/Icon";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import "aos/dist/aos.css"; 
+import AOS from "aos"; 
 
-import styles from './index.module.css';
+import styles from "./index.module.css";
 
 const list = [
-  <Translate id="home.title.qa">
-    Q&A Platform
-  </Translate>,
-  <Translate id="home.title.knowledge">
-    Knowledge Sharing Platform
-  </Translate>,
-  <Translate id="home.title.community">
-    Community Forum
-  </Translate>,
-  <Translate id="home.title.base">
-    Knowledge Base
-  </Translate>,
-  <Translate id="home.title.developer">
-    Developer Hub
-  </Translate>,
-  <Translate id="home.title.support">
-    Support Center
-  </Translate>,
-]
+  <Translate id="home.title.qa">Q&A Platform</Translate>,
+  <Translate id="home.title.knowledge">Knowledge Sharing Platform</Translate>,
+  <Translate id="home.title.community">Community Forum</Translate>,
+  <Translate id="home.title.base">Knowledge Base</Translate>,
+  <Translate id="home.title.developer">Developer Hub</Translate>,
+  <Translate id="home.title.support">Support Center</Translate>,
+];
 
 const HomeHead: FC = () => {
   const [stars, setStars] = useState(0);
-  const [slogan, setSlogan] = useState(<Translate id="home.title.qa">
-  Q&A Platform
-</Translate>);
-  const [sloganClass, setSloganClss] = useState('sloganIn');
+  const [slogan, setSlogan] = useState(
+    <Translate id="home.title.qa">Q&A Platform</Translate>
+  );
+  const [sloganClass, setSloganClass] = useState("sloganIn");
 
-  const { i18n: { currentLocale } } = useDocusaurusContext();
-
+  const {
+    i18n: { currentLocale },
+  } = useDocusaurusContext();
 
   useEffect(() => {
-    fetch('https://img.shields.io/github/stars/apache/incubator-answer')
+    AOS.init({ duration: 1000, easing: "ease-in-out" }); 
+
+    fetch("https://img.shields.io/github/stars/apache/incubator-answer")
       .then((response) => response.text())
       .then((data) => {
         const num = data.match(/<text .*>(.*?)<\/text>/)[1];
@@ -48,75 +41,80 @@ const HomeHead: FC = () => {
           setStars(num);
         }
       });
-      let i = 0;
-      const timer = setInterval(() => {
-        setSloganClss('sloganOut');
-        setTimeout(() => {
-          setSlogan(list[i]);
-          setSloganClss('sloganIn');
-        }, 300);
-        i++;
-        if (i === list.length) {
-          i = 0;
-        }
-      }, 4500);
-    () => {
-      clearInterval(timer)
-    }
+
+    let i = 0;
+    const timer = setInterval(() => {
+      setSloganClass("sloganOut");
+      setTimeout(() => {
+        setSlogan(list[i]);
+        setSloganClass("sloganIn");
+      }, 300);
+      i++;
+      if (i === list.length) {
+        i = 0;
+      }
+    }, 4500);
+
+    return () => clearInterval(timer); 
   }, []);
 
-  function numWord($num) {
-    if ($num >= 1000 && $num < 1000000) {
-      $num = Math.round($num / 100) / 10 + 'k';
-    } else {
-      if ($num >= 1000000) {
-        $num = Math.round($num / 100000) / 10 + 'm';
-      }
+  function numWord(num: number) {
+    if (num >= 1000 && num < 1000000) {
+      return `${Math.round(num / 100) / 10}k`;
+    } else if (num >= 1000000) {
+      return `${Math.round(num / 100000) / 10}m`;
     }
-    return $num;
+    return num.toString();
   }
 
   return (
-    <header className='pt-5 pb-3'>
+    <header className="pt-5 pb-3" data-aos="fade-up">
       <div className="container pt-3">
-        <Row className='justify-content-center'>
-          <Col md={12} lg={10} className='d-flex flex-column align-items-center'>
+        <Row className="justify-content-center">
+          <Col
+            md={12}
+            lg={10}
+            className="d-flex flex-column align-items-center"
+          >
             <img
-              src={require('@site/static/img/head-icon.png').default}
+              src={require("@site/static/img/head-icon.png").default}
               alt="head-icon"
               width="168"
               height="168"
               className="mb-4"
+              data-aos="zoom-in"
             />
 
-            <h1 className={clsx('sm-h1 fw-bold', styles.h1)}>
-              <Translate
-                id="home.title.build"
+            <h1 className={clsx("sm-h1 fw-bold", styles.h1)}>
+              <Translate id="home.title.build">Build</Translate>
+              {currentLocale === "zh-CN" ? <br /> : " "}
+              <span
+                className={clsx(
+                  "text-warning text-decoration-underline link-offset-1",
+                  styles.slogan,
+                  styles[sloganClass]
+                )}
               >
-                Build
-              </Translate>
-              {currentLocale === 'zh-CN' ? <br /> : ' '}
-              <span className={clsx('text-warning text-decoration-underline link-offset-1', styles.slogan, styles[sloganClass])}>
-                <span className='text-body'>{slogan}</span>
+                <span className="text-body">{slogan}</span>
               </span>
               <br />
-              <Translate
-                id="home.title.teams"
-              >
-                with Apache Answer
-              </Translate>
+              <Translate id="home.title.teams">with Apache Answer</Translate>
             </h1>
 
             <div
-              className={clsx('text-secondary text-center mb-4 px-4', styles.intro)}
+              className={clsx(
+                "text-secondary text-center mb-4 px-4",
+                styles.intro
+              )}
+              data-aos="fade-up"
             >
               <Translate
                 id="home.description"
-                values={{
-                  br: currentLocale === 'zh-CN' ? <br /> : '',
-                }}
+                values={{ br: currentLocale === "zh-CN" ? <br /> : "" }}
               >
-                {"A Q&A platform software for teams at any scale.{br} Whether it’s a community forum, help center, or knowledge management platform, you can always count on Answer."}
+                {
+                  "A Q&A platform software for teams at any scale.{br} Whether it’s a community forum, help center, or knowledge management platform, you can always count on Answer."
+                }
               </Translate>
             </div>
 
@@ -126,6 +124,7 @@ const HomeHead: FC = () => {
                 variant="primary"
                 className="fw-normal fs-20 btnMain me-3"
                 href="/docs"
+                data-aos="fade-left"
               >
                 <Translate id="home.btn.started">Get Started</Translate>
               </Button>
@@ -136,18 +135,18 @@ const HomeHead: FC = () => {
                 className="btnMain fw-normal fs-20"
                 href="https://github.com/apache/incubator-answer"
                 target="_blank"
+                data-aos="fade-right"
               >
-                <Icon name="github" size="24px"  className="me-2" />
+                <Icon name="github" size="24px" className="me-2" />
                 {` Star `}
-                {stars !== 0 ? numWord(stars) : ''}
+                {stars !== 0 ? numWord(Number(stars)) : ""}
               </Button>
             </div>
 
             <div className="text-secondary text-center fs-14">
-              <Translate
-                id="home.apache.answer"
-              >
-                Apache Answer is an effort undergoing incubation at The Apache Software Foundation.
+              <Translate id="home.apache.answer">
+                Apache Answer is an effort undergoing incubation at The Apache
+                Software Foundation.
               </Translate>
             </div>
           </Col>

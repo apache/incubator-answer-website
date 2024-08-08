@@ -1,12 +1,14 @@
-import React from 'react';
-import clsx from 'clsx';
-import { Row, Col, Carousel } from 'react-bootstrap';
-import Translate from '@docusaurus/Translate';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick';
+import React, { useEffect } from "react";
+import clsx from "clsx";
+import { Row, Col } from "react-bootstrap";
+import Translate from "@docusaurus/Translate";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "aos/dist/aos.css"; 
+import AOS from "aos"; 
 
-import styles from './styles.module.css';
+import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: JSX.Element;
@@ -17,12 +19,8 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: (
-      <Translate id="home.features.title1">
-        Q&A Platform
-      </Translate>
-    ),
-    icon: require('@site/static/img/feature-1.png').default,
+    title: <Translate id="home.features.title1">Q&A Platform</Translate>,
+    icon: require("@site/static/img/feature-1.png").default,
     description: (
       <Translate id="home.features.item1">
         Help members with questions and boost community participation. Your
@@ -32,12 +30,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: (
-      <Translate id="home.features.title2">
-        Organized
-      </Translate>
-    ),
-    icon: require('@site/static/img/feature-2.png').default,
+    title: <Translate id="home.features.title2">Organized</Translate>,
+    icon: require("@site/static/img/feature-2.png").default,
     description: (
       <Translate id="home.features.item2">
         Use tags to organize questions and help contents into categories. They
@@ -47,12 +41,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: (
-      <Translate id="home.features.title3">
-        Integrations
-      </Translate>
-    ),
-    icon: require('@site/static/img/feature-3.png').default,
+    title: <Translate id="home.features.title3">Integrations</Translate>,
+    icon: require("@site/static/img/feature-3.png").default,
     description: (
       <Translate id="home.features.item3">
         Configure your community with plugins and your favorite services. So
@@ -62,12 +52,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: (
-      <Translate id="home.features.title4">
-        Gamification
-      </Translate>
-    ),
-    icon: require('@site/static/img/feature-4.png').default,
+    title: <Translate id="home.features.title4">Gamification</Translate>,
+    icon: require("@site/static/img/feature-4.png").default,
     description: (
       <Translate id="home.features.item4">
         We’ve gamified the Q&A platform with reputation and badges. So the
@@ -90,7 +76,7 @@ const settings = {
 
 function Feature({ title, icon, description, later }: FeatureItem) {
   return (
-    <Col sm={12} md={6} lg={3} className="mb-4">
+    <Col sm={12} md={6} lg={3} className="mb-4" data-aos="fade-up">
       <div className="border p-4 rounded h-100">
         <div className="mb-3">
           <img className={styles.featureSvg} role="img" src={icon} />
@@ -106,55 +92,60 @@ function Feature({ title, icon, description, later }: FeatureItem) {
 export default function HomepageFeatures(): JSX.Element {
   const bannerList = [
     {
-      laptop: require('@site/static/img/home-laptop@2x.png').default,
-      mobile: require('@site/static/img/home-mobile@2x.png').default,
+      laptop: require("@site/static/img/home-laptop@2x.png").default,
+      mobile: require("@site/static/img/home-mobile@2x.png").default,
     },
     {
-      laptop: require('@site/static/img/answers-laptop@2x.png').default,
-      mobile: require('@site/static/img/answers-mobile@2x.png').default,
+      laptop: require("@site/static/img/answers-laptop@2x.png").default,
+      mobile: require("@site/static/img/answers-mobile@2x.png").default,
     },
     {
-      laptop: require('@site/static/img/profile-laptop@2x.png').default,
-      mobile: require('@site/static/img/profile-mobile@2x.png').default,
+      laptop: require("@site/static/img/profile-laptop@2x.png").default,
+      mobile: require("@site/static/img/profile-mobile@2x.png").default,
     },
   ];
-  return (
-    <div className="container" style={{ overflow: 'auto' }}>
-      <Slider {...settings}>
-        {bannerList.map((banner) => {
-          return (
-            <div key={banner.laptop}>
-              <section>
-                  <div className={styles.screenContent}>
-                      <div className={styles.pcScreen}>
-                        <img
-                          src={banner.laptop}
-                          alt=""
-                          width="100%"
-                          height="auto"
-                          className={clsx('d-block', styles.smmothImg)}
-                        />
-                      </div>
 
-                    <div className={styles.screenMobile}>
-                      <img
-                        src={banner.mobile}
-                        alt=""
-                        width="100%"
-                        height="auto"
-                        className={clsx('d-block', styles.smmothImg)}
-                      />
-                    </div>
-                  </div>
-                </section>
-            </div>
-          );
-        })}
+  useEffect(() => {
+    AOS.init({ duration: 1000, easing: "ease-in-out" }); 
+  }, []);
+
+  return (
+    <div className="container" style={{ overflow: "auto" }}>
+      <Slider {...settings}>
+        {bannerList.map((banner, index) => (
+          <div key={index}>
+            <section>
+              <div className={styles.screenContent} data-aos="fade-up">
+                <div className={styles.pcScreen}>
+                  <img
+                    src={banner.laptop}
+                    alt=""
+                    width="100%"
+                    height="auto"
+                    className={clsx("d-block", styles.smmothImg)}
+                    data-aos="zoom-in"
+                  />
+                </div>
+
+                <div className={styles.screenMobile}>
+                  <img
+                    src={banner.mobile}
+                    alt=""
+                    width="100%"
+                    height="auto"
+                    className={clsx("d-block", styles.smmothImg)}
+                    data-aos="zoom-in"
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+        ))}
       </Slider>
 
       <Row className="row justify-content-center">
         <Col className="col-12">
-          <section>
+          <section data-aos="fade-up">
             <h3 className="text-center mb-5 h1">
               <Translate id="home.features.title">Features</Translate>
             </h3>
@@ -167,9 +158,11 @@ export default function HomepageFeatures(): JSX.Element {
             </div>
           </section>
 
-          <section style={{ marginBottom: '96px' }}>
+          <section style={{ marginBottom: "96px" }} data-aos="fade-up">
             <h3 className="text-center h1">
-              <Translate id="home.contribute.title">We welcome all contributions</Translate>
+              <Translate id="home.contribute.title">
+                We welcome all contributions
+              </Translate>
             </h3>
             <p className="text-center text-secondary mb-4 fs-20">
               <Translate id="home.contribute.ways">
@@ -178,21 +171,25 @@ export default function HomepageFeatures(): JSX.Element {
             </p>
             <div className={styles.linkWrap}>
               <ul>
-                <li className={clsx('mb-2', styles.li)}>
+                <li className={clsx("mb-2", styles.li)} data-aos="fade-up">
                   <a href="/community/contributing">
                     <Translate id="home.contribute.item1">
                       Contribute to our open-source codebase
                     </Translate>
                   </a>
                 </li>
-                <li className={clsx('mb-2', styles.li)}>
+                <li className={clsx("mb-2", styles.li)} data-aos="fade-up">
                   <a href="/docs">
-                    <Translate id="home.contribute.item2">Help us improve the docs</Translate>
+                    <Translate id="home.contribute.item2">
+                      Help us improve the docs
+                    </Translate>
                   </a>
                 </li>
-                <li className={styles.li}>
+                <li className={styles.li} data-aos="fade-up">
                   <a href="/community/translation">
-                    <Translate id="home.contribute.item3">Help us translate language resources</Translate>
+                    <Translate id="home.contribute.item3">
+                      Help us translate language resources
+                    </Translate>
                   </a>
                 </li>
               </ul>
