@@ -33,6 +33,7 @@
     "@docusaurus/utils": "^3.1.1",
     "@mdx-js/react": "^3.0.0",
     "@popperjs/core": "^2.11.8",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.0",
     "bootstrap-icons": "^1.11.1",
     "clsx": "^1.2.1",
