@@ -8,6 +8,20 @@ The Apache Software Foundation takes a rigorous stance on eliminating security i
 
 # Security fixes
 
+## v1.3.5
+
+### CVE-2024-41888
+
+The password reset link remains valid within its expiration period even after it has been used. This could potentially lead to the link being misused or hijacked.
+
+https://www.cve.org/CVERecord?id=CVE-2024-41888
+
+### CVE-2024-41890
+
+User sends multiple password reset emails, each containing a valid link. Within the link's validity period, this could potentially lead to the link being misused or hijacked.
+
+https://www.cve.org/CVERecord?id=CVE-2024-41890
+
 ## v1.2.5
 
 ### CVE-2024-29217
