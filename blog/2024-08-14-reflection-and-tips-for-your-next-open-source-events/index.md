@@ -2,7 +2,7 @@
 title: "Reflection and Our Tips for Your Next Open-Source Events"
 authors: [Anne]
 category: Community
-featured: faulse
+featured: false
 image: 2024-08-14-cover@4x.png
 description: "Discover how we showcased our open-source project on the world stage, and tips for your next big event."
 
