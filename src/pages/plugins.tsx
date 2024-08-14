@@ -1,6 +1,7 @@
 import React, {  useEffect, useState } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Translate, { translate } from '@docusaurus/Translate';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import HeaderSlogan from '../components/HeaderSlogan';
@@ -8,13 +9,30 @@ import HeaderSlogan from '../components/HeaderSlogan';
 
 export default function Plugins(): JSX.Element {
   const [list, setList] = useState([]);
+  const { i18n } = useDocusaurusContext();
+
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/apache/incubator-answer-plugins/main/plugins_desc.json').then(res => res.json()).then(data => {
-      setList(data);
-    }).catch(err => {
-      console.error('featch plugins list error', err);
-    })
+    getPluginList();
   }, [])
+
+  const getPluginList = async () => {
+    try {
+      const res = await fetch(
+        'https://raw.githubusercontent.com/apache/incubator-answer-plugins/main/plugins_desc.json'
+      );
+      const data = await res.json();
+
+      if (Array.isArray(data)) {
+        setList(data);
+      } else {
+        const currentLang = i18n.currentLocale;
+        const lang = currentLang === 'en' ? 'en_US' : currentLang.replace('-', '_');
+        setList(data[lang]);
+      }
+    } catch (err) {
+      console.error('featch plugins list error', err);
+    }
+  }
   return (
     <Layout
       title={translate({ message: 'Plugins' })}
@@ -43,12 +61,11 @@ export default function Plugins(): JSX.Element {
                     <h5>
                       <a href={item.link} target='_blank'>{item.name}</a>
                     </h5>
-                    <div>{item.desc}</div>
+                    <div className='text-truncate-4'>{item.desc}</div>
                   </Card.Body>
                 </Card>
               </Col>
             })}
-
          </Row>
       </Container>
     </Layout>

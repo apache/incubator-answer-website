@@ -2,108 +2,116 @@
 slug: /command-line
 ---
 
-# 命令行
+# Command Line
 
 :::tip
 
-Apache Answer 二进制文件支持一些命令行选项
+Apache Answer binary support some command-line options
 
 :::
 
-## 用法
+## Usage
 
 `answer command [command or global options] [arguments...]`
 
 ```shell
-运行 answer 的方法如下：
-        - 使用 'answer init' 初始化所需的环境。
-        - 使用 'answer run' 启动应用程序。
-        - 使用 'answer upgrade' 升级应用程序。
+To run answer, use:
+        - 'answer init' to initialize the required environment.
+        - 'answer run' to launch the application.
+        - 'answer upgrade' to upgrade the application
 
-用法:
+Usage:
   answer [command]
 
-可用命令:
-  build       使用插件构建 answer
-  check       检查所需环境
-  dump        备份数据
-  help        获取任一命令的帮助信息
-  init        初始化 answer 应用程序
-  plugin      打印打包在二进制文件中的所有插件
-  run         运行应用程序
-  upgrade     升级 Apache Answer 版本
+Available Commands:
+  build       used to build answer with plugins
+  check       checking the required environment
+  dump        back up data
+  help        Help about any command
+  init        init answer application
+  plugin      prints all plugins packed in the binary
+  run         Run the application
+  upgrade     upgrade Apache Answer version
 
-选项:
-  -C, --data-path string   数据路径，例如：-C ./data/（默认值为 "/data/"）
-  -h, --help               answer 的帮助信息
-  -v, --version            answer 的版本信息
+Flags:
+  -C, --data-path string   data path, eg: -C ./data/ (default "/data/")
+  -h, --help               help for answer
+  -v, --version            version for answer
 
-使用 "answer [command] --help" 获取有关命令的更多信息。
+Use "answer [command] --help" for more information about a command.
 ```
 
-## 全局选项
-所有全局选项都可以放置在命令级别。
-- `--help`，`-h`：显示帮助文本并退出。可选。
-- `--version`，`-v`：显示版本信息并退出。可选。
-- `--data-path` 路径，`-C` 路径：数据保存路径。可选（默认值为 /data/）。
+## Global options
 
-## 命令
+All global options can be placed at the command level.
+
+- `--help`, `-h`: Show help text and exit. Optional.
+- `--version`, `-v`: Show version and exit. Optional.
+- `--data-path` path, `-C` path: data saved path. Optional. (default: /data/)
+
+## Commands
+
 ### init
-> init 命令将初始化应用程序所需的环境，包括：默认配置文件、数据目录、初始化数据库等。
 
-- 示例
+> init command will initialize the application required environment, contains: default config-file, data directory, initialize database etc.
+
+- Examples
   - `answer init -C ./data/`
-- 注意
-  - 如果 answer 已经初始化，此命令将不会执行。例如，如果配置文件已经存在，则不会创建或覆盖它。
-  - 如果 answer 初始化失败，则无法执行 run 命令。
+- Notes
+  - if answer already initialized, this command will not be executed. For example, if config file is already exist so it will not be created or overwritten.
+  - if answer initialized failed, run command can not be executed.
 
 ### check
-> check 命令将检查应用程序是否可以运行。检查配置文件是否存在，检查数据库是否可以建立连接等。
 
-- 示例
+> check command will check the application whether it can run or not. check the config file if exist. check the database if connection can be established etc.
+
+- Examples
   - `answer check -C ./data/`
 
 ### run
-> run 命令将运行应用程序。
 
-- 示例
+> run command will run the application.
+
+- Examples
   - `answer run -C ./data/`
 
 ### upgrade
-> upgrade 命令将升级应用程序。
 
-- 选项
-  - `-f` 版本：从指定版本升级。可选。
-- 示例
+> upgrade command will upgrade the application.
+
+- Options
+  - `-f` version: Upgrade from the specified version. Optional.
+- Examples
   - `answer upgrade -C ./data/`
   - `answer upgrade -f v1.1.0 -C ./data/`
 
 ### dump
-> dump 命令将数据库数据转储到 SQL 文件。
 
-- 选项
-  - `--path` 路径，`-p` 路径：转储数据的路径。可选（默认值为 ./）。
-- 示例
+> dump command will dump the database data to sql file.
+
+- Options
+  - `--path` path, `-p` path: dump data path. Optional. (default: ./)
+- Examples
   - `answer dump -p /tmp/`
 
 ### build
-> 构建一个新的 Apache Answer 包含指定插件。
+> build a new Apache Answer with plugins.
 
-- 选项
-  - `--with` 插件的字段名。必需。
-- 示例
+- Options
+  - `--with` the field name of plugin. Required.
+- Examples
   - `answer build --with plugin1 --with plugin2`
 
 ### plugin
-> 打印打包在二进制文件中的所有插件。
+> prints all plugins packed in the binary.
 
-- 示例
+- Examples
   - `answer plugin`
 
 ### config
-> 将某些配置值恢复为默认值。
+> restore some config value to default.
 
-- 选项
-  - `--with` 配置的字段名。必需。
-- 示例
+- Options
+  - `--with` the field name of config. Required.
+- Examples
   - `answer config -C ./data/ --with allow_password_login`

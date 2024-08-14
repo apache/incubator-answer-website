@@ -35,9 +35,9 @@
     "message": "支持",
     "description": "Navbar item with label Support"
   },
-  "item.label.Forum": {
-    "message": "论坛",
-    "description": "Navbar item with label Forum"
+  "item.label.Q&A Community": {
+    "message": "问答社区",
+    "description": "Navbar item with label Q&A Community"
   },
   "item.label.Team": {
     "message": "团队",

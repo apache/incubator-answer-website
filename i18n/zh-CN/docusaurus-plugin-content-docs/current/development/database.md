@@ -2,17 +2,17 @@
 slug: /database
 ---
 
-# 数据库介绍
+# Database
 
 :::note
 
-不同的数据库具有不同的数据类型。下表以 mysql/mariadb 为例。
+Different databases have different data types. The following table presumes use of mysql/mariadb as an example.
 
 :::
 
 ## activity
->
-> `activity` 表记录用户的各种行为，如投票等。
+
+> `activity` table records various actions of users, such as votes, etc.
 
 | COLUMN             | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                                                     |
 |--------------------|------------|----------|-----|---------|-----------------------------------------------------------------------------|
@@ -31,8 +31,8 @@ slug: /database
 | revision_id        | bigint(20) | NO       |     | 0       | revision id                                                                 |
 
 ## answer
->
-> `answer` 表记录回答信息。
+
+> `answer` table records the answer info.
 
 | COLUMN            | DATA TYPE  | NULLABLE | KEY | DEFAULT           | COMMENT                                 |
 |-------------------|------------|----------|-----|-------------------|-----------------------------------------|
@@ -51,8 +51,8 @@ slug: /database
 | revision_id       | bigint(20) | NO       |     | 0                 | revision id                             |
 
 ## collection
->
-> `collection` 表记录用户对任何对象的收藏信息。
+
+> `collection` table records user collection about any object.
 
 | COLUMN                     | DATA TYPE    | NULLABLE   | KEY   | DEFAULT             | COMMENT                    |
 |----------------------------|--------------|------------|-------|---------------------|----------------------------|
@@ -75,8 +75,8 @@ slug: /database
 | default_group | int(11)     | NO       |     | 1                 | mark this group is default, default 1 |
 
 ## comment
->
-> `comment` 表记录有关问题或回答的评论。
+
+> `comment` table records the comment about question or answer.
 
 | COLUMN           | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                  |
 |------------------|------------|----------|-----|---------|------------------------------------------|
@@ -94,8 +94,8 @@ slug: /database
 | parsed_text      | mediumtext | NO       |     |         | parsed comment content                   |
 
 ## config
->
-> `config` 表记录站点配置。
+
+> `config` records the site configuration.
 
 | COLUMN | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                            |
 |--------|--------------|----------|-----|---------|----------------------------------------------------|
@@ -104,8 +104,8 @@ slug: /database
 | value  | text         | YES      |     |         | the config value, custom data structures and types |
 
 ## meta
->
-> `meta` 表记录对象的一些额外信息。
+
+> `meta` records some extra information about the object.
 
 |   COLUMN   |  DATA TYPE   | NULLABLE | KEY |      DEFAULT      |   COMMENT    |
 |------------|--------------|----------|-----|-------------------|--------------|
@@ -117,8 +117,8 @@ slug: /database
 | value      | mediumtext   | NO       |     |                   | value        |
 
 ## notification
->
-> `notification` 表记录用户收到的通知。
+
+> `notification` table records the notification that user received.
 
 | COLUMN     | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                   |
 |------------|------------|----------|-----|---------|-------------------------------------------|
@@ -133,8 +133,8 @@ slug: /database
 | status     | int(11)    | NO       |     | 1       | notification status(normal: 1;delete 2)   |
 
 ## power
->
-> `power` 表记录所有权限。
+
+> `power` table records all permissions
 
 | COLUMN        | DATA TYPE      | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
 |---------------|----------------|------------|-------|-----------|-------------|
@@ -146,8 +146,8 @@ slug: /database
 | description   | varchar(200)   | NO         |       |           | description |
 
 ## question
->
-> `question` 表记录问题信息。
+
+> `question` table records the question info.
 
 | COLUMN             | DATA TYPE    | NULLABLE | KEY | DEFAULT           | COMMENT                                   |
 |--------------------|--------------|----------|-----|-------------------|-------------------------------------------|
@@ -172,8 +172,8 @@ slug: /database
 | revision_id        | bigint(20)   | NO       |     | 0                 | revision id                               |
 
 ## report
->
-> `report` 表记录用户举报的内容。
+
+> `report` table records the content of user reports
 
 | COLUMN           | DATA TYPE  | NULLABLE | KEY | DEFAULT | COMMENT                                  |
 |------------------|------------|----------|-----|---------|------------------------------------------|
@@ -191,8 +191,8 @@ slug: /database
 | status           | int(11)    | NO       |     | 1       | status(normal: 1; pending:2; delete: 10) |
 
 ## revision
->
-> `revision` 表记录历史修订和版本内容。
+
+> `revision` table records the object revision and the content of the version.
 
 | COLUMN         | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                     |
 |----------------|--------------|----------|-----|---------|---------------------------------------------|
@@ -209,8 +209,8 @@ slug: /database
 | review_user_id | bigint(20)   | NO       |     | 0       | review user id                              |
 
 ## role
->
-> `role` 表记录所有角色。
+
+> `role` table records all roles
 
 | COLUMN        | DATA TYPE      | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
 |---------------|----------------|------------|-------|-----------|-------------|
@@ -221,8 +221,8 @@ slug: /database
 | description   | varchar(200)   | NO         |       |           | description |
 
 ## role_power_rel
->
-> `role_power_rel` 表记录角色和权限之间的关系。
+
+> `role_power_rel` records the relationship between roles and powers
 
 | COLUMN       | DATA TYPE      | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
 |--------------|----------------|------------|-------|-----------|-------------|
@@ -233,8 +233,8 @@ slug: /database
 | power_type   | varchar(200)   | NO         |       |           | power       |
 
 ## site_info
->
-> `site_info` 表记录与界面或其他相关内容有关的站点信息。
+
+> `site_info` table records the site information about interface or something related
 
 | COLUMN     | DATA TYPE   | NULLABLE | KEY | DEFAULT | COMMENT                                    |
 |------------|-------------|----------|-----|---------|--------------------------------------------|
@@ -246,8 +246,8 @@ slug: /database
 | status     | int(11)     | NO       |     | 1       | site info status(available: 1;deleted: 10) |
 
 ## tag
->
-> `tag` 表记录标签信息。
+
+> `tag` table records the tag information.
 
 | COLUMN             | DATA TYPE   | NULLABLE | KEY | DEFAULT | COMMENT                              |
 |--------------------|-------------|----------|-----|---------|--------------------------------------|
@@ -266,8 +266,8 @@ slug: /database
 | revision_id        | bigint(20)  | NO       |     | 0       | revision id                          |
 
 ## tag_rel
->
-> `tag_rel` 表记录对象和标签之间的关系。
+
+> `tag_rel` table records the relationship between objects and tags
 
 | COLUMN         | DATA TYPE      | NULLABLE     | KEY     | DEFAULT     | COMMENT                                     |
 |----------------|----------------|--------------|---------|-------------|---------------------------------------------|
@@ -279,8 +279,8 @@ slug: /database
 | status         | int(11)        | NO           |         | 1           | tag_list_status(available: 1;deleted: 10)   |
 
 ## uniqid
->
-> `uniqid` 表记录可以唯一标识对象的对象 ID。
+
+> `uniqid` table recorded the object_id that can uniquely identify an object.
 
 |   COLUMN    | DATA TYPE  | NULLABLE | KEY | DEFAULT |   COMMENT   |
 |-------------|------------|----------|-----|---------|-------------|
@@ -288,8 +288,8 @@ slug: /database
 | uniqid_type | int(11)    | NO       |     |       0 | uniqid_type |
 
 ## user
->
-> `user` 表记录用户的基本信息。
+
+> The user table recorded basic information about the user.
 
 | COLUMN          | DATA TYPE    | NULLABLE | KEY | DEFAULT | COMMENT                                |
 |-----------------|--------------|----------|-----|---------|----------------------------------------|
@@ -321,8 +321,8 @@ slug: /database
 | is_admin        | int(11)      | NO       |     | 0       | admin flag(deprecated)                 |
 
 ## user_role_rel
->
-> `user_role_rel` 表记录用户和角色之间的关系。
+
+> The `user_role_rel` table records the relationship between users and roles.
 
 | COLUMN       | DATA TYPE    | NULLABLE   | KEY   | DEFAULT   | COMMENT     |
 |--------------|--------------|------------|-------|-----------|-------------|
@@ -333,8 +333,8 @@ slug: /database
 | role_id      | int(11)      | NO         |       | 0         | role id     |
 
 ## version
->
-> 当前 Apache Answer 的版本记录在版本表中以进行升级。
+
+> The version of the current answer is recorded in version table for upgrade.
 
 |     COLUMN     | DATA TYPE | NULLABLE | KEY | DEFAULT |    COMMENT     |
 |----------------|-----------|----------|-----|---------|----------------|

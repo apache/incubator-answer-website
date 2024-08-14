@@ -78,7 +78,7 @@ plugin:
 
 - The `plugin` is the root key of the translation file.
 - The `github_connector` is the name of the plugin.
-- The `backend` is translation for the backend. The end of key like `other` is just for [go-i18n](https://github.com/nicksnyder/go-i18n) to recognize the translation file. 
+- The `backend` is translation for the backend. The end of key like `other` is just for [go-i18n](https://github.com/nicksnyder/go-i18n) to recognize the translation file.
 - The `ui` is translation for the frontend.
 
 You can use the key like `plugin.github_connector.backend.name` or `plugin.github_connector.ui.login.title` for translation.
@@ -101,7 +101,7 @@ const (
 
 The `i18n.go` file is used to store the key of the translation file.
 
-Finally, the directory structure of the plugin is as follows:
+The directory structure of the plugin is as follows:
 
 ```bash
 .
@@ -113,6 +113,20 @@ Finally, the directory structure of the plugin is as follows:
     ├── en_US.yaml
     ├── translation.go
     └── zh_CN.yaml
+```
+
+Finally, execute the following bash shell command to merge the plugin i18n files into the answer i18n runtime data.
+
+You can replace the environment variables with your own data or define them as needed.
+
+```bash
+go run ./cmd/answer/main.go i18n -s $PLUGIN_PATH -t $ANSWER_DATA_PATH
+```
+
+Example:
+
+```bash
+go run ./cmd/answer/main.go i18n -s ../incubator-answer-plugins/ -t ./answer-data/i18n/
 ```
 
 ## Backend translation

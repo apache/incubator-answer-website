@@ -154,6 +154,7 @@ Verify plugin installation command: `./new_answer plugin`.
 
 
 #### 2.2.Build Single Plugin Using Local Plugin Code 
+
 If you need to modify some plugin information or build a plugin using your own private implementation, you need to use the command `with local plugins`. For example, the `editor-formula` plugin mentioned above is compatible with Answer versions below 1.3.5, so you need to modify some plugin information. In this case, you can use the following command to build the plugin:
 
 `./answer build --with github.com/apache/incubator-answer-plugins/editor-formula@0.0.3=/Users/shuai/answer/plugins/editor-formula`
@@ -173,8 +174,8 @@ Verify plugin installation command: `./new_answer plugin`.
 #### 2.3.Build Multiple Plugins  
 The process for building multiple plugins is similar to building a single plugin. Please kindly refer to building single plugin and try it yourself.
 
-
 ### 3.Verify Plugins Locally   
+
 Using the command line only ensures that the plugins have been installed. To check if the plugins are running correctly, you can run the generated binary file locally. Please refer to the [installation documentation](https://answer.apache.org/docs/installation) for instructions on initializing the information. 
 ![installation docs](installation.webp)
 

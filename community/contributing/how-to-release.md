@@ -17,9 +17,11 @@ All Apache projects are required to follow the [Apache Release Policy](https://w
 ## Prepare all the release artifacts
 
 1. Create the RC tag in the git repository and write the release notes.
-2. Build the release artifacts(bundles, source archives, etc).
-3. Sign the release artifacts.
-4. Create the checksums for the release artifacts.
+   1. notice 1: Remember to select `Set as a pre-release` before clicking `Publish release`.
+   2. notice 2: Release notes should choose a tag that is not the branch, such as `v1.2.0-RC1`.
+3. Build the release artifacts(bundles, source archives, etc).
+4. Sign the release artifacts.
+5. Create the checksums for the release artifacts.
 
 ### Sign the release artifacts
 
@@ -125,7 +127,7 @@ $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 4. If the dev vote passes, send email to the general@incubator.apache.org to request a vote on the general list. The incubator vote needs at least **3 +1s from Incubator PMC members**
    (binding votes).
 5. Wait for at **least 72 hours** or until the necessary number of votes are reached.
-6. Announce the result of the vote on the dev list.
+6. Announce the result of the vote on the general list.
 
 ### Vote email template
 
