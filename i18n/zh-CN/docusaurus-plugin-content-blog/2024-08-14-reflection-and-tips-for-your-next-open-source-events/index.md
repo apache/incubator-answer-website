@@ -1,63 +1,84 @@
 ---
-title: "Join Apache Answer at CommunityOverCode Asia 2024"
+title: "Reflection and Our Tips for Your Next Open-Source Events"
 authors: [Anne]
 category: Community
-featured: true
-image: 2024-07-11-cover@4x.png
-description: "Join Apache Answer's speeches in Incubator track, Community track, Keynote. Talk to us at our booth in CoC Asia 2024."
+featured: faulse
+image: 2024-08-14-cover@4x.png
+description: "Discover how we showcased our open-source project on the world stage, and tips for your next big event."
 
 ---
 
-CommunityOver ode Asia 2024 will take place in Hangzhou, China, July 26-28, 2024. 
+July was a month filled with community and connection. We had the privilege of participating in two incredible events: [WeAreDev World Congress 2024](https://www.wearedevelopers.com/world-congress) and [CommunityOverCode Asia 2024](https://asia.communityovercode.org/).
 
-This year, the event features one main forum,15 sub-forums with over 150 experts and mentors. Attendees can learn about Apache's latest breakthrough, upcoming innovations, and insights from community-driven projects guided by the Apache way, while exploring Apache's ecosystem, business models, legal issues, and more. The full breakout session schedule can be viewed [here](https://asia.communityovercode.org/schedule.html).
+We were grateful to be given these chances. In this blog, we would love to share tips here for more open-source projects showcasing themselves on the stage next time. 
 
-As an incubating project, Apache Answer is always open to communication and collaboration. We started our CommunityOverCode Asia journey from a booth last year, and this year we’re back with not just the booth, but **two sessions, and one keynote**.
+## WeAreDev World Congress GitHub Open Source Spotlight 
+As world’s leading event for developers and tech decision-makers, WeAreDev World Congress welcomes more than 15,000 developers and over 500 speakers sharing their expertise and visions of future trends in modern software development. 
 
-## See You in Our Sessions
-Last year, Apache Answer passed the vote and entered the incubator. We’ve been receiving help from the community, including but not limited to documentations, PRs, and meetup. Time for us to give it back to the open-source world. 
+![Alt text](WeAreDev%20World%20Congress.JPG)
 
-Follow PPMC member LinkinStar, backend engineer, to look back at our first Apache release, how we settled down, and how the community nail the challenges. Dive with Anne Zhu, marketing specialist, for a closer look at Apache Answer with practical how-tos to engage your community members. Don’t forget to join Nadia and Anne for their keynote on non-code contributions within the open-source ecosystem. 
+This year, GitHub Open Source Spotlight was a part of this congress. We submitted our application and were chosen and offered a space at GitHub booth. It was an unbelievable opportunity to showcase Apache Answer to a global audience of over 15,000 developers and tech leaders. Not to mention, with other brilliant open-source projects. 
 
-### Incubator Track 
-This track provides insights on the incubator journey, Apache’s governance, and operations. Participants will learn about advancing from incubation to a Top-Level Project (TLP) and strategies for building a diverse, compliant open-source community.
+![Alt text](GitHub%20Open%20Source%20Spotlight%20Area.jpeg)
 
-#### The Journey from Incubation to First Release: Unveiling the Apache Answer Release Way   
-Speaker: LinkinStar    
-Apache Answer PPMC Member, architect of SegmentFault, and Golang backend expert.
+The event provided a valuable opportunity to showcase Answer to potential users, contributors, and industry experts. We gained valuable insights and feedback that will help us shape Answer in a better way. Guess what, we even met several users from Germany!
 
-Join me as I share Answer's journey—from the transformative insights gained by participating in open source, through the story-rich donation process to Apache, to the challenging yet rewarding path to our first release. Discover how open source reshaped my understanding, the collaborative efforts behind Answer's integration into the Apache Software Foundation, and the persistence needed to navigate the complexities of launching our initial version. This session is a concise exploration of lessons learned and the unyielding spirit of the open-source community.
+![Alt text](Answer%20at%20GitHub%20Open%20Source%20Spotlight.jpeg)
 
-*Click [here](https://asia.communityovercode.org/schedule.html) for more on the schedule.*
+## CommunityOverCode Asia 2024
+CommunityOverCode (formly known as ApacheCon) is the official global conference series of The Apache Software Foundation (ASF). Since 1998 – before the ASF’s incorporation – ApacheCon has been drawing participants at all levels to explore "Tomorrow’s Technology Today" across 300+ Apache projects and their diverse communities. CommunityOverCode showcases the latest developments in Apache projects and emerging innovations through hands-on sessions, keynotes, real-world case studies, trainings, hackathons, and more.
 
-------
+![Alt text](CoC%20Asia%202024.jpg)
 
-## Community Track   
-Why does ASF believe in "Community over Code"? There is more to open-source than just code contribution. In this track, let’s explore topics like governance models, growing project communities, diversity and inclusion, community health metrics, management tools, project roadmaps, case studies, and sustaining open-source communities.
+We had a booth and 3 speeches in keynote, incubator, and community track. We were happy to catch up with our mentors. At the booth, our committers were grateful to connect and answer questions with committers from other Apache projects.
 
-### Enhance Your Community Engagement with Apache Answer
-Speaker: Anne Zhu  
-Apache Answer PPMC member, and marketing specialist.
 
-Apache Answer is an open-source Q&A platform software. It is designed to enhance your community engagement with features you'll need and love. In this session, we will start with the paths of how we help users find better answers, how we cherish and reward the good deeds, and engage the users in fun ways. We would also love to share your ideas on how we have the idea of this project, and how you can use Apache Answer for building your next online community.
+## Tips for Better Showcasing Your Projects Events
+Here, we would love to share some tips for more open-source projects to prepare and show their projects in their next big event. 
 
-*Click [here](https://asia.communityovercode.org/schedule.html) for more on the schedule.*
+### Share on Social Media 
+Make the best use of social media to extend the reach, especially for global community members. Send an event preview, schedule, and invitation to your followers to drop by and connect. 
 
-----
+![Alt text](Event%20Preview.png)
 
-## Keynote  
-Keynote is the place where you can see the latest breakthrough of open source, gain views of from different aspects of open source, and ways you can get involve. 
+During the event, greet, share the location, and tell them you’ll be staying in the coming days on social media. Check out how our open-source neighbor Open Feature did on day 1 of the congress. 
 
-### Beyond the Code: Growing in the Apache Community
-Speaker: Nadia Jiang and Anne Zhu      
-PPMC member of Apache Answer
+![Alt text](Open%20Feature%20Tweet.png)
 
-Nadia and Anne will share their experiences as non-developers thriving in open source. We will explore various roles and activities that significantly impact the community, such as documentation, community management, marketing, and more. Furthermore, we will share insights on career development for non-technical individuals in the open-source world, highlighting the unique career paths and growth potential available. 
+### Show Your Project with a Demo
+In GitHub Open Source Spotlight area, we were offered a table with space for a laptop and keyboard connected to a display. 
 
----
+A live demo is invaluable, and Meta Answer is the demo already. We ran [Meta Answer ](https://meta.answer.dev/)directly for visitors to explore and we can respond to their questions or record suggestion during the process.
 
-## Drop By at Our Booth
-Our journey starts with the booth, how can we miss it this year? We’ve prepared stickers, brand-new flyers, and of course, you can give it a try with Answer.Meta to unlock the latest features. Come and talk to our committers, we’re all ears for your feedback and questions. 
+![Alt text](Demo%20on%20Display.jpeg)
 
-## Save Your Date. Get the Ticket.
-Ready for an Apache journey? [Register now](https://asia.communityovercode.org/#register) and get your ticket. See you in Hangzhou.
+If there’s no connected display on the booth, feel free to bring a portable display, or simply run it on your laptop.
+
+![Alt text](Demo%20on%20Laptop.png)
+
+### Prepare Some Takeaways
+While the demo is a live experience for the visitors, prepare takeaways for them to recall your project. Flyers and several stickers are efficient. 
+
+Flyers can provide a quick overview of your project. You can include highlights, social media accounts, and fun facts on the flyers. Stickers are a fun way to leave a lasting impression, and a way to promote your product on the surface of a laptop. 
+
+![Alt text](Flyer.png)
+
+Rushing for our flight, we left a "help yourself" note with our flyers and stickers.
+
+![Alt text](Help%20Yourself.png)
+
+You can also make pins, badge, or mug based on the budget. In CommunityOverCode 2024, the fridge magnets at [GreptimeDB](https://greptime.com/) booth were a delight by the look and value.
+
+![Alt text](Magnet%20from%20GreptimeDB.png)
+
+### Jot Down the Notes
+Listen and record questions, suggestions, and feedback. Categorize and share it with the community. Ask community members to discuss or leave the answers, and vote for the best answers. Gradually, you will have a FAQ list for your next event so that whoever participates the conference can prepare in advance for the questions. 
+
+*Sounds familiar, right? Answer is a great tool for this.*
+
+## See You on Stage
+We hope these tips help your open-source project shine at the next big event. Remember, it's all about making meaningful connections and showcasing the value you bring to the developer community.
+
+Participating in these events was unforgettable for our team, and we're excited to continue contributing to the open-source ecosystem.
+
+Please don't hesitate to reach out to us through our [social media](https://x.com/AnswerDev) or our [community](https://meta.answer.dev/).
