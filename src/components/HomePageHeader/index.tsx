@@ -116,7 +116,7 @@ const HomeHead: FC = () => {
                   br: currentLocale === 'zh-CN' ? <br /> : '',
                 }}
               >
-                {"A Q&A platform software for teams at any scales.{br} Whether it’s a community forum, help center, or knowledge management platform, you can always count on Answer."}
+                {"A Q&A platform software for teams at any scale.{br} Whether it’s a community forum, help center, or knowledge management platform, you can always count on Answer."}
               </Translate>
             </div>
 
