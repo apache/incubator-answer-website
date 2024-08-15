@@ -4,10 +4,58 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/zh-CN/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Wed, 14 Aug 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
+        <item>
+            <title><![CDATA[Say Hi to Answer 1.3.6: Faster and Easier]]></title>
+            <link>https://answer.apache.org/zh-CN/blog/2024/08/15/answer-1.3.6-release</link>
+            <guid>https://answer.apache.org/zh-CN/blog/2024/08/15/answer-1.3.6-release</guid>
+            <pubDate>Thu, 15 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[This update brings features and improvements designed to enhance both user experience and loading speed.]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-08-15-cover@4x-e77b3222f6152604345c959cc5a8f311.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>New version for a new release. In 1.3.6, we focus on user experience and performance. Whether you're managing a bustling community forum or building a custom Q&amp;A solution, Answer 1.3.6 empowers you to create a more intuitive and efficient platform for everyone involved.</p>
+<!-- --><p><a href="https://answer.apache.org/docs/upgrade" target="_blank" rel="noopener noreferrer">Upgrade</a> now, and find out what we’ve got for you.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="whats-new">What’s New<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/08/15/answer-1.3.6-release#whats-new" class="hash-link" aria-label="What’s New的直接链接" title="What’s New的直接链接">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="pre-fill-forms-focus-on-the-content-leave-the-rest">Pre-fill Forms: Focus on the Content. Leave the Rest.<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/08/15/answer-1.3.6-release#pre-fill-forms-focus-on-the-content-leave-the-rest" class="hash-link" aria-label="Pre-fill Forms: Focus on the Content. Leave the Rest.的直接链接" title="Pre-fill Forms: Focus on the Content. Leave the Rest.的直接链接">​</a></h3>
+<!-- --><p>Introducing pre-fill forms, a feature that improves data accuracy and more concentration. By allowing you to pre-fill question fields with relevant information, you can significantly reduce user input and improve data accuracy.</p>
+<!-- --><p>It’s useful for:
+Frequently asked questions: Pre-fill common question tags.
+Customer support: Provide essential context for support tickets.</p>
+<!-- --><p>Follow the steps to build a pre-fill form for community members.</p>
+<!-- --><ol>
+<!-- --><li>
+<!-- --><p>Add pre-fill information to the filed for the users.</p>
+<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">---</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">title: How to deploy Apache Answer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">tags: discussion</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">---</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">How to deploy Apache Answer?</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p>Encode at <!-- --><a href="https://www.urlencoder.org/" target="_blank" rel="noopener noreferrer">https://www.urlencoder.org/</a></p>
+<!-- --></li>
+<!-- --></ol>
+<!-- --><p><img decoding="async" loading="lazy" alt="Encode" src="https://answer.apache.org/zh-CN/assets/images/Encode-3e8cbbc258498f3a7b7137cc0344ad24.jpeg" width="2022" height="1246" class="img_WevL"></p>
+<!-- --><ol start="3">
+<!-- --><li>Copy and paste the encoded string with your Answer URL.</li>
+<!-- --><li>Share it with your community members.</li>
+<!-- --></ol>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="cdn-plugins-speed-it-up">CDN Plugins: Speed it up!<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/08/15/answer-1.3.6-release#cdn-plugins-speed-it-up" class="hash-link" aria-label="CDN Plugins: Speed it up!的直接链接" title="CDN Plugins: Speed it up!的直接链接">​</a></h3>
+<!-- --><p>Speaking of performance, Answer 1.3.6 offers two new CDN plugins: <!-- --><a href="https://github.com/apache/incubator-answer-plugins/tree/main/cdn-s3" target="_blank" rel="noopener noreferrer">Amazon CloudFront</a> and <!-- --><a href="https://github.com/apache/incubator-answer-plugins/tree/main/cdn-aliyun" target="_blank" rel="noopener noreferrer">Aliyun CDN</a>. By integrating these plugins into your infrastructure, you can dramatically improve load times and enhance overall user experience. These plugins are by your side for handling increased traffic and faster content delivery.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="take-a-look-at-the-optimizations-that-matters">Take a Look at the Optimizations that Matters<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/08/15/answer-1.3.6-release#take-a-look-at-the-optimizations-that-matters" class="hash-link" aria-label="Take a Look at the Optimizations that Matters的直接链接" title="Take a Look at the Optimizations that Matters的直接链接">​</a></h2>
+<!-- --><p>We support username and email update before, and now changing display name is possible for admin. In Admin panel, click Users. Then, hit Action and Edit profile.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_pwhL" id="cdn-plugins-speed-it-up-1">CDN Plugins: Speed it up!<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/08/15/answer-1.3.6-release#cdn-plugins-speed-it-up-1" class="hash-link" aria-label="CDN Plugins: Speed it up!的直接链接" title="CDN Plugins: Speed it up!的直接链接">​</a></h3>
+<!-- --><p>Speaking of performance, Answer 1.3.6 offers two new CDN plugins: <!-- --><a href="https://github.com/apache/incubator-answer-plugins/tree/main/cdn-s3" target="_blank" rel="noopener noreferrer">Amazon CloudFront</a> and <!-- --><a href="https://github.com/apache/incubator-answer-plugins/tree/main/cdn-aliyun" target="_blank" rel="noopener noreferrer">Aliyun CDN</a>. By integrating these plugins into your infrastructure, you can dramatically improve load times and enhance overall user experience. These plugins are by your side for handling increased traffic and faster content delivery.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="take-a-look-at-the-optimizations-that-matters-1">Take a Look at the Optimizations that Matters<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/08/15/answer-1.3.6-release#take-a-look-at-the-optimizations-that-matters-1" class="hash-link" aria-label="Take a Look at the Optimizations that Matters的直接链接" title="Take a Look at the Optimizations that Matters的直接链接">​</a></h2>
+<!-- --><p>We support username and email update before, and now changing display name is possible for admin. In Admin panel, click Users. Then, hit Action and Edit profile.</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Edit Display Name" src="https://answer.apache.org/zh-CN/assets/images/Edit%20Display%20Name-cf6a0b0670136ad60c4a301b7ab59ceb.png" width="539" height="585" class="img_WevL"></p>
+<!-- --><p>We changed the checkbox to toggle button, providing a more intuitive way of responding to your question.</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Toggle Button" src="https://answer.apache.org/zh-CN/assets/images/Toggle-b3015c47d3cef77afc36026115ddc71f.png" width="1570" height="460" class="img_WevL"></p>
+<!-- --><p>Search bar says goodbye to loneliness with an icon.</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Search Icon" src="https://answer.apache.org/zh-CN/assets/images/Search%20Icon-0ba4d0dde73d91971dfee2b5603c1ce6.png" width="1220" height="118" class="img_WevL"></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="to-the-contributors">To the Contributors!<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/08/15/answer-1.3.6-release#to-the-contributors" class="hash-link" aria-label="To the Contributors!的直接链接" title="To the Contributors!的直接链接">​</a></h2>
+<!-- --><p>We owe a huge debt of gratitude to the feature constructor, improvement maker, and bug hunter who contributed their time and expertise to make this release possible, and they are:</p>
+<!-- --><p><a href="https://github.com/kevingil" target="_blank" rel="noopener noreferrer">kevin</a>, <!-- --><a href="https://github.com/kumfo" target="_blank" rel="noopener noreferrer">kumfo</a>, <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>, <!-- --><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">robin</a>, <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">LinkinStars</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">dashuai</a>, and <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">Luffy</a>.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="join-the-conversation">Join the Conversation<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/08/15/answer-1.3.6-release#join-the-conversation" class="hash-link" aria-label="Join the Conversation的直接链接" title="Join the Conversation的直接链接">​</a></h2>
+<!-- --><p>We believe that every <!-- --><a href="https://answer.apache.org/community/contributing#get-involved" target="_blank" rel="noopener noreferrer">contribution</a> makes a real difference, leaving your feedback to us is a way to contribute. Reach us at our <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Q&amp;A community</a>, <!-- --><a href="https://x.com/AnswerDev" target="_blank" rel="noopener noreferrer">social media</a>, and <!-- --><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>.<!-- --></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Reflection and Our Tips for Your Next Open-Source Events]]></title>
             <link>https://answer.apache.org/zh-CN/blog/2024/08/14/reflection-and-tips-for-your-next-open-source-events</link>
@@ -989,44 +1037,6 @@ In the initial phase of the release, one of the obstacles we faced was the forma
 <!-- --><a href="https://github.com/fyzhu" target="_blank" rel="noopener noreferrer">fyzhu</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a>, <!-- --><a href="https://github.com/Juneezee" target="_blank" rel="noopener noreferrer">Juneezee</a>, <!-- --><a href="https://github.com/kelvinkuo" target="_blank" rel="noopener noreferrer">kelvinkuo</a>, <!-- --><a href="https://github.com/saurabhchatterjee23" target="_blank" rel="noopener noreferrer">saurabhchatterjee23</a>, <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>, <!-- --><a href="https://github.com/xialeistudio" target="_blank" rel="noopener noreferrer">xialeistudio</a>.<!-- --></p>
 <!-- --><p>To our mentors who helped us along the stumbble release process, and to the <!-- --><a href="https://crowdin.com/project/answer/activity-stream" target="_blank" rel="noopener noreferrer">translators</a> who work continuously to translate Answer in different languages. We’re longingly expecting to see more translators to improve the translation, or translate it into a new language. Here’s a <!-- --><a href="https://answer.apache.org/community/translation" target="_blank" rel="noopener noreferrer">quick guide</a> for you to start. If you want to become a part of this journey, and build better Q&amp;A software, there are <!-- --><a href="https://answer.apache.org/community/contributing" target="_blank" rel="noopener noreferrer">various ways</a> you can get involved with.<!-- --></p>
 <!-- --><p>Merry Christmas, everyone! Let’s build, tune, and make Answer better in the coming new year. Cheers.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Answer Turns 1, and is Now Apache Answer]]></title>
-            <link>https://answer.apache.org/zh-CN/blog/2023/10/31/answer-turns-one-and-is-now-apache-answer</link>
-            <guid>https://answer.apache.org/zh-CN/blog/2023/10/31/answer-turns-one-and-is-now-apache-answer</guid>
-            <pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Celebrate Answer’s first anniversary with a wrap-up, and stay tuned for new features coming next year. ]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2023-10-31-cover@4x-cba9e39c36eae60543a75eb791a83422.png" class="rounded img_WevL" width="1280px" height="720px"></div><p>We couldn’t believe it, but let’s face it: October (it’s October 24th, to be more specific) marks our first anniversary!</p>
-<!-- --><p>We launched Answer Alpha in last October, and made it to GitHub Trending. Our first stable version, Answer v1.0 was released in last December. This October, we passed the vote and became an <!-- --><a href="https://incubator.apache.org/projects/answer.html" target="_blank" rel="noopener noreferrer">Apache Incubator Project</a>. It feels like yesterday we were sharing the news!<!-- --></p>
-<!-- --><p>For the past year, we’ve released 19 versions, and formed a compact but powerful community. Here are some features, numbers, and people that we are proud to share with all of you:</p>
-<!-- --><ul>
-<!-- --><li>Worked with 37 contributors and 59 volunteers</li>
-<!-- --><li>221 pull requests</li>
-<!-- --><li>Translated in 15 languages</li>
-<!-- --><li>Over 10,000 downloads</li>
-<!-- --><li><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">Documentation</a> for everyone to install, learn how-tos, contribute, etc. (tell/help us improve!)<!-- --></li>
-<!-- --><li>Our first <!-- --><a href="https://answer.apache.org/blog/2023/09/27/celebrate-answer-first-anniversary-with-hacktoberfest-2023" target="_blank" rel="noopener noreferrer">Hacktoberfest</a></li>
-<!-- --><li>Reputation and privileges rules for teams at different scales</li>
-<!-- --><li>Plugin support</li>
-<!-- --><li>SEO friendly: schema, canonical, SEO friendly URLs, robots.txt and auto meta tags</li>
-<!-- --><li>Private mode is on for team’s privacy</li>
-<!-- --><li>Real-time preview for adding a new question</li>
-<!-- --><li>Auto save</li>
-<!-- --><li>Pin and hide</li>
-<!-- --><li>Tags: quick adding, efficient content management, searching</li>
-<!-- --><li>Customize community identity, sidebar, etc.</li>
-<!-- --><li>Anti-spam rules</li>
-<!-- --><li>Add users in bulk</li>
-<!-- --><li>Email notification for new questions</li>
-<!-- --></ul>
-<!-- --><p>Behind the GitHub stars, we are honored to be the companion to help more teams unleash collective wisdom.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="proudly-incubated-at-apache-incubator">Proudly Incubated at Apache Incubator<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/10/31/answer-turns-one-and-is-now-apache-answer#proudly-incubated-at-apache-incubator" class="hash-link" aria-label="Proudly Incubated at Apache Incubator的直接链接" title="Proudly Incubated at Apache Incubator的直接链接">​</a></h2>
-<!-- --><p>We realized that a long-term healthy community is important for an open-source project, and becoming an <!-- --><a href="https://answer.apache.org/blog/2023/10/24/answer-enters-apache-incubator/" target="_blank" rel="noopener noreferrer">Apache project</a> will guide us there. Nurtured in the Apache Way, we will build a fair, diverse and inclusive community, while ship great features with the community.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_pwhL" id="big-thanks-and-big-hugs">Big Thanks and Big Hugs<!-- --><a href="https://answer.apache.org/zh-CN/blog/2023/10/31/answer-turns-one-and-is-now-apache-answer#big-thanks-and-big-hugs" class="hash-link" aria-label="Big Thanks and Big Hugs的直接链接" title="Big Thanks and Big Hugs的直接链接">​</a></h2>
-<!-- --><p>We are truly thankful to contributors and volunteers for their time and effort spent with us to make Apache Answer a better place for questions, answers, discussions, etc.</p>
-<!-- --><p>Working with the community that consists of a group of product users, lovers, and helpers is wonderful, we cannot tell how amazing it is. Gear up, here comes a new episode.</p>
-<!-- --><p>We’re always open for feedback and advice, so please let us know if you’re coming up with something, on <!-- --><a href="https://twitter.com/AnswerDev" target="_blank" rel="noopener noreferrer">Twitter</a>, <!-- --><a href="https://discord.gg/c537sFxu" target="_blank" rel="noopener noreferrer">Discord</a>, or <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Meta Answer</a>. If you loved to join our Apache journey, check on our repository <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">here</a>.<!-- --></p>
-<!-- --><p>Shout out to everyone, and thanks for making the past year a lovely memory. Stay tuned, and there will be new stuff coming.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
