@@ -16,13 +16,13 @@ description: "Answer前端配置保姆级教学"
 ### 1. 下载 Node.js 和 pnpm
 
 点击[此处](https://nodejs.org/en)下载 Node.js，安装时选择 `Node.js runtime`。建议安装至默认位置。
-![node install](node-install.PNG)
+![node install](node-install.png)
 
 在 Node 安装好之后，找到 `Node.js command prompt`。
-![node command](node-command.PNG)
+![node command](node-command.png)
 
 打开 Node.js command prompt，输入`npm install -g pnpm`。当出现下面图的情况时，表示 pnpm 已经下载完成。
-![pnpm install](pnpm-install.PNG)
+![pnpm install](pnpm-install.png)
 _注：pnpm有许多其他下载方式，适用于不同操作系统，详细请见其官网_
 
 
@@ -35,7 +35,7 @@ _注：pnpm有许多其他下载方式，适用于不同操作系统，详细请
 #### 2.1 Fork Answer 项目
 
 登录 GitHub 账号，点击 Fork 整个 Answer 的项目。
-![fork answer](fork-answer.PNG)
+![fork answer](fork-answer.png)
 
 
 #### 2.2 安装 Git/Git Bash
