@@ -50,7 +50,7 @@ In GitHub Open Source Spotlight area, we were offered a table with space for a l
 
 A live demo is invaluable, and Meta Answer is the demo already. We ran [Meta Answer ](https://meta.answer.dev/)directly for visitors to explore and we can respond to their questions or record suggestion during the process.
 
-![Alt text](Demo%20on%20Display.jpeg)
+![Alt text](Demo%20on%20Display.jpg)
 
 If there’s no connected display on the booth, feel free to bring a portable display, or simply run it on your laptop.
 
