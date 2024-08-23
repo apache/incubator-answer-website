@@ -45,12 +45,6 @@ Speaking of performance, Answer 1.3.6 offers two new CDN plugins: [Amazon CloudF
 ## Take a Look at the Optimizations that Matters
 We support username and email update before, and now changing display name is possible for admin. In Admin panel, click Users. Then, hit Action and Edit profile.  
 
-### CDN Plugins: Speed it up!
-Speaking of performance, Answer 1.3.6 offers two new CDN plugins: [Amazon CloudFront](https://github.com/apache/incubator-answer-plugins/tree/main/cdn-s3) and [Aliyun CDN](https://github.com/apache/incubator-answer-plugins/tree/main/cdn-aliyun). By integrating these plugins into your infrastructure, you can dramatically improve load times and enhance overall user experience. These plugins are by your side for handling increased traffic and faster content delivery.
-
-## Take a Look at the Optimizations that Matters
-We support username and email update before, and now changing display name is possible for admin. In Admin panel, click Users. Then, hit Action and Edit profile.  
-
 ![Edit Display Name](Edit%20Display%20Name.png)
 
 We changed the checkbox to toggle button, providing a more intuitive way of responding to your question. 
