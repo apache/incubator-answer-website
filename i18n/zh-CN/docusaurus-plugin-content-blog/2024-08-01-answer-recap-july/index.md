@@ -58,16 +58,16 @@ As an Apache incubating podling, how can we miss the community gathering? Yes, w
 It was a lovely 3-day event! We made our several firsts — Keynote and speeches at 2 tracks. We were lucky to be nourished by the community, and we wanted to give back by sharing our lessons and story during first Apache release and spread the ideas of various contributions.
 
 <Row>
-  <Col sm={12} md={6}>
+  <Col sm={12} md={6} className='reset-p mb-4'>
     ![Alt text](COC%201.webp)
   </Col>
-  <Col sm={12} md={6}>
+  <Col sm={12} md={6} className='reset-p mb-4'>
     ![Alt text](COC%202.webp)
   </Col>
-  <Col sm={12} md={6}>
+  <Col sm={12} md={6} className='reset-p mb-4'>
      ![Alt text](COC3.webp)
   </Col>
-  <Col sm={12} md={6}>
+  <Col sm={12} md={6} className='reset-p mb-4'>
      ![Alt text](COC%204.webp)
   </Col>
 </Row>
