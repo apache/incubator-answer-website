@@ -3,7 +3,7 @@ title: "Recap of July | Apache Answer"
 authors: [Anne]
 category: Newsletter
 featured: false
-image: 2024-08-01-cover@4x.webp
+image: 2024-08-01-cover@4x.png
 description: "July was a month all about community love."
 
 ---
