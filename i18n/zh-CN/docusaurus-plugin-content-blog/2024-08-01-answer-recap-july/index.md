@@ -17,7 +17,7 @@ New version released on the beginning of a month. In this update, both users and
 import Embed from '@site/src/components/Embed';
 
 <Embed
-  path="/blog/2024/07/03/answer-1.3.5-release/"
+  path="/2024/07/03/answer-1.3.5-release/"
   title="Apache Answer 1.3.5: Flexibility. Reaction. Extension."
   description="Answer introduces parameterizable base paths, reactions, and embed plugin for a more thriving community."
   cover="2024-07-03-cover@2x.png"
@@ -88,4 +88,4 @@ Interested in helping us with the release? Give it a go following the post below
 https://answer.apache.org/community/how-to-release
 
 ## 🤲 Share Your Ideas
-We love ideas, especially from you. Tell us how you like the project.
+We love ideas, especially from you. Tell us how you like the project, and
