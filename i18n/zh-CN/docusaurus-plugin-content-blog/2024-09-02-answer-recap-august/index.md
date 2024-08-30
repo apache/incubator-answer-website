@@ -63,7 +63,7 @@ The new tutorial above supports both Chinese and English. Besides, there're upda
 
 If you are willing to join the localization family, don't hesitate to join us. Find out how to get started [here](https://answer.apache.org/community/translation/). 
 
-## 🫶 Community     
+🫶 Community     
 We put together our preparation and observation from the events we joined in the blog. Feel free to refer to it and get ready for your next big event.
 
 <Embed
@@ -74,11 +74,11 @@ We put together our preparation and observation from the events we joined in the
  />
 
 
-## 🙌 Cheers to Contributors   
+🙌 Cheers to Contributors   
 Thank you for making the features, shining the tweaks, and fixing the bugs.
 [kevin](https://github.com/kevingil), [kumfo](https://github.com/kumfo), [hgaol](https://github.com/hgaol), [robin](https://github.com/robinv8), [LinkinStars](https://github.com/LinkinStars), [dashuai](https://github.com/shuashuai), and [Luffy](https://github.com/sy-records). 
 
 We would also love to extend sincere gratitude to the hero behind the new tutorial and localization [IamMelody233](https://github.com/IamMelody233).
 
-## 🤲 We Want You
+🤲 We Want You
 In Answer community, we sing for the good deeds. Besides coding and localization, your feedback also matters. Feel free to connect with us via [X](https://x.com/AnswerDev), [email](dev@answer.apache.org), or in the [community](https://meta.answer.dev/). 
