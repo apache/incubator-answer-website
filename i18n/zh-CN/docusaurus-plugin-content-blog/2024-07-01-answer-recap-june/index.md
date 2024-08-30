@@ -17,7 +17,8 @@ We were featured in the ASF project spotlight blog and connected to more open-so
 ## 🫶 Community
 Our PPMC member Nadia brought us to Community Over Code Europe held in Slovakia. She shared useful tricks for raising the community engagement with Apache Answer including insights on enhancing knowledge sharing, leveraging Answer for effective knowledge retention, and utilizing reputation and privilege systems in online communities.
 
-![Nadia at Community Over Code Europe](COC Europe.webp)
+
+![Nadia at Community Over Code Europe](COC%20Europe.webp)
 
 We were lucky to have 2 selected student for our first year’s [OSPP](https://summer-ospp.ac.cn/org/projectlist?lang=en&pageNum=1&pageSize=50&programName). Our mentors shuai and LinkinStar are ready to add some open sauce to make this summer memorable.
 
