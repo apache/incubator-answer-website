@@ -7,6 +7,7 @@ slug: /how-to-release
 All Apache projects are required to follow the [Apache Release Policy](https://www.apache.org/legal/release-policy.html). This guide is intended to help you understand the policy and how to release projects at Apache.
 
 ## Release Process
+
 1. Create a GPG key if you don't have one.
 3. Upload release artifacts to svn repository.
 4. Verify the release artifacts.
@@ -14,6 +15,7 @@ All Apache projects are required to follow the [Apache Release Policy](https://w
 6. Announce the vote result and release.
 
 ## Create a GPG key
+
 Create a GPG key if you don't have one. You can follow the instructions [here](https://www.apache.org/dev/openpgp.html).
 
 ```shell

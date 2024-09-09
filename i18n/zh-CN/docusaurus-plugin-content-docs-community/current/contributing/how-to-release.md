@@ -6,77 +6,80 @@ slug: /how-to-release
 
 所有 Apache 项目都必须遵循 [Apache Release Policy](https://www.apache.org/legal/release-policy.html) 。本文可以帮助你了解政策以及如何在 Apache 上发布项目。
 
-## 发布过程
+## 发布流程
 
-1. 准备所有发布物料。
-2. 将发布物料上传到 svn 存储库。
-3. 验证发布物料。
-4. 对发布进行投票。
-5. 宣布投票结果并发布。
+1. 如果没有 GPG 密钥,请创建一个。
+3. 将发布物料上传到 svn 仓库。
+4. 验证发布物料。
+5. 开始投票。
+6. 宣布投票结果和发布。
 
-## 准备所有发布物料
+## 创建 GPG 密钥
 
-1. 在 git 存储库中创建带有 RC 的标签，并编写发布说明。
-   1. 提示 1: 创建发布说明的时候记得选中 `Set as a pre-release`。
-   2. 提示 2: 发布说明选创建好的`Tag`，不要选择分支, 例如选择 `v1.2.0-RC1`；
-3. 建立发布物料（二进制包、源码等）。
-4. 创建签名。
-5. 创建校验和。
-
-### 签署发布物料
-
-1. 如果你没有 GPG 密钥，创建一个 GPG 密钥。
-2. 将 GPG 密钥添加到 KEYS 文件中。
-3. 使用 GPG 密钥签署发布物料。**仔细检查二进制文件是否完整，以避免大小为0。**
+如果没有 GPG 密钥,请创建一个。您可以按照[这里](https://www.apache.org/dev/openpgp.html)的说明进行操作。
 
 ```shell
-# create a GPG key, after executing this command, select the first one RSA 和 RSA
+# 创建 GPG 密钥
 $ gpg --full-generate-key
 
-# list the GPG keys
+# 列出 GPG 密钥
 $ gpg  --keyid-format SHORT --list-keys
 
-# upload the GPG key to the key server, xxx is the GPG key id
-# eg: pub rsa4096/4C21E346 2024-05-06 [SC], 4C21E346 is the GPG key id;
+# 将 GPG 密钥上传到密钥服务器,xxx 是 GPG 密钥 id
 $ gpg --keyserver keyserver.ubuntu.com --send-key xxx
 
-# append the GPG key to the KEYS file the svn repository
-# [IMPORTANT] Don't replace the KEYS file, just append the GPG key to the KEYS file. 
+# 将 GPG 密钥附加到 svn 仓库中的 KEYS 文件
 $ svn co https://dist.apache.org/repos/dist/release/incubator/answer/
-$ (gpg --list-sigs xxx@apache.org && gpg --export --armor xxx@apache.org) >> KEYS 
+$ (gpg --list-sigs xxx@apache.org && gpg --export --armor xxx@apache.org) >> KEYS
 $ svn ci -m "add gpg key" 
+```
 
-# sign the release artifacts, xxxx is xxx@apache.org
+## 将发布物料上传到 svn 仓库
+
+### 准备所有发布物料
+
+1. 在 git 仓库中创建 RC 标签并编写发布说明。
+   1. 注意 1: 请记住在点击"发布版本"之前选择"设置为预发布"。
+   2. 注意 2: 发布说明应选择非分支的标签,例如 `v1.2.0-RC1`。
+3. 构建发布物料(捆绑包、源代码归档等)。
+
+### 签名发布物料
+
+使用 GPG 密钥对发布物料进行签名。**请仔细检查二进制文件是否完整,避免出现大小为 0 的情况。**
+
+```shell
+# 签名发布物料,xxxx 是 xxx@apache.org
 $ for i in *.tar.gz; do echo $i; gpg --local-user xxxx --armor --output $i.asc --detach-sig $i ; done
 ```
 
-### 为发布的物料创建校验和
+### 为发布物料创建校验和
 
 ```shell
-# create the checksums
+# 创建校验和
 $ for i in *.tar.gz; do echo $i; sha512sum  $i > $i.sha512 ; done
 ```
 
-## 将发布物料上传到 svn 存储库
+### 上传到 svn 仓库
+> **注意** 创建 GPG 密钥的仓库地址和上传发布物料的仓库地址不同。GPG 密钥上传到 `https://dist.apache.org/repos/dist/release/incubator/answer/` 仓库,而发布物料上传到 `https://dist.apache.org/repos/dist/dev/incubator/answer/` 仓库。
 
-1. 在 svn 存储库中为发布物料创建一个目录。
-2. 将发布物料上传到 svn 存储库。
-3. 发布版本格式：1.3.1-incubating
+1. 在 svn 仓库中为发布物料创建一个目录。
+   ```shell
+   $ svn co https://dist.apache.org/repos/dist/dev/incubator/answer/
+   ```
+2. 将发布物料上传到 svn 仓库。
+   ```shell
+   $ cp /path/to/release/artifacts/* ./{release-version}/
+   $ svn add ./{release-version}/*
+   ```
+3. release-version 格式: 1.3.1-incubating
+   ```shell
+   $ svn commit -m "add Apache Answer release artifacts for {release-version}"
+   ```
+发布物料应上传到 `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` 目录。
 
-发布物料应上传到 `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}`目录。
-
-
-```shell
-$ svn co https://dist.apache.org/repos/dist/dev/incubator/answer/
-$ cp /path/to/release/artifacts/* ./{release-version}/
-$ svn add ./{release-version}/*
-$ svn commit -m "add Apache Answer release artifacts for {release-version}"
-```
-
-**重要！**完成后，请访问链接 `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` 检查文件上传是否正确。
+**重要** 完成后,请访问链接 `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` 检查文件上传是否正确。
 
 ![correct result](/img/community/release.jpeg)
-
 
 ## 验证发布物料
 
@@ -90,12 +93,11 @@ $ svn commit -m "add Apache Answer release artifacts for {release-version}"
 - [ ] 源档案中没有捆绑未经许可的编译档案。
 
 ### 如何验证签名
-
 ```shell
-# download KEYS
+# 下载 KEYS
 $ curl https://dist.apache.org/repos/dist/release/incubator/answer/KEYS > KEYS
 
-# import KEYS and trust the key, please replace the email address with the one you want to trust.
+# 导入 KEYS 并信任密钥,请将电子邮件地址替换为您想要信任的地址。
 $ gpg --import KEYS
 $ gpg --edit-key linkinstar@apache.org
 gpg> trust
@@ -103,30 +105,29 @@ gpg> 5
 gpg> y
 gpg> quit
 
-# enter the directory where the release artifacts are located
+# 进入发布物料所在的目录
 $ cd /path/to/release/artifacts
 
-# verify the signature
+# 验证签名
 $ for i in *.tar.gz; do echo $i; gpg --verify $i.asc $i ; done
 
-# if you see 'Good signature' in the output, it means the signature is valid.
+# 如果在输出中看到"Good signature",则表示签名有效。
 ```
 
 ### 如何验证校验和
-
 ```shell
-# verify the checksums
+# 验证校验和
 $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 ```
 
-## 对发布进行投票
+## 开始投票
 
-1. 发送投票电子邮件至dev@answer.apache.org。孵化器项目需要首先在 dev list 进行投票，该投票需要**Apache Answer PPMC members成员至少3个+1票**。
-2. 等待**至少72小时**直到达到必要的票数。
-3. 在 dev list 上宣布投票结果。
-4. 如果 dev 投票通过，请发送电子邮件至 general@incubator.apache.org ，要求在 general 上投票。孵化器项目投票需要**Incubator PMC members 至少3个+1票**（具有约束力的投票）。
-5. 等待**至少72小**或直到达到必要的票数。
-6. 在 general list 上宣布投票结果。
+1. 向 dev@answer.apache.org 发送投票邮件。孵化器需要先在他们的开发邮件列表上进行投票,该投票需要至少 **3 个来自 Apache Answer PPMC 成员的 +1**。
+2. 等待**至少 72 小时**或直到达到必要的投票数。
+3. 在开发邮件列表上宣布投票结果。
+4. 如果开发投票通过,发送邮件到 general@incubator.apache.org 请求在通用邮件列表上进行投票。孵化器投票需要至少 **3 个来自孵化器 PMC 成员的 +1**   (有约束力的投票)。
+5. 等待**至少 72 小时**或直到达到必要的投票数。
+6. 在通用邮件列表上宣布投票结果。
 
 ### 投票电子邮件模板
 
