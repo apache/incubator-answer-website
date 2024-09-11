@@ -99,7 +99,7 @@ Following is the basic check items for the release artifacts.
 
 ```shell
 # download KEYS
-$ curl https://dist.apache.org/repos/dist/release/incubator/answer/KEYS > KEYS
+$ curl https://downloads.apache.org/incubator/answer/KEYS > KEYS
 
 # import KEYS and trust the key, please replace the email address with the one you want to trust.
 $ gpg --import KEYS
