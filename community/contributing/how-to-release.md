@@ -6,46 +6,49 @@ slug: /how-to-release
 
 All Apache projects are required to follow the [Apache Release Policy](https://www.apache.org/legal/release-policy.html). This guide is intended to help you understand the policy and how to release projects at Apache.
 
-## Release process
-
-1. Prepare all the release artifacts.
-2. Upload the release artifacts to the svn repository.
-3. Verify the release artifacts.
-4. Vote on the release.
-5. Announce the vote result and release.
-
-## Prepare all the release artifacts
-
-1. Create the RC tag in the git repository and write the release notes.
-   1. notice 1: Remember to select `Set as a pre-release` before clicking `Publish release`.
-   2. notice 2: Release notes should choose a tag that is not the branch, such as `v1.2.0-RC1`.
-3. Build the release artifacts(bundles, source archives, etc).
-4. Sign the release artifacts.
-5. Create the checksums for the release artifacts.
-
-### Sign the release artifacts
+## Release Process
 
 1. Create a GPG key if you don't have one.
-2. Add the GPG key to the KEYS file.
-3. Sign the release artifacts with the GPG key. **Be careful to check that the binary file is complete to avoid a size of 0.**
+3. Upload release artifacts to svn repository.
+4. Verify the release artifacts.
+5. Start a vote.
+6. Announce the vote result and release.
+
+## Create a GPG key
+
+Create a GPG key if you don't have one. You can follow the instructions [here](https://www.apache.org/dev/openpgp.html).
 
 ```shell
-# create a GPG key, after executing this command, select the first one RSA 和 RSA
+# create a GPG key
 $ gpg --full-generate-key
 
 # list the GPG keys
 $ gpg  --keyid-format SHORT --list-keys
 
 # upload the GPG key to the key server, xxx is the GPG key id
-# eg: pub rsa4096/4C21E346 2024-05-06 [SC], 4C21E346 is the GPG key id;
 $ gpg --keyserver keyserver.ubuntu.com --send-key xxx
 
 # append the GPG key to the KEYS file the svn repository
-# [IMPORTANT] Don't replace the KEYS file, just append the GPG key to the KEYS file. 
 $ svn co https://dist.apache.org/repos/dist/release/incubator/answer/
-$ (gpg --list-sigs xxx@apache.org && gpg --export --armor xxx@apache.org) >> KEYS 
+$ (gpg --list-sigs xxx@apache.org && gpg --export --armor xxx@apache.org) >> KEYS
 $ svn ci -m "add gpg key" 
+```
 
+
+## Upload the release artifacts to the svn repository
+
+### Prepare all the release artifacts
+
+1. Create the RC tag in the git repository and write the release notes.
+   1. notice 1: Remember to select `Set as a pre-release` before clicking `Publish release`.
+   2. notice 2: Release notes should choose a tag that is not the branch, such as `v1.2.0-RC1`.
+3. Build the release artifacts(bundles, source archives, etc).
+
+### Sign the release artifacts
+
+Sign the release artifacts with the GPG key. **Be careful to check that the binary file is complete to avoid a size of 0.**
+
+```shell
 # sign the release artifacts, xxxx is xxx@apache.org
 $ for i in *.tar.gz; do echo $i; gpg --local-user xxxx --armor --output $i.asc --detach-sig $i ; done
 ```
@@ -57,21 +60,24 @@ $ for i in *.tar.gz; do echo $i; gpg --local-user xxxx --armor --output $i.asc -
 $ for i in *.tar.gz; do echo $i; sha512sum  $i > $i.sha512 ; done
 ```
 
-## Upload the release artifacts to the svn repository
+### Upload to the svn repository
+> **NOTICE** The repository address where the GPG key is created and the prepository address where the release artifacts are uploaded are not the same. The GPG key is uploaded to the `https://dist.apache.org/repos/dist/release/incubator/answer/` repository, and the release artifacts are uploaded to the `https://dist.apache.org/repos/dist/dev/incubator/answer/` repository.
 
 1. Create a directory for the release artifacts in the svn repository.
+   ```shell
+   $ svn co https://dist.apache.org/repos/dist/dev/incubator/answer/
+   ```
 2. Upload the release artifacts to the svn repository.
+   ```shell
+   $ cp /path/to/release/artifacts/* ./{release-version}/
+   $ svn add ./{release-version}/*
+   ```
 3. release-version format: 1.3.1-incubating
-
+   ```shell
+   $ svn commit -m "add Apache Answer release artifacts for {release-version}"
+   ```
 The release artifacts should be uploaded to the `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` directory.
 
-
-```shell
-$ svn co https://dist.apache.org/repos/dist/dev/incubator/answer/
-$ cp /path/to/release/artifacts/* ./{release-version}/
-$ svn add ./{release-version}/*
-$ svn commit -m "add Apache Answer release artifacts for {release-version}"
-```
 
 **IMPORTANT** After completion, visit the link `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` to check whether the file upload is correct.
 
@@ -93,7 +99,7 @@ Following is the basic check items for the release artifacts.
 
 ```shell
 # download KEYS
-$ curl https://dist.apache.org/repos/dist/release/incubator/answer/KEYS > KEYS
+$ curl https://downloads.apache.org/incubator/answer/KEYS > KEYS
 
 # import KEYS and trust the key, please replace the email address with the one you want to trust.
 $ gpg --import KEYS
@@ -119,7 +125,7 @@ $ for i in *.tar.gz; do echo $i; gpg --verify $i.asc $i ; done
 $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 ```
 
-## Vote on the release
+## Start a vote
 
 1. Send a vote email to the dev@answer.apache.org. Incubator need to first do a vote on their dev list and that vote requires at least **3 +1s from Apache Answer PPMC members**.
 2. Wait for at **least 72 hours** or until the necessary number of votes are reached.
