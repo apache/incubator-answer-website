@@ -1,82 +1,59 @@
 ---
-title: "Recap of August | Apache Answer"
+title: "Behind the Plugin: Meet the Student Contributors"
 authors: [Anne]
-category: Newsletter
+category: Community
 featured: true
-image: 2024-09-02-cover@4x.png
-description: "August adds new contribution."
+image: 2024-09-11-cover@4x.png
+description: "Find out the process of building the plugin and reflection from the students."
 
 ---
 
-As the days grow shorter and the nights cooler, here comes the newsletter of August. Time to recap the new release, fresh features, and give big hugs to the contributors.
+The open-source world is a place for everyone. It thrives on diversity and that's why we believe that there's always a place for you. Whether you're a seasoned developer or just getting started, your contributions-code, documentations, or shining ideas-are valuable.
 
-Let's go!
+To make it easier for beginners, we've listed our projects on platforms like [ovio](https://ovio.org/project/apache/incubator-answer), [LibHunt](https://www.libhunt.com/r/incubator-answer), and [SourceForge](https://sourceforge.net/projects/incubator-answer/) for easier discovery. We're glad to have received a plugin contribution from [Melody](https://github.com/IamMelody233) and her classmate from Xiamen University Malaysia Campus. It's their first open-source contribution, and let's hear about the process and their reflection.
 
-## 🌟 What’s New
+## Tell us more about the plugin.
 
-We brought the heart of bringing smoother Q&A experience in every release for more people. In the latest 1.3.6, we introduced two CDN plugins for fast loading speed and pre-filled forms for helping users to stay concentrated on editing the content. 
-Learn more about the details and how-to tutorials in the blog as well as optimizations carried in the release. 
+We've built a [code highlighting plugin](https://github.com/apache/incubator-answer-plugins/tree/main/render-markdown-codehighlight) using React and highlight.js. The plugin offers real-time syntax highlighting for a wide range of programming languages and supports dynamic theme switching. Users can choose from popular themes like GitHub Light and GitHub Dark, or create their own custom themes.
 
-import Embed from '@site/src/components/Embed';
+## How did you break down the development of this plugin?
 
-<Embed
-  path="/blog/2024/08/15/answer-1.3.6-release/"
-  title="Say Hi to Answer 1.3.6: Faster and Easier"
-  description="This update brings features and improvements designed to enhance both user experience and loading speed."
-  cover="2024-08-15-cover@2x.png"
- />
+There are several phases as below. First, we started with a simple implementation of code highlighting in the project itself. Once this was working, we moved forward to transforming it into a single plugin.
 
+Since plugins mostly deal with the front-end stuff, we focused on that first. After we got the basic highlighting running, we added customization which allows users to choose their preferred theme from the backend. To make that happen, we set up an interface between the front-end and back-end.
 
-### New Tutorial: Setup and Plugin
+To sum up:
+1. Import highlight.js and implement basic code highlighting on the front-end.
+2. Migrate the code highlighting feature into a plugin. Well, Vite's bundling got in the way of importing all the CSS we needed, so we had to use CSS-in-JS instead.
+3. We noticed that switching to the light theme and the preview box under Question weren't working smoothly. So, we tweaked some dependencies and added more responsive listeners to fix it
+4. Once the front-end was stable, we turned our attention to the backend. We created a form for users to select their preferred themes.
+5. By modifying the frontend-backend interface, we were able to dynamically apply the selected themes.
+6. When testing, we identified performance issues related to CSS loading. To optimize performance, we switched to a dynamic import and mapping approach to reduce CSS load times.
+7.  Finally, for better maintainability and readability, we wrote code to parse the core library and automate theme detection, classification, and switching."
 
-Besides new features, we also received three new blogs from the community, covering configuration and plugin tutorial. 
+## How do you solve the problems encoutered in the process?
 
-We understand that it can be challenging for developers to set up the environment with [Developer Guides](https://answer.apache.org/docs/development). Now, it gets easier, simply following the blogs with step-to-step configuration and installation guide for both frontend and backend. 
+Yes, there were a few challenges during development. For instance:
 
-<Embed
-  path="/blog/2024/08/20/apache-answer-backend-configuration-guide"
-  title="Apache Answer Backend Configuration Guide"
-  description="Answer backend configuration step-by-step guide."
-  cover="2024-08-20-cover@2x.png"
- />
+-   **CSS Loading:** Importing multiple CSS stylesheets was a problem because of Vite's packaging limitations. We overcame this by adopting a CSS-in-JS solution.
+-   **Theme Switching:** The preview box below the Question wasn't in real-time rendering when switching between light and dark modes. To resolve this, we optimized dependencies and implemented more robust event listeners.
+-   **Backend Integration:** Integrating the backend form with the frontend was another hurdle. We solved this by leveraging the Answer API to facilitate data exchange between the front-end and back-end.
+-   **Code Maintenance:** To streamline future maintenance, we implemented file traversal to read the core library instead of manual imports.
 
+By addressing these issues, we were able to enhance the plugin's performance and gain a deeper understanding of the underlying technologies.
 
-<Embed
-  path="/blog/2024/08/16/apache-answer-frontend-configuration-guide"
-  title="Answer Frontend Configuration Step-by-Step Guide"
-  description="Answer frontend configuration step-by-step guide."
-  cover="2024-08-16-cover@2x.png"
- />
+## What new insights have we gained about the open-source community?
 
-That’s not it. You can also follow another guide on adding plugins to make Answer powerful for your community. 
+Working on open-source projects has taught us the importance of community and collaboration. Every little thing you do, like writing code or sharing ideas, helps make Answer better. It's not just about knowing how to code; you also need to be good at talking to other people. When you work together, you can make sure everything works right, especially when fixing problems.
 
-<Embed
-  path="/blog/2024/08/22/guide-to-add-answer-plugins"
-  title="Guide to Adding Plugins to Apache Answer"
-  description="Learn how to easily add Apache Answer plugins and extend its functionality."
-  cover="2024-08-22-cover@2x.png"
- />
+We've learned that having great coding skills isn't enough. You need to really understand how the project works inside and out. That means learning from others and using their ideas. Open source isn't just about sharing tech; it's about sharing ideas and being creative. It helps everyone get better and makes us want to do our best
 
-### New Translation 
-The new tutorial above supports both Chinese and English. Besides, there're updates for localization. Now, you can explore the Chinese version for [Introduction](https://answer.apache.org/zh-CN/docs) and [Getting Started](https://answer.apache.org/zh-CN/docs/installation). 
+## How would you encourage students to participate in open source projects?
 
-If you are willing to join the localization family, don't hesitate to join us. Find out how to get started [here](https://answer.apache.org/community/translation/). 
+Working on these projects has helped us truly understand how open source works and the importance of teamwork. We think students should definitely get involved in open source projects. It's a great way to learn and practice coding.
 
-## 🫶 Community     
-We put together our preparation and observation from the events we joined in the blog. Feel free to refer to it and get ready for your next big event.
+By contributing, students can get real-world experience, solve real problems, and meet other people in tech. Start small and work your way up. Whether you write code, document things, or test stuff, there's a place for everyone. Open source can help you learn new things and add testimonials for your skills on your resume.
 
-<Embed
-  path="/blog/2024/08/14/reflection-and-tips-for-your-next-open-source-events"
-  title="Reflection and Our Tips for Your Next Open-Source Events"
-  description="Discover how we showcased our open-source project on the world stage, and tips for your next big event."
-  cover="2024-08-14-cover@2x.jpeg"
- />
+These two students didn't just write code; they went the extra mile! They created guides to help others set things up and contributed blog posts about how to configure the [frontend](https://answer.apache.org/blog/2024/08/16/apache-answer-frontend-configuration-guide) and [backend](https://answer.apache.org/blog/2024/08/20/apache-answer-backend-configuration-guide), as well as [add new plugins](https://answer.apache.org/blog/2024/08/22/guide-to-add-answer-plugins). Plus, they updated and translated the docs to make them easier to understand for Chinese speakers.
 
-## 🙌 Cheers to Contributors   
-Thank you for making the features, shining the tweaks, and fixing the bugs.
-[kevin](https://github.com/kevingil), [kumfo](https://github.com/kumfo), [hgaol](https://github.com/hgaol), [robin](https://github.com/robinv8), [LinkinStars](https://github.com/LinkinStars), [dashuai](https://github.com/shuashuai), and [Luffy](https://github.com/sy-records). 
-
-We would also love to extend sincere gratitude to the hero behind the new tutorial and localization [IamMelody233](https://github.com/IamMelody233).
-
-## 🤲 We Want You
-In Answer community, we sing for the good deeds. Besides coding and localization, your feedback also matters. Feel free to connect with us via [X](https://x.com/AnswerDev), [email](mailto:dev@answer.apache.org), or in the [community](https://meta.answer.dev/). 
+We're so grateful for their hard work! We hope more students will join us in making open source a welcoming place. There are lots of ways to get involved, even if you're not a coder. Click [here](https://answer.apache.org/community/contributing) to check it out and give it a try.
