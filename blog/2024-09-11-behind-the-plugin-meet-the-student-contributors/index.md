@@ -79,4 +79,4 @@ Thank you for making the features, shining the tweaks, and fixing the bugs.
 We would also love to extend sincere gratitude to the hero behind the new tutorial and localization [IamMelody233](https://github.com/IamMelody233).
 
 ## 🤲 We Want You
-In Answer community, we sing for the good deeds. Besides coding and localization, your feedback also matters. Feel free to connect with us via [X](https://x.com/AnswerDev), [email](dev@answer.apache.org), or in the [community](https://meta.answer.dev/). 
+In Answer community, we sing for the good deeds. Besides coding and localization, your feedback also matters. Feel free to connect with us via [X](https://x.com/AnswerDev), [email](mailto:dev@answer.apache.org), or in the [community](https://meta.answer.dev/). 
