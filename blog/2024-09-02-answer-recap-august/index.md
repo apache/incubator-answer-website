@@ -31,7 +31,7 @@ import Embed from '@site/src/components/Embed';
 
 Besides new features, we also received three new blogs from the community, covering configuration and plugin tutorial. 
 
-We understand that it can be challenging for developers to set up the environment with [Developer Guides](https://answer.apache.org/docs/development). Now, it gets easier, simply following the blogs with step-to-step configuration and installation guide for both frontend and backend. 
+We understand that it can be challenging for developers to set up the environment with [Developer Guides](https://answer.apache.org/docs/development). Now, it gets easier, simply following the blogs with step-to-step configuration and installation guide for both frontend and backend. 
 
 <Embed
   path="/blog/2024/08/20/apache-answer-backend-configuration-guide"
@@ -51,9 +51,9 @@ We understand that it can be challenging for developers to set up the environmen
 That’s not it. You can also follow another guide on adding plugins to make Answer powerful for your community. 
 
 <Embed
-  path="/blog/2024/08/22/guide-to-add-answer-plugins“
+  path="/blog/2024/08/22/guide-to-add-answer-plugins"
   title="Guide to Adding Plugins to Apache Answer"
-  description="Learn how to easily add Apache Answer plugins and extend its functionality.”
+  description="Learn how to easily add Apache Answer plugins and extend its functionality."
   cover="2024-08-22-cover@2x.png"
  />
 
@@ -66,10 +66,10 @@ If you are willing to join the localization family, don't hesitate to join us. F
 We put together our preparation and observation from the events we joined in the blog. Feel free to refer to it and get ready for your next big event.
 
 <Embed
-  path="/blog/2024/08/14/reflection-and-tips-for-your-next-open-source-events“
+  path="/blog/2024/08/14/reflection-and-tips-for-your-next-open-source-events"
   title="Reflection and Our Tips for Your Next Open-Source Events"
-  description="Discover how we showcased our open-source project on the world stage, and tips for your next big event.”
-  cover="2024-08-14-cover@2x.jpeg”
+  description="Discover how we showcased our open-source project on the world stage, and tips for your next big event."
+  cover="2024-08-14-cover@2x.jpeg"
  />
 
 ## 🙌 Cheers to Contributors   
