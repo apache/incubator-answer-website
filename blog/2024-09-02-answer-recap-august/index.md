@@ -34,7 +34,7 @@ Besides new features, we also received three new blogs from the community, cover
 We understand that it can be challenging for developers to set up the environment with [Developer Guides](https://answer.apache.org/docs/development). Now, it gets easier, simply following the blogs with step-to-step configuration and installation guide for both frontend and backend. 
 
 <Embed
-  path="/blog/2024/08/20/apache-answer-backend-configuration-guide“
+  path="/blog/2024/08/20/apache-answer-backend-configuration-guide"
   title="Apache Answer Backend Configuration Guide"
   description="Answer backend configuration step-by-step guide."
   cover="2024-08-20-cover@2x.png"
@@ -42,7 +42,7 @@ We understand that it can be challenging for developers to set up the environmen
 
 
 <Embed
-  path="/blog/2024/08/16/apache-answer-frontend-configuration-guide“
+  path="/blog/2024/08/16/apache-answer-frontend-configuration-guide"
   title="Answer Frontend Configuration Step-by-Step Guide"
   description="Answer frontend configuration step-by-step guide."
   cover="2024-08-16-cover@2x.png"
