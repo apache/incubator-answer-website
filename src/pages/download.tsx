@@ -28,7 +28,7 @@ export default function Plugins(): JSX.Element {
           <tbody>
             <tr>
               <td>{item}</td>
-              <td>2024-08-05</td>
+              <td>2024-09-23</td>
               <td>
                 <ul className="list-unstyled mb-0">
                   <li>
