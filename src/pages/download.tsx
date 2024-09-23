@@ -6,7 +6,7 @@ import Layout from '@theme/Layout'
 import HeaderSlogan from '../components/HeaderSlogan'
 
 export default function Plugins(): JSX.Element {
-  let item = '1.3.6'
+  const item = '1.4.0'
   return (
     <Layout
       title={translate({ message: 'Download' })}
