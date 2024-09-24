@@ -25,24 +25,21 @@ const FeatureList: FeatureItem[] = [
     icon: require('@site/static/img/feature-1.png').default,
     description: (
       <Translate id="home.features.item1">
-        Help members with questions and boost community participation. Your
-        experts are happy to contribute, verify, upvote correct info. Your info
-        keeping up-to-date and trusted.
+        Ask, answer, and grow with the community. Everyone is a part of knowledge sharing: contribute an answer, leave a comment, and vote. The content is always up-to-date.
       </Translate>
     ),
   },
   {
     title: (
       <Translate id="home.features.title2">
-        Organized
+        Always Organized
       </Translate>
     ),
     icon: require('@site/static/img/feature-2.png').default,
     description: (
       <Translate id="home.features.item2">
-        Use tags to organize questions and help contents into categories. They
-        make knowledge easy to find for others. Use the search to quickly find
-        the answer.
+        Search and find relevant content with the help of intuitive tagging system.
+        It’s an easy and efficient way for categorization. Everyone can search and locate the content quickly.
       </Translate>
     ),
   },
@@ -55,9 +52,7 @@ const FeatureList: FeatureItem[] = [
     icon: require('@site/static/img/feature-3.png').default,
     description: (
       <Translate id="home.features.item3">
-        Configure your community with plugins and your favorite services. So
-        that you can improve your workflow, grow your community, or make your
-        other tools better.
+        Extend Apache Answer with plugins to fit your needs. Connect with the tools you love. Streamline your workflow, add wings to current tools, and boost the efficiency.
       </Translate>
     ),
   },
@@ -70,12 +65,9 @@ const FeatureList: FeatureItem[] = [
     icon: require('@site/static/img/feature-4.png').default,
     description: (
       <Translate id="home.features.item4">
-        We’ve gamified the Q&A platform with reputation and badges. So the
-        community members and teams have fun collaborating and getting work
-        done.
+        Earn reputation and badges with your expertise and etiquette. Enjoy a rewarding and engaging experience while thrive the community with other members.
       </Translate>
     ),
-    later: <Translate id="home.features.comming_soon">Coming soon</Translate>,
   },
 ];
 
