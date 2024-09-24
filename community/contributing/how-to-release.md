@@ -9,10 +9,14 @@ All Apache projects are required to follow the [Apache Release Policy](https://w
 ## Release Process
 
 1. Create a GPG key if you don't have one.
-3. Upload release artifacts to svn repository.
+2. Create a RC tag in the git repository and write the release notes.
+3. Upload release artifacts to the dev Apache SVN.
 4. Verify the release artifacts.
 5. Start a vote.
-6. Announce the vote result and release.
+6. Migration candidate to the release Apache SVN.
+7. Create a release.
+8. Update the Download page.
+9. Announce the vote result and release.
 
 ## Create a GPG key
 
@@ -35,14 +39,29 @@ $ svn ci -m "add gpg key"
 ```
 
 
-## Upload the release artifacts to the svn repository
+## Upload the release artifacts to the dev Apache SVN
 
-### Prepare all the release artifacts
+### Create a RC tag
+When you want to release a new version, you need to create a new RC tag in the git repository firstly. The tag name should be `v{release-version}-RC{rc-version}`. This has the advantage of avoiding tag deletion.
 
-1. Create the RC tag in the git repository and write the release notes.
-   1. notice 1: Remember to select `Set as a pre-release` before clicking `Publish release`.
-   2. notice 2: Release notes should choose a tag that is not the branch, such as `v1.2.0-RC1`.
-3. Build the release artifacts(bundles, source archives, etc).
+* release-version: The version you want to release, such as 1.2.0.
+* rc-version: The release candidate version, such as RC1.
+
+```shell
+$ git tag -a v{release-version}-RC{rc-version} -m "Release Apache Answer {release-version}"
+$ git push origin v{release-version}-RC{rc-version}
+```
+
+After pushing the RC tag, CI will automatically generate the release page based on the tag. write the release notes in the release page. remember to select `Set as a pre-release` before clicking `Publish release`. 
+
+![release page](/img/community/img-1.jpg)
+
+
+The release notes should choose a tag that is not the branch, such as `v1.2.0-RC1`.
+
+![release notes](/img/community/img-2.png)
+
+
 
 ### Sign the release artifacts
 
@@ -72,7 +91,7 @@ $ for i in *.tar.gz; do echo $i; sha512sum  $i > $i.sha512 ; done
    $ cp /path/to/release/artifacts/* ./{release-version}/
    $ svn add ./{release-version}/*
    ```
-3. release-version format: 1.3.1-incubating
+3. release-version format: 1.2.0-incubating
    ```shell
    $ svn commit -m "add Apache Answer release artifacts for {release-version}"
    ```
@@ -200,7 +219,33 @@ Thanks,
 <YOUR NAME>
 ```
 
-### ANNOUNCE email template
+## Migration candidate to the release Apache SVN
+
+Before announcing the vote result, you need to migrate the release artifacts from the dev Apache SVN to the release Apache SVN. The release artifacts should be uploaded to the `https://dist.apache.org/repos/dist/release/incubator/answer/{release-version}` directory.
+
+```shell
+$ svn mv https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version} https://dist.apache.org/repos/dist/release/incubator/answer/{release-version} -m "transfer packages for answer {release-version}"
+```
+
+## Create a release
+
+After the vote is passed, create a tag without RC, CI will automatically generate the release page based on the tag.
+
+```shell
+$ git tag -a v{release-version} -m "Release Apache Answer {release-version}"
+$ git push origin v{release-version}
+```
+
+## Update the Download page
+
+Update the download page with the new release version. The download page is located in the `src/pages/download.tsx` file.
+
+
+## Announce the vote result and release.
+
+After the vote is passed, send an email to the an announce@apache.org and cc dev@answer.apache.org、general@incubator.apache.org to announce the vote result and release.
+
+### email template
 
 ```text
 Hello everyone,
@@ -223,17 +268,3 @@ Resources:
 Thanks,
 <YOUR NAME>
 ```
-
-## Migrating the release artifacts to the release Apache SVN
-
-Before announcing the vote result, you need to migrate the release artifacts from the dev Apache SVN to the release Apache SVN. The release artifacts should be uploaded to the `https://dist.apache.org/repos/dist/release/incubator/answer/{release-version}` directory.
-
-```shell
-$ svn mv https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version} https://dist.apache.org/repos/dist/release/incubator/answer/{release-version} -m "transfer packages for answer {release-version}"
-```
-
-## Note
-### RC Tag
-When you want to release a new version, you need to create a new RC tag in the git repository firstly. The tag name should be `v{release-version}-rc{rc-version}`. This has the advantage of avoiding tag deletion. 
-
-For example, if you want to release version `1.2.0`, you need to create a tag named `v1.2.0-RC1`. RC means Release Candidate. After the release vote is passed, you need to create a new tag named `v1.2.0` based on the RC tag. However, if the vote is not passed, you can fix the problems and create a new RC tag such as `v1.2.0-RC2` and start a new vote.
