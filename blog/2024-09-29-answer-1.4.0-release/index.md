@@ -5,7 +5,6 @@ category: Release
 featured: true
 image: 2024-09-29-cover@4x.png
 description: "Answer adds badges and personalized feed for better engagement and experience."
-
 ---
 
 The wait is over, time to upgrade your knowledge sharing experience.
