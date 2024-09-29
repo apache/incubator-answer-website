@@ -80,7 +80,7 @@ function CollapseButton({
   categoryLabel: string;
   onClick: ComponentProps<'button'>['onClick'];
 }) {
-  console.log('categoryLabel', categoryLabel);
+  // console.log('categoryLabel', categoryLabel);
   return (
     <button
       aria-label={
