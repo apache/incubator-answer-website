@@ -47,42 +47,12 @@ We pay attention to your following tags and questions. Based on that, we curate 
 <!-- --><p>We're eager to hear your feedback on this latest release. Did you find new features that have enhanced your experience? Are there any areas where you'd like to see improvements?</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Answer 1.4.0: Where Fun Meet the Content You Love]]></title>
-            <link>https://answer.apache.org/blog/2024/09/28/answer-1.4.0-release</link>
-            <guid>https://answer.apache.org/blog/2024/09/28/answer-1.4.0-release</guid>
-            <pubDate>Sat, 28 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Answer adds badges and personalized feed for better engagement and experience.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-09-29-cover@4x-7e26e15d970d659e23d2829c7610e43c.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>The wait is over, time to upgrade your knowledge sharing experience.</p>
-<!-- --><p>We celebrate your firsts and the good content with the badges. Explore the content in Recommend where we curate the list based on your following tags and questions. Don’t forget to pick a theme to highlight your code snippets whether for an answer or a question.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="badges-celebrate-and-showcase">Badges: Celebrate and Showcase<!-- --><a href="https://answer.apache.org/blog/2024/09/28/answer-1.4.0-release#badges-celebrate-and-showcase" class="hash-link" aria-label="Direct link to Badges: Celebrate and Showcase" title="Direct link to Badges: Celebrate and Showcase">​</a></h2>
-<!-- --><p>Your dedication and contribution deserve to be seen. In our latest update, we've introduced three new badge types to recognize your achievements:</p>
-<!-- --><ul>
-<!-- --><li>Getting Started: For those firsts in the community.</li>
-<!-- --><li>Community: For accepted answer.</li>
-<!-- --><li>Posting: For shared valuable questions and answers.</li>
-<!-- --></ul>
-<!-- --><p><img decoding="async" loading="lazy" alt="Badges" src="https://answer.apache.org/assets/images/Getting%20Started-633e4e03cea13ac78fb3bd659d4a6cab.png" width="1611" height="1010" class="img_RAU7"></p>
-<!-- --><p>Want to see all the badges and ways to earn it? Just look to the left sidebar and click on any badge to learn more about its requirements and see who else has unlocked it.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Badges and Rules" src="https://answer.apache.org/assets/images/Badges%20Rule-836d1396d3b2cad52dda0a31e04dc527.png" width="1600" height="496" class="img_RAU7"></p>
-<!-- --><p>You can see the badges you earned by clicking the Badges on your profile page.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Badge on Profile Page" src="https://answer.apache.org/assets/images/Badges%20Profile%20Page-b5f0f11f1b10581a61b992687aa52ee2.gif" width="1200" height="629" class="img_RAU7"></p>
-<!-- --><p>Managing badges becomes handful for admins. Go Admin page and click Badges where you can check all the active badges. Hit action to choose the badges for your community.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Admin Badge Page" src="https://answer.apache.org/assets/images/Admin-Badges-375365a81a00157bc653e11fc5b43f1b.png" width="1600" height="480" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="personalized-feed-discover-the-content-you-love">Personalized Feed: Discover the Content You Love<!-- --><a href="https://answer.apache.org/blog/2024/09/28/answer-1.4.0-release#personalized-feed-discover-the-content-you-love" class="hash-link" aria-label="Direct link to Personalized Feed: Discover the Content You Love" title="Direct link to Personalized Feed: Discover the Content You Love">​</a></h2>
-<!-- --><p>Our new personalized feed is here to change the endless scrolling.
-We pay attention to your following tags and questions. Based on that, we curate a personalized list of posts that we think you'll find engaging and relevant.</p>
-<!-- --><p>Click Recommend and start exploring your personalized feed we tailored for you.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Recommend List" src="https://answer.apache.org/assets/images/RecommendList-a2f8a2ecdbac89225f2f01b4b9ba568a.png" width="1600" height="638" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="code-highlighting-plugin-let-the-code-shine">Code Highlighting Plugin: Let the Code Shine<!-- --><a href="https://answer.apache.org/blog/2024/09/28/answer-1.4.0-release#code-highlighting-plugin-let-the-code-shine" class="hash-link" aria-label="Direct link to Code Highlighting Plugin: Let the Code Shine" title="Direct link to Code Highlighting Plugin: Let the Code Shine">​</a></h2>
-<!-- --><p>Admins, it’s time to elevate the code readability with the latest plugins. Try render and code highlighting plugins.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Code Highlighting" src="https://answer.apache.org/assets/images/Code%20Highlight-288fa8cde1ff694b4b923e277c2c54b4.png" width="1600" height="1042" class="img_RAU7"></p>
-<!-- --><p>Don’t forget to choose a preferred theme to suit community style and make code visually appealing.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Theme" src="https://answer.apache.org/assets/images/Highlight%20Theme-6d20ab68f82d84a8fcdef3d656e5ca1c.png" width="1600" height="901" class="img_RAU7"></p>
-<!-- --><p>We also addressed several bugs, including issues with mobile reactions, HTML source code, deleted answers, test cases, plugin conflicts, and subdirectory deployments.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="lets-say-thank-you">Let’s Say Thank You<!-- --><a href="https://answer.apache.org/blog/2024/09/28/answer-1.4.0-release#lets-say-thank-you" class="hash-link" aria-label="Direct link to Let’s Say Thank You" title="Direct link to Let’s Say Thank You">​</a></h2>
-<!-- --><p>Wow, we had 10 contributors in this release! The biggest gathering! Salute to <!-- --><a href="https://github.com/kumfo" target="_blank" rel="noopener noreferrer">kumfo</a>, <!-- --><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">robinv8</a>, <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">LinkinStars</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">shuaishuai</a>, <!-- --><a href="https://github.com/sosyz" target="_blank" rel="noopener noreferrer">sosyz</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a>, <!-- --><a href="https://github.com/IamMelody233" target="_blank" rel="noopener noreferrer">IamMelody233</a>, <!-- --><a href="https://github.com/CHENJUaaa" target="_blank" rel="noopener noreferrer">CHENJUaaa</a>, <!-- --><a href="https://github.com/SantiagoLiendro" target="_blank" rel="noopener noreferrer">SantiagoLiendro</a>, <!-- --><a href="https://github.com/ferrischi201" target="_blank" rel="noopener noreferrer">ferrischi201</a>.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="we-love-your-thoughts">We Love Your Thoughts<!-- --><a href="https://answer.apache.org/blog/2024/09/28/answer-1.4.0-release#we-love-your-thoughts" class="hash-link" aria-label="Direct link to We Love Your Thoughts" title="Direct link to We Love Your Thoughts">​</a></h2>
-<!-- --><p>We're eager to hear your feedback on this latest release. Did you find new features that have enhanced your experience? Are there any areas where you'd like to see improvements?</p>]]></content:encoded>
+            <title><![CDATA[test]]></title>
+            <link>https://answer.apache.org/blog/2024/09/15/test</link>
+            <guid>https://answer.apache.org/blog/2024/09/15/test</guid>
+            <pubDate>Sun, 15 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[test blog]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2023-05-11-cover@4x-5646d198e3cf5f4cfbf7400b3a697da5.png" class="rounded img_RAU7" width="1280px" height="720px"></div><h3 class="anchor anchorWithStickyNavbar_ArXL" id="test-blog">test blog<!-- --><a href="https://answer.apache.org/blog/2024/09/15/test#test-blog" class="hash-link" aria-label="Direct link to test blog" title="Direct link to test blog">​</a></h3>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Behind the Plugin: Meet the Student Contributors]]></title>
