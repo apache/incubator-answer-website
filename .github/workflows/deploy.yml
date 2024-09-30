@@ -29,25 +29,25 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 9
-      - name: Get pnpm store directory
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-      - name: Setup pnpm cache
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+      # - name: Get pnpm store directory
+      #   shell: bash
+      #   run: |
+      #     echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      # - name: Setup pnpm cache
+      #   uses: actions/cache@v4
+      #   with:
+      #     path: ${{ env.STORE_PATH }}
+      #     key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-pnpm-store-
       - name: Install dependencies
         run: pnpm install
       - name: build
         run: pnpm run build
 
-      - uses: peaceiris/actions-gh-pages@v4
+      - uses: JamesIves/github-pages-deploy-action@v4
         if: github.event_name != 'pull_request'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          publish_branch: dist-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
+          folder: ./build
+          branch: dist-pages
