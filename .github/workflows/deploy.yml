@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Cache pnpm modules and build
-        uses: actions/cache@v4
-        with:
-          path: |
-            node_modules
-            build
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+      # - name: Cache pnpm modules and build
+      #   uses: actions/cache@v4
+      #   with:
+      #     path: |
+      #       node_modules
+      #       build
+      #     key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
 
       - uses: actions/setup-node@v4
         with:
