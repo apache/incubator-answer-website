@@ -45,9 +45,9 @@ jobs:
       - name: build
         run: pnpm run build
 
-      - uses: JamesIves/github-pages-deploy-action@v4
+      - uses: peaceiris/actions-gh-pages@v4
         if: github.event_name != 'pull_request'
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          folder: ./build
-          branch: dist-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: dist-pages
