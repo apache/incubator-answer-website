@@ -1,7 +1,7 @@
 ---
 title: "Apache Answer 邀你共赴 CommunityOverCode Asia 2024"
 authors: [Anne]
-category: 社区新闻
+category: Community
 featured: true
 image: 2024-07-11-cover@4x.png
 description: "Apache Answer 将亮相主论坛和两个分会场，杭州见。"

@@ -444,7 +444,7 @@
     "message": "加载中..."
   },
   "home.title.build": {
-    "message": "用 Apache Answer 打造"
+    "message": "用 Apache Answer 打造一个"
   },
   "home.title.teams": {
     "message": ""
@@ -489,19 +489,19 @@
     "message": "趣味十足"
   },
   "home.features.item1": {
-    "message": "帮助成员解答问题，提升社区参与度。社区内的专业人士将乐于分享、验证和点赞正确的信息。社区内的信息是可靠的，并将始终保持最新。"
+    "message": "提问、回答并与社区一起成长。每个人都是知识共享的一部分：贡献答案、发表评论和投票。内容始终是最新的。"
   },
   "home.features.item2": {
-    "message": "使用标签将问题和内容进行归类。这样使寻找所需的知识变得更加轻松。你也可以使用搜索功能快速找到答案。"
+    "message": "借助直观的标签系统搜索并查找相关内容。这是一种简单有效的分类方法。每个人都可以快速搜索和定位内容。"
   },
   "home.features.item3": {
-    "message": "通过插件和你喜爱的服务来配置你的社区。这样可以改进工作流程、扩张社区规模，或者让你的其他工具变得更好。"
+    "message": "使用插件扩展 Apache Answer 以满足你的需求。连接你喜爱的工具。简化你的工作流程，为当前工具添加新功能，并提高效率。"
   },
   "home.features.comming_soon": {
     "message": "即将发布"
   },
   "home.features.item4": {
-    "message": "我们通过声望和徽章让问答平台变得更加有趣，这使社区成员和团队在合作及完成工作时会感到愉快。"
+    "message": "用你的专业知识和礼仪赢得声誉和徽章。在与其他会员一起茁壮成长的同时，享受丰富多彩的体验。"
   },
   "home.features.title": {
     "message": "功能"
