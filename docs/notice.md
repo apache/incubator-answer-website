@@ -44,7 +44,7 @@ The project is built on and with the aid of the following open source projects. 
 * https://npmjs.com/package/react-router-dom
 * https://npmjs.com/package/swr
 * https://npmjs.com/package/zustand
-* https://github.com/Chain-Zhang/pinyin
+* https://github.com/mozillazg/go-pinyin
 * https://github.com/Machiel/slugify
 * https://github.com/Masterminds/semver
 * https://github.com/anargu/gin-brotli
