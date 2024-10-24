@@ -27,6 +27,10 @@ The project is built on and with the aid of the following open source projects. 
 * https://www.npmjs.com/package/bootstrap-icons
 * https://www.npmjs.com/package/classnames
 * https://www.npmjs.com/package/codemirror
+* https://www.npmjs.com/package/@codemirror/lang-markdown
+* https://www.npmjs.com/package/@codemirror/language-data
+* https://www.npmjs.com/package/@codemirror/state
+* https://www.npmjs.com/package/@codemirror/view
 * https://www.npmjs.com/package/color
 * https://www.npmjs.com/package/copy-to-clipboard
 * https://www.npmjs.com/package/dayjs
