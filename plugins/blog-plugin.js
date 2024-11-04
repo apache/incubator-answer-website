@@ -260,8 +260,11 @@ async function blogPluginExtended(...pluginArgs) {
 
         const categoryProp = {
           label: category.label,
+          count: category.count,
           permalink: generateCategoryPath(category.label),
         };
+
+        // console.log('categoryProp', categoryProp);
         const categoryPropPath = await createData(
           `${utils.docuHash(categoryProp.label)}.json`,
           JSON.stringify(categoryProp, null, 2),

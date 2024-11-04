@@ -93,7 +93,7 @@ const HomeHead: FC = () => {
               <Translate
                 id="home.title.build"
               >
-                Build
+                Build a
               </Translate>
               {currentLocale === 'zh-CN' ? <br /> : ' '}
               <span className={clsx('text-warning text-decoration-underline link-offset-1', styles.slogan, styles[sloganClass])}>

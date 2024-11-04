@@ -9,7 +9,7 @@ The project is built on and with the aid of the following open source projects. 
 
 ## Apache-2.0
 
-* https://npmjs.com/package/react-helmet-async
+* https://www.npmjs.com/package/react-helmet-async
 * https://github.com/golang/mock
 * https://github.com/google/wire
 * https://github.com/mojocn/base64Captcha
@@ -22,29 +22,34 @@ The project is built on and with the aid of the following open source projects. 
 
 ## MIT
 
-* https://npmjs.com/package/axios
-* https://npmjs.com/package/bootstrap
-* https://npmjs.com/package/bootstrap-icons
-* https://npmjs.com/package/classnames
-* https://npmjs.com/package/codemirror
+* https://www.npmjs.com/package/axios
+* https://www.npmjs.com/package/bootstrap
+* https://www.npmjs.com/package/bootstrap-icons
+* https://www.npmjs.com/package/classnames
+* https://www.npmjs.com/package/codemirror
+* https://www.npmjs.com/package/@codemirror/lang-markdown
+* https://www.npmjs.com/package/@codemirror/language-data
+* https://www.npmjs.com/package/@codemirror/state
+* https://www.npmjs.com/package/@codemirror/view
 * https://www.npmjs.com/package/color
-* https://npmjs.com/package/copy-to-clipboard
-* https://npmjs.com/package/dayjs
-* https://npmjs.com/package/i18next
-* https://npmjs.com/package/katex
-* https://npmjs.com/package/lodash
-* https://npmjs.com/package/marked
-* https://npmjs.com/package/mermaid
-* https://npmjs.com/package/next-share
+* https://www.npmjs.com/package/copy-to-clipboard
+* https://www.npmjs.com/package/dayjs
+* https://www.npmjs.com/package/front-matter
+* https://www.npmjs.com/package/i18next
+* https://www.npmjs.com/package/js-sha256
+* https://www.npmjs.com/package/katex
+* https://www.npmjs.com/package/lodash
+* https://www.npmjs.com/package/marked
+* https://www.npmjs.com/package/mermaid
+* https://www.npmjs.com/package/next-share
 * https://www.npmjs.com/package/qrcode
-* https://npmjs.com/package/react
-* https://npmjs.com/package/react-bootstrap
-* https://npmjs.com/package/react-dom
-* https://npmjs.com/package/react-i18next
-* https://npmjs.com/package/react-router-dom
-* https://npmjs.com/package/swr
-* https://npmjs.com/package/zustand
-* https://github.com/Chain-Zhang/pinyin
+* https://www.npmjs.com/package/react
+* https://www.npmjs.com/package/react-bootstrap
+* https://www.npmjs.com/package/react-dom
+* https://www.npmjs.com/package/react-i18next
+* https://www.npmjs.com/package/react-router-dom
+* https://www.npmjs.com/package/swr
+* https://www.npmjs.com/package/zustand
 * https://github.com/Machiel/slugify
 * https://github.com/Masterminds/semver
 * https://github.com/anargu/gin-brotli
@@ -60,6 +65,7 @@ The project is built on and with the aid of the following open source projects. 
 * https://github.com/jordan-wright/email
 * https://github.com/lib/pq
 * https://github.com/mattn/go-sqlite3
+* https://github.com/mozillazg/go-pinyin
 * https://github.com/segmentfault/pacman
 * https://github.com/robfig/cron
 * https://github.com/scottleedavis/go-exif-remove
@@ -74,8 +80,7 @@ The project is built on and with the aid of the following open source projects. 
 ## BSD-3-Clause
 
 * https://www.npmjs.com/package/diff
-* https://www.npmjs.com/package/md5
-* https://npmjs.com/package/qs
+* https://www.npmjs.com/package/qs
 * https://github.com/google/uuid
 * https://github.com/grokify/html-strip-tags-go
 * https://github.com/microcosm-cc/bluemonday

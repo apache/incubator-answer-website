@@ -21,7 +21,7 @@ import BlogPostItem from '../BlogPostItem';
 function BlogPostPageContent({relatedList, sidebar, children}) {
   const {metadata, toc} = useBlogPost();
 
-  console.log('BlogPostPageContent', toc);
+  // console.log('BlogPostPageContent', toc);
   const { frontMatter} = metadata;
   const {
     hide_table_of_contents: hideTableOfContents,
