@@ -4,10 +4,32 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/zh-CN/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Tue, 01 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
+        <item>
+            <title><![CDATA[Recap of October | Apache Answer]]></title>
+            <link>https://answer.apache.org/zh-CN/blog/2024/11/04/answer-recap-october</link>
+            <guid>https://answer.apache.org/zh-CN/blog/2024/11/04/answer-recap-october</guid>
+            <pubDate>Mon, 04 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[October brings an award and community love.]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-11-04-cover@4x-fc832a6a518af6f90e6ab0825a467142.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>Hope you enjoyed the spooky vibe of the Halloween. Here’s your October newsletter filled with chilling delights!</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="-community">🫶 Community<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/11/04/answer-recap-october#-community" class="hash-link" aria-label="🫶 Community的直接链接" title="🫶 Community的直接链接">​</a></h2>
+<!-- --><p>New award coming!
+We have received the award of cutting-edge open source projects and communities presented by China Communications Standards Association. Apache Answer has impressed the judges with its strong community, global reach, and technical flexibility, as shown in the preliminary round and the second round of interviews.</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/OSCAR%20Award-25ef3807f49a236fbc3c75bac358d91e.jpeg" width="3994" height="2663" class="img_RAU7"></p>
+<!-- --><p>The community gets bigger!
+Give it up for our new committer: <!-- --><a href="https://github.com/sosyz" target="_blank" rel="noopener noreferrer">Qirui Song</a>. He contributed a lark notification plugin and shared his notes in his <!-- --><a href="https://blog.sonui.cn/development-notes-for-apache-answer-plugin/#more" target="_blank" rel="noopener noreferrer">blog</a>.<!-- --></p>
+<!-- --><p><a href="https://github.com/apache/incubator-answer-plugins/pull/194" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/Lark%20Notification-640ee1471fbd7d7cf9a834db370372a5.png" width="1868" height="938" class="img_RAU7"></a></p>
+<!-- --><p>Besides, he also helped with bug fixes and code quality improvement. We’re so glad to have such a versatile and active person joining the family.</p>
+<!-- --><p>OSPP goes well so far.
+Our mentors have reviewed the merged PR/MR from the students and wait for the final evaluation from the committee.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="coming-up-next">Coming up Next<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/11/04/answer-recap-october#coming-up-next" class="hash-link" aria-label="Coming up Next的直接链接" title="Coming up Next的直接链接">​</a></h2>
+<!-- --><p>1.4.1 is now in the voting process and will be released in November. Have a <!-- --><a href="https://github.com/apache/incubator-answer/releases/tag/untagged-e895d4ea9fba53a1cc5e" target="_blank" rel="noopener noreferrer">sneak peek</a> for the new version.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="-got-something-in-mind">🤲 Got Something in Mind?<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/11/04/answer-recap-october#-got-something-in-mind" class="hash-link" aria-label="🤲 Got Something in Mind?的直接链接" title="🤲 Got Something in Mind?的直接链接">​</a></h2>
+<!-- --><p>Whether it’s a suggestion, bug report, or a question, you can always share it in our official <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Q&amp;A community</a>. Let’s make the future Q&amp;A platform software better.<!-- --></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Recap of September | Apache Answer]]></title>
             <link>https://answer.apache.org/zh-CN/blog/2024/10/01/answer-recap-sept</link>
@@ -896,43 +918,6 @@ Here’s how it works.</p>
 <!-- --><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">官方文档</a>
 <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub 库</a><br>
 <!-- --><a href="https://answer.apache.org/community/contributing" target="_blank" rel="noopener noreferrer">为 Apache Answer 做贡献</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[What’s New in Apache Answer 1.3.0?]]></title>
-            <link>https://answer.apache.org/zh-CN/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0</link>
-            <guid>https://answer.apache.org/zh-CN/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0</guid>
-            <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Find out how the review process and navigation gets more efficient and new changes in Apache Answer 1.3.0.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-04-26-cover@4x-3f50288b921ec7060cab1990645e7ce1.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>We know we all have different habits to browse, navigate, and manage your online community, support center, or knowledge base. We built Apache Answer to stay out of your way, so you can focus and do everything in the way you want, with features and interactions that are just right.</p>
-<!-- --><p>In <!-- --><a href="https://github.com/apache/incubator-answer/releases/tag/v1.3.0" target="_blank" rel="noopener noreferrer">Answer 1.3.0</a>, we’re moving forward to make review and navigation better for you. Here are the features, new improves, and gratitude to all the contributors. <!-- --><a href="https://answer.apache.org/docs/upgrade" target="_blank" rel="noopener noreferrer">Upgrade</a> now and enjoy the reading today.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="whats-new">What’s New<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0#whats-new" class="hash-link" aria-label="What’s New的直接链接" title="What’s New的直接链接">​</a></h2>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_ArXL" id="review-in-one-place">Review in One Place<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0#review-in-one-place" class="hash-link" aria-label="Review in One Place的直接链接" title="Review in One Place的直接链接">​</a></h3>
-<!-- --><p>Let the review happened in the place. Now admins and moderators can review flagged content in Review, which is in the sidebar on the left.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Review Flag Post" src="https://answer.apache.org/zh-CN/assets/images/Review%20Flag%20Post-501202762e39e771728e465f71b91685.png" width="1200" height="664" class="img_RAU7"></p>
-<!-- --><p>There are ways different actions provided in <!-- --><strong>Approve</strong>, including edit post, close, delete, and enlist post.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Actions for Approve" src="https://answer.apache.org/zh-CN/assets/images/Action%20for%20Approve-ee4feb9f90947df9d02448e4939a064f.png" width="1200" height="624" class="img_RAU7"></p>
-<!-- --><p>Besides, we also provide filters to make the reviewing process efficient. With just a click, you can check the specific content waiting in queue.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_ArXL" id="build-your-review-plugin-from-today">Build Your Review Plugin from Today<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0#build-your-review-plugin-from-today" class="hash-link" aria-label="Build Your Review Plugin from Today的直接链接" title="Build Your Review Plugin from Today的直接链接">​</a></h3>
-<!-- --><p>We add an example review plugin to check user’s first post before it officially goes online. This ensures high-quality content in your community, while every user understands the posting rules.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Switch to Turn on Review Plugin" src="https://answer.apache.org/zh-CN/assets/images/Switch%20on%20Review%20Basic-931b8f4140c4cf4eccb2b3e6a9353391.png" width="1200" height="693" class="img_RAU7"></p>
-<!-- --><p>You can build your review plugin for unpublished posts based on your review process based on this example plugin. Click <!-- --><a href="https://github.com/apache/incubator-answer-plugins/tree/main/reviewer-basic" target="_blank" rel="noopener noreferrer">here</a> to know more about this plugin.<!-- --></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_ArXL" id="sort-answer-from-oldest-to-newest">Sort Answer from Oldest to Newest<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0#sort-answer-from-oldest-to-newest" class="hash-link" aria-label="Sort Answer from Oldest to Newest的直接链接" title="Sort Answer from Oldest to Newest的直接链接">​</a></h3>
-<!-- --><p>Observing how an answer develops until the current version can bring clarity. Now there’s no need to scroll to the bottom for earlier answers, simply click the Oldest.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Sort from the Oldest" src="https://answer.apache.org/zh-CN/assets/images/Sort%20from%20Oldest-96eba0e5292f8605086f0c0115dc87ae.png" width="1200" height="751" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="fine-tunings-youll-love">Fine-tunings You’ll Love<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0#fine-tunings-youll-love" class="hash-link" aria-label="Fine-tunings You’ll Love的直接链接" title="Fine-tunings You’ll Love的直接链接">​</a></h2>
-<!-- --><p>We heard your voice! Here are some tweaks we made for existed features.</p>
-<!-- --><p>It’s easy to spot your search terms within the results, because of the latest highlight.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Highlight Search Result" src="https://answer.apache.org/zh-CN/assets/images/Highlight%20Search%20Result%20Keyword-0fa417d84e95ac83a93b1adb96ff76fe.png" width="1200" height="431" class="img_RAU7"></p>
-<!-- --><p>Now admin can go through all the published posts, check the post’s status, and unlist it in a few clicks.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Unlist and Post Status" src="https://answer.apache.org/zh-CN/assets/images/Unlist%20and%20Status-6d2dd8bc0fb6fd8db879b65fff37d850.png" width="1200" height="590" class="img_RAU7"></p>
-<!-- --><p>Automatic update checks can be closed too, and admin can find it in <!-- --><strong>Admin — Settings — General</strong>. Switch it off and save, you’re good to go.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Software Updates" src="https://answer.apache.org/zh-CN/assets/images/Software%20Updates-79c79046514fd92514957158d76dad9a.png" width="1200" height="381" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="to-the-contributors-cheers">To the Contributors. Cheers.<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0#to-the-contributors-cheers" class="hash-link" aria-label="To the Contributors. Cheers.的直接链接" title="To the Contributors. Cheers.的直接链接">​</a></h2>
-<!-- --><p>We’re so glad to have 6 contributors joining in this update, and here they are:<!-- --><br>
-<!-- --><a href="https://github.com/Octobug" target="_blank" rel="noopener noreferrer">Octobug</a>, <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>, <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">LinkinStars</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">dashuai</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a>, and <!-- --><a href="https://github.com/zahash" target="_blank" rel="noopener noreferrer">zahash</a>.<!-- --></p>
-<!-- --><p>Who will be joining our next version release?</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="we-are-listening">We are Listening<!-- --><a href="https://answer.apache.org/zh-CN/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0#we-are-listening" class="hash-link" aria-label="We are Listening的直接链接" title="We are Listening的直接链接">​</a></h2>
-<!-- --><p>We'd love your feedback!  Share your thoughts on the latest releases, suggest features for the future roadmap, or just let us know what's on your mind.  Feel free to reach out on <!-- --><a href="https://twitter.com/answerdev" target="_blank" rel="noopener noreferrer">X</a>, <!-- --><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>, <!-- --><a href="https://github.com/apache/incubator-answer" target="_blank" rel="noopener noreferrer">GitHub</a>, <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Meta Answer</a>, or our <!-- --><a href="https://answer.apache.org/community/support" target="_blank" rel="noopener noreferrer">mailing list</a>.<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
