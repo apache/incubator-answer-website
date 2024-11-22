@@ -106,7 +106,7 @@ $ ./new_answer plugin
 ```dockerfile  title="Dockerfile"
 FROM apache/answer as answer-builder
 
-FROM golang:1.19-alpine AS golang-builder
+FROM golang:1.22-alpine AS golang-builder
 
 COPY --from=answer-builder /usr/bin/answer /usr/bin/answer
 
