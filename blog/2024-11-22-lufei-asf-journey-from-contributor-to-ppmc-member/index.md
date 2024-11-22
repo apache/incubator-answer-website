@@ -24,7 +24,7 @@ The following year, Answer passed the vote and joined the ASF incubator. My seco
 
 ![Answer Enters Incubator](ASF.png)
 
-The WeChat group of SegmentFault was buzzing with congrats, while a question arose: ‘When can I get my own @apache.org email?’ I muted the chat and got back to work but couldn’t help thinking about that question.The WeChat group of SegmentFault was buzzing with congrats, while a question arose: ‘When can I get my own @apache.org email?’ I muted the chat and got back to work but couldn’t help thinking about that question.
+The WeChat group of SegmentFault was buzzing with congrats, while a question arose: 'When can I get my own @apache.org email?' I muted the chat and got back to work but couldn’t help thinking about that question.
 
 ## Get to Know Apache Software Foundation
 After Answer became a polling project, I started learning more about it and here’s what I’d love to share.
@@ -71,4 +71,4 @@ Apache Answer is a dynamic community. Whether you're a seasoned pro or just star
 
 If you're into Q&A platform or open source, you should definitely check it out. Start small, maybe by fixing a typo or improving some documentation. You'll quickly learn the ropes and start making a real impact.
 
-I want to give a huge shoutout to the amazing Apache Answer community. Your support has been incredible, and I'm excited to see where we go next. 
+I want to give a huge shout-out to the amazing Apache Answer community. Your support has been incredible, and I'm excited to see where we go next. 
