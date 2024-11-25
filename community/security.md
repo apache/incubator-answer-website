@@ -8,6 +8,14 @@ The Apache Software Foundation takes a rigorous stance on eliminating security i
 
 # Security fixes
 
+## v1.4.0
+
+### CVE-2024-45719
+
+The ids generated using the UUID v1 version are to some extent not secure enough. It can cause the generated token to be predictable.
+
+https://www.cve.org/CVERecord?id=CVE-2024-45719
+
 ## v1.3.5
 
 ### CVE-2024-41888
