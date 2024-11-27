@@ -8,7 +8,7 @@ description: "Link the questions/answer as easy as the connecting the dots."
 
 ---
 
-The weather is getting cooler, and time to light up the knowledge fireplace. In this release, we add new features to provide context for your knowledge flow in an easy way. There're also improvements in different ways: display, color, SEO template, etc. Don't miss the 4 new plugins that streamline Answer with the tools you love.
+The weather is getting colder, and time to light up the knowledge fireplace. In this release, we add new features to provide context for your knowledge flow in an easy way. There're also improvements in different ways: display, color, SEO template, etc. Don't miss the 4 new plugins that streamline Answer with the tools you love.
 
 ## Linking Question: Connect the Knowledge Dots
 
