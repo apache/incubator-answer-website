@@ -1,4 +1,5 @@
 ---
+slug: a-new-chapter-begins-answer-first-apache-release-launches
 title: "A New Chapter Begins: Answer's First Apache Release Launches"
 authors: [Anne]
 category: Release

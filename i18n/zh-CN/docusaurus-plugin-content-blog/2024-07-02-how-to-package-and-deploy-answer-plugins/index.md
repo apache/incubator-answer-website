@@ -1,4 +1,5 @@
 ---
+slug: how-to-package-and-deploy-answer-plugins
 title: "Apache Answer 使用插件详细教程"
 authors: [shuai]
 category: Tutorials

@@ -1,4 +1,5 @@
 ---
+slug: how-to-improve-knowledge-sharing-with-answer
 title: How to Improve Knowledge Sharing with Answer
 authors: [Anne]
 category: Tutorials

@@ -1,4 +1,5 @@
 ---
+slug: behind-the-scene-how-we-launched-the-first-apache-release
 title: "Behind the Scene: How We Launched the First Apache Release"
 authors: [Anne]
 category: Community
@@ -13,7 +14,7 @@ Preparing for our Apache debut was an adventure, with two questions constantly e
 **What's the next step?         
 Which document should I check?**
 
-Joining the incubator was more than a new beginning, but a new way of collaboration that requires us to adapt to soon. Now that we finally [shipped it](https://answer.apache.org/blog/2023/12/07/a-new-chapter-begins-answer-first-apache-release-launches), and look back to the lessons we’ve learnt during the process. We’ve been received help from other projects, so it’s our chance to pave the way for more projects by sharing our experience. 
+Joining the incubator was more than a new beginning, but a new way of collaboration that requires us to adapt to soon. Now that we finally [shipped it](https://answer.apache.org/blog/a-new-chapter-begins-answer-first-apache-release-launches), and look back to the lessons we’ve learnt during the process. We’ve been received help from other projects, so it’s our chance to pave the way for more projects by sharing our experience. 
 
 To the future incubator projects: Consider this blog post your guide as you embark on your own first Apache release. Have a smooth release!
 

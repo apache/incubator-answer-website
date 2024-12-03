@@ -1,4 +1,5 @@
 ---
+slug: guide-to-add-answer-plugins
 title: "Guide to Adding Plugins to Apache Answer"
 authors: [ZhuXuanlyu, ChenJiaji, Anne]
 category: Tutorials
@@ -62,4 +63,4 @@ Example with the editor-chart, editor-formula, and embed-basic plugins.
 
 Open the backend interface URL in your browser. Under the **Admin - Installed Plugins** section, you'll see the added plugins. Click the `⋮` in the Action column to activate or remove the plugin.
 
-Congratulations, you've successfully added a plugin! Click [here](https://answer.apache.org/plugins/) to explore more community-built plugins. Additionally, we offer a detailed tutorial on [How to Package and Deploy Answer Plugins](https://answer.apache.org/blog/2024/07/02/how-to-package-and-deploy-answer-plugins/) and a [Plugin Development Guide](https://answer.apache.org/docs/development/plugins/) to make your Apache Answer even more powerful.
+Congratulations, you've successfully added a plugin! Click [here](https://answer.apache.org/plugins/) to explore more community-built plugins. Additionally, we offer a detailed tutorial on [How to Package and Deploy Answer Plugins](https://answer.apache.org/blog/how-to-package-and-deploy-answer-plugins/) and a [Plugin Development Guide](https://answer.apache.org/docs/development/plugins/) to make your Apache Answer even more powerful.

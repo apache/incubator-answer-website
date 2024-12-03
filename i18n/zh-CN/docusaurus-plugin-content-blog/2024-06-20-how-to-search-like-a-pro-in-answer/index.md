@@ -1,4 +1,5 @@
 ---
+slug: how-to-search-like-a-pro-in-answer
 title: "How to Search Like a Pro in Answer"
 authors: [Anne]
 category: Tutorials
@@ -16,7 +17,7 @@ The search bar locates at the top of every page. Whether you’re browsing on th
 ![Search Bar in Answer Locates on the Top of Every Page](Search%20Bar.png)
 
 ## Start from a Keyword
-Just like a search engine, let’s start searching in Answer with a single keyword. Then, you can refine your search by making it to a phrase or sentence. In Answer, we [highlight the key terms](https://answer.apache.org/blog/2024/04/26/what-is-new-in-apache-answer-1.3.0/#fine-tunings-youll-love) so that you can identify it with just a glance. 
+Just like a search engine, let’s start searching in Answer with a single keyword. Then, you can refine your search by making it to a phrase or sentence. In Answer, we [highlight the key terms](https://answer.apache.org/blog/what-is-new-in-apache-answer-1.3.0/#fine-tunings-youll-love) so that you can identify it with just a glance. 
 
 ![Search with Keyword in Answer](search%20with%20keyword.png)
 
@@ -26,7 +27,7 @@ You can also sort the results with **Active, Newest, Relevance, and Score** to b
 
 
 ## Search with Tag
-Remember the [magical tag](https://answer.apache.org/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer#03-organize-categories-with-tags) that play a big role in organizing the community? They’re powerful for tracking the content. If you’re looking for content in the same category, searching with a relevant tag is a productive way to start with. 
+Remember the [magical tag](https://answer.apache.org/blog/how-to-build-a-help-center-with-your-users-and-answer#03-organize-categories-with-tags) that play a big role in organizing the community? They’re powerful for tracking the content. If you’re looking for content in the same category, searching with a relevant tag is a productive way to start with. 
 
 Simply type the tag name inside square brackets and hit search, e.g., [Release]. 
 

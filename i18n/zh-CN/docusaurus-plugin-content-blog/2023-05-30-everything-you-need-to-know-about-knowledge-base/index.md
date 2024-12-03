@@ -1,4 +1,5 @@
 ---
+slug: everything-you-need-to-know-about-knowledge-base
 title: Everything You Need to Know About Knowledge Base
 authors: [Anne]
 category: Insights

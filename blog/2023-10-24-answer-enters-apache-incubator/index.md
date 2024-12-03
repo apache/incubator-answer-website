@@ -1,4 +1,5 @@
 ---
+slug: answer-enters-apache-incubator
 title: Answer Enters Apache Incubator
 authors: [Anne]
 category: Community

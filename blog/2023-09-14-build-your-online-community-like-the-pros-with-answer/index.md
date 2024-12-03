@@ -1,4 +1,5 @@
 ---
+slug: build-your-online-community-like-the-pros-with-answer
 title: Build Your Online Community Like the Pros with Answer
 authors: [Anne]
 category: Best Practice
@@ -93,7 +94,7 @@ Now that the tags are ready, let’s have the very first post by clicking **Add 
 
 ### Time to Manage the Content
 
-Admin and moderators can review and edit the posts to maintain a vibrant environment for everyone. That’s not it, in Answer, everyone is a part of content management. You can find Flag, Moderation, Permission and Reputation, find out how they better online community experience for your users in our [blog](https://answer.apache.org/blog/2023/08/09/how-to-manage-content-system-efficiently-with-answer).
+Admin and moderators can review and edit the posts to maintain a vibrant environment for everyone. That’s not it, in Answer, everyone is a part of content management. You can find Flag, Moderation, Permission and Reputation, find out how they better online community experience for your users in our [blog](https://answer.apache.org/blog/how-to-manage-content-system-efficiently-with-answer).
 
 ## Engage and Award Your Users
 
@@ -101,7 +102,7 @@ Diverse topics and high-quality discussion are both good content to engage users
 
 ![Reputation Score](ReputationScore.png)
 
-Reputation scores are also used by community moderators and administrators to determine user [privileges](https://answer.apache.org/docs/recipes/contents/permission), such as posting more than 2 links at a time, creating a new tag, etc. Answer provides 3 levels of reputation, and you can choose a level based on your needs. Explore more on how to utilize reputation and privilege in your online community [here](https://answer.apache.org/blog/2023/07/19/how-to-utilize-reputation-and-privilege-in-online-community/).
+Reputation scores are also used by community moderators and administrators to determine user [privileges](https://answer.apache.org/docs/recipes/contents/permission), such as posting more than 2 links at a time, creating a new tag, etc. Answer provides 3 levels of reputation, and you can choose a level based on your needs. Explore more on how to utilize reputation and privilege in your online community [here](https://answer.apache.org/blog/how-to-utilize-reputation-and-privilege-in-online-community/).
 
 From customizable features to engagement, Answer equips you to connect with your users in meaningful ways. Whether you're launching a new community or looking to revitalize an existing one, Answer got practical features you need to make your online community a home for your users. Start building your community like the pros with [Answer](https://answer.apache.org/) today, and watch it flourish into any communities you dream about.
 

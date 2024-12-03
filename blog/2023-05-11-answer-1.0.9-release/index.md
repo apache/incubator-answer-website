@@ -1,4 +1,5 @@
 ---
+slug: answer-1.0.9-release
 title: "Have a Closer Look at Answer 1.0.9: New Features, and More"
 authors: [Anne]
 category: Release

@@ -1,4 +1,5 @@
 ---
+slug: why-open-source-is-the-essence-of-answer
 title: Why Open Source is the Essence of Answer
 authors: [Anne]
 category: Community

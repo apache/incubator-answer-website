@@ -1,4 +1,5 @@
 ---
+slug: how-release-managers-make-the-release-process-productive
 title: "Release Manager 如何持续改进发布过程"
 authors: [Anne]
 category: Community
@@ -18,7 +19,7 @@ Apache 版本的发布是一套严谨的流程，需要严格验证、社区投�
 
 文档的重要性不言而喻，作为发版的基石，Release Doc 对于发版指引有非常重要的作用，此外，这也展示了项目发版流程的规范性，以及项目是否具备了独立完成发版的能力。
 
-LinkinStars 是 Apache Answer 的后端工程师，作为项目的[首位 Release Manager](https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars)，他完成了第一版 Release Doc。该文档包含了完整的发版流程和步骤，包括证书的创建、打包、签名、验证、上传等，此外 LinkinStars 还整理了邮件使用的模板。不久后，Apache Answer 第一个 [Apache 版本](https://answer.apache.org/zh-CN/blog/2023/12/07/a-new-chapter-begins-answer-first-apache-release-launches)于 2023 年 11 月 29 日发布。
+LinkinStars 是 Apache Answer 的后端工程师，作为项目的[首位 Release Manager](https://answer.apache.org/blog/meet-our-release-manager-linkinstars)，他完成了第一版 Release Doc。该文档包含了完整的发版流程和步骤，包括证书的创建、打包、签名、验证、上传等，此外 LinkinStars 还整理了邮件使用的模板。不久后，Apache Answer 第一个 [Apache 版本](https://answer.apache.org/zh-CN/blog/a-new-chapter-begins-answer-first-apache-release-launches)于 2023 年 11 月 29 日发布。
 
 在导师的建议下，Apache Answer 的 PPMC 成员开始轮流担任 Release Manager，参与到发版当中。这不仅帮助每个人都熟悉整个发版的流程，并在参与的过程中，能够发现可优化的部分，以文档的形式沉淀下来，帮助和确保发版工作能顺利进行。
 
@@ -42,7 +43,7 @@ kumfo 接棒了 shuai 成为 Apache Answer 的第三位 Release Manager，作为
 
 ![Alt text](release-process.PNG)
 
-你可以点击[此处](https://answer.apache.org/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release)，了解 Apache Answer 第一次 Apache 版本发布的幕后故事。
+你可以点击[此处](https://answer.apache.org/blog/behind-the-scene-how-we-launched-the-first-apache-release)，了解 Apache Answer 第一次 Apache 版本发布的幕后故事。
 
 shuai 在接手后，参考了当时的 LinkinStar 的发版文档并提前准备了 GPG key，SVN 配置。
 但在他仍遇到了邮件标题/内容写错，打包后内容丢失，签名不正确的问题。为了避免拷贝粘贴导致邮件格式出错，shuai 建议在本地先创建一个 .txt 文件，在发送邮件前可以先本地对邮件模版进行编辑修改，再复制到你的邮件编辑器。shuai 还在 GitHub 上创建了 [Apache 发版邮件模版库](https://github.com/shuashuai/apache-release-email)帮助后续的 Release Manager 避免再遇到此类的问题。

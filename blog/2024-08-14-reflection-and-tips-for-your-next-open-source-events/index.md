@@ -1,4 +1,5 @@
 ---
+slug: reflection-and-tips-for-your-next-open-source-events
 title: "Reflection and Our Tips for Your Next Open-Source Events"
 authors: [Anne]
 category: Community

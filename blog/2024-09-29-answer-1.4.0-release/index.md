@@ -1,4 +1,5 @@
 ---
+slug: answer-1.4.0-release
 title: "Answer 1.4.0: Where Fun Meet the Content You Love"
 authors: [Anne]
 category: Release

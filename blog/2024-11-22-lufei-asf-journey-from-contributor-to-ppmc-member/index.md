@@ -1,4 +1,5 @@
 ---
+slug: lufei-asf-journey-from-contributor-to-ppmc-member
 title: "Lu Fei's ASF Journey: From Contributor to PPMC Member"
 authors: [Anne]
 category: Community

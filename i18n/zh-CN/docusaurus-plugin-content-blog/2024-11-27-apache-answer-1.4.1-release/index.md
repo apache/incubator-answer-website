@@ -1,4 +1,5 @@
 ---
+slug: apache-answer-1.4.1-release
 title: "Apache Answer 1.4.1: Bridge the Gap"
 authors: [Anne]
 category: Release

@@ -1,4 +1,5 @@
 ---
+slug: how-to-use-answer-for-effective-knowledge-retention
 title: How to use Answer for Effective Knowledge Retention?
 authors: [Anne]
 category: Best Practice

@@ -1,4 +1,5 @@
 ---
+slug: what-is-new-in-apache-answer-1.3.0
 title: "What’s New in Apache Answer 1.3.0?"
 authors: [Anne]
 category: Release

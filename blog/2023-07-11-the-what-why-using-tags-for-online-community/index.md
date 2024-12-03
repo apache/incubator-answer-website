@@ -1,4 +1,5 @@
 ---
+slug: the-what-why-using-tags-for-online-community
 title: The What, Why Using Tags for Online Community
 authors: [Anne]
 category: Insights
@@ -44,7 +45,7 @@ In Answer, tag is a thread that connects users, content, and moderator. With mor
 Moderator can group related posts together and help organize content based on specific topics, themes, or categories.
 
 ![Game Community Built with Answer](OrganizeContent1.png)
-[![Support Community Built with Answer](OrganizeContent2.png)](/blog/2023/07/05/how-to-build-a-help-center-with-your-users-and-answer)
+[![Support Community Built with Answer](OrganizeContent2.png)](/blog/how-to-build-a-help-center-with-your-users-and-answer)
 
 2. Quick Search
 Tags make content more discoverable. In Answer, users can search for specific tags to find relevant content they are looking for.

@@ -1,4 +1,5 @@
 ---
+slug: behind-the-plugin-meet-the-student-contributors
 title: "代码高亮插件：学生开发者的开源故事"
 authors: [Anne]
 category: Community
@@ -56,6 +57,6 @@ description: "聆听学生开发者开源首秀背后的故事。"
 
 同时，参与开源不仅有助于技术的提升，还能帮助他们拓展人脉，提升未来职业发展的机会。
 
-代码贡献只是两位同学开源首秀的一部分，两位同学还在非代码贡献上做出了自己的贡献。在搭建环境的时候，他们将步骤以图文的形式记录下来，并将[前端配置](https://answer.apache.org/zh-CN/blog/2024/08/16/apache-answer-frontend-configuration-guide)、[后端配置](https://answer.apache.org/zh-CN/blog/2024/08/20/apache-answer-backend-configuration-guide)、和[添加插件指南](https://answer.apache.org/zh-CN/blog/2024/08/22/guide-to-add-answer-plugins)以博客的形式贡献给社区。此外，他们还完成了[文档](https://answer.apache.org/zh-CN/docs)部分的更新和本地化。
+代码贡献只是两位同学开源首秀的一部分，两位同学还在非代码贡献上做出了自己的贡献。在搭建环境的时候，他们将步骤以图文的形式记录下来，并将[前端配置](https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide)、[后端配置](https://answer.apache.org/zh-CN/blog/apache-answer-backend-configuration-guide)、和[添加插件指南](https://answer.apache.org/zh-CN/blog/guide-to-add-answer-plugins)以博客的形式贡献给社区。此外，他们还完成了[文档](https://answer.apache.org/zh-CN/docs)部分的更新和本地化。
 
 在此，我们想衷心说声感谢，并鼓励更多学生加入到开源之中。正是因为有新的力量的，开源社区才会愈发壮大和繁荣。点击[此处](https://answer.apache.org/zh-CN/community/contributing)，了解你可以如何参与进来，不局限于代码贡献。

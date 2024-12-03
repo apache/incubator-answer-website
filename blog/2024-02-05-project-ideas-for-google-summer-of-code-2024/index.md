@@ -1,4 +1,5 @@
 ---
+slug: project-ideas-for-google-summer-of-code-2024
 title: "Answer Project Ideas for Google Summer of Code 2024 (Draft)"
 authors: [fenbox]
 category: Community

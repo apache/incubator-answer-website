@@ -1,4 +1,5 @@
 ---
+slug: answer-1.1.0-release
 title: "Meet Answer 1.1.0: Your Q&A Community Takes a Step Forward"
 authors: [Anne]
 category: Release

@@ -1,4 +1,5 @@
 ---
+slug: answer-recap-july
 title: "Recap of July | Apache Answer"
 authors: [Anne]
 category: Newsletter
@@ -26,7 +27,7 @@ import Embed from '@site/src/components/Embed';
 Our PPMC member [shuaishuai](https://github.com/shuashuai) released a blog on how to package Answer plugins with a step-to-step tutorial. Easy package plugin from today.
 
 <Embed
-  path="/blog/2024/07/02/how-to-package-and-deploy-answer-plugins"
+  path="/blog/how-to-package-and-deploy-answer-plugins"
   title="How to Package and Deploy Answer Plugins"
   description="Follow this step-by-step guide to package plugins for your Answer."
   cover="2024-07-02-cover@2x.png"

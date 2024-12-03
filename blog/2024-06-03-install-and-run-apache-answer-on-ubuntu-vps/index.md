@@ -1,4 +1,5 @@
 ---
+slug: install-and-run-apache-answer-on-ubuntu-vps
 title: "Install and Run Apache Answer on Ubuntu VPS"
 category: Tutorials
 featured: false

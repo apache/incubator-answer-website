@@ -1,4 +1,5 @@
 ---
+slug: answer-turns-one-and-is-now-apache-answer
 title: Answer Turns 1, and is Now Apache Answer
 authors: [Anne]
 category: Community
@@ -18,7 +19,7 @@ For the past year, we’ve released 19 versions, and formed a compact but powerf
 * Translated in 15 languages
 * Over 10,000 downloads
 * [Documentation](https://answer.apache.org/docs) for everyone to install, learn how-tos, contribute, etc. (tell/help us improve!)
-* Our first [Hacktoberfest](https://answer.apache.org/blog/2023/09/27/celebrate-answer-first-anniversary-with-hacktoberfest-2023) 
+* Our first [Hacktoberfest](https://answer.apache.org/blog/celebrate-answer-first-anniversary-with-hacktoberfest-2023) 
 * Reputation and privileges rules for teams at different scales
 * Plugin support 
 * SEO friendly: schema, canonical, SEO friendly URLs, robots.txt and auto meta tags
@@ -35,7 +36,7 @@ For the past year, we’ve released 19 versions, and formed a compact but powerf
 Behind the GitHub stars, we are honored to be the companion to help more teams unleash collective wisdom.
 
 ## Proudly Incubated at Apache Incubator
-We realized that a long-term healthy community is important for an open-source project, and becoming an [Apache project](https://answer.apache.org/blog/2023/10/24/answer-enters-apache-incubator/) will guide us there. Nurtured in the Apache Way, we will build a fair, diverse and inclusive community, while ship great features with the community. 
+We realized that a long-term healthy community is important for an open-source project, and becoming an [Apache project](https://answer.apache.org/blog/answer-enters-apache-incubator/) will guide us there. Nurtured in the Apache Way, we will build a fair, diverse and inclusive community, while ship great features with the community. 
 
 
 ## Big Thanks and Big Hugs

@@ -1,4 +1,5 @@
 ---
+slug: apache-answer-frontend-configuration-guide
 title: "Apache Answer 前端配置指南"
 authors: [ChenJiaji, ZhuXuanlyu, Anne]
 category: Tutorials

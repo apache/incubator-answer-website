@@ -1,4 +1,5 @@
 ---
+slug: answer-ospp-2024
 title: "大牛导师，万元奖金！Apache Answer 邀你共度开源之夏"
 authors: [Anne]
 category: Community

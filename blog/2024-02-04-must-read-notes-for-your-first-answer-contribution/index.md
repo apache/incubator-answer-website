@@ -1,4 +1,5 @@
 ---
+slug: must-read-notes-for-your-first-answer-contribution
 title: "Must-Read Notes for Your First Answer Contribution"
 authors: [LinkinStar]
 category: Community

@@ -205,4 +205,4 @@ Please refer to [the documentation](/docs/development) for details.
 
 ## Design & Principle
 
-Since Go is a static language, there is no friendly plugin mechanism. Instead of a dynamic approach, we use recompilation for deployment. Please refer to [the blog](/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way) for details.
+Since Go is a static language, there is no friendly plugin mechanism. Instead of a dynamic approach, we use recompilation for deployment. Please refer to [the blog](/blog/why-the-answer-plugin-system-was-designed-this-way) for details.

@@ -1,4 +1,5 @@
 ---
+slug: apache-answer-joined-first-alc-hangzhou-meetup
 title: "Apache Answer Joined the First ALC Hangzhou Meetup"
 authors: [Anne]
 category: Community

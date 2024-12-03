@@ -1,4 +1,5 @@
 ---
+slug: how-to-utilize-reputation-and-privilege-in-online-community
 title: How to Utilize Reputation and Privilege in Online Community
 authors: [Anne]
 category: Tutorials

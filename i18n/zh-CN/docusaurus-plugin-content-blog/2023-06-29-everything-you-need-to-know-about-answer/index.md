@@ -1,4 +1,5 @@
 ---
+slug: everything-you-need-to-know-about-answer
 title: Everything You Need to Know About Answer
 authors: [Anne]
 category: Community

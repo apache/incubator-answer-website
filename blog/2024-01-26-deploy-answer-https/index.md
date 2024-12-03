@@ -1,4 +1,5 @@
 ---
+slug: deploy-answer-https
 title: "How to Access Answer Using HTTPS"
 authors: [LinkinStar]
 category: Tech

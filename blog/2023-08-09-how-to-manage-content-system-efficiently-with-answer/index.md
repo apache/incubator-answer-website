@@ -1,4 +1,5 @@
 ---
+slug: how-to-manage-content-system-efficiently-with-answer
 title: How to Manage Content System Efficiently with Answer 
 authors: [Anne]
 category: Tutorials

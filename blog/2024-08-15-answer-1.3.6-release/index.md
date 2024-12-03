@@ -1,4 +1,5 @@
 ---
+slug: answer-1.3.6-release
 title: "Say Hi to Answer 1.3.6: Faster and Easier"
 authors: [Anne]
 category: Release

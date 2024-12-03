@@ -1,4 +1,5 @@
 ---
+slug: apache-answer-backend-configuration-guide
 title: "Apache Answer 后端配置指南"
 authors: [ZhuXuanlyu, ChenJiaji, Anne]
 category: Tutorials
@@ -8,7 +9,7 @@ description: "Answer后端配置保姆级教学"
 
 ---
 
-在 [Apache Answer 前端配置指南](https://answer.apache.org/zh-CN/blog/2024/08/16/apache-answer-frontend-configuration-guide)中，相信大家都能跟随每一步完成前端配置。本文将详细指导你如何配置 Apache Answer 的后端，我们将一步一步地进行讲解，确保每个人都能上手并成功运行。
+在 [Apache Answer 前端配置指南](https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide)中，相信大家都能跟随每一步完成前端配置。本文将详细指导你如何配置 Apache Answer 的后端，我们将一步一步地进行讲解，确保每个人都能上手并成功运行。
 
 ## 准备工作
 
@@ -16,7 +17,7 @@ description: "Answer后端配置保姆级教学"
     从[官方网站](https://go.dev/doc/install)下载并安装 Go 语言, 按默认设置安装即可。
 
 2. Clone Answer 项目
-    确保你已经克隆了 Apache Answer 到本地，如还未克隆，请阅读 [Apache Answer 前端配置指南](https://answer.apache.org/zh-CN/blog/2024/08/16/apache-answer-frontend-configuration-guide)。
+    确保你已经克隆了 Apache Answer 到本地，如还未克隆，请阅读 [Apache Answer 前端配置指南](https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide)。
 
 
 ## 一、初始化项目

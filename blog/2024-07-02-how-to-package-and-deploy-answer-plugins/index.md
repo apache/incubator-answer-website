@@ -1,4 +1,5 @@
 ---
+slug: how-to-package-and-deploy-answer-plugins
 title: "How to Package and Deploy Answer Plugins"
 authors: [shuai]
 category: Tutorials

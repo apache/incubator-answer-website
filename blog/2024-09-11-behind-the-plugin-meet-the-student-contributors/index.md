@@ -1,4 +1,5 @@
 ---
+slug: behind-the-plugin-meet-the-student-contributors
 title: "Behind the Plugin: Meet the Student Contributors"
 authors: [Anne]
 category: Community
@@ -54,6 +55,6 @@ Working on these projects has helped us truly understand how open source works a
 
 By contributing, students can get real-world experience, solve real problems, and meet other people in tech. Start small and work your way up. Whether you write code, document things, or test stuff, there's a place for everyone. Open source can help you learn new things and add testimonials for your skills on your resume.
 
-These two students didn't just write code; they went the extra mile! They created guides to help others set things up and contributed blog posts about how to configure the [frontend](https://answer.apache.org/blog/2024/08/16/apache-answer-frontend-configuration-guide) and [backend](https://answer.apache.org/blog/2024/08/20/apache-answer-backend-configuration-guide), as well as [add new plugins](https://answer.apache.org/blog/2024/08/22/guide-to-add-answer-plugins). Plus, they updated and translated the docs to make them easier to understand for Chinese speakers.
+These two students didn't just write code; they went the extra mile! They created guides to help others set things up and contributed blog posts about how to configure the [frontend](https://answer.apache.org/blog/apache-answer-frontend-configuration-guide) and [backend](https://answer.apache.org/blog/apache-answer-backend-configuration-guide), as well as [add new plugins](https://answer.apache.org/blog/guide-to-add-answer-plugins). Plus, they updated and translated the docs to make them easier to understand for Chinese speakers.
 
 We're so grateful for their hard work! We hope more students will join us in making open source a welcoming place. There are lots of ways to get involved, even if you're not a coder. Click [here](https://answer.apache.org/community/contributing) to check it out and give it a try.

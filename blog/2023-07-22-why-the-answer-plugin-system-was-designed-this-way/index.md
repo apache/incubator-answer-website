@@ -1,4 +1,5 @@
 ---
+slug: why-the-answer-plugin-system-was-designed-this-way
 title: The Packaging Process for Answer Plugins
 authors: [LinkinStar]
 category: Tech

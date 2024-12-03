@@ -1,4 +1,5 @@
 ---
+slug: answer-1.3.5-release
 title: "Apache Answer 1.3.5: Flexibility. Reaction. Extension."
 authors: [Anne]
 category: Release

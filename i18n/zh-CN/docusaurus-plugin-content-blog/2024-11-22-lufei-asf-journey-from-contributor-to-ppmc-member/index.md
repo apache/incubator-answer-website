@@ -1,4 +1,5 @@
 ---
+slug: lufei-asf-journey-from-contributor-to-ppmc-member
 title: "从贡献者到 PPMC Member：Lu Fei 的 Apache Answer之旅"
 authors: [Anne]
 category: Community

@@ -1,4 +1,5 @@
 ---
+slug: answer-1.2.1-ask-better-find-better
 title: "Answer 1.2.1: Ask Better. Find Better."
 authors: [Anne]
 category: Release

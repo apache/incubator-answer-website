@@ -1,4 +1,5 @@
 ---
+slug: answer-recap-june
 title: "Recap of June | Apache Answer"
 authors: [Anne]
 category: Newsletter

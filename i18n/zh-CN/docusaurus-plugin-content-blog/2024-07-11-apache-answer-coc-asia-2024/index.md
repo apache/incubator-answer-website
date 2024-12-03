@@ -1,4 +1,5 @@
 ---
+slug: apache-answer-coc-asia-2024
 title: "Apache Answer 邀你共赴 CommunityOverCode Asia 2024"
 authors: [Anne]
 category: Community

@@ -1,4 +1,5 @@
 ---
+slug: guide-to-add-answer-plugins
 title: "添加 Apache Answer 插件指南"
 authors: [ZhuXuanlyu, ChenJiaji, Anne]
 category: Tutorials
@@ -62,4 +63,4 @@ go mod edit -replace="github.com/apache/incubator-answer-plugins/my-plugin"="./u
 
 在浏览器打开后端借口网址，可在 Admin - Installed Plugins 里看到添加的插件，点击 Action 列的 `⋮` 即可激活和移除该插件。
 
-你已经完成了插件添加，点击[此处](https://answer.apache.org/plugins/)可以了解更多社区构建的插件。此外，我们还提供了 [Apache Answer 使用插件的详细教程](https://answer.apache.org/zh-CN/blog/2024/07/02/how-to-package-and-deploy-answer-plugins/)，以及[插件开发指南](https://answer.apache.org/zh-CN/docs/development/plugins/)，让你的 Apache Answer 变得更加强大。
+你已经完成了插件添加，点击[此处](https://answer.apache.org/plugins/)可以了解更多社区构建的插件。此外，我们还提供了 [Apache Answer 使用插件的详细教程](https://answer.apache.org/zh-CN/blog/how-to-package-and-deploy-answer-plugins/)，以及[插件开发指南](https://answer.apache.org/zh-CN/docs/development/plugins/)，让你的 Apache Answer 变得更加强大。

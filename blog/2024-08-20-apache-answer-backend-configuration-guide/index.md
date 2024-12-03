@@ -1,4 +1,5 @@
 ---
+slug: apache-answer-backend-configuration-guide
 title: "Apache Answer Backend Configuration Guide"
 authors: [ZhuXuanlyu, ChenJiaji, Anne]
 category: Tutorials
@@ -8,7 +9,7 @@ description: "Answer Backend Configuration Step-by-Step Guide"
 
 ---
 
-In the [Apache Answer Frontend Configuration Guide](https://answer.apache.org/blog/2024/08/16/apache-answer-frontend-configuration-guide), we believe that everyone was able to follow each step to complete the frontend configuration. This article will provide a detailed guide on how to configure the backend of Apache Answer. We will go through each step, ensuring that everyone can get started and run the backend successfully.
+In the [Apache Answer Frontend Configuration Guide](https://answer.apache.org/blog/apache-answer-frontend-configuration-guide), we believe that everyone was able to follow each step to complete the frontend configuration. This article will provide a detailed guide on how to configure the backend of Apache Answer. We will go through each step, ensuring that everyone can get started and run the backend successfully.
 
 ## Preparation
 
@@ -16,7 +17,7 @@ In the [Apache Answer Frontend Configuration Guide](https://answer.apache.org/bl
     Download and install the Go programming language from the [official website](https://go.dev/doc/install). Follow the default settings for installation.
 
 2. Clone the Answer Project
-    Ensure that you have cloned the Apache Answer project locally. If you haven’t done so yet, please refer to the [Apache Answer Frontend Configuration Guide](https://answer.apache.org/blog/2024/08/16/apache-answer-frontend-configuration-guide).
+    Ensure that you have cloned the Apache Answer project locally. If you haven’t done so yet, please refer to the [Apache Answer Frontend Configuration Guide](https://answer.apache.org/blog/apache-answer-frontend-configuration-guide).
 
 
 ## I. Initialize the Project

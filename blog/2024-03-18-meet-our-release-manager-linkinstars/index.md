@@ -1,4 +1,5 @@
 ---
+slug: meet-our-release-manager-linkinstars
 title: "Meet Our Release Manager: LinkinStars"
 authors: [Anne]
 category: Community
@@ -7,7 +8,7 @@ image: 2024-03-18-cover@4x.png
 description: " "
 
 ---
-Answer joined the [Apache Incubator](https://answer.apache.org/blog/2023/10/24/answer-enters-apache-incubator) last October, and we've already released 3 Apache versions so far. From overwhelming during our first release, we are now out of the woods.
+Answer joined the [Apache Incubator](https://answer.apache.org/blog/answer-enters-apache-incubator) last October, and we've already released 3 Apache versions so far. From overwhelming during our first release, we are now out of the woods.
 
 Speaking of releases, we can’t neglect Release Manager. The person who makes sure that everything is compliant and everyone can access to the latest version. We talked to LinkinStars, the conductor behind each Apache Answer release. Let's see how he sees this role, how he handles obstacles, and his secrets to a smooth release.
 
@@ -54,7 +55,7 @@ The most enduring challenge I faced was the first release. I had no idea about p
 
 The most important thing is to **keep trying**. The Apache community is friendly, and community members will remind you with assistance. Be brave, and embrace the mistakes. 
 
-*Find out how we launched the first Apache Release [here](https://answer.apache.org/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release).*
+*Find out how we launched the first Apache Release [here](https://answer.apache.org/blog/behind-the-scene-how-we-launched-the-first-apache-release).*
 
 ## What are some strategies/tips you have for working effectively with your team during the release process?
 1. Use GitHub issues and projects to manage all the released content, and then check one by one with each team member.

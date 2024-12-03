@@ -1,4 +1,5 @@
 ---
+slug: first-contribution-come-to-answer
 title: "First Contribution? Come to Answer."
 authors: [Anne]
 category: Community

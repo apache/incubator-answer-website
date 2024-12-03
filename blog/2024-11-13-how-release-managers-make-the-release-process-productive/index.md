@@ -1,4 +1,5 @@
 ---
+slug: how-release-managers-make-the-release-process-productive
 title: "How Release Managers Make the Release Process Productive"
 authors: [Anne]
 category: Community
@@ -17,7 +18,7 @@ In today's read, we will look back at the challenges encountered by the release 
 ## Evolution of the Release Doc 
 As the foundation of the release, the release doc provides detailed guidance. It also serves as a testament to the project’s maturity and independence in release management.
 
-LinkinStars, a backend engineer, became Apache Answer’s [first release manager](https://answer.apache.org/blog/2024/03/18/meet-our-release-manager-linkinstars). He crafted the initial version of the release doc with an entire release cycle and final deployment. In this version, the release doc packed with process from packaging, signing, verification, and uploading, as well as email templates. With his help, Apache Answer’s [first Apache release](https://answer.apache.org/zh-CN/blog/2023/12/07/a-new-chapter-begins-answer-first-apache-release-launches) was successfully launched on November 29th, 2023.
+LinkinStars, a backend engineer, became Apache Answer’s [first release manager](https://answer.apache.org/blog/meet-our-release-manager-linkinstars). He crafted the initial version of the release doc with an entire release cycle and final deployment. In this version, the release doc packed with process from packaging, signing, verification, and uploading, as well as email templates. With his help, Apache Answer’s [first Apache release](https://answer.apache.org/zh-CN/blog/a-new-chapter-begins-answer-first-apache-release-launches) was successfully launched on November 29th, 2023.
 
 Later on, the PPMC members started to take turns following the guidance of the mentor. By rotating this role, the community was not only familiarized with the release process but also able to identify the optimization gap. 
 
@@ -41,7 +42,7 @@ For LinkinStars, the first release was undoubtedly a huge challenge. He first wo
 
 ![Alt text](release-process.PNG)
 
-Click [here](https://answer.apache.org/blog/2023/12/13/behind-the-scene-how-we-launched-the-first-apache-release) to learn more about the behind-the-scenes story of Apache Answer's first Apache release.
+Click [here](https://answer.apache.org/blog/behind-the-scene-how-we-launched-the-first-apache-release) to learn more about the behind-the-scenes story of Apache Answer's first Apache release.
 
 After shuai‘s take-over, he referred to LinkinStars’ release documentation and prepared the GPG key and SVN configuration in advance. However, he still faced issues such as incorrect email subject/content, missing content after packaging, and incorrect signatures. To avoid formatting errors caused by copy-pasting in emails, shuai suggested creating a .txt file locally first, where the email template can be edited and modified before copying it into the email editor. He also created a [GitHub repo of Apache release email templates](https://github.com/shuashuai/apache-release-email) to help other release managers avoid encountering such problems in the future.
 

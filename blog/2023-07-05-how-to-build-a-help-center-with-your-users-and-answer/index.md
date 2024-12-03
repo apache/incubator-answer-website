@@ -1,4 +1,5 @@
 ---
+slug: how-to-build-a-help-center-with-your-users-and-answer
 title: How to Build a Help Center with Your Users and Answer
 authors: [Anne]
 category: Tutorials
@@ -47,7 +48,7 @@ The best part in Answer is that, as long as you run a support center with it, gr
 
 ![Hot Question in Answer](HotQuestion.png)
 
-You can also [Pin recent FAQs](https://answer.apache.org/blog/2023/05/11/answer-1.0.9-release#whats-new) for your customers, or add as an additional resource in the sidebar, so that users can get the answer they need right away.
+You can also [Pin recent FAQs](https://answer.apache.org/blog/answer-1.0.9-release#whats-new) for your customers, or add as an additional resource in the sidebar, so that users can get the answer they need right away.
 
 ![Pin an FAQ in Answer](Pin.png)
 
@@ -75,7 +76,7 @@ Add a description for your users to know what the tag is about, and what content
 
 Don’t make your help center end up with outdated answers. Though users are actively becoming a part of the community, moderators still need regular review and edit. Keep an eye on product launch, tweaks and updates, and you’ll notice how effective tags can be when updating the content.
 
-When updating or editing a post, use [Unlist](https://answer.apache.org/blog/2023/05/11/answer-1.0.9-release#whats-new) to hide the post temporarily to avoid misunderstanding.
+When updating or editing a post, use [Unlist](https://answer.apache.org/blog/answer-1.0.9-release#whats-new) to hide the post temporarily to avoid misunderstanding.
 
 ![Unlist a Question in Answer](UnlistQuestion.gif)
 

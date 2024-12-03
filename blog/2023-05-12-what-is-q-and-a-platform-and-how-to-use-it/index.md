@@ -1,4 +1,5 @@
 ---
+slug: what-is-q-and-a-platform-and-how-to-use-it
 title: What is Q&A Platform and How to Use it
 authors: [Anne]
 category: Tutorials

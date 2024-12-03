@@ -1,4 +1,5 @@
 ---
+slug: celebrate-answer-first-anniversary-with-hacktoberfest-2023
 title: Celebrate Answer’s First Anniversary with Hacktoberfest 2023
 authors: [Anne]
 category: Community

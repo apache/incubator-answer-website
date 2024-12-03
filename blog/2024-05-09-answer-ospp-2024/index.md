@@ -1,4 +1,5 @@
 ---
+slug: answer-ospp-2024
 title: "Apply for Apache Answer’s Project at OSPP 2024"
 authors: [Anne]
 category: Community
@@ -22,7 +23,7 @@ Apache Answer is an open-source Q&A platform software. Launched in October 2022,
 Find out more about us with the links below:      
 [Homepage](https://answer.apache.org/)     
 [GitHub](https://github.com/apache/incubator-answer)        
-[Blog: Why Open Source Matters to Answer](https://answer.apache.org/blog/2023/05/23/why-open-source-is-the-essence-of-answer)
+[Blog: Why Open Source Matters to Answer](https://answer.apache.org/blog/why-open-source-is-the-essence-of-answer)
 
 ## Our Projects for OSPP 2024
 We strike to build easy-to-start and good-to-go Q&A platform software for every team. With this idea in mind, we bring 2 projects this year. Both projects require applicants to process fundamental experience in TypeScript, Golang, and React. 

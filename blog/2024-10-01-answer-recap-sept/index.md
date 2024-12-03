@@ -1,4 +1,5 @@
 ---
+slug: answer-recap-sept
 title: "Recap of September | Apache Answer"
 authors: [Anne]
 category: Newsletter

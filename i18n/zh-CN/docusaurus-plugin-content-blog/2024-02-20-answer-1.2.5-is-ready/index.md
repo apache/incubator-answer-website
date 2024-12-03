@@ -1,4 +1,5 @@
 ---
+slug: answer-1.2.5-is-ready
 title: "Answer 1.2.5 is Ready"
 authors: [Anne]
 category: Release
