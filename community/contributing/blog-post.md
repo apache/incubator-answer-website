@@ -76,23 +76,23 @@ authors: [Anne]  # separate with commas [Anne, others]
 2. To ensure that the final article URL follows a format like `/blog/hello-world`, we've established the following naming convention for each article file:
 
     - **Plain Text**
-      - Directly create a file named `2023-06-01-hello-world.md` in the `/blog` directory.
+      - Directly create a file named `hello-world.md` in the `/blog` directory.
     - **Rich Text**
-      - Create a directory named `/2023-06-01-foo-bar` in the `/blog` directory.
-      - Create an `index.md` file inside the `/2023-06-01-foo-bar` directory.
+      - Create a directory named `/foo-bar` in the `/blog` directory.
+      - Create an `index.md` file inside the `/foo-bar` directory.
       - Images and other multimedia content should also be placed within this directory.
 
-    To maintain semantic and unique article URLs, we recommend using the blog's title after the date when naming files or folders. Convert the title to lowercase and connect the words with hyphens, and writing the converted lowercase letters to the metadata in the file.
+   To maintain semantic and unique article URLs, we recommend using the blog's title when naming files or folders. Convert the title to lowercase and connect the words with hyphens. This eliminates the need to worry about the slug field on the page. Avoid specifying the slug field unless it's absolutely necessary.
 
-    For instance, if the blog's title is `Hello World`, the file can be named `2023-06-01-hello-world`, writing `slug: hello-world`, This will generate the URL `/blog/hello-world`.
+    For instance, if the blog's title is `Hello World`, the file can be named `hello-world`, This will generate the URL `/blog/hello-world`.
 
     ```shell
     blog
-    ├── 2023-06-01-foo-bar  # Use directory for images.
+    ├── foo-bar  # Use directory for images.
     │   ├── index.md
     │   ├── sample.png
     │   └── ... 
-    ├── 2023-06-01-hello-world.md  # Use file for plain text.
+    ├── hello-world.md  # Use file for plain text.
     └── ...
     ```
 
@@ -109,7 +109,7 @@ authors: [Anne]  # separate with commas [Anne, others]
     Check the example below.
 
     ```yaml
-    slug: the-what-why-using-tags-for-online-community
+    date: 2023-07-11
     title: The What, Why Using Tags for Online Community
     authors: [Anne]
     category: Insights // value reference in blog type

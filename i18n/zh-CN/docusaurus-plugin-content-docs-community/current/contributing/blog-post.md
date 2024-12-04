@@ -76,23 +76,23 @@ authors: [Anne]  # separate with commas [Anne, others]
 2. 为了确保最终文章 URL 遵循`/blog/hello-world`，我们为每个文章文件建立了以下命名约定：
 
     - **纯文本**
-      - 在`/blog`目录中直接创建一个名为`2023-06-01-hello-world.md`的文件。
+      - 在`/blog`目录中直接创建一个名为`hello-world.md`的文件。
     - **富文本**
-      - 在`/blog`目录中创建一个名为`/2023-06-01-foo-bar`的目录。
-      - 在`/2023-06-01-foo-bar`目录里创建一个`index.md`文件。
+      - 在`/blog`目录中创建一个名为`/foo-bar`的目录。
+      - 在`/foo-bar`目录里创建一个`index.md`文件。
       - 图像和其他多媒体内容也应放置在此目录中。
 
-    为了保持文章 URL 的语义和唯一性，我们建议在命名文件或文件夹时，在日期后使用博客标题并将标题转换为小写，并用连字符将单词连接起来，将转换的小写字母写入文件中的元数据。
+   为了保持文章 URL 的语义和唯一性，我们建议在命名文件或文件夹时，使用博客标题并将标题转换为小写，并用连字符将单词连接起来。这样一来，您就无需担心页面上的 slug 字段。除非绝对必要，否则请避免指定 slug 字段。
 
-    例如，如果博客的标题是`Hello World`，该文件可以命名为`2023-06-01-hello-world`，写入`slug: hello-world`，这将生成 URL `/blog/hello-world`。
+    例如，如果博客的标题是`Hello World`，该文件可以命名为`hello-world`，这将生成 URL `/blog/hello-world`。
 
     ```shell
     blog
-    ├── 2023-06-01-foo-bar  # Use directory for images.
+    ├── foo-bar  # Use directory for images.
     │   ├── index.md
     │   ├── sample.png
     │   └── ... 
-    ├── 2023-06-01-hello-world.md  # Use file for plain text.
+    ├── hello-world.md  # Use file for plain text.
     └── ...
     ```
 
@@ -109,7 +109,7 @@ authors: [Anne]  # separate with commas [Anne, others]
     查看以下示例。
 
     ```yaml
-    slug: the-what-why-using-tags-for-online-community
+    date: 2023-07-11
     title: The What, Why Using Tags for Online Community
     authors: [Anne]
     category: Insights // value reference in blog type
