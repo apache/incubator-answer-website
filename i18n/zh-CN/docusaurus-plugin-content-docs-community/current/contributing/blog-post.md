@@ -5,7 +5,7 @@ slug: /blog-post
 
 # 贡献一篇博客文章
 
-博客是[参与](/community/contributing#get-involved)Apache Answer 最简单的方法之一。这也是你与他人分享知识和使用经验的好方式。
+博客是[参与](/community/contributing#get-involved) Apache Answer 最简单的方法之一。这也是你与他人分享知识和使用经验的好方式。
 
 如果你用 Apache Answer 构建了自己的问答社区，或者使用 Apache Answer 解决了问题，我们都想听听你的故事。我们还鼓励你分享使用 Apache Answer 的技巧和窍门，或分享你是如何为 Apache Answer 做出贡献的。
 
@@ -73,7 +73,7 @@ authors: [Anne]  # separate with commas [Anne, others]
     - **对于英语博客**: 在`/blog`目录中创建一个新的 Markdown 文件。
     - **对于中文博客**: 在`/i18n/zh-CN/docusaurus-plugin-content-blog/`目录中创建一个新的 Markdown 文件。
 
-2. 为了确保最终文章 URL 遵循`/blog/2023/06/01/hello-world`，我们为每个文章文件建立了以下命名约定：
+2. 为了确保最终文章 URL 遵循`/blog/hello-world`，我们为每个文章文件建立了以下命名约定：
 
     - **纯文本**
       - 在`/blog`目录中直接创建一个名为`2023-06-01-hello-world.md`的文件。
@@ -82,9 +82,9 @@ authors: [Anne]  # separate with commas [Anne, others]
       - 在`/2023-06-01-foo-bar`目录里创建一个`index.md`文件。
       - 图像和其他多媒体内容也应放置在此目录中。
 
-    为了保持文章 URL 的语义和唯一性，我们建议在命名文件或文件夹时，在日期后使用博客标题并将标题转换为小写，并用连字符将单词连接起来。这样一来，您就无需担心页面上的 slug 字段。除非绝对必要，否则请避免指定 slug 字段。
+    为了保持文章 URL 的语义和唯一性，我们建议在命名文件或文件夹时，在日期后使用博客标题并将标题转换为小写，并用连字符将单词连接起来，将转换的小写字母写入文件中的元数据。
 
-    例如，如果博客的标题是`Hello World`，该文件可以命名为`2023-06-01-hello-world`，这将生成 URL `/blog/2023-06-01/hello-world`。
+    例如，如果博客的标题是`Hello World`，该文件可以命名为`2023-06-01-hello-world`，写入`slug: hello-world`，这将生成 URL `/blog/hello-world`。
 
     ```shell
     blog
@@ -109,6 +109,7 @@ authors: [Anne]  # separate with commas [Anne, others]
     查看以下示例。
 
     ```yaml
+    slug: the-what-why-using-tags-for-online-community
     title: The What, Why Using Tags for Online Community
     authors: [Anne]
     category: Insights // value reference in blog type

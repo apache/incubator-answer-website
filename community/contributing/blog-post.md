@@ -73,7 +73,7 @@ authors: [Anne]  # separate with commas [Anne, others]
     - **For English blog**: Create a new Markdown file in the `/blog` directory.
     - **For Chinese blog**: Create a new Markdown file in the `/i18n/zh-CN/docusaurus-plugin-content-blog/` directory.
 
-2. To ensure that the final article URL follows a format like `/blog/2023/06/01/hello-world`, we've established the following naming convention for each article file:
+2. To ensure that the final article URL follows a format like `/blog/hello-world`, we've established the following naming convention for each article file:
 
     - **Plain Text**
       - Directly create a file named `2023-06-01-hello-world.md` in the `/blog` directory.
@@ -82,9 +82,9 @@ authors: [Anne]  # separate with commas [Anne, others]
       - Create an `index.md` file inside the `/2023-06-01-foo-bar` directory.
       - Images and other multimedia content should also be placed within this directory.
 
-    To maintain semantic and unique article URLs, we recommend using the blog's title after the date when naming files or folders. Convert the title to lowercase and connect the words with hyphens. This eliminates the need to worry about the slug field on the page. Avoid specifying the slug field unless it's absolutely necessary.
+    To maintain semantic and unique article URLs, we recommend using the blog's title after the date when naming files or folders. Convert the title to lowercase and connect the words with hyphens, and writing the converted lowercase letters to the metadata in the file.
 
-    For instance, if the blog's title is `Hello World`, the file can be named `2023-06-01-hello-world` This will generate the URL `/blog/2023-06-01/hello-world`.
+    For instance, if the blog's title is `Hello World`, the file can be named `2023-06-01-hello-world`, writing `slug: hello-world`, This will generate the URL `/blog/hello-world`.
 
     ```shell
     blog
@@ -109,6 +109,7 @@ authors: [Anne]  # separate with commas [Anne, others]
     Check the example below.
 
     ```yaml
+    slug: the-what-why-using-tags-for-online-community
     title: The What, Why Using Tags for Online Community
     authors: [Anne]
     category: Insights // value reference in blog type
