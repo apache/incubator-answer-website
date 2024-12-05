@@ -12,6 +12,7 @@ const asfLinks = [
   {to: 'https://www.apache.org/security/', label: 'Security'},
   {to: 'https://www.apache.org/foundation/thanks.html', label: 'Thanks'},
 ];
+const redirectPaths = require('./redirects.js');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -192,7 +193,7 @@ const config = {
   plugins: [
     // Use custom blog plugin
     [
-      "./plugins/blog-plugin",
+      './plugins/blog-plugin',
       {
         blogTitle: 'Answer Blog',
         blogDescription: 'Learn everything about Answer and leverage your Q&A community.',
@@ -230,32 +231,7 @@ const config = {
     [
       '@docusaurus/plugin-client-redirects',
       {
-        redirects: [
-          {
-            to: '/community/support',
-            from: ['/contact', '/community'],
-          },
-          {
-            to: '/community/team',
-            from: '/community/about',
-          },
-          {
-            to: '/docs/development',
-            from: '/community/development',
-          },
-          {
-            to: '/docs/development/plugins',
-            from: '/community/plugins'
-          },
-          {
-            to:'/docs/development/plugins/plugin-config',
-            from: '/community/plugins/plugin-config'
-          },
-          {
-            to:'/docs/development/plugins/plugin-translation',
-            from: '/community/plugins/plugin-translation',
-          }
-        ],
+        redirects: redirectPaths,
       },
     ],
   ],

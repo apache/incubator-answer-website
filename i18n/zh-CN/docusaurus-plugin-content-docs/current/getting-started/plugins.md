@@ -205,4 +205,4 @@ github.com/apache/incubator-answer-plugins/editor_formula@latest
 
 ## 设计与原理
 
-由于 Go 是静态语言，没有友好的插件机制。我们采用重新编译的方式来进行部署，而非动态方式。详情请参考[博客](/blog/2023/07/22/why-the-answer-plugin-system-was-designed-this-way)。
+由于 Go 是静态语言，没有友好的插件机制。我们采用重新编译的方式来进行部署，而非动态方式。详情请参考[博客](/blog/why-the-answer-plugin-system-was-designed-this-way)。
