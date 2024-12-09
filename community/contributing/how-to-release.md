@@ -146,54 +146,39 @@ $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 
 ## Start a vote
 
-1. Send a vote email to the dev@answer.apache.org. Incubator need to first do a vote on their dev list and that vote requires at least **3 +1s from Apache Answer PPMC members**.
-2. Wait for at **least 72 hours** or until the necessary number of votes are reached.
-3. Announce the result of the vote on the dev list.
-4. If the dev vote passes, send email to the general@incubator.apache.org to request a vote on the general list. The incubator vote needs at least **3 +1s from Incubator PMC members**
-   (binding votes).
-5. Wait for at **least 72 hours** or until the necessary number of votes are reached.
-6. Announce the result of the vote on the general list.
+1. First, send a vote email to dev@answer.apache.org. This vote requires at least **3 +1s from Apache Answer PPMC members**.
+2. After the dev list vote passes, send a vote email to general@incubator.apache.org. This vote requires at least **3 +1 binding votes from IPMC members**.
+3. Wait for at **least 72 hours** or until the necessary number of votes are reached.
+4. Announce the result of the vote on the respective mailing list.
 
-### Vote email template
+### Dev Mailing List Vote Template
 
-**NOTICE**  Directly copying the email content will cause the format to be incorrect. It is recommended to copy the email to a `.txt` file. After writing the content, copy it into the email tool you are using.  `The vote tread` and `Vote Result` is not needed during the first round of voting in dev.
-
-How to get the link to The vote thread:
-1. Find the email you sent from the apache mailing list.
-2. Click the link button below the email to get the link you need.
-
-![vote thread link](/img/community/vote-tread-link.jpeg)
-
-
-
-```text
+```
 [VOTE] Release Apache Answer (Incubating) {release-version}
 
 Hello,
 
-    This is a call for vote to release Apache Answer (Incubating) version {release-version}.
-
-    The vote thread:
-        https://lists.apache.org/thread/{id}
-
-    Vote Result:
-        https://lists.apache.org/thread/{id}
+    This is a call for vote to release Apache Answer(Incubating) version {release-version}.
 
     The release candidates:
-        https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}/
-    
+    https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}
+
     Release notes:
-        https://github.com/apache/incubator-answer/releases/tag/{release-version}
+    https://github.com/apache/incubator-answer/releases/tag/{release-version}
 
     Git tag for the release:
-        https://github.com/apache/incubator-answer/releases/tag/{release-version}
-    
+    https://github.com/apache/incubator-answer/releases/tag/{release-version}
+
     Git commit id for the release:
-        https://github.com/apache/incubator-answer/commit/{id}
+    https://github.com/apache/incubator-answer/commit/{commit-hash}
 
     Keys to verify the Release Candidate:
-        https://downloads.apache.org/incubator/answer/KEYS
-        
+    https://downloads.apache.org/incubator/answer/KEYS
+
+    Keys to verify the Release Candidate:
+    The artifacts signed with PGP key [{key-id}], corresponding to [{email}], that can be found in keys file:
+    https://dist.apache.org/repos/dist/release/incubator/answer/KEYS
+
     The vote will be open for at least 72 hours or until the necessary number of votes are reached.
 
     Please vote accordingly:
@@ -207,15 +192,91 @@ Hello,
     [ ] Download links are valid.
     [ ] Checksums and PGP signatures are valid.
     [ ] Source code distributions have correct names matching the current release.
-    [ ] LICENSE and NOTICE files are correct for each Apache Answer repo.
+    [ ] LICENSE and NOTICE files are correct for each Answer repo.
     [ ] All files have license headers if necessary.
     [ ] No unlicensed compiled archives bundled in source archive.
 
     To compile from the source, please refer to:
-    
+
     https://github.com/apache/incubator-answer#building-from-source
 
 Thanks,
+<YOUR NAME>
+```
+
+### General Incubator Vote Template
+
+```
+[VOTE] Release Apache Answer (Incubating) {release-version}
+
+Hello,
+
+    This is a call for vote to release Apache Answer(Incubating) version {release-version}.
+
+    The vote thread:
+    https://lists.apache.org/thread/{thread-id}
+
+    Vote Result:
+    https://lists.apache.org/thread/{result-thread-id}
+
+    The release candidates:
+    https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}/
+
+    Release notes:
+    https://github.com/apache/incubator-answer/releases/tag/{release-version}
+
+    Git tag for the release:
+    https://github.com/apache/incubator-answer/releases/tag/{release-version}
+
+    Git commit id for the release:
+    https://github.com/apache/incubator-answer/commit/{commit-hash}
+
+    Keys to verify the Release Candidate:
+    The artifacts signed with PGP key [{key-id}], corresponding to
+    [{email}], that can be found in keys file:
+    https://downloads.apache.org/incubator/answer/KEYS
+
+    The vote will be open for at least 72 hours or until the necessary
+    number of votes are reached.
+
+    Please vote accordingly:
+
+    [ ] +1 approve
+    [ ] +0 no opinion
+    [ ] -1 disapprove with the reason
+
+    Checklist for reference:
+    [ ] Download links are valid.
+    [ ] Checksums and PGP signatures are valid.
+    [ ] Source code distributions have correct names matching the current
+    release.
+    [ ] LICENSE and NOTICE files are correct for each Answer repo.
+    [ ] All files have license headers if necessary.
+    [ ] No unlicensed compiled archives bundled in source archive.
+
+    To compile from the source, please refer to:
+
+    https://github.com/apache/incubator-answer#building-from-source
+
+Thanks,
+<YOUR NAME>
+```
+
+## Voting Timeout Situation
+
+If the vote has been pending for more than 72 hours without reaching the required number of votes, you can send the following reminder email to dev@answer.apache.org:
+
+```
+Dear IPMC Members,
+
+Apache Answer version {release-version} has been pending for voting for more
+than 72 hours. If any IPMC member is available, please help us get the
+ballot completed. Currently, we are still missing +1 binding vote to
+finalize the process.
+
+https://lists.apache.org/thread/{thread-id}
+
+Best regards,
 <YOUR NAME>
 ```
 
