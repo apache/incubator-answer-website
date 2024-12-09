@@ -280,6 +280,8 @@ Best regards,
 <YOUR NAME>
 ```
 
+If there is still no response after the reminder to the dev mailing list, you should send private emails to the project mentors requesting their vote. This helps ensure timely processing of the release vote.
+
 ## Migration candidate to the release Apache SVN
 
 Before announcing the vote result, you need to migrate the release artifacts from the dev Apache SVN to the release Apache SVN. The release artifacts should be uploaded to the `https://dist.apache.org/repos/dist/release/incubator/answer/{release-version}` directory.
