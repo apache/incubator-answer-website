@@ -71,6 +71,18 @@ We use `-C` flag to indicate the directory where saved answer data.
 :::
 
   </TabItem>
+  <TabItem value="easypanel" label="Deploy on Easypanel">
+
+[Easypanel](https://easypanel.io) it's a modern server control panel. You can use it to deploy Answer on your own server.
+
+[![Deploy to Easypanel](https://easypanel.io/img/deploy-on-easypanel-40.svg)](https://easypanel.io/docs/templates/answer)
+
+#### Instructions
+<li>Create a VM that runs Ubuntu on your cloud provider.</li>
+<li>Install Easypanel using the instructions from the website.</li>
+<li>Create a new project.</li>
+<li>Install Answer using the dedicated template.</li>
+  </TabItem>
 </Tabs>
 
 ## Install steps
