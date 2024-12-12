@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-<Tabs>
+<Tabs queryString="method">
   <TabItem value="docker-compose" label="Docker Compose" default>
 
 如果你是使用docker-compose来安装answer，升级起来非常简单。
