@@ -28,7 +28,7 @@
     "description": "Navbar item with label Download"
   },
   "item.label.ASF": {
-    "message": "阿帕奇软件基金会",
+    "message": "Apache软件基金会",
     "description": "Navbar item with label ASF"
   },
   "item.label.Support": {

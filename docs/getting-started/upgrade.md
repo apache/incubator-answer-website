@@ -15,7 +15,7 @@ To back up data means that you have the option to roll back even if the upgrade 
 
 :::
 
-<Tabs>
+<Tabs queryString="method">
   <TabItem value="docker-compose" label="Docker Compose" default>
 
 If you use docker-compose to install answer, it is very easy to upgrade.

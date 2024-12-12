@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 There are multiple ways to start Apache Answer, you can choose the one that suits you best.
 
-<Tabs>
+<Tabs queryString="method">
   <TabItem value="docker-compose" label="Docker compose" default>
 
 We recommend using Docker Compose to run Apache Answer. This is the easiest way to get started with Apache Answer.
