@@ -71,6 +71,42 @@ We use `-C` flag to indicate the directory where saved answer data.
 :::
 
   </TabItem>
+  <TabItem value="aapanel" label="aaPanel">
+
+To install Apache Answer on aaPanel, you need to install the aaPanel first. Go to the [aaPanel](https://www.aapanel.com/new/download.html?r=dk_answer) official website, download and install the script.
+
+After the installation is complete, log in to the aaPanel, click the left menu bar `Docker`, enter `One-Click Install`, search for `Apache Answer`, click Install to configure:
+
+![Search Apache Answer](/img/docs/aapanel-install.png)
+
+:::tip
+
+For the first time, you will be prompted to install the `Docker` and `Docker Compose` services. Click Install immediately. If you have already installed it, please ignore it.
+
+![Install Docker service](/img/docs/aapanel-init-docker.png)
+
+:::
+
+You need to fill in the following information to complete the basic configuration initialization:
+
+- Name: Application name, default `answer_random characters`
+- Version selection: default `latest`
+- Allow external access: If you need to access directly through `IP+Port`, please check it. If you have already set up a domain name, please do not check here
+- Port: default `9080`, you can modify it yourself
+- Site name: Site name, such as `Apache Answer`
+- Site url: The browser address you will use to access Apache Answer after installation
+- Contact email: The email address of the main contact person responsible for this website
+- Admin name: Admin username
+- Admin password: Admin password
+- Admin email: Admin email. You need this email to log in, so be sure to remember the admin's email and password
+
+![Install configuration information](/img/docs/aapanel-install-config.png)
+
+After filling in the information, click Confirm to submit. The panel will automatically initialize the application after you click OK to submit. You do not need to operate the installation steps below. Wait for the initialization to complete, and you can access it through the **site URL** you just set.
+
+Congratulations, start your Apache Answer journey!
+
+  </TabItem>
 </Tabs>
 
 ## Install steps
