@@ -4,10 +4,98 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Wed, 12 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache Answer 1.7.1: SchemaForm & Stability Enhancements]]></title>
+            <link>https://answer.apache.org/blog/answer-1.7.1-release</link>
+            <guid>https://answer.apache.org/blog/answer-1.7.1-release</guid>
+            <pubDate>Mon, 22 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This release focuses on SchemaForm behavior improvements, frontend input enhancements, engineering quality upgrades, and multiple important bug fixes.]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2025-12-22-cover@4x-343498705b7ccf83dadfbddf1c6d74ca.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>We’re pleased to announce a <!-- --><strong>new Apache Answer release</strong>!
+This version continues to refine the developer and user experience with improvements to <!-- --><strong>SchemaForm behavior</strong>, <!-- --><strong>frontend input validation</strong>, <!-- --><strong>engineering tooling</strong>, and a number of <!-- --><strong>important bug fixes</strong> that improve overall stability and correctness.<!-- --></p>
+<!-- --><p>As always, thank you to everyone in the community who contributed code, reviews, and feedback.</p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-new-features">✨ New Features<!-- --><a href="https://answer.apache.org/blog/answer-1.7.1-release#-new-features" class="hash-link" aria-label="Direct link to ✨ New Features" title="Direct link to ✨ New Features">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="schemaform-enhancements">SchemaForm Enhancements<!-- --><a href="https://answer.apache.org/blog/answer-1.7.1-release#schemaform-enhancements" class="hash-link" aria-label="Direct link to SchemaForm Enhancements" title="Direct link to SchemaForm Enhancements">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>New</strong>: SchemaForm Input values are always treated as strings (<!-- --><a href="https://github.com/apache/answer/pull/1425" target="_blank" rel="noopener noreferrer">#1425</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a>
+This change unifies input value handling and avoids type inconsistencies between frontend and backend logic, improving predictability for plugin developers.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>New</strong>: <!-- --><code>&lt;input type="number"&gt;</code> now requires setting <!-- --><code>min</code> / <!-- --><code>max</code> values on the frontend when needed (<!-- --><a href="https://github.com/apache/answer/pull/1417" target="_blank" rel="noopener noreferrer">#1417</a>) by <!-- --><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a>
+Improves frontend validation by enforcing numeric boundaries earlier in the user input flow.<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-improvements">🚀 Improvements<!-- --><a href="https://answer.apache.org/blog/answer-1.7.1-release#-improvements" class="hash-link" aria-label="Direct link to 🚀 Improvements" title="Direct link to 🚀 Improvements">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="engineering--code-quality">Engineering &amp; Code Quality<!-- --><a href="https://answer.apache.org/blog/answer-1.7.1-release#engineering--code-quality" class="hash-link" aria-label="Direct link to Engineering &amp; Code Quality" title="Direct link to Engineering &amp; Code Quality">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>Improve</strong>: Add <!-- --><code>golangci-lint</code> to the lint target with related formatting and cleanup (<!-- --><a href="https://github.com/apache/answer/pull/1437" target="_blank" rel="noopener noreferrer">#1437</a>) by <!-- --><a href="https://github.com/ferhatelmas" target="_blank" rel="noopener noreferrer">@ferhatelmas</a>
+Helps maintain consistent Go code style and catches potential issues earlier in development.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Improve</strong>: Bump <!-- --><code>mockgen</code> to version 0.6.0 (<!-- --><a href="https://github.com/apache/answer/pull/1434" target="_blank" rel="noopener noreferrer">#1434</a>) by <!-- --><a href="https://github.com/ferhatelmas" target="_blank" rel="noopener noreferrer">@ferhatelmas</a>
+Keeps test tooling up to date and improves compatibility.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Improve</strong>: Internal refactor to compile regular expressions once instead of on each text-clean invocation (<!-- --><a href="https://github.com/apache/answer/pull/1430" target="_blank" rel="noopener noreferrer">#1430</a>) by <!-- --><a href="https://github.com/ferhatelmas" target="_blank" rel="noopener noreferrer">@ferhatelmas</a>
+Reduces unnecessary overhead and improves runtime performance.<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-bug-fixes">🐛 Bug Fixes<!-- --><a href="https://answer.apache.org/blog/answer-1.7.1-release#-bug-fixes" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="admin--core-functionality">Admin &amp; Core Functionality<!-- --><a href="https://answer.apache.org/blog/answer-1.7.1-release#admin--core-functionality" class="hash-link" aria-label="Direct link to Admin &amp; Core Functionality" title="Direct link to Admin &amp; Core Functionality">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>Fixed</strong>: “Language file not found.” error when changing the timezone in admin settings (<!-- --><a href="https://github.com/apache/answer/pull/1427" target="_blank" rel="noopener noreferrer">#1427</a>) by <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Fixed</strong>: 500 error when opening any question (<!-- --><a href="https://github.com/apache/answer/pull/1426" target="_blank" rel="noopener noreferrer">#1426</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> &amp; <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Fixed</strong>: Edited answers were not updated correctly after moderation (<!-- --><a href="https://github.com/apache/answer/pull/1423" target="_blank" rel="noopener noreferrer">#1423</a>) by <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Fixed</strong>: Default-generated Q&amp;A missing initial version information when edited after installation (<!-- --><a href="https://github.com/apache/answer/pull/1436" target="_blank" rel="noopener noreferrer">#1436</a>) by <!-- --><a href="https://github.com/krypt0n123" target="_blank" rel="noopener noreferrer">@krypt0n123</a></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="text-handling--localization">Text Handling &amp; Localization<!-- --><a href="https://answer.apache.org/blog/answer-1.7.1-release#text-handling--localization" class="hash-link" aria-label="Direct link to Text Handling &amp; Localization" title="Direct link to Text Handling &amp; Localization">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>Fixed</strong>: Multi-byte rune boundary issue when truncating long titles (<!-- --><a href="https://github.com/apache/answer/pull/1431" target="_blank" rel="noopener noreferrer">#1431</a>) by <!-- --><a href="https://github.com/ferhatelmas" target="_blank" rel="noopener noreferrer">@ferhatelmas</a></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Fixed</strong>: Null pointer access in UI when branding retrieval fails (<!-- --><a href="https://github.com/apache/answer/pull/1433" target="_blank" rel="noopener noreferrer">#1433</a>) by <!-- --><a href="https://github.com/ferhatelmas" target="_blank" rel="noopener noreferrer">@ferhatelmas</a></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Fixed</strong>: Correct language handler usage (<!-- --><code>GetLangByCtx</code>) for accurate language detection (<!-- --><a href="https://github.com/apache/answer/pull/1444" target="_blank" rel="noopener noreferrer">#1444</a>) by <!-- --><a href="https://github.com/liruohrh" target="_blank" rel="noopener noreferrer">@liruohrh</a></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-other-changes">🎨 Other Changes<!-- --><a href="https://answer.apache.org/blog/answer-1.7.1-release#-other-changes" class="hash-link" aria-label="Direct link to 🎨 Other Changes" title="Direct link to 🎨 Other Changes">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>Footer UI adjustment</strong>
+The footer layout has been refined to reduce vertical space usage, resulting in a cleaner and more compact page layout.<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-contributor-acknowledgments">🙌 Contributor Acknowledgments<!-- --><a href="https://answer.apache.org/blog/answer-1.7.1-release#-contributor-acknowledgments" class="hash-link" aria-label="Direct link to 🙌 Contributor Acknowledgments" title="Direct link to 🙌 Contributor Acknowledgments">​</a></h2>
+<!-- --><p>A big thank you to everyone who contributed to this release through code, reviews, testing, and feedback. Your efforts help keep Apache Answer reliable and continuously improving.</p>
+<!-- --><p>Special thanks to the contributors (in alphabetical order):</p>
+<!-- --><ul>
+<!-- --><li><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a></li>
+<!-- --><li><a href="https://github.com/ferhatelmas" target="_blank" rel="noopener noreferrer">@ferhatelmas</a></li>
+<!-- --><li><a href="https://github.com/krypt0n123" target="_blank" rel="noopener noreferrer">@krypt0n123</a></li>
+<!-- --><li><a href="https://github.com/liruohrh" target="_blank" rel="noopener noreferrer">@liruohrh</a></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><p><strong>Upgrade now</strong> to enjoy these improvements and fixes! If you encounter any issues, please report them on <!-- --><a href="https://github.com/apache/answer/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.<!-- --></p>
+<!-- --><p>Happy browsing! 🎉</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Best Stack Internal Alternatives in 2025]]></title>
             <link>https://answer.apache.org/blog/best-stackoverflow-for-teams-alternatives</link>
@@ -936,50 +1024,6 @@ This issue is caused by system permissions. You can first enter the following co
 <!-- --><p>After configuration is complete, navigate to the <!-- --><code>ui</code> folder and enter <!-- --><code>pnpm start</code> to run Answer.
 <!-- --><img decoding="async" loading="lazy" alt="pnpm start" src="https://answer.apache.org/assets/images/pnpm-start-4655a9e74676b26d13c5d0fb76090e85.png" width="1280" height="572" class="img_RAU7"></p>
 <!-- --><p>Congratulations! You have completed the frontend configuration for Answer. If you have any questions, feel free to join our <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">community</a> and engage with our team.<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Say Hi to Answer 1.3.6: Faster and Easier]]></title>
-            <link>https://answer.apache.org/blog/answer-1.3.6-release</link>
-            <guid>https://answer.apache.org/blog/answer-1.3.6-release</guid>
-            <pubDate>Thu, 15 Aug 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[This update brings features and improvements designed to enhance both user experience and loading speed.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-08-15-cover@4x-e77b3222f6152604345c959cc5a8f311.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>New version for a new release. In 1.3.6, we focus on user experience and performance. Whether you're managing a bustling community forum or building a custom Q&amp;A solution, Answer 1.3.6 empowers you to create a more intuitive and efficient platform for everyone involved.</p>
-<!-- --><p><a href="https://answer.apache.org/docs/upgrade" target="_blank" rel="noopener noreferrer">Upgrade</a> now, and find out what we’ve got for you.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="whats-new">What’s New<!-- --><a href="https://answer.apache.org/blog/answer-1.3.6-release#whats-new" class="hash-link" aria-label="Direct link to What’s New" title="Direct link to What’s New">​</a></h2>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="pre-fill-forms-focus-on-the-content-leave-the-rest">Pre-fill Forms: Focus on the Content. Leave the Rest.<!-- --><a href="https://answer.apache.org/blog/answer-1.3.6-release#pre-fill-forms-focus-on-the-content-leave-the-rest" class="hash-link" aria-label="Direct link to Pre-fill Forms: Focus on the Content. Leave the Rest." title="Direct link to Pre-fill Forms: Focus on the Content. Leave the Rest.">​</a></h3>
-<!-- --><p>Introducing pre-fill forms, a feature that improves data accuracy and more concentration. By allowing you to pre-fill question fields with relevant information, you can significantly reduce user input and improve data accuracy.</p>
-<!-- --><p>It’s useful for:
-Frequently asked questions: Pre-fill common question tags.
-Customer support: Provide essential context for support tickets.</p>
-<!-- --><p>Follow the steps to build a pre-fill form for community members.</p>
-<!-- --><ol>
-<!-- --><li>
-<!-- --><p>Add pre-fill information to the filed for the users.</p>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">---</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">title: How to deploy Apache Answer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">tags: discussion</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">---</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">How to deploy Apache Answer?</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --></li>
-<!-- --><li>
-<!-- --><p>Encode at <!-- --><a href="https://www.urlencoder.org/" target="_blank" rel="noopener noreferrer">https://www.urlencoder.org/</a></p>
-<!-- --></li>
-<!-- --></ol>
-<!-- --><p><img decoding="async" loading="lazy" alt="Encode" src="https://answer.apache.org/assets/images/Encode-3e8cbbc258498f3a7b7137cc0344ad24.jpeg" width="2022" height="1246" class="img_RAU7"></p>
-<!-- --><ol start="3">
-<!-- --><li>Copy and paste the encoded string with your Answer URL.</li>
-<!-- --><li>Share it with your community members.</li>
-<!-- --></ol>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="cdn-plugins-speed-it-up">CDN Plugins: Speed it up!<!-- --><a href="https://answer.apache.org/blog/answer-1.3.6-release#cdn-plugins-speed-it-up" class="hash-link" aria-label="Direct link to CDN Plugins: Speed it up!" title="Direct link to CDN Plugins: Speed it up!">​</a></h3>
-<!-- --><p>Speaking of performance, Answer 1.3.6 offers two new CDN plugins: <!-- --><a href="https://github.com/apache/answer-plugins/tree/main/cdn-s3" target="_blank" rel="noopener noreferrer">Amazon CloudFront</a> and <!-- --><a href="https://github.com/apache/answer-plugins/tree/main/cdn-aliyun" target="_blank" rel="noopener noreferrer">Aliyun CDN</a>. By integrating these plugins into your infrastructure, you can dramatically improve load times and enhance overall user experience. These plugins are by your side for handling increased traffic and faster content delivery.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="take-a-look-at-the-optimizations-that-matters">Take a Look at the Optimizations that Matters<!-- --><a href="https://answer.apache.org/blog/answer-1.3.6-release#take-a-look-at-the-optimizations-that-matters" class="hash-link" aria-label="Direct link to Take a Look at the Optimizations that Matters" title="Direct link to Take a Look at the Optimizations that Matters">​</a></h2>
-<!-- --><p>We support username and email update before, and now changing display name is possible for admin. In Admin panel, click Users. Then, hit Action and Edit profile.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Edit Display Name" src="https://answer.apache.org/assets/images/Edit%20Display%20Name-cf6a0b0670136ad60c4a301b7ab59ceb.png" width="539" height="585" class="img_RAU7"></p>
-<!-- --><p>We changed the checkbox to toggle button, providing a more intuitive way of responding to your question.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Toggle Button" src="https://answer.apache.org/assets/images/Toggle-b3015c47d3cef77afc36026115ddc71f.png" width="1570" height="460" class="img_RAU7"></p>
-<!-- --><p>Search bar says goodbye to loneliness with an icon.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Search Icon" src="https://answer.apache.org/assets/images/Search%20Icon-0ba4d0dde73d91971dfee2b5603c1ce6.png" width="1220" height="118" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="to-the-contributors">To the Contributors!<!-- --><a href="https://answer.apache.org/blog/answer-1.3.6-release#to-the-contributors" class="hash-link" aria-label="Direct link to To the Contributors!" title="Direct link to To the Contributors!">​</a></h2>
-<!-- --><p>We owe a huge debt of gratitude to the feature constructor, improvement maker, and bug hunter who contributed their time and expertise to make this release possible, and they are:</p>
-<!-- --><p><a href="https://github.com/kevingil" target="_blank" rel="noopener noreferrer">kevin</a>, <!-- --><a href="https://github.com/kumfo" target="_blank" rel="noopener noreferrer">kumfo</a>, <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>, <!-- --><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">robin</a>, <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">LinkinStars</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">dashuai</a>, and <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">Luffy</a>.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="join-the-conversation">Join the Conversation<!-- --><a href="https://answer.apache.org/blog/answer-1.3.6-release#join-the-conversation" class="hash-link" aria-label="Direct link to Join the Conversation" title="Direct link to Join the Conversation">​</a></h2>
-<!-- --><p>We believe that every <!-- --><a href="https://answer.apache.org/community/contributing#get-involved" target="_blank" rel="noopener noreferrer">contribution</a> makes a real difference, leaving your feedback to us is a way to contribute. Reach us at our <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Q&amp;A community</a>, <!-- --><a href="https://x.com/AnswerDev" target="_blank" rel="noopener noreferrer">social media</a>, and <!-- --><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>.<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
