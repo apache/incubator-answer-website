@@ -4,10 +4,102 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Mon, 22 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache Answer 2.0.0: AI-Powered Workflows & Major Enhancements]]></title>
+            <link>https://answer.apache.org/blog/answer-2.0.0-release</link>
+            <guid>https://answer.apache.org/blog/answer-2.0.0-release</guid>
+            <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This major release introduces AI Assistant, MCP Server, API Keys, and editor plugin support, revolutionizing how users interact with Answer through AI-powered workflows and enhanced extensibility.]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2026-01-30-cover@4x-e68e64d0510d3e0bfda7904dbf052297.png" class="rounded img_RAU7" width="1280px" height="720px"></div><blockquote>
+<!-- --><p>[!note]
+This is a major upgrade focused on AI workflows: it adds AI Assistant, MCP Server, API Keys, and editor plugin support, along with a revamped admin navigation experience. Please make a complete backup before upgrading to prevent any data loss.</p>
+<!-- --></blockquote>
+<!-- --><p>We're excited to announce <!-- --><strong>Apache Answer 2.0.0</strong>, a major milestone release that brings powerful AI capabilities and significant enhancements to the platform!
+This version introduces <!-- --><strong>AI Assistant</strong>, <!-- --><strong>MCP Server</strong>, <!-- --><strong>API Keys</strong>, and <!-- --><strong>editor plugin support</strong>, transforming how users interact with Answer through intelligent workflows. Additionally, we've improved the admin navigation experience and added layout customization options.<!-- --></p>
+<!-- --><p>As always, thank you to everyone in the community who contributed code, reviews, and feedback.</p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-new-features">✨ New Features<!-- --><a href="https://answer.apache.org/blog/answer-2.0.0-release#-new-features" class="hash-link" aria-label="Direct link to ✨ New Features" title="Direct link to ✨ New Features">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="ai--integration-capabilities">AI &amp; Integration Capabilities<!-- --><a href="https://answer.apache.org/blog/answer-2.0.0-release#ai--integration-capabilities" class="hash-link" aria-label="Direct link to AI &amp; Integration Capabilities" title="Direct link to AI &amp; Integration Capabilities">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>New</strong>: AI Assistant feature (<!-- --><a href="https://github.com/apache/answer/pull/1479" target="_blank" rel="noopener noreferrer">#1479</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> &amp; <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a>
+Empowers users with intelligent assistance directly within Answer, enabling AI-powered content generation, suggestions, and workflow automation.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>New</strong>: MCP Server feature (<!-- --><a href="https://github.com/apache/answer/pull/1480" target="_blank" rel="noopener noreferrer">#1480</a>) by <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a> &amp; <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a>
+Integrates Model Context Protocol (MCP) server support, enabling seamless connectivity with AI models and external services for enhanced functionality.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>New</strong>: API Keys feature (<!-- --><a href="https://github.com/apache/answer/pull/1482" target="_blank" rel="noopener noreferrer">#1482</a>) by <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a> &amp; <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a>
+Provides secure API key management for programmatic access, enabling developers to integrate Answer with external systems and automate workflows.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>New</strong>: Editor plugin support (<!-- --><a href="https://github.com/apache/answer/pull/1481" target="_blank" rel="noopener noreferrer">#1481</a>) by <!-- --><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">@robinv8</a>
+Extends the editor with plugin architecture, allowing developers to customize and enhance the editing experience with custom functionality.<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-improvements">🚀 Improvements<!-- --><a href="https://answer.apache.org/blog/answer-2.0.0-release#-improvements" class="hash-link" aria-label="Direct link to 🚀 Improvements" title="Direct link to 🚀 Improvements">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="admin--user-experience">Admin &amp; User Experience<!-- --><a href="https://answer.apache.org/blog/answer-2.0.0-release#admin--user-experience" class="hash-link" aria-label="Direct link to Admin &amp; User Experience" title="Direct link to Admin &amp; User Experience">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>Improve</strong>: Enhanced convenience of the Admin navigation menu (<!-- --><a href="https://github.com/apache/answer/pull/1483" target="_blank" rel="noopener noreferrer">#1483</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> &amp; <!-- --><a href="https://github.com/kumfo" target="_blank" rel="noopener noreferrer">@kumfo</a>
+Redesigned admin navigation for improved usability and faster access to administrative functions.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Improve</strong>: Added layout width option (<!-- --><a href="https://github.com/apache/answer/pull/1484" target="_blank" rel="noopener noreferrer">#1484</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a>
+Gives users control over content layout width, allowing customization to match different screen sizes and preferences.<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-bug-fixes">🐛 Bug Fixes<!-- --><a href="https://answer.apache.org/blog/answer-2.0.0-release#-bug-fixes" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="admin--user-management">Admin &amp; User Management<!-- --><a href="https://answer.apache.org/blog/answer-2.0.0-release#admin--user-management" class="hash-link" aria-label="Direct link to Admin &amp; User Management" title="Direct link to Admin &amp; User Management">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>Fixed</strong>: Missing result prompt after submitting user addition in Admin (<!-- --><a href="https://github.com/apache/answer/pull/1457" target="_blank" rel="noopener noreferrer">#1457</a>) by <!-- --><a href="https://github.com/bimakw" target="_blank" rel="noopener noreferrer">@bimakw</a>
+Users now receive proper feedback when adding new users through the admin interface.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Fixed</strong>: External ID notification issue (<!-- --><a href="https://github.com/apache/answer/pull/1465" target="_blank" rel="noopener noreferrer">#1465</a>) by <!-- --><a href="https://github.com/IfDougelseSa" target="_blank" rel="noopener noreferrer">@IfDougelseSa</a>
+Resolves notification problems related to external ID handling.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Fixed</strong>: Expanded avatar column length from 1024 to 2048 (<!-- --><a href="https://github.com/apache/answer/pull/1463" target="_blank" rel="noopener noreferrer">#1463</a>) by <!-- --><a href="https://github.com/csouls" target="_blank" rel="noopener noreferrer">@csouls</a>
+Increases avatar storage capacity to support higher resolution images.<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="form--input-handling">Form &amp; Input Handling<!-- --><a href="https://answer.apache.org/blog/answer-2.0.0-release#form--input-handling" class="hash-link" aria-label="Direct link to Form &amp; Input Handling" title="Direct link to Form &amp; Input Handling">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>Fixed</strong>: Default value of 0 not displayed when SchemeForm input type is number by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a>
+Ensures numeric default values are properly displayed in form inputs.<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-other-changes">🎨 Other Changes<!-- --><a href="https://answer.apache.org/blog/answer-2.0.0-release#-other-changes" class="hash-link" aria-label="Direct link to 🎨 Other Changes" title="Direct link to 🎨 Other Changes">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>Major version upgrade</strong>
+This release represents a significant milestone with architectural improvements and new AI capabilities. Users upgrading from previous versions should review the new features and ensure compatibility with their workflows.<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-contributor-acknowledgments">🙌 Contributor Acknowledgments<!-- --><a href="https://answer.apache.org/blog/answer-2.0.0-release#-contributor-acknowledgments" class="hash-link" aria-label="Direct link to 🙌 Contributor Acknowledgments" title="Direct link to 🙌 Contributor Acknowledgments">​</a></h2>
+<!-- --><p>A big thank you to everyone who contributed to this release through code, reviews, testing, and feedback. Your efforts help keep Apache Answer reliable and continuously improving.</p>
+<!-- --><p>Special thanks to the contributors (in alphabetical order):</p>
+<!-- --><ul>
+<!-- --><li><a href="https://github.com/bimakw" target="_blank" rel="noopener noreferrer">@bimakw</a></li>
+<!-- --><li><a href="https://github.com/csouls" target="_blank" rel="noopener noreferrer">@csouls</a></li>
+<!-- --><li><a href="https://github.com/IfDougelseSa" target="_blank" rel="noopener noreferrer">@IfDougelseSa</a></li>
+<!-- --><li><a href="https://github.com/kumfo" target="_blank" rel="noopener noreferrer">@kumfo</a></li>
+<!-- --><li><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --><li><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">@robinv8</a></li>
+<!-- --><li><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><p><strong>Upgrade now</strong> to enjoy these powerful new features and improvements! Remember to make a complete backup before upgrading. If you encounter any issues, please report them on <!-- --><a href="https://github.com/apache/answer/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.<!-- --></p>
+<!-- --><p>Happy browsing! 🎉</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer 1.7.1: SchemaForm & Stability Enhancements]]></title>
             <link>https://answer.apache.org/blog/answer-1.7.1-release</link>
@@ -975,55 +1067,6 @@ If you plan to use MySQL or PostgreSQL, you need to <!-- --><strong>set up the d
 <!-- --><p>In your web browser, visit the website URL you set up (e.g., <!-- --><code>http://localhost</code>). Log in with your administrator account. If you see the following page, the configuration is successful:
 <!-- --><img decoding="async" loading="lazy" alt="answer page" src="https://answer.apache.org/assets/images/answer-page-14efc41682d83bb582563c367d9fdf01.png" width="1280" height="472" class="img_RAU7"></p>
 <!-- --><p>By following these steps, you have successfully set up the Apache Answer backend. If you encounter any issues, feel free to communicate with our community members in the <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">community</a>. We also warmly welcome you to <!-- --><a href="https://answer.apache.org/community/contributing/" target="_blank" rel="noopener noreferrer">contribute to the community</a> and work together to build a better Q&amp;A platform.<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Apache Answer Frontend Configuration Guide]]></title>
-            <link>https://answer.apache.org/blog/apache-answer-frontend-configuration-guide</link>
-            <guid>https://answer.apache.org/blog/apache-answer-frontend-configuration-guide</guid>
-            <pubDate>Fri, 16 Aug 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Answer Frontend Configuration Step-by-Step Guide]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-08-16-cover@4x-95269a11343d277de5ed5b94f491a5e9.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>Our official website provides <!-- --><a href="https://answer.apache.org/docs/development" target="_blank" rel="noopener noreferrer">Developer Guides</a> to help developers quickly set up both the frontend and backend of Apache Answer. In today's blog post, we will break down the steps for configuring the frontend and backend in detail.<!-- --></p>
-<!-- --><p>In the Answer community, we welcome and respect various <!-- --><a href="https://answer.apache.org/community/contributing/" target="_blank" rel="noopener noreferrer">Contributing Methods</a>. Whether you're a developer or not, you can follow the steps outlined in the article to complete the Answer frontend setup.<!-- --></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="1-download-nodejs-and-pnpm">1. Download Node.js and pnpm<!-- --><a href="https://answer.apache.org/blog/apache-answer-frontend-configuration-guide#1-download-nodejs-and-pnpm" class="hash-link" aria-label="Direct link to 1. Download Node.js and pnpm" title="Direct link to 1. Download Node.js and pnpm">​</a></h3>
-<!-- --><p>Click <!-- --><a href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer">here</a> to download Node.js, and select <!-- --><code>Node.js runtime</code> during installation. It is recommended to install it in the default location.
-<!-- --><img decoding="async" loading="lazy" alt="node install" src="https://answer.apache.org/assets/images/node-install-4d282d94bd07b1288593740206962174.png" width="921" height="720" class="img_RAU7"></p>
-<!-- --><p>After Node.js is installed, locate the <!-- --><code>Node.js command prompt</code>.
-<!-- --><img decoding="async" loading="lazy" alt="node command" src="https://answer.apache.org/assets/images/node-command-995a590c3a872bfe54dd673b59a474c8.png" width="637" height="284" class="img_RAU7"></p>
-<!-- --><p>Open the Node.js command prompt and enter <!-- --><code>npm install -g pnpm</code>. If you see the following screen, it means pnpm has been successfully installed.
-<!-- --><img decoding="async" loading="lazy" alt="pnpm install" src="https://answer.apache.org/assets/images/pnpm-install-a9367ed47f4ff2e360e2b610097af2bf.png" width="1280" height="372" class="img_RAU7">
-<!-- --><em>Note: pnpm can be installed using various methods suitable for different operating systems. For more details, please refer to its official website.</em></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="2-clone-the-repository">2. Clone the Repository<!-- --><a href="https://answer.apache.org/blog/apache-answer-frontend-configuration-guide#2-clone-the-repository" class="hash-link" aria-label="Direct link to 2. Clone the Repository" title="Direct link to 2. Clone the Repository">​</a></h3>
-<!-- --><p>Click <!-- --><a href="https://github.com/apache/answer" target="_blank" rel="noopener noreferrer">here</a> to visit the Apache Answer GitHub repository.<!-- --></p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="21-fork-answer-porject">2.1 Fork Answer Porject<!-- --><a href="https://answer.apache.org/blog/apache-answer-frontend-configuration-guide#21-fork-answer-porject" class="hash-link" aria-label="Direct link to 2.1 Fork Answer Porject" title="Direct link to 2.1 Fork Answer Porject">​</a></h4>
-<!-- --><p>Log in to your GitHub account and click 'Fork' to fork the entire Answer project.
-<!-- --><img decoding="async" loading="lazy" alt="fork answer" src="https://answer.apache.org/assets/images/fork-answer-8136ca68f76bea32ca2c4d4ae99b4de2.png" width="1280" height="713" class="img_RAU7"></p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="22-install-gitgit-bash">2.2 Install Git/Git Bash<!-- --><a href="https://answer.apache.org/blog/apache-answer-frontend-configuration-guide#22-install-gitgit-bash" class="hash-link" aria-label="Direct link to 2.2 Install Git/Git Bash" title="Direct link to 2.2 Install Git/Git Bash">​</a></h4>
-<!-- --><p>Click <!-- --><a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">here</a> and choose to download Git according to your operating system.<!-- --></p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="23-create-and-configuratie-ssh">2.3 Create and Configuratie SSH<!-- --><a href="https://answer.apache.org/blog/apache-answer-frontend-configuration-guide#23-create-and-configuratie-ssh" class="hash-link" aria-label="Direct link to 2.3 Create and Configuratie SSH" title="Direct link to 2.3 Create and Configuratie SSH">​</a></h4>
-<!-- --><p>You can browse GitHub's documentation on <!-- --><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh" target="_blank" rel="noopener noreferrer">connecting to GitHub with SSH</a>. You may skip the section in the documentation about generating a new SSH key for hardware security keys.<!-- --></p>
-<!-- --><p>The following image shows the SSH key after configuration is complete.
-<!-- --><img decoding="async" loading="lazy" alt="ssh configuration" src="https://answer.apache.org/assets/images/ssh-configuration-1f6870dad6aaba69b74b932551a63fd7.png" width="1280" height="352" class="img_RAU7"></p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="24-clone-answer-project">2.4 Clone Answer Project<!-- --><a href="https://answer.apache.org/blog/apache-answer-frontend-configuration-guide#24-clone-answer-project" class="hash-link" aria-label="Direct link to 2.4 Clone Answer Project" title="Direct link to 2.4 Clone Answer Project">​</a></h4>
-<!-- --><p>In the Answer GitHub page, find the 'Code' section. Click to expand and copy the SSH address of the Answer repository
-<!-- --><img decoding="async" loading="lazy" alt="copy ssh" src="https://answer.apache.org/assets/images/copy-ssh-dca3851f8b808e04cc852369a526622c.png" width="1065" height="720" class="img_RAU7"></p>
-<!-- --><p>Next, open <!-- --><code>Git Bash</code> and enter the following command to clone the project.<!-- --></p>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">git clone &lt;Answer SSH address&gt;</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p>As shown in the image below, after completing this step, the project will be successfully cloned to your local folder.
-<!-- --><img decoding="async" loading="lazy" alt="clone answer" src="https://answer.apache.org/assets/images/clone-answer-b84011546c149ae70795a0288f14bb3a.png" width="774" height="284" class="img_RAU7"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="3-install-dependencies-and-build-local-packages">3. Install Dependencies and Build Local Packages<!-- --><a href="https://answer.apache.org/blog/apache-answer-frontend-configuration-guide#3-install-dependencies-and-build-local-packages" class="hash-link" aria-label="Direct link to 3. Install Dependencies and Build Local Packages" title="Direct link to 3. Install Dependencies and Build Local Packages">​</a></h3>
-<!-- --><p>We will refer to the Answer project folder as the root directory. Open the <!-- --><code>command line terminal</code> and run the following commands, then navigate to the <!-- --><code>ui</code> subdirectory from that directory.<!-- --></p>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">cd ./ui</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pnpm install</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p><strong>Note: For Windows users, you might encounter the following error:</strong>
-<!-- --><img decoding="async" loading="lazy" alt="windows-error" src="https://answer.apache.org/assets/images/windows-error-e9f8dbb8076dca27f68f32331e1a94f0.png" width="1280" height="245" class="img_RAU7">
-This issue is caused by system permissions. You can first enter the following command:<!-- --></p>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p>This command sets the PowerShell execution policy for the current user to <!-- --><code>RemoteSigned</code>, which means local scripts can run, while remote scripts must be signed.<!-- --></p>
-<!-- --><p>Then you can run it successfully. Once completed, it indicates that the installation is finished.
-<!-- --><img decoding="async" loading="lazy" alt="install complete" src="https://answer.apache.org/assets/images/install-complete-8fc2bc1fb625db53cf1f85f2d646f557.png" width="1280" height="262" class="img_RAU7"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="4-run-the-frontend">4. Run the Frontend<!-- --><a href="https://answer.apache.org/blog/apache-answer-frontend-configuration-guide#4-run-the-frontend" class="hash-link" aria-label="Direct link to 4. Run the Frontend" title="Direct link to 4. Run the Frontend">​</a></h3>
-<!-- --><p>After configuration is complete, navigate to the <!-- --><code>ui</code> folder and enter <!-- --><code>pnpm start</code> to run Answer.
-<!-- --><img decoding="async" loading="lazy" alt="pnpm start" src="https://answer.apache.org/assets/images/pnpm-start-4655a9e74676b26d13c5d0fb76090e85.png" width="1280" height="572" class="img_RAU7"></p>
-<!-- --><p>Congratulations! You have completed the frontend configuration for Answer. If you have any questions, feel free to join our <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">community</a> and engage with our team.<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>

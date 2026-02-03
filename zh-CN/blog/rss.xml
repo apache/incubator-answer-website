@@ -4,10 +4,102 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/zh-CN/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Mon, 22 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
+        <item>
+            <title><![CDATA[Apache Answer 2.0.0: AI 驱动的工作流与重大增强]]></title>
+            <link>https://answer.apache.org/zh-CN/blog/answer-2.0.0-release</link>
+            <guid>https://answer.apache.org/zh-CN/blog/answer-2.0.0-release</guid>
+            <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[本次重大版本引入了 AI 助手、MCP 服务器、API 密钥和编辑器插件支持，通过 AI 驱动的工作流和增强的扩展性，彻底改变了用户与 Answer 的交互方式。]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2026-01-30-cover@4x-e68e64d0510d3e0bfda7904dbf052297.png" class="rounded img_RAU7" width="1280px" height="720px"></div><blockquote>
+<!-- --><p>[!note]
+这是一个专注于 AI 工作流的重大升级：新增了 AI 助手、MCP 服务器、API 密钥和编辑器插件支持，同时重新设计了管理导航体验。请在升级前进行完整备份，以防止任何数据丢失。</p>
+<!-- --></blockquote>
+<!-- --><p>我们很高兴宣布 <!-- --><strong>Apache Answer 2.0.0</strong>，这是一个重要的里程碑版本，为平台带来了强大的 AI 功能和重大增强！
+本版本引入了 <!-- --><strong>AI 助手</strong>、<!-- --><strong>MCP 服务器</strong>、<!-- --><strong>API 密钥</strong>和<!-- --><strong>编辑器插件支持</strong>，通过智能工作流改变了用户与 Answer 的交互方式。此外，我们还改进了管理导航体验，并添加了布局自定义选项。<!-- --></p>
+<!-- --><p>一如既往，感谢社区中所有贡献代码、审查和反馈的成员。</p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-新功能">✨ 新功能<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.0-release#-%E6%96%B0%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="✨ 新功能的直接链接" title="✨ 新功能的直接链接">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="ai-与集成能力">AI 与集成能力<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.0-release#ai-%E4%B8%8E%E9%9B%86%E6%88%90%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="AI 与集成能力的直接链接" title="AI 与集成能力的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>新功能</strong>：AI 助手功能 (<!-- --><a href="https://github.com/apache/answer/pull/1479" target="_blank" rel="noopener noreferrer">#1479</a>) 由 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 和 <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a> 贡献
+使用户能够在 Answer 中直接获得智能辅助，支持 AI 驱动的内容生成、建议和工作流自动化。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>新功能</strong>：MCP 服务器功能 (<!-- --><a href="https://github.com/apache/answer/pull/1480" target="_blank" rel="noopener noreferrer">#1480</a>) 由 <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a> 和 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 贡献
+集成模型上下文协议（MCP）服务器支持，实现与 AI 模型和外部服务的无缝连接，以增强功能。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>新功能</strong>：API 密钥功能 (<!-- --><a href="https://github.com/apache/answer/pull/1482" target="_blank" rel="noopener noreferrer">#1482</a>) 由 <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a> 和 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 贡献
+提供安全的 API 密钥管理，支持程序化访问，使开发者能够将 Answer 与外部系统集成并自动化工作流。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>新功能</strong>：编辑器插件支持 (<!-- --><a href="https://github.com/apache/answer/pull/1481" target="_blank" rel="noopener noreferrer">#1481</a>) 由 <!-- --><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">@robinv8</a> 贡献
+通过插件架构扩展编辑器，允许开发者使用自定义功能来定制和增强编辑体验。<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-改进">🚀 改进<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.0-release#-%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="🚀 改进的直接链接" title="🚀 改进的直接链接">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="管理与用户体验">管理与用户体验<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.0-release#%E7%AE%A1%E7%90%86%E4%B8%8E%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C" class="hash-link" aria-label="管理与用户体验的直接链接" title="管理与用户体验的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>改进</strong>：增强管理导航菜单的便利性 (<!-- --><a href="https://github.com/apache/answer/pull/1483" target="_blank" rel="noopener noreferrer">#1483</a>) 由 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 和 <!-- --><a href="https://github.com/kumfo" target="_blank" rel="noopener noreferrer">@kumfo</a> 贡献
+重新设计管理导航，提高可用性并加快对管理功能的访问。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>改进</strong>：添加布局宽度选项 (<!-- --><a href="https://github.com/apache/answer/pull/1484" target="_blank" rel="noopener noreferrer">#1484</a>) 由 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 贡献
+让用户能够控制内容布局宽度，允许根据不同的屏幕尺寸和偏好进行自定义。<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-错误修复">🐛 错误修复<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.0-release#-%E9%94%99%E8%AF%AF%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="🐛 错误修复的直接链接" title="🐛 错误修复的直接链接">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="管理与用户管理">管理与用户管理<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.0-release#%E7%AE%A1%E7%90%86%E4%B8%8E%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86" class="hash-link" aria-label="管理与用户管理的直接链接" title="管理与用户管理的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>修复</strong>：在管理界面添加用户后缺少结果提示 (<!-- --><a href="https://github.com/apache/answer/pull/1457" target="_blank" rel="noopener noreferrer">#1457</a>) 由 <!-- --><a href="https://github.com/bimakw" target="_blank" rel="noopener noreferrer">@bimakw</a> 贡献
+现在，通过管理界面添加新用户时，用户会收到适当的反馈。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>修复</strong>：外部 ID 通知问题 (<!-- --><a href="https://github.com/apache/answer/pull/1465" target="_blank" rel="noopener noreferrer">#1465</a>) 由 <!-- --><a href="https://github.com/IfDougelseSa" target="_blank" rel="noopener noreferrer">@IfDougelseSa</a> 贡献
+解决了与外部 ID 处理相关的通知问题。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>修复</strong>：将头像列长度从 1024 扩展到 2048 (<!-- --><a href="https://github.com/apache/answer/pull/1463" target="_blank" rel="noopener noreferrer">#1463</a>) 由 <!-- --><a href="https://github.com/csouls" target="_blank" rel="noopener noreferrer">@csouls</a> 贡献
+增加头像存储容量，支持更高分辨率的图像。<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="表单与输入处理">表单与输入处理<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.0-release#%E8%A1%A8%E5%8D%95%E4%B8%8E%E8%BE%93%E5%85%A5%E5%A4%84%E7%90%86" class="hash-link" aria-label="表单与输入处理的直接链接" title="表单与输入处理的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>修复</strong>：当 SchemeForm 输入类型为数字时，默认值 0 不显示 由 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 贡献
+确保数字默认值在表单输入中正确显示。<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-其他更改">🎨 其他更改<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.0-release#-%E5%85%B6%E4%BB%96%E6%9B%B4%E6%94%B9" class="hash-link" aria-label="🎨 其他更改的直接链接" title="🎨 其他更改的直接链接">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>重大版本升级</strong>
+本次发布代表了一个重要的里程碑，包含架构改进和新的 AI 功能。从以前版本升级的用户应查看新功能并确保与工作流的兼容性。<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-贡献者致谢">🙌 贡献者致谢<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.0-release#-%E8%B4%A1%E7%8C%AE%E8%80%85%E8%87%B4%E8%B0%A2" class="hash-link" aria-label="🙌 贡献者致谢的直接链接" title="🙌 贡献者致谢的直接链接">​</a></h2>
+<!-- --><p>非常感谢所有通过代码、审查、测试和反馈为本次发布做出贡献的成员。你们的努力帮助 Apache Answer 保持可靠并持续改进。</p>
+<!-- --><p>特别感谢以下贡献者（按字母顺序）：</p>
+<!-- --><ul>
+<!-- --><li><a href="https://github.com/bimakw" target="_blank" rel="noopener noreferrer">@bimakw</a></li>
+<!-- --><li><a href="https://github.com/csouls" target="_blank" rel="noopener noreferrer">@csouls</a></li>
+<!-- --><li><a href="https://github.com/IfDougelseSa" target="_blank" rel="noopener noreferrer">@IfDougelseSa</a></li>
+<!-- --><li><a href="https://github.com/kumfo" target="_blank" rel="noopener noreferrer">@kumfo</a></li>
+<!-- --><li><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --><li><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">@robinv8</a></li>
+<!-- --><li><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><p><strong>立即升级</strong>以享受这些强大的新功能和改进！请记住在升级前进行完整备份。如果遇到任何问题，请在 <!-- --><a href="https://github.com/apache/answer/issues" target="_blank" rel="noopener noreferrer">GitHub</a> 上报告。<!-- --></p>
+<!-- --><p>祝您使用愉快！🎉</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer 1.7.1: SchemaForm & Stability Enhancements]]></title>
             <link>https://answer.apache.org/zh-CN/blog/answer-1.7.1-release</link>
@@ -991,55 +1083,6 @@ Apache Answer 支持 MySQL、PostgreSQL 和 SQLite 作为数据库后端。环�
 <!-- --><p>在浏览器中访问你设置的网站 URL（例如：<!-- --><code>http://localhost</code>），登陆你的管理员账号，如果看到一下页面，即配置成功。
 <!-- --><img decoding="async" loading="lazy" alt="answer page" src="https://answer.apache.org/zh-CN/assets/images/answer-page-14efc41682d83bb582563c367d9fdf01.png" width="1280" height="472" class="img_RAU7"></p>
 <!-- --><p>通过以上步骤，你已经成功培植了 Apache Answer 后端。如果遇到其他问题，欢迎你在<!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">社区</a>中和我们的社区成员进行沟通。我们也非常欢迎你参与到<!-- --><a href="https://answer.apache.org/zh-CN/community/contributing/" target="_blank" rel="noopener noreferrer">社区贡献</a>中来，为打造更好的问答平台，一同努力。<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Apache Answer 前端配置指南]]></title>
-            <link>https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide</link>
-            <guid>https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide</guid>
-            <pubDate>Fri, 16 Aug 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Answer前端配置保姆级教学]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-08-16-cover-zh@4x-9e3c9633403c4a7e7f00e6781cb674ab.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>我们的官网为开发者提供了<!-- --><a href="https://answer.apache.org/zh-CN/docs/development/" target="_blank" rel="noopener noreferrer">开发者指南</a>帮助开发者能够快速完成前后端的配置，在今天这篇博客里，我们对如何进行前端和后端配置进行详细的拆解。<!-- --></p>
-<!-- --><p>在 Answer 社区，我们欢迎并尊重多种不同的<!-- --><a href="https://answer.apache.org/zh-CN/community/contributing/" target="_blank" rel="noopener noreferrer">贡献方式</a>，无论是开发者还是非开发者可以跟随文章里面的步骤，完成 Answer 前端配置<!-- --></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="1-下载-nodejs-和-pnpm">1. 下载 Node.js 和 pnpm<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide#1-%E4%B8%8B%E8%BD%BD-nodejs-%E5%92%8C-pnpm" class="hash-link" aria-label="1. 下载 Node.js 和 pnpm的直接链接" title="1. 下载 Node.js 和 pnpm的直接链接">​</a></h3>
-<!-- --><p>点击<!-- --><a href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer">此处</a>下载 Node.js，安装时选择 <!-- --><code>Node.js runtime</code>。建议安装至默认位置。
-<!-- --><img decoding="async" loading="lazy" alt="node install" src="https://answer.apache.org/zh-CN/assets/images/node-install-4d282d94bd07b1288593740206962174.png" width="921" height="720" class="img_RAU7"></p>
-<!-- --><p>在 Node 安装好之后，找到 <!-- --><code>Node.js command prompt</code>。
-<!-- --><img decoding="async" loading="lazy" alt="node command" src="https://answer.apache.org/zh-CN/assets/images/node-command-995a590c3a872bfe54dd673b59a474c8.png" width="637" height="284" class="img_RAU7"></p>
-<!-- --><p>打开 Node.js command prompt，输入<!-- --><code>npm install -g pnpm</code>。当出现下面图的情况时，表示 pnpm 已经下载完成。
-<!-- --><img decoding="async" loading="lazy" alt="pnpm install" src="https://answer.apache.org/zh-CN/assets/images/pnpm-install-a9367ed47f4ff2e360e2b610097af2bf.png" width="1280" height="372" class="img_RAU7">
-<!-- --><em>注：pnpm有许多其他下载方式，适用于不同操作系统，详细请见其官网</em></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="2-clone-the-repository">2. Clone the Repository<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide#2-clone-the-repository" class="hash-link" aria-label="2. Clone the Repository的直接链接" title="2. Clone the Repository的直接链接">​</a></h3>
-<!-- --><p>这个步骤目的是从 GitHub 中获取 Apache Answer 整个项目，点击<!-- --><a href="https://github.com/apache/answer" target="_blank" rel="noopener noreferrer">此处</a>访问 Apache Answer 的 GitHub Repo。<!-- --></p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="21-fork-answer-项目">2.1 Fork Answer 项目<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide#21-fork-answer-%E9%A1%B9%E7%9B%AE" class="hash-link" aria-label="2.1 Fork Answer 项目的直接链接" title="2.1 Fork Answer 项目的直接链接">​</a></h4>
-<!-- --><p>登录 GitHub 账号，点击 Fork 整个 Answer 的项目。
-<!-- --><img decoding="async" loading="lazy" alt="fork answer" src="https://answer.apache.org/zh-CN/assets/images/fork-answer-8136ca68f76bea32ca2c4d4ae99b4de2.png" width="1280" height="713" class="img_RAU7"></p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="22-安装-gitgit-bash">2.2 安装 Git/Git Bash<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide#22-%E5%AE%89%E8%A3%85-gitgit-bash" class="hash-link" aria-label="2.2 安装 Git/Git Bash的直接链接" title="2.2 安装 Git/Git Bash的直接链接">​</a></h4>
-<!-- --><p>点击<!-- --><a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">此处</a>，按照系统幸好，选择下载 Git。<!-- --></p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="23-创建并配置-ssh">2.3 创建并配置 SSH<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide#23-%E5%88%9B%E5%BB%BA%E5%B9%B6%E9%85%8D%E7%BD%AE-ssh" class="hash-link" aria-label="2.3 创建并配置 SSH的直接链接" title="2.3 创建并配置 SSH的直接链接">​</a></h4>
-<!-- --><p>你可以浏览 GitHub 关于<!-- --><a href="https://docs.github.com/zh/authentication/connecting-to-github-with-ssh" target="_blank" rel="noopener noreferrer">通过 SSH 连接到 GitHub</a> 的文档，可跳过文档中为硬件安全密钥生成新的 SSH 密钥。<!-- --></p>
-<!-- --><p>下图展示了配置完成后的 SSH 密钥。
-<!-- --><img decoding="async" loading="lazy" alt="ssh configuration" src="https://answer.apache.org/zh-CN/assets/images/ssh-configuration-1f6870dad6aaba69b74b932551a63fd7.png" width="1280" height="352" class="img_RAU7"></p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="24-获取-answer-项目">2.4 获取 Answer 项目<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide#24-%E8%8E%B7%E5%8F%96-answer-%E9%A1%B9%E7%9B%AE" class="hash-link" aria-label="2.4 获取 Answer 项目的直接链接" title="2.4 获取 Answer 项目的直接链接">​</a></h4>
-<!-- --><p>在 Answer GitHub 界面中找到 Code，点击展开后，复制 Answer 的 SSH 地址。
-<!-- --><img decoding="async" loading="lazy" alt="copy ssh" src="https://answer.apache.org/zh-CN/assets/images/copy-ssh-dca3851f8b808e04cc852369a526622c.png" width="1065" height="720" class="img_RAU7"></p>
-<!-- --><p>接着，打开 Git Bash ，输入以下指令克隆项目。</p>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">git clone &lt;Answer的SSH地址&gt;</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p>如下图所示，完成之后就把项目成功拉取到本地文件夹。
-<!-- --><img decoding="async" loading="lazy" alt="clone answer" src="https://answer.apache.org/zh-CN/assets/images/clone-answer-b84011546c149ae70795a0288f14bb3a.png" width="774" height="284" class="img_RAU7"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="3-安装所有依赖项并构建所有本地包">3. 安装所有依赖项并构建所有本地包<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide#3-%E5%AE%89%E8%A3%85%E6%89%80%E6%9C%89%E4%BE%9D%E8%B5%96%E9%A1%B9%E5%B9%B6%E6%9E%84%E5%BB%BA%E6%89%80%E6%9C%89%E6%9C%AC%E5%9C%B0%E5%8C%85" class="hash-link" aria-label="3. 安装所有依赖项并构建所有本地包的直接链接" title="3. 安装所有依赖项并构建所有本地包的直接链接">​</a></h3>
-<!-- --><p>我们将 Answer 项目的文件夹称为根目录，打开<!-- --><code>命令行终端</code>运行以下命令，并从该目录进入 <!-- --><code>ui</code> 子目录。<!-- --></p>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">cd ./ui</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pnpm install</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p><strong>注意：Windows 系统，在运行 pnmp install 会遇到以下报错：</strong>
-<!-- --><img decoding="async" loading="lazy" alt="windows-error" src="https://answer.apache.org/zh-CN/assets/images/windows-error-e9f8dbb8076dca27f68f32331e1a94f0.png" width="1280" height="245" class="img_RAU7">
-这是由于系统权限导致的问题，可以先输入以下命令：<!-- --></p>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p>这条命令用于设置当前用户的 PowerShell 执行策略为 RemoteSigned，这意味着本地脚本可以运行，而远程脚本必须经过签名。</p>
-<!-- --><p>接着便可以顺利运行，运行完成后，视为安装完成。
-<!-- --><img decoding="async" loading="lazy" alt="install complete" src="https://answer.apache.org/zh-CN/assets/images/install-complete-8fc2bc1fb625db53cf1f85f2d646f557.png" width="1280" height="262" class="img_RAU7"></p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="4-运行前端">4. 运行前端<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-frontend-configuration-guide#4-%E8%BF%90%E8%A1%8C%E5%89%8D%E7%AB%AF" class="hash-link" aria-label="4. 运行前端的直接链接" title="4. 运行前端的直接链接">​</a></h3>
-<!-- --><p>配置完成后，在 ui 文件夹路径输入：<!-- --><code>pnpm start</code> 即可运行 Answer。
-<!-- --><img decoding="async" loading="lazy" alt="pnpm start" src="https://answer.apache.org/zh-CN/assets/images/pnpm-start-4655a9e74676b26d13c5d0fb76090e85.png" width="1280" height="572" class="img_RAU7"></p>
-<!-- --><p>你已经完成 Answer 的前端配置，如果你仍有其他问题，欢迎你在我们的<!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">社区</a>和我们的小伙伴交流。<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
