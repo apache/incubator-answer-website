@@ -4,10 +4,71 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/zh-CN/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Fri, 29 May 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jul 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
+        <item>
+            <title><![CDATA[Apache Answer 2.0.2：AI 推理内容、邮件通知间隔、更安全的登录与更多改进]]></title>
+            <link>https://answer.apache.org/zh-CN/blog/answer-2.0.2-release</link>
+            <guid>https://answer.apache.org/zh-CN/blog/answer-2.0.2-release</guid>
+            <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apache Answer 2.0.2 为 AI 对话保留推理内容，新增邮件通知间隔与可选邮箱验证，强化认证与权限安全，并修复了短链接、API、打包等一组问题。]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2026-07-21-cover@4x-72be682c9f688c81da2b8c5f66e16c25.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>我们很高兴发布 <!-- --><strong>Apache Answer 2.0.2</strong>。这是一个聚焦打磨体验的小版本更新，进一步提升了 AI 对话体验、邮件通知灵活性，并在认证、权限与内容安全方面做了多项加固。<!-- --></p>
+<!-- --><p>你可以从 <!-- --><a href="https://answer.apache.org/download" target="_blank" rel="noopener noreferrer">Apache Answer 下载页</a> 获取本次发布，也可以在 <!-- --><a href="https://github.com/apache/answer/releases/tag/v2.0.2" target="_blank" rel="noopener noreferrer">GitHub Release 页面</a> 查看完整信息。<!-- --></p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-本次更新亮点">✨ 本次更新亮点<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.2-release#-%E6%9C%AC%E6%AC%A1%E6%9B%B4%E6%96%B0%E4%BA%AE%E7%82%B9" class="hash-link" aria-label="✨ 本次更新亮点的直接链接" title="✨ 本次更新亮点的直接链接">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="ai-推理内容支持">AI 推理内容支持<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.2-release#ai-%E6%8E%A8%E7%90%86%E5%86%85%E5%AE%B9%E6%94%AF%E6%8C%81" class="hash-link" aria-label="AI 推理内容支持的直接链接" title="AI 推理内容支持的直接链接">​</a></h3>
+<!-- --><p>推理模型通常会在给出最终答案前展示思考过程。Apache Answer 现在会在 AI 对话记录和聊天界面中保留这部分推理内容，让多轮对话能够保留完整的上下文。</p>
+<!-- --><ul>
+<!-- --><li><strong>在 AI 对话记录和聊天界面中支持推理内容</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1530" target="_blank" rel="noopener noreferrer">#1530</a>)，感谢 <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">@hgaol</a></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="可选邮箱验证">可选邮箱验证<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.2-release#%E5%8F%AF%E9%80%89%E9%82%AE%E7%AE%B1%E9%AA%8C%E8%AF%81" class="hash-link" aria-label="可选邮箱验证的直接链接" title="可选邮箱验证的直接链接">​</a></h3>
+<!-- --><p>对于不需要强制邮件确认的内部或受信任环境，管理员现在可以直接在站点设置中关闭邮箱验证，简化用户入驻流程。</p>
+<!-- --><ul>
+<!-- --><li><strong>支持在站点设置中关闭邮箱验证</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1540" target="_blank" rel="noopener noreferrer">#1540</a>)，感谢 <!-- --><a href="https://github.com/AsyncAssassin" target="_blank" rel="noopener noreferrer">@AsyncAssassin</a></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="可配置的新问题邮件通知间隔">可配置的新问题邮件通知间隔<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.2-release#%E5%8F%AF%E9%85%8D%E7%BD%AE%E7%9A%84%E6%96%B0%E9%97%AE%E9%A2%98%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5%E9%97%B4%E9%9A%94" class="hash-link" aria-label="可配置的新问题邮件通知间隔的直接链接" title="可配置的新问题邮件通知间隔的直接链接">​</a></h3>
+<!-- --><p>新问题邮件通知现在支持按间隔发送，同时邮件限流也已迁移到独立 worker，并支持配置邮件队列。</p>
+<!-- --><ul>
+<!-- --><li><strong>新增新问题邮件通知的间隔发送支持</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1545" target="_blank" rel="noopener noreferrer">#1545</a>)，感谢 <!-- --><a href="https://github.com/AsyncAssassin" target="_blank" rel="noopener noreferrer">@AsyncAssassin</a></li>
+<!-- --><li><strong>将新问题邮件限流迁移至独立 worker，并支持配置邮件队列</strong>，感谢 <!-- --><a href="https://github.com/AsyncAssassin" target="_blank" rel="noopener noreferrer">@AsyncAssassin</a></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="更优雅的-panic-恢复">更优雅的 Panic 恢复<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.2-release#%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84-panic-%E6%81%A2%E5%A4%8D" class="hash-link" aria-label="更优雅的 Panic 恢复的直接链接" title="更优雅的 Panic 恢复的直接链接">​</a></h3>
+<!-- --><p>新增 recovery 中间件，可以更早、更优雅地捕获意外 panic，降低单个失败拖垮整个请求的风险。</p>
+<!-- --><ul>
+<!-- --><li><strong>新增 recovery 中间件以更好地处理 HTTP 请求中的意外 panic</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1537" target="_blank" rel="noopener noreferrer">#1537</a>)，感谢 <!-- --><a href="https://github.com/hhc7" target="_blank" rel="noopener noreferrer">@hhc7</a></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="更安全的外部登录">更安全的外部登录<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.2-release#%E6%9B%B4%E5%AE%89%E5%85%A8%E7%9A%84%E5%A4%96%E9%83%A8%E7%99%BB%E5%BD%95" class="hash-link" aria-label="更安全的外部登录的直接链接" title="更安全的外部登录的直接链接">​</a></h3>
+<!-- --><p>连接器登录流程现在能更好地防止错误的账号绑定，同时在角色或账号变更后会清理过期的管理员 API Key 权限。</p>
+<!-- --><ul>
+<!-- --><li><strong>防止连接器登录流程中的错误外部账号绑定</strong>，感谢 <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --><li><strong>在角色或账号变更后移除过期的管理员 API Key 权限</strong>，感谢 <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="构建与打包更新">构建与打包更新<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.2-release#%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%89%93%E5%8C%85%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="构建与打包更新的直接链接" title="构建与打包更新的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>Docker 与 CI 构建流程升级为 Buildx 与 Go 1.25</strong>，感谢 <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-稳定性与安全性增强">🔒 稳定性与安全性增强<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.2-release#-%E7%A8%B3%E5%AE%9A%E6%80%A7%E4%B8%8E%E5%AE%89%E5%85%A8%E6%80%A7%E5%A2%9E%E5%BC%BA" class="hash-link" aria-label="🔒 稳定性与安全性增强的直接链接" title="🔒 稳定性与安全性增强的直接链接">​</a></h2>
+<!-- --><p>除了 release note 中列出的内容之外，从 <!-- --><strong>v2.0.1</strong> 到 <!-- --><strong>v2.0.2</strong> 的代码改动还覆盖了几项很重要的底层修正：<!-- --></p>
+<!-- --><ul>
+<!-- --><li><strong>短链接修复</strong>：开启短链接后，编辑问题和采纳回答现在都能正常工作 (<!-- --><a href="https://github.com/apache/answer/pull/1541" target="_blank" rel="noopener noreferrer">#1541</a>, <!-- --><a href="https://github.com/apache/answer/pull/1554" target="_blank" rel="noopener noreferrer">#1554</a>)<!-- --></li>
+<!-- --><li><strong>许可证合规</strong>：补充了 <!-- --><code>mozillazg-go-unidecode</code> 缺失的许可证声明 (<!-- --><a href="https://github.com/apache/answer/pull/1552" target="_blank" rel="noopener noreferrer">#1552</a>)<!-- --></li>
+<!-- --><li><strong>请求头加固</strong>：<!-- --><code>Accept-Language</code> 解析现在会拒绝畸形超长请求头<!-- --></li>
+<!-- --><li><strong>修订审核权限</strong>：采纳与拒绝操作的权限校验现在保持一致<!-- --></li>
+<!-- --><li><strong>头像所有权</strong>：更新头像时会强制执行所有权检查并清理旧头像<!-- --></li>
+<!-- --><li><strong>内容可见性</strong>：在回答与 MCP 检索路径中限制已删除或待审核回答的可见性<!-- --></li>
+<!-- --><li><strong>错误处理</strong>：JSON 500 重写仅作用于 API 路由，并避免在响应已刷新后重写<!-- --></li>
+<!-- --><li><strong>URL Slug</strong>：非拉丁标题现在会生成实用的 ASCII slug，而不是回退到 <!-- --><code>/topic</code> (<!-- --><a href="https://github.com/apache/answer/pull/1526" target="_blank" rel="noopener noreferrer">#1526</a>)<!-- --></li>
+<!-- --></ul>
+<!-- --><p>如果你已经在使用 <!-- --><strong>2.0.0</strong> 或 <!-- --><strong>2.0.1</strong>，我们建议尽快升级到 <!-- --><strong>2.0.2</strong>。<!-- --></p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-致谢贡献者">🙌 致谢贡献者<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-2.0.2-release#-%E8%87%B4%E8%B0%A2%E8%B4%A1%E7%8C%AE%E8%80%85" class="hash-link" aria-label="🙌 致谢贡献者的直接链接" title="🙌 致谢贡献者的直接链接">​</a></h2>
+<!-- --><p>感谢所有参与本次发布的贡献者：</p>
+<!-- --><p><a href="https://github.com/ahmedqasid" target="_blank" rel="noopener noreferrer">@ahmedqasid</a>, <!-- --><a href="https://github.com/AsyncAssassin" target="_blank" rel="noopener noreferrer">@AsyncAssassin</a>, <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">@hgaol</a>, <!-- --><a href="https://github.com/hhc7" target="_blank" rel="noopener noreferrer">@hhc7</a>, <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">@Luffy</a>。<!-- --></p>
+<!-- --><p>正是这些持续的贡献，让 Apache Answer 每个版本都更可靠、更好用。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer 2.0.1：语义搜索、更稳的升级体验与一批关键修复]]></title>
             <link>https://answer.apache.org/zh-CN/blog/answer-2.0.1-release</link>
@@ -1020,58 +1081,6 @@ Learn more about the details and how-to tutorials in the blog as well as optimiz
 <!-- --><p>We would also love to extend sincere gratitude to the hero behind the new tutorial and localization <!-- --><a href="https://github.com/IamMelody233" target="_blank" rel="noopener noreferrer">IamMelody233</a>.<!-- --></p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-we-want-you">🤲 We Want You<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-recap-august#-we-want-you" class="hash-link" aria-label="🤲 We Want You的直接链接" title="🤲 We Want You的直接链接">​</a></h2>
 <!-- --><p>In Answer community, we sing for the good deeds. Besides coding and localization, your feedback also matters. Feel free to connect with us via <!-- --><a href="https://x.com/ApacheAnswer" target="_blank" rel="noopener noreferrer">X</a>, <!-- --><a href="mailto:dev@answer.apache.org" target="_blank" rel="noopener noreferrer">email</a>, or in the <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">community</a>.<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[添加 Apache Answer 插件指南]]></title>
-            <link>https://answer.apache.org/zh-CN/blog/guide-to-add-answer-plugins</link>
-            <guid>https://answer.apache.org/zh-CN/blog/guide-to-add-answer-plugins</guid>
-            <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[教你轻松添加 Apache Answer 插件，扩展 Answer 功能]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-08-22-cover-zh@4x-db049bb9fb73eb186463e95347b1d6da.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>插件就像是一盒积木，你可以自由组合，把插件组合成你想要的功能。添加插件是扩展 Answer 功能的绝佳途径，本文将详细介绍插件的安装步骤，让你轻松添加插件，轻松掌握插件的安装和使用方法。</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="下载插件">下载插件<!-- --><a href="https://answer.apache.org/zh-CN/blog/guide-to-add-answer-plugins#%E4%B8%8B%E8%BD%BD%E6%8F%92%E4%BB%B6" class="hash-link" aria-label="下载插件的直接链接" title="下载插件的直接链接">​</a></h2>
-<!-- --><ol>
-<!-- --><li>点击<!-- --><a href="https://github.com/apache/answer-plugins/tree/main" target="_blank" rel="noopener noreferrer">此处</a>从官方 Apache Answer 插件仓库下载所需插件。<!-- --></li>
-<!-- --><li>放置插件：将下载的插件文件，放置到项目目录下的 <!-- --><code>./ui/src/plugins</code> 中<!-- --></li>
-<!-- --><li>插件类型参考：<!-- --><a href="https://answer.apache.org/zh-CN/docs/development/plugins/" target="_blank" rel="noopener noreferrer">https://answer.apache.org/zh-CN/docs/development/plugins/</a></li>
-<!-- --></ol>
-<!-- --><p><em>注意：文件夹应该是 plugins，而不是 plugin。</em>
-<!-- --><img decoding="async" loading="lazy" alt="files" src="https://answer.apache.org/zh-CN/assets/images/files-6363b977dd50bde04b29adaa00ef8899.png" width="1280" height="471" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="安装标准-ui-插件standard-ui-plugin">安装标准 UI 插件（Standard UI Plugin）<!-- --><a href="https://answer.apache.org/zh-CN/blog/guide-to-add-answer-plugins#%E5%AE%89%E8%A3%85%E6%A0%87%E5%87%86-ui-%E6%8F%92%E4%BB%B6standard-ui-plugin" class="hash-link" aria-label="安装标准 UI 插件（Standard UI Plugin）的直接链接" title="安装标准 UI 插件（Standard UI Plugin）的直接链接">​</a></h2>
-<!-- --><ol>
-<!-- --><li>在终端执行 <!-- --><code>cd ./ui</code> 到进入到ui目录 。<!-- --></li>
-<!-- --><li>安装依赖项：执行 <!-- --><code>pnpm pre-install</code>。<!-- --></li>
-<!-- --><li>启动项目：执行 <!-- --><code>pnpm start</code> 启动开发服务器。<!-- --></li>
-<!-- --><li>后端插件准备：在一个新的终端窗口，继续执行后端插件安装步骤。</li>
-<!-- --></ol>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="安装后端插件backend-plugin">安装后端插件（Backend Plugin）<!-- --><a href="https://answer.apache.org/zh-CN/blog/guide-to-add-answer-plugins#%E5%AE%89%E8%A3%85%E5%90%8E%E7%AB%AF%E6%8F%92%E4%BB%B6backend-plugin" class="hash-link" aria-label="安装后端插件（Backend Plugin）的直接链接" title="安装后端插件（Backend Plugin）的直接链接">​</a></h2>
-<!-- --><ol>
-<!-- --><li>编译前端代码。</li>
-<!-- --></ol>
-<!-- --><ul>
-<!-- --><li>Linux/MacOS：执行 <!-- --><code>make ui</code>。<!-- --></li>
-<!-- --><li>Windows：执行 <!-- --><code>pnpm install</code> 和 <!-- --><code>pnpm build</code>。<!-- --></li>
-<!-- --></ul>
-<!-- --><ol start="2">
-<!-- --><li>导入插件：在 <!-- --><code>cmd/answer/main.go</code> 文件中，导入插件（将my-plugin替换成插件名）<!-- --></li>
-<!-- --></ol>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">import (</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    answercmd "github.com/apache/answer/cmd"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    // Import the plugins</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    _ "github.com/apache/answer-plugins/my-plugin"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">)</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p>下图以 editor-chart, editor-formula, embed-basic 插件为例。
-<!-- --><img decoding="async" loading="lazy" alt="main-go" src="https://answer.apache.org/zh-CN/assets/images/main-go-6ee710c6607c09c96ab85a65d9173f81.png" width="897" height="720" class="img_RAU7"></p>
-<!-- --><ol start="3">
-<!-- --><li>更新 go.mod：通过执行 <!-- --><code>cd ..</code> 命令退回到 answer 根目录。使用 go mod edit 将插件添加到 go.mod 文件。<!-- --></li>
-<!-- --></ol>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">go mod edit -replace=github.com/apache/answer-plugins/my-plugin=./ui/src/plugins/my-plugin</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p>注意：Windows 用户需要使用双引号，可参考下面的代码：</p>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">go mod edit -replace="github.com/apache/answer-plugins/my-plugin"="./ui/src/plugins/my-plugin"</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p>以 editor-chart, editor-formula, embed-basic 插件为例。
-<!-- --><img decoding="async" loading="lazy" alt="go-edit" src="https://answer.apache.org/zh-CN/assets/images/go-edit-8dcc02f5590a6ad2ce2aa28340d4ae97.png" width="1280" height="528" class="img_RAU7"></p>
-<!-- --><ol start="4">
-<!-- --><li>下载依赖：执行 <!-- --><code>go mod tidy</code> 下载并更新依赖。<!-- --></li>
-<!-- --><li>启动项目：<!-- --><code>go run cmd/answer/main.go run -C ./answer-data</code>。
-<!-- --><img decoding="async" loading="lazy" alt="go-tidy" src="https://answer.apache.org/zh-CN/assets/images/go-tidy-8dcc02f5590a6ad2ce2aa28340d4ae97.png" width="1280" height="528" class="img_RAU7"></li>
-<!-- --></ol>
-<!-- --><p>在浏览器打开后端接口网址，可在 Admin - Installed Plugins 里看到添加的插件，点击 Action 列的 <!-- --><code>⋮</code> 即可激活和移除该插件。<!-- --></p>
-<!-- --><p>你已经完成了插件添加，点击<!-- --><a href="https://answer.apache.org/plugins/" target="_blank" rel="noopener noreferrer">此处</a>可以了解更多社区构建的插件。此外，我们还提供了 <!-- --><a href="https://answer.apache.org/zh-CN/blog/how-to-package-and-deploy-answer-plugins/" target="_blank" rel="noopener noreferrer">Apache Answer 使用插件的详细教程</a>，以及<!-- --><a href="https://answer.apache.org/zh-CN/docs/development/plugins/" target="_blank" rel="noopener noreferrer">插件开发指南</a>，让你的 Apache Answer 变得更加强大。<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>

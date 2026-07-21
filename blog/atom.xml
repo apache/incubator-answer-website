@@ -2,11 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://answer.apache.org/blog</id>
     <title>Apache Answer Blog</title>
-    <updated>2026-05-29T00:00:00.000Z</updated>
+    <updated>2026-07-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://answer.apache.org/blog"/>
     <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Apache Answer 2.0.2: AI Reasoning, Email Intervals, Safer Login & More]]></title>
+        <id>https://answer.apache.org/blog/answer-2.0.2-release</id>
+        <link href="https://answer.apache.org/blog/answer-2.0.2-release"/>
+        <updated>2026-07-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apache Answer 2.0.2 improves AI chat with reasoning content support, adds flexible email notification settings, hardens authentication and permissions, and fixes a round of short-link, API, and packaging issues.]]></summary>
+        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2026-07-21-cover@4x-72be682c9f688c81da2b8c5f66e16c25.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>We're pleased to announce <!-- --><strong>Apache Answer 2.0.2</strong>, a focused patch release that improves the AI chat experience, adds more flexible email settings, and tightens security across authentication, permissions, and content handling.<!-- --></p>
+<!-- --><p>You can download the release from the <!-- --><a href="https://answer.apache.org/download" target="_blank" rel="noopener noreferrer">Apache Answer download page</a> or view the full details on the <!-- --><a href="https://github.com/apache/answer/releases/tag/v2.0.2" target="_blank" rel="noopener noreferrer">GitHub release page</a>.<!-- --></p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-highlights">✨ Highlights<!-- --><a href="https://answer.apache.org/blog/answer-2.0.2-release#-highlights" class="hash-link" aria-label="Direct link to ✨ Highlights" title="Direct link to ✨ Highlights">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="ai-reasoning-content-support">AI Reasoning Content Support<!-- --><a href="https://answer.apache.org/blog/answer-2.0.2-release#ai-reasoning-content-support" class="hash-link" aria-label="Direct link to AI Reasoning Content Support" title="Direct link to AI Reasoning Content Support">​</a></h3>
+<!-- --><p>Reasoning models often expose their chain-of-thought before delivering the final answer. Apache Answer now preserves that reasoning content in AI conversation records and the chat UI, so follow-up rounds retain the full context.</p>
+<!-- --><ul>
+<!-- --><li><strong>Add reasoning content support in AI conversation records and chat UI</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1530" target="_blank" rel="noopener noreferrer">#1530</a>) by <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">@hgaol</a></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="optional-email-verification">Optional Email Verification<!-- --><a href="https://answer.apache.org/blog/answer-2.0.2-release#optional-email-verification" class="hash-link" aria-label="Direct link to Optional Email Verification" title="Direct link to Optional Email Verification">​</a></h3>
+<!-- --><p>For deployments that do not require mandatory email confirmation, administrators can now disable email verification directly from site settings, making onboarding smoother for internal or trusted environments.</p>
+<!-- --><ul>
+<!-- --><li><strong>Allow disabling email verification from site settings</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1540" target="_blank" rel="noopener noreferrer">#1540</a>) by <!-- --><a href="https://github.com/AsyncAssassin" target="_blank" rel="noopener noreferrer">@AsyncAssassin</a></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="configurable-new-question-email-intervals">Configurable New-Question Email Intervals<!-- --><a href="https://answer.apache.org/blog/answer-2.0.2-release#configurable-new-question-email-intervals" class="hash-link" aria-label="Direct link to Configurable New-Question Email Intervals" title="Direct link to Configurable New-Question Email Intervals">​</a></h3>
+<!-- --><p>New-question email notifications now support interval-based delivery, and the email throttle has been moved to a dedicated worker with a configurable queue.</p>
+<!-- --><ul>
+<!-- --><li><strong>Add interval support for new question email notifications</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1545" target="_blank" rel="noopener noreferrer">#1545</a>) by <!-- --><a href="https://github.com/AsyncAssassin" target="_blank" rel="noopener noreferrer">@AsyncAssassin</a></li>
+<!-- --><li><strong>Move new question email throttling to a dedicated worker and make the email queue configurable</strong> by <!-- --><a href="https://github.com/AsyncAssassin" target="_blank" rel="noopener noreferrer">@AsyncAssassin</a></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="graceful-panic-recovery">Graceful Panic Recovery<!-- --><a href="https://answer.apache.org/blog/answer-2.0.2-release#graceful-panic-recovery" class="hash-link" aria-label="Direct link to Graceful Panic Recovery" title="Direct link to Graceful Panic Recovery">​</a></h3>
+<!-- --><p>Unexpected panics are now caught earlier and handled more gracefully, reducing the chance of a single failure tearing down an entire request.</p>
+<!-- --><ul>
+<!-- --><li><strong>Add recovery middleware to handle unexpected panics more gracefully</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1537" target="_blank" rel="noopener noreferrer">#1537</a>) by <!-- --><a href="https://github.com/hhc7" target="_blank" rel="noopener noreferrer">@hhc7</a></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="safer-external-login">Safer External Login<!-- --><a href="https://answer.apache.org/blog/answer-2.0.2-release#safer-external-login" class="hash-link" aria-label="Direct link to Safer External Login" title="Direct link to Safer External Login">​</a></h3>
+<!-- --><p>Connector sign-in flows are now more robust against incorrect account binding, and API key access is cleaned up when roles or accounts change.</p>
+<!-- --><ul>
+<!-- --><li><strong>Prevent incorrect external login account binding during connector sign-in flows</strong> by <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --><li><strong>Remove stale administrative API key access after role or account changes</strong> by <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="build--packaging-update">Build &amp; Packaging Update<!-- --><a href="https://answer.apache.org/blog/answer-2.0.2-release#build--packaging-update" class="hash-link" aria-label="Direct link to Build &amp; Packaging Update" title="Direct link to Build &amp; Packaging Update">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>Update Docker and CI build flow to use Buildx and Go 1.25</strong> by <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-reliability-and-security-improvements">🔒 Reliability and Security Improvements<!-- --><a href="https://answer.apache.org/blog/answer-2.0.2-release#-reliability-and-security-improvements" class="hash-link" aria-label="Direct link to 🔒 Reliability and Security Improvements" title="Direct link to 🔒 Reliability and Security Improvements">​</a></h2>
+<!-- --><p>Alongside the release note items, the changes between <!-- --><strong>v2.0.1</strong> and <!-- --><strong>v2.0.2</strong> also harden several important areas:<!-- --></p>
+<!-- --><ul>
+<!-- --><li><strong>Short link fixes</strong>: editing questions and accepting answers now work correctly when short links are enabled (<!-- --><a href="https://github.com/apache/answer/pull/1541" target="_blank" rel="noopener noreferrer">#1541</a>, <!-- --><a href="https://github.com/apache/answer/pull/1554" target="_blank" rel="noopener noreferrer">#1554</a>)<!-- --></li>
+<!-- --><li><strong>License compliance</strong>: added the missing license entry for <!-- --><code>mozillazg-go-unidecode</code> (<!-- --><a href="https://github.com/apache/answer/pull/1552" target="_blank" rel="noopener noreferrer">#1552</a>)<!-- --></li>
+<!-- --><li><strong>Header hardening</strong>: <!-- --><code>Accept-Language</code> parsing now rejects malformed oversized headers<!-- --></li>
+<!-- --><li><strong>Revision audit permissions</strong>: approve and reject actions now use aligned permission checks<!-- --></li>
+<!-- --><li><strong>Avatar ownership</strong>: avatar cleanup now enforces ownership checks when updating profile images<!-- --></li>
+<!-- --><li><strong>Content visibility</strong>: deleted or pending answers are restricted in answer and MCP retrieval paths<!-- --></li>
+<!-- --><li><strong>Error handling</strong>: JSON 500 rewriting is limited to API routes and avoids rewriting already-flushed responses<!-- --></li>
+<!-- --><li><strong>URL slugs</strong>: non-Latin titles now generate pragmatic ASCII slugs instead of falling back to <!-- --><code>/topic</code> (<!-- --><a href="https://github.com/apache/answer/pull/1526" target="_blank" rel="noopener noreferrer">#1526</a>)<!-- --></li>
+<!-- --></ul>
+<!-- --><p>These changes make 2.0.2 a recommended upgrade for teams already running 2.0.0 or 2.0.1.</p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-thanks-to-our-contributors">🙌 Thanks to Our Contributors<!-- --><a href="https://answer.apache.org/blog/answer-2.0.2-release#-thanks-to-our-contributors" class="hash-link" aria-label="Direct link to 🙌 Thanks to Our Contributors" title="Direct link to 🙌 Thanks to Our Contributors">​</a></h2>
+<!-- --><p>Thank you to everyone who contributed code, fixes, and review to this release:</p>
+<!-- --><p><a href="https://github.com/ahmedqasid" target="_blank" rel="noopener noreferrer">@ahmedqasid</a>, <!-- --><a href="https://github.com/AsyncAssassin" target="_blank" rel="noopener noreferrer">@AsyncAssassin</a>, <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">@hgaol</a>, <!-- --><a href="https://github.com/hhc7" target="_blank" rel="noopener noreferrer">@hhc7</a>, <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a>, and <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">@Luffy</a>.<!-- --></p>
+<!-- --><p>We appreciate your help in making Apache Answer more capable and more reliable with every release.</p>]]></content>
+        <author>
+            <name>Robin</name>
+            <uri>https://github.com/robinv8</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache Answer 2.0.1: Semantic Search, Stability, and Safer Upgrades]]></title>
         <id>https://answer.apache.org/blog/answer-2.0.1-release</id>
@@ -1071,70 +1136,6 @@ Learn more about the details and how-to tutorials in the blog as well as optimiz
 <!-- --><p>We would also love to extend sincere gratitude to the hero behind the new tutorial and localization <!-- --><a href="https://github.com/IamMelody233" target="_blank" rel="noopener noreferrer">IamMelody233</a>.<!-- --></p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-we-want-you">🤲 We Want You<!-- --><a href="https://answer.apache.org/blog/answer-recap-august#-we-want-you" class="hash-link" aria-label="Direct link to 🤲 We Want You" title="Direct link to 🤲 We Want You">​</a></h2>
 <!-- --><p>In Answer community, we sing for the good deeds. Besides coding and localization, your feedback also matters. Feel free to connect with us via <!-- --><a href="https://x.com/ApacheAnswer" target="_blank" rel="noopener noreferrer">X</a>, <!-- --><a href="mailto:dev@answer.apache.org" target="_blank" rel="noopener noreferrer">email</a>, or in the <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">community</a>.<!-- --></p>]]></content>
-        <author>
-            <name>Anne Zhu</name>
-            <uri>https://github.com/PrimmaAnna</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Guide to Adding Plugins to Apache Answer]]></title>
-        <id>https://answer.apache.org/blog/guide-to-add-answer-plugins</id>
-        <link href="https://answer.apache.org/blog/guide-to-add-answer-plugins"/>
-        <updated>2024-08-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to easily add Apache Answer plugins and extend its functionality]]></summary>
-        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-08-22-cover@4x-64dd68d9323a1dce297abfbb885a81ef.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>Plugins are like a set of building blocks that you can freely combine to create the functionality you want. Adding plugins is an excellent way to extend Apache Answer's features. This article will provide a detailed guide on the installation steps, helping you easily add plugins and master the process of installing and using them.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="download-plugins">Download Plugins<!-- --><a href="https://answer.apache.org/blog/guide-to-add-answer-plugins#download-plugins" class="hash-link" aria-label="Direct link to Download Plugins" title="Direct link to Download Plugins">​</a></h2>
-<!-- --><ol>
-<!-- --><li>Click <!-- --><a href="https://github.com/apache/answer-plugins/tree/main" target="_blank" rel="noopener noreferrer">here</a> to download the desired plugin from the official Apache Answer plugin repository.<!-- --></li>
-<!-- --><li>Place the Plugin: Move the downloaded plugin files into the <!-- --><code>./ui/src/plugins</code> directory of your project.<!-- --></li>
-<!-- --><li>Plugin Type Reference: <!-- --><a href="https://answer.apache.org/docs/development/plugins" target="_blank" rel="noopener noreferrer">https://answer.apache.org/docs/development/plugins</a></li>
-<!-- --></ol>
-<!-- --><p><em>Important: The folder should be named "plugins," not "plugin."</em>
-<!-- --><img decoding="async" loading="lazy" alt="files" src="https://answer.apache.org/assets/images/files-6363b977dd50bde04b29adaa00ef8899.png" width="1280" height="471" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="install-standard-ui-plugin">Install Standard UI Plugin<!-- --><a href="https://answer.apache.org/blog/guide-to-add-answer-plugins#install-standard-ui-plugin" class="hash-link" aria-label="Direct link to Install Standard UI Plugin" title="Direct link to Install Standard UI Plugin">​</a></h2>
-<!-- --><ol>
-<!-- --><li>In the terminal, run <!-- --><code>cd ./ui</code> to navigate to the ui directory.<!-- --></li>
-<!-- --><li>Install dependencies: Run <!-- --><code>pnpm pre-install</code>.<!-- --></li>
-<!-- --><li>Start the project: Run <!-- --><code>pnpm start</code> to launch the development server.<!-- --></li>
-<!-- --><li>Backend Plugin Setup: In a new terminal window, continue with the backend plugin installation steps.</li>
-<!-- --></ol>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="install-backend-plugin">Install Backend Plugin<!-- --><a href="https://answer.apache.org/blog/guide-to-add-answer-plugins#install-backend-plugin" class="hash-link" aria-label="Direct link to Install Backend Plugin" title="Direct link to Install Backend Plugin">​</a></h2>
-<!-- --><ol>
-<!-- --><li>Compile Frontend Code:</li>
-<!-- --></ol>
-<!-- --><ul>
-<!-- --><li>Linux/MacOS: Run <!-- --><code>make ui</code>.<!-- --></li>
-<!-- --><li>Windows: Run <!-- --><code>pnpm install</code> and <!-- --><code>pnpm build</code>.<!-- --></li>
-<!-- --></ul>
-<!-- --><ol start="2">
-<!-- --><li>Import Plugin: In the <!-- --><code>cmd/answer/main.go</code> file, import the plugin (replace my-plugin with your plugin name):<!-- --></li>
-<!-- --></ol>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">import (</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    answercmd "github.com/apache/answer/cmd"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    // Import the plugins</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    _ "github.com/apache/answer-plugins/my-plugin"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">)</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p>The image below shows examples with the editor-chart, editor-formula, and embed-basic plugins.
-<!-- --><img decoding="async" loading="lazy" alt="main-go" src="https://answer.apache.org/assets/images/main-go-6ee710c6607c09c96ab85a65d9173f81.png" width="897" height="720" class="img_RAU7"></p>
-<!-- --><ol start="3">
-<!-- --><li>Update go.mod: Navigate back to the project root directory by running <!-- --><code>cd ..</code>. Use <!-- --><code>go mod edit</code> to add the plugin to the go.mod file:<!-- --></li>
-<!-- --></ol>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">go mod edit -replace=github.com/apache/answer-plugins/my-plugin=./ui/src/plugins/my-plugin</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p>Note: Windows users need to use double quotes, as shown below:</p>
-<!-- --><div class="codeBlockContainer_APcc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">go mod edit -replace="github.com/apache/answer-plugins/my-plugin"="./ui/src/plugins/my-plugin"</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_FhaS" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_phi_"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_FfTR"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<!-- --><p>Example with the editor-chart, editor-formula, and embed-basic plugins.
-<!-- --><img decoding="async" loading="lazy" alt="go-edit" src="https://answer.apache.org/assets/images/go-edit-8dcc02f5590a6ad2ce2aa28340d4ae97.png" width="1280" height="528" class="img_RAU7"></p>
-<!-- --><ol start="4">
-<!-- --><li>Download Dependencies: Run <!-- --><code>go mod tidy</code> to download and update dependencies.<!-- --></li>
-<!-- --><li>Start the Project: Run <!-- --><code>go run cmd/answer/main.go run -C ./answer-data</code>.
-<!-- --><img decoding="async" loading="lazy" alt="go-tidy" src="https://answer.apache.org/assets/images/go-tidy-8dcc02f5590a6ad2ce2aa28340d4ae97.png" width="1280" height="528" class="img_RAU7"></li>
-<!-- --></ol>
-<!-- --><p>Open the backend interface URL in your browser. Under the <!-- --><strong>Admin - Installed Plugins</strong> section, you'll see the added plugins. Click the <!-- --><code>⋮</code> in the Action column to activate or remove the plugin.<!-- --></p>
-<!-- --><p>Congratulations, you've successfully added a plugin! Click <!-- --><a href="https://answer.apache.org/plugins/" target="_blank" rel="noopener noreferrer">here</a> to explore more community-built plugins. Additionally, we offer a detailed tutorial on <!-- --><a href="https://answer.apache.org/blog/how-to-package-and-deploy-answer-plugins/" target="_blank" rel="noopener noreferrer">How to Package and Deploy Answer Plugins</a> and a <!-- --><a href="https://answer.apache.org/docs/development/plugins/" target="_blank" rel="noopener noreferrer">Plugin Development Guide</a> to make your Apache Answer even more powerful.<!-- --></p>]]></content>
-        <author>
-            <name>Zhu Xuanlyu</name>
-            <uri>https://github.com/IamMelody233</uri>
-        </author>
-        <author>
-            <name>Chen Jiaji</name>
-            <uri>https://github.com/CHENJUaaa</uri>
-        </author>
         <author>
             <name>Anne Zhu</name>
             <uri>https://github.com/PrimmaAnna</uri>
