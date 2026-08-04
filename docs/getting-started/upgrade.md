@@ -57,3 +57,11 @@ If you are using a binary installation of answer, the upgrade steps are as follo
 When there are other unexpected cases such as upgrade exceptions, we provide a command to manually force the upgrade of Apache Answer. `answer upgrade -f v1.1.0` Executing this command will force upgrade from the specified version, even if your Apache Answer is already up to date. If you encounter an upgrade exception, you can try to execute this command or pull the latest docker image again and execute this command inside the container.
 
 :::
+
+:::caution
+
+Starting with the release that migrates the frontend build to Vite, the frontend loads as ES modules instead of classic scripts. Same-origin deployments, where Answer serves its own static assets, need no changes.
+
+If your deployment serves static assets from a separate CDN origin, for example through the `cdn-aliyun` or `cdn-s3` plugin, the CDN must send an `Access-Control-Allow-Origin` header matching your site's origin. A module script is always fetched in CORS mode, so without that header the browser refuses to run it and the page loads with no JavaScript, even though the request for the file itself succeeds. See the CDN plugin's README for a concrete CORS rule for that provider.
+
+:::
