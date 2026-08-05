@@ -38,3 +38,11 @@ ui:
   api_url: '/' # api url for  ajax requests
   base_url: ''  # the default deployment is in the root directory, you need to change this value when deploying in a subdirectory
 ```
+
+:::tip
+
+Starting with the release that includes the frontend migration to Vite ([apache/answer#1567](https://github.com/apache/answer/pull/1567)), the frontend loads as ES modules instead of classic scripts. Same-origin deployments, where Answer serves its own static assets, need no changes.
+
+If your deployment serves static assets from a separate CDN origin, for example through the `cdn-aliyun` or `cdn-s3` plugin, the CDN must send an `Access-Control-Allow-Origin` header matching your site's origin (scheme, host, and port, for example `https://example.com`). A module script is always fetched in CORS mode, so without that header the browser refuses to run it and the page loads with no JavaScript, even though the request for the file itself succeeds. See the CDN plugin's README for a concrete CORS rule for that provider.
+
+:::

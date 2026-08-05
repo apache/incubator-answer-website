@@ -58,10 +58,4 @@ When there are other unexpected cases such as upgrade exceptions, we provide a c
 
 :::
 
-:::caution
-
-Starting with the release that includes the frontend migration to Vite ([apache/answer#1567](https://github.com/apache/answer/pull/1567)), the frontend loads as ES modules instead of classic scripts. Same-origin deployments, where Answer serves its own static assets, need no changes.
-
-If your deployment serves static assets from a separate CDN origin, for example through the `cdn-aliyun` or `cdn-s3` plugin, the CDN must send an `Access-Control-Allow-Origin` header matching your site's origin (scheme, host, and port, for example `https://example.com`). A module script is always fetched in CORS mode, so without that header the browser refuses to run it and the page loads with no JavaScript, even though the request for the file itself succeeds. See the CDN plugin's README for a concrete CORS rule for that provider.
-
-:::
+If you serve static assets from a separate CDN origin, ensure CORS is configured: see the [configuration file documentation](/docs/configfile) and the CDN plugin's README.
