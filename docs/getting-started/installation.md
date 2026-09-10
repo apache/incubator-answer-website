@@ -46,6 +46,20 @@ If you can't access the installation page, you can use the command `docker logs 
 :::
 
   </TabItem>
+  <TabItem value="easypanel" label="Easypanel">
+
+[Easypanel](https://easypanel.io/) can deploy Apache Answer with one click using its official template, without needing to manually run Docker commands.
+
+1. Open your Easypanel dashboard and create (or open) a project
+2. Click **+ Add Service** and choose **Templates**
+3. Search for **Answer** and select it
+4. Click **Create** to deploy the service
+
+Once deployed, head to the assigned domain and continue with the [Install Steps](#install-steps) below.
+
+See the [official Answer template on Easypanel](https://easypanel.io/templates/answer) for more details.
+
+  </TabItem>
   <TabItem value="binary" label="Binary">
 
 As a golang project, Apache Answer can be compiled into a binary file. You can download the binary file that matches your operating system from the [release page](https://github.com/apache/answer/releases).
